@@ -9210,328 +9210,326 @@ const brawlers = [
         id: "pearl_vl1",
         quote: "Let's turn up the heat and serve some justice!",
         translation: "火力を上げて、正義をお見舞いしましょう！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"turn up the heat" は「熱を上げる」ことから転じて「プレッシャーを強める、状況を激しくする」という意味のイディオムです。</li><li>"serve some justice" は「正義の鉄槌を下す」。料理を「サーブする」ことと掛けています。</li></ul><strong>英文法:</strong><br>"Let\'s..." で始まる提案の文で、二つの行動を "and" で繋いでいます。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"turn up the heat" は「熱を上げる」ことから転じて「プレッシャーを強める、状況を激しくする」という意味のイディオムです。</li><li>"serve some justice" は「正義の鉄槌を下す」。料理を「サーブする」ことと掛けています。</li></ul><strong>英文法:</strong><br>"Let\'s..." で始まる提案の文で、二つの行動を "and" で繋いでいます。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl1.mp3"
       },
       {
         id: "pearl_vl2",
         quote: "I am one yummy mommy.",
         translation: "私はイケてるママよ。",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"yummy mummy" は、イギリス英語のスラングで「子供がいる魅力的な女性」を指します。</li><li>自身の魅力と「ママ」というアイデンティティを、韻を踏みながらアピールしています。</li></ul><strong>英文法:</strong><br>"one" は "a" の代わりに使われ、「とある一人の」といったニュアンスで個性を強調しています。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"yummy mummy" は、イギリス英語のスラングで「子供がいる魅力的な女性」を指します。</li><li>自身の魅力と「ママ」というアイデンティティを、韻を踏みながらアピールしています。</li></ul><strong>英文法:</strong><br>"one" は "a" の代わりに使われ、「とある一人の」といったニュアンスで個性を強調しています。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl2.mp3"
       },
       {
         id: "pearl_vl3",
         quote: "Mommy still loves you!",
         translation: "ママはまだあなたのことを愛してるわ！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>相手を倒した後などに、母親が子供に言い聞かせるように「それでも愛しているのよ」と言う、少し歪んだ愛情表現です。</li></ul><strong>英文法:</strong><br>"still" は「今でも、それでもなお」と、変わらない気持ちを強調する副詞です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>相手を倒した後などに、母親が子供に言い聞かせるように「それでも愛しているのよ」と言う、少し歪んだ愛情表現です。</li></ul><strong>英文法:</strong><br>"still" は「今でも、それでもなお」と、変わらない気持ちを強調する副詞です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl3.mp3"
       },
       {
         id: "pearl_vl4",
         quote: "That was a piece of cake.",
         translation: "朝飯前だったわね。",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"a piece of cake" は、「（一切れのケーキを食べるほど）非常に簡単なこと」を意味する、非常に有名なイディオムです。</li><li>お菓子作りがテーマのパールにぴったりのセリフです。</li></ul><strong>英文法:</strong><br>定型化された慣用句を使った、過去の出来事への感想です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"a piece of cake" は、「（一切れのケーキを食べるほど）非常に簡単なこと」を意味する、非常に有名なイディオムです。</li><li>お菓子作りがテーマのパールにぴったりのセリフです。</li></ul><strong>英文法:</strong><br>定型化された慣用句を使った、過去の出来事への感想です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl4.mp3"
       },
       {
         id: "pearl_vl5",
         quote: "Time to cook up a new plan.",
         translation: "新しい計画を練る時間ね。",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"cook up" は、文字通り「料理をでっちあげる」ことから転じて、「（計画や言い訳などを）考え出す、でっちあげる」という意味の句動詞です。</li></ul><strong>英文法:</strong><br>「Time to + 動詞の原形」の構文です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"cook up" は、文字通り「料理をでっちあげる」ことから転じて、「（計画や言い訳などを）考え出す、でっちあげる」という意味の句動詞です。</li></ul><strong>英文法:</strong><br>「Time to + 動詞の原形」の構文です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl5.mp3"
       },
       {
         id: "pearl_vl6",
         quote: "Have a cookie!",
         translation: "クッキーをどうぞ！",
-        explanation:
-          "<strong>この英文でのポイント:</strong><br><ul><li>クッキーを勧めているように見せかけて、実際にはクッキー型の爆弾を相手にお見舞いする、という彼女の攻撃スタイルを表しています。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる、提案や命令の文です。",
+        explanation: "<strong>この英文でのポイント:</strong><br><ul><li>クッキーを勧めているように見せかけて、実際にはクッキー型の爆弾を相手にお見舞いする、という彼女の攻撃スタイルを表しています。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる、提案や命令の文です。",
+        audioUrl: "https://Amphibian333.github.io/pearl_vl6.mp3"
       },
       {
         id: "pearl_vl7",
         quote: "Ready to roast the competition!",
         translation: "競争相手をローストする準備は万端よ！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"roast" は、文字通り肉などを「焼く」という意味と、スラングで「（人）をこき下ろす、完膚なきまでに批判する」という意味があります。</li><li>ここでは、競争相手（the competition）を、料理するように、あるいは口撃で打ち負かす準備ができていることを示しています。</li></ul><strong>英文法:</strong><br>"I am ready to..." の主語と動詞が省略された形です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"roast" は、文字通り肉などを「焼く」という意味と、スラングで「（人）をこき下ろす、完膚なきまでに批判する」という意味があります。</li><li>ここでは、競争相手（the competition）を、料理するように、あるいは口撃で打ち負かす準備ができていることを示しています。</li></ul><strong>英文法:</strong><br>"I am ready to..." の主語と動詞が省略された形です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl7.mp3"
       },
       {
         id: "pearl_vl8",
         quote: "Too hot to handle.",
         translation: "熱すぎて手に負えないわ。",
-        explanation:
-          "<strong>この英文でのポイント:</strong><br><ul><li>「熱すぎて扱いきれない」という、自身のオーブンの性能の高さや、自分自身の魅力・強さが手に負えないほどであることを自慢しています。</li></ul><strong>英文法:</strong><br>「too... to ~」構文（…すぎて～できない）を使った、有名な決まり文句です。",
+        explanation: "<strong>この英文でのポイント:</strong><br><ul><li>「熱すぎて扱いきれない」という、自身のオーブンの性能の高さや、自分自身の魅力・強さが手に負えないほどであることを自慢しています。</li></ul><strong>英文法:</strong><br>「too... to ~」構文（…すぎて～できない）を使った、有名な決まり文句です。",
+        audioUrl: "https://Amphibian333.github.io/pearl_vl8.mp3"
       },
       {
         id: "pearl_vl9",
         quote: "Always so needy!",
         translation: "いつも本当に手がかかるんだから！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"needy" は「（愛情や助けを）過剰に求める、手のかかる」という意味。</li><li>味方や、あるいは敵に対して、母親が子供に言うように「本当に世話が焼けるわね」と、呆れながらも面倒を見ています。</li></ul><strong>英文法:</strong><br>"You are always so needy!" の主語と動詞が省略された形です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"needy" は「（愛情や助けを）過剰に求める、手のかかる」という意味。</li><li>味方や、あるいは敵に対して、母親が子供に言うように「本当に世話が焼けるわね」と、呆れながらも面倒を見ています。</li></ul><strong>英文法:</strong><br>"You are always so needy!" の主語と動詞が省略された形です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl9.mp3"
       },
       {
         id: "pearl_vl10",
         quote: "You've been served.",
         translation: "ご注文の品よ。",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>「（料理が）提供されましたよ」という意味ですが、法律用語で「（召喚状が）送達された」という意味もあり、ダブルミーニングになっています。</li><li>「お前はもうおしまいだ」という宣告のニュアンスを含みます。バーリーも同じセリフを使います。</li></ul><strong>英文法:</strong><br>現在完了形の受動態 "have been served" が使われています。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>「（料理が）提供されましたよ」という意味ですが、法律用語で「（召喚状が）送達された」という意味もあり、ダブルミーニングになっています。</li><li>「お前はもうおしまいだ」という宣告のニュアンスを含みます。バーリーも同じセリフを使います。</li></ul><strong>英文法:</strong><br>現在完了形の受動態 "have been served" が使われています。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl10.mp3"
       },
       {
         id: "pearl_vl11",
         quote: "I went in half-baked.",
         translation: "半焼けで突っ込んじゃったわ。",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"half-baked" は、文字通り「生焼けの」という意味と、比喩的に「準備不足の、中途半端な」という意味のダブルミーニングです。</li><li>準備不足で戦いに挑んで負けてしまった、と反省しています。</li></ul><strong>英文法:</strong><br>"go in" は「中に入る、突っ込む」という句動詞です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"half-baked" は、文字通り「生焼けの」という意味と、比喩的に「準備不足の、中途半端な」という意味のダブルミーニングです。</li><li>準備不足で戦いに挑んで負けてしまった、と反省しています。</li></ul><strong>英文法:</strong><br>"go in" は「中に入る、突っ込む」という句動詞です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl11.mp3"
       },
       {
         id: "pearl_vl12",
         quote: "Filled with pain, but gluten-free!",
         translation: "痛みでいっぱい、でもグルテンフリーよ！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>自分が「痛み（pain）」で満たされている状況を、食品の成分表示のように「でもグルテンフリーです！」と続けることで、ユーモラスに表現しています。</li></ul><strong>英文法:</strong><br>二つの形容詞句を "but" で繋いでいます。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>自分が「痛み（pain）」で満たされている状況を、食品の成分表示のように「でもグルテンフリーです！」と続けることで、ユーモラスに表現しています。</li></ul><strong>英文法:</strong><br>二つの形容詞句を "but" で繋いでいます。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl12.mp3"
       },
       {
         id: "pearl_vl13",
         quote: "Broil, boil, bake, and destroy!",
         translation: "炙って、茹でて、焼いて、そして破壊する！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>様々な調理法（Broil:直火で焼く, boil:茹でる, bake:オーブンで焼く）を並べ、最後に「破壊する（destroy）」と続けることで、自身の料理（攻撃）の激しさを表現しています。</li></ul><strong>英文法:</strong><br>動詞の原形をコンマと "and" で繋げた、リズミカルなスローガンです。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>様々な調理法（Broil:直火で焼く, boil:茹でる, bake:オーブンで焼く）を並べ、最後に「破壊する（destroy）」と続けることで、自身の料理（攻撃）の激しさを表現しています。</li></ul><strong>英文法:</strong><br>動詞の原形をコンマと "and" で繋げた、リズミカルなスローガンです。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl13.mp3"
       },
       {
         id: "pearl_vl14",
         quote: "Mommy is always right.",
         translation: "ママはいつでも正しいのよ。",
-        explanation:
-          "<strong>この英文でのポイント:</strong><br><ul><li>子供に対して、あるいは自分の意見に反対する者に対して、「母親の言うことは絶対だ」と、自分の正当性を主張するセリフです。</li></ul><strong>英文法:</strong><br>シンプルなSVCの肯定文です。",
+        explanation: "<strong>この英文でのポイント:</strong><br><ul><li>子供に対して、あるいは自分の意見に反対する者に対して、「母親の言うことは絶対だ」と、自分の正当性を主張するセリフです。</li></ul><strong>英文法:</strong><br>シンプルなSVCの肯定文です。",
+        audioUrl: "https://Amphibian333.github.io/pearl_vl14.mp3"
       },
       {
         id: "pearl_vl15",
         quote: "Settle.",
         translation: "落ち着いて。",
-        explanation:
-          "<strong>この英文でのポイント:</strong><br><ul><li>相手や味方、あるいは自分自身に「落ち着きなさい」と、冷静になるよう促しています。</li></ul><strong>英文法:</strong><br>動詞の原形だけの、短い命令文です。",
+        explanation: "<strong>この英文でのポイント:</strong><br><ul><li>相手や味方、あるいは自分自身に「落ち着きなさい」と、冷静になるよう促しています。</li></ul><strong>英文法:</strong><br>動詞の原形だけの、短い命令文です。",
+        audioUrl: "https://Amphibian333.github.io/pearl_vl15.mp3"
       },
       {
         id: "pearl_vl16",
         quote: "You got oven'd.",
         translation: "オーブンで焼かれちゃったわね。",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>名詞である「オーブン（oven）」を、まるで動詞のように使っています。</li><li>「オーブンで焼かれる」、つまり「私の攻撃で完敗する」という意味の、パールらしい造語的な表現です。</li></ul><strong>英文法:</strong><br>"get + 過去分詞" の口語的な受動態をもじったものです。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>名詞である「オーブン（oven）」を、まるで動詞のように使っています。</li><li>「オーブンで焼かれる」、つまり「私の攻撃で完敗する」という意味の、パールらしい造語的な表現です。</li></ul><strong>英文法:</strong><br>"get + 過去分詞" の口語的な受動態をもじったものです。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl16.mp3"
       },
       {
         id: "pearl_vl17",
         quote: "That's how the cookie crumbles.",
         translation: "クッキーなんてそんなものよ。",
-        explanation:
-          "<strong>この英文でのポイント:</strong><br><ul><li>「それがクッキーの崩れ方だ」が直訳。「世の中なんてそんなものさ」「仕方ないよ」と、変えられない事態を受け入れる際に使う、非常に有名なイディオムです。</li><li>お菓子がテーマのパールにぴったりのセリフです。</li></ul><strong>英文法:</strong><br>定型化された、ことわざのような表現です。",
+        explanation: "<strong>この英文でのポイント:</strong><br><ul><li>「それがクッキーの崩れ方だ」が直訳。「世の中なんてそんなものさ」「仕方ないよ」と、変えられない事態を受け入れる際に使う、非常に有名なイディオムです。</li><li>お菓子がテーマのパールにぴったりのセリフです。</li></ul><strong>英文法:</strong><br>定型化された、ことわざのような表現です。",
+        audioUrl: "https://Amphibian333.github.io/pearl_vl17.mp3"
       },
       {
         id: "pearl_vl18",
         quote: "Dish and dash!",
         translation: "料理を出して、ダッシュ！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"Dish"（料理を出す）と "dash"（突進する）で韻を踏んだ、リズミカルなフレーズです。</li><li>攻撃（料理）を繰り出して、すぐに次の行動に移る、というスピーディーな戦い方を表現しています。</li></ul><strong>英文法:</strong><br>二つの動詞を "and" で繋いでいます。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"Dish"（料理を出す）と "dash"（突進する）で韻を踏んだ、リズミカルなフレーズです。</li><li>攻撃（料理）を繰り出して、すぐに次の行動に移る、というスピーディーな戦い方を表現しています。</li></ul><strong>英文法:</strong><br>二つの動詞を "and" で繋いでいます。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl18.mp3"
       },
       {
         id: "pearl_vl19",
         quote: "Cooking up some carnage and serving it piping hot!",
         translation: "大虐殺を料理して、アツアツをお出しするわ！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"carnage" は「大虐殺、大破壊」。</li><li>"piping hot" は、湯気が出るほど「アツアツの」状態を表すイディオムです。</li><li>戦場での破壊を「料理」に例え、それを最高の状態で提供する、と宣言するブラックユーモアあふれるセリフです。</li></ul><strong>英文法:</strong><br>二つの動名詞句を "and" で繋いでいます。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"carnage" は「大虐殺、大破壊」。</li><li>"piping hot" は、湯気が出るほど「アツアツの」状態を表すイディオムです。</li><li>戦場での破壊を「料理」に例え、それを最高の状態で提供する、と宣言するブラックユーモアあふれるセリフです。</li></ul><strong>英文法:</strong><br>二つの動名詞句を "and" で繋いでいます。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl19.mp3"
       },
       {
         id: "pearl_vl20",
         quote: "Total momination.",
         translation: "完全なるママの支配。",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>「完全な支配」を意味する "domination" と、「ママ（mom）」を組み合わせた言葉遊び（造語）です。</li><li>自分が戦場を完全に支配していることを、母親の権威に例えて表現しています。</li></ul><strong>英文法:</strong><br>独創的な造語です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>「完全な支配」を意味する "domination" と、「ママ（mom）」を組み合わせた言葉遊び（造語）です。</li><li>自分が戦場を完全に支配していることを、母親の権威に例えて表現しています。</li></ul><strong>英文法:</strong><br>独創的な造語です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl20.mp3"
       },
       {
         id: "pearl_vl21",
         quote: "I'll batter ya!",
         translation: "衣をつけて揚げてやる！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>動詞の "batter" は「～を連続で殴る、ボコボコにする」という意味。</li><li>同時に、揚げ物を作る際の「衣（batter）」ともかかっており、「お前を打ちのめして、料理してやる」というダブルミーニングになっています。</li></ul><strong>英文法:</strong><br>未来を表す "I will" を使った、脅しの文です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>動詞の "batter" は「～を連続で殴る、ボコボコにする」という意味。</li><li>同時に、揚げ物を作る際の「衣（batter）」ともかかっており、「お前を打ちのめして、料理してやる」というダブルミーニングになっています。</li></ul><strong>英文法:</strong><br>未来を表す "I will" を使った、脅しの文です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl21.mp3"
       },
       {
         id: "pearl_vl22",
         quote: "Grill to thrill!",
         translation: "スリルのためにグリルする！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"Grill"（グリルで焼く）と "thrill"（スリル、興奮）で韻を踏んだ、キャッチーなフレーズです。</li></ul><strong>英文法:</strong><br>「動詞 + to + 動詞」の形で、目的（スリルを得るため）を表現しています。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"Grill"（グリルで焼く）と "thrill"（スリル、興奮）で韻を踏んだ、キャッチーなフレーズです。</li></ul><strong>英文法:</strong><br>「動詞 + to + 動詞」の形で、目的（スリルを得るため）を表現しています。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl22.mp3"
       },
       {
         id: "pearl_vl23",
         quote: "Bruised, braised, dazed, and glazed!",
-        translation:
-          "打ちのめされ、蒸し煮にされ、呆然とさせられ、そして照り焼きに！",
-        explanation:
-          "<strong>この英文でのポイント:</strong><br><ul><li>ボクシングで使われる「dazed and confused（呆然自失）」のような表現と、様々な調理法（braised:蒸し煮, glazed:照り焼き）を組み合わせて韻を踏んでいます。</li><li>相手が様々な攻撃を受けて、完全に料理された状態を表しています。</li></ul><strong>英文法:</strong><br>過去分詞をリズミカルに並べています。",
+        translation: "打ちのめされ、蒸し煮にされ、呆然とさせられ、そして照り焼きに！",
+        explanation: "<strong>この英文でのポイント:</strong><br><ul><li>ボクシングで使われる「dazed and confused（呆然自失）」のような表現と、様々な調理法（braised:蒸し煮, glazed:照り焼き）を組み合わせて韻を踏んでいます。</li><li>相手が様々な攻撃を受けて、完全に料理された状態を表しています。</li></ul><strong>英文法:</strong><br>過去分詞をリズミカルに並べています。",
+        audioUrl: "https://Amphibian333.github.io/pearl_vl23.mp3"
       },
       {
         id: "pearl_vl24",
         quote: "Bake and blast!",
         translation: "焼いて、爆破よ！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"Bake"（焼く）と "blast"（爆破する）で韻を踏んだ、攻撃的な掛け声です。</li></ul><strong>英文法:</strong><br>二つの動詞を "and" で繋いでいます。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"Bake"（焼く）と "blast"（爆破する）で韻を踏んだ、攻撃的な掛け声です。</li></ul><strong>英文法:</strong><br>二つの動詞を "and" で繋いでいます。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl24.mp3"
       },
       {
         id: "pearl_vl25",
         quote: "Furnace of finger-licking fury!",
         translation: "指までなめちゃう、怒りのオーブン！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"finger-licking good" は「指までなめたくなるほど美味しい」という有名なキャッチコピー。</li><li>それを「怒り（fury）」と組み合わせ、「オーブン（furnace）」の修飾語にしています。自身の攻撃が、抗いがたい魅力と恐ろしさを持つことを示しています。</li></ul><strong>英文法:</strong><br>頭韻（Fの音）を踏んだ、リズミカルな名詞句です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"finger-licking good" は「指までなめたくなるほど美味しい」という有名なキャッチコピー。</li><li>それを「怒り（fury）」と組み合わせ、「オーブン（furnace）」の修飾語にしています。自身の攻撃が、抗いがたい魅力と恐ろしさを持つことを示しています。</li></ul><strong>英文法:</strong><br>頭韻（Fの音）を踏んだ、リズミカルな名詞句です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl25.mp3"
       },
       {
         id: "pearl_vl26",
         quote: "Time for a nice cup of tea.",
         translation: "素敵なティータイムの時間ね。",
-        explanation:
-          "<strong>この英文でのポイント:</strong><br><ul><li>激しい戦いの後などに、「さあ、お茶でも飲んで一息つきましょう」と、優雅に休憩を提案しています。</li></ul><strong>英文法:</strong><br>「Time for + 名詞句」の構文です。",
+        explanation: "<strong>この英文でのポイント:</strong><br><ul><li>激しい戦いの後などに、「さあ、お茶でも飲んで一息つきましょう」と、優雅に休憩を提案しています。</li></ul><strong>英文法:</strong><br>「Time for + 名詞句」の構文です。",
+        audioUrl: "https://Amphibian333.github.io/pearl_vl26.mp3"
       },
       {
         id: "pearl_vl27",
         quote: "I'm boiling over!",
         translation: "もう我慢の限界よ！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"boil over" は、鍋の中身が「沸騰して吹きこぼれる」こと。転じて、人が「怒りを爆発させる、堪忍袋の緒が切れる」という意味のイディオムです。</li></ul><strong>英文法:</strong><br>現在進行形で、今まさに怒りが頂点に達していることを示します。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"boil over" は、鍋の中身が「沸騰して吹きこぼれる」こと。転じて、人が「怒りを爆発させる、堪忍袋の緒が切れる」という意味のイディオムです。</li></ul><strong>英文法:</strong><br>現在進行形で、今まさに怒りが頂点に達していることを示します。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl27.mp3"
       },
       {
         id: "pearl_vl28",
         quote: "You inhaled a bakery!",
         translation: "パン屋さんを丸ごと吸い込んだようね！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"inhale" は「吸い込む」。相手が自分の攻撃（クッキーなど）を、まるでパン屋ごと吸い込むように全て受けた、と表現する、大げさなセリフです。</li></ul><strong>英文法:</strong><br>過去形の文です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"inhale" は「吸い込む」。相手が自分の攻撃（クッキー）を、まるでパン屋ごと吸い込むように全て受けた、と表現する、大げさなセリフです。</li></ul><strong>英文法:</strong><br>過去形の文です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl28.mp3"
       },
       {
         id: "pearl_vl29",
         quote: "Time to get baked!",
         translation: "こんがり焼かれる時間よ！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>文字通り「焼かれる時間だ」という意味と、スラングで「（マリファナなどで）ハイになる」という二つの意味を持つ、非常に際どいダブルミーニングです。</li></ul><strong>英文法:</strong><br>"get baked" は「焼かれる」という受動態と、「ハイになる」というスラングの両方を意味します。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>文字通り「焼かれる時間だ」という意味と、スラングで「（マリファナなどで）ハイになる」という二つの意味を持つ、非常に際どいダブルミーニングです。</li></ul><strong>英文法:</strong><br>"get baked" は「焼かれる」という受動態と、「ハイになる」というスラングの両方を意味します。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl29.mp3"
       },
       {
         id: "pearl_vl30",
         quote: "Taste the love!",
         translation: "愛情を味わいなさい！",
-        explanation:
-          "<strong>この英文でのポイント:</strong><br><ul><li>自分の攻撃を、愛情のこもった「手料理」だと称し、相手にそれを味わうよう命令しています。母親らしい、しかし歪んだ愛情表現です。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文です。",
+        explanation: "<strong>この英文でのポイント:</strong><br><ul><li>自分の攻撃を、愛情のこもった「手料理」だと称し、相手にそれを味わうよう命令しています。母親らしい、しかし歪んだ愛情表現です。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文です。",
+        audioUrl: "https://Amphibian333.github.io/pearl_vl30.mp3"
       },
       {
         id: "pearl_vl31",
         quote: "Dealing out delicious damage.",
         translation: "美味しいダメージを配っているところよ。",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"deal out" は「～を分配する、配る」。</li><li>「美味しい（delicious）」と「ダメージ（damage）」という、普通は結びつかない単語を組み合わせることで、ユニークな表現を生み出しています。</li></ul><strong>英文法:</strong><br>現在分詞を使ったフレーズです。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"deal out" は「～を分配する、配る」。</li><li>「美味しい（delicious）」と「ダメージ（damage）」という、普通は結びつかない単語を組み合わせることで、ユニークな表現を生み出しています。</li></ul><strong>英文法:</strong><br>現在分詞を使ったフレーズです。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl31.mp3"
       },
       {
         id: "pearl_vl32",
         quote: "Revenge is a dish best served straight from the oven.",
         translation: "復讐という料理は、オーブンから出したてが一番よ。",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>これは、「復讐は冷ましてからするのが一番だ」という意味の有名なことわざ "Revenge is a dish best served cold." を、見事にもじった言葉遊びです。</li><li>オーブンである彼女は、「冷たい（cold）」を「オーブンから出したての（straight from the oven）」に置き換えています。</li></ul><strong>英文法:</strong><br>ことわざの構造をそのまま利用しています。"a dish (which is) best served..." のように、関係代名詞とbe動詞が省略された形です。<br><br><strong>🧠豆知識:</strong><br>元のことわざは、冷静に計画された復讐のほうが満足度が高いことを示唆します。パールがそれを「焼きたて」と変えることで、彼女の復讐が即座で、熱く、爆発的であることを示しており、キャラクター性を完璧に表現しています。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>これは、「復讐は冷ましてからするのが一番だ」という意味の有名なことわざ "Revenge is a dish best served cold." を、見事にもじった言葉遊びです。</li><li>オーブンである彼女は、「冷たい（cold）」を「オーブンから出したての（straight from the oven）」に置き換えています。</li></ul><strong>英文法:</strong><br>ことわざの構造をそのまま利用しています。"a dish (which is) best served..." のように、関係代名詞とbe動詞が省略された形です。<br><br><strong>🧠豆知識:</strong><br>元のことわざは、冷静に計画された復讐のほうが満足度が高いことを示唆します。パールがそれを「焼きたて」と変えることで、彼女の復讐が即座で、熱く、爆発的であることを示しており、キャラクター性を完璧に表現しています。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl32.mp3"
       },
       {
         id: "pearl_vl33",
         quote: "Greedy guts!",
         translation: "この食いしん坊！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"greedy guts" は、食いしん坊や欲張りな人を指す、少し子供っぽい侮辱の言葉です。</li></ul><strong>英文法:</strong><br>名詞句だけの、呼びかけ・侮辱の言葉です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"greedy guts" は、食いしん坊や欲張りな人を指す、少し子供っぽい侮辱の言葉です。</li></ul><strong>英文法:</strong><br>名詞句だけの、呼びかけ・侮辱の言葉です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl33.mp3"
       },
       {
         id: "pearl_vl34",
         quote: "Free diabetes!",
         translation: "糖尿病が無料よ！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"diabetes" は「糖尿病」。自分の甘い攻撃（クッキー）を大量に浴びせ、「糖尿病を無料でプレゼントしてあげる」という、非常にブラックなユーモアです。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の感嘆文です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"diabetes" は「糖尿病」。自分の甘い攻撃（クッキー）を大量に浴びせ、「糖尿病を無料でプレゼントしてあげる」という、非常にブラックなユーモアです。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の感嘆文です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl34.mp3"
       },
       {
         id: "pearl_vl35",
         quote: "I've got the recipe for destruction!",
         translation: "破壊のレシピは手に入れたわ！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"recipe" は「調理法、レシピ」。</li><li>勝利への道を、「破壊のための完璧なレシピ」に例えています。</li></ul><strong>英文法:</strong><br>"I\'ve got" を使った、所有を表す文です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"recipe" は「調理法、レシピ」。</li><li>勝利への道を、「破壊のための完璧なレシピ」に例えています。</li></ul><strong>英文法:</strong><br>"I\'ve got" を使った、所有を表す文です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl35.mp3"
       },
       {
         id: "pearl_vl36",
         quote: "Suitably satiated.",
         translation: "十分に満たされました。",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"suitably" は「適切に、十分に」。</li><li>"satiated" は「（食欲などが）十分に満たされた」という意味の、少し硬い言葉です。</li><li>勝利によって、自分の欲求が満たされたことを、上品に表現しています。</li></ul><strong>英文法:</strong><br>"I am suitably satiated." が省略された形です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"suitably" は「適切に、十分に」。</li><li>"satiated" は「（食欲などが）十分に満たされた」という意味の、少し硬い言葉です。</li><li>勝利によって、自分の欲求が満たされたことを、上品に表現しています。</li></ul><strong>英文法:</strong><br>"I am suitably satiated." が省略された形です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl36.mp3"
       },
       {
         id: "pearl_vl37",
         quote: "Delicious destruction!",
         translation: "美味しい破壊！",
-        explanation:
-          "<strong>この英文でのポイント:</strong><br><ul><li>「美味しい（Delicious）」と「破壊（destruction）」という、相反する単語を組み合わせることで、彼女のユニークな価値観を表しています。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の感嘆文です。",
+        explanation: "<strong>この英文でのポイント:</strong><br><ul><li>「美味しい（Delicious）」と「破壊（destruction）」という、相反する単語を組み合わせることで、彼女のユニークな価値観を表しています。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の感嘆文です。",
+        audioUrl: "https://Amphibian333.github.io/pearl_vl37.mp3"
       },
       {
         id: "pearl_vl38",
         quote: "I'm more than an oven timer.",
         translation: "私はただのオーブンタイマー以上なのよ。",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>自分が単なる機械ではなく、それ以上の存在であると主張しています。</li></ul><strong>英文法:</strong><br>"more than ~" は「～以上である」という、比較の表現です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>自分が単なる機械ではなく、それ以上の存在であると主張しています。</li></ul><strong>英文法:</strong><br>"more than ~" は「～以上である」という、比較の表現です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl38.mp3"
       },
       {
         id: "pearl_vl39",
         quote: "Carbs of carnage!",
         translation: "大虐殺の炭水化物よ！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"Carbs" は「炭水化物（carbohydrates）」、"carnage" は「大虐殺」。</li><li>自身の攻撃（クッキー）が、破壊的な炭水化物であることを表現した、物騒なフレーズです。</li></ul><strong>英文法:</strong><br>「名詞 of 名詞」の形です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"Carbs" は「炭水化物（carbohydrates）」、"carnage" は「大虐殺」。</li><li>自身の攻撃（クッキー）が、破壊的な炭水化物であることを表現した、物騒なフレーズです。</li></ul><strong>英文法:</strong><br>「名詞 of 名詞」の形です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl39.mp3"
       },
       {
         id: "pearl_vl40",
         quote: "Yeast!",
         translation: "イースト菌！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"Yeast" は、パンなどを膨らませる「酵母、イースト菌」。</li><li>驚きや気合を入れる際の、パン屋らしいユニークな掛け声です。"Jesus!" のような感嘆詞の代わりとして使っているのかもしれません。</li></ul><strong>英文法:</strong><br>名詞単独の感嘆文です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"Yeast" は、パンなどを膨らませる「酵母、イースト菌」。</li><li>驚きや気合を入れる際の、パン屋らしいユニークな掛け声です。"Jesus!" のような感嘆詞の代わりとして使っているのかもしれません。</li></ul><strong>英文法:</strong><br>名詞単独の感嘆文です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl40.mp3"
       },
       {
         id: "pearl_vl41",
         quote: "Heating up a serving - of misfortune cookies!",
         translation: "一人前を温めてるわ…不運のクッキーのね！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>幸運のお告げが入っている「フォーチュンクッキー（fortune cookie）」を、「不運のクッキー（misfortune cookies）」にもじっています。</li><li>相手に不運をもたらす、焼きたての攻撃を準備していることを示します。</li></ul><strong>英文法:</strong><br>文の最後に "of..." と補足情報を付け加えることで、オチをつけています。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>幸運のお告げが入っている「フォーチュンクッキー（fortune cookie）」を、「不運のクッキー（misfortune cookies）」にもじっています。</li><li>相手に不運をもたらす、焼きたての攻撃を準備していることを示します。</li></ul><strong>英文法:</strong><br>文の最後に "of..." と補足情報を付け加えることで、オチをつけています。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl41.mp3"
       },
       {
         id: "pearl_vl42",
         quote: "Want milk with that?",
         translation: "それと一緒にミルクはいかが？",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>クッキーなどを注文した客に対して、店員が「ご一緒にミルクはいかがですか？」と尋ねる際の決まり文句です。</li><li>相手に攻撃（クッキー）を与えた後、さらに追加の攻撃（ミルク）はいらないかと、皮肉を込めて聞いています。</li></ul><strong>英文法:</strong><br>"Do you want milk with that?" の主語と動詞が省略された、口語的な疑問文です。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>クッキーなどを注文した客に対して、店員が「ご一緒にミルクはいかがですか？」と尋ねる際の決まり文句です。</li><li>相手に攻撃（クッキー）を与えた後、さらに追加の攻撃（ミルク）はいらないかと、皮肉を込めて聞いています。</li></ul><strong>英文法:</strong><br>"Do you want milk with that?" の主語と動詞が省略された、口語的な疑問文です。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl42.mp3"
       },
       {
         id: "pearl_vl43",
         quote: "A mom on a mission!",
         translation: "任務遂行中のママよ！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"on a mission" は「任務中で、使命に燃えている」状態を表すイディオムです。</li><li>母親としての務めと、戦いという任務を両立させている、力強い自己紹介です。</li></ul><strong>英文法:</strong><br>名詞句だけの、スローガンのようなフレーズです。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"on a mission" は「任務中で、使命に燃えている」状態を表すイディオムです。</li><li>母親としての務めと、戦いという任務を両立させている、力強い自己紹介です。</li></ul><strong>英文法:</strong><br>名詞句だけの、スローガンのようなフレーズです。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl43.mp3"
       },
       {
         id: "pearl_vl44",
         quote: "Cremation station!",
         translation: "火葬ステーションよ！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"Cremation" は「火葬」。</li><li>自分のいる場所が、相手を焼き尽くすための「火葬場（Cremation station）」だと宣言する、非常に物騒なセリフです。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」の組み合わせです。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"Cremation" は「火葬」。</li><li>自分のいる場所が、相手を焼き尽くすための「火葬場（Cremation station）」だと宣言する、非常に物騒なセリフです。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」の組み合わせです。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl44.mp3"
       },
       {
         id: "pearl_vl45",
         quote: "So many kids, so few cookies.",
         translation: "子供はたくさんいるのに、クッキーは少ししかないわね。",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>「たくさんの～、なのに…は少ししかない」という対比の構文です。</li><li>たくさんの敵（子供たち）に対して、配るべきクッキー（攻撃）が足りるかしら、と余裕を見せています。</li></ul><strong>英文法:</strong><br>"so many..." と "so few..." を使った、対比のフレーズです。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>「たくさんの～、なのに…は少ししかない」という対比の構文です。</li><li>たくさんの敵（子供たち）に対して、配るべきクッキー（攻撃）が足りるかしら、と余裕を見せています。</li></ul><strong>英文法:</strong><br>"so many..." と "so few..." を使った、対比のフレーズです。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl45.mp3"
       },
       {
         id: "pearl_vl46",
         quote: "Home baker, world shaker!",
         translation: "家のパン焼き職人、されど世界を揺るがす者！",
-        explanation:
-          '<strong>この英文でのポイント:</strong><br><ul><li>"Home baker"（家庭のパン職人）と "world shaker"（世界を揺るがす者）で韻を踏んだ、キャッチーな自己紹介です。</li><li>普段は家庭的なパン職人だが、一度怒らせると世界を揺るがすほど強力だ、という二面性を表しています。</li></ul><strong>英文法:</strong><br>二つの名詞句を並べることで、自己の性質を説明しています。',
+        explanation: '<strong>この英文でのポイント:</strong><br><ul><li>"Home baker"（家庭のパン職人）と "world shaker"（世界を揺るがす者）で韻を踏んだ、キャッチーな自己紹介です。</li><li>普段は家庭的なパン職人だが、一度怒らせると世界を揺るがすほど強力だ、という二面性を表しています。</li></ul><strong>英文法:</strong><br>二つの名詞句を並べることで、自己の性質を説明しています。',
+        audioUrl: "https://Amphibian333.github.io/pearl_vl46.mp3"
       },
     ],
   },
-
   {
     name: "ラリー＆ローリー",
     nameEn: "Larry & Lawrie",
@@ -20962,3 +20960,4 @@ const brawlers = [
   },
 ];
 // ===== BRAWLER DATA END =====
+
