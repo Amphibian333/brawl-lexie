@@ -11,847 +11,850 @@
       rel="stylesheet"
     />
     <style>
-      /* 基本的なリセット */
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+        /* 基本的なリセット */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
 
-      /* ===== テーマ切り替えのためのCSS変数定義 ===== */
-      :root {
-        /* ▼ デフォルトテーマ（ダーク）の色設定 */
-        --bg-color: #121212;
-        --surface-color: #1f1f1f;
-        --surface-color-light: #2a2a2a;
-        --border-color: #333;
-        --border-color-light: #444;
-        --text-primary: #e0e0e0;
-        --text-secondary: #b0b0b0;
-        --text-tertiary: #888;
-        --accent-primary: #00d1ff; /* メインの水色 */
-        --accent-primary-hover: #00a8cc;
-        --accent-secondary: #ff4d4d; /* サブの赤 */
-        --btn-text: #121212;
-        --shadow-color: rgba(0, 209, 255, 0.15);
-        --shadow-color-btn: rgba(0, 209, 255, 0.4);
-        --quote-jp-color: #b0b0b0;
-        --hero-bg: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-          url("https://placehold.co/1500x700/2a2a2a/e0e0e0?text=ブロスタ+アリーナ")
-            no-repeat center center/cover;
-        --btn-in-box-hover-bg: rgba(255, 255, 255, 0.05);
-        /* 新機能用の変数 */
-        --beta-bar-bg: #ffc107;
-        --beta-bar-text: #121212;
-      }
+        /* ===== テーマ切り替えのためのCSS変数定義 ===== */
+        :root {
+          /* ▼ デフォルトテーマ（ダーク）の色設定 */
+          --bg-color: #121212;
+          --surface-color: #1f1f1f;
+          --surface-color-light: #2a2a2a;
+          --border-color: #333;
+          --border-color-light: #444;
+          --text-primary: #e0e0e0;
+          --text-secondary: #b0b0b0;
+          --text-tertiary: #888;
+          --accent-primary: #00d1ff; /* メインの水色 */
+          --accent-primary-hover: #00a8cc;
+          --accent-secondary: #ff4d4d; /* サブの赤 */
+          --btn-text: #121212;
+          --shadow-color: rgba(0, 209, 255, 0.15);
+          --shadow-color-btn: rgba(0, 209, 255, 0.4);
+          --quote-jp-color: #b0b0b0;
+          /* 【修正点1】背景画像をブロスタ感のある画像に変更 */
+          --hero-bg: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+          url("https://amphibian333.github.io/webサイト用壁紙.png") no-repeat center center/cover;
+        --hero-search-bg: rgba(31, 31, 31, 0.8); /* 検索窓の背景 */
+          --btn-in-box-hover-bg: rgba(255, 255, 255, 0.05);
+          /* 新機能用の変数 */
+          --beta-bar-bg: #ffc107;
+          --beta-bar-text: #121212;
+        }
 
-      body.light-theme {
-        /* ▼ ライトテーマ（赤オレンジ白水色）の色設定 */
-        --bg-color: #f8f9fa; /* 明るい背景色 */
+        body.light-theme {
+        /* ライトモード用の背景設定（GitHubの壁紙を反映） */
+        --hero-bg: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+          url("https://amphibian333.github.io/webサイト用壁紙.png") no-repeat center center/cover;
+        --hero-search-bg: rgba(255, 255, 255, 0.9); /* 検索窓を明るくして文字を見やすく */
+
+        --bg-color: #f8f9fa;
         --surface-color: #ffffff;
         --surface-color-light: #f1f3f5;
         --border-color: #dee2e6;
         --border-color-light: #ced4da;
-        --text-primary: #212529; /* 暗いテキスト色 */
+        --text-primary: #212529;
         --text-secondary: #495057;
         --text-tertiary: #868e96;
-        --accent-primary: #ff4d4d; /* メインの赤 */
+        --accent-primary: #ff4d4d;
         --accent-primary-hover: #e63939;
-        --accent-secondary: #ff914d; /* サブのオレンジ */
+        --accent-secondary: #ff914d;
         --btn-text: #ffffff;
         --shadow-color: rgba(255, 77, 77, 0.2);
         --shadow-color-btn: rgba(255, 77, 77, 0.4);
         --quote-jp-color: #495057;
-        --hero-bg: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-          url("https://placehold.co/1500x700/ff914d/FFFFFF?text=Brawl+Stars")
-            no-repeat center center/cover;
-        --btn-in-box-hover-bg: rgba(0, 0, 0, 0.05);
-        --beta-bar-bg: #ffc107;
-        --beta-bar-text: #121212;
       }
-      /* ============================================== */
+        /* ============================================== */
 
-      html {
-        background-color: var(--bg-color);
-        scroll-behavior: smooth;
-      }
-
-      body {
-        font-family: "Roboto", "Noto Sans JP", sans-serif;
-        background-color: var(--bg-color);
-        color: var(--text-primary);
-        line-height: 1.7;
-        font-weight: 400;
-        overflow-x: hidden;
-        transition: background-color 0.3s, color 0.3s;
-      }
-
-      main {
-        background-color: var(--bg-color);
-      }
-
-      .container {
-        width: 90%;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px 0;
-      }
-
-      /* ▼▼▼ ベータ版警告バー ▼▼▼ */
-      #beta-banner {
-        background-color: var(--beta-bar-bg);
-        color: var(--beta-bar-text);
-        text-align: center;
-        padding: 8px 10px;
-        font-weight: 700;
-        font-size: 0.9em;
-        width: 100%;
-      }
-
-      /* ヘッダー（バナーを含むコンテナ） */
-      header {
-        background-color: var(--surface-color);
-        padding: 0;
-        border-bottom: 3px solid var(--accent-primary);
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-        transition: background-color 0.3s, border-color 0.3s;
-        display: flex;
-        flex-direction: column;
-      }
-
-      .header-nav-container {
-        width: 90%;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-      }
-
-      header h1 {
-        font-size: 2.2em;
-        color: var(--accent-primary);
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        margin-bottom: 10px;
-        font-weight: 700;
-        transition: color 0.3s;
-      }
-
-      header nav ul {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-      }
-
-      header nav ul li {
-        margin-left: 15px;
-        margin-bottom: 10px;
-      }
-
-      header nav ul li:first-child {
-        margin-left: 0;
-      }
-
-      header nav ul li a {
-        color: var(--text-primary);
-        text-decoration: none;
-        font-size: 1em;
-        transition: color 0.3s ease, background-color 0.3s ease;
-        padding: 8px 12px;
-        border-radius: 5px;
-        cursor: pointer;
-        font-weight: 700;
-      }
-
-      header nav ul li a:hover,
-      header nav ul li a.active {
-        color: var(--btn-text);
-        background-color: var(--accent-primary);
-      }
-
-      /* ヒーローセクション */
-      #hero {
-        background: var(--hero-bg);
-        min-height: 80vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      }
-
-      #hero .container {
-        width: 100%;
-        max-width: 700px;
-        padding: 20px;
-      }
-
-      #hero h2 {
-        font-size: 2.5em;
-        margin-bottom: 30px;
-        color: #fff;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-        font-weight: 700;
-        line-height: 1.4;
-      }
-
-      .btn {
-        display: inline-block;
-        background-color: var(--accent-primary);
-        color: var(--btn-text);
-        padding: 12px 25px;
-        text-decoration: none;
-        font-size: 1.1em;
-        border-radius: 50px;
-        transition: background-color 0.3s ease, transform 0.3s ease,
-          box-shadow 0.3s ease;
-        border: 2px solid var(--accent-primary);
-        font-weight: 700;
-        cursor: pointer;
-        text-align: center;
-      }
-      .btn:hover {
-        background-color: var(--accent-primary-hover);
-        transform: translateY(-3px);
-        box-shadow: 0 4px 12px var(--shadow-color-btn);
-      }
-      .btn-secondary {
-        background-color: var(--surface-color-light);
-        color: var(--accent-primary);
-        border: 2px solid var(--accent-primary);
-      }
-      .btn-secondary:hover {
-        background-color: var(--accent-primary);
-        color: var(--btn-text);
-      }
-
-      /* セクションの基本スタイル */
-      .page-section {
-        padding: 70px 0;
-        min-height: 80vh;
-        background-color: var(--bg-color);
-        transition: background-color 0.3s;
-      }
-      #hero {
-        min-height: 100vh;
-        border-top: none;
-      }
-      #features,
-      #lessons,
-      #about,
-      #brawler-spotlight,
-      #brawler-detail-page {
-        background-color: var(--bg-color);
-      }
-      section.container {
-      }
-
-      .page-section.hidden {
-        display: none !important;
-      }
-
-      section h2.section-title {
-        text-align: center;
-        font-size: 2.5em;
-        margin-bottom: 40px;
-        color: var(--accent-primary);
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-weight: 700;
-        transition: color 0.3s;
-      }
-
-      /* 特徴セクション */
-      #features .feature-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 25px;
-        text-align: center;
-      }
-      .feature-item {
-        background-color: var(--surface-color);
-        padding: 25px;
-        border-radius: 10px;
-        border: 1px solid var(--border-color);
-        transition: transform 0.3s ease, box-shadow 0.3s ease,
-          background-color 0.3s, border-color 0.3s;
-      }
-      .feature-item:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 8px 15px var(--shadow-color);
-      }
-      .feature-item .icon {
-        font-size: 2.5em;
-        margin-bottom: 15px;
-        color: var(--accent-primary);
-      }
-      .feature-item h3 {
-        font-size: 1.5em;
-        margin-bottom: 10px;
-        color: var(--text-primary);
-        font-weight: 700;
-      }
-      .feature-item p {
-        font-size: 0.95em;
-        color: var(--text-secondary);
-      }
-
-      /* キャラクター検索セクション */
-      .search-container {
-        max-width: 800px;
-        margin: 0 auto 40px auto;
-        text-align: center;
-      }
-      #brawler-search {
-        width: 100%;
-        max-width: 500px;
-        padding: 15px 20px;
-        font-size: 1.1em;
-        background-color: var(--surface-color);
-        border: 2px solid var(--border-color);
-        border-radius: 30px;
-        color: var(--text-primary);
-        margin-bottom: 20px;
-        transition: border-color 0.3s ease, box-shadow 0.3s ease,
-          background-color 0.3s, color 0.3s;
-      }
-      #brawler-search:focus {
-        outline: none;
-        border-color: var(--accent-primary);
-        box-shadow: 0 0 0 3px var(--shadow-color);
-      }
-      #brawler-search::placeholder {
-        color: var(--text-tertiary);
-      }
-      .search-filters {
-        display: flex;
-        gap: 15px;
-        justify-content: center;
-        flex-wrap: wrap;
-      }
-      .search-filters select {
-        padding: 10px 15px;
-        background-color: var(--surface-color);
-        border: 1px solid var(--border-color);
-        border-radius: 20px;
-        color: var(--text-primary);
-        font-size: 0.9em;
-        cursor: pointer;
-        transition: border-color 0.3s ease, background-color 0.3s, color 0.3s;
-      }
-      .search-filters select:focus {
-        outline: none;
-        border-color: var(--accent-primary);
-      }
-      .search-filters select option {
-        background-color: var(--surface-color);
-        color: var(--text-primary);
-      }
-
-      /* キャラクターグリッド */
-      .brawler-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-        gap: 20px;
-        margin-top: 30px;
-      }
-      .brawler-card {
-        background-color: var(--surface-color);
-        border-radius: 10px;
-        padding: 20px;
-        border: 1px solid var(--border-color);
-        text-align: center;
-        transition: transform 0.3s ease, box-shadow 0.3s ease,
-          background-color 0.3s, border-color 0.3s;
-        cursor: pointer;
-      }
-      .brawler-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 25px var(--shadow-color);
-      }
-      .brawler-card img {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        object-fit: cover;
-        border: 3px solid var(--accent-primary);
-        margin-bottom: 15px;
-      }
-      .brawler-card h3 {
-        font-size: 1.3em;
-        color: var(--accent-primary);
-        margin-bottom: 8px;
-        font-weight: 700;
-      }
-      .brawler-card .rarity {
-        display: inline-block;
-        padding: 4px 8px;
-        border-radius: 15px;
-        font-size: 0.75em;
-        font-weight: 700;
-        margin-bottom: 8px;
-        text-transform: uppercase;
-        color: white;
-      }
-      .brawler-card .rarity.starting {
-        background-color: #8b4513;
-      }
-      .brawler-card .rarity.rare {
-        background-color: #4caf50;
-      }
-      .brawler-card .rarity.super-rare {
-        background-color: #2196f3;
-      }
-      .brawler-card .rarity.hyper-rare {
-        background-color: #9c27b0;
-      }
-      .brawler-card .rarity.ultra-rare {
-        background-color: #ff5722;
-      }
-      .brawler-card .rarity.legend-rare {
-        background-color: #ffd700;
-        color: black;
-      }
-      .brawler-card .rarity.ultra-legend-rare {
-        background: linear-gradient(45deg, #ff8a00, #e52e71);
-      }
-      .brawler-card .role {
-        color: var(--text-secondary);
-        font-size: 0.9em;
-        margin-bottom: 10px;
-      }
-      .brawler-card .quote {
-        font-style: italic;
-        color: var(--text-secondary);
-        font-size: 0.9em;
-        margin-bottom: 15px;
-        min-height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .no-results {
-        text-align: center;
-        padding: 40px;
-        color: var(--text-tertiary);
-        font-size: 1.1em;
-        display: none;
-      }
-
-      /* == キャラクター詳細ページ START == */
-      #brawler-detail-page .container {
-        max-width: 1000px;
-      }
-      .brawler-detail-main-layout {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        background-color: var(--surface-color);
-        padding: 20px;
-        border-radius: 15px;
-        border: 1px solid var(--border-color);
-      }
-      @media (min-width: 768px) {
-        .brawler-detail-main-layout {
-          flex-direction: row;
-          padding: 30px;
+        /* ヒーローセクションの検索窓 */
+        #hero .search-container #brawler-search {
+          border: 3px solid var(--accent-primary);
+          box-shadow: 0 0 20px var(--shadow-color);
+          background-color: rgba(31, 31, 31, 0.8);
+          backdrop-filter: blur(5px);
         }
+
+        /* フィルター */
+        /* フィルターの見た目調整（ここを修正） */
+      #hero .search-filters select {
+        background-color: var(--hero-search-bg); /* モードに合わせて背景色を変える */
+        border: 2px solid var(--accent-primary); /* 枠線を2pxに太くして目立たせる */
+        color: var(--text-primary); /* 文字色をハッキリさせる */
+        font-weight: bold; /* 文字を太くして視認性アップ */
       }
-      .brawler-detail-left {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-      .brawler-detail-right {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-      }
-      @media (min-width: 768px) {
-        .brawler-detail-left {
-          align-items: flex-start;
-          text-align: left;
+
+        @media (max-width: 600px) {
+          #hero h2 {
+            font-size: 1.8em;
+          }
+          #brawler-search {
+            font-size: 1em !important;
+            height: 50px !important;
+          }
         }
-      }
-      .brawler-detail-icon {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        border: 4px solid var(--accent-primary);
-        margin-bottom: 20px;
-      }
-      .brawler-detail-name-jp {
-        font-size: 2.8em;
-        color: var(--accent-primary);
-        font-weight: 700;
-        line-height: 1.2;
-      }
-      .brawler-detail-name-en {
-        font-size: 1.5em;
-        color: var(--text-secondary);
-        margin-bottom: 15px;
-      }
-      .brawler-detail-tags {
-        display: flex;
-        gap: 10px;
-        margin-bottom: 20px;
-        justify-content: center;
-      }
-      @media (min-width: 768px) {
-        .brawler-detail-tags {
-          justify-content: flex-start;
+
+        html {
+          background-color: var(--bg-color);
+          scroll-behavior: smooth;
         }
-      }
-      .brawler-detail-tags .rarity,
-      .brawler-detail-tags .role {
-        padding: 6px 12px;
-        border-radius: 20px;
-        font-size: 0.9em;
-        font-weight: 700;
-        color: white;
-      }
-      .brawler-detail-tags .role {
-        background-color: var(--surface-color-light);
-        color: var(--text-secondary);
-      }
-      .brawler-detail-primary-quote {
-        background-color: var(--surface-color-light);
-        border-left: 4px solid var(--accent-primary);
-        padding: 15px;
-        border-radius: 8px;
-        width: 100%;
-      }
-      .brawler-detail-primary-quote .quote-label {
-        font-size: 0.9em;
-        color: var(--text-tertiary);
-        margin-bottom: 5px;
-      }
-      .brawler-detail-primary-quote .quote-text {
-        font-style: italic;
-        font-size: 1.2em;
-        color: var(--text-primary);
-        font-weight: 700;
-      }
+        body {
+          font-family: "Roboto", "Noto Sans JP", sans-serif;
+          background-color: var(--bg-color);
+          color: var(--text-primary);
+          line-height: 1.7;
+          font-weight: 400;
+          overflow-x: hidden;
+          transition: background-color 0.3s, color 0.3s;
+        }
+        main {
+          background-color: var(--bg-color);
+        }
+        .container {
+          width: 90%;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px 0;
+        }
+        #beta-banner {
+          background-color: var(--beta-bar-bg);
+          color: var(--beta-bar-text);
+          text-align: center;
+          padding: 8px 10px;
+          font-weight: 700;
+          font-size: 0.9em;
+          width: 100%;
+        }
 
-      /* ▼▼▼ 全音声再生ボタンのスタイル ▼▼▼ */
-      .detail-actions-box {
-        background-color: var(--surface-color-light);
-        border: 1px solid var(--border-color-light);
-        border-radius: 8px;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-      }
-      .detail-actions-box button {
-        background: none;
-        border: 1px solid var(--accent-primary);
-        color: var(--accent-primary);
-        padding: 12px;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s, color 0.3s;
-        text-align: left;
-        font-size: 1em;
-        font-weight: 700;
-      }
-      .detail-actions-box button:hover {
-        background-color: var(--accent-primary);
-        color: var(--btn-text);
-      }
-
-      .detail-tiktok-box {
-        background-color: var(--surface-color-light);
-        border: 1px solid #ffd700;
-        border-radius: 8px;
-        padding: 20px;
-        text-align: center;
-        transition: background-color 0.3s;
-      }
-      .detail-tiktok-box a {
-        color: #ffd700;
-        text-decoration: none;
-        font-size: 1.1em;
-        font-weight: 700;
-      }
-      .detail-tiktok-box:not(.disabled):hover {
-        background-color: var(--surface-color);
-        cursor: pointer;
-      }
-
-      .detail-tiktok-box.disabled {
-        border: 1px solid var(--border-color-light);
-        cursor: not-allowed;
-        opacity: 0.6;
-      }
-      .detail-tiktok-box.disabled a {
-        color: var(--text-tertiary);
-        pointer-events: none;
-      }
-      .detail-tiktok-box.disabled:hover {
-        background-color: var(--surface-color-light);
-      }
-
-      .voiceline-skin-section,
-      .voicelines-section {
-        margin-top: 40px;
-      }
-      .voiceline-skin-section h3,
-      .voicelines-section h3 {
-        font-size: 1.8em;
-        color: var(--accent-primary);
-        margin-bottom: 20px;
-        border-bottom: 2px solid var(--border-color);
-        padding-bottom: 10px;
-        font-weight: 700;
-      }
-      .voiceline-locked-placeholder {
-        background-color: var(--surface-color);
-        border: 2px dashed #555;
-        border-radius: 8px;
-        padding: 30px;
-        text-align: center;
-        color: var(--text-tertiary);
-      }
-      .voiceline-locked-placeholder .unlock-btn {
-        margin-top: 15px;
-        background-color: #ffc107;
-        color: #121212;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 50px;
-        font-weight: 700;
-        cursor: pointer;
-        transition: background-color 0.3s;
-      }
-      .voiceline-locked-placeholder .unlock-btn:hover {
-        background-color: #ffca2c;
-      }
-      .voiceline-item {
-        background-color: var(--surface-color);
-        border-radius: 8px;
-        margin-bottom: 15px;
-        border: 1px solid var(--border-color-light);
-        padding: 20px;
-      }
-      .voiceline-main {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-      }
-      @media (min-width: 768px) {
-        .voiceline-main {
-          flex-direction: row;
+        header {
+          background-color: var(--surface-color);
+          padding: 0;
+          border-bottom: 3px solid var(--accent-primary);
+          position: sticky;
+          top: 0;
+          z-index: 1000;
+          transition: background-color 0.3s, border-color 0.3s;
+          display: flex;
+          flex-direction: column;
+        }
+        .header-nav-container {
+          width: 90%;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px 0;
+          display: flex;
           justify-content: space-between;
           align-items: center;
+          flex-wrap: wrap;
         }
-      }
-      .voiceline-quotes {
-        flex-grow: 1;
-      }
-      .voiceline-quotes p {
-        margin: 0;
-        font-size: 1.1em;
-        line-height: 1.4;
-      }
-
-      .voiceline-quotes .quote-jp {
-        color: var(--quote-jp-color);
-        font-size: 1em;
-        margin-top: 5px;
-      }
-      .voiceline-actions {
-        display: flex;
-        gap: 10px;
-        align-items: center;
-        flex-shrink: 0;
-        margin-top: 10px;
-      }
-      @media (min-width: 768px) {
-        .voiceline-actions {
-          margin-top: 0;
+        header h1 {
+          font-size: 2.2em;
+          color: var(--accent-primary);
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 10px;
+          font-weight: 700;
+          transition: color 0.3s;
         }
-      }
-      .voiceline-toggle {
-        background: none;
-        border: 1px solid var(--accent-primary);
-        color: var(--accent-primary);
-        padding: 8px 12px;
-        border-radius: 20px;
-        cursor: pointer;
-        transition: background-color 0.3s, color 0.3s;
-        font-size: 0.9em;
-        font-weight: 700;
-      }
-      .voiceline-toggle:hover {
-        background-color: var(--accent-primary);
-        color: var(--btn-text);
-      }
-      .voiceline-toggle.active {
-        background-color: var(--accent-primary-hover);
-        color: var(--btn-text);
-        border-color: var(--accent-primary-hover);
-      }
-      .voiceline-play-btn {
-        background: none;
-        border: 2px solid var(--accent-secondary);
-        color: var(--accent-secondary);
-        padding: 8px 12px;
-        border-radius: 20px;
-        cursor: pointer;
-        transition: background-color 0.3s, color 0.3s;
-        font-size: 0.9em;
-        font-weight: 700;
-      }
-      .voiceline-play-btn:hover {
-        background-color: var(--accent-secondary);
-        color: var(--btn-text);
-      }
-      .voiceline-explanation {
-        display: none;
-        margin-top: 15px;
-        padding-top: 15px;
-        border-top: 1px solid var(--border-color);
-        color: var(--text-secondary);
-      }
-      .voiceline-explanation p {
-        margin-bottom: 1em;
-      }
-      .voiceline-explanation strong {
-        font-weight: 700;
-      }
-      .voiceline-explanation code {
-        background-color: var(--surface-color-light);
-        padding: 2px 6px;
-        border-radius: 4px;
-        font-family: "Roboto", sans-serif;
-      }
-      .brawler-detail-actions {
-        margin-top: 40px;
-        text-align: center;
-      }
+        header nav ul {
+          list-style: none;
+          display: flex;
+          flex-wrap: wrap;
+        }
+        header nav ul li {
+          margin-left: 15px;
+          margin-bottom: 10px;
+        }
+        header nav ul li a {
+          color: var(--text-primary);
+          text-decoration: none;
+          font-size: 1em;
+          transition: color 0.3s ease, background-color 0.3s ease;
+          padding: 8px 12px;
+          border-radius: 5px;
+          cursor: pointer;
+          font-weight: 700;
+        }
+        header nav ul li a:hover,
+        header nav ul li a.active {
+          color: var(--btn-text);
+          background-color: var(--accent-primary);
+        }
 
-      .explanation-highlight-yellow {
-        color: #ffd700;
-        font-weight: 700;
-      }
-      .explanation-highlight-green {
-        color: #28a745;
-        font-weight: 700;
-      }
-      .explanation-highlight-pink {
-        color: #e83e8c;
-        font-weight: 700;
-      }
-      .voiceline-quotes .quote-en {
-        color: var(--accent-primary);
-        font-weight: 700;
-        font-style: italic;
-      }
+        #hero {
+          background: var(--hero-bg);
+          min-height: 80vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+        #hero .container {
+          width: 100%;
+          max-width: 700px;
+          padding: 20px;
+        }
+        #hero h2 {
+          font-size: 2.5em;
+          margin-bottom: 30px;
+          color: #fff;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+          font-weight: 700;
+          line-height: 1.4;
+        }
 
-      #page-top-btn {
-        position: fixed;
-        bottom: 30px;
-        right: 30px;
-        width: 50px;
-        height: 50px;
-        background-color: var(--accent-primary);
-        color: var(--btn-text);
-        border-radius: 50%;
-        text-align: center;
-        line-height: 50px;
-        font-size: 24px;
-        cursor: pointer;
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.3s, visibility 0.3s, background-color 0.3s;
-        z-index: 1001;
-        text-decoration: none;
-      }
-      #page-top-btn.visible {
-        opacity: 1;
-        visibility: visible;
-      }
+        /* ----------------------------------------------------
+           修正箇所：スマホ対応（hoverの分離とactive効果）
+           ---------------------------------------------------- */
+        .btn {
+          display: inline-block;
+          background-color: var(--accent-primary);
+          color: var(--btn-text);
+          padding: 12px 25px;
+          text-decoration: none;
+          font-size: 1.1em;
+          border-radius: 50px;
+          transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+          border: 2px solid var(--accent-primary);
+          font-weight: 700;
+          cursor: pointer;
+          text-align: center;
+          -webkit-tap-highlight-color: transparent;
+        }
+        /* マウスがあるPCのみhover */
+        @media (hover: hover) {
+          .btn:hover {
+            background-color: var(--accent-primary-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px var(--shadow-color-btn);
+          }
+          .btn-secondary:hover {
+            background-color: var(--accent-primary);
+            color: var(--btn-text);
+          }
+        }
+        .btn:active {
+          transform: scale(0.95);
+        }
 
-      #theme-toggle-btn {
-        position: fixed;
-        bottom: 90px;
-        right: 30px;
-        width: 50px;
-        height: 50px;
-        background-color: var(--surface-color);
-        color: var(--text-primary);
-        border: 2px solid var(--border-color);
-        border-radius: 50%;
-        font-size: 24px;
-        cursor: pointer;
-        z-index: 1001;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-      }
-      #theme-toggle-btn:hover {
-        border-color: var(--accent-primary);
-      }
+        .btn-secondary {
+          background-color: var(--surface-color-light);
+          color: var(--accent-primary);
+          border: 2px solid var(--accent-primary);
+        }
 
-      /* ▼▼▼ リクエストボタンのスタイル ▼▼▼ */
-      #request-btn {
-        position: fixed;
-        bottom: 30px;
-        left: 30px; /* 右下と重ならないよう左下に配置 */
-        background-color: var(--accent-primary);
-        color: var(--btn-text);
-        padding: 12px 20px;
-        border-radius: 50px;
-        font-weight: 700;
-        text-decoration: none;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-        z-index: 1001;
-        transition: transform 0.3s, box-shadow 0.3s;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        border: 2px solid var(--accent-primary);
-      }
-      #request-btn:hover {
-        background-color: var(--accent-primary-hover);
-        transform: translateY(-3px);
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-      }
+        .page-section {
+          padding: 70px 0;
+          min-height: 80vh;
+          background-color: var(--bg-color);
+          transition: background-color 0.3s;
+        }
+        #hero {
+          min-height: 100vh;
+          border-top: none;
+        }
+        .page-section.hidden {
+          display: none !important;
+        }
+        section h2.section-title {
+          text-align: center;
+          font-size: 2.5em;
+          margin-bottom: 40px;
+          color: var(--accent-primary);
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-weight: 700;
+          transition: color 0.3s;
+        }
 
-      /* 動画セクションの調整 */
-      .tiktok-video-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center; /* 動画が1つなので中央寄せ */
-      }
+        .search-container {
+          max-width: 800px;
+          margin: 0 auto 40px auto;
+          text-align: center;
+        }
+        #brawler-search {
+          width: 100%;
+          max-width: 500px;
+          padding: 15px 20px;
+          font-size: 1.1em;
+          background-color: var(--surface-color);
+          border: 2px solid var(--border-color);
+          border-radius: 30px;
+          color: var(--text-primary);
+          margin-bottom: 20px;
+          transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        #brawler-search:focus {
+          outline: none;
+          border-color: var(--accent-primary);
+          box-shadow: 0 0 0 3px var(--shadow-color);
+        }
+        #brawler-search::placeholder {
+          color: var(--text-tertiary);
+        }
+        .search-filters {
+          display: flex;
+          gap: 15px;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+        .search-filters select {
+          padding: 10px 15px;
+          background-color: var(--surface-color);
+          border: 1px solid var(--border-color);
+          border-radius: 20px;
+          color: var(--text-primary);
+          font-size: 0.9em;
+          cursor: pointer;
+          transition: border-color 0.3s;
+        }
+
+        .brawler-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+          gap: 20px;
+          margin-top: 30px;
+        }
+        .brawler-card {
+          background-color: var(--surface-color);
+          border-radius: 10px;
+          padding: 20px;
+          border: 1px solid var(--border-color);
+          text-align: center;
+          transition: all 0.3s;
+          cursor: pointer;
+          -webkit-tap-highlight-color: transparent;
+        }
+        @media (hover: hover) {
+          .brawler-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px var(--shadow-color);
+          }
+        }
+        .brawler-card:active {
+          transform: scale(0.98);
+        }
+
+        .brawler-card img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          object-fit: cover;
+          border: 3px solid var(--accent-primary);
+          margin-bottom: 15px;
+        }
+        .brawler-card h3 {
+          font-size: 1.3em;
+          color: var(--accent-primary);
+          margin-bottom: 8px;
+          font-weight: 700;
+        }
+        .brawler-card .rarity {
+          display: inline-block;
+          padding: 4px 8px;
+          border-radius: 15px;
+          font-size: 0.75em;
+          font-weight: 700;
+          margin-bottom: 8px;
+          text-transform: uppercase;
+          color: white;
+        }
+        .brawler-card .rarity.starting {
+          background-color: #8b4513;
+        }
+        .brawler-card .rarity.rare {
+          background-color: #4caf50;
+        }
+        .brawler-card .rarity.super-rare {
+          background-color: #2196f3;
+        }
+        .brawler-card .rarity.hyper-rare {
+          background-color: #9c27b0;
+        }
+        .brawler-card .rarity.ultra-rare {
+          background-color: #ff5722;
+        }
+        .brawler-card .rarity.legend-rare {
+          background-color: #ffd700;
+          color: black;
+        }
+        .brawler-card .rarity.ultra-legend-rare {
+          background: linear-gradient(45deg, #ff8a00, #e52e71);
+        }
+        .brawler-card .role {
+          color: var(--text-secondary);
+          font-size: 0.9em;
+          margin-bottom: 10px;
+        }
+        .brawler-card .quote {
+          font-style: italic;
+          color: var(--text-secondary);
+          font-size: 0.9em;
+          margin-bottom: 15px;
+          min-height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .no-results {
+          text-align: center;
+          padding: 40px;
+          color: var(--text-tertiary);
+          font-size: 1.1em;
+          display: none;
+        }
+
+        #brawler-detail-page .container {
+          max-width: 1000px;
+        }
+        .brawler-detail-main-layout {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          background-color: var(--surface-color);
+          padding: 20px;
+          border-radius: 15px;
+          border: 1px solid var(--border-color);
+        }
+        @media (min-width: 768px) {
+          .brawler-detail-main-layout {
+            flex-direction: row;
+            padding: 30px;
+          }
+        }
+        .brawler-detail-left {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+        .brawler-detail-right {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+        @media (min-width: 768px) {
+          .brawler-detail-left {
+            align-items: flex-start;
+            text-align: left;
+          }
+        }
+        .brawler-detail-icon {
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+          border: 4px solid var(--accent-primary);
+          margin-bottom: 20px;
+        }
+        .brawler-detail-name-jp {
+          font-size: 2.8em;
+          color: var(--accent-primary);
+          font-weight: 700;
+          line-height: 1.2;
+        }
+        .brawler-detail-name-en {
+          font-size: 1.5em;
+          color: var(--text-secondary);
+          margin-bottom: 15px;
+        }
+        .brawler-detail-tags {
+          display: flex;
+          gap: 10px;
+          margin-bottom: 20px;
+          justify-content: center;
+        }
+        .brawler-detail-tags .rarity,
+        .brawler-detail-tags .role {
+          padding: 6px 12px;
+          border-radius: 20px;
+          font-size: 0.9em;
+          font-weight: 700;
+          color: white;
+        }
+        .brawler-detail-tags .role {
+          background-color: var(--surface-color-light);
+          color: var(--text-secondary);
+        }
+        .brawler-detail-primary-quote {
+          background-color: var(--surface-color-light);
+          border-left: 4px solid var(--accent-primary);
+          padding: 15px;
+          border-radius: 8px;
+          width: 100%;
+        }
+        .brawler-detail-primary-quote .quote-text {
+          font-style: italic;
+          font-size: 1.2em;
+          color: var(--text-primary);
+          font-weight: 700;
+        }
+
+        .detail-actions-box {
+          background-color: var(--surface-color-light);
+          border: 1px solid var(--border-color-light);
+          border-radius: 8px;
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+        .detail-actions-box button {
+          background: none;
+          border: 1px solid var(--accent-primary);
+          color: var(--accent-primary);
+          padding: 12px;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: all 0.3s;
+          text-align: left;
+          font-size: 1em;
+          font-weight: 700;
+          -webkit-tap-highlight-color: transparent;
+        }
+        @media (hover: hover) {
+          .detail-actions-box button:hover {
+            background-color: var(--accent-primary);
+            color: var(--btn-text);
+          }
+        }
+        .detail-actions-box button:active {
+          transform: scale(0.97);
+        }
+
+        .detail-tiktok-box {
+          background-color: var(--surface-color-light);
+          border: 1px solid #ffd700;
+          border-radius: 8px;
+          padding: 20px;
+          text-align: center;
+          transition: background-color 0.3s;
+          -webkit-tap-highlight-color: transparent;
+        }
+
+        .detail-tiktok-box a {
+          color: #ffd700;
+          text-decoration: none;
+          font-size: 1.1em;
+          font-weight: 700;
+        }
+        @media (hover: hover) {
+          .detail-tiktok-box:not(.disabled):hover {
+            background-color: var(--surface-color);
+            cursor: pointer;
+          }
+        }
+        .detail-tiktok-box.disabled {
+          border: 1px solid var(--border-color-light);
+          cursor: not-allowed;
+          opacity: 0.6;
+        }
+
+        .voicelines-section {
+          margin-top: 40px;
+        }
+        .voicelines-section h3 {
+          font-size: 1.8em;
+          color: var(--accent-primary);
+          margin-bottom: 20px;
+          border-bottom: 2px solid var(--border-color);
+          padding-bottom: 10px;
+          font-weight: 700;
+        }
+        .voiceline-item {
+          background-color: var(--surface-color);
+          border-radius: 8px;
+          margin-bottom: 15px;
+          border: 1px solid var(--border-color-light);
+          padding: 20px;
+          transition: all 0.3s;
+        }
+        .voiceline-main {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+        }
+        @media (min-width: 768px) {
+          .voiceline-main {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+          }
+        }
+        .voiceline-quotes {
+          flex-grow: 1;
+        }
+        .voiceline-quotes .quote-en {
+          color: var(--accent-primary);
+          font-weight: 700;
+          font-style: italic;
+        }
+        .voiceline-quotes .quote-jp {
+          color: var(--quote-jp-color);
+          font-size: 1em;
+          margin-top: 5px;
+        }
+
+        .voiceline-toggle,
+        .voiceline-play-btn {
+          background: none;
+          padding: 8px 12px;
+          border-radius: 20px;
+          cursor: pointer;
+          transition: all 0.3s;
+          font-size: 0.9em;
+          font-weight: 700;
+          -webkit-tap-highlight-color: transparent;
+        }
+        .voiceline-toggle {
+          border: 1px solid var(--accent-primary);
+          color: var(--accent-primary);
+        }
+        .voiceline-play-btn {
+          border: 2px solid var(--accent-secondary);
+          color: var(--accent-secondary);
+        }
+
+        @media (hover: hover) {
+          .voiceline-toggle:hover {
+            background-color: var(--accent-primary);
+            color: var(--btn-text);
+          }
+          .voiceline-play-btn:hover {
+            background-color: var(--accent-secondary);
+            color: var(--btn-text);
+          }
+        }
+        .voiceline-toggle:active,
+        .voiceline-play-btn:active {
+          transform: scale(0.92);
+        }
+
+        .voiceline-explanation {
+          display: none;
+          margin-top: 15px;
+          padding-top: 15px;
+          border-top: 1px solid var(--border-color);
+          color: var(--text-secondary);
+        }
+
+        #sticky-audio-player {
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          background: rgba(31, 31, 31, 0.95);
+          backdrop-filter: blur(10px);
+          border-top: 2px solid var(--accent-primary);
+          padding: 12px 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          z-index: 2000;
+          transform: translateY(100%);
+          transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+          box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.5);
+        }
+        #sticky-audio-player.visible {
+          transform: translateY(0);
+        }
+        .sticky-info {
+          flex: 1;
+          overflow: hidden;
+        }
+        .sticky-info .playing-title {
+          font-size: 0.7em;
+          color: var(--accent-primary);
+          font-weight: bold;
+        }
+        #sticky-now-playing-text {
+          font-size: 0.9em;
+          color: #fff;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          max-width: 250px;
+          font-style: italic;
+        }
+        .sticky-controls {
+          display: flex;
+          gap: 15px;
+          align-items: center;
+        }
+        .sticky-controls button {
+          background: none;
+          border: none;
+          color: #fff;
+          font-size: 1.5em;
+          cursor: pointer;
+          transition: color 0.2s, transform 0.1s;
+          -webkit-tap-highlight-color: transparent;
+        }
+        @media (hover: hover) {
+          .sticky-controls button:hover {
+            color: var(--accent-primary);
+          }
+        }
+        #sticky-play-pause {
+          font-size: 2.2em;
+          color: var(--accent-primary);
+        }
+
+        #page-top-btn {
+          position: fixed;
+          bottom: 30px;
+          right: 30px;
+          width: 50px;
+          height: 50px;
+          background-color: var(--accent-primary);
+          color: var(--btn-text);
+          border-radius: 50%;
+          text-align: center;
+          line-height: 50px;
+          font-size: 24px;
+          cursor: pointer;
+          opacity: 0;
+          visibility: hidden;
+          transition: all 0.3s;
+          z-index: 1001;
+        }
+        #page-top-btn.visible {
+          opacity: 1;
+          visibility: visible;
+        }
+
+        /* 【修正点2】リクエストボタンを左下に固定 */
+        #request-btn {
+          position: fixed;
+          bottom: 30px;
+          left: 30px;
+          background-color: var(--accent-primary);
+          color: var(--btn-text);
+          padding: 12px 20px;
+          border-radius: 50px;
+          font-weight: 700;
+          text-decoration: none;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+          z-index: 2001; /* プレイヤーより上に表示 */
+          transition: all 0.3s;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          border: 2px solid var(--accent-primary);
+          -webkit-tap-highlight-color: transparent;
+        }
+        @media (hover: hover) {
+          #request-btn:hover {
+            background-color: var(--accent-primary-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+          }
+        }
+        #request-btn:active {
+          transform: scale(0.95);
+        }
+
+        /* 再生バーが表示されている時、各ボタンを上に移動させる */
+        #sticky-audio-player.visible ~ #page-top-btn,
+        #sticky-audio-player.visible ~ #request-btn {
+          bottom: 100px; /* バーの高さ分、上に避ける */
+        }
+
+        .tiktok-video-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+          justify-content: center;
+        }
+        footer {
+          background-color: var(--surface-color);
+          padding: 30px 0;
+          border-top: 1px solid var(--border-color);
+          text-align: center;
+        }
+        .voiceline-item.playing {
+          border: 2px solid var(--accent-primary) !important;
+          background-color: var(--surface-color-light);
+          transform: scale(1.02);
+        }
+
+        /* 再生バー(2000)より上にボタンを表示 */
+        #page-top-btn,
+        #theme-toggle-btn,
+        #request-btn {
+          z-index: 2005 !important;
+          transition: all 0.3s ease;
+        }
+
+        /* 再生バーが表示されている時、ボタンを上に避ける */
+        #sticky-audio-player.visible ~ #page-top-btn {
+          bottom: 120px !important;
+        }
+        #sticky-audio-player.visible ~ #theme-toggle-btn {
+          bottom: 180px !important;
+        }
+        #sticky-audio-player.visible ~ #request-btn {
+          bottom: 120px !important;
+        }
+
+        #page-top-btn {
+          position: fixed;
+          bottom: 30px;
+          right: 30px;
+          width: 50px;
+          height: 50px;
+          background-color: var(--accent-primary);
+          color: var(--btn-text);
+          border-radius: 50%;
+          text-align: center;
+          line-height: 50px;
+          font-size: 24px;
+          cursor: pointer;
+          opacity: 0;
+          visibility: hidden;
+        }
+        #page-top-btn.visible {
+          opacity: 1;
+          visibility: visible;
+        }
+
+        #theme-toggle-btn {
+          position: fixed;
+          bottom: 90px;
+          right: 30px;
+          width: 50px;
+          height: 50px;
+          background-color: var(--surface-color);
+          color: var(--text-primary);
+          border: 2px solid var(--border-color);
+          border-radius: 50%;
+          font-size: 24px;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        <button id="theme-toggle-btn">☀️</button>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4jicnyFLtY7ydADYmBi7TpVp64VKlC24Ty1voCgiwHGJihg/viewform?usp=dialog" target="_blank" id="request-btn" rel="noopener noreferrer">📢 リクエスト</a>
+
+      <div id="sticky-audio-player">
     </style>
   </head>
   <body>
     <header>
       <div id="beta-banner">🚧 現在ベータ版です。リクエスト募集中！ 🚧</div>
-
       <div class="header-nav-container">
         <h1>Lexie</h1>
         <nav>
           <ul>
             <li><a data-section-id="hero" class="active">ホーム</a></li>
-            <li><a data-section-id="features">特徴</a></li>
-            <li>
-              <a data-section-id="brawler-spotlight">キャラクター検索</a>
-            </li>
             <li><a data-section-id="lessons">翻訳動画</a></li>
-            <li><a data-section-id="about">概要</a></li>
           </ul>
         </nav>
       </div>
@@ -861,71 +864,51 @@
       <section id="hero" class="page-section">
         <div class="container">
           <h2>ブロスタキャラセリフで、<br />英語を楽しもう！！</h2>
-          <a
-            href="#features"
-            data-section-id="features"
-            class="btn nav-link-scroll"
-            >特徴を見る</a
-          >
+          <div class="search-container" style="margin-top: 30px">
+            <input
+              type="text"
+              id="brawler-search"
+              placeholder="キャラクター名を入力（例：シェリー、コルト）"
+              style="
+                max-width: 600px;
+                width: 100%;
+                height: 60px;
+                font-size: 1.3em;
+              "
+            />
+            <div class="search-filters">
+              <select id="rarity-filter">
+                <option value="">全てのレア度</option>
+                <option value="starting">初期</option>
+                <option value="rare">レア</option>
+                <option value="super-rare">スーパーレア</option>
+                <option value="hyper-rare">ハイパーレア</option>
+                <option value="ultra-rare">ウルトラレア</option>
+                <option value="legend-rare">レジェンドレア</option>
+                <option value="ultra-legend-rare">
+                  ウルトラレジェンドレア
+                </option>
+              </select>
+              <select id="role-filter">
+                <option value="">全ての役割</option>
+                <option value="damage-dealer">ダメージディーラー</option>
+                <option value="tank">タンク</option>
+                <option value="support">サポート</option>
+                <option value="assassin">アサシン</option>
+                <option value="thrower">スロワー</option>
+                <option value="marksman">マークスマン</option>
+                <option value="unknown">不明</option>
+              </select>
+            </div>
+          </div>
         </div>
       </section>
-      <section id="features" class="page-section container">
-        <h2 class="section-title">Lexieで学ぶ理由</h2>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <div class="icon">🗣️</div>
-            <h3>豊富なセリフデータベース</h3>
-            <p>
-              レアなものやイベント限定のものを含む、全キャラクターのボイスラインにアクセス。文脈やニュアンスを理解しましょう。
-            </p>
-          </div>
-          <div class="feature-item">
-            <div class="icon">🧠</div>
-            <h3>スラングとイディオムの解説</h3>
-            <p>
-              キャラクターたちが使う英語を深く掘り下げます。現代的なスラング、一般的なイディオム、文化的背景を学びましょう。
-            </p>
-          </div>
-          <div class="feature-item">
-            <div class="icon">🎮</div>
-            <h3>楽しく魅力的な学習</h3>
-            <p>
-              英語学習を冒険にしましょう。ゲームの世界観やキャラクターとより深く繋がりましょう。
-            </p>
-          </div>
-        </div>
-      </section>
-      <section id="brawler-spotlight" class="page-section container">
-        <h2 class="section-title">キャラクター検索</h2>
-        <div class="search-container">
-          <input
-            type="text"
-            id="brawler-search"
-            placeholder="キャラクター名を入力（例：シェリー、コルト）"
-          />
-          <div class="search-filters">
-            <select id="rarity-filter">
-              <option value="">全てのレア度</option>
-              <option value="starting">初期</option>
-              <option value="rare">レア</option>
-              <option value="super-rare">スーパーレア</option>
-              <option value="hyper-rare">ハイパーレア</option>
-              <option value="ultra-rare">ウルトラレア</option>
-              <option value="legend-rare">レジェンドレア</option>
-              <option value="ultra-legend-rare">ウルトラレジェンドレア</option>
-            </select>
-            <select id="role-filter">
-              <option value="">全ての役割</option>
-              <option value="damage-dealer">ダメージディーラー</option>
-              <option value="tank">タンク</option>
-              <option value="support">サポート</option>
-              <option value="assassin">アサシン</option>
-              <option value="thrower">スロワー</option>
-              <option value="marksman">マークスマン</option>
-              <option value="unknown">不明</option>
-            </select>
-          </div>
-        </div>
+
+      <section
+        id="brawler-spotlight"
+        class="page-section container"
+        style="min-height: auto; padding-top: 0"
+      >
         <div id="brawler-grid" class="brawler-grid"></div>
         <div id="no-results" class="no-results">
           <p>該当するキャラクターが見つかりませんでした。</p>
@@ -938,15 +921,11 @@
           <div class="tiktok-video-item" id="tiktok-video-1"></div>
         </div>
       </section>
+
       <section id="about" class="page-section container">
         <h2 class="section-title">Lexieについて</h2>
-        <p
-          style="text-align: center; max-width: 700px; margin: 0 auto 20px auto"
-        >
-          Lexieは、世界中のブロスタプレイヤーがゲームの活気あるキャラクターや対話を通じて英語を学び、理解するのを助けるために作られたファンプロジェクトです。私たちは、学習があなたのゲーム体験のエキサイティングな一部になり得ると信じています。
-        </p>
         <p style="text-align: center; max-width: 700px; margin: 0 auto">
-          このサイトはSupercellのファンコンテンツポリシーに基づき作成されています。
+          Lexieはブロスタファンプロジェクトです。学習がゲーム体験の一部となることを願っています。
         </p>
       </section>
 
@@ -965,64 +944,51 @@
       </section>
     </main>
 
-<a
+    <a
       href="https://docs.google.com/forms/d/e/1FAIpQLSd4jicnyFLtY7ydADYmBi7TpVp64VKlC24Ty1voCgiwHGJihg/viewform?usp=dialog"
       target="_blank"
       id="request-btn"
       rel="noopener noreferrer"
+      >📢 リクエスト</a
     >
-      📢 リクエスト
-</a>
 
-    <footer>
-      <div class="container">
-        <p>
-          &copy; 2025 Lexie. All rights reserved.
-          Supercellとは提携していません。
-        </p>
-        <p>
-          このコンテンツは非公式であり、Supercellによって承認されていません。詳細については、<a
-            href="https://supercell.com/en/fan-content-policy/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Supercellのファンコンテンツポリシー</a
-          >をご覧ください。
-        </p>
+    <div id="sticky-audio-player">
+      <div class="sticky-info">
+        <div class="playing-title">Now Playing</div>
+        <div id="sticky-now-playing-text">セリフを再生中...</div>
       </div>
-    </footer>
+      <div class="sticky-controls">
+        <button id="sticky-prev">⏮</button>
+        <button id="sticky-play-pause">▶</button>
+        <button id="sticky-next">⏭</button>
+        <button id="sticky-shuffle">🔀</button>
+      </div>
+    </div>
 
     <script src="brawlers.js"></script>
     <script async src="https://www.tiktok.com/embed.js"></script>
 
     <script>
-      // 変数宣言
       let filteredBrawlers = [];
-      let lastClickedCardElement = null;
       let lastScrollPosition = 0;
       let currentAudio = null;
+      let playlist = [];
+      let currentIndex = 0;
+      let isShuffle = false;
+      let isSequentialPlaying = false;
 
-      // DOM要素の取得
       const searchInput = document.getElementById("brawler-search");
       const rarityFilter = document.getElementById("rarity-filter");
       const roleFilter = document.getElementById("role-filter");
       const brawlerGrid = document.getElementById("brawler-grid");
       const noResults = document.getElementById("no-results");
-
-      const mainContentSections = document.querySelectorAll(
-        "main > .page-section:not(#brawler-detail-page)"
-      );
       const brawlerDetailPage = document.getElementById("brawler-detail-page");
       const brawlerDetailContent = document.getElementById(
         "brawler-detail-content"
       );
 
-      const navLinks = document.querySelectorAll("header nav ul li a");
-      const heroScrollLink = document.querySelector("#hero a.nav-link-scroll");
-      const pageTopBtn = document.getElementById("page-top-btn");
-
-      // ヘルパー関数
-      function getRarityText(rarityKey) {
-        const map = {
+      function getRarityText(k) {
+        const m = {
           starting: "初期",
           rare: "レア",
           "super-rare": "スーパーレア",
@@ -1031,10 +997,10 @@
           "legend-rare": "レジェンドレア",
           "ultra-legend-rare": "ウルトラレジェンドレア",
         };
-        return map[rarityKey.toLowerCase().replace(/\s+/g, "-")] || rarityKey;
+        return m[k.toLowerCase().replace(/\s+/g, "-")] || k;
       }
-      function getRoleText(roleKey) {
-        const map = {
+      function getRoleText(k) {
+        const m = {
           "damage-dealer": "ダメージディーラー",
           tank: "タンク",
           support: "サポート",
@@ -1043,254 +1009,222 @@
           marksman: "マークスマン",
           unknown: "不明",
         };
-        return map[roleKey.toLowerCase().replace(/\s+/g, "-")] || roleKey;
-      }
-      function toggleMainContentAndDetailView(showDetail) {
-        mainContentSections.forEach((section) => {
-          section.classList.toggle("hidden", showDetail);
-        });
-        brawlerDetailPage.classList.toggle("hidden", !showDetail);
-      }
-      function setActiveNavLink(targetId) {
-        navLinks.forEach((link) => {
-          link.classList.toggle("active", link.dataset.sectionId === targetId);
-        });
+        return m[k.toLowerCase().replace(/\s+/g, "-")] || k;
       }
 
-      // カード作成
-      function createBrawlerCard(brawler) {
+      function toggleMainContentAndDetailView(showDetail) {
+        document
+          .querySelectorAll("main > .page-section:not(#brawler-detail-page)")
+          .forEach((s) => s.classList.toggle("hidden", showDetail));
+        brawlerDetailPage.classList.toggle("hidden", !showDetail);
+        if (!showDetail) {
+          stopAllPlayback();
+          document
+            .getElementById("sticky-audio-player")
+            .classList.remove("visible");
+          document
+            .querySelectorAll(".voiceline-item")
+            .forEach((el) => el.classList.remove("playing"));
+        }
+      }
+
+      function shuffleArray(array) {
+        const newArr = [...array];
+        for (let i = newArr.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [newArr[i], newArr[j]] = [newArr[j], newArr[i]];
+        }
+        return newArr;
+      }
+
+      function playNextTrack() {
+        if (!isSequentialPlaying) return;
+        currentIndex++;
+        if (currentIndex < playlist.length) playTrackByIndex(currentIndex);
+        else {
+          stopAllPlayback();
+        } // alertなし
+      }
+
+      function playTrackByIndex(index) {
+        currentIndex = index;
+        const track = playlist[currentIndex];
+        if (!track || !track.audioUrl) return;
+        if (currentAudio) {
+          currentAudio.pause();
+          currentAudio.currentTime = 0;
+        }
+        currentAudio = new Audio(track.audioUrl);
+        document
+          .querySelectorAll(".voiceline-item")
+          .forEach((el) => el.classList.remove("playing"));
+        const currentEl = document.getElementById(`vl-item-${track.id}`);
+        if (currentEl) currentEl.classList.add("playing");
+        document.getElementById("sticky-now-playing-text").innerText =
+          track.quote;
+        document.getElementById("sticky-audio-player").classList.add("visible");
+        isSequentialPlaying = true;
+        updatePlayerUI();
+        currentAudio.play().catch((e) => console.error(e));
+        currentAudio.onended = () => {
+          if (isSequentialPlaying) playNextTrack();
+        };
+      }
+
+      function stopAllPlayback() {
+        isSequentialPlaying = false;
+        if (currentAudio) currentAudio.pause();
+        updatePlayerUI();
+      }
+
+      function updatePlayerUI() {
+        const playBtn = document.getElementById("play-all-master-btn");
+        const stickyPlayBtn = document.getElementById("sticky-play-pause");
+        const shuffleBtn = document.getElementById("shuffle-toggle-btn");
+        const stickyShuffleBtn = document.getElementById("sticky-shuffle");
+        const icon = isSequentialPlaying ? "⏸" : "▶";
+        if (playBtn)
+          playBtn.innerText = isSequentialPlaying
+            ? "⏸ 一時停止"
+            : "▶ 全音声再生";
+        if (stickyPlayBtn) stickyPlayBtn.innerText = icon;
+        if (shuffleBtn) {
+          shuffleBtn.innerText = isShuffle ? "🔀 ON" : "🔀 OFF";
+          shuffleBtn.style.color = isShuffle
+            ? "var(--accent-secondary)"
+            : "var(--accent-primary)";
+        }
+        if (stickyShuffleBtn)
+          stickyShuffleBtn.style.color = isShuffle
+            ? "var(--accent-secondary)"
+            : "#fff";
+      }
+
+      function createBrawlerCard(b) {
         const card = document.createElement("div");
         card.className = "brawler-card";
-        const placeholderText = brawler.nameEn || brawler.name;
-        const imageUrl =
-          brawler.iconUrl ||
-          `https://placehold.co/80x80/00d1ff/121212?text=${encodeURIComponent(
-            placeholderText
-          )}`;
-
-        card.innerHTML = `
-                <img src="${imageUrl}" alt="${
-          brawler.name
-        }" onerror="this.onerror=null;this.src='https://placehold.co/80x80/cccccc/000000?text=N/A';">
-                <h3>${brawler.name}</h3>
-                <div class="rarity ${
-                  brawler.rarity
-                    ? brawler.rarity.toLowerCase().replace(/\s+/g, "-")
-                    : ""
-                }">${getRarityText(brawler.rarity || "")}</div>
-                <div class="role">${getRoleText(brawler.role || "")}</div>
-                <div class="quote">"${brawler.quote || "..."}"</div>
-              `;
-        card.addEventListener("click", () => {
+        const img = b.iconUrl || `https://placehold.co/80x80?text=${b.name}`;
+        card.innerHTML = `<img src="${img}"><h3>${
+          b.name
+        }</h3><div class="rarity ${b.rarity
+          .toLowerCase()
+          .replace(/\s+/g, "-")}">${getRarityText(
+          b.rarity
+        )}</div><div class="role">${getRoleText(
+          b.role
+        )}</div><div class="quote">"${b.quote}"</div>`;
+        card.onclick = () => {
           lastScrollPosition = window.scrollY;
-          lastClickedCardElement = card;
-          displayBrawlerDetail(brawler);
-        });
+          displayBrawlerDetail(b);
+        };
         return card;
       }
 
-      // 詳細ページ表示
-      function displayBrawlerDetail(brawler) {
-        const placeholderText = brawler.nameEn || brawler.name;
-        const imageUrl =
-          brawler.iconUrl ||
-          `https://placehold.co/120x120/00d1ff/121212?text=${encodeURIComponent(
-            placeholderText
-          )}`;
-
-        const hasTikTok = brawler.tiktokUrl && brawler.tiktokUrl.trim() !== "";
-        const tiktokButtonHtml = `
-                <div class="detail-tiktok-box ${hasTikTok ? "" : "disabled"}">
-                    <a ${
-                      hasTikTok
-                        ? `href="${brawler.tiktokUrl}" target="_blank" rel="noopener noreferrer"`
-                        : ""
-                    }>
-                        ${hasTikTok ? "🎬 Tiktokで見る" : "🎥 動画は準備中です"}
-                    </a>
-                </div>
-              `;
-
-        let allVoicelinesHtml = "";
-        if (brawler.voicelines && brawler.voicelines.length > 0) {
-          allVoicelinesHtml = `
-                      <div class="voicelines-section">
-                          <h3>セリフ一覧</h3>
-                          ${brawler.voicelines
-                            .map(
-                              (vl) => `
-                              <div class="voiceline-item">
-                                  <div class="voiceline-main">
-                                      <div class="voiceline-quotes">
-                                          <p class="quote-en">"${vl.quote}"</p>
-                                          <p class="quote-jp">${
-                                            vl.translation
-                                          }</p>
-                                      </div>
-                                      <div class="voiceline-actions">
-                                          <button
-                                            class="voiceline-play-btn"
-                                            data-audio-src="${
-                                              vl.audioUrl || ""
-                                            }"
-                                            ${!vl.audioUrl ? "disabled" : ""}
-                                          >
-                                            再生 ▶
-                                          </button>
-                                          <button class="voiceline-toggle" data-target="${
-                                            vl.id
-                                          }">解説 ▼</button>
-                                      </div>
-                                  </div>
-                                  <div class="voiceline-explanation" id="${
-                                    vl.id
-                                  }">${vl.explanation}</div>
-                              </div>
-                          `
-                            )
-                            .join("")}
-                      </div>
-                  `;
-        } else {
-          allVoicelinesHtml =
-            '<div class="voicelines-section"><h3>セリフ一覧</h3><p>このキャラクターのセリフは準備中です。</p></div>';
-        }
-
+      function displayBrawlerDetail(b) {
+        const lines = b.voicelines || [];
+        const valid = lines.filter((l) => l.audioUrl);
+        const img = b.iconUrl || `https://placehold.co/120x120?text=${b.name}`;
         brawlerDetailContent.innerHTML = `
-                <div class="brawler-detail-main-layout">
-                    <div class="brawler-detail-left">
-                        <img src="${imageUrl}" alt="${
-          brawler.name
-        }" class="brawler-detail-icon" onerror="this.onerror=null;this.src='https://placehold.co/120x120/cccccc/000000?text=N/A';">
-                        <h2 class="brawler-detail-name-jp">${brawler.name}</h2>
-                        <p class="brawler-detail-name-en">${
-                          brawler.nameEn || "N/A"
-                        }</p>
-                        <div class="brawler-detail-tags">
-                            <span class="rarity ${
-                              brawler.rarity
-                                ? brawler.rarity
-                                    .toLowerCase()
-                                    .replace(/\s+/g, "-")
-                                : ""
-                            }">${getRarityText(brawler.rarity || "")}</span>
-                            <span class="role">${getRoleText(
-                              brawler.role || ""
-                            )}</span>
-                        </div>
-                        <div class="brawler-detail-primary-quote">
-                            <div class="quote-label">代表的なセリフ:</div>
-                            <p class="quote-text">"${
-                              brawler.quote || "..."
-                            }"</p>
-                        </div>
-                    </div>
-                    <div class="brawler-detail-right">
-                        <div class="detail-actions-box">
-                            <button>▶ 全音声再生</button>
-                        </div>
-                        ${tiktokButtonHtml}
-                        <button class="btn btn-secondary back-to-list-button" style="width: 100%;">
-                            一覧へ戻る
-                        </button>
-                    </div>
-                </div>
-                ${allVoicelinesHtml}
-              `;
-
-        // 詳細画面へのスクロール挙動
+          <div class="brawler-detail-main-layout">
+            <div class="brawler-detail-left">
+              <img src="${img}" class="brawler-detail-icon">
+              <h2 class="brawler-detail-name-jp">${b.name}</h2>
+              <div class="brawler-detail-tags"><span class="rarity">${getRarityText(
+                b.rarity
+              )}</span><span class="role">${getRoleText(b.role)}</span></div>
+              <div class="brawler-detail-primary-quote"><p class="quote-text">"${
+                b.quote
+              }"</p></div>
+            </div>
+            <div class="brawler-detail-right">
+              <div class="detail-actions-box">
+                <button id="play-all-master-btn">▶ 全音声再生</button>
+                <div style="display: flex; gap: 5px;"><button id="prev-track-btn" style="flex:1">⏮ 前へ</button><button id="next-track-btn" style="flex:1">⏭ 次へ</button></div>
+                <button id="shuffle-toggle-btn">🔀 OFF</button>
+              </div>
+              <button class="btn btn-secondary back-to-list-button" style="width: 100%;">一覧へ戻る</button>
+            </div>
+          </div>
+          <div class="voicelines-section">
+            <h3>セリフ一覧 (${valid.length}件)</h3>
+            <div id="voiceline-list-container">
+              ${lines
+                .map(
+                  (l) =>
+                    `<div class="voiceline-item" id="vl-item-${
+                      l.id
+                    }"><div class="voiceline-main"><div class="voiceline-quotes"><p class="quote-en">"${
+                      l.quote
+                    }"</p><p class="quote-jp">${
+                      l.translation
+                    }</p></div><div class="voiceline-actions"><button class="voiceline-play-btn" data-audio-src="${
+                      l.audioUrl || ""
+                    }" ${
+                      !l.audioUrl ? "disabled" : ""
+                    }>再生 ▶</button><button class="voiceline-toggle" data-target="${
+                      l.id
+                    }">解説 ▼</button></div></div><div class="voiceline-explanation" id="${
+                      l.id
+                    }">${l.explanation}</div></div>`
+                )
+                .join("")}
+            </div>
+          </div>`;
         toggleMainContentAndDetailView(true);
         window.scrollTo({ top: 0, behavior: "instant" });
-
-        document.querySelectorAll(".voiceline-toggle").forEach((button) => {
-          button.addEventListener("click", () => {
-            const explanation = document.getElementById(button.dataset.target);
-            if (explanation) {
-              button.classList.toggle("active");
-              const isHidden =
-                explanation.style.display === "none" ||
-                explanation.style.display === "";
-              explanation.style.display = isHidden ? "block" : "none";
-              button.innerHTML = isHidden ? "解説 ▲" : "解説 ▼";
-            }
-          });
-        });
+        document.getElementById("play-all-master-btn").onclick = () => {
+          if (isSequentialPlaying) stopAllPlayback();
+          else {
+            playlist = isShuffle ? shuffleArray(valid) : [...valid];
+            if (playlist.length > 0) playTrackByIndex(0);
+          }
+        };
+        document.getElementById("next-track-btn").onclick = playNextTrack;
+        document.getElementById("prev-track-btn").onclick = () => {
+          if (currentIndex > 0) {
+            currentIndex--;
+            playTrackByIndex(currentIndex);
+          }
+        };
+        document.getElementById("shuffle-toggle-btn").onclick = () => {
+          isShuffle = !isShuffle;
+          playlist = isShuffle ? shuffleArray(valid) : [...valid];
+          updatePlayerUI();
+        };
+        document.querySelectorAll(".voiceline-toggle").forEach(
+          (btn) =>
+            (btn.onclick = () => {
+              const exp = document.getElementById(btn.dataset.target);
+              const isH =
+                exp.style.display === "none" || exp.style.display === "";
+              exp.style.display = isH ? "block" : "none";
+              btn.innerText = isH ? "解説 ▲" : "解説 ▼";
+            })
+        );
       }
 
-      function displayBrawlers(brawlersToShow) {
-        if (!brawlerGrid) return;
+      function displayBrawlers(l) {
         brawlerGrid.innerHTML = "";
-        if (brawlersToShow.length === 0) {
-          if (noResults) noResults.style.display = "block";
-          brawlerGrid.style.display = "none";
-        } else {
-          if (noResults) noResults.style.display = "none";
+        if (l.length === 0) noResults.style.display = "block";
+        else {
+          noResults.style.display = "none";
           brawlerGrid.style.display = "grid";
-          brawlersToShow.forEach((brawler) => {
-            const card = createBrawlerCard(brawler);
-            brawlerGrid.appendChild(card);
-          });
+          l.forEach((b) => brawlerGrid.appendChild(createBrawlerCard(b)));
         }
       }
 
       function filterBrawlers() {
-        const searchTerm = searchInput.value.toLowerCase().trim();
-        const selectedRarity = rarityFilter.value;
-        const selectedRole = roleFilter.value;
-
-        const sourceData = typeof brawlers !== "undefined" ? brawlers : [];
-
-        filteredBrawlers = sourceData.filter((brawler) => {
-          const nameJpMatch = brawler.name.toLowerCase().includes(searchTerm);
-          const nameEnMatch = brawler.nameEn
-            ? brawler.nameEn.toLowerCase().includes(searchTerm)
-            : false;
-          const rarityMatch =
-            !selectedRarity || brawler.rarity === selectedRarity;
-          const roleMatch = !selectedRole || brawler.role === selectedRole;
-          return (nameJpMatch || nameEnMatch) && rarityMatch && roleMatch;
-        });
+        const s = searchInput.value.toLowerCase().trim();
+        const r = rarityFilter.value;
+        const ro = roleFilter.value;
+        const source = typeof brawlers !== "undefined" ? brawlers : [];
+        filteredBrawlers = source.filter(
+          (b) =>
+            b.name.toLowerCase().includes(s) &&
+            (!r || b.rarity === r) &&
+            (!ro || b.role === ro)
+        );
         displayBrawlers(filteredBrawlers);
-      }
-
-      function handleBackToList() {
-        toggleMainContentAndDetailView(false);
-        setActiveNavLink("brawler-spotlight");
-        window.scrollTo({ top: lastScrollPosition, behavior: "instant" });
-      }
-
-      function handleNavLinkClick(e) {
-        e.preventDefault();
-        const sectionId = this.dataset.sectionId;
-        const targetSection = document.getElementById(sectionId);
-        if (targetSection) {
-          if (
-            brawlerDetailPage &&
-            !brawlerDetailPage.classList.contains("hidden")
-          ) {
-            toggleMainContentAndDetailView(false);
-          }
-          setTimeout(() => {
-            targetSection.scrollIntoView({ behavior: "auto" });
-            setActiveNavLink(sectionId);
-          }, 50);
-        }
-      }
-
-      function embedTikTokVideo(videoId, targetElementId) {
-        const targetElement = document.getElementById(targetElementId);
-        if (targetElement) {
-          targetElement.style.backgroundColor = "#1f1f1f";
-          targetElement.innerHTML = `
-                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@bion329/video/${videoId}" data-video-id="${videoId}" style="max-width: 605px;min-width: 325px;" >
-                           <section>
-                               <a target="_blank" title="@bion329" href="https://www.tiktok.com/@bion329?refer=embed">@bion329</a>
-                               <p></p>
-                               <a target="_blank" title="♬ 原聲 - Bion" href="https://www.tiktok.com/music/原聲-7507203750757206805?refer=embed">♬ 原聲 - Bion</a>
-                           </section>
-                        </blockquote>
-                      `;
-        }
       }
 
       document.addEventListener("DOMContentLoaded", () => {
@@ -1304,83 +1238,86 @@
         } else {
           themeToggleButton.innerHTML = "☀️";
         }
-        themeToggleButton.addEventListener("click", () => {
+        themeToggleButton.onclick = () => {
           document.body.classList.toggle("light-theme");
-          let theme = document.body.classList.contains("light-theme")
+          let t = document.body.classList.contains("light-theme")
             ? "light"
             : "dark";
-          themeToggleButton.innerHTML = theme === "light" ? "🌙" : "☀️";
-          localStorage.setItem("theme", theme);
-        });
+          themeToggleButton.innerHTML = t === "light" ? "🌙" : "☀️";
+          localStorage.setItem("theme", t);
+        };
 
-        if (searchInput) searchInput.addEventListener("input", filterBrawlers);
-        if (rarityFilter)
-          rarityFilter.addEventListener("change", filterBrawlers);
-        if (roleFilter) roleFilter.addEventListener("change", filterBrawlers);
+        if (searchInput) searchInput.oninput = filterBrawlers;
+        if (rarityFilter) rarityFilter.onchange = filterBrawlers;
+        if (roleFilter) roleFilter.onchange = filterBrawlers;
 
-        if (brawlerDetailPage) {
-          brawlerDetailPage.addEventListener("click", function (event) {
-            if (event.target.classList.contains("voiceline-play-btn")) {
-              const playBtn = event.target;
-              const audioUrl = playBtn.dataset.audioSrc;
-              if (!audioUrl) return;
-              if (currentAudio) {
-                currentAudio.pause();
-                currentAudio.currentTime = 0;
-              }
-              currentAudio = new Audio(audioUrl);
-              currentAudio.play().catch((e) => {
-                console.error("音声の再生に失敗しました:", e);
-                alert("音声の再生に失敗しました。");
-              });
-            }
-          });
-        }
-
-        if (brawlerDetailPage) {
-          brawlerDetailPage.addEventListener("click", function (event) {
-            if (event.target.closest(".back-to-list-button")) {
-              handleBackToList();
-            }
-          });
-        }
-
-        navLinks.forEach((link) => {
-          link.addEventListener("click", handleNavLinkClick);
-        });
-        if (heroScrollLink) {
-          heroScrollLink.addEventListener("click", handleNavLinkClick);
-        }
-        if (pageTopBtn) {
-          window.addEventListener("scroll", () => {
-            pageTopBtn.classList.toggle("visible", window.scrollY > 300);
-          });
-          pageTopBtn.addEventListener("click", (e) => {
-            e.preventDefault();
-            window.scrollTo({ top: 0, behavior: "smooth" });
-          });
-        }
-
-        if (typeof brawlers !== "undefined" && Array.isArray(brawlers)) {
-          filteredBrawlers = [...brawlers];
-          displayBrawlers(brawlers);
-        } else {
-          console.error(
-            "キャラクターデータが見つかりません。brawlers.jsの読み込みを確認してください。"
-          );
-          if (brawlerGrid) {
-            brawlerGrid.innerHTML =
-              "<p style='text-align:center; padding:20px; color:red;'>⚠️ データ読み込みエラー: キャラクターデータが見つかりません。</p>";
-            brawlerGrid.style.display = "block";
+        brawlerDetailPage.onclick = (e) => {
+          if (e.target.classList.contains("voiceline-play-btn")) {
+            const url = e.target.dataset.audioSrc;
+            if (!url) return;
+            isSequentialPlaying = false;
+            if (currentAudio) currentAudio.pause();
+            currentAudio = new Audio(url);
+            playlist = [
+              {
+                audioUrl: url,
+                quote: e.target
+                  .closest(".voiceline-item")
+                  .querySelector(".quote-en").innerText,
+                id: e.target
+                  .closest(".voiceline-item")
+                  .id.replace("vl-item-", ""),
+              },
+            ];
+            playTrackByIndex(0);
           }
-        }
+          if (e.target.closest(".back-to-list-button")) {
+            toggleMainContentAndDetailView(false);
+            window.scrollTo({ top: lastScrollPosition, behavior: "instant" });
+          }
+        };
 
-        if (brawlerDetailPage) {
-          toggleMainContentAndDetailView(false);
-        }
-        setActiveNavLink("hero");
+        document.getElementById("sticky-play-pause").onclick = () => {
+          if (isSequentialPlaying) stopAllPlayback();
+          else if (currentAudio) {
+            isSequentialPlaying = true;
+            currentAudio.play();
+            updatePlayerUI();
+          }
+        };
+        document.getElementById("sticky-next").onclick = playNextTrack;
+        document.getElementById("sticky-prev").onclick = () => {
+          if (currentIndex > 0) {
+            currentIndex--;
+            playTrackByIndex(currentIndex);
+          }
+        };
+        document.getElementById("sticky-shuffle").onclick = () => {
+          isShuffle = !isShuffle;
+          updatePlayerUI();
+        };
+
+        const pageTopBtn = document.createElement("div");
+        pageTopBtn.id = "page-top-btn";
+        pageTopBtn.innerHTML = "▲";
+        document.body.appendChild(pageTopBtn);
+        window.onscroll = () => {
+          pageTopBtn.classList.toggle("visible", window.scrollY > 300);
+        };
+        pageTopBtn.onclick = () =>
+          window.scrollTo({ top: 0, behavior: "smooth" });
+
+        if (typeof brawlers !== "undefined") displayBrawlers(brawlers);
         embedTikTokVideo("7507203728039070996", "tiktok-video-1");
       });
+
+      function embedTikTokVideo(videoId, targetElementId) {
+        const targetElement = document.getElementById(targetElementId);
+        if (targetElement) {
+          targetElement.style.backgroundColor = "#1f1f1f";
+          targetElement.innerHTML = `<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@bion329/video/${videoId}" data-video-id="${videoId}" style="max-width: 605px;min-width: 325px;"><section><a target="_blank" title="@bion329" href="https://www.tiktok.com/@bion329?refer=embed">@bion329</a></section></blockquote>`;
+        }
+      }
     </script>
   </body>
 </html>
