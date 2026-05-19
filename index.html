@@ -1011,6 +1011,72 @@
       }
 
       /* ▲▲▲ ここまで ▲▲▲ */
+
+      /* 暗記モード：日本語訳を黒塗り風に隠す */
+      .jp-hidden .quote-jp {
+        color: transparent;
+        background-color: var(--text-secondary);
+        border-radius: 3px;
+        cursor: pointer;
+        user-select: none;
+        transition: color 0.3s, background-color 0.3s;
+      }
+      /* タップで1行ずつ個別に表示 */
+      .jp-hidden .quote-jp.revealed {
+        color: var(--quote-jp-color);
+        background-color: transparent;
+      }
+
+      /* 再生スピード選択ボタン */
+      .speed-btn-group {
+        display: flex;
+        gap: 4px;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .speed-btn {
+        border: 1px solid var(--accent-primary);
+        color: var(--accent-primary);
+        background: none;
+        padding: 4px 8px;
+        border-radius: 12px;
+        font-size: 0.8em;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background-color 0.2s, color 0.2s;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .speed-btn.active {
+        background-color: var(--accent-primary);
+        color: var(--btn-text);
+      }
+
+      /* フォントサイズ切り替え */
+      .font-size-sm .voiceline-quotes { font-size: 0.85em; }
+      .font-size-lg .voiceline-quotes { font-size: 1.2em; }
+
+      /* セリフ一覧ヘッダー（見出し＋表示設定ボタンを横並び） */
+      .voicelines-section-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        border-bottom: 2px solid var(--border-color);
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+      .voicelines-section-header h3 {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+      .voiceline-display-controls {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
     </style>
   </head>
 
@@ -1323,6 +1389,9 @@
       let currentIndex = 0;
       let isShuffle = false;
       let isSequentialPlaying = false;
+      let isJpHidden = localStorage.getItem('lexie_jp_hidden') === 'true';
+      let playbackRate = parseFloat(localStorage.getItem('lexie_playback_rate') || '1');
+      let fontSize = localStorage.getItem('lexie_font_size') || 'md';
 
       // ■ 要素の取得
       const searchInput = document.getElementById("brawler-search");
@@ -1489,14 +1558,21 @@
 
         // HTMLをセット（プレーヤーボタンを追加）
         voicelinesContainer.innerHTML = `
-    <h3 style="color: var(--accent-secondary); border-bottom: 2px solid var(--border-color); padding-bottom: 10px; margin-bottom: 20px;">セリフ</h3>
-    
+    <div class="voicelines-section-header">
+      <h3 style="color: var(--accent-secondary);">セリフ</h3>
+      <div class="voiceline-display-controls">
+        <button class="speed-btn${isJpHidden ? ' active' : ''}" id="fav-toggle-jp-btn">🙈 暗記</button>
+        ${renderFontSizeButtons()}
+      </div>
+    </div>
+
     <div class="detail-actions-box" id="fav-player-controls" style="margin-bottom: 20px; display: none;">
         <button id="fav-play-all-btn">▶ 全音声再生</button>
         <button id="fav-shuffle-btn">🔀 OFF</button>
+        <div style="display:flex; align-items:center; flex-wrap:wrap; gap:4px; padding:4px 0;">${renderSpeedButtons()}</div>
     </div>
 
-    <div id="fav-voicelines-list"></div>
+    <div id="fav-voicelines-list" class="font-size-target"></div>
     <p id="no-fav-voicelines-msg" style="text-align: center; color: var(--text-tertiary); display: none;">登録されたセリフはいません。</p>
   `;
 
@@ -1567,6 +1643,24 @@
                 : [...tempPlaylist];
             }
           };
+
+          // 暗記モードボタン（お気に入りページ）
+          const favToggleJpBtn = document.getElementById('fav-toggle-jp-btn');
+          if (favToggleJpBtn) {
+            favToggleJpBtn.onclick = () => {
+              isJpHidden = !isJpHidden;
+              localStorage.setItem('lexie_jp_hidden', isJpHidden);
+              favToggleJpBtn.classList.toggle('active', isJpHidden);
+              vList.classList.toggle('jp-hidden', isJpHidden);
+              if (!isJpHidden) {
+                vList.querySelectorAll('.quote-jp.revealed').forEach(el => el.classList.remove('revealed'));
+              }
+            };
+          }
+
+          bindSpeedButtons();
+          bindFontSizeButtons();
+          setFontSize(fontSize);
         } else {
           document.getElementById("no-fav-voicelines-msg").style.display =
             "block";
@@ -1612,6 +1706,14 @@
           };
 
           vList.appendChild(item);
+        });
+
+        // 暗記モードの初期状態を適用し、タップ個別表示を設定
+        if (isJpHidden) vList.classList.add('jp-hidden');
+        vList.querySelectorAll('.quote-jp').forEach(el => {
+          el.addEventListener('click', () => {
+            if (isJpHidden) el.classList.toggle('revealed');
+          });
         });
       }
       // ▲▲▲ 2. 修正版 renderFavoritesPage（ここまでコピー） ▲▲▲
@@ -1700,7 +1802,7 @@
               <div class="detail-actions-box">
                 ${
                   lines.length > 0
-                    ? `<button id="play-all-master-btn">▶ 全音声再生</button><div style="display: flex; gap: 5px;"><button id="prev-track-btn" style="flex:1">⏮ 前へ</button><button id="next-track-btn" style="flex:1">⏭ 次へ</button></div><button id="shuffle-toggle-btn">🔀 OFF</button>`
+                    ? `<button id="play-all-master-btn">▶ 全音声再生</button><div style="display: flex; gap: 5px;"><button id="prev-track-btn" style="flex:1">⏮ 前へ</button><button id="next-track-btn" style="flex:1">⏭ 次へ</button></div><button id="shuffle-toggle-btn">🔀 OFF</button><div style="display:flex; align-items:center; flex-wrap:wrap; gap:4px; padding:4px 0;">${renderSpeedButtons()}</div>`
                     : `<p style="color: var(--accent-primary);">音声準備中...</p>`
                 }
               </div>
@@ -1711,8 +1813,14 @@
           <div class="voicelines-section" ${
             lines.length === 0 ? 'style="display:none;"' : ""
           }>
-            <h3>セリフ一覧 (${valid.length}件)</h3>
-            <div id="voiceline-list-container">
+            <div class="voicelines-section-header">
+              <h3>セリフ一覧 (${valid.length}件)</h3>
+              <div class="voiceline-display-controls">
+                <button class="speed-btn${isJpHidden ? ' active' : ''}" id="toggle-jp-btn">🙈 暗記</button>
+                ${renderFontSizeButtons()}
+              </div>
+            </div>
+            <div id="voiceline-list-container" class="font-size-target">
               ${lines
                 .map((l) => {
                   const isVlFav = favVoicelines.includes(l.id);
@@ -1814,9 +1922,12 @@
             isSequentialPlaying = false;
             if (currentAudio) currentAudio.pause();
             currentAudio = new Audio(url);
+            currentAudio.playbackRate = playbackRate;
             currentAudio.play();
           };
         });
+
+        bindSpeedButtons();
 
         document.querySelectorAll(".back-to-list-button").forEach((btn) => {
           btn.onclick = () => {
@@ -1824,11 +1935,91 @@
             window.scrollTo({ top: lastScrollPosition, behavior: "instant" });
           };
         });
+
+        // 暗記モード：日本語訳トグル（セリフ一覧ヘッダー横に移動済み）
+        const toggleJpBtn = document.getElementById('toggle-jp-btn');
+        const vlContainer = document.getElementById('voiceline-list-container');
+        if (toggleJpBtn && vlContainer) {
+          if (isJpHidden) vlContainer.classList.add('jp-hidden');
+          toggleJpBtn.onclick = () => {
+            isJpHidden = !isJpHidden;
+            localStorage.setItem('lexie_jp_hidden', isJpHidden);
+            vlContainer.classList.toggle('jp-hidden', isJpHidden);
+            toggleJpBtn.classList.toggle('active', isJpHidden);
+            if (!isJpHidden) {
+              vlContainer.querySelectorAll('.quote-jp.revealed').forEach(el => el.classList.remove('revealed'));
+            }
+          };
+          vlContainer.querySelectorAll('.quote-jp').forEach(el => {
+            el.addEventListener('click', () => {
+              if (isJpHidden) el.classList.toggle('revealed');
+            });
+          });
+        }
+
+        bindFontSizeButtons();
+        setFontSize(fontSize);
       }
 
       // ----------------------------------------------------
       // 5. プレイヤー制御（既存の機能）
       // ----------------------------------------------------
+
+      // 再生スピードボタンのHTML文字列を生成
+      function renderSpeedButtons() {
+        const rates = [0.5, 0.75, 1.0, 1.25, 1.5];
+        const btns = rates.map(r =>
+          `<button class="speed-btn${r === playbackRate ? ' active' : ''}" data-rate="${r}">${r}x</button>`
+        ).join('');
+        return `<span style="font-size:0.8em; color:var(--text-tertiary); margin-right:4px;">速度</span><div class="speed-btn-group">${btns}</div>`;
+      }
+
+      // スピード変更・保存・再生中なら即時反映
+      function setPlaybackRate(rate) {
+        playbackRate = rate;
+        localStorage.setItem('lexie_playback_rate', rate);
+        if (currentAudio) currentAudio.playbackRate = rate;
+        document.querySelectorAll('.speed-btn').forEach(btn =>
+          btn.classList.toggle('active', parseFloat(btn.dataset.rate) === rate)
+        );
+      }
+
+      // スピードボタンのイベントを配線（コンテナ内の.speed-btnに一括設定）
+      function bindSpeedButtons() {
+        document.querySelectorAll('.speed-btn').forEach(btn => {
+          btn.onclick = () => setPlaybackRate(parseFloat(btn.dataset.rate));
+        });
+      }
+
+      // フォントサイズボタンのHTML文字列を生成（speed-btnと同じデザイン）
+      function renderFontSizeButtons() {
+        const sizes = [{ key: 'sm', label: '小' }, { key: 'md', label: '中' }, { key: 'lg', label: '大' }];
+        const btns = sizes.map(s =>
+          `<button class="speed-btn font-size-btn${s.key === fontSize ? ' active' : ''}" data-size="${s.key}">${s.label}</button>`
+        ).join('');
+        return `<span style="font-size:0.8em; color:var(--text-tertiary); margin-right:2px;">文字</span><div class="speed-btn-group">${btns}</div>`;
+      }
+
+      // フォントサイズ変更・保存・DOM即時反映
+      function setFontSize(size) {
+        fontSize = size;
+        localStorage.setItem('lexie_font_size', size);
+        document.querySelectorAll('.font-size-target').forEach(el => {
+          el.classList.remove('font-size-sm', 'font-size-lg');
+          if (size !== 'md') el.classList.add(`font-size-${size}`);
+        });
+        document.querySelectorAll('.font-size-btn').forEach(btn =>
+          btn.classList.toggle('active', btn.dataset.size === size)
+        );
+      }
+
+      // フォントサイズボタンのイベント配線
+      function bindFontSizeButtons() {
+        document.querySelectorAll('.font-size-btn').forEach(btn => {
+          btn.onclick = () => setFontSize(btn.dataset.size);
+        });
+      }
+
       function shuffleArray(array) {
         const newArr = [...array];
         for (let i = newArr.length - 1; i > 0; i--) {
@@ -1852,6 +2043,7 @@
           currentAudio.currentTime = 0;
         }
         currentAudio = new Audio(track.audioUrl);
+        currentAudio.playbackRate = playbackRate;
         document
           .querySelectorAll(".voiceline-item")
           .forEach((el) => el.classList.remove("playing"));
