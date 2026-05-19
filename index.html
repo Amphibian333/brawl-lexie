@@ -1050,6 +1050,33 @@
         background-color: var(--accent-primary);
         color: var(--btn-text);
       }
+
+      /* フォントサイズ切り替え */
+      .font-size-sm .voiceline-quotes { font-size: 0.85em; }
+      .font-size-lg .voiceline-quotes { font-size: 1.2em; }
+
+      /* セリフ一覧ヘッダー（見出し＋表示設定ボタンを横並び） */
+      .voicelines-section-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        border-bottom: 2px solid var(--border-color);
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+      .voicelines-section-header h3 {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+      .voiceline-display-controls {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
     </style>
   </head>
 
@@ -1364,6 +1391,7 @@
       let isSequentialPlaying = false;
       let isJpHidden = localStorage.getItem('lexie_jp_hidden') === 'true';
       let playbackRate = parseFloat(localStorage.getItem('lexie_playback_rate') || '1');
+      let fontSize = localStorage.getItem('lexie_font_size') || 'md';
 
       // ■ 要素の取得
       const searchInput = document.getElementById("brawler-search");
@@ -1530,16 +1558,21 @@
 
         // HTMLをセット（プレーヤーボタンを追加）
         voicelinesContainer.innerHTML = `
-    <h3 style="color: var(--accent-secondary); border-bottom: 2px solid var(--border-color); padding-bottom: 10px; margin-bottom: 20px;">セリフ</h3>
-    
+    <div class="voicelines-section-header">
+      <h3 style="color: var(--accent-secondary);">セリフ</h3>
+      <div class="voiceline-display-controls">
+        <button class="speed-btn${isJpHidden ? ' active' : ''}" id="fav-toggle-jp-btn">🙈 暗記</button>
+        ${renderFontSizeButtons()}
+      </div>
+    </div>
+
     <div class="detail-actions-box" id="fav-player-controls" style="margin-bottom: 20px; display: none;">
         <button id="fav-play-all-btn">▶ 全音声再生</button>
         <button id="fav-shuffle-btn">🔀 OFF</button>
-        <button id="fav-toggle-jp-btn">${isJpHidden ? '👁 日本語訳を表示' : '🙈 日本語訳を隠す'}</button>
         <div style="display:flex; align-items:center; flex-wrap:wrap; gap:4px; padding:4px 0;">${renderSpeedButtons()}</div>
     </div>
 
-    <div id="fav-voicelines-list"></div>
+    <div id="fav-voicelines-list" class="font-size-target"></div>
     <p id="no-fav-voicelines-msg" style="text-align: center; color: var(--text-tertiary); display: none;">登録されたセリフはいません。</p>
   `;
 
@@ -1614,11 +1647,10 @@
           // 暗記モードボタン（お気に入りページ）
           const favToggleJpBtn = document.getElementById('fav-toggle-jp-btn');
           if (favToggleJpBtn) {
-            favToggleJpBtn.innerText = isJpHidden ? '👁 日本語訳を表示' : '🙈 日本語訳を隠す';
             favToggleJpBtn.onclick = () => {
               isJpHidden = !isJpHidden;
               localStorage.setItem('lexie_jp_hidden', isJpHidden);
-              favToggleJpBtn.innerText = isJpHidden ? '👁 日本語訳を表示' : '🙈 日本語訳を隠す';
+              favToggleJpBtn.classList.toggle('active', isJpHidden);
               vList.classList.toggle('jp-hidden', isJpHidden);
               if (!isJpHidden) {
                 vList.querySelectorAll('.quote-jp.revealed').forEach(el => el.classList.remove('revealed'));
@@ -1627,6 +1659,8 @@
           }
 
           bindSpeedButtons();
+          bindFontSizeButtons();
+          setFontSize(fontSize);
         } else {
           document.getElementById("no-fav-voicelines-msg").style.display =
             "block";
@@ -1768,7 +1802,7 @@
               <div class="detail-actions-box">
                 ${
                   lines.length > 0
-                    ? `<button id="play-all-master-btn">▶ 全音声再生</button><div style="display: flex; gap: 5px;"><button id="prev-track-btn" style="flex:1">⏮ 前へ</button><button id="next-track-btn" style="flex:1">⏭ 次へ</button></div><button id="shuffle-toggle-btn">🔀 OFF</button><button id="toggle-jp-btn">${isJpHidden ? '👁 日本語訳を表示' : '🙈 日本語訳を隠す'}</button><div style="display:flex; align-items:center; flex-wrap:wrap; gap:4px; padding:4px 0;">${renderSpeedButtons()}</div>`
+                    ? `<button id="play-all-master-btn">▶ 全音声再生</button><div style="display: flex; gap: 5px;"><button id="prev-track-btn" style="flex:1">⏮ 前へ</button><button id="next-track-btn" style="flex:1">⏭ 次へ</button></div><button id="shuffle-toggle-btn">🔀 OFF</button><div style="display:flex; align-items:center; flex-wrap:wrap; gap:4px; padding:4px 0;">${renderSpeedButtons()}</div>`
                     : `<p style="color: var(--accent-primary);">音声準備中...</p>`
                 }
               </div>
@@ -1779,8 +1813,14 @@
           <div class="voicelines-section" ${
             lines.length === 0 ? 'style="display:none;"' : ""
           }>
-            <h3>セリフ一覧 (${valid.length}件)</h3>
-            <div id="voiceline-list-container">
+            <div class="voicelines-section-header">
+              <h3>セリフ一覧 (${valid.length}件)</h3>
+              <div class="voiceline-display-controls">
+                <button class="speed-btn${isJpHidden ? ' active' : ''}" id="toggle-jp-btn">🙈 暗記</button>
+                ${renderFontSizeButtons()}
+              </div>
+            </div>
+            <div id="voiceline-list-container" class="font-size-target">
               ${lines
                 .map((l) => {
                   const isVlFav = favVoicelines.includes(l.id);
@@ -1896,7 +1936,7 @@
           };
         });
 
-        // 暗記モード：日本語訳トグル
+        // 暗記モード：日本語訳トグル（セリフ一覧ヘッダー横に移動済み）
         const toggleJpBtn = document.getElementById('toggle-jp-btn');
         const vlContainer = document.getElementById('voiceline-list-container');
         if (toggleJpBtn && vlContainer) {
@@ -1905,18 +1945,20 @@
             isJpHidden = !isJpHidden;
             localStorage.setItem('lexie_jp_hidden', isJpHidden);
             vlContainer.classList.toggle('jp-hidden', isJpHidden);
-            toggleJpBtn.innerText = isJpHidden ? '👁 日本語訳を表示' : '🙈 日本語訳を隠す';
+            toggleJpBtn.classList.toggle('active', isJpHidden);
             if (!isJpHidden) {
               vlContainer.querySelectorAll('.quote-jp.revealed').forEach(el => el.classList.remove('revealed'));
             }
           };
-          // タップで1行ずつ個別に表示（暗記モードON時のみ反応）
           vlContainer.querySelectorAll('.quote-jp').forEach(el => {
             el.addEventListener('click', () => {
               if (isJpHidden) el.classList.toggle('revealed');
             });
           });
         }
+
+        bindFontSizeButtons();
+        setFontSize(fontSize);
       }
 
       // ----------------------------------------------------
@@ -1946,6 +1988,35 @@
       function bindSpeedButtons() {
         document.querySelectorAll('.speed-btn').forEach(btn => {
           btn.onclick = () => setPlaybackRate(parseFloat(btn.dataset.rate));
+        });
+      }
+
+      // フォントサイズボタンのHTML文字列を生成（speed-btnと同じデザイン）
+      function renderFontSizeButtons() {
+        const sizes = [{ key: 'sm', label: '小' }, { key: 'md', label: '中' }, { key: 'lg', label: '大' }];
+        const btns = sizes.map(s =>
+          `<button class="speed-btn font-size-btn${s.key === fontSize ? ' active' : ''}" data-size="${s.key}">${s.label}</button>`
+        ).join('');
+        return `<span style="font-size:0.8em; color:var(--text-tertiary); margin-right:2px;">文字</span><div class="speed-btn-group">${btns}</div>`;
+      }
+
+      // フォントサイズ変更・保存・DOM即時反映
+      function setFontSize(size) {
+        fontSize = size;
+        localStorage.setItem('lexie_font_size', size);
+        document.querySelectorAll('.font-size-target').forEach(el => {
+          el.classList.remove('font-size-sm', 'font-size-lg');
+          if (size !== 'md') el.classList.add(`font-size-${size}`);
+        });
+        document.querySelectorAll('.font-size-btn').forEach(btn =>
+          btn.classList.toggle('active', btn.dataset.size === size)
+        );
+      }
+
+      // フォントサイズボタンのイベント配線
+      function bindFontSizeButtons() {
+        document.querySelectorAll('.font-size-btn').forEach(btn => {
+          btn.onclick = () => setFontSize(btn.dataset.size);
         });
       }
 
