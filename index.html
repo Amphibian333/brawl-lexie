@@ -1027,6 +1027,25 @@
         background-color: transparent;
       }
 
+      /* 覚えられなかったボタン（暗記モード・revealed時のみ表示） */
+      .memorize-hard-btn {
+        display: none;
+        background: none;
+        border: 1px solid var(--accent-secondary);
+        color: var(--accent-secondary);
+        border-radius: 12px;
+        padding: 3px 10px;
+        font-size: 0.75em;
+        cursor: pointer;
+        transition: background 0.2s, color 0.2s;
+        white-space: nowrap;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .memorize-hard-btn.active {
+        background: var(--accent-secondary);
+        color: var(--btn-text);
+      }
+
       /* 再生スピード選択ボタン */
       .speed-btn-group {
         display: flex;
@@ -1250,6 +1269,26 @@
             </p>
           </div>
 
+          <div id="fav-hard-section" style="margin-top: 40px; display: none;">
+            <h3
+              style="
+                color: var(--accent-secondary);
+                border-bottom: 2px solid var(--border-color);
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+              "
+            >
+              📚 要復習セリフ
+            </h3>
+            <div id="fav-hard-list"></div>
+            <p
+              id="no-hard-voicelines-msg"
+              style="text-align: center; color: var(--text-tertiary); display: none;"
+            >
+              要復習マークのセリフはありません。
+            </p>
+          </div>
+
           <div
             id="empty-favorites-state"
             style="text-align: center; padding: 50px; display: none"
@@ -1469,6 +1508,21 @@
         return favs.includes(id);
       }
 
+      function getMemorizeHard() {
+        const data = localStorage.getItem('lexie_memorize_hard');
+        return data ? JSON.parse(data) : [];
+      }
+      function toggleMemorizeHard(id) {
+        let hard = getMemorizeHard();
+        if (hard.includes(id)) {
+          hard = hard.filter(h => h !== id);
+        } else {
+          hard.push(id);
+        }
+        localStorage.setItem('lexie_memorize_hard', JSON.stringify(hard));
+        return hard.includes(id);
+      }
+
       // ----------------------------------------------------
       // 3. お気に入りページの表示（レンダリング）
       // ----------------------------------------------------
@@ -1681,6 +1735,62 @@
             if (isJpHidden) el.classList.toggle('revealed');
           });
         });
+
+        // ■■ 要復習セリフセクション ■■
+        const hardSection = document.getElementById('fav-hard-section');
+        const hardList = document.getElementById('fav-hard-list');
+        const noHardMsg = document.getElementById('no-hard-voicelines-msg');
+        const hardIds = getMemorizeHard();
+
+        hardList.innerHTML = '';
+        let hardPlaylist = [];
+        if (typeof brawlers !== 'undefined') {
+          brawlers.forEach(b => {
+            if (!b.voicelines) return;
+            b.voicelines.forEach(l => {
+              if (hardIds.includes(l.id)) {
+                hardPlaylist.push({ id: l.id, quote: l.quote, translation: l.translation, audioUrl: l.audioUrl, brawlerName: b.name });
+              }
+            });
+          });
+        }
+
+        if (hardPlaylist.length > 0) {
+          hardSection.style.display = 'block';
+          noHardMsg.style.display = 'none';
+          hardPlaylist.forEach((track, index) => {
+            const item = document.createElement('div');
+            item.className = 'voiceline-item';
+            item.style.position = 'relative';
+            item.innerHTML = `
+              <div style="font-size:0.8em; color:var(--text-tertiary); margin-bottom:5px;">${track.brawlerName}</div>
+              <div class="voiceline-main">
+                <div class="voiceline-quotes">
+                  <p class="quote-en" style="font-weight:bold; color:var(--accent-primary);">"${track.quote}"</p>
+                  <p class="quote-jp">${track.translation}</p>
+                </div>
+                <div style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+                  <button class="voiceline-play-btn" style="border:2px solid var(--accent-secondary); color:var(--accent-secondary); background:none; padding:5px 15px; border-radius:20px; font-weight:bold; cursor:pointer;">再生 ▶</button>
+                  <button class="hard-remove-btn" data-id="${track.id}" style="background:none; border:1px solid var(--accent-primary); color:var(--accent-primary); border-radius:12px; padding:3px 10px; font-size:0.75em; cursor:pointer; white-space:nowrap;">✓ 覚えた</button>
+                </div>
+              </div>
+            `;
+            item.querySelector('.voiceline-play-btn').onclick = () => {
+              const plist = hardPlaylist.map(t => ({ audioUrl: t.audioUrl, quote: t.quote, id: t.id, translation: t.translation, brawlerName: t.brawlerName }));
+              playlist = [...plist];
+              isShuffle = false;
+              playTrackByIndex(index);
+            };
+            item.querySelector('.hard-remove-btn').onclick = () => {
+              toggleMemorizeHard(track.id);
+              renderFavoritesPage();
+            };
+            hardList.appendChild(item);
+          });
+        } else {
+          hardSection.style.display = 'block';
+          noHardMsg.style.display = 'block';
+        }
       }
       // ▲▲▲ 2. 修正版 renderFavoritesPage（ここまでコピー） ▲▲▲
 
@@ -1747,6 +1857,7 @@
         const valid = lines.filter((l) => l.audioUrl);
         const img = b.iconUrl || `https://placehold.co/120x120?text=${b.name}`;
         const favVoicelines = getVoicelineFavorites();
+        const hardItems = getMemorizeHard();
 
         const videoHtml = b.tiktokEmbed
           ? `<div class="tiktok-special-view" style="margin-top: 30px; text-align: center;"><h3 style="color: var(--accent-primary); margin-bottom: 15px; border-bottom: 2px solid var(--accent-primary); display: inline-block; padding-bottom: 5px;">🎬 スペシャル動画解説</h3><div style="display: flex; justify-content: center; background: #000; border-radius: 15px; padding: 10px;">${b.tiktokEmbed}</div></div>`
@@ -1798,7 +1909,7 @@
                     !l.audioUrl ? "disabled" : ""
                   }>再生 ▶</button><button class="voiceline-toggle" data-target="${
                     l.id
-                  }">解説 ▼</button></div>
+                  }">解説 ▼</button><button class="memorize-hard-btn${hardItems.includes(l.id) ? ' active' : ''}" data-id="${l.id}">${hardItems.includes(l.id) ? '📚 要復習' : '✗ 覚えられなかった'}</button></div>
                   </div>
                   <div class="voiceline-explanation" id="${l.id}">${
                     l.explanation
@@ -1910,10 +2021,21 @@
               vlContainer.querySelectorAll('.quote-jp.revealed').forEach(el => el.classList.remove('revealed'));
             }
           };
-          // タップで1行ずつ個別に表示（暗記モードON時のみ反応）
           vlContainer.querySelectorAll('.quote-jp').forEach(el => {
             el.addEventListener('click', () => {
-              if (isJpHidden) el.classList.toggle('revealed');
+              if (isJpHidden) {
+                el.classList.toggle('revealed');
+                const hardBtn = el.closest('.voiceline-item')?.querySelector('.memorize-hard-btn');
+                if (hardBtn) hardBtn.style.display = el.classList.contains('revealed') ? 'inline-flex' : 'none';
+              }
+            });
+          });
+          vlContainer.querySelectorAll('.memorize-hard-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+              const id = btn.dataset.id;
+              const isHard = toggleMemorizeHard(id);
+              btn.classList.toggle('active', isHard);
+              btn.textContent = isHard ? '📚 要復習' : '✗ 覚えられなかった';
             });
           });
         }
