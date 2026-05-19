@@ -75,6 +75,10 @@
         /* 新機能用の変数 */
         --beta-bar-bg: #ffc107;
         --beta-bar-text: #121212;
+        /* 暗記モード：revealed状態の色 */
+        --memorize-revealed-color: #4caf50;
+        --memorize-revealed-bg: rgba(76, 175, 80, 0.08);
+        --memorize-revealed-border: rgba(76, 175, 80, 0.30);
       }
 
       body.light-theme {
@@ -102,6 +106,9 @@
         --shadow-color: rgba(255, 77, 77, 0.2);
         --shadow-color-btn: rgba(255, 77, 77, 0.4);
         --quote-jp-color: #495057;
+        --memorize-revealed-color: #2e7d32;
+        --memorize-revealed-bg: rgba(46, 125, 50, 0.06);
+        --memorize-revealed-border: rgba(46, 125, 50, 0.25);
       }
 
       /* ヒーローセクションの検索窓 */
@@ -1012,21 +1019,88 @@
 
       /* ▲▲▲ ここまで ▲▲▲ */
 
-      /* 暗記モード：日本語訳を黒塗り風に隠す */
+      /* ===== 暗記モード（全面リデザイン）===== */
+
+      /* 【隠れてる状態】カードの裏側風 */
       .jp-hidden .quote-jp {
         color: transparent;
-        background-color: var(--text-secondary);
-        border-radius: 3px;
+        background: linear-gradient(135deg, var(--surface-color-light) 0%, var(--surface-color) 100%);
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        padding: 12px 14px;
         cursor: pointer;
         user-select: none;
-        transition: color 0.3s, background-color 0.3s;
+        position: relative;
+        min-height: 2.8em;
+        transition: transform 0.15s ease, box-shadow 0.15s ease, color 0.2s, background 0.2s, border-color 0.2s;
       }
-      /* タップで表示、もう一度タップで非表示（点線で再タップ可能を示す） */
+
+      /* 中央に「タップして答えを見る 👁」ガイドテキスト */
+      .jp-hidden .quote-jp::after {
+        content: 'タップして答えを見る 👁';
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--text-tertiary);
+        font-size: 0.8em;
+        text-align: center;
+        pointer-events: none;
+      }
+
+      /* PCのみ：ホバーで浮き上がり */
+      @media (hover: hover) {
+        .jp-hidden .quote-jp:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+          border-color: var(--accent-primary);
+        }
+      }
+
+      /* 【表示中（revealed）状態】答えを見た感 */
       .jp-hidden .quote-jp.revealed {
-        color: var(--quote-jp-color);
-        background-color: transparent;
-        text-decoration: underline dotted var(--text-tertiary);
-        text-underline-offset: 3px;
+        color: var(--memorize-revealed-color);
+        background: var(--memorize-revealed-bg);
+        border-color: var(--memorize-revealed-border);
+        padding-left: 30px;
+        padding-right: 80px;
+      }
+
+      /* 左端の 📖 アイコン */
+      .jp-hidden .quote-jp.revealed::before {
+        content: '📖';
+        position: absolute;
+        left: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 0.85em;
+      }
+
+      /* 右端の「タップで隠す ↩」ヒント */
+      .jp-hidden .quote-jp.revealed::after {
+        content: 'タップで隠す ↩';
+        position: absolute;
+        right: 8px;
+        left: auto;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--text-tertiary);
+        font-size: 0.7em;
+        text-align: right;
+        white-space: nowrap;
+        opacity: 0.7;
+      }
+
+      /* スマホ：右ヒントを「↩」だけに短縮 */
+      @media (max-width: 480px) {
+        .jp-hidden .quote-jp.revealed {
+          padding-right: 30px;
+        }
+        .jp-hidden .quote-jp.revealed::after {
+          content: '↩';
+          font-size: 0.85em;
+        }
       }
 
       /* 再生スピード選択ボタン */
