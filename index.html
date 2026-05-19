@@ -1021,10 +1021,12 @@
         user-select: none;
         transition: color 0.3s, background-color 0.3s;
       }
-      /* タップで1行ずつ個別に表示 */
+      /* タップで表示、もう一度タップで非表示（点線で再タップ可能を示す） */
       .jp-hidden .quote-jp.revealed {
         color: var(--quote-jp-color);
         background-color: transparent;
+        text-decoration: underline dotted var(--text-tertiary);
+        text-underline-offset: 3px;
       }
 
       /* 再生スピード選択ボタン */
