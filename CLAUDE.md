@@ -39,12 +39,30 @@
 
 ## Git運用ルール
 
-- **mainブランチには直接pushしない**
-- 作業は feature branch で行う
-  - 命名規則: `feat/xxx`（新機能）、`fix/xxx`（バグ修正）、`refactor/xxx`（リファクタ）、`docs/xxx`（ドキュメント）
-- featureブランチをpushすると、Vercelが自動でプレビューURLを生成する
-- そのプレビューURLで動作確認 → OKなら PR を作成 → 人間が GitHub UI で merge
-- **緊急時の例外**: 人間から「直接mainに入れて」と明示指示があった場合のみ直push可
+### ブランチ構成（2026年5月〜）
+
+```
+main        ← 本番。merge = 即デプロイ（Vercel自動）
+ └─ develop ← 統合ブランチ。featureの受け皿
+     └─ feat/xxx, fix/xxx, ... ← 作業ブランチ
+```
+
+- **`main` には直接 push しない**（緊急時のみ人間の明示許可があれば例外）
+- **`develop` には直接 push しない**（必ず feature ブランチ経由）
+- 作業ブランチの命名規則: `feat/xxx`（新機能）、`fix/xxx`（バグ修正）、`refactor/xxx`（リファクタ）、`docs/xxx`（ドキュメント）
+
+### 日常の開発フロー
+
+1. `develop` から作業ブランチを切る
+2. 実装 → push → Vercel プレビューURLで動作確認
+3. OK なら **`develop` に向けて PR** を作成
+4. 人間が GitHub UI でレビュー → merge
+
+### リリースフロー
+
+- 機能が一定量貯まったら `develop → main` の大型 PR を作成
+- `main` に merge されたタイミングが本番リリース
+- リリース内容は `docs/CHANGELOG.md` に記録する
 
 ---
 
@@ -129,3 +147,4 @@
 ## 改訂履歴
 
 - 2026-05-18: 初版作成（あんふぃ + Claude チャット協議で策定）
+- 2026-05-19: Git運用ルールをdevelop導入の3層構成に更新
