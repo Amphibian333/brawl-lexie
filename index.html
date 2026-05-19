@@ -1016,15 +1016,18 @@
       .jp-hidden .quote-jp {
         color: transparent;
         background-color: var(--text-secondary);
-        border-radius: 3px;
+        border-radius: 8px;
+        padding: 6px 12px;
         cursor: pointer;
         user-select: none;
-        transition: color 0.3s, background-color 0.3s;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        transition: color 0.25s, background-color 0.25s, box-shadow 0.25s;
       }
-      /* タップで1行ずつ個別に表示 */
+      /* タップで表示・もう一度タップで非表示（アクセント色の薄い背景でアクティブ感） */
       .jp-hidden .quote-jp.revealed {
         color: var(--quote-jp-color);
-        background-color: transparent;
+        background-color: var(--shadow-color);
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
       }
 
       /* 再生スピード選択ボタン */
