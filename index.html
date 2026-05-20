@@ -75,6 +75,10 @@
         /* 新機能用の変数 */
         --beta-bar-bg: #ffc107;
         --beta-bar-text: #121212;
+        /* 暗記モード：revealed状態の色 */
+        --memorize-revealed-color: #4caf50;
+        --memorize-revealed-bg: rgba(76, 175, 80, 0.08);
+        --memorize-revealed-border: rgba(76, 175, 80, 0.30);
       }
 
       body.light-theme {
@@ -102,6 +106,9 @@
         --shadow-color: rgba(255, 77, 77, 0.2);
         --shadow-color-btn: rgba(255, 77, 77, 0.4);
         --quote-jp-color: #495057;
+        --memorize-revealed-color: #2e7d32;
+        --memorize-revealed-bg: rgba(46, 125, 50, 0.06);
+        --memorize-revealed-border: rgba(46, 125, 50, 0.25);
       }
 
       /* ヒーローセクションの検索窓 */
@@ -1012,21 +1019,127 @@
 
       /* ▲▲▲ ここまで ▲▲▲ */
 
-      /* 暗記モード：日本語訳を黒塗り風に隠す */
+      /* ===== 暗記モード（全面リデザイン）===== */
+
+      /* 【隠れてる状態】カードの裏側風 */
       .jp-hidden .quote-jp {
         color: transparent;
-        background-color: var(--text-secondary);
-        border-radius: 3px;
+        background: linear-gradient(135deg, var(--surface-color-light) 0%, var(--surface-color) 100%);
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        padding: 12px 14px;
         cursor: pointer;
         user-select: none;
-        transition: color 0.3s, background-color 0.3s;
+        position: relative;
+        min-height: 2.8em;
+        transition: transform 0.15s ease, box-shadow 0.15s ease, color 0.2s, background 0.2s, border-color 0.2s;
       }
-      /* タップで表示、もう一度タップで非表示（点線で再タップ可能を示す） */
+
+      /* 中央に「タップして答えを見る 👁」ガイドテキスト */
+      .jp-hidden .quote-jp::after {
+        content: 'タップして答えを見る 👁';
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--text-tertiary);
+        font-size: 0.8em;
+        text-align: center;
+        pointer-events: none;
+      }
+
+      /* PCのみ：ホバーで浮き上がり */
+      @media (hover: hover) {
+        .jp-hidden .quote-jp:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+          border-color: var(--accent-primary);
+        }
+      }
+
+      /* 【表示中（revealed）状態】答えを見た感 */
       .jp-hidden .quote-jp.revealed {
-        color: var(--quote-jp-color);
-        background-color: transparent;
-        text-decoration: underline dotted var(--text-tertiary);
-        text-underline-offset: 3px;
+        color: var(--memorize-revealed-color);
+        background: var(--memorize-revealed-bg);
+        border-color: var(--memorize-revealed-border);
+        padding-left: 30px;
+        padding-right: 14px;
+        padding-bottom: 28px;
+      }
+
+      /* 左端の 📖 アイコン */
+      .jp-hidden .quote-jp.revealed::before {
+        content: '📖';
+        position: absolute;
+        left: 8px;
+        top: 13px;
+        font-size: 0.85em;
+      }
+
+      /* 右端の「タップで隠す ↩」ヒント */
+      .jp-hidden .quote-jp.revealed::after {
+        content: 'タップで隠す ↩';
+        position: absolute;
+        right: 8px;
+        left: auto;
+        bottom: 6px;
+        top: auto;
+        transform: none;
+        color: var(--text-tertiary);
+        font-size: 0.7em;
+        text-align: right;
+        white-space: nowrap;
+        opacity: 0.7;
+      }
+
+      /* スマホ：右ヒントを「↩」だけに短縮 */
+      @media (max-width: 480px) {
+        .jp-hidden .quote-jp.revealed::after {
+          content: '↩';
+          font-size: 0.85em;
+        }
+      }
+
+      /* 🔖 覚えられなかったボタン（.quote-jp 内に絶対配置） */
+      .memorize-hard-btn {
+        display: none;
+        position: absolute;
+        bottom: 4px;
+        right: 95px;
+        background: none;
+        border: none;
+        padding: 4px;
+        min-width: 28px;
+        min-height: 28px;
+        cursor: pointer;
+        font-size: 1em;
+        line-height: 1;
+        color: initial;
+        filter: grayscale(1);
+        opacity: 0.35;
+        transition: opacity 0.15s, filter 0.15s;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .memorize-hard-btn.active {
+        filter: none;
+        opacity: 1;
+      }
+
+      @keyframes memorize-hard-bounce {
+        0%   { transform: scale(1); }
+        40%  { transform: scale(1.5); }
+        70%  { transform: scale(0.88); }
+        100% { transform: scale(1); }
+      }
+      .memorize-hard-btn.bouncing {
+        animation: memorize-hard-bounce 0.3s ease;
+      }
+
+      @media (max-width: 480px) {
+        .memorize-hard-btn {
+          right: 28px;
+        }
       }
 
       /* 再生スピード選択ボタン */
@@ -1229,6 +1342,11 @@
                 💬 セリフのみ表示する
               </label>
             </div>
+          </div>
+
+          <div id="fav-hard-section" style="display:none; margin-bottom: 40px;">
+            <h3 style="color:var(--accent-secondary); border-bottom:2px solid var(--border-color); padding-bottom:10px; margin-bottom:20px;">🔖 要復習セリフ</h3>
+            <div id="fav-hard-list"></div>
           </div>
 
           <div id="fav-brawlers-section">
@@ -1499,6 +1617,21 @@
         return favs.includes(id);
       }
 
+      function getMemorizeHard() {
+        const data = localStorage.getItem('lexie_memorize_hard');
+        return data ? JSON.parse(data) : [];
+      }
+      function toggleMemorizeHard(id) {
+        let hard = getMemorizeHard();
+        if (hard.includes(id)) {
+          hard = hard.filter(h => h !== id);
+        } else {
+          hard.push(id);
+        }
+        localStorage.setItem('lexie_memorize_hard', JSON.stringify(hard));
+        return hard.includes(id);
+      }
+
       // ----------------------------------------------------
       // 3. お気に入りページの表示（レンダリング）
       // ----------------------------------------------------
@@ -1506,6 +1639,7 @@
       function renderFavoritesPage() {
         const favBrawlersList = getFavorites();
         const favVoicelinesList = getVoicelineFavorites();
+        const hardIds = getMemorizeHard();
         const searchText = favSearchInput.value.toLowerCase();
         const onlyVoicelines = showVoicelinesOnlyCheckbox.checked;
 
@@ -1516,6 +1650,59 @@
           "fav-voicelines-section"
         );
         const emptyState = document.getElementById("empty-favorites-state");
+        const hardSection = document.getElementById("fav-hard-section");
+        const hardList = document.getElementById("fav-hard-list");
+
+        // 🔖 要復習セクションの描画
+        const hardTracks = [];
+        if (typeof brawlers !== "undefined") {
+          brawlers.forEach((b) => {
+            if (!b.voicelines) return;
+            b.voicelines.forEach((l) => {
+              if (hardIds.includes(l.id)) {
+                hardTracks.push({ ...l, brawlerName: b.name });
+              }
+            });
+          });
+        }
+        if (hardTracks.length > 0) {
+          hardSection.style.display = "block";
+          hardList.innerHTML = "";
+          hardTracks.forEach((track) => {
+            const item = document.createElement("div");
+            item.className = "voiceline-item";
+            item.style.position = "relative";
+            item.innerHTML = `
+              <div style="font-size:0.8em; color:var(--text-tertiary); margin-bottom:5px;">${track.brawlerName}</div>
+              <div class="voiceline-main">
+                <div class="voiceline-quotes">
+                  <p class="quote-en" style="font-weight:bold; color:var(--accent-primary);">"${track.quote}"</p>
+                  <p class="quote-jp" style="color:var(--text-primary);">${track.translation}</p>
+                </div>
+                <div style="display:flex; gap:8px; margin-top:8px;">
+                  <button class="voiceline-play-btn hard-play-btn" data-audio-src="${track.audioUrl || ''}" ${!track.audioUrl ? 'disabled' : ''} style="border:2px solid var(--accent-secondary); color:var(--accent-secondary); background:none; padding:5px 15px; border-radius:20px; font-weight:bold; cursor:pointer;">再生 ▶</button>
+                  <button class="hard-done-btn" data-id="${track.id}" style="border:2px solid var(--memorize-revealed-border); color:var(--memorize-revealed-color); background:none; padding:5px 12px; border-radius:20px; font-size:0.85em; cursor:pointer;">✓ 覚えた</button>
+                </div>
+              </div>
+            `;
+            item.querySelector('.hard-play-btn').onclick = () => {
+              const src = track.audioUrl;
+              if (!src) return;
+              if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+              const audio = new Audio(src);
+              audio.playbackRate = playbackRate;
+              audio.play();
+              currentAudio = audio;
+            };
+            item.querySelector('.hard-done-btn').onclick = () => {
+              toggleMemorizeHard(track.id);
+              renderFavoritesPage();
+            };
+            hardList.appendChild(item);
+          });
+        } else {
+          hardSection.style.display = "none";
+        }
 
         // 何も登録がない場合
         if (favBrawlersList.length === 0 && favVoicelinesList.length === 0) {
@@ -1656,6 +1843,7 @@
               vList.classList.toggle('jp-hidden', isJpHidden);
               if (!isJpHidden) {
                 vList.querySelectorAll('.quote-jp.revealed').forEach(el => el.classList.remove('revealed'));
+                vList.querySelectorAll('.memorize-hard-btn').forEach(btn => btn.style.display = 'none');
               }
             };
           }
@@ -1681,7 +1869,7 @@
         <div class="voiceline-main" style="padding-right: 50px!important;">
           <div class="voiceline-quotes">
             <p class="quote-en" style="font-weight:bold; color:var(--accent-primary);">"${track.quote}"</p>
-            <p class="quote-jp">${track.translation}</p>
+            <p class="quote-jp">${track.translation}<button class="memorize-hard-btn${hardIds.includes(track.id) ? ' active' : ''}" data-id="${track.id}" aria-label="覚えられなかったマーク">🔖</button></p>
           </div>
           <button class="voiceline-play-btn" style="margin-top:10px; border:2px solid var(--accent-secondary); color:var(--accent-secondary); background:none; padding:5px 15px; border-radius:20px; font-weight:bold; cursor:pointer;">再生 ▶</button>
         </div>
@@ -1714,7 +1902,24 @@
         if (isJpHidden) vList.classList.add('jp-hidden');
         vList.querySelectorAll('.quote-jp').forEach(el => {
           el.addEventListener('click', () => {
-            if (isJpHidden) el.classList.toggle('revealed');
+            if (isJpHidden) {
+              el.classList.toggle('revealed');
+              const hardBtn = el.querySelector('.memorize-hard-btn');
+              if (hardBtn) hardBtn.style.display = el.classList.contains('revealed') ? 'inline-flex' : 'none';
+            }
+          });
+        });
+        // 🔖 覚えられなかったマーク（お気に入りページ）
+        vList.querySelectorAll('.memorize-hard-btn').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const id = btn.dataset.id;
+            const isHard = toggleMemorizeHard(id);
+            btn.classList.toggle('active', isHard);
+            btn.classList.add('bouncing');
+            btn.addEventListener('animationend', () => btn.classList.remove('bouncing'), { once: true });
+            // 要復習セクションを再描画
+            renderFavoritesPage();
           });
         });
       }
@@ -1783,6 +1988,7 @@
         const valid = lines.filter((l) => l.audioUrl);
         const img = b.iconUrl || `https://placehold.co/120x120?text=${b.name}`;
         const favVoicelines = getVoicelineFavorites();
+        const hardItems = getMemorizeHard();
 
         const videoHtml = b.tiktokEmbed
           ? `<div class="tiktok-special-view" style="margin-top: 30px; text-align: center;"><h3 style="color: var(--accent-primary); margin-bottom: 15px; border-bottom: 2px solid var(--accent-primary); display: inline-block; padding-bottom: 5px;">🎬 スペシャル動画解説</h3><div style="display: flex; justify-content: center; background: #000; border-radius: 15px; padding: 10px;">${b.tiktokEmbed}</div></div>`
@@ -1833,7 +2039,7 @@
                   <div class="voiceline-main">
                     <div class="voiceline-quotes"><p class="quote-en">"${
                       l.quote
-                    }"</p><p class="quote-jp">${l.translation}</p></div>
+                    }"</p><p class="quote-jp">${l.translation}<button class="memorize-hard-btn${hardItems.includes(l.id) ? ' active' : ''}" data-id="${l.id}" aria-label="覚えられなかったマーク">🔖</button></p></div>
                     <div class="voiceline-actions"><button class="voiceline-play-btn" data-audio-src="${
                       l.audioUrl || ""
                     }" ${
@@ -1950,11 +2156,27 @@
             toggleJpBtn.classList.toggle('active', isJpHidden);
             if (!isJpHidden) {
               vlContainer.querySelectorAll('.quote-jp.revealed').forEach(el => el.classList.remove('revealed'));
+              vlContainer.querySelectorAll('.memorize-hard-btn').forEach(btn => btn.style.display = 'none');
             }
           };
           vlContainer.querySelectorAll('.quote-jp').forEach(el => {
             el.addEventListener('click', () => {
-              if (isJpHidden) el.classList.toggle('revealed');
+              if (isJpHidden) {
+                el.classList.toggle('revealed');
+                const hardBtn = el.querySelector('.memorize-hard-btn');
+                if (hardBtn) hardBtn.style.display = el.classList.contains('revealed') ? 'inline-flex' : 'none';
+              }
+            });
+          });
+          // 🔖 覚えられなかったマーク
+          vlContainer.querySelectorAll('.memorize-hard-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const id = btn.dataset.id;
+              const isHard = toggleMemorizeHard(id);
+              btn.classList.toggle('active', isHard);
+              btn.classList.add('bouncing');
+              btn.addEventListener('animationend', () => btn.classList.remove('bouncing'), { once: true });
             });
           });
         }
