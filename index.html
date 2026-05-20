@@ -1959,8 +1959,139 @@
         const listView = document.getElementById('deck-list-view');
         listView.style.display = 'none';
         detailView.style.display = 'block';
-        detailView.innerHTML = `<p style="color:var(--text-tertiary); text-align:center; padding:40px;">「${escapeHtml(deck.name)}」 — 詳細ページは Phase 3 で実装予定</p><button id="back-to-decks-btn-ph1" class="btn btn-secondary" style="display:block; margin:0 auto;">← 一覧に戻る</button>`;
-        document.getElementById('back-to-decks-btn-ph1').onclick = renderDecksPage;
+
+        // brawlers から voicelineIds に一致するセリフを収集
+        const tracks = [];
+        if (typeof brawlers !== 'undefined') {
+          brawlers.forEach(b => {
+            if (!b.voicelines) return;
+            b.voicelines.forEach(l => {
+              if (deck.voicelineIds.includes(l.id)) tracks.push({ ...l, brawlerName: b.name });
+            });
+          });
+          tracks.sort((a, b) => deck.voicelineIds.indexOf(a.id) - deck.voicelineIds.indexOf(b.id));
+        }
+        const validTracks = tracks.filter(t => t.audioUrl);
+
+        detailView.innerHTML = `
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; flex-wrap:wrap; gap:10px;">
+            <button id="back-to-decks-btn" class="btn btn-secondary">← 一覧に戻る</button>
+            <div style="display:flex; gap:8px;">
+              <button class="deck-card-btn" id="deck-rename-btn">✏️ 名前変更</button>
+              <button class="deck-card-btn danger" id="deck-delete-btn">🗑 削除</button>
+            </div>
+          </div>
+          <h2 style="font-size:1.4em; color:var(--accent-primary); margin-bottom:16px;">${escapeHtml(deck.name)}</h2>
+          ${validTracks.length > 0 ? `
+          <div class="detail-actions-box" id="deck-player-controls" style="margin-bottom:20px;">
+            <button id="deck-play-all-btn">▶ 全音声再生</button>
+            <button id="deck-shuffle-btn">🔀 OFF</button>
+            <button class="speed-btn${isJpHidden ? ' active' : ''}" id="deck-toggle-jp-btn">🙈 暗記</button>
+            <div style="display:flex; align-items:center; flex-wrap:wrap; gap:4px; padding:4px 0;">${renderSpeedButtons()}</div>
+            <div style="display:flex; align-items:center; flex-wrap:wrap; gap:4px; padding:4px 0;">${renderFontSizeButtons()}</div>
+          </div>` : ''}
+          <div id="deck-voiceline-container" class="font-size-target${isJpHidden ? ' jp-hidden' : ''}">
+            ${tracks.map(track => `
+              <div class="voiceline-item" id="dvl-${track.id}">
+                <div style="font-size:0.78em; color:var(--text-tertiary); margin-bottom:4px;">${escapeHtml(track.brawlerName)}</div>
+                <div class="voiceline-main">
+                  <div class="voiceline-quotes">
+                    <p class="quote-en">"${track.quote}"</p>
+                    <p class="quote-jp">${track.translation}</p>
+                  </div>
+                  <div class="voiceline-actions">
+                    <button class="voiceline-play-btn" data-audio-src="${track.audioUrl || ''}" ${!track.audioUrl ? 'disabled' : ''}>再生 ▶</button>
+                    <button class="deck-remove-btn" data-id="${track.id}" data-deck="${deck.id}" style="border:1px solid var(--border-color); background:none; color:var(--text-tertiary); padding:5px 9px; border-radius:6px; cursor:pointer; font-size:0.85em;" title="単語帳から削除">✕</button>
+                  </div>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+          ${tracks.length === 0 ? `
+          <div style="text-align:center; padding:60px 20px;">
+            <p style="font-size:1.8em; margin-bottom:12px;">📭</p>
+            <p style="color:var(--text-secondary);">セリフが登録されていません</p>
+            <p style="color:var(--text-tertiary); font-size:0.9em; margin-top:8px;">キャラ詳細の「＋」から追加しよう！</p>
+          </div>` : ''}
+        `;
+
+        setupDeckDetailEvents(deck, validTracks);
+      }
+
+      function setupDeckDetailEvents(deck, validTracks) {
+        document.getElementById('back-to-decks-btn').onclick = renderDecksPage;
+
+        document.getElementById('deck-rename-btn').onclick = () => {
+          const newName = prompt('単語帳の名前を変更', deck.name);
+          if (newName && newName.trim()) { renameDeck(deck.id, newName); renderDeckDetail(deck.id); }
+        };
+        document.getElementById('deck-delete-btn').onclick = () => {
+          if (confirm(`「${escapeHtml(deck.name)}」を削除しますか？`)) { deleteDeck(deck.id); renderDecksPage(); }
+        };
+
+        if (validTracks.length > 0) {
+          const playAllBtn = document.getElementById('deck-play-all-btn');
+          playAllBtn.onclick = () => {
+            if (isSequentialPlaying) {
+              stopAllPlayback();
+            } else {
+              playlist = isShuffle ? shuffleArray([...validTracks]) : [...validTracks];
+              playTrackByIndex(0);
+            }
+          };
+          const shufBtn = document.getElementById('deck-shuffle-btn');
+          shufBtn.innerText = isShuffle ? '🔀 ON' : '🔀 OFF';
+          shufBtn.style.color = isShuffle ? 'var(--accent-secondary)' : 'var(--accent-primary)';
+          shufBtn.onclick = () => {
+            isShuffle = !isShuffle;
+            shufBtn.innerText = isShuffle ? '🔀 ON' : '🔀 OFF';
+            shufBtn.style.color = isShuffle ? 'var(--accent-secondary)' : 'var(--accent-primary)';
+            if (isSequentialPlaying) playlist = isShuffle ? shuffleArray([...validTracks]) : [...validTracks];
+          };
+          bindSpeedButtons();
+          bindFontSizeButtons();
+          setFontSize(fontSize);
+        }
+
+        // 暗記モードトグル
+        const toggleJpBtn = document.getElementById('deck-toggle-jp-btn');
+        const vlContainer = document.getElementById('deck-voiceline-container');
+        if (toggleJpBtn && vlContainer) {
+          toggleJpBtn.onclick = () => {
+            isJpHidden = !isJpHidden;
+            localStorage.setItem('lexie_jp_hidden', isJpHidden);
+            vlContainer.classList.toggle('jp-hidden', isJpHidden);
+            toggleJpBtn.classList.toggle('active', isJpHidden);
+            if (!isJpHidden) vlContainer.querySelectorAll('.quote-jp.revealed').forEach(el => el.classList.remove('revealed'));
+          };
+          vlContainer.querySelectorAll('.quote-jp').forEach(el => {
+            el.addEventListener('click', () => { if (isJpHidden) el.classList.toggle('revealed'); });
+          });
+        }
+
+        // 個別再生
+        document.querySelectorAll('#deck-voiceline-container .voiceline-play-btn').forEach(btn => {
+          btn.onclick = () => {
+            const url = btn.dataset.audioSrc;
+            if (!url) return;
+            isSequentialPlaying = false;
+            if (currentAudio) currentAudio.pause();
+            currentAudio = new Audio(url);
+            currentAudio.playbackRate = playbackRate;
+            currentAudio.play();
+          };
+        });
+
+        // ✕ セリフ削除
+        document.querySelectorAll('.deck-remove-btn').forEach(btn => {
+          btn.onclick = () => {
+            removeFromDeck(btn.dataset.deck, btn.dataset.id);
+            const item = document.getElementById(`dvl-${btn.dataset.id}`);
+            if (item) item.remove();
+            const updated = getDecks().find(d => d.id === deck.id);
+            if (updated && updated.voicelineIds.length === 0) renderDeckDetail(deck.id);
+          };
+        });
       }
 
       // ----------------------------------------------------
