@@ -1245,6 +1245,88 @@
       }
       .deck-card-btn:hover { border-color: var(--accent-primary); color: var(--accent-primary); }
       .deck-card-btn.danger:hover { border-color: var(--accent-secondary); color: var(--accent-secondary); }
+
+      /* 単語帳追加ボタン（voiceline-actions内）*/
+      .add-to-deck-btn {
+        border: 1px solid var(--border-color);
+        background: none;
+        color: var(--text-tertiary);
+        padding: 5px 9px;
+        border-radius: 6px;
+        font-size: 1em;
+        font-weight: 700;
+        cursor: pointer;
+        line-height: 1;
+        transition: border-color 0.15s, color 0.15s;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .add-to-deck-btn:hover { border-color: var(--accent-primary); color: var(--accent-primary); }
+      .add-to-deck-btn.in-deck { border-color: var(--accent-primary); color: var(--accent-primary); }
+
+      /* デッキ選択ドロワー（ボトムシート）*/
+      #deck-picker-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 3000;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+      }
+      #deck-picker-sheet {
+        background: var(--surface-color);
+        border-radius: 16px 16px 0 0;
+        padding: 20px;
+        width: 100%;
+        max-width: 520px;
+        max-height: 70vh;
+        overflow-y: auto;
+      }
+      .deck-picker-title {
+        font-weight: 700;
+        font-size: 0.9em;
+        color: var(--text-tertiary);
+        margin-bottom: 12px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--border-color);
+        text-align: center;
+      }
+      .deck-picker-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+      }
+      .deck-picker-item:hover { background: var(--surface-color-light); }
+      .deck-picker-item-name { font-weight: 600; color: var(--text-primary); }
+      .deck-picker-item-check { font-size: 1.1em; color: var(--accent-primary); }
+      .deck-picker-new-btn {
+        width: 100%;
+        margin-top: 10px;
+        padding: 12px;
+        border: 2px dashed var(--border-color);
+        background: none;
+        color: var(--text-tertiary);
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 0.9em;
+        transition: border-color 0.15s, color 0.15s;
+      }
+      .deck-picker-new-btn:hover { border-color: var(--accent-primary); color: var(--accent-primary); }
+      .deck-picker-close-btn {
+        width: 100%;
+        margin-top: 8px;
+        padding: 10px;
+        border: 1px solid var(--border-color);
+        background: none;
+        color: var(--text-secondary);
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 0.9em;
+      }
     </style>
   </head>
 
@@ -1756,6 +1838,69 @@
         localStorage.setItem('lexie_migration_v1', 'done');
       }
 
+      function addToDeck(deckId, voicelineId) {
+        const decks = getDecks();
+        const deck = decks.find(d => d.id === deckId);
+        if (!deck || deck.voicelineIds.includes(voicelineId)) return false;
+        deck.voicelineIds.push(voicelineId);
+        saveDecks(decks);
+        return true;
+      }
+      function removeFromDeck(deckId, voicelineId) {
+        const decks = getDecks();
+        const deck = decks.find(d => d.id === deckId);
+        if (!deck) return;
+        deck.voicelineIds = deck.voicelineIds.filter(id => id !== voicelineId);
+        saveDecks(decks);
+      }
+      function getVoicelineDecks(voicelineId) {
+        return getDecks().filter(d => d.voicelineIds.includes(voicelineId)).map(d => d.id);
+      }
+
+      let _pickerVoicelineId = null;
+      function showDeckPicker(voicelineId) {
+        _pickerVoicelineId = voicelineId;
+        const overlay = document.getElementById('deck-picker-overlay');
+        const list = document.getElementById('deck-picker-list');
+        const decks = getDecks();
+        const inDecks = getVoicelineDecks(voicelineId);
+        list.innerHTML = '';
+        if (decks.length === 0) {
+          list.innerHTML = '<p style="color:var(--text-tertiary); text-align:center; padding:12px 0; font-size:0.9em;">単語帳がありません。下から作ってください。</p>';
+        } else {
+          decks.forEach(deck => {
+            const isIn = inDecks.includes(deck.id);
+            const item = document.createElement('div');
+            item.className = 'deck-picker-item';
+            item.innerHTML = `<span class="deck-picker-item-name">${escapeHtml(deck.name)}</span><span class="deck-picker-item-check">${isIn ? '✓' : ''}</span>`;
+            item.addEventListener('click', () => {
+              if (isIn) removeFromDeck(deck.id, voicelineId);
+              else addToDeck(deck.id, voicelineId);
+              // ＋ボタンの状態を更新
+              document.querySelectorAll(`.add-to-deck-btn[data-id="${voicelineId}"]`).forEach(btn => {
+                btn.classList.toggle('in-deck', getVoicelineDecks(voicelineId).length > 0);
+              });
+              showDeckPicker(voicelineId);
+            });
+            list.appendChild(item);
+          });
+        }
+        document.getElementById('deck-picker-new-btn').onclick = () => {
+          const name = prompt('単語帳の名前を入力してください');
+          if (name && name.trim()) {
+            const deck = createDeck(name);
+            addToDeck(deck.id, voicelineId);
+            document.querySelectorAll(`.add-to-deck-btn[data-id="${voicelineId}"]`).forEach(btn => btn.classList.add('in-deck'));
+            showDeckPicker(voicelineId);
+          }
+        };
+        overlay.style.display = 'flex';
+      }
+      function hideDeckPicker() {
+        document.getElementById('deck-picker-overlay').style.display = 'none';
+        _pickerVoicelineId = null;
+      }
+
       // 単語帳一覧ページ描画
       function renderDecksPage() {
         const decks = getDecks();
@@ -2232,7 +2377,7 @@
                     !l.audioUrl ? "disabled" : ""
                   }>再生 ▶</button><button class="voiceline-toggle" data-target="${
                     l.id
-                  }">解説 ▼</button></div>
+                  }">解説 ▼</button><button class="add-to-deck-btn${getVoicelineDecks(l.id).length > 0 ? ' in-deck' : ''}" data-id="${l.id}" title="単語帳に追加">＋</button></div>
                   </div>
                   <div class="voiceline-explanation" id="${l.id}">${
                     l.explanation
@@ -2366,6 +2511,14 @@
             });
           });
         }
+
+        // ＋ 単語帳に追加ボタン
+        document.querySelectorAll('.add-to-deck-btn').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showDeckPicker(btn.dataset.id);
+          });
+        });
 
         bindFontSizeButtons();
         setFontSize(fontSize);
@@ -2602,6 +2755,12 @@
 
         if (typeof brawlers !== "undefined") filterBrawlers();
         embedTikTokVideo("7507203728039070996", "tiktok-video-1");
+
+        // デッキ選択ドロワー：オーバーレイ外クリックで閉じる
+        document.getElementById('deck-picker-overlay').addEventListener('click', (e) => {
+          if (e.target === document.getElementById('deck-picker-overlay')) hideDeckPicker();
+        });
+        document.getElementById('deck-picker-close-btn').addEventListener('click', hideDeckPicker);
       });
 
       function embedTikTokVideo(videoId, targetElementId) {
@@ -2612,5 +2771,15 @@
         }
       }
     </script>
+
+    <!-- デッキ選択ドロワー -->
+    <div id="deck-picker-overlay" style="display:none;">
+      <div id="deck-picker-sheet">
+        <div class="deck-picker-title">📚 単語帳に追加</div>
+        <div id="deck-picker-list"></div>
+        <button class="deck-picker-new-btn" id="deck-picker-new-btn">＋ 新しい単語帳を作る</button>
+        <button class="deck-picker-close-btn" id="deck-picker-close-btn">閉じる</button>
+      </div>
+    </div>
   </body>
 </html>
