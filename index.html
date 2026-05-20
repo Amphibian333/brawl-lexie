@@ -1192,6 +1192,59 @@
         gap: 6px;
         flex-wrap: wrap;
       }
+
+      /* ■ 単語帳システム */
+      .deck-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 16px;
+        margin-top: 8px;
+      }
+      .deck-card {
+        background: var(--surface-color);
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 18px;
+        cursor: pointer;
+        transition: border-color 0.2s, box-shadow 0.2s;
+        position: relative;
+      }
+      @media (hover: hover) {
+        .deck-card:hover {
+          border-color: var(--accent-primary);
+          box-shadow: 0 4px 12px var(--shadow-color);
+        }
+      }
+      .deck-card-name {
+        font-size: 1.05em;
+        font-weight: 700;
+        color: var(--text-primary);
+        margin-bottom: 6px;
+        word-break: break-all;
+      }
+      .deck-card-meta {
+        font-size: 0.82em;
+        color: var(--text-tertiary);
+      }
+      .deck-card-actions {
+        display: flex;
+        gap: 6px;
+        margin-top: 14px;
+        flex-wrap: wrap;
+      }
+      .deck-card-btn {
+        border: 1px solid var(--border-color);
+        background: none;
+        color: var(--text-secondary);
+        padding: 4px 10px;
+        border-radius: 6px;
+        font-size: 0.78em;
+        cursor: pointer;
+        transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .deck-card-btn:hover { border-color: var(--accent-primary); color: var(--accent-primary); }
+      .deck-card-btn.danger:hover { border-color: var(--accent-secondary); color: var(--accent-secondary); }
     </style>
   </head>
 
@@ -1213,6 +1266,7 @@
                 >❤️ お気に入り</a
               >
             </li>
+            <li><a class="nav-link" data-target="decks">📚 単語帳</a></li>
             <li><a class="nav-link" data-target="lessons">翻訳動画</a></li>
           </ul>
         </nav>
@@ -1415,6 +1469,26 @@
         </div>
       </section>
 
+      <section id="decks" class="page-section hidden">
+        <div class="container">
+          <div id="deck-list-view">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px; flex-wrap:wrap; gap:12px;">
+              <h2 class="section-title" style="border:none; padding:0; margin:0;">📚 単語帳</h2>
+              <button id="create-deck-btn" class="btn">＋ 新規作成</button>
+            </div>
+            <div id="deck-grid" class="deck-grid"></div>
+            <div id="empty-decks-state" style="display:none; text-align:center; padding:60px 20px;">
+              <p style="font-size:2em; margin-bottom:12px;">📚</p>
+              <p style="color:var(--text-secondary); font-size:1.05em;">単語帳がまだありません</p>
+              <p style="color:var(--text-tertiary); margin-top:8px; font-size:0.9em;">「＋ 新規作成」から作ってみよう！</p>
+            </div>
+          </div>
+          <div id="deck-detail-view" style="display:none;">
+            <!-- Phase 3 で実装 -->
+          </div>
+        </div>
+      </section>
+
       <section id="lessons" class="page-section container hidden">
         <h2 class="section-title">翻訳動画</h2>
         <div class="tiktok-video-container">
@@ -1546,6 +1620,7 @@
           "lessons",
           "about",
           "favorites",
+          "decks",
         ];
         sections.forEach((id) => {
           const el = document.getElementById(id);
@@ -1581,6 +1656,10 @@
             .querySelector('[data-target="favorites"]')
             .classList.add("active");
           renderFavoritesPage(); // お気に入りページを再描画
+        } else if (pageName === "decks") {
+          document.getElementById("decks").classList.remove("hidden");
+          document.querySelector('[data-target="decks"]').classList.add("active");
+          renderDecksPage();
         }
       }
       // ▲▲▲ 修正版 switchPage（ここまで） ▲▲▲
@@ -1630,6 +1709,113 @@
         }
         localStorage.setItem('lexie_memorize_hard', JSON.stringify(hard));
         return hard.includes(id);
+      }
+
+      // ----------------------------------------------------
+      // 3a. 単語帳（デッキ）システム — CRUD
+      // ----------------------------------------------------
+      function escapeHtml(str) {
+        return String(str).replace(/[&<>"']/g, m =>
+          ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m])
+        );
+      }
+      function getDecks() {
+        const data = localStorage.getItem('lexie_decks');
+        return data ? JSON.parse(data) : [];
+      }
+      function saveDecks(decks) {
+        localStorage.setItem('lexie_decks', JSON.stringify(decks));
+      }
+      function createDeck(name) {
+        const deck = { id: 'deck_' + Date.now(), name: name.trim(), createdAt: new Date().toISOString(), voicelineIds: [] };
+        const decks = getDecks();
+        decks.push(deck);
+        saveDecks(decks);
+        return deck;
+      }
+      function deleteDeck(deckId) {
+        saveDecks(getDecks().filter(d => d.id !== deckId));
+      }
+      function renameDeck(deckId, name) {
+        const decks = getDecks();
+        const deck = decks.find(d => d.id === deckId);
+        if (deck) { deck.name = name.trim(); saveDecks(decks); }
+      }
+      function migrateMemorizeHard() {
+        if (localStorage.getItem('lexie_migration_v1') === 'done') return;
+        const raw = localStorage.getItem('lexie_memorize_hard');
+        if (raw) {
+          const ids = JSON.parse(raw);
+          if (ids.length > 0) {
+            const deck = { id: 'deck_' + Date.now(), name: '要復習', createdAt: new Date().toISOString(), voicelineIds: ids };
+            const decks = getDecks();
+            decks.unshift(deck);
+            saveDecks(decks);
+          }
+        }
+        localStorage.setItem('lexie_migration_v1', 'done');
+      }
+
+      // 単語帳一覧ページ描画
+      function renderDecksPage() {
+        const decks = getDecks();
+        const grid = document.getElementById('deck-grid');
+        const emptyState = document.getElementById('empty-decks-state');
+        const listView = document.getElementById('deck-list-view');
+        const detailView = document.getElementById('deck-detail-view');
+
+        listView.style.display = 'block';
+        detailView.style.display = 'none';
+        grid.innerHTML = '';
+
+        if (decks.length === 0) {
+          emptyState.style.display = 'block';
+        } else {
+          emptyState.style.display = 'none';
+          decks.forEach(deck => {
+            const card = document.createElement('div');
+            card.className = 'deck-card';
+            card.innerHTML = `
+              <div class="deck-card-name">${escapeHtml(deck.name)}</div>
+              <div class="deck-card-meta">${deck.voicelineIds.length}件のセリフ</div>
+              <div class="deck-card-actions">
+                <button class="deck-card-btn rename-deck-btn" data-id="${deck.id}">✏️ 名前変更</button>
+                <button class="deck-card-btn danger delete-deck-btn" data-id="${deck.id}">🗑 削除</button>
+              </div>
+            `;
+            card.addEventListener('click', (e) => {
+              if (e.target.closest('.deck-card-btn')) return;
+              renderDeckDetail(deck.id);
+            });
+            card.querySelector('.rename-deck-btn').addEventListener('click', (e) => {
+              e.stopPropagation();
+              const newName = prompt('単語帳の名前を変更', deck.name);
+              if (newName && newName.trim()) { renameDeck(deck.id, newName); renderDecksPage(); }
+            });
+            card.querySelector('.delete-deck-btn').addEventListener('click', (e) => {
+              e.stopPropagation();
+              if (confirm(`「${escapeHtml(deck.name)}」を削除しますか？`)) { deleteDeck(deck.id); renderDecksPage(); }
+            });
+            grid.appendChild(card);
+          });
+        }
+
+        document.getElementById('create-deck-btn').onclick = () => {
+          const name = prompt('単語帳の名前を入力してください');
+          if (name && name.trim()) { createDeck(name); renderDecksPage(); }
+        };
+      }
+
+      // 単語帳詳細ページ（Phase 3 で実装）
+      function renderDeckDetail(deckId) {
+        const deck = getDecks().find(d => d.id === deckId);
+        if (!deck) return;
+        const detailView = document.getElementById('deck-detail-view');
+        const listView = document.getElementById('deck-list-view');
+        listView.style.display = 'none';
+        detailView.style.display = 'block';
+        detailView.innerHTML = `<p style="color:var(--text-tertiary); text-align:center; padding:40px;">「${escapeHtml(deck.name)}」 — 詳細ページは Phase 3 で実装予定</p><button id="back-to-decks-btn-ph1" class="btn btn-secondary" style="display:block; margin:0 auto;">← 一覧に戻る</button>`;
+        document.getElementById('back-to-decks-btn-ph1').onclick = renderDecksPage;
       }
 
       // ----------------------------------------------------
