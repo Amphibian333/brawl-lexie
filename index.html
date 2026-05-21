@@ -2727,11 +2727,17 @@
             // 1. トップへ戻るボタンの表示・非表示
             pageTopBtn.classList.toggle("visible", window.scrollY > 300);
 
-            // 2. ヘッダーのコンパクト化
-            //    「状態が変わる時だけ」classList を操作し、transition の不要なキャンセルを防ぐ
-            const shouldScroll = window.scrollY > 50;
-            if (shouldScroll !== headerEl.classList.contains("scrolled")) {
-              headerEl.classList.toggle("scrolled", shouldScroll);
+            // 2. ヘッダーのコンパクト化（ヒステリシスで自己ループ防止）
+            //    ON閾値(150px)とOFF閾値(20px)を分けることで、
+            //    ヘッダー縮小(~70px)による scroll anchoring の影響でループしなくなる
+            const SCROLL_ENTER = 150;
+            const SCROLL_LEAVE = 20;
+            const y = window.scrollY;
+            const isScrolled = headerEl.classList.contains("scrolled");
+            if (!isScrolled && y > SCROLL_ENTER) {
+              headerEl.classList.add("scrolled");
+            } else if (isScrolled && y < SCROLL_LEAVE) {
+              headerEl.classList.remove("scrolled");
             }
 
             ticking = false;
