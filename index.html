@@ -2717,19 +2717,26 @@
         pageTopBtn.innerHTML = "▲";
         document.body.appendChild(pageTopBtn);
 
-        // ★ここが重要！スクロール時の動きをまとめて書きます
-        window.onscroll = () => {
-          // 1. トップへ戻るボタンの表示・非表示
-          pageTopBtn.classList.toggle("visible", window.scrollY > 300);
+        // スクロール時の動き（rAF スロットル＋状態変化ガードでjitter防止）
+        const headerEl = document.querySelector("header");
+        let ticking = false;
+        window.addEventListener("scroll", () => {
+          if (ticking) return;
+          ticking = true;
+          requestAnimationFrame(() => {
+            // 1. トップへ戻るボタンの表示・非表示
+            pageTopBtn.classList.toggle("visible", window.scrollY > 300);
 
-          // 2. ヘッダーのコンパクト化（50px以上スクロールしたら発動）
-          const header = document.querySelector("header");
-          if (window.scrollY > 50) {
-            header.classList.add("scrolled");
-          } else {
-            header.classList.remove("scrolled");
-          }
-        };
+            // 2. ヘッダーのコンパクト化
+            //    「状態が変わる時だけ」classList を操作し、transition の不要なキャンセルを防ぐ
+            const shouldScroll = window.scrollY > 50;
+            if (shouldScroll !== headerEl.classList.contains("scrolled")) {
+              headerEl.classList.toggle("scrolled", shouldScroll);
+            }
+
+            ticking = false;
+          });
+        }, { passive: true });
 
         pageTopBtn.onclick = () =>
           window.scrollTo({ top: 0, behavior: "smooth" });
