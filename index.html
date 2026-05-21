@@ -2730,7 +2730,7 @@
             // 2. ヘッダーのコンパクト化（ヒステリシスで自己ループ防止）
             //    ON閾値(150px)とOFF閾値(20px)を分けることで、
             //    ヘッダー縮小(~70px)による scroll anchoring の影響でループしなくなる
-            const SCROLL_ENTER = 150;
+            const SCROLL_ENTER = 100;
             const SCROLL_LEAVE = 20;
             const y = window.scrollY;
             const isScrolled = headerEl.classList.contains("scrolled");
