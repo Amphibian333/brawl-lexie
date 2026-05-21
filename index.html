@@ -160,14 +160,52 @@
         margin: 0 auto;
         padding: 20px 0;
       }
-      #beta-banner {
+      /* ===== アップデートバナー ===== */
+      #update-banner {
         background-color: var(--beta-bar-bg);
         color: var(--beta-bar-text);
-        text-align: center;
-        padding: 8px 10px;
+        display: none; /* JSで表示制御 */
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 8px 16px;
         font-weight: 700;
         font-size: 0.9em;
         width: 100%;
+        animation: bannerFadeIn 0.5s ease;
+      }
+      @keyframes bannerFadeIn {
+        from { opacity: 0; transform: translateY(-6px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      .update-banner-text {
+        flex: 1;
+        text-align: center;
+      }
+      .update-banner-link {
+        color: var(--beta-bar-text);
+        font-weight: 700;
+        text-decoration: underline;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+      .update-banner-close {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1.1em;
+        color: var(--beta-bar-text);
+        padding: 0 4px;
+        line-height: 1;
+        flex-shrink: 0;
+      }
+      /* スマホでバナーテキストを短縮 */
+      .update-banner-full  { display: inline; }
+      .update-banner-short { display: none; }
+      @media (max-width: 600px) {
+        .update-banner-full  { display: none; }
+        .update-banner-short { display: inline; }
+        #update-banner { font-size: 0.82em; padding: 6px 10px; }
       }
 
       header {
@@ -1286,12 +1324,102 @@
         cursor: pointer;
         font-size: 0.9em;
       }
+      /* ===== スマホ 5項目ナビ対応 ===== */
+      @media (max-width: 600px) {
+        header nav ul li a {
+          font-size: 0.75em !important;
+          padding: 7px 5px !important;
+        }
+      }
+
+      /* ===== アップデート履歴ページ ===== */
+      .changelog-grid {
+        display: grid;
+        gap: 20px;
+        padding: 16px 0 40px;
+      }
+      @media (min-width: 768px) {
+        .changelog-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+        .changelog-card:first-child {
+          grid-column: 1 / -1; /* 最新は全幅 */
+        }
+      }
+      .changelog-card {
+        background: var(--surface-color);
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 24px 20px;
+        border-left: 4px solid var(--accent-primary);
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+      .changelog-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px var(--shadow-color);
+      }
+      .changelog-card-header {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 8px;
+      }
+      .changelog-version {
+        font-size: 1.1em;
+        font-weight: 700;
+        color: var(--accent-primary);
+      }
+      .changelog-badge {
+        background: var(--accent-primary);
+        color: var(--btn-text);
+        font-size: 0.72em;
+        font-weight: 700;
+        padding: 2px 8px;
+        border-radius: 99px;
+      }
+      .changelog-date {
+        font-size: 0.85em;
+        color: var(--text-tertiary);
+        margin-left: auto;
+      }
+      .changelog-title {
+        font-size: 1.15em;
+        font-weight: 700;
+        margin-bottom: 12px;
+        color: var(--text-primary);
+      }
+      .changelog-features {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+      }
+      .changelog-features li {
+        font-size: 0.95em;
+        color: var(--text-secondary);
+        padding: 7px 0;
+        border-bottom: 1px solid var(--border-color);
+      }
+      .changelog-features li:last-child {
+        border-bottom: none;
+      }
     </style>
   </head>
 
   <body>
     <header>
-      <div id="beta-banner">🚧 現在ベータ版です。リクエスト募集中！ 🚧</div>
+      <!-- アップデート速報バナー（版番号管理・×ボタンで非表示・localStorage記録） -->
+      <div id="update-banner">
+        <span class="update-banner-text">
+          <span class="update-banner-full">🎉 大型アップデート公開！単語帳機能・暗記モード・速度変更 など8つの新機能を追加 → </span>
+          <span class="update-banner-short">🎉 大型アップデート公開！ </span>
+          <span class="update-banner-link" id="update-banner-link">詳しく</span>
+        </span>
+        <button class="update-banner-close" id="update-banner-close" aria-label="バナーを閉じる">✕</button>
+      </div>
       <div class="header-nav-container">
         <h1>
           Lexie
@@ -1308,6 +1436,7 @@
               >
             </li>
             <li><a class="nav-link" data-target="decks">📚 単語帳</a></li>
+            <li><a class="nav-link" data-target="changelog">📋 履歴</a></li>
             <li><a class="nav-link" data-target="lessons">翻訳動画</a></li>
           </ul>
         </nav>
@@ -1552,9 +1681,19 @@
           </div>
         </div>
       </section>
+      <!-- アップデート履歴ページ -->
+      <section id="changelog" class="page-section hidden">
+        <div class="container">
+          <h2 class="section-title">📋 アップデート履歴</h2>
+          <div id="changelog-grid" class="changelog-grid"></div>
+        </div>
+      </section>
     </main>
 
     <footer class="fan-policy-footer">
+      <p style="font-size: 11px; color: var(--text-tertiary); margin-bottom: 6px;">
+        🚧 一部機能はベータ版です。リクエスト・フィードバック募集中！
+      </p>
       <p>
         このコンテンツは非公式であり、Supercellによる承認を受けていません。ファンコンテンツに関する詳細は、Supercellのファンコンテンツポリシーをご覧ください（<a
           href="https://www.supercell.com/fan-content-policy"
@@ -1608,6 +1747,7 @@
     </div>
 
     <script src="brawlers.js"></script>
+    <script src="data/changelog.js"></script>
     <script async src="https://www.tiktok.com/embed.js"></script>
 
     <script>
@@ -1657,6 +1797,7 @@
           "about",
           "favorites",
           "decks",
+          "changelog",
         ];
         sections.forEach((id) => {
           const el = document.getElementById(id);
@@ -1696,9 +1837,55 @@
           document.getElementById("decks").classList.remove("hidden");
           document.querySelector('[data-target="decks"]').classList.add("active");
           renderDecksPage();
+        } else if (pageName === "changelog") {
+          document.getElementById("changelog").classList.remove("hidden");
+          document.querySelector('[data-target="changelog"]').classList.add("active");
+          renderChangelogPage();
         }
       }
       // ▲▲▲ 修正版 switchPage（ここまで） ▲▲▲
+
+      // ----------------------------------------------------
+      // 1b. バナー管理（アップデート速報）
+      // ----------------------------------------------------
+      const LATEST_VERSION = (typeof CHANGELOG_DATA !== 'undefined' && CHANGELOG_DATA.length > 0)
+        ? CHANGELOG_DATA[0].version
+        : 'v2.0';
+
+      // バナーを初期化（未閲覧なら表示）
+      function initBanner() {
+        const seenVersion = localStorage.getItem('lexie_seen_version');
+        if (seenVersion !== LATEST_VERSION) {
+          document.getElementById('update-banner').style.display = 'flex';
+        }
+      }
+
+      // バナーを閉じる（localStorage に閲覧済み記録）
+      function closeBanner() {
+        document.getElementById('update-banner').style.display = 'none';
+        localStorage.setItem('lexie_seen_version', LATEST_VERSION);
+      }
+
+      // ----------------------------------------------------
+      // 1c. アップデート履歴ページ描画
+      // ----------------------------------------------------
+      function renderChangelogPage() {
+        const grid = document.getElementById('changelog-grid');
+        if (!grid || typeof CHANGELOG_DATA === 'undefined') return;
+        grid.innerHTML = CHANGELOG_DATA.map((entry, i) => `
+          <div class="changelog-card">
+            <div class="changelog-card-header">
+              <span class="changelog-version">${escapeHtml(entry.version)}</span>
+              ${i === 0 ? '<span class="changelog-badge">最新</span>' : ''}
+              <span class="changelog-date">${escapeHtml(entry.date)}</span>
+            </div>
+            <h3 class="changelog-title">${escapeHtml(entry.title)}</h3>
+            <ul class="changelog-features">
+              ${entry.features.map(f => `<li>${f.icon} ${escapeHtml(f.text)}</li>`).join('')}
+            </ul>
+          </div>
+        `).join('');
+      }
 
       // ----------------------------------------------------
       // 2. お気に入り機能（保存・読み込み）
@@ -2659,6 +2846,14 @@
             const target = link.dataset.target;
             switchPage(target);
           });
+        });
+
+        // バナー初期化・イベント設定
+        initBanner();
+        document.getElementById('update-banner-close').addEventListener('click', closeBanner);
+        document.getElementById('update-banner-link').addEventListener('click', () => {
+          switchPage('changelog');
+          closeBanner();
         });
 
         // お気に入りページのイベント
