@@ -1101,47 +1101,6 @@
         }
       }
 
-      /* 🔖 覚えられなかったボタン（.quote-jp 内に絶対配置） */
-      .memorize-hard-btn {
-        display: none;
-        position: absolute;
-        bottom: 4px;
-        right: 95px;
-        background: none;
-        border: none;
-        padding: 4px;
-        min-width: 28px;
-        min-height: 28px;
-        cursor: pointer;
-        font-size: 1em;
-        line-height: 1;
-        color: initial;
-        filter: grayscale(1);
-        opacity: 0.35;
-        transition: opacity 0.15s, filter 0.15s;
-        -webkit-tap-highlight-color: transparent;
-      }
-      .memorize-hard-btn.active {
-        filter: none;
-        opacity: 1;
-      }
-
-      @keyframes memorize-hard-bounce {
-        0%   { transform: scale(1); }
-        40%  { transform: scale(1.5); }
-        70%  { transform: scale(0.88); }
-        100% { transform: scale(1); }
-      }
-      .memorize-hard-btn.bouncing {
-        animation: memorize-hard-bounce 0.3s ease;
-      }
-
-      @media (max-width: 480px) {
-        .memorize-hard-btn {
-          right: 28px;
-        }
-      }
-
       /* 再生スピード選択ボタン */
       .speed-btn-group {
         display: flex;
@@ -1192,6 +1151,141 @@
         gap: 6px;
         flex-wrap: wrap;
       }
+
+      /* ■ 単語帳システム */
+      .deck-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 16px;
+        margin-top: 8px;
+      }
+      .deck-card {
+        background: var(--surface-color);
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 18px;
+        cursor: pointer;
+        transition: border-color 0.2s, box-shadow 0.2s;
+        position: relative;
+      }
+      @media (hover: hover) {
+        .deck-card:hover {
+          border-color: var(--accent-primary);
+          box-shadow: 0 4px 12px var(--shadow-color);
+        }
+      }
+      .deck-card-name {
+        font-size: 1.05em;
+        font-weight: 700;
+        color: var(--text-primary);
+        margin-bottom: 6px;
+        word-break: break-all;
+      }
+      .deck-card-meta {
+        font-size: 0.82em;
+        color: var(--text-tertiary);
+      }
+      .deck-card-actions {
+        display: flex;
+        gap: 6px;
+        margin-top: 14px;
+        flex-wrap: wrap;
+      }
+      .deck-card-btn {
+        border: 1px solid var(--border-color);
+        background: none;
+        color: var(--text-secondary);
+        padding: 4px 10px;
+        border-radius: 6px;
+        font-size: 0.78em;
+        cursor: pointer;
+        transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .deck-card-btn:hover { border-color: var(--accent-primary); color: var(--accent-primary); }
+      .deck-card-btn.danger:hover { border-color: var(--accent-secondary); color: var(--accent-secondary); }
+
+      /* 単語帳追加ボタン（voiceline-actions内）*/
+      .add-to-deck-btn {
+        border: 1px solid var(--border-color);
+        background: none;
+        color: var(--text-tertiary);
+        padding: 5px 9px;
+        border-radius: 6px;
+        font-size: 1em;
+        font-weight: 700;
+        cursor: pointer;
+        line-height: 1;
+        transition: border-color 0.15s, color 0.15s;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .add-to-deck-btn:hover { border-color: var(--accent-primary); color: var(--accent-primary); }
+      .add-to-deck-btn.in-deck { border-color: var(--accent-primary); color: var(--accent-primary); }
+
+      /* デッキ選択ドロワー（ボトムシート）*/
+      #deck-picker-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 3000;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+      }
+      #deck-picker-sheet {
+        background: var(--surface-color);
+        border-radius: 16px 16px 0 0;
+        padding: 20px;
+        width: 100%;
+        max-width: 520px;
+        max-height: 70vh;
+        overflow-y: auto;
+      }
+      .deck-picker-title {
+        font-weight: 700;
+        font-size: 0.9em;
+        color: var(--text-tertiary);
+        margin-bottom: 12px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--border-color);
+        text-align: center;
+      }
+      .deck-picker-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+      }
+      .deck-picker-item:hover { background: var(--surface-color-light); }
+      .deck-picker-item-name { font-weight: 600; color: var(--text-primary); }
+      .deck-picker-item-check { font-size: 1.1em; color: var(--accent-primary); }
+      .deck-picker-new-btn {
+        width: 100%;
+        margin-top: 10px;
+        padding: 12px;
+        border: 2px dashed var(--border-color);
+        background: none;
+        color: var(--text-tertiary);
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 0.9em;
+        transition: border-color 0.15s, color 0.15s;
+      }
+      .deck-picker-new-btn:hover { border-color: var(--accent-primary); color: var(--accent-primary); }
+      .deck-picker-close-btn {
+        width: 100%;
+        margin-top: 8px;
+        padding: 10px;
+        border: 1px solid var(--border-color);
+        background: none;
+        color: var(--text-secondary);
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 0.9em;
+      }
     </style>
   </head>
 
@@ -1213,6 +1307,7 @@
                 >❤️ お気に入り</a
               >
             </li>
+            <li><a class="nav-link" data-target="decks">📚 単語帳</a></li>
             <li><a class="nav-link" data-target="lessons">翻訳動画</a></li>
           </ul>
         </nav>
@@ -1344,11 +1439,6 @@
             </div>
           </div>
 
-          <div id="fav-hard-section" style="display:none; margin-bottom: 40px;">
-            <h3 style="color:var(--accent-secondary); border-bottom:2px solid var(--border-color); padding-bottom:10px; margin-bottom:20px;">🔖 要復習セリフ</h3>
-            <div id="fav-hard-list"></div>
-          </div>
-
           <div id="fav-brawlers-section">
             <h3
               style="
@@ -1411,6 +1501,26 @@
             >
               キャラクターを探しに行く
             </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="decks" class="page-section hidden">
+        <div class="container">
+          <div id="deck-list-view">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px; flex-wrap:wrap; gap:12px;">
+              <h2 class="section-title" style="border:none; padding:0; margin:0;">📚 単語帳</h2>
+              <button id="create-deck-btn" class="btn">＋ 新規作成</button>
+            </div>
+            <div id="deck-grid" class="deck-grid"></div>
+            <div id="empty-decks-state" style="display:none; text-align:center; padding:60px 20px;">
+              <p style="font-size:2em; margin-bottom:12px;">📚</p>
+              <p style="color:var(--text-secondary); font-size:1.05em;">単語帳がまだありません</p>
+              <p style="color:var(--text-tertiary); margin-top:8px; font-size:0.9em;">「＋ 新規作成」から作ってみよう！</p>
+            </div>
+          </div>
+          <div id="deck-detail-view" style="display:none;">
+            <!-- Phase 3 で実装 -->
           </div>
         </div>
       </section>
@@ -1546,6 +1656,7 @@
           "lessons",
           "about",
           "favorites",
+          "decks",
         ];
         sections.forEach((id) => {
           const el = document.getElementById(id);
@@ -1581,6 +1692,10 @@
             .querySelector('[data-target="favorites"]')
             .classList.add("active");
           renderFavoritesPage(); // お気に入りページを再描画
+        } else if (pageName === "decks") {
+          document.getElementById("decks").classList.remove("hidden");
+          document.querySelector('[data-target="decks"]').classList.add("active");
+          renderDecksPage();
         }
       }
       // ▲▲▲ 修正版 switchPage（ここまで） ▲▲▲
@@ -1617,19 +1732,305 @@
         return favs.includes(id);
       }
 
-      function getMemorizeHard() {
-        const data = localStorage.getItem('lexie_memorize_hard');
+      // ----------------------------------------------------
+      // 3a. 単語帳（デッキ）システム — CRUD
+      // ----------------------------------------------------
+      function escapeHtml(str) {
+        return String(str).replace(/[&<>"']/g, m =>
+          ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m])
+        );
+      }
+      function getDecks() {
+        const data = localStorage.getItem('lexie_decks');
         return data ? JSON.parse(data) : [];
       }
-      function toggleMemorizeHard(id) {
-        let hard = getMemorizeHard();
-        if (hard.includes(id)) {
-          hard = hard.filter(h => h !== id);
-        } else {
-          hard.push(id);
+      function saveDecks(decks) {
+        localStorage.setItem('lexie_decks', JSON.stringify(decks));
+      }
+      function createDeck(name) {
+        const deck = { id: 'deck_' + Date.now(), name: name.trim(), createdAt: new Date().toISOString(), voicelineIds: [] };
+        const decks = getDecks();
+        decks.push(deck);
+        saveDecks(decks);
+        return deck;
+      }
+      function deleteDeck(deckId) {
+        saveDecks(getDecks().filter(d => d.id !== deckId));
+      }
+      function renameDeck(deckId, name) {
+        const decks = getDecks();
+        const deck = decks.find(d => d.id === deckId);
+        if (deck) { deck.name = name.trim(); saveDecks(decks); }
+      }
+      function migrateMemorizeHard() {
+        if (localStorage.getItem('lexie_migration_v1') === 'done') return;
+        const raw = localStorage.getItem('lexie_memorize_hard');
+        if (raw) {
+          const ids = JSON.parse(raw);
+          if (ids.length > 0) {
+            const deck = { id: 'deck_' + Date.now(), name: '要復習', createdAt: new Date().toISOString(), voicelineIds: ids };
+            const decks = getDecks();
+            decks.unshift(deck);
+            saveDecks(decks);
+          }
         }
-        localStorage.setItem('lexie_memorize_hard', JSON.stringify(hard));
-        return hard.includes(id);
+        localStorage.setItem('lexie_migration_v1', 'done');
+      }
+
+      function addToDeck(deckId, voicelineId) {
+        const decks = getDecks();
+        const deck = decks.find(d => d.id === deckId);
+        if (!deck || deck.voicelineIds.includes(voicelineId)) return false;
+        deck.voicelineIds.push(voicelineId);
+        saveDecks(decks);
+        return true;
+      }
+      function removeFromDeck(deckId, voicelineId) {
+        const decks = getDecks();
+        const deck = decks.find(d => d.id === deckId);
+        if (!deck) return;
+        deck.voicelineIds = deck.voicelineIds.filter(id => id !== voicelineId);
+        saveDecks(decks);
+      }
+      function getVoicelineDecks(voicelineId) {
+        return getDecks().filter(d => d.voicelineIds.includes(voicelineId)).map(d => d.id);
+      }
+
+      let _pickerVoicelineId = null;
+      function showDeckPicker(voicelineId) {
+        _pickerVoicelineId = voicelineId;
+        const overlay = document.getElementById('deck-picker-overlay');
+        const list = document.getElementById('deck-picker-list');
+        const decks = getDecks();
+        const inDecks = getVoicelineDecks(voicelineId);
+        list.innerHTML = '';
+        if (decks.length === 0) {
+          list.innerHTML = '<p style="color:var(--text-tertiary); text-align:center; padding:12px 0; font-size:0.9em;">単語帳がありません。下から作ってください。</p>';
+        } else {
+          decks.forEach(deck => {
+            const isIn = inDecks.includes(deck.id);
+            const item = document.createElement('div');
+            item.className = 'deck-picker-item';
+            item.innerHTML = `<span class="deck-picker-item-name">${escapeHtml(deck.name)}</span><span class="deck-picker-item-check">${isIn ? '✓' : ''}</span>`;
+            item.addEventListener('click', () => {
+              if (isIn) removeFromDeck(deck.id, voicelineId);
+              else addToDeck(deck.id, voicelineId);
+              // ＋ボタンの状態を更新
+              document.querySelectorAll(`.add-to-deck-btn[data-id="${voicelineId}"]`).forEach(btn => {
+                btn.classList.toggle('in-deck', getVoicelineDecks(voicelineId).length > 0);
+              });
+              showDeckPicker(voicelineId);
+            });
+            list.appendChild(item);
+          });
+        }
+        document.getElementById('deck-picker-new-btn').onclick = () => {
+          const name = prompt('単語帳の名前を入力してください');
+          if (name && name.trim()) {
+            const deck = createDeck(name);
+            addToDeck(deck.id, voicelineId);
+            document.querySelectorAll(`.add-to-deck-btn[data-id="${voicelineId}"]`).forEach(btn => btn.classList.add('in-deck'));
+            showDeckPicker(voicelineId);
+          }
+        };
+        overlay.style.display = 'flex';
+      }
+      function hideDeckPicker() {
+        document.getElementById('deck-picker-overlay').style.display = 'none';
+        _pickerVoicelineId = null;
+      }
+
+      // 単語帳一覧ページ描画
+      function renderDecksPage() {
+        const decks = getDecks();
+        const grid = document.getElementById('deck-grid');
+        const emptyState = document.getElementById('empty-decks-state');
+        const listView = document.getElementById('deck-list-view');
+        const detailView = document.getElementById('deck-detail-view');
+
+        listView.style.display = 'block';
+        detailView.style.display = 'none';
+        grid.innerHTML = '';
+
+        if (decks.length === 0) {
+          emptyState.style.display = 'block';
+        } else {
+          emptyState.style.display = 'none';
+          decks.forEach(deck => {
+            const card = document.createElement('div');
+            card.className = 'deck-card';
+            card.innerHTML = `
+              <div class="deck-card-name">${escapeHtml(deck.name)}</div>
+              <div class="deck-card-meta">${deck.voicelineIds.length}件のセリフ</div>
+              <div class="deck-card-actions">
+                <button class="deck-card-btn rename-deck-btn" data-id="${deck.id}">✏️ 名前変更</button>
+                <button class="deck-card-btn danger delete-deck-btn" data-id="${deck.id}">🗑 削除</button>
+              </div>
+            `;
+            card.addEventListener('click', (e) => {
+              if (e.target.closest('.deck-card-btn')) return;
+              renderDeckDetail(deck.id);
+            });
+            card.querySelector('.rename-deck-btn').addEventListener('click', (e) => {
+              e.stopPropagation();
+              const newName = prompt('単語帳の名前を変更', deck.name);
+              if (newName && newName.trim()) { renameDeck(deck.id, newName); renderDecksPage(); }
+            });
+            card.querySelector('.delete-deck-btn').addEventListener('click', (e) => {
+              e.stopPropagation();
+              if (confirm(`「${escapeHtml(deck.name)}」を削除しますか？`)) { deleteDeck(deck.id); renderDecksPage(); }
+            });
+            grid.appendChild(card);
+          });
+        }
+
+        document.getElementById('create-deck-btn').onclick = () => {
+          const name = prompt('単語帳の名前を入力してください');
+          if (name && name.trim()) { createDeck(name); renderDecksPage(); }
+        };
+      }
+
+      // 単語帳詳細ページ（Phase 3 で実装）
+      function renderDeckDetail(deckId) {
+        const deck = getDecks().find(d => d.id === deckId);
+        if (!deck) return;
+        const detailView = document.getElementById('deck-detail-view');
+        const listView = document.getElementById('deck-list-view');
+        listView.style.display = 'none';
+        detailView.style.display = 'block';
+
+        // brawlers から voicelineIds に一致するセリフを収集
+        const tracks = [];
+        if (typeof brawlers !== 'undefined') {
+          brawlers.forEach(b => {
+            if (!b.voicelines) return;
+            b.voicelines.forEach(l => {
+              if (deck.voicelineIds.includes(l.id)) tracks.push({ ...l, brawlerName: b.name });
+            });
+          });
+          tracks.sort((a, b) => deck.voicelineIds.indexOf(a.id) - deck.voicelineIds.indexOf(b.id));
+        }
+        const validTracks = tracks.filter(t => t.audioUrl);
+
+        detailView.innerHTML = `
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; flex-wrap:wrap; gap:10px;">
+            <button id="back-to-decks-btn" class="btn btn-secondary">← 一覧に戻る</button>
+            <div style="display:flex; gap:8px;">
+              <button class="deck-card-btn" id="deck-rename-btn">✏️ 名前変更</button>
+              <button class="deck-card-btn danger" id="deck-delete-btn">🗑 削除</button>
+            </div>
+          </div>
+          <h2 style="font-size:1.4em; color:var(--accent-primary); margin-bottom:16px;">${escapeHtml(deck.name)}</h2>
+          ${validTracks.length > 0 ? `
+          <div class="detail-actions-box" id="deck-player-controls" style="margin-bottom:20px;">
+            <button id="deck-play-all-btn">▶ 全音声再生</button>
+            <button id="deck-shuffle-btn">🔀 OFF</button>
+            <button class="speed-btn${isJpHidden ? ' active' : ''}" id="deck-toggle-jp-btn">🙈 暗記</button>
+            <div style="display:flex; align-items:center; flex-wrap:wrap; gap:4px; padding:4px 0;">${renderSpeedButtons()}</div>
+            <div style="display:flex; align-items:center; flex-wrap:wrap; gap:4px; padding:4px 0;">${renderFontSizeButtons()}</div>
+          </div>` : ''}
+          <div id="deck-voiceline-container" class="font-size-target${isJpHidden ? ' jp-hidden' : ''}">
+            ${tracks.map(track => `
+              <div class="voiceline-item" id="dvl-${track.id}">
+                <div style="font-size:0.78em; color:var(--text-tertiary); margin-bottom:4px;">${escapeHtml(track.brawlerName)}</div>
+                <div class="voiceline-main">
+                  <div class="voiceline-quotes">
+                    <p class="quote-en">"${track.quote}"</p>
+                    <p class="quote-jp">${track.translation}</p>
+                  </div>
+                  <div class="voiceline-actions">
+                    <button class="voiceline-play-btn" data-audio-src="${track.audioUrl || ''}" ${!track.audioUrl ? 'disabled' : ''}>再生 ▶</button>
+                    <button class="deck-remove-btn" data-id="${track.id}" data-deck="${deck.id}" style="border:1px solid var(--border-color); background:none; color:var(--text-tertiary); padding:5px 9px; border-radius:6px; cursor:pointer; font-size:0.85em;" title="単語帳から削除">✕</button>
+                  </div>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+          ${tracks.length === 0 ? `
+          <div style="text-align:center; padding:60px 20px;">
+            <p style="font-size:1.8em; margin-bottom:12px;">📭</p>
+            <p style="color:var(--text-secondary);">セリフが登録されていません</p>
+            <p style="color:var(--text-tertiary); font-size:0.9em; margin-top:8px;">キャラ詳細の「＋」から追加しよう！</p>
+          </div>` : ''}
+        `;
+
+        setupDeckDetailEvents(deck, validTracks);
+      }
+
+      function setupDeckDetailEvents(deck, validTracks) {
+        document.getElementById('back-to-decks-btn').onclick = renderDecksPage;
+
+        document.getElementById('deck-rename-btn').onclick = () => {
+          const newName = prompt('単語帳の名前を変更', deck.name);
+          if (newName && newName.trim()) { renameDeck(deck.id, newName); renderDeckDetail(deck.id); }
+        };
+        document.getElementById('deck-delete-btn').onclick = () => {
+          if (confirm(`「${escapeHtml(deck.name)}」を削除しますか？`)) { deleteDeck(deck.id); renderDecksPage(); }
+        };
+
+        if (validTracks.length > 0) {
+          const playAllBtn = document.getElementById('deck-play-all-btn');
+          playAllBtn.onclick = () => {
+            if (isSequentialPlaying) {
+              stopAllPlayback();
+            } else {
+              playlist = isShuffle ? shuffleArray([...validTracks]) : [...validTracks];
+              playTrackByIndex(0);
+            }
+          };
+          const shufBtn = document.getElementById('deck-shuffle-btn');
+          shufBtn.innerText = isShuffle ? '🔀 ON' : '🔀 OFF';
+          shufBtn.style.color = isShuffle ? 'var(--accent-secondary)' : 'var(--accent-primary)';
+          shufBtn.onclick = () => {
+            isShuffle = !isShuffle;
+            shufBtn.innerText = isShuffle ? '🔀 ON' : '🔀 OFF';
+            shufBtn.style.color = isShuffle ? 'var(--accent-secondary)' : 'var(--accent-primary)';
+            if (isSequentialPlaying) playlist = isShuffle ? shuffleArray([...validTracks]) : [...validTracks];
+          };
+          bindSpeedButtons();
+          bindFontSizeButtons();
+          setFontSize(fontSize);
+        }
+
+        // 暗記モードトグル
+        const toggleJpBtn = document.getElementById('deck-toggle-jp-btn');
+        const vlContainer = document.getElementById('deck-voiceline-container');
+        if (toggleJpBtn && vlContainer) {
+          toggleJpBtn.onclick = () => {
+            isJpHidden = !isJpHidden;
+            localStorage.setItem('lexie_jp_hidden', isJpHidden);
+            vlContainer.classList.toggle('jp-hidden', isJpHidden);
+            toggleJpBtn.classList.toggle('active', isJpHidden);
+            if (!isJpHidden) vlContainer.querySelectorAll('.quote-jp.revealed').forEach(el => el.classList.remove('revealed'));
+          };
+          vlContainer.querySelectorAll('.quote-jp').forEach(el => {
+            el.addEventListener('click', () => { if (isJpHidden) el.classList.toggle('revealed'); });
+          });
+        }
+
+        // 個別再生
+        document.querySelectorAll('#deck-voiceline-container .voiceline-play-btn').forEach(btn => {
+          btn.onclick = () => {
+            const url = btn.dataset.audioSrc;
+            if (!url) return;
+            isSequentialPlaying = false;
+            if (currentAudio) currentAudio.pause();
+            currentAudio = new Audio(url);
+            currentAudio.playbackRate = playbackRate;
+            currentAudio.play();
+          };
+        });
+
+        // ✕ セリフ削除
+        document.querySelectorAll('.deck-remove-btn').forEach(btn => {
+          btn.onclick = () => {
+            removeFromDeck(btn.dataset.deck, btn.dataset.id);
+            const item = document.getElementById(`dvl-${btn.dataset.id}`);
+            if (item) item.remove();
+            const updated = getDecks().find(d => d.id === deck.id);
+            if (updated && updated.voicelineIds.length === 0) renderDeckDetail(deck.id);
+          };
+        });
       }
 
       // ----------------------------------------------------
@@ -1639,7 +2040,6 @@
       function renderFavoritesPage() {
         const favBrawlersList = getFavorites();
         const favVoicelinesList = getVoicelineFavorites();
-        const hardIds = getMemorizeHard();
         const searchText = favSearchInput.value.toLowerCase();
         const onlyVoicelines = showVoicelinesOnlyCheckbox.checked;
 
@@ -1650,59 +2050,6 @@
           "fav-voicelines-section"
         );
         const emptyState = document.getElementById("empty-favorites-state");
-        const hardSection = document.getElementById("fav-hard-section");
-        const hardList = document.getElementById("fav-hard-list");
-
-        // 🔖 要復習セクションの描画
-        const hardTracks = [];
-        if (typeof brawlers !== "undefined") {
-          brawlers.forEach((b) => {
-            if (!b.voicelines) return;
-            b.voicelines.forEach((l) => {
-              if (hardIds.includes(l.id)) {
-                hardTracks.push({ ...l, brawlerName: b.name });
-              }
-            });
-          });
-        }
-        if (hardTracks.length > 0) {
-          hardSection.style.display = "block";
-          hardList.innerHTML = "";
-          hardTracks.forEach((track) => {
-            const item = document.createElement("div");
-            item.className = "voiceline-item";
-            item.style.position = "relative";
-            item.innerHTML = `
-              <div style="font-size:0.8em; color:var(--text-tertiary); margin-bottom:5px;">${track.brawlerName}</div>
-              <div class="voiceline-main">
-                <div class="voiceline-quotes">
-                  <p class="quote-en" style="font-weight:bold; color:var(--accent-primary);">"${track.quote}"</p>
-                  <p class="quote-jp" style="color:var(--text-primary);">${track.translation}</p>
-                </div>
-                <div style="display:flex; gap:8px; margin-top:8px;">
-                  <button class="voiceline-play-btn hard-play-btn" data-audio-src="${track.audioUrl || ''}" ${!track.audioUrl ? 'disabled' : ''} style="border:2px solid var(--accent-secondary); color:var(--accent-secondary); background:none; padding:5px 15px; border-radius:20px; font-weight:bold; cursor:pointer;">再生 ▶</button>
-                  <button class="hard-done-btn" data-id="${track.id}" style="border:2px solid var(--memorize-revealed-border); color:var(--memorize-revealed-color); background:none; padding:5px 12px; border-radius:20px; font-size:0.85em; cursor:pointer;">✓ 覚えた</button>
-                </div>
-              </div>
-            `;
-            item.querySelector('.hard-play-btn').onclick = () => {
-              const src = track.audioUrl;
-              if (!src) return;
-              if (currentAudio) { currentAudio.pause(); currentAudio = null; }
-              const audio = new Audio(src);
-              audio.playbackRate = playbackRate;
-              audio.play();
-              currentAudio = audio;
-            };
-            item.querySelector('.hard-done-btn').onclick = () => {
-              toggleMemorizeHard(track.id);
-              renderFavoritesPage();
-            };
-            hardList.appendChild(item);
-          });
-        } else {
-          hardSection.style.display = "none";
-        }
 
         // 何も登録がない場合
         if (favBrawlersList.length === 0 && favVoicelinesList.length === 0) {
@@ -1843,7 +2190,6 @@
               vList.classList.toggle('jp-hidden', isJpHidden);
               if (!isJpHidden) {
                 vList.querySelectorAll('.quote-jp.revealed').forEach(el => el.classList.remove('revealed'));
-                vList.querySelectorAll('.memorize-hard-btn').forEach(btn => btn.style.display = 'none');
               }
             };
           }
@@ -1869,7 +2215,7 @@
         <div class="voiceline-main" style="padding-right: 50px!important;">
           <div class="voiceline-quotes">
             <p class="quote-en" style="font-weight:bold; color:var(--accent-primary);">"${track.quote}"</p>
-            <p class="quote-jp">${track.translation}<button class="memorize-hard-btn${hardIds.includes(track.id) ? ' active' : ''}" data-id="${track.id}" aria-label="覚えられなかったマーク">🔖</button></p>
+            <p class="quote-jp">${track.translation}</p>
           </div>
           <button class="voiceline-play-btn" style="margin-top:10px; border:2px solid var(--accent-secondary); color:var(--accent-secondary); background:none; padding:5px 15px; border-radius:20px; font-weight:bold; cursor:pointer;">再生 ▶</button>
         </div>
@@ -1902,24 +2248,7 @@
         if (isJpHidden) vList.classList.add('jp-hidden');
         vList.querySelectorAll('.quote-jp').forEach(el => {
           el.addEventListener('click', () => {
-            if (isJpHidden) {
-              el.classList.toggle('revealed');
-              const hardBtn = el.querySelector('.memorize-hard-btn');
-              if (hardBtn) hardBtn.style.display = el.classList.contains('revealed') ? 'inline-flex' : 'none';
-            }
-          });
-        });
-        // 🔖 覚えられなかったマーク（お気に入りページ）
-        vList.querySelectorAll('.memorize-hard-btn').forEach(btn => {
-          btn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            const id = btn.dataset.id;
-            const isHard = toggleMemorizeHard(id);
-            btn.classList.toggle('active', isHard);
-            btn.classList.add('bouncing');
-            btn.addEventListener('animationend', () => btn.classList.remove('bouncing'), { once: true });
-            // 要復習セクションを再描画
-            renderFavoritesPage();
+            if (isJpHidden) el.classList.toggle('revealed');
           });
         });
       }
@@ -1988,7 +2317,6 @@
         const valid = lines.filter((l) => l.audioUrl);
         const img = b.iconUrl || `https://placehold.co/120x120?text=${b.name}`;
         const favVoicelines = getVoicelineFavorites();
-        const hardItems = getMemorizeHard();
 
         const videoHtml = b.tiktokEmbed
           ? `<div class="tiktok-special-view" style="margin-top: 30px; text-align: center;"><h3 style="color: var(--accent-primary); margin-bottom: 15px; border-bottom: 2px solid var(--accent-primary); display: inline-block; padding-bottom: 5px;">🎬 スペシャル動画解説</h3><div style="display: flex; justify-content: center; background: #000; border-radius: 15px; padding: 10px;">${b.tiktokEmbed}</div></div>`
@@ -2039,14 +2367,14 @@
                   <div class="voiceline-main">
                     <div class="voiceline-quotes"><p class="quote-en">"${
                       l.quote
-                    }"</p><p class="quote-jp">${l.translation}<button class="memorize-hard-btn${hardItems.includes(l.id) ? ' active' : ''}" data-id="${l.id}" aria-label="覚えられなかったマーク">🔖</button></p></div>
+                    }"</p><p class="quote-jp">${l.translation}</p></div>
                     <div class="voiceline-actions"><button class="voiceline-play-btn" data-audio-src="${
                       l.audioUrl || ""
                     }" ${
                     !l.audioUrl ? "disabled" : ""
                   }>再生 ▶</button><button class="voiceline-toggle" data-target="${
                     l.id
-                  }">解説 ▼</button></div>
+                  }">解説 ▼</button><button class="add-to-deck-btn${getVoicelineDecks(l.id).length > 0 ? ' in-deck' : ''}" data-id="${l.id}" title="単語帳に追加">＋</button></div>
                   </div>
                   <div class="voiceline-explanation" id="${l.id}">${
                     l.explanation
@@ -2156,30 +2484,22 @@
             toggleJpBtn.classList.toggle('active', isJpHidden);
             if (!isJpHidden) {
               vlContainer.querySelectorAll('.quote-jp.revealed').forEach(el => el.classList.remove('revealed'));
-              vlContainer.querySelectorAll('.memorize-hard-btn').forEach(btn => btn.style.display = 'none');
             }
           };
           vlContainer.querySelectorAll('.quote-jp').forEach(el => {
             el.addEventListener('click', () => {
-              if (isJpHidden) {
-                el.classList.toggle('revealed');
-                const hardBtn = el.querySelector('.memorize-hard-btn');
-                if (hardBtn) hardBtn.style.display = el.classList.contains('revealed') ? 'inline-flex' : 'none';
-              }
-            });
-          });
-          // 🔖 覚えられなかったマーク
-          vlContainer.querySelectorAll('.memorize-hard-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-              e.stopPropagation();
-              const id = btn.dataset.id;
-              const isHard = toggleMemorizeHard(id);
-              btn.classList.toggle('active', isHard);
-              btn.classList.add('bouncing');
-              btn.addEventListener('animationend', () => btn.classList.remove('bouncing'), { once: true });
+              if (isJpHidden) el.classList.toggle('revealed');
             });
           });
         }
+
+        // ＋ 単語帳に追加ボタン
+        document.querySelectorAll('.add-to-deck-btn').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showDeckPicker(btn.dataset.id);
+          });
+        });
 
         bindFontSizeButtons();
         setFontSize(fontSize);
@@ -2414,8 +2734,15 @@
         pageTopBtn.onclick = () =>
           window.scrollTo({ top: 0, behavior: "smooth" });
 
+        migrateMemorizeHard();
         if (typeof brawlers !== "undefined") filterBrawlers();
         embedTikTokVideo("7507203728039070996", "tiktok-video-1");
+
+        // デッキ選択ドロワー：オーバーレイ外クリックで閉じる
+        document.getElementById('deck-picker-overlay').addEventListener('click', (e) => {
+          if (e.target === document.getElementById('deck-picker-overlay')) hideDeckPicker();
+        });
+        document.getElementById('deck-picker-close-btn').addEventListener('click', hideDeckPicker);
       });
 
       function embedTikTokVideo(videoId, targetElementId) {
@@ -2426,5 +2753,15 @@
         }
       }
     </script>
+
+    <!-- デッキ選択ドロワー -->
+    <div id="deck-picker-overlay" style="display:none;">
+      <div id="deck-picker-sheet">
+        <div class="deck-picker-title">📚 単語帳に追加</div>
+        <div id="deck-picker-list"></div>
+        <button class="deck-picker-new-btn" id="deck-picker-new-btn">＋ 新しい単語帳を作る</button>
+        <button class="deck-picker-close-btn" id="deck-picker-close-btn">閉じる</button>
+      </div>
+    </div>
   </body>
 </html>
