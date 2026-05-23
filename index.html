@@ -2626,14 +2626,22 @@
         }
       }
 
+      // ひらがな → カタカナ変換（検索の正規化用）
+      // U+3041–U+3096（ひらがな）を +0x60 シフトしてカタカナへ
+      function toKatakana(str) {
+        return str.replace(/[ぁ-ゖ]/g, (ch) =>
+          String.fromCharCode(ch.charCodeAt(0) + 0x60)
+        );
+      }
+
       function filterBrawlers() {
-        const s = searchInput.value.toLowerCase().trim();
+        const s = toKatakana(searchInput.value.toLowerCase().trim());
         const r = rarityFilter.value;
         const ro = roleFilter.value;
         const source = typeof brawlers !== "undefined" ? brawlers : [];
         filteredBrawlers = source.filter(
           (b) =>
-            b.name.toLowerCase().includes(s) &&
+            toKatakana(b.name.toLowerCase()).includes(s) &&
             (!r || b.rarity === r) &&
             (!ro || b.role === ro)
         );
