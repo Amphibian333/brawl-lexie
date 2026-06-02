@@ -3849,11 +3849,11 @@
             '<button id="quiz-audio-play-btn" class="quiz-audio-btn">🔊 もう一度聞く (3/3)</button>';
           setupQuizQuestionAudio(q.voiceline.audioUrl);
         } else if (m === 'arrange') {
+          // 並び替えは音声が答えになるので事前ヒントは出さない（正解後にだけ feedback で表示）
           qc.innerHTML =
             '<div class="quiz-question-prompt">この和訳の英文を、単語をタップして並び替えよう</div>' +
             '<div class="quiz-question-text" style="font-size:1.2em;">' + escapeHtml(q.voiceline.translation) + '</div>' +
-            '<div class="quiz-question-brawler">— ' + escapeHtml(q.brawlerName) + '</div>' +
-            hintAudioBtn;
+            '<div class="quiz-question-brawler">— ' + escapeHtml(q.brawlerName) + '</div>';
         }
         // テキスト系モードの音声ヒントボタンを配線
         const hintBtn = document.getElementById('quiz-hint-audio-btn');
@@ -3945,6 +3945,10 @@
         }
         const fb = document.getElementById('quiz-feedback');
         const isTimeOut = chosenIdx === -1;
+        // 並び替え正解後のご褒美音声ボタン
+        const arrangeRewardBtn = (quizState.mode === 'arrange' && isCorrect && q.voiceline.audioUrl)
+          ? '<div style="margin-top:12px; text-align:center;"><button class="quiz-hint-audio-btn" id="quiz-arrange-reward-btn">🔊 音声を聞いてみる</button></div>'
+          : '';
         fb.innerHTML =
           '<div class="quiz-feedback-title ' + (isCorrect ? 'correct' : 'incorrect') + '">' +
             (isCorrect ? '✅ 正解！' : (isTimeOut ? '⏰ 時間切れ' : '❌ 不正解')) +
@@ -3953,8 +3957,13 @@
             '<strong style="color:var(--accent-primary);">"' + escapeHtml(q.voiceline.quote) + '"</strong><br>' +
             escapeHtml(q.voiceline.translation) + '<br>' +
             '<span style="color:var(--text-tertiary); font-size:0.85em;">— ' + escapeHtml(q.brawlerName) + '</span>' +
-          '</div>';
+          '</div>' +
+          arrangeRewardBtn;
         fb.style.display = 'block';
+        const rewardBtn = document.getElementById('quiz-arrange-reward-btn');
+        if (rewardBtn) {
+          rewardBtn.onclick = () => playQuizQuestionAudio(q.voiceline.audioUrl);
+        }
         document.getElementById('quiz-next-btn-wrap').style.display = 'block';
       }
       function nextQuestion() {
