@@ -1700,6 +1700,80 @@
       .quiz-choice.quiz-choice-char.incorrect .quiz-choice-char-icon {
         box-shadow: 0 0 0 3px #ff4d4d;
       }
+      /* ===== Quiz arrange (Mode 5) ===== */
+      #quiz-arrange-area {
+        margin-bottom: 16px;
+      }
+      .quiz-arrange-answer {
+        position: sticky;
+        top: 10px;
+        z-index: 5;
+        min-height: 64px;
+        padding: 14px;
+        background: var(--surface-color);
+        border: 2px dashed var(--accent-primary);
+        border-radius: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 14px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      }
+      .quiz-arrange-placeholder {
+        color: var(--text-tertiary);
+        font-size: 0.9em;
+      }
+      .quiz-arrange-pool {
+        min-height: 64px;
+        padding: 14px;
+        background: var(--surface-color-light);
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+      }
+      .quiz-arrange-token {
+        padding: 10px 16px;
+        font-size: 1em;
+        font-weight: 700;
+        background: var(--accent-primary);
+        color: var(--btn-text);
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: transform 0.1s, opacity 0.2s, background 0.2s;
+        font-family: inherit;
+        min-height: 40px;
+      }
+      .quiz-arrange-token-pool {
+        background: var(--surface-color);
+        color: var(--text-primary);
+        border: 2px solid var(--accent-primary);
+      }
+      .quiz-arrange-token:hover:not(:disabled) {
+        transform: translateY(-2px);
+      }
+      .quiz-arrange-token:active:not(:disabled) {
+        transform: scale(0.95);
+      }
+      .quiz-arrange-token:disabled {
+        cursor: default;
+      }
+      .quiz-arrange-token.correct {
+        background: #4caf50 !important;
+        color: #fff !important;
+        border-color: #4caf50 !important;
+      }
+      .quiz-arrange-token.incorrect {
+        background: #ff4d4d !important;
+        color: #fff !important;
+        border-color: #ff4d4d !important;
+      }
     </style>
   </head>
 
@@ -1959,11 +2033,11 @@
                 <div class="quiz-mode-desc">英文を見て和訳を選ぶ</div>
                 <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
               </div>
-              <div class="quiz-mode-card" data-mode="translation_en" data-status="coming-soon">
+              <div class="quiz-mode-card" data-mode="translation_en">
                 <div class="quiz-mode-icon">🇬🇧→🇯🇵</div>
                 <div class="quiz-mode-name">英訳クイズ</div>
                 <div class="quiz-mode-desc">和訳を見て英文を選ぶ</div>
-                <div class="quiz-mode-tag">Coming Soon</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
               </div>
               <div class="quiz-mode-card" data-mode="character">
                 <div class="quiz-mode-icon">🎮</div>
@@ -1971,11 +2045,11 @@
                 <div class="quiz-mode-desc">音声を聞いて誰のセリフか当てる</div>
                 <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
               </div>
-              <div class="quiz-mode-card" data-mode="arrange" data-status="coming-soon">
+              <div class="quiz-mode-card" data-mode="arrange">
                 <div class="quiz-mode-icon">🔤</div>
                 <div class="quiz-mode-name">並び替えクイズ</div>
                 <div class="quiz-mode-desc">単語を並べて英文を作る</div>
-                <div class="quiz-mode-tag">Coming Soon</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
               </div>
             </div>
           </div>
@@ -2021,8 +2095,9 @@
               <h3 class="quiz-settings-label">難易度</h3>
               <div class="quiz-pill-group" id="quiz-difficulty">
                 <button class="quiz-pill active" data-value="normal">通常</button>
-                <button class="quiz-pill" data-value="hard" disabled style="opacity:0.5;">ハード（Phase 3）</button>
+                <button class="quiz-pill" data-value="hard">ハード🔥</button>
               </div>
+              <p style="margin-top:8px; font-size:0.8em; color:var(--text-tertiary);">ハード: 不正解の選択肢が同じキャラの他セリフから出題されます（並び替えは通常と同じ）</p>
             </div>
 
             <div style="margin-top:32px; text-align:center;">
@@ -2040,6 +2115,14 @@
             <div class="quiz-progress-bar"><div id="quiz-progress-bar-fill" class="quiz-progress-bar-fill"></div></div>
             <div id="quiz-question-content" class="quiz-question-content"></div>
             <div id="quiz-choices" class="quiz-choices"></div>
+            <div id="quiz-arrange-area" style="display:none;">
+              <div id="quiz-arrange-answer" class="quiz-arrange-answer"></div>
+              <div id="quiz-arrange-pool" class="quiz-arrange-pool"></div>
+              <div style="text-align:center; margin-top:16px;">
+                <button id="quiz-arrange-submit" class="btn" disabled>✓ 確認</button>
+                <button id="quiz-arrange-reset" class="btn btn-secondary" style="margin-left:8px;">リセット</button>
+              </div>
+            </div>
             <div id="quiz-feedback" class="quiz-feedback" style="display:none;"></div>
             <div id="quiz-next-btn-wrap" style="display:none; text-align:center; margin-top:24px;">
               <button class="btn" id="quiz-next-btn" style="font-size:1.1em; padding:12px 30px;">次の問題 →</button>
@@ -3442,6 +3525,36 @@
         return shuffleArray(arr).slice(0, n);
       }
 
+      // --- Hard distractor helpers (Phase 3) ---
+      // 同キャラの他セリフから distractor を取る。揃わなければ null（呼び出し側が通常生成にフォールバック）
+      function getHardTextDistractors(mode, correctItem, count) {
+        if (typeof brawlers === 'undefined') return null;
+        const brawler = brawlers.find(b => b.name === correctItem.brawlerName);
+        if (!brawler || !brawler.voicelines) return null;
+        const others = brawler.voicelines.filter(vl => vl.id !== correctItem.voiceline.id);
+        let texts;
+        if (mode === 'translation_jp') {
+          texts = others.map(vl => vl.translation).filter(t => t && t !== correctItem.voiceline.translation);
+        } else {
+          // translation_en または listening
+          texts = others.map(vl => vl.quote).filter(t => t && t !== correctItem.voiceline.quote);
+        }
+        const unique = [...new Set(texts)];
+        if (unique.length < count) return null;
+        return pickRandom(unique, count);
+      }
+      // Mode 4: C案(同レア度 AND 同役割) → A案(同レア度) → null
+      function getHardBrawlerDistractors(correctItem, count) {
+        if (typeof brawlers === 'undefined') return null;
+        const r = correctItem.brawlerRarity;
+        const ro = correctItem.brawlerRole;
+        const cPool = brawlers.filter(b => b.name !== correctItem.brawlerName && b.rarity === r && b.role === ro);
+        if (cPool.length >= count) return pickRandom(cPool, count);
+        const aPool = brawlers.filter(b => b.name !== correctItem.brawlerName && b.rarity === r);
+        if (aPool.length >= count) return pickRandom(aPool, count);
+        return null;
+      }
+
       // --- Question generation ---
       function generateQuestions(mode, config) {
         const pool = filterForMode(getScopedVoicelines(config.scope, config.scopeIds), mode);
@@ -3450,38 +3563,50 @@
         }
         const targetCount = Math.min(config.questionCount, pool.length);
         const selected = shuffleArray(pool).slice(0, targetCount);
+        const isHard = config.difficulty === 'hard';
 
         const questions = selected.map(item => {
           const correctVl = item.voiceline;
           let choices, correctText, choiceMeta = null;
           if (mode === 'translation_jp') {
             correctText = correctVl.translation;
-            const distractorPool = pool
-              .filter(p => p.voiceline.id !== correctVl.id && p.voiceline.translation !== correctText)
-              .map(p => p.voiceline.translation);
-            const uniqueDistractors = [...new Set(distractorPool)];
-            const distractors = pickRandom(uniqueDistractors, 3);
+            let distractors = isHard ? getHardTextDistractors('translation_jp', item, 3) : null;
+            if (!distractors) {
+              const distractorPool = pool
+                .filter(p => p.voiceline.id !== correctVl.id && p.voiceline.translation !== correctText)
+                .map(p => p.voiceline.translation);
+              distractors = pickRandom([...new Set(distractorPool)], 3);
+            }
             choices = shuffleArray([correctText, ...distractors]);
           } else if (mode === 'translation_en' || mode === 'listening') {
             correctText = correctVl.quote;
-            const distractorPool = pool
-              .filter(p => p.voiceline.id !== correctVl.id && p.voiceline.quote !== correctText)
-              .map(p => p.voiceline.quote);
-            const uniqueDistractors = [...new Set(distractorPool)];
-            const distractors = pickRandom(uniqueDistractors, 3);
+            let distractors = isHard ? getHardTextDistractors(mode, item, 3) : null;
+            if (!distractors) {
+              const distractorPool = pool
+                .filter(p => p.voiceline.id !== correctVl.id && p.voiceline.quote !== correctText)
+                .map(p => p.voiceline.quote);
+              distractors = pickRandom([...new Set(distractorPool)], 3);
+            }
             choices = shuffleArray([correctText, ...distractors]);
           } else if (mode === 'character') {
             correctText = item.brawlerName;
-            const otherBrawlers = (typeof brawlers !== 'undefined')
-              ? brawlers.filter(b => b.name !== item.brawlerName)
-              : [];
-            const distractorBrawlers = pickRandom(otherBrawlers, 3);
+            let distractorBrawlers = isHard ? getHardBrawlerDistractors(item, 3) : null;
+            if (!distractorBrawlers) {
+              const otherBrawlers = (typeof brawlers !== 'undefined')
+                ? brawlers.filter(b => b.name !== item.brawlerName)
+                : [];
+              distractorBrawlers = pickRandom(otherBrawlers, 3);
+            }
             const correctBrawlerObj = (typeof brawlers !== 'undefined')
               ? brawlers.find(b => b.name === item.brawlerName)
               : { name: item.brawlerName, iconUrl: '' };
             const choiceObjects = shuffleArray([correctBrawlerObj, ...distractorBrawlers]);
             choices = choiceObjects.map(b => b.name);
             choiceMeta = choiceObjects.map(b => ({ iconUrl: b.iconUrl || '' }));
+          } else if (mode === 'arrange') {
+            // Phase 3 では並び替えのハード難易度は通常と同じ（dummy単語追加はv3.1で検討）
+            correctText = correctVl.quote;
+            choices = [];
           } else {
             choices = [];
             correctText = '';
@@ -3546,6 +3671,7 @@
           }
           setPillActive('quiz-question-count', last.questionCount);
           setPillActive('quiz-timer', last.timer);
+          if (last.difficulty) setPillActive('quiz-difficulty', last.difficulty);
         }
       }
       function setPillActive(groupId, value) {
@@ -3560,7 +3686,8 @@
         const scopeIds = (scope === 'deck') ? document.getElementById('quiz-scope-deck-id').value : null;
         const questionCount = parseInt(document.querySelector('#quiz-question-count .quiz-pill.active').dataset.value);
         const timer = parseInt(document.querySelector('#quiz-timer .quiz-pill.active').dataset.value);
-        return { scope, scopeIds, questionCount, timer, difficulty: 'normal' };
+        const difficulty = document.querySelector('#quiz-difficulty .quiz-pill.active').dataset.value;
+        return { scope, scopeIds, questionCount, timer, difficulty };
       }
 
       // --- Quiz play ---
@@ -3618,26 +3745,41 @@
             '<div class="quiz-question-prompt">このセリフは誰が言ってる？</div>' +
             '<button id="quiz-audio-play-btn" class="quiz-audio-btn">🔊 もう一度聞く (3/3)</button>';
           setupQuizQuestionAudio(q.voiceline.audioUrl);
+        } else if (m === 'arrange') {
+          qc.innerHTML =
+            '<div class="quiz-question-prompt">この和訳の英文を、単語をタップして並び替えよう</div>' +
+            '<div class="quiz-question-text" style="font-size:1.2em;">' + escapeHtml(q.voiceline.translation) + '</div>' +
+            '<div class="quiz-question-brawler">— ' + escapeHtml(q.brawlerName) + '</div>';
         }
+        // 並び替えは別UI、それ以外は4択UI
         const choicesEl = document.getElementById('quiz-choices');
-        if (m === 'character') {
-          choicesEl.classList.add('quiz-choices-char');
-          choicesEl.innerHTML = q.choices.map((name, i) => {
-            const icon = (q.choiceMeta && q.choiceMeta[i] && q.choiceMeta[i].iconUrl) || '';
-            return '<button class="quiz-choice quiz-choice-char" data-idx="' + i + '">' +
-              (icon ? '<img src="' + icon + '" alt="" class="quiz-choice-char-icon">' : '') +
-              '<span class="quiz-choice-char-name">' + escapeHtml(name) + '</span>' +
-            '</button>';
-          }).join('');
+        const arrangeEl = document.getElementById('quiz-arrange-area');
+        if (m === 'arrange') {
+          choicesEl.style.display = 'none';
+          arrangeEl.style.display = 'block';
+          setupArrangeQuestion(q);
         } else {
-          choicesEl.classList.remove('quiz-choices-char');
-          choicesEl.innerHTML = q.choices.map((c, i) =>
-            '<button class="quiz-choice" data-idx="' + i + '">' + escapeHtml(c) + '</button>'
-          ).join('');
+          choicesEl.style.display = 'grid';
+          arrangeEl.style.display = 'none';
+          if (m === 'character') {
+            choicesEl.classList.add('quiz-choices-char');
+            choicesEl.innerHTML = q.choices.map((name, i) => {
+              const icon = (q.choiceMeta && q.choiceMeta[i] && q.choiceMeta[i].iconUrl) || '';
+              return '<button class="quiz-choice quiz-choice-char" data-idx="' + i + '">' +
+                (icon ? '<img src="' + icon + '" alt="" class="quiz-choice-char-icon">' : '') +
+                '<span class="quiz-choice-char-name">' + escapeHtml(name) + '</span>' +
+              '</button>';
+            }).join('');
+          } else {
+            choicesEl.classList.remove('quiz-choices-char');
+            choicesEl.innerHTML = q.choices.map((c, i) =>
+              '<button class="quiz-choice" data-idx="' + i + '">' + escapeHtml(c) + '</button>'
+            ).join('');
+          }
+          choicesEl.querySelectorAll('.quiz-choice').forEach(btn => {
+            btn.onclick = () => answerQuestion(parseInt(btn.dataset.idx));
+          });
         }
-        choicesEl.querySelectorAll('.quiz-choice').forEach(btn => {
-          btn.onclick = () => answerQuestion(parseInt(btn.dataset.idx));
-        });
         document.getElementById('quiz-feedback').style.display = 'none';
         document.getElementById('quiz-next-btn-wrap').style.display = 'none';
         stopQuizTimer();
@@ -3664,19 +3806,23 @@
         const disp = document.getElementById('quiz-timer-display');
         if (disp) disp.classList.remove('warning');
       }
-      function answerQuestion(chosenIdx) {
+      function answerQuestion(chosenIdx, isCorrectOverride) {
         if (quizState.answered) return;
         quizState.answered = true;
         stopQuizTimer();
         stopQuizQuestionAudio();
         const q = quizState.questions[quizState.currentIndex];
         const correctIdx = q.correctIndex;
-        const isCorrect = chosenIdx === correctIdx;
-        document.querySelectorAll('#quiz-choices .quiz-choice').forEach((btn, i) => {
-          btn.disabled = true;
-          if (i === correctIdx) btn.classList.add(isCorrect && i === chosenIdx ? 'correct' : 'correct-revealed');
-          else if (i === chosenIdx) btn.classList.add('incorrect');
-        });
+        const isCorrect = (typeof isCorrectOverride === 'boolean')
+          ? isCorrectOverride
+          : (chosenIdx === correctIdx);
+        if (quizState.mode !== 'arrange') {
+          document.querySelectorAll('#quiz-choices .quiz-choice').forEach((btn, i) => {
+            btn.disabled = true;
+            if (i === correctIdx) btn.classList.add(isCorrect && i === chosenIdx ? 'correct' : 'correct-revealed');
+            else if (i === chosenIdx) btn.classList.add('incorrect');
+          });
+        }
         playQuizSound(isCorrect);
         if (isCorrect) {
           quizState.correctCount++;
@@ -3857,6 +4003,92 @@
         btn.disabled = _quizReplaysLeft <= 0;
       }
 
+      // --- Quiz arrange (Mode 5) ---
+      let _arrangeState = null;
+      function setupArrangeQuestion(q) {
+        const words = q.voiceline.quote.split(/\s+/).filter(w => w.length > 0);
+        const tokens = words.map((w, i) => ({ id: i, text: w }));
+        // 並び替え順とぴったり同じ並びは避ける
+        let poolOrder;
+        let attempts = 0;
+        do {
+          poolOrder = shuffleArray(tokens.map(t => t.id));
+          attempts++;
+        } while (
+          attempts < 8 &&
+          tokens.length > 1 &&
+          poolOrder.every((id, i) => id === i)
+        );
+        _arrangeState = {
+          correctOrder: tokens.map(t => t.id),
+          tokens,
+          pool: poolOrder,
+          answer: [],
+        };
+        renderArrangeUI();
+      }
+      function renderArrangeUI() {
+        const answerEl = document.getElementById('quiz-arrange-answer');
+        const poolEl = document.getElementById('quiz-arrange-pool');
+        const submitBtn = document.getElementById('quiz-arrange-submit');
+        if (!answerEl || !poolEl || !submitBtn) return;
+
+        if (_arrangeState.answer.length === 0) {
+          answerEl.innerHTML = '<span class="quiz-arrange-placeholder">↓ タップした単語がここに並びます ↓</span>';
+        } else {
+          answerEl.innerHTML = _arrangeState.answer.map(id => {
+            const tok = _arrangeState.tokens.find(t => t.id === id);
+            return '<button class="quiz-arrange-token quiz-arrange-token-answer" data-id="' + id + '" data-source="answer">' + escapeHtml(tok.text) + '</button>';
+          }).join('');
+        }
+        poolEl.innerHTML = _arrangeState.pool.length === 0
+          ? '<span class="quiz-arrange-placeholder" style="opacity:0.5;">（プールは空）</span>'
+          : _arrangeState.pool.map(id => {
+              const tok = _arrangeState.tokens.find(t => t.id === id);
+              return '<button class="quiz-arrange-token quiz-arrange-token-pool" data-id="' + id + '" data-source="pool">' + escapeHtml(tok.text) + '</button>';
+            }).join('');
+
+        const ready = _arrangeState.pool.length === 0 && _arrangeState.answer.length === _arrangeState.tokens.length;
+        submitBtn.disabled = !ready;
+
+        document.querySelectorAll('#quiz-arrange-area .quiz-arrange-token').forEach(btn => {
+          btn.onclick = () => {
+            if (quizState.answered) return;
+            const id = parseInt(btn.dataset.id);
+            const source = btn.dataset.source;
+            if (source === 'pool') {
+              _arrangeState.pool = _arrangeState.pool.filter(x => x !== id);
+              _arrangeState.answer.push(id);
+            } else {
+              _arrangeState.answer = _arrangeState.answer.filter(x => x !== id);
+              _arrangeState.pool.push(id);
+            }
+            renderArrangeUI();
+          };
+        });
+      }
+      function submitArrangeAnswer() {
+        if (quizState.answered || !_arrangeState) return;
+        const correct = _arrangeState.correctOrder;
+        const user = _arrangeState.answer;
+        const isCorrect = user.length === correct.length && user.every((id, i) => id === correct[i]);
+        document.querySelectorAll('#quiz-arrange-answer .quiz-arrange-token').forEach((btn, i) => {
+          btn.disabled = true;
+          if (user[i] === correct[i]) btn.classList.add('correct');
+          else btn.classList.add('incorrect');
+        });
+        document.querySelectorAll('#quiz-arrange-pool .quiz-arrange-token').forEach(btn => { btn.disabled = true; });
+        document.getElementById('quiz-arrange-submit').disabled = true;
+        document.getElementById('quiz-arrange-reset').disabled = true;
+        answerQuestion(null, isCorrect);
+      }
+      function resetArrangeAnswer() {
+        if (quizState.answered || !_arrangeState) return;
+        _arrangeState.pool = shuffleArray(_arrangeState.tokens.map(t => t.id));
+        _arrangeState.answer = [];
+        renderArrangeUI();
+      }
+
       // --- Wire up event listeners ---
       function initQuizEvents() {
         document.querySelectorAll('.quiz-mode-card').forEach(card => {
@@ -3886,6 +4118,8 @@
         document.getElementById('quiz-settings-back').onclick = () => showQuizHome();
         document.getElementById('quiz-start-btn').onclick = () => startQuiz();
         document.getElementById('quiz-next-btn').onclick = () => nextQuestion();
+        document.getElementById('quiz-arrange-submit').onclick = () => submitArrangeAnswer();
+        document.getElementById('quiz-arrange-reset').onclick = () => resetArrangeAnswer();
         document.getElementById('quiz-play-quit').onclick = () => {
           if (confirm('クイズを中断しますか？スコアは保存されません。')) {
             stopQuizTimer();
