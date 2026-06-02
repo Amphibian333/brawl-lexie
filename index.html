@@ -1286,6 +1286,365 @@
         cursor: pointer;
         font-size: 0.9em;
       }
+
+      /* ===== 🎯 Quiz feature styles (v3.0) ===== */
+      .quiz-stats-summary {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        flex-wrap: wrap;
+        margin-bottom: 32px;
+        padding: 18px;
+        background: var(--surface-color);
+        border-radius: 12px;
+        border: 1px solid var(--border-color);
+      }
+      .quiz-stat-item { text-align: center; min-width: 80px; }
+      .quiz-stat-value {
+        font-size: 1.6em;
+        font-weight: 700;
+        color: var(--accent-primary);
+        line-height: 1.1;
+      }
+      .quiz-stat-label {
+        font-size: 0.8em;
+        color: var(--text-tertiary);
+        margin-top: 4px;
+      }
+      .quiz-mode-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 16px;
+      }
+      .quiz-mode-card {
+        background: var(--surface-color);
+        border: 2px solid var(--border-color);
+        border-radius: 12px;
+        padding: 24px 16px;
+        text-align: center;
+        cursor: pointer;
+        transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+      }
+      .quiz-mode-card:hover {
+        border-color: var(--accent-primary);
+        transform: translateY(-3px);
+        box-shadow: 0 4px 12px var(--shadow-color);
+      }
+      .quiz-mode-card[data-status="coming-soon"] {
+        opacity: 0.55;
+        cursor: not-allowed;
+      }
+      .quiz-mode-card[data-status="coming-soon"]:hover {
+        border-color: var(--border-color);
+        transform: none;
+        box-shadow: none;
+      }
+      .quiz-mode-icon { font-size: 2.2em; margin-bottom: 10px; line-height: 1; }
+      .quiz-mode-name {
+        font-size: 1.05em;
+        font-weight: 700;
+        color: var(--text-primary);
+        margin-bottom: 6px;
+      }
+      .quiz-mode-desc {
+        font-size: 0.85em;
+        color: var(--text-secondary);
+        margin-bottom: 12px;
+        min-height: 2.4em;
+      }
+      .quiz-mode-tag {
+        display: inline-block;
+        font-size: 0.75em;
+        padding: 3px 10px;
+        border-radius: 12px;
+        background: var(--surface-color-light);
+        color: var(--text-tertiary);
+      }
+      .quiz-settings-section {
+        margin-bottom: 20px;
+        padding: 18px;
+        background: var(--surface-color);
+        border-radius: 10px;
+        border: 1px solid var(--border-color);
+      }
+      .quiz-settings-label {
+        font-size: 1em;
+        color: var(--accent-primary);
+        margin-bottom: 12px;
+        font-weight: 700;
+      }
+      .quiz-radio {
+        display: block;
+        padding: 6px 0;
+        cursor: pointer;
+        color: var(--text-primary);
+      }
+      .quiz-radio input { margin-right: 8px; transform: scale(1.2); vertical-align: middle; }
+      .quiz-pill-group { display: flex; gap: 8px; flex-wrap: wrap; }
+      .quiz-pill {
+        padding: 8px 18px;
+        border-radius: 20px;
+        background: var(--surface-color-light);
+        border: 1px solid var(--border-color);
+        color: var(--text-secondary);
+        font-weight: 700;
+        cursor: pointer;
+        transition: background 0.2s, color 0.2s, border-color 0.2s;
+        font-size: 0.9em;
+      }
+      .quiz-pill.active {
+        background: var(--accent-primary);
+        color: var(--btn-text);
+        border-color: var(--accent-primary);
+      }
+      .quiz-pill:disabled { cursor: not-allowed; }
+      .quiz-play-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        gap: 12px;
+      }
+      .quiz-progress-text {
+        font-size: 1em;
+        font-weight: 700;
+        color: var(--text-primary);
+      }
+      .quiz-timer-display {
+        font-size: 1em;
+        font-weight: 700;
+        color: var(--accent-secondary);
+        min-width: 70px;
+        text-align: right;
+      }
+      .quiz-timer-display.warning { animation: quiz-pulse 0.5s ease-in-out infinite alternate; }
+      @keyframes quiz-pulse {
+        from { opacity: 1; }
+        to { opacity: 0.4; }
+      }
+      .quiz-progress-bar {
+        height: 6px;
+        background: var(--surface-color-light);
+        border-radius: 3px;
+        overflow: hidden;
+        margin-bottom: 24px;
+      }
+      .quiz-progress-bar-fill {
+        height: 100%;
+        background: var(--accent-primary);
+        transition: width 0.3s;
+        width: 0;
+      }
+      .quiz-question-content {
+        background: var(--surface-color);
+        border-radius: 12px;
+        padding: 32px 20px;
+        text-align: center;
+        margin-bottom: 24px;
+        min-height: 120px;
+        border: 1px solid var(--border-color);
+      }
+      .quiz-question-prompt {
+        font-size: 0.9em;
+        color: var(--text-tertiary);
+        margin-bottom: 12px;
+      }
+      .quiz-question-text {
+        font-size: 1.4em;
+        font-weight: 700;
+        color: var(--accent-primary);
+        line-height: 1.4;
+        word-break: break-word;
+      }
+      .quiz-question-brawler {
+        font-size: 0.8em;
+        color: var(--text-tertiary);
+        margin-top: 8px;
+      }
+      .quiz-choices {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-bottom: 16px;
+      }
+      @media (min-width: 600px) {
+        .quiz-choices { grid-template-columns: 1fr 1fr; }
+      }
+      .quiz-choice {
+        padding: 16px 20px;
+        background: var(--surface-color);
+        border: 2px solid var(--border-color);
+        border-radius: 12px;
+        color: var(--text-primary);
+        font-size: 1em;
+        cursor: pointer;
+        text-align: left;
+        transition: border-color 0.2s, background 0.2s, transform 0.1s;
+        line-height: 1.4;
+        word-break: break-word;
+        font-family: inherit;
+      }
+      .quiz-choice:hover:not(:disabled) {
+        border-color: var(--accent-primary);
+        background: var(--surface-color-light);
+      }
+      .quiz-choice:active:not(:disabled) { transform: scale(0.98); }
+      .quiz-choice:disabled { cursor: default; }
+      .quiz-choice.correct {
+        border-color: #4caf50;
+        background: rgba(76, 175, 80, 0.18);
+        color: #4caf50;
+        font-weight: 700;
+        animation: quiz-correct-flash 0.5s ease;
+      }
+      .quiz-choice.incorrect {
+        border-color: #ff4d4d;
+        background: rgba(255, 77, 77, 0.18);
+        color: #ff4d4d;
+        font-weight: 700;
+        animation: quiz-incorrect-flash 0.5s ease;
+      }
+      .quiz-choice.correct-revealed {
+        border-color: #4caf50;
+        background: rgba(76, 175, 80, 0.10);
+        color: #4caf50;
+      }
+      @keyframes quiz-correct-flash {
+        0% { transform: scale(1); }
+        40% { transform: scale(1.05); box-shadow: 0 0 24px rgba(76, 175, 80, 0.6); }
+        100% { transform: scale(1); }
+      }
+      @keyframes quiz-incorrect-flash {
+        0%, 100% { transform: translateX(0); }
+        20% { transform: translateX(-8px); }
+        40% { transform: translateX(8px); }
+        60% { transform: translateX(-6px); }
+        80% { transform: translateX(6px); }
+      }
+      .quiz-feedback {
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        background: var(--surface-color);
+        border: 1px solid var(--border-color);
+      }
+      .quiz-feedback-title {
+        font-size: 1.15em;
+        font-weight: 700;
+        margin-bottom: 8px;
+      }
+      .quiz-feedback-title.correct { color: #4caf50; }
+      .quiz-feedback-title.incorrect { color: #ff4d4d; }
+      .quiz-feedback-detail { font-size: 0.95em; color: var(--text-secondary); line-height: 1.6; }
+      .quiz-result-card {
+        background: var(--surface-color);
+        border-radius: 14px;
+        padding: 32px 20px;
+        text-align: center;
+        border: 1px solid var(--border-color);
+        margin-bottom: 24px;
+      }
+      .quiz-result-score {
+        font-size: 3em;
+        font-weight: 700;
+        color: var(--accent-primary);
+        line-height: 1;
+        margin-bottom: 6px;
+      }
+      .quiz-result-percent {
+        font-size: 1.3em;
+        color: var(--text-secondary);
+        margin-bottom: 16px;
+      }
+      .quiz-result-best-tag {
+        display: inline-block;
+        padding: 4px 16px;
+        background: #ffc107;
+        color: #121212;
+        font-weight: 700;
+        border-radius: 16px;
+        font-size: 0.9em;
+        margin-bottom: 16px;
+        animation: quiz-best-pulse 1s ease-in-out infinite alternate;
+      }
+      @keyframes quiz-best-pulse {
+        from { transform: scale(1); }
+        to { transform: scale(1.05); box-shadow: 0 0 16px rgba(255, 193, 7, 0.6); }
+      }
+      .quiz-result-stats {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        flex-wrap: wrap;
+        margin-top: 12px;
+        color: var(--text-secondary);
+      }
+      .quiz-result-wrong-list {
+        background: var(--surface-color);
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 24px;
+        border: 1px solid var(--border-color);
+      }
+      .quiz-result-wrong-title {
+        font-size: 1.05em;
+        color: var(--accent-secondary);
+        margin-bottom: 12px;
+        font-weight: 700;
+      }
+      .quiz-result-wrong-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        border-bottom: 1px solid var(--border-color);
+        gap: 10px;
+      }
+      .quiz-result-wrong-item:last-child { border-bottom: none; }
+      .quiz-result-wrong-text {
+        flex: 1;
+        font-size: 0.95em;
+        word-break: break-word;
+      }
+      .quiz-result-wrong-text .quote-en {
+        color: var(--accent-primary);
+        font-weight: 700;
+      }
+      .quiz-result-wrong-text .quote-jp {
+        color: var(--text-secondary);
+        font-size: 0.9em;
+        margin-top: 4px;
+      }
+      .quiz-result-actions {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      #quiz-toast {
+        position: fixed;
+        bottom: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--surface-color);
+        color: var(--text-primary);
+        padding: 12px 24px;
+        border-radius: 24px;
+        border: 1px solid var(--accent-primary);
+        font-weight: 700;
+        z-index: 9999;
+        opacity: 0;
+        transition: opacity 0.3s, transform 0.3s;
+        pointer-events: none;
+        max-width: 90%;
+        text-align: center;
+        font-size: 0.9em;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      }
+      #quiz-toast.visible {
+        opacity: 1;
+        transform: translateX(-50%) translateY(-10px);
+      }
     </style>
   </head>
 
@@ -1308,6 +1667,7 @@
               >
             </li>
             <li><a class="nav-link" data-target="decks">📚 単語帳</a></li>
+            <li><a class="nav-link" data-target="quiz" style="color: #ffc107">🎯 クイズ</a></li>
             <li><a class="nav-link" data-target="lessons">翻訳動画</a></li>
           </ul>
         </nav>
@@ -1525,6 +1885,117 @@
         </div>
       </section>
 
+      <section id="quiz" class="page-section hidden">
+        <div class="container">
+          <!-- ===== Quiz Home View ===== -->
+          <div id="quiz-home-view">
+            <h2 class="section-title">🎯 クイズ</h2>
+            <div id="quiz-stats-summary" class="quiz-stats-summary"></div>
+            <div class="quiz-mode-grid">
+              <div class="quiz-mode-card" data-mode="listening" data-status="coming-soon">
+                <div class="quiz-mode-icon">🎧</div>
+                <div class="quiz-mode-name">リスニングクイズ</div>
+                <div class="quiz-mode-desc">音声を聞いて英文を当てる</div>
+                <div class="quiz-mode-tag">Coming Soon</div>
+              </div>
+              <div class="quiz-mode-card" data-mode="translation_jp">
+                <div class="quiz-mode-icon">🇯🇵→🇬🇧</div>
+                <div class="quiz-mode-name">和訳クイズ</div>
+                <div class="quiz-mode-desc">英文を見て和訳を選ぶ</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
+              </div>
+              <div class="quiz-mode-card" data-mode="translation_en" data-status="coming-soon">
+                <div class="quiz-mode-icon">🇬🇧→🇯🇵</div>
+                <div class="quiz-mode-name">英訳クイズ</div>
+                <div class="quiz-mode-desc">和訳を見て英文を選ぶ</div>
+                <div class="quiz-mode-tag">Coming Soon</div>
+              </div>
+              <div class="quiz-mode-card" data-mode="character" data-status="coming-soon">
+                <div class="quiz-mode-icon">🎮</div>
+                <div class="quiz-mode-name">キャラ当てクイズ</div>
+                <div class="quiz-mode-desc">音声を聞いて誰のセリフか当てる</div>
+                <div class="quiz-mode-tag">Coming Soon</div>
+              </div>
+              <div class="quiz-mode-card" data-mode="arrange" data-status="coming-soon">
+                <div class="quiz-mode-icon">🔤</div>
+                <div class="quiz-mode-name">並び替えクイズ</div>
+                <div class="quiz-mode-desc">単語を並べて英文を作る</div>
+                <div class="quiz-mode-tag">Coming Soon</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===== Quiz Settings View ===== -->
+          <div id="quiz-settings-view" style="display:none;">
+            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:24px; gap:12px; flex-wrap:wrap;">
+              <button class="btn btn-secondary" id="quiz-settings-back" style="padding:8px 16px; font-size:0.9em;">← 戻る</button>
+              <h2 style="font-size:1.3em; color:var(--accent-primary); margin:0; text-align:center; flex:1;" id="quiz-settings-mode-title"></h2>
+              <div style="width:60px;"></div>
+            </div>
+
+            <div class="quiz-settings-section">
+              <h3 class="quiz-settings-label">出題範囲</h3>
+              <label class="quiz-radio"><input type="radio" name="quiz-scope" value="all" checked> 全91キャラ</label>
+              <label class="quiz-radio"><input type="radio" name="quiz-scope" value="favorites"> ❤️ お気に入りセリフから</label>
+              <label class="quiz-radio"><input type="radio" name="quiz-scope" value="deck"> 📚 単語帳から</label>
+              <div id="quiz-scope-deck-select" style="display:none; margin-left:24px; margin-top:8px;">
+                <select id="quiz-scope-deck-id" style="padding:8px 12px; border-radius:8px; background:var(--surface-color); border:1px solid var(--border-color); color:var(--text-primary); max-width:100%;"></select>
+              </div>
+            </div>
+
+            <div class="quiz-settings-section">
+              <h3 class="quiz-settings-label">問題数</h3>
+              <div class="quiz-pill-group" id="quiz-question-count">
+                <button class="quiz-pill" data-value="5">5問</button>
+                <button class="quiz-pill active" data-value="10">10問</button>
+                <button class="quiz-pill" data-value="20">20問</button>
+                <button class="quiz-pill" data-value="50">50問</button>
+              </div>
+            </div>
+
+            <div class="quiz-settings-section">
+              <h3 class="quiz-settings-label">タイマー</h3>
+              <div class="quiz-pill-group" id="quiz-timer">
+                <button class="quiz-pill active" data-value="0">なし</button>
+                <button class="quiz-pill" data-value="15">15秒</button>
+                <button class="quiz-pill" data-value="30">30秒</button>
+              </div>
+            </div>
+
+            <div class="quiz-settings-section">
+              <h3 class="quiz-settings-label">難易度</h3>
+              <div class="quiz-pill-group" id="quiz-difficulty">
+                <button class="quiz-pill active" data-value="normal">通常</button>
+                <button class="quiz-pill" data-value="hard" disabled style="opacity:0.5;">ハード（Phase 3）</button>
+              </div>
+            </div>
+
+            <div style="margin-top:32px; text-align:center;">
+              <button class="btn" id="quiz-start-btn" style="font-size:1.15em; padding:14px 40px;">▶ クイズ開始</button>
+            </div>
+          </div>
+
+          <!-- ===== Quiz Play View ===== -->
+          <div id="quiz-play-view" style="display:none;">
+            <div class="quiz-play-header">
+              <button class="btn btn-secondary" id="quiz-play-quit" style="padding:6px 14px; font-size:0.85em;">中断</button>
+              <div class="quiz-progress-text" id="quiz-progress-text">1 / 10</div>
+              <div class="quiz-timer-display" id="quiz-timer-display"></div>
+            </div>
+            <div class="quiz-progress-bar"><div id="quiz-progress-bar-fill" class="quiz-progress-bar-fill"></div></div>
+            <div id="quiz-question-content" class="quiz-question-content"></div>
+            <div id="quiz-choices" class="quiz-choices"></div>
+            <div id="quiz-feedback" class="quiz-feedback" style="display:none;"></div>
+            <div id="quiz-next-btn-wrap" style="display:none; text-align:center; margin-top:24px;">
+              <button class="btn" id="quiz-next-btn" style="font-size:1.1em; padding:12px 30px;">次の問題 →</button>
+            </div>
+          </div>
+
+          <!-- ===== Quiz Result View ===== -->
+          <div id="quiz-result-view" style="display:none;"></div>
+        </div>
+      </section>
+
       <section id="lessons" class="page-section container hidden">
         <h2 class="section-title">翻訳動画</h2>
         <div class="tiktok-video-container">
@@ -1657,6 +2128,7 @@
           "about",
           "favorites",
           "decks",
+          "quiz",
         ];
         sections.forEach((id) => {
           const el = document.getElementById(id);
@@ -1696,6 +2168,10 @@
           document.getElementById("decks").classList.remove("hidden");
           document.querySelector('[data-target="decks"]').classList.add("active");
           renderDecksPage();
+        } else if (pageName === "quiz") {
+          document.getElementById("quiz").classList.remove("hidden");
+          document.querySelector('[data-target="quiz"]').classList.add("active");
+          showQuizHome();
         }
       }
       // ▲▲▲ 修正版 switchPage（ここまで） ▲▲▲
@@ -2737,6 +3213,7 @@
         migrateMemorizeHard();
         if (typeof brawlers !== "undefined") filterBrawlers();
         embedTikTokVideo("7507203728039070996", "tiktok-video-1");
+        initQuizEvents();
 
         // デッキ選択ドロワー：オーバーレイ外クリックで閉じる
         document.getElementById('deck-picker-overlay').addEventListener('click', (e) => {
@@ -2751,6 +3228,534 @@
           targetElement.style.backgroundColor = "#1f1f1f";
           targetElement.innerHTML = `<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@bion329/video/${videoId}" data-video-id="${videoId}" style="max-width: 605px;min-width: 325px;"><section><a target="_blank" title="@bion329" href="https://www.tiktok.com/@bion329?refer=embed">@bion329</a></section></blockquote>`;
         }
+      }
+
+      // ============================================================
+      // 🎯 Quiz feature (v3.0 Phase 1: Mode 2 only)
+      // ============================================================
+      const QUIZ_MODES = {
+        translation_jp: { name: '和訳クイズ', icon: '🇯🇵→🇬🇧' },
+        translation_en: { name: '英訳クイズ', icon: '🇬🇧→🇯🇵' },
+        listening: { name: 'リスニングクイズ', icon: '🎧' },
+        character: { name: 'キャラ当てクイズ', icon: '🎮' },
+        arrange: { name: '並び替えクイズ', icon: '🔤' },
+      };
+
+      const quizState = {
+        mode: null,
+        config: null,
+        questions: [],
+        currentIndex: 0,
+        correctCount: 0,
+        currentCombo: 0,
+        maxCombo: 0,
+        startTime: 0,
+        wrongAnswers: [],
+        timerInterval: null,
+        timeLeft: 0,
+        answered: false,
+      };
+
+      // --- localStorage helpers ---
+      function getQuizStats() {
+        return JSON.parse(localStorage.getItem('lexie_quiz_stats') || '{"totalQuizzes":0,"totalQuestions":0,"totalCorrect":0,"longestStreak":0,"dailyStreak":0,"lastPlayedAt":null}');
+      }
+      function saveQuizStats(s) { localStorage.setItem('lexie_quiz_stats', JSON.stringify(s)); }
+      function getQuizHistory() { return JSON.parse(localStorage.getItem('lexie_quiz_history') || '[]'); }
+      function pushQuizHistory(entry) {
+        const h = getQuizHistory();
+        h.unshift(entry);
+        if (h.length > 50) h.length = 50;
+        localStorage.setItem('lexie_quiz_history', JSON.stringify(h));
+      }
+      function getQuizWeak() { return JSON.parse(localStorage.getItem('lexie_quiz_weak') || '{}'); }
+      function bumpQuizWeak(voicelineId) {
+        const w = getQuizWeak();
+        if (!w[voicelineId]) w[voicelineId] = { count: 0, addedToReview: false };
+        w[voicelineId].count++;
+        let justAdded = false;
+        if (w[voicelineId].count >= 2 && !w[voicelineId].addedToReview) {
+          let decks = getDecks();
+          let reviewDeck = decks.find(d => d.name === '要復習');
+          if (!reviewDeck) {
+            reviewDeck = createDeck('要復習');
+            decks = getDecks();
+            reviewDeck = decks.find(d => d.name === '要復習');
+          }
+          if (reviewDeck && !reviewDeck.voicelineIds.includes(voicelineId)) {
+            reviewDeck.voicelineIds.push(voicelineId);
+            saveDecks(decks);
+            justAdded = true;
+          }
+          w[voicelineId].addedToReview = true;
+        }
+        localStorage.setItem('lexie_quiz_weak', JSON.stringify(w));
+        return justAdded;
+      }
+      function getQuizLastConfig() { return JSON.parse(localStorage.getItem('lexie_quiz_last_config') || 'null'); }
+      function saveQuizLastConfig(c) { localStorage.setItem('lexie_quiz_last_config', JSON.stringify(c)); }
+      function getQuizModeStats() { return JSON.parse(localStorage.getItem('lexie_quiz_mode_stats') || '{}'); }
+      function updateQuizModeStats(mode, questionCount, correctCount) {
+        const stats = getQuizModeStats();
+        const key = `${mode}_${questionCount}`;
+        const ratio = correctCount / questionCount;
+        if (!stats[key]) stats[key] = { best: 0, played: 0, totalCorrect: 0 };
+        const prevBest = stats[key].best;
+        stats[key].played++;
+        stats[key].totalCorrect += correctCount;
+        const isNewBest = ratio > prevBest;
+        if (isNewBest) stats[key].best = ratio;
+        localStorage.setItem('lexie_quiz_mode_stats', JSON.stringify(stats));
+        return { isNewBest, previousBest: prevBest };
+      }
+      function updateDailyStreak() {
+        const stats = getQuizStats();
+        const today = new Date().toISOString().slice(0, 10);
+        if (stats.lastPlayedAt !== today) {
+          const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+          stats.dailyStreak = (stats.lastPlayedAt === yesterday) ? stats.dailyStreak + 1 : 1;
+          stats.lastPlayedAt = today;
+          saveQuizStats(stats);
+        }
+      }
+
+      // --- Toast ---
+      let _quizToastTimer = null;
+      function showQuizToast(msg) {
+        let t = document.getElementById('quiz-toast');
+        if (!t) {
+          t = document.createElement('div');
+          t.id = 'quiz-toast';
+          document.body.appendChild(t);
+        }
+        t.textContent = msg;
+        t.classList.add('visible');
+        if (_quizToastTimer) clearTimeout(_quizToastTimer);
+        _quizToastTimer = setTimeout(() => t.classList.remove('visible'), 2400);
+      }
+
+      // --- Voiceline pool ---
+      function getAllVoicelinesForQuiz() {
+        const out = [];
+        if (typeof brawlers === 'undefined') return out;
+        brawlers.forEach(b => {
+          if (!b.voicelines) return;
+          b.voicelines.forEach(l => out.push({
+            voiceline: l,
+            brawlerName: b.name,
+            brawlerRarity: b.rarity,
+            brawlerRole: b.role,
+          }));
+        });
+        return out;
+      }
+      function isInterjectionOnly(quote) {
+        const cleaned = quote.replace(/[!.,?\-…¡¿]/g, '').trim();
+        const words = cleaned.split(/\s+/).filter(w => w.length > 0);
+        if (words.length === 0) return true;
+        if (words.length === 1 && cleaned.length <= 6) return true;
+        return false;
+      }
+      function getScopedVoicelines(scope, scopeIds) {
+        const all = getAllVoicelinesForQuiz();
+        if (scope === 'all') return all;
+        if (scope === 'favorites') {
+          const favs = getVoicelineFavorites();
+          return all.filter(item => favs.includes(item.voiceline.id));
+        }
+        if (scope === 'deck') {
+          const deck = getDecks().find(d => d.id === scopeIds);
+          if (!deck) return [];
+          return all.filter(item => deck.voicelineIds.includes(item.voiceline.id));
+        }
+        return all;
+      }
+      function filterForMode(pool, mode) {
+        let filtered = pool.filter(item => !isInterjectionOnly(item.voiceline.quote));
+        if (mode === 'translation_jp' || mode === 'translation_en') {
+          filtered = filtered.filter(item => item.voiceline.translation && item.voiceline.translation.trim().length > 0);
+        }
+        if (mode === 'listening' || mode === 'character') {
+          filtered = filtered.filter(item => item.voiceline.audioUrl);
+        }
+        if (mode === 'arrange') {
+          filtered = filtered.filter(item => item.voiceline.quote.split(/\s+/).filter(w => w.length > 0).length >= 3);
+        }
+        return filtered;
+      }
+      function pickRandom(arr, n) {
+        return shuffleArray(arr).slice(0, n);
+      }
+
+      // --- Question generation ---
+      function generateQuestions(mode, config) {
+        const pool = filterForMode(getScopedVoicelines(config.scope, config.scopeIds), mode);
+        if (pool.length < 4) {
+          return { error: '出題できるセリフが少なすぎます（最低4件必要）。出題範囲を広げてください。' };
+        }
+        const targetCount = Math.min(config.questionCount, pool.length);
+        const selected = shuffleArray(pool).slice(0, targetCount);
+
+        const questions = selected.map(item => {
+          const correctVl = item.voiceline;
+          let choices, correctText;
+          if (mode === 'translation_jp') {
+            correctText = correctVl.translation;
+            const distractorPool = pool
+              .filter(p => p.voiceline.id !== correctVl.id && p.voiceline.translation !== correctText)
+              .map(p => p.voiceline.translation);
+            const uniqueDistractors = [...new Set(distractorPool)];
+            const distractors = pickRandom(uniqueDistractors, 3);
+            choices = shuffleArray([correctText, ...distractors]);
+          } else if (mode === 'translation_en') {
+            correctText = correctVl.quote;
+            const distractorPool = pool
+              .filter(p => p.voiceline.id !== correctVl.id && p.voiceline.quote !== correctText)
+              .map(p => p.voiceline.quote);
+            const uniqueDistractors = [...new Set(distractorPool)];
+            const distractors = pickRandom(uniqueDistractors, 3);
+            choices = shuffleArray([correctText, ...distractors]);
+          } else {
+            choices = [];
+            correctText = '';
+          }
+          return {
+            voiceline: correctVl,
+            brawlerName: item.brawlerName,
+            choices,
+            correctText,
+            correctIndex: choices.indexOf(correctText),
+          };
+        });
+        return { questions };
+      }
+
+      // --- View routing within #quiz ---
+      function showQuizView(viewName) {
+        ['quiz-home-view', 'quiz-settings-view', 'quiz-play-view', 'quiz-result-view'].forEach(id => {
+          const el = document.getElementById(id);
+          if (el) el.style.display = (id === viewName) ? 'block' : 'none';
+        });
+      }
+      function showQuizHome() {
+        showQuizView('quiz-home-view');
+        renderQuizHomeStats();
+      }
+      function renderQuizHomeStats() {
+        const stats = getQuizStats();
+        const summary = document.getElementById('quiz-stats-summary');
+        if (!summary) return;
+        if (stats.totalQuizzes === 0) {
+          summary.innerHTML = '<div style="color:var(--text-tertiary); text-align:center; width:100%; padding:8px 0;">まだクイズを受けていません。下から好きなモードを選んでスタート！</div>';
+          return;
+        }
+        const accuracy = Math.round((stats.totalCorrect / stats.totalQuestions) * 100);
+        summary.innerHTML =
+          '<div class="quiz-stat-item"><div class="quiz-stat-value">' + stats.totalQuizzes + '</div><div class="quiz-stat-label">受験回数</div></div>' +
+          '<div class="quiz-stat-item"><div class="quiz-stat-value">' + accuracy + '%</div><div class="quiz-stat-label">累計正答率</div></div>' +
+          '<div class="quiz-stat-item"><div class="quiz-stat-value">🔥' + stats.dailyStreak + '</div><div class="quiz-stat-label">連続学習日数</div></div>' +
+          '<div class="quiz-stat-item"><div class="quiz-stat-value">' + stats.longestStreak + '</div><div class="quiz-stat-label">最長コンボ</div></div>';
+      }
+
+      // --- Settings ---
+      function showQuizSettings(mode) {
+        showQuizView('quiz-settings-view');
+        document.getElementById('quiz-settings-mode-title').textContent = QUIZ_MODES[mode].icon + ' ' + QUIZ_MODES[mode].name;
+        quizState.mode = mode;
+        const deckSelect = document.getElementById('quiz-scope-deck-id');
+        const decks = getDecks();
+        deckSelect.innerHTML = decks.length === 0
+          ? '<option value="">単語帳がありません</option>'
+          : decks.map(d => '<option value="' + d.id + '">' + escapeHtml(d.name) + ' (' + d.voicelineIds.length + '件)</option>').join('');
+        // 直近設定の反映
+        const last = getQuizLastConfig();
+        if (last && last.mode === mode) {
+          const scopeRadio = document.querySelector('input[name="quiz-scope"][value="' + last.scope + '"]');
+          if (scopeRadio) {
+            scopeRadio.checked = true;
+            document.getElementById('quiz-scope-deck-select').style.display = (last.scope === 'deck') ? 'block' : 'none';
+            if (last.scope === 'deck' && last.scopeIds) deckSelect.value = last.scopeIds;
+          }
+          setPillActive('quiz-question-count', last.questionCount);
+          setPillActive('quiz-timer', last.timer);
+        }
+      }
+      function setPillActive(groupId, value) {
+        const group = document.getElementById(groupId);
+        if (!group) return;
+        group.querySelectorAll('.quiz-pill').forEach(b => {
+          b.classList.toggle('active', String(b.dataset.value) === String(value));
+        });
+      }
+      function readQuizSettings() {
+        const scope = document.querySelector('input[name="quiz-scope"]:checked').value;
+        const scopeIds = (scope === 'deck') ? document.getElementById('quiz-scope-deck-id').value : null;
+        const questionCount = parseInt(document.querySelector('#quiz-question-count .quiz-pill.active').dataset.value);
+        const timer = parseInt(document.querySelector('#quiz-timer .quiz-pill.active').dataset.value);
+        return { scope, scopeIds, questionCount, timer, difficulty: 'normal' };
+      }
+
+      // --- Quiz play ---
+      function startQuiz() {
+        const config = readQuizSettings();
+        if (config.scope === 'deck' && !config.scopeIds) {
+          alert('単語帳を選んでください。');
+          return;
+        }
+        const result = generateQuestions(quizState.mode, config);
+        if (result.error) {
+          alert(result.error);
+          return;
+        }
+        quizState.config = config;
+        quizState.questions = result.questions;
+        quizState.currentIndex = 0;
+        quizState.correctCount = 0;
+        quizState.currentCombo = 0;
+        quizState.maxCombo = 0;
+        quizState.startTime = Date.now();
+        quizState.wrongAnswers = [];
+        saveQuizLastConfig({ ...config, mode: quizState.mode });
+        showQuizView('quiz-play-view');
+        showQuestion(0);
+      }
+      function showQuestion(idx) {
+        const q = quizState.questions[idx];
+        quizState.currentIndex = idx;
+        quizState.answered = false;
+        const total = quizState.questions.length;
+        document.getElementById('quiz-progress-text').textContent = (idx + 1) + ' / ' + total;
+        document.getElementById('quiz-progress-bar-fill').style.width = ((idx) / total) * 100 + '%';
+        const qc = document.getElementById('quiz-question-content');
+        if (quizState.mode === 'translation_jp') {
+          qc.innerHTML =
+            '<div class="quiz-question-prompt">この英文の和訳は？</div>' +
+            '<div class="quiz-question-text">"' + escapeHtml(q.voiceline.quote) + '"</div>' +
+            '<div class="quiz-question-brawler">— ' + escapeHtml(q.brawlerName) + '</div>';
+        } else if (quizState.mode === 'translation_en') {
+          qc.innerHTML =
+            '<div class="quiz-question-prompt">この和訳の英文は？</div>' +
+            '<div class="quiz-question-text">' + escapeHtml(q.voiceline.translation) + '</div>' +
+            '<div class="quiz-question-brawler">— ' + escapeHtml(q.brawlerName) + '</div>';
+        }
+        const choicesEl = document.getElementById('quiz-choices');
+        choicesEl.innerHTML = q.choices.map((c, i) =>
+          '<button class="quiz-choice" data-idx="' + i + '">' + escapeHtml(c) + '</button>'
+        ).join('');
+        choicesEl.querySelectorAll('.quiz-choice').forEach(btn => {
+          btn.onclick = () => answerQuestion(parseInt(btn.dataset.idx));
+        });
+        document.getElementById('quiz-feedback').style.display = 'none';
+        document.getElementById('quiz-next-btn-wrap').style.display = 'none';
+        stopQuizTimer();
+        if (quizState.config.timer > 0) startQuizTimer(quizState.config.timer);
+        else document.getElementById('quiz-timer-display').textContent = '';
+      }
+      function startQuizTimer(seconds) {
+        quizState.timeLeft = seconds;
+        const disp = document.getElementById('quiz-timer-display');
+        disp.textContent = '⏱ ' + seconds + '秒';
+        disp.classList.remove('warning');
+        quizState.timerInterval = setInterval(() => {
+          quizState.timeLeft--;
+          disp.textContent = '⏱ ' + quizState.timeLeft + '秒';
+          if (quizState.timeLeft <= 5) disp.classList.add('warning');
+          if (quizState.timeLeft <= 0) {
+            stopQuizTimer();
+            answerQuestion(-1);
+          }
+        }, 1000);
+      }
+      function stopQuizTimer() {
+        if (quizState.timerInterval) { clearInterval(quizState.timerInterval); quizState.timerInterval = null; }
+        const disp = document.getElementById('quiz-timer-display');
+        if (disp) disp.classList.remove('warning');
+      }
+      function answerQuestion(chosenIdx) {
+        if (quizState.answered) return;
+        quizState.answered = true;
+        stopQuizTimer();
+        const q = quizState.questions[quizState.currentIndex];
+        const correctIdx = q.correctIndex;
+        const isCorrect = chosenIdx === correctIdx;
+        document.querySelectorAll('#quiz-choices .quiz-choice').forEach((btn, i) => {
+          btn.disabled = true;
+          if (i === correctIdx) btn.classList.add(isCorrect && i === chosenIdx ? 'correct' : 'correct-revealed');
+          else if (i === chosenIdx) btn.classList.add('incorrect');
+        });
+        playQuizSound(isCorrect);
+        if (isCorrect) {
+          quizState.correctCount++;
+          quizState.currentCombo++;
+          if (quizState.currentCombo > quizState.maxCombo) quizState.maxCombo = quizState.currentCombo;
+        } else {
+          quizState.currentCombo = 0;
+          quizState.wrongAnswers.push({ voiceline: q.voiceline, brawlerName: q.brawlerName });
+          const justAdded = bumpQuizWeak(q.voiceline.id);
+          if (justAdded) showQuizToast('「' + q.voiceline.quote.slice(0, 24) + '」を要復習に追加しました');
+        }
+        const fb = document.getElementById('quiz-feedback');
+        const isTimeOut = chosenIdx === -1;
+        fb.innerHTML =
+          '<div class="quiz-feedback-title ' + (isCorrect ? 'correct' : 'incorrect') + '">' +
+            (isCorrect ? '✅ 正解！' : (isTimeOut ? '⏰ 時間切れ' : '❌ 不正解')) +
+          '</div>' +
+          '<div class="quiz-feedback-detail">' +
+            '<strong style="color:var(--accent-primary);">"' + escapeHtml(q.voiceline.quote) + '"</strong><br>' +
+            escapeHtml(q.voiceline.translation) + '<br>' +
+            '<span style="color:var(--text-tertiary); font-size:0.85em;">— ' + escapeHtml(q.brawlerName) + '</span>' +
+          '</div>';
+        fb.style.display = 'block';
+        document.getElementById('quiz-next-btn-wrap').style.display = 'block';
+      }
+      function nextQuestion() {
+        const nextIdx = quizState.currentIndex + 1;
+        if (nextIdx >= quizState.questions.length) endQuiz();
+        else showQuestion(nextIdx);
+      }
+      function endQuiz() {
+        stopQuizTimer();
+        const timeSec = Math.round((Date.now() - quizState.startTime) / 1000);
+        const total = quizState.questions.length;
+        const correct = quizState.correctCount;
+        const stats = getQuizStats();
+        stats.totalQuizzes++;
+        stats.totalQuestions += total;
+        stats.totalCorrect += correct;
+        if (quizState.maxCombo > stats.longestStreak) stats.longestStreak = quizState.maxCombo;
+        saveQuizStats(stats);
+        updateDailyStreak();
+        pushQuizHistory({
+          ts: Date.now(),
+          mode: quizState.mode,
+          score: correct,
+          total,
+          timeSec,
+          scope: quizState.config.scope,
+          difficulty: quizState.config.difficulty,
+        });
+        const { isNewBest, previousBest } = updateQuizModeStats(quizState.mode, total, correct);
+        showQuizResult({ correct, total, timeSec, isNewBest, previousBest });
+      }
+      function showQuizResult({ correct, total, timeSec, isNewBest, previousBest }) {
+        showQuizView('quiz-result-view');
+        const pct = Math.round((correct / total) * 100);
+        const minutes = Math.floor(timeSec / 60);
+        const secs = timeSec % 60;
+        const timeStr = minutes > 0 ? (minutes + '分' + secs + '秒') : (secs + '秒');
+        const prevBestPct = Math.round(previousBest * 100);
+        const wrongHtml = quizState.wrongAnswers.length === 0
+          ? '<div style="text-align:center; color:#4caf50; padding:20px;">🎉 全問正解！素晴らしい！</div>'
+          : quizState.wrongAnswers.map(w =>
+              '<div class="quiz-result-wrong-item">' +
+                '<div class="quiz-result-wrong-text">' +
+                  '<div class="quote-en">"' + escapeHtml(w.voiceline.quote) + '"</div>' +
+                  '<div class="quote-jp">' + escapeHtml(w.voiceline.translation) + ' — ' + escapeHtml(w.brawlerName) + '</div>' +
+                '</div>' +
+                '<button class="add-to-deck-btn" data-id="' + w.voiceline.id + '" title="単語帳に追加">＋</button>' +
+              '</div>'
+            ).join('');
+        const bestBanner = (isNewBest && previousBest > 0)
+          ? '<div class="quiz-result-best-tag">✨ ベスト更新！（前回 ' + prevBestPct + '%）</div>'
+          : (isNewBest && previousBest === 0)
+          ? '<div class="quiz-result-best-tag">🏆 初回ベスト記録！</div>'
+          : '';
+        document.getElementById('quiz-result-view').innerHTML =
+          '<div class="quiz-result-card">' +
+            '<div class="quiz-result-score">' + correct + ' / ' + total + '</div>' +
+            '<div class="quiz-result-percent">' + pct + '% 正解</div>' +
+            bestBanner +
+            '<div class="quiz-result-stats">' +
+              '<span>⏱ ' + timeStr + '</span>' +
+              '<span>🔥 最大コンボ ' + quizState.maxCombo + '</span>' +
+            '</div>' +
+          '</div>' +
+          '<div class="quiz-result-wrong-list">' +
+            '<div class="quiz-result-wrong-title">' + (quizState.wrongAnswers.length === 0 ? '結果' : '間違えたセリフ (' + quizState.wrongAnswers.length + '件)') + '</div>' +
+            wrongHtml +
+          '</div>' +
+          '<div class="quiz-result-actions">' +
+            '<button class="btn" id="quiz-result-retry">🔁 もう一度</button>' +
+            '<button class="btn btn-secondary" id="quiz-result-resettings">⚙️ 設定を変える</button>' +
+            '<button class="btn btn-secondary" id="quiz-result-home">🏠 ホームに戻る</button>' +
+          '</div>';
+        document.querySelectorAll('#quiz-result-view .add-to-deck-btn').forEach(btn => {
+          btn.onclick = (e) => {
+            e.stopPropagation();
+            showDeckPicker(btn.dataset.id);
+          };
+        });
+        document.getElementById('quiz-result-retry').onclick = () => startQuiz();
+        document.getElementById('quiz-result-resettings').onclick = () => showQuizSettings(quizState.mode);
+        document.getElementById('quiz-result-home').onclick = () => showQuizHome();
+      }
+
+      // --- Sound effects (Web Audio API) ---
+      let _quizAudioCtx = null;
+      function getQuizAudioCtx() {
+        if (!_quizAudioCtx) {
+          const AC = window.AudioContext || window.webkitAudioContext;
+          if (AC) _quizAudioCtx = new AC();
+        }
+        return _quizAudioCtx;
+      }
+      function playQuizSound(isCorrect) {
+        try {
+          const ctx = getQuizAudioCtx();
+          if (!ctx) return;
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          osc.connect(gain);
+          gain.connect(ctx.destination);
+          if (isCorrect) {
+            osc.frequency.setValueAtTime(880, ctx.currentTime);
+            osc.frequency.setValueAtTime(1320, ctx.currentTime + 0.08);
+          } else {
+            osc.frequency.setValueAtTime(220, ctx.currentTime);
+            osc.frequency.setValueAtTime(165, ctx.currentTime + 0.12);
+          }
+          gain.gain.setValueAtTime(0.3, ctx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.25);
+          osc.start(ctx.currentTime);
+          osc.stop(ctx.currentTime + 0.3);
+        } catch (e) { /* ignore */ }
+      }
+
+      // --- Wire up event listeners ---
+      function initQuizEvents() {
+        document.querySelectorAll('.quiz-mode-card').forEach(card => {
+          card.addEventListener('click', () => {
+            if (card.dataset.status === 'coming-soon') {
+              showQuizToast('このモードは近日公開です。お楽しみに！');
+              return;
+            }
+            showQuizSettings(card.dataset.mode);
+          });
+        });
+        document.querySelectorAll('input[name="quiz-scope"]').forEach(r => {
+          r.addEventListener('change', () => {
+            document.getElementById('quiz-scope-deck-select').style.display =
+              (r.value === 'deck' && r.checked) ? 'block' : 'none';
+          });
+        });
+        ['quiz-question-count', 'quiz-timer', 'quiz-difficulty'].forEach(groupId => {
+          document.querySelectorAll('#' + groupId + ' .quiz-pill').forEach(b => {
+            b.addEventListener('click', () => {
+              if (b.disabled) return;
+              document.querySelectorAll('#' + groupId + ' .quiz-pill').forEach(x => x.classList.remove('active'));
+              b.classList.add('active');
+            });
+          });
+        });
+        document.getElementById('quiz-settings-back').onclick = () => showQuizHome();
+        document.getElementById('quiz-start-btn').onclick = () => startQuiz();
+        document.getElementById('quiz-next-btn').onclick = () => nextQuestion();
+        document.getElementById('quiz-play-quit').onclick = () => {
+          if (confirm('クイズを中断しますか？スコアは保存されません。')) {
+            stopQuizTimer();
+            showQuizHome();
+          }
+        };
       }
     </script>
 
