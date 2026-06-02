@@ -1645,6 +1645,61 @@
         opacity: 1;
         transform: translateX(-50%) translateY(-10px);
       }
+      /* ===== Quiz audio (Mode 1/4) ===== */
+      .quiz-audio-btn {
+        display: inline-block;
+        padding: 14px 28px;
+        font-size: 1.05em;
+        font-weight: 700;
+        background: var(--accent-primary);
+        color: var(--btn-text);
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: background 0.2s, transform 0.1s, opacity 0.2s;
+        margin: 8px 0;
+      }
+      .quiz-audio-btn:hover:not(:disabled) {
+        background: var(--accent-primary-hover);
+        transform: translateY(-2px);
+      }
+      .quiz-audio-btn:active:not(:disabled) { transform: scale(0.97); }
+      .quiz-audio-btn:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+      }
+      /* キャラ当てクイズの選択肢 */
+      .quiz-choices.quiz-choices-char {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+      .quiz-choice.quiz-choice-char {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 14px 8px;
+        text-align: center;
+        gap: 6px;
+      }
+      .quiz-choice-char-icon {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        object-fit: cover;
+        background: var(--surface-color-light);
+      }
+      .quiz-choice-char-name {
+        font-size: 0.95em;
+        font-weight: 700;
+      }
+      .quiz-choice.quiz-choice-char.correct .quiz-choice-char-icon,
+      .quiz-choice.quiz-choice-char.correct-revealed .quiz-choice-char-icon {
+        box-shadow: 0 0 0 3px #4caf50;
+      }
+      .quiz-choice.quiz-choice-char.incorrect .quiz-choice-char-icon {
+        box-shadow: 0 0 0 3px #ff4d4d;
+      }
     </style>
   </head>
 
@@ -1892,11 +1947,11 @@
             <h2 class="section-title">🎯 クイズ</h2>
             <div id="quiz-stats-summary" class="quiz-stats-summary"></div>
             <div class="quiz-mode-grid">
-              <div class="quiz-mode-card" data-mode="listening" data-status="coming-soon">
+              <div class="quiz-mode-card" data-mode="listening">
                 <div class="quiz-mode-icon">🎧</div>
                 <div class="quiz-mode-name">リスニングクイズ</div>
                 <div class="quiz-mode-desc">音声を聞いて英文を当てる</div>
-                <div class="quiz-mode-tag">Coming Soon</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
               </div>
               <div class="quiz-mode-card" data-mode="translation_jp">
                 <div class="quiz-mode-icon">🇯🇵→🇬🇧</div>
@@ -1910,11 +1965,11 @@
                 <div class="quiz-mode-desc">和訳を見て英文を選ぶ</div>
                 <div class="quiz-mode-tag">Coming Soon</div>
               </div>
-              <div class="quiz-mode-card" data-mode="character" data-status="coming-soon">
+              <div class="quiz-mode-card" data-mode="character">
                 <div class="quiz-mode-icon">🎮</div>
                 <div class="quiz-mode-name">キャラ当てクイズ</div>
                 <div class="quiz-mode-desc">音声を聞いて誰のセリフか当てる</div>
-                <div class="quiz-mode-tag">Coming Soon</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
               </div>
               <div class="quiz-mode-card" data-mode="arrange" data-status="coming-soon">
                 <div class="quiz-mode-icon">🔤</div>
@@ -3398,7 +3453,7 @@
 
         const questions = selected.map(item => {
           const correctVl = item.voiceline;
-          let choices, correctText;
+          let choices, correctText, choiceMeta = null;
           if (mode === 'translation_jp') {
             correctText = correctVl.translation;
             const distractorPool = pool
@@ -3407,7 +3462,7 @@
             const uniqueDistractors = [...new Set(distractorPool)];
             const distractors = pickRandom(uniqueDistractors, 3);
             choices = shuffleArray([correctText, ...distractors]);
-          } else if (mode === 'translation_en') {
+          } else if (mode === 'translation_en' || mode === 'listening') {
             correctText = correctVl.quote;
             const distractorPool = pool
               .filter(p => p.voiceline.id !== correctVl.id && p.voiceline.quote !== correctText)
@@ -3415,6 +3470,18 @@
             const uniqueDistractors = [...new Set(distractorPool)];
             const distractors = pickRandom(uniqueDistractors, 3);
             choices = shuffleArray([correctText, ...distractors]);
+          } else if (mode === 'character') {
+            correctText = item.brawlerName;
+            const otherBrawlers = (typeof brawlers !== 'undefined')
+              ? brawlers.filter(b => b.name !== item.brawlerName)
+              : [];
+            const distractorBrawlers = pickRandom(otherBrawlers, 3);
+            const correctBrawlerObj = (typeof brawlers !== 'undefined')
+              ? brawlers.find(b => b.name === item.brawlerName)
+              : { name: item.brawlerName, iconUrl: '' };
+            const choiceObjects = shuffleArray([correctBrawlerObj, ...distractorBrawlers]);
+            choices = choiceObjects.map(b => b.name);
+            choiceMeta = choiceObjects.map(b => ({ iconUrl: b.iconUrl || '' }));
           } else {
             choices = [];
             correctText = '';
@@ -3423,6 +3490,7 @@
             voiceline: correctVl,
             brawlerName: item.brawlerName,
             choices,
+            choiceMeta,
             correctText,
             correctIndex: choices.indexOf(correctText),
           };
@@ -3523,25 +3591,50 @@
         const q = quizState.questions[idx];
         quizState.currentIndex = idx;
         quizState.answered = false;
+        stopQuizQuestionAudio();
         const total = quizState.questions.length;
         document.getElementById('quiz-progress-text').textContent = (idx + 1) + ' / ' + total;
         document.getElementById('quiz-progress-bar-fill').style.width = ((idx) / total) * 100 + '%';
         const qc = document.getElementById('quiz-question-content');
-        if (quizState.mode === 'translation_jp') {
+        const m = quizState.mode;
+        if (m === 'translation_jp') {
           qc.innerHTML =
             '<div class="quiz-question-prompt">この英文の和訳は？</div>' +
             '<div class="quiz-question-text">"' + escapeHtml(q.voiceline.quote) + '"</div>' +
             '<div class="quiz-question-brawler">— ' + escapeHtml(q.brawlerName) + '</div>';
-        } else if (quizState.mode === 'translation_en') {
+        } else if (m === 'translation_en') {
           qc.innerHTML =
             '<div class="quiz-question-prompt">この和訳の英文は？</div>' +
             '<div class="quiz-question-text">' + escapeHtml(q.voiceline.translation) + '</div>' +
             '<div class="quiz-question-brawler">— ' + escapeHtml(q.brawlerName) + '</div>';
+        } else if (m === 'listening') {
+          qc.innerHTML =
+            '<div class="quiz-question-prompt">音声を聞いて、正しい英文を選ぼう</div>' +
+            '<button id="quiz-audio-play-btn" class="quiz-audio-btn">🔊 もう一度聞く (3/3)</button>' +
+            '<div class="quiz-question-brawler">— ???</div>';
+          setupQuizQuestionAudio(q.voiceline.audioUrl);
+        } else if (m === 'character') {
+          qc.innerHTML =
+            '<div class="quiz-question-prompt">このセリフは誰が言ってる？</div>' +
+            '<button id="quiz-audio-play-btn" class="quiz-audio-btn">🔊 もう一度聞く (3/3)</button>';
+          setupQuizQuestionAudio(q.voiceline.audioUrl);
         }
         const choicesEl = document.getElementById('quiz-choices');
-        choicesEl.innerHTML = q.choices.map((c, i) =>
-          '<button class="quiz-choice" data-idx="' + i + '">' + escapeHtml(c) + '</button>'
-        ).join('');
+        if (m === 'character') {
+          choicesEl.classList.add('quiz-choices-char');
+          choicesEl.innerHTML = q.choices.map((name, i) => {
+            const icon = (q.choiceMeta && q.choiceMeta[i] && q.choiceMeta[i].iconUrl) || '';
+            return '<button class="quiz-choice quiz-choice-char" data-idx="' + i + '">' +
+              (icon ? '<img src="' + icon + '" alt="" class="quiz-choice-char-icon">' : '') +
+              '<span class="quiz-choice-char-name">' + escapeHtml(name) + '</span>' +
+            '</button>';
+          }).join('');
+        } else {
+          choicesEl.classList.remove('quiz-choices-char');
+          choicesEl.innerHTML = q.choices.map((c, i) =>
+            '<button class="quiz-choice" data-idx="' + i + '">' + escapeHtml(c) + '</button>'
+          ).join('');
+        }
         choicesEl.querySelectorAll('.quiz-choice').forEach(btn => {
           btn.onclick = () => answerQuestion(parseInt(btn.dataset.idx));
         });
@@ -3575,6 +3668,7 @@
         if (quizState.answered) return;
         quizState.answered = true;
         stopQuizTimer();
+        stopQuizQuestionAudio();
         const q = quizState.questions[quizState.currentIndex];
         const correctIdx = q.correctIndex;
         const isCorrect = chosenIdx === correctIdx;
@@ -3615,6 +3709,7 @@
       }
       function endQuiz() {
         stopQuizTimer();
+        stopQuizQuestionAudio();
         const timeSec = Math.round((Date.now() - quizState.startTime) / 1000);
         const total = quizState.questions.length;
         const correct = quizState.correctCount;
@@ -3721,6 +3816,47 @@
         } catch (e) { /* ignore */ }
       }
 
+      // --- Quiz question audio (Mode 1/4) ---
+      let _quizQuestionAudio = null;
+      let _quizReplaysLeft = 0;
+      function playQuizQuestionAudio(url) {
+        if (!url) return;
+        try {
+          if (_quizQuestionAudio) { _quizQuestionAudio.pause(); _quizQuestionAudio = null; }
+          _quizQuestionAudio = new Audio(url);
+          _quizQuestionAudio.play().catch(() => { /* autoplay ブロック等は無視 */ });
+        } catch (e) { /* ignore */ }
+      }
+      function stopQuizQuestionAudio() {
+        if (_quizQuestionAudio) {
+          try { _quizQuestionAudio.pause(); } catch (e) {}
+          _quizQuestionAudio = null;
+        }
+      }
+      function setupQuizQuestionAudio(url) {
+        _quizReplaysLeft = 3;
+        // 出題時に1回自動再生（カウント外）
+        playQuizQuestionAudio(url);
+        // ボタンはDOM挿入後に紐付け（同じTickでOK、innerHTMLは同期）
+        setTimeout(() => {
+          const btn = document.getElementById('quiz-audio-play-btn');
+          if (!btn) return;
+          updateReplayBtnLabel();
+          btn.onclick = () => {
+            if (_quizReplaysLeft <= 0 || quizState.answered) return;
+            _quizReplaysLeft--;
+            playQuizQuestionAudio(url);
+            updateReplayBtnLabel();
+          };
+        }, 0);
+      }
+      function updateReplayBtnLabel() {
+        const btn = document.getElementById('quiz-audio-play-btn');
+        if (!btn) return;
+        btn.textContent = '🔊 もう一度聞く (' + _quizReplaysLeft + '/3)';
+        btn.disabled = _quizReplaysLeft <= 0;
+      }
+
       // --- Wire up event listeners ---
       function initQuizEvents() {
         document.querySelectorAll('.quiz-mode-card').forEach(card => {
@@ -3753,6 +3889,7 @@
         document.getElementById('quiz-play-quit').onclick = () => {
           if (confirm('クイズを中断しますか？スコアは保存されません。')) {
             stopQuizTimer();
+            stopQuizQuestionAudio();
             showQuizHome();
           }
         };
