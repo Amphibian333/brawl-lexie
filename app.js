@@ -356,11 +356,25 @@
       async function renderDeckDetail(deckId) {
         const deck = getDecks().find(d => d.id === deckId);
         if (!deck) return;
-        await ensureBrawlersLoaded(deck.voicelineIds);
         const detailView = document.getElementById('deck-detail-view');
         const listView = document.getElementById('deck-list-view');
         listView.style.display = 'none';
         detailView.style.display = 'block';
+
+        detailView.innerHTML = `
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; flex-wrap:wrap; gap:10px;">
+            <button id="back-to-decks-btn" class="btn btn-secondary">← 一覧に戻る</button>
+          </div>
+          <div style="text-align: center; padding: 40px; color: var(--accent-primary); font-weight: bold;">
+            ⏳ データを読み込み中...
+          </div>
+        `;
+        document.getElementById('back-to-decks-btn').onclick = () => {
+          detailView.style.display = 'none';
+          listView.style.display = 'block';
+        };
+
+        await ensureBrawlersLoaded(deck.voicelineIds);
 
         // brawlers から voicelineIds に一致するセリフを収集
         const tracks = [];
@@ -503,15 +517,24 @@
       async function renderFavoritesPage() {
         const favBrawlersList = getFavorites();
         const favVoicelinesList = getVoicelineFavorites();
+        const voicelinesContainer = document.getElementById("fav-voicelines-section");
+        if (voicelinesContainer && favVoicelinesList.length > 0) {
+          voicelinesContainer.style.display = "block";
+          voicelinesContainer.innerHTML = `
+            <div class="voicelines-section-header">
+              <h3 style="color: var(--accent-secondary);">セリフ</h3>
+            </div>
+            <div style="text-align: center; padding: 40px; color: var(--accent-primary); font-weight: bold;">
+              ⏳ データを読み込み中...
+            </div>
+          `;
+        }
         await ensureBrawlersLoaded(favVoicelinesList);
         const searchText = favSearchInput.value.toLowerCase();
         const onlyVoicelines = showVoicelinesOnlyCheckbox.checked;
 
         const brawlersContainer = document.getElementById(
           "fav-brawlers-section"
-        );
-        const voicelinesContainer = document.getElementById(
-          "fav-voicelines-section"
         );
         const emptyState = document.getElementById("empty-favorites-state");
 
@@ -763,9 +786,35 @@
           <div class="role">${getRoleText(b.role)}</div>
           <div class="quote">"${b.quote}"</div>
         `;
+
+        const prefetch = () => {
+          if (!b.voicelines && !b.isFetching) {
+            b.isFetching = true;
+            b.fetchPromise = fetch(`data/brawlers/${b.fileId}.json`)
+              .then(res => res.json())
+              .then(detail => {
+                b.voicelines = detail.voicelines;
+                b.tiktokEmbed = detail.tiktokEmbed;
+                b.isFetching = false;
+              })
+              .catch(err => {
+                console.error("Prefetch failed:", err);
+                b.isFetching = false;
+              });
+          }
+        };
+
+        card.addEventListener("mouseenter", prefetch);
+        card.addEventListener("touchstart", prefetch, { passive: true });
+
         card.onclick = async () => {
           lastScrollPosition = window.scrollY;
-          if (!b.voicelines) {
+          if (b.isFetching && b.fetchPromise) {
+            card.classList.add("loading-card");
+            await b.fetchPromise;
+            card.classList.remove("loading-card");
+          } else if (!b.voicelines) {
+            card.classList.add("loading-card");
             try {
               const response = await fetch(`data/brawlers/${b.fileId}.json`);
               const detail = await response.json();
@@ -774,6 +823,7 @@
             } catch (err) {
               console.error("Failed to load brawler details:", err);
             }
+            card.classList.remove("loading-card");
           }
           displayBrawlerDetail(b);
         };
