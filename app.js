@@ -44,6 +44,7 @@
           "about",
           "favorites",
           "decks",
+          "changelog",
         ];
         sections.forEach((id) => {
           const el = document.getElementById(id);
@@ -83,9 +84,55 @@
           document.getElementById("decks").classList.remove("hidden");
           document.querySelector('[data-target="decks"]').classList.add("active");
           renderDecksPage();
+        } else if (pageName === "changelog") {
+          document.getElementById("changelog").classList.remove("hidden");
+          document.querySelector('[data-target="changelog"]').classList.add("active");
+          renderChangelogPage();
         }
       }
       // ▲▲▲ 修正版 switchPage（ここまで） ▲▲▲
+
+      // ----------------------------------------------------
+      // 1b. バナー管理（アップデート速報）
+      // ----------------------------------------------------
+      const LATEST_VERSION = (typeof CHANGELOG_DATA !== 'undefined' && CHANGELOG_DATA.length > 0)
+        ? CHANGELOG_DATA[0].version
+        : 'v2.0';
+
+      // バナーを初期化（未閲覧なら表示）
+      function initBanner() {
+        const seenVersion = localStorage.getItem('lexie_seen_version');
+        if (seenVersion !== LATEST_VERSION) {
+          document.getElementById('update-banner').style.display = 'flex';
+        }
+      }
+
+      // バナーを閉じる（localStorage に閲覧済み記録）
+      function closeBanner() {
+        document.getElementById('update-banner').style.display = 'none';
+        localStorage.setItem('lexie_seen_version', LATEST_VERSION);
+      }
+
+      // ----------------------------------------------------
+      // 1c. アップデート履歴ページ描画
+      // ----------------------------------------------------
+      function renderChangelogPage() {
+        const grid = document.getElementById('changelog-grid');
+        if (!grid || typeof CHANGELOG_DATA === 'undefined') return;
+        grid.innerHTML = CHANGELOG_DATA.map((entry, i) => `
+          <div class="changelog-card">
+            <div class="changelog-card-header">
+              <span class="changelog-version">${escapeHtml(entry.version)}</span>
+              ${i === 0 ? '<span class="changelog-badge">最新</span>' : ''}
+              <span class="changelog-date">${escapeHtml(entry.date)}</span>
+            </div>
+            <h3 class="changelog-title">${escapeHtml(entry.title)}</h3>
+            <ul class="changelog-features">
+              ${entry.features.map(f => `<li>${f.icon} ${escapeHtml(f.text)}</li>`).join('')}
+            </ul>
+          </div>
+        `).join('');
+      }
 
       // ----------------------------------------------------
       // 2. お気に入り機能（保存・読み込み）
@@ -1013,14 +1060,22 @@
         }
       }
 
+      // ひらがな → カタカナ変換（検索の正規化用）
+      // U+3041–U+3096（ひらがな）を +0x60 シフトしてカタカナへ
+      function toKatakana(str) {
+        return str.replace(/[ぁ-ゖ]/g, (ch) =>
+          String.fromCharCode(ch.charCodeAt(0) + 0x60)
+        );
+      }
+
       function filterBrawlers() {
-        const s = searchInput.value.toLowerCase().trim();
+        const s = toKatakana(searchInput.value.toLowerCase().trim());
         const r = rarityFilter.value;
         const ro = roleFilter.value;
         const source = typeof brawlers !== "undefined" ? brawlers : [];
         filteredBrawlers = source.filter(
           (b) =>
-            b.name.toLowerCase().includes(s) &&
+            toKatakana(b.name.toLowerCase()).includes(s) &&
             (!r || b.rarity === r) &&
             (!ro || b.role === ro)
         );
@@ -1046,6 +1101,14 @@
             const target = link.dataset.target;
             switchPage(target);
           });
+        });
+
+        // バナー初期化・イベント設定
+        initBanner();
+        document.getElementById('update-banner-close').addEventListener('click', closeBanner);
+        document.getElementById('update-banner-link').addEventListener('click', () => {
+          switchPage('changelog');
+          closeBanner();
         });
 
         // お気に入りページのイベント
@@ -1104,19 +1167,32 @@
         pageTopBtn.innerHTML = "▲";
         document.body.appendChild(pageTopBtn);
 
-        // ★ここが重要！スクロール時の動きをまとめて書きます
-        window.onscroll = () => {
-          // 1. トップへ戻るボタンの表示・非表示
-          pageTopBtn.classList.toggle("visible", window.scrollY > 300);
+        // スクロール時の動き（rAF スロットル＋状態変化ガードでjitter防止）
+        const headerEl = document.querySelector("header");
+        let ticking = false;
+        window.addEventListener("scroll", () => {
+          if (ticking) return;
+          ticking = true;
+          requestAnimationFrame(() => {
+            // 1. トップへ戻るボタンの表示・非表示
+            pageTopBtn.classList.toggle("visible", window.scrollY > 300);
 
-          // 2. ヘッダーのコンパクト化（50px以上スクロールしたら発動）
-          const header = document.querySelector("header");
-          if (window.scrollY > 50) {
-            header.classList.add("scrolled");
-          } else {
-            header.classList.remove("scrolled");
-          }
-        };
+            // 2. ヘッダーのコンパクト化（ヒステリシスで自己ループ防止）
+            //    ON閾値(150px)とOFF閾値(20px)を分けることで、
+            //    ヘッダー縮小(~70px)による scroll anchoring の影響でループしなくなる
+            const SCROLL_ENTER = 100;
+            const SCROLL_LEAVE = 20;
+            const y = window.scrollY;
+            const isScrolled = headerEl.classList.contains("scrolled");
+            if (!isScrolled && y > SCROLL_ENTER) {
+              headerEl.classList.add("scrolled");
+            } else if (isScrolled && y < SCROLL_LEAVE) {
+              headerEl.classList.remove("scrolled");
+            }
+
+            ticking = false;
+          });
+        }, { passive: true });
 
         pageTopBtn.onclick = () =>
           window.scrollTo({ top: 0, behavior: "smooth" });

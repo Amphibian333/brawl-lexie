@@ -40,12 +40,35 @@
     <meta name="apple-mobile-web-app-title" content="Lexie" />
     <link rel="manifest" href="/site.webmanifest" />
 
+    <!-- OGP / Open Graph -->
+    <meta property="og:title" content="LEXIE - ブロスタ翻訳サイト" />
+    <meta property="og:description" content="ブロスタ全91キャラの英語ボイス再生&amp;日本語訳。単語帳・暗記モード機能で英語学習もできる。" />
+    <meta property="og:url" content="https://brawl-lexie.vercel.app/" />
+    <meta property="og:image" content="https://brawl-lexie.vercel.app/ogp.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="LEXIE" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="LEXIE - ブロスタ翻訳サイト" />
+    <meta name="twitter:description" content="ブロスタ全91キャラの英語ボイス再生&amp;日本語訳。単語帳・暗記モード機能で英語学習もできる。" />
+    <meta name="twitter:image" content="https://brawl-lexie.vercel.app/ogp.png" />
+
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <header>
-      <div id="beta-banner">🚧 現在ベータ版です。リクエスト募集中！ 🚧</div>
+      <!-- アップデート速報バナー（版番号管理・×ボタンで非表示・localStorage記録） -->
+      <div id="update-banner">
+        <span class="update-banner-text">
+          <span class="update-banner-full">🎉 大型アップデート公開！単語帳機能・暗記モード・速度変更 など8つの新機能を追加 → </span>
+          <span class="update-banner-short">🎉 大型アップデート公開！ </span>
+          <span class="update-banner-link" id="update-banner-link">詳しく</span>
+        </span>
+        <button class="update-banner-close" id="update-banner-close" aria-label="バナーを閉じる">✕</button>
+      </div>
       <div class="header-nav-container">
         <h1>
           Lexie
@@ -62,6 +85,7 @@
               >
             </li>
             <li><a class="nav-link" data-target="decks">📚 単語帳</a></li>
+            <li><a class="nav-link" data-target="changelog">📋 履歴</a></li>
             <li><a class="nav-link" data-target="lessons">翻訳動画</a></li>
           </ul>
         </nav>
@@ -306,9 +330,19 @@
           </div>
         </div>
       </section>
+      <!-- アップデート履歴ページ -->
+      <section id="changelog" class="page-section hidden">
+        <div class="container">
+          <h2 class="section-title">📋 アップデート履歴</h2>
+          <div id="changelog-grid" class="changelog-grid"></div>
+        </div>
+      </section>
     </main>
 
     <footer class="fan-policy-footer">
+      <p style="font-size: 11px; color: var(--text-tertiary); margin-bottom: 6px;">
+        🚧 一部機能はベータ版です。リクエスト・フィードバック募集中！
+      </p>
       <p>
         このコンテンツは非公式であり、Supercellによる承認を受けていません。ファンコンテンツに関する詳細は、Supercellのファンコンテンツポリシーをご覧ください（<a
           href="https://www.supercell.com/fan-content-policy"
@@ -362,6 +396,7 @@
     </div>
 
     <script src="brawlers.js"></script>
+    <script src="data/changelog.js"></script>
     <script async src="https://www.tiktok.com/embed.js"></script>
 
     <script defer src="app.js"></script>
