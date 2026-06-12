@@ -10,6 +10,7 @@
       let isJpHidden = localStorage.getItem('lexie_jp_hidden') === 'true';
       let playbackRate = parseFloat(localStorage.getItem('lexie_playback_rate') || '1');
       let fontSize = localStorage.getItem('lexie_font_size') || 'md';
+      let brawlerObserver = null;
 
       async function loadBrawlersIndex() {
         try {
@@ -17,6 +18,40 @@
           brawlers = await response.json();
         } catch (err) {
           console.error("Failed to load brawlers-index.json", err);
+        }
+      }
+
+      function initBrawlerObserver() {
+        if (!('IntersectionObserver' in window)) return;
+        brawlerObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const card = entry.target;
+              const brawlerId = card.dataset.brawlerId;
+              const b = brawlers.find(x => x.fileId === brawlerId);
+              if (b) prefetchBrawlerData(b);
+              observer.unobserve(card);
+            }
+          });
+        }, {
+          rootMargin: "200px 0px"
+        });
+      }
+
+      function prefetchBrawlerData(b) {
+        if (!b.voicelines && !b.isFetching) {
+          b.isFetching = true;
+          b.fetchPromise = fetch(`data/brawlers/${b.fileId}.json`)
+            .then(res => res.json())
+            .then(detail => {
+              b.voicelines = detail.voicelines;
+              b.tiktokEmbed = detail.tiktokEmbed;
+              b.isFetching = false;
+            })
+            .catch(err => {
+              console.error("Prefetch failed:", err);
+              b.isFetching = false;
+            });
         }
       }
 
@@ -356,11 +391,25 @@
       async function renderDeckDetail(deckId) {
         const deck = getDecks().find(d => d.id === deckId);
         if (!deck) return;
-        await ensureBrawlersLoaded(deck.voicelineIds);
         const detailView = document.getElementById('deck-detail-view');
         const listView = document.getElementById('deck-list-view');
         listView.style.display = 'none';
         detailView.style.display = 'block';
+
+        detailView.innerHTML = `
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; flex-wrap:wrap; gap:10px;">
+            <button id="back-to-decks-btn" class="btn btn-secondary">← 一覧に戻る</button>
+          </div>
+          <div style="text-align: center; padding: 40px; color: var(--accent-primary); font-weight: bold;">
+            ⏳ データを読み込み中...
+          </div>
+        `;
+        document.getElementById('back-to-decks-btn').onclick = () => {
+          detailView.style.display = 'none';
+          listView.style.display = 'block';
+        };
+
+        await ensureBrawlersLoaded(deck.voicelineIds);
 
         // brawlers から voicelineIds に一致するセリフを収集
         const tracks = [];
@@ -503,15 +552,24 @@
       async function renderFavoritesPage() {
         const favBrawlersList = getFavorites();
         const favVoicelinesList = getVoicelineFavorites();
+        const voicelinesContainer = document.getElementById("fav-voicelines-section");
+        if (voicelinesContainer && favVoicelinesList.length > 0) {
+          voicelinesContainer.style.display = "block";
+          voicelinesContainer.innerHTML = `
+            <div class="voicelines-section-header">
+              <h3 style="color: var(--accent-secondary);">セリフ</h3>
+            </div>
+            <div style="text-align: center; padding: 40px; color: var(--accent-primary); font-weight: bold;">
+              ⏳ データを読み込み中...
+            </div>
+          `;
+        }
         await ensureBrawlersLoaded(favVoicelinesList);
         const searchText = favSearchInput.value.toLowerCase();
         const onlyVoicelines = showVoicelinesOnlyCheckbox.checked;
 
         const brawlersContainer = document.getElementById(
           "fav-brawlers-section"
-        );
-        const voicelinesContainer = document.getElementById(
-          "fav-voicelines-section"
         );
         const emptyState = document.getElementById("empty-favorites-state");
 
@@ -749,6 +807,7 @@
       function createBrawlerCard(b) {
         const card = document.createElement("div");
         card.className = "brawler-card";
+        card.dataset.brawlerId = b.fileId;
         const favs = getFavorites();
         const isFav = favs.includes(b.name);
         const img = b.iconUrl || `https://placehold.co/80x80?text=${b.name}`;
@@ -763,9 +822,23 @@
           <div class="role">${getRoleText(b.role)}</div>
           <div class="quote">"${b.quote}"</div>
         `;
+
+        if (brawlerObserver) {
+          brawlerObserver.observe(card);
+        }
+
+        const prefetch = () => prefetchBrawlerData(b);
+        card.addEventListener("mouseenter", prefetch);
+        card.addEventListener("touchstart", prefetch, { passive: true });
+
         card.onclick = async () => {
           lastScrollPosition = window.scrollY;
-          if (!b.voicelines) {
+          if (b.isFetching && b.fetchPromise) {
+            card.classList.add("loading-card");
+            await b.fetchPromise;
+            card.classList.remove("loading-card");
+          } else if (!b.voicelines) {
+            card.classList.add("loading-card");
             try {
               const response = await fetch(`data/brawlers/${b.fileId}.json`);
               const detail = await response.json();
@@ -774,6 +847,7 @@
             } catch (err) {
               console.error("Failed to load brawler details:", err);
             }
+            card.classList.remove("loading-card");
           }
           displayBrawlerDetail(b);
         };
@@ -1238,6 +1312,7 @@
           window.scrollTo({ top: 0, behavior: "smooth" });
 
         migrateMemorizeHard();
+        initBrawlerObserver();
         loadBrawlersIndex().then(() => {
           filterBrawlers();
           const currentActiveLink = document.querySelector('.nav-link.active');
