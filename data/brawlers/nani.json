@@ -1,0 +1,157 @@
+{
+  "name": "ナーニ",
+  "nameEn": "Nani",
+  "rarity": "hyper-rare",
+  "role": "damage-dealer",
+  "quote": "Let's go have a look-see!",
+  "iconUrl": "https://i.imgur.com/I8hLtRl.png",
+  "voicelines": [
+    {
+      "id": "nani_vl1",
+      "quote": "Let's go have a look-see!",
+      "translation": "ちょっと見に行ってみましょう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"a look-see\" は「ちらっと見ること、偵察」を意味する、非常にインフォーマルで少し古風な、あるいは子供っぽい響きを持つスラングです。</li><li>ナーニの保護者的な役割と、少しお茶目な性格を表しています。</li></ul><strong>英文法:</strong><br>\"Let's go have...\" は「～を見に行こう」という誘いの表現です。\"a look-see\" が目的語になっています。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl1.mp3"
+    },
+    {
+      "id": "nani_vl2",
+      "quote": "I'm so happy!",
+      "translation": "とっても嬉しいです！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>勝利した時などの、純粋な喜びをストレートに表現しています。</li></ul><strong>英文法:</strong><br>\"so\" は形容詞 \"happy\" を強調する副詞で、「とても、すごく」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl2.mp3"
+    },
+    {
+      "id": "nani_vl3",
+      "quote": "Security alert.",
+      "translation": "警報、警報。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>危険を察知した際に発せられる、ロボットらしいシステム音声のような警告です。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」の組み合わせで、簡潔な警告メッセージとして機能しています。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl3.mp3"
+    },
+    {
+      "id": "nani_vl4",
+      "quote": "You okay?",
+      "translation": "大丈夫ですか？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手（特に味方）を心配して安否を尋ねる、ナーニの保護者的な性格を表すセリフです。</li></ul><strong>英文法:</strong><br>\"Are you okay?\" のbe動詞 \"Are\" が省略された、非常に一般的な口語表現です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl4.mp3"
+    },
+    {
+      "id": "nani_vl5",
+      "quote": "My mistake.",
+      "translation": "私のミスです。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の失敗を素直に認める、丁寧で誠実な謝罪の言葉です。</li></ul><strong>英文法:</strong><br>\"It was my mistake.\" が省略された形。「私の間違い」という名詞句で謝罪を表します。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl5.mp3"
+    },
+    {
+      "id": "nani_vl6",
+      "quote": "Peep launches",
+      "translation": "（ピープ、発進）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>\"launch\" は「（ロケットなどを）発射する、打ち上げる」という意味。ナーニのスーパーである偵察ドローン「ピープ」が発進する様子を示します。</li></ul><strong>英文法:</strong><br>動詞 \"launch\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl6.mp3"
+    },
+    {
+      "id": "nani_vl7",
+      "quote": "Recording.",
+      "translation": "録画中。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>監視ロボットとして、現在の状況を「録画している」ことを示す、機械的なセリフです。</li></ul><strong>英文法:</strong><br>\"I am recording.\" が省略された、現在分詞単独の表現です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl7.mp3"
+    },
+    {
+      "id": "nani_vl8",
+      "quote": "Nani laughs",
+      "translation": "（ナーニが笑う）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。ナーニの少しぎこちない、機械的な笑い声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"laugh\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl8.mp3"
+    },
+    {
+      "id": "nani_vl9",
+      "quote": "Nani whimpers",
+      "translation": "（ナーニがすすり泣く）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"whimper\" は、痛みや悲しみで、弱々しくクンクンと泣く様子を表します。</li></ul><strong>英文法:</strong><br>動詞 \"whimper\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl9.mp3"
+    },
+    {
+      "id": "nani_vl10",
+      "quote": "Oop, my bad.",
+      "translation": "おっと、失礼しました。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Oop\" は「おっと」という軽い驚きや小さなミスを表す間投詞。</li><li>\"my bad\" は「私のミスです」という意味の非常にカジュアルなスラングです。</li></ul><strong>英文法:</strong><br>\"my bad\" は \"It was my bad decision/fault.\" が省略された、口語独特の謝罪表現です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl10.mp3"
+    },
+    {
+      "id": "nani_vl11",
+      "quote": "Danger danger.",
+      "translation": "危険、危険。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>危険が迫っていることを、システム音声のように繰り返して警告しています。</li></ul><strong>英文法:</strong><br>名詞 \"Danger\" を繰り返すことで、警告の緊急性を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl11.mp3"
+    },
+    {
+      "id": "nani_vl12",
+      "quote": "Enhance, enhance.",
+      "translation": "拡大、拡大。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Enhance\" は「（画質などを）向上させる、鮮明にする」という意味です。</li><li>監視ロボットであるナーニが、ターゲットを拡大して分析しているような、機械的なセリフです。</li></ul><strong>英文法:</strong><br>動詞 \"Enhance\" の命令形を繰り返すことで、連続した処理や強調を表しています。<br><br><strong>🧠豆知識:</strong><br>この「Enhance!」というセリフは、SFや刑事ドラマで、捜査官が監視カメラの不鮮明な画像の一部を「拡大しろ！」と技術者に命令する際の、非常によく知られたお決まりのシーン（クリシェ）です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl12.mp3"
+    },
+    {
+      "id": "nani_vl13",
+      "quote": "I don't deserve this.",
+      "translation": "私がこんな目に遭うなんて。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"deserve\" は「～に値する」。この文は「私はこれ（悪い出来事）を受けるに値しない」という意味です。</li><li>理不尽な攻撃を受けた際の、悲しみや戸惑いを表しています。</li></ul><strong>英文法:</strong><br>\"do not\" を使った、シンプルな現在形の否定文です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl13.mp3"
+    },
+    {
+      "id": "nani_vl14",
+      "quote": "That was not my intention.",
+      "translation": "そんなつもりではありませんでした。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"intention\" は「意図、つもり」。自分の行動が、意図せず悪い結果を招いてしまった際に使う、丁寧な弁明の言葉です。</li></ul><strong>英文法:</strong><br>be動詞の過去形を使った、過去の意図についての否定文です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl14.mp3"
+    },
+    {
+      "id": "nani_vl15",
+      "quote": "I'm okay!",
+      "translation": "大丈夫です！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の無事を報告したり、心配する相手を安心させたりするセリフです。</li></ul><strong>英文法:</strong><br>\"I am okay\" の短縮形です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl15.mp3"
+    },
+    {
+      "id": "nani_vl16",
+      "quote": "Be careful!",
+      "translation": "気をつけて！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>味方に対して、危険を知らせる警告の言葉です。ナーニの保護者的な役割が表れています。</li></ul><strong>英文法:</strong><br>\"Be + 形容詞\" の形で始まる、基本的な命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl16.mp3"
+    },
+    {
+      "id": "nani_vl17",
+      "quote": "This is too much!",
+      "translation": "もう、たくさんです！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"too much\" は「多すぎる」という意味ですが、転じて「（状況などが）ひどすぎる」「もう耐えられない」という、我慢の限界を表す際にも使われます。</li></ul><strong>英文法:</strong><br>\"This is...\" で始まる、現状への不満を述べる文です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl17.mp3"
+    },
+    {
+      "id": "nani_vl18",
+      "quote": "Please stop.",
+      "translation": "やめてください。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の行動をやめさせたい時に使う、丁寧ながらも切実な懇願の言葉です。</li></ul><strong>英文法:</strong><br>命令文 \"Stop\" に、丁寧さを加える \"Please\" を付けています。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl18.mp3"
+    },
+    {
+      "id": "nani_vl19",
+      "quote": "I'm so sorry!",
+      "translation": "本当にごめんなさい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>副詞 \"so\" を使って、謝罪の気持ちを強く強調しています。</li></ul><strong>英文法:</strong><br>\"I'm sorry\" という基本的な謝罪表現を、\"so\" で強調した形です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl19.mp3"
+    },
+    {
+      "id": "nani_vl20",
+      "quote": "Not to worry!",
+      "translation": "ご心配なく！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「心配する必要はありません」と、相手を安心させるための、少し古風で丁寧な表現です。</li></ul><strong>英文法:</strong><br>\"You have no reason to worry.\" などが省略された、定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl20.mp3"
+    },
+    {
+      "id": "nani_vl21",
+      "quote": "Oop, well.",
+      "translation": "おっと、まあ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Oop\" は小さなミスをした時の「おっと」。</li><li>\"well\" は、言葉に詰まった時や、次の言葉を考えている時に使われるつなぎ言葉です。「ええと、まあ」といったニュアンスです。</li></ul><strong>英文法:</strong><br>二つの間投詞を組み合わせることで、少し困惑している様子を表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/nani_vl21.mp3"
+    }
+  ]
+}

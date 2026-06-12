@@ -1,0 +1,94 @@
+{
+  "name": "ニタ",
+  "nameEn": "Nita",
+  "rarity": "rare",
+  "role": "damage-dealer",
+  "quote": "Bear! Attack!",
+  "iconUrl": "https://i.imgur.com/VMoSN9y.png",
+  "voicelines": [
+    {
+      "id": "nita_v1",
+      "quote": "Nita!",
+      "translation": "ニタ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>まだ言語を完全には話さない、野性的なキャラクターが自分の名前を叫ぶことで、戦意や存在を原始的にアピールしています。</li></ul><strong>英文法:</strong><br>固有名詞を単独で発する感嘆文です。感情を込めて叫ぶことで、一つのセリフとして成立しています。",
+      "audioUrl": "https://Amphibian333.github.io/nita_v1.mp3"
+    },
+    {
+      "id": "nita_v2",
+      "quote": "Nita yells",
+      "translation": "ニタが叫ぶ",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これはセリフではなく、ニタの行動を描写する「ト書き」です。</li><li>\"yell\" は感情を込めて大声を出すことを意味し、戦闘中のエネルギーの発散や気合を表します。</li></ul><strong>英文法:</strong><br>\"yells\" は動詞 \"yell\" の三人称単数現在形です。主語が \"Nita\" のため、動詞の末尾に \"-s\" が付いています。",
+      "audioUrl": "https://Amphibian333.github.io/nita_v2.mp3"
+    },
+    {
+      "id": "nita_v3",
+      "quote": "Nita growls",
+      "translation": "ニタがうなり声を上げる",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これも「ト書き」です。</li><li>\"growl\" は、動物が喉の奥から出すような低いうなり声を指し、動物的な威嚇や集中力を表現しています。</li></ul><strong>英文法:</strong><br>動詞 \"growl\" の三人称単数現在形です。<br><br><strong>🧠豆知識:</strong><br>同じ「叫び」でも、甲高い金切り声は \"shriek\"、大声は \"yell\"、そして低い威嚇の声は \"growl\" と、英語では音の質や感情によって細かく単語が使い分けられます。",
+      "audioUrl": "https://Amphibian333.github.io/nita_v3.mp3"
+    },
+    {
+      "id": "nita_v4",
+      "quote": "Nita laughs",
+      "translation": "ニタが笑う",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」の一つ。</li><li>勝利した時や相手を挑発する時の、野生的で無邪気な笑い声を示しています。</li></ul><strong>英文法:</strong><br>動詞 \"laugh\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/nita_v4.mp3"
+    },
+    {
+      "id": "nita_v5",
+      "quote": "No!",
+      "translation": "イヤ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>拒絶や失敗、ダメージを受けた時など、ネガティブな状況で発せられるシンプルな叫びです。</li></ul><strong>英文法:</strong><br>否定を表す最も基本的な感嘆詞で、単独で強い感情を示します。",
+      "audioUrl": "https://Amphibian333.github.io/nita_v5.mp3"
+    },
+    {
+      "id": "nita_v6",
+      "quote": "Ya!",
+      "translation": "ヤァ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>攻撃を繰り出す時や、動き出す瞬間の掛け声です。日本語の「やっ！」や「とぉ！」に近いニュアンスです。</li></ul><strong>英文法:</strong><br>意味を持つ単語ではなく、気合を入れるための感嘆詞（interjection）です。",
+      "audioUrl": "https://Amphibian333.github.io/nita_v6.mp3"
+    },
+    {
+      "id": "nita_v7",
+      "quote": "Nita shrieks",
+      "translation": "ニタが甲高い叫び声を上げる",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"shriek\" は、恐怖、驚き、怒りなどで発せられる、非常に甲高く鋭い叫び声を指します。</li></ul><strong>英文法:</strong><br>動詞 \"shriek\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/nita_v7.mp3"
+    },
+    {
+      "id": "nita_v8",
+      "quote": "Mwahaha!",
+      "translation": "ムワッハッハ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>悪戯が成功した時や、勝利の喜びを表現する、少し大げさで悪役のような笑い声です。</li></ul><strong>英文法:</strong><br>笑い声を文字で表現した擬音語（onomatopoeia）です。",
+      "audioUrl": "https://Amphibian333.github.io/nita_v8.mp3"
+    },
+    {
+      "id": "nita_v9",
+      "quote": "Yeah!",
+      "translation": "よし！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>成功や喜びを表現する、ポジティブで力強い叫びです。</li></ul><strong>英文法:</strong><br>\"Yes\" をよりカジュアルにした感嘆詞で、口語で頻繁に使われます。",
+      "audioUrl": "https://Amphibian333.github.io/nita_v9.mp3"
+    },
+    {
+      "id": "nita_v10",
+      "quote": "Nita whimpers",
+      "translation": "ニタがクンクンと鳴く",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"whimper\" は、犬がクンクン鳴くような、弱々しく、悲しそうな、あるいは痛そうなすすり泣きを指します。</li></ul><strong>英文法:</strong><br>動詞 \"whimper\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/nita_v10.mp3"
+    },
+    {
+      "id": "nita_v11",
+      "quote": "Bear!",
+      "translation": "クマ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身の必殺技であり、相棒でもあるクマを呼び出す時の、力強い叫びです。</li></ul><strong>英文法:</strong><br>名詞 \"Bear\" を単独で叫ぶことで、必殺技の発動を宣言しています。",
+      "audioUrl": "https://Amphibian333.github.io/nita_v11.mp3"
+    },
+    {
+      "id": "nita_v12",
+      "quote": "Nita taunts",
+      "translation": "ニタが挑発する",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"taunt\" は、相手をからかったり、怒らせるために軽蔑的な言葉や行動をとることを意味します。</li></ul><strong>英文法:</strong><br>動詞 \"taunt\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/nita_v12.mp3"
+    }
+  ]
+}

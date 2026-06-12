@@ -1,0 +1,234 @@
+{
+  "name": "アンバー",
+  "nameEn": "Amber",
+  "rarity": "legend-rare",
+  "role": "damage-dealer",
+  "quote": "Feel the heat!",
+  "iconUrl": "https://i.imgur.com/66sCZ0H.png",
+  "voicelines": [
+    {
+      "id": "amber_vl1",
+      "quote": "Ha ha! Wow, so much heat!",
+      "translation": "ハハ！すごい、すごい熱気ね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦場の熱気にテンションが上がっている様子。</li><li>彼女自身が一番の熱源なんですけどね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl1.mp3"
+    },
+    {
+      "id": "amber_vl2",
+      "quote": "Woah! Guess I'm flamous now!",
+      "translation": "うわぉ！私、今やフレイマスね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Famous（有名）」と「Flame（炎）」をかけたダジャレ。</li><li>「炎上して有名になっちゃった！」みたいなニュアンスかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl2.mp3"
+    },
+    {
+      "id": "amber_vl3",
+      "quote": "You're playing with fire.",
+      "translation": "あなた、火遊びしてるのよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私に手を出すと火傷するわよ」という警告。</li><li>比喩じゃなくて本当に火傷させられます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl3.mp3"
+    },
+    {
+      "id": "amber_vl4",
+      "quote": "Ha ha! Sick burn!",
+      "translation": "ハハ！最高の燃やしっぷりね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Sick burn」は「強烈なディスり（侮辱）」という意味のスラング。</li><li>物理的に燃やしておいて「ナイスなディスりだったわ！」と笑う、ブラックジョークです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl4.mp3"
+    },
+    {
+      "id": "amber_vl5",
+      "quote": "Time to hibernate.",
+      "translation": "冬眠の時間ね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時のセリフ。</li><li>熱い彼女が「冬眠」と言うのが皮肉っぽくて面白いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl5.mp3"
+    },
+    {
+      "id": "amber_vl6",
+      "quote": "Fire fuel!",
+      "translation": "炎の燃料よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵をただの「燃料」扱い。</li><li>よく燃えそうな敵を見つけた時の喜びの声です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl6.mp3"
+    },
+    {
+      "id": "amber_vl7",
+      "quote": "Does anyone have a fire extinguisher?",
+      "translation": "誰か消火器持ってない？",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分で燃やしておいて消火器を探す天然っぷり。</li><li>マッチポンプの極みです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl7.mp3"
+    },
+    {
+      "id": "amber_vl8",
+      "quote": "Who's flamous now?",
+      "translation": "今、フレイマスなのは誰かしら？",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を倒して「どっちがスターか分かった？」とマウントを取るセリフ。</li><li>ここでも「Flamous」という造語を使っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl8.mp3"
+    },
+    {
+      "id": "amber_vl9",
+      "quote": "Ouch.",
+      "translation": "痛っ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>シンプルなダメージボイス。</li><li>素直な反応が可愛いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl9.mp3"
+    },
+    {
+      "id": "amber_vl10",
+      "quote": "Hah! Apply cold water to that burn! No seriously, get it checked.",
+      "translation": "ハッ！その火傷に冷たい水をかけなさい！いやマジで、診てもらいなさいよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>煽った後に急にマジレスで心配する、情緒不安定な優しさ。</li><li>「冗談抜きでヤバい火傷負わせちゃったかも」と焦ってます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl10.mp3"
+    },
+    {
+      "id": "amber_vl11",
+      "quote": "I'm burnt out.",
+      "translation": "燃え尽きちゃった。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「燃え尽き症候群（Burnt out）」と物理的に燃え尽きたことをかけた自虐。</li><li>真っ白な灰になっちゃいました。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl11.mp3"
+    },
+    {
+      "id": "amber_vl12",
+      "quote": "Fire starter!",
+      "translation": "火起こしよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦いの火蓋を切る合図。</li><li>ここからパーティー（大火事）の始まりです！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl12.mp3"
+    },
+    {
+      "id": "amber_vl13",
+      "quote": "And the burning continues.",
+      "translation": "そして、燃え続ける。",
+      "explanation": "<strong>解説:</strong><br><ul><li>実況中継みたいな冷静な報告。</li><li>彼女の情熱（と炎）は誰にも止められません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl13.mp3"
+    },
+    {
+      "id": "amber_vl14",
+      "quote": "Ah! I'm a-blazing!",
+      "translation": "あぁ！燃え盛ってるわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Amazing（素晴らしい）」と「Blazing（燃え盛る）」をかけたような響き。</li><li>絶好調な様子が伝わってきます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl14.mp3"
+    },
+    {
+      "id": "amber_vl15",
+      "quote": "You wanna play the flame game?",
+      "translation": "炎のゲームで遊びたい？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「火遊びしたいの？」という挑発。</li><li>子供は真似しちゃいけない危険な遊びです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl15.mp3"
+    },
+    {
+      "id": "amber_vl16",
+      "quote": "Ha ha! You got roasted. Yikes!",
+      "translation": "ハハ！丸焦げにされちゃったわね。ヤバ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を丸焼き（Roasted）にしておいて「うわ、やりすぎた」と引いている様子。</li><li>加減を知らないおてんば娘です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl16.mp3"
+    },
+    {
+      "id": "amber_vl17",
+      "quote": "Found the fire exit?",
+      "translation": "非常口は見つかった？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「逃げ道はないわよ」という遠回しな死の宣告。</li><li>火事場での冷静な問いかけが逆に怖いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl17.mp3"
+    },
+    {
+      "id": "amber_vl18",
+      "quote": "Feel the heat!",
+      "translation": "この熱を感じなさい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>アンバーの決め台詞。</li><li>物理的な熱さと、バトルの熱狂を同時に味わわせます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl18.mp3"
+    },
+    {
+      "id": "amber_vl19",
+      "quote": "Ignite this!",
+      "translation": "これに火をつけて！",
+      "explanation": "<strong>解説:</strong><br><ul><li>オイルを撒いた後に点火する時の合図。</li><li>爆発のカウントダウン開始です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl19.mp3"
+    },
+    {
+      "id": "amber_vl20",
+      "quote": "Hot hot hot hot hot! Hoo, ha, hot!",
+      "translation": "熱い熱い熱い熱い！ふー、はー、熱い！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の炎が熱すぎてパニックになってます。</li><li>耐火服とか着てないんでしょうか…？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl20.mp3"
+    },
+    {
+      "id": "amber_vl21",
+      "quote": "I'm on fire! Hoo! Hoo! I'm-I'm actually on fire!",
+      "translation": "私、絶好調よ！ふー！ふー！私、わ、私、本当に燃えてる！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「On fire（絶好調）」だと思ってたら、文字通り服に火がついてた！という古典的なギャグ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl21.mp3"
+    },
+    {
+      "id": "amber_vl22",
+      "quote": "I'm flaming furious!",
+      "translation": "燃えるように怒ってるんだから！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「激おこ」状態。</li><li>彼女が怒ると周りが火の海になるので、関わらない方が吉です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl22.mp3"
+    },
+    {
+      "id": "amber_vl23",
+      "quote": "Burn voyage!",
+      "translation": "炎の旅を！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Bon voyage（良い旅を）」と「Burn（燃える）」をかけたダジャレ。</li><li>地獄行きの片道切符をプレゼントします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl23.mp3"
+    },
+    {
+      "id": "amber_vl24",
+      "quote": "I will re-amber you!",
+      "translation": "あなたをリ・アンバーしてあげる！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Remember（覚えている）」と自分の名前「Amber」をかけた無理やりな造語。</li><li>「私の名前を刻み込んでやるわ！」というアピールです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl24.mp3"
+    },
+    {
+      "id": "amber_vl25",
+      "quote": "This is lit!",
+      "translation": "これ、最高！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Lit（最高にイケてる）」と「Lit（火がついた）」のダブルミーニング。</li><li>若者言葉を使いこなす、今どきな女の子です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl25.mp3"
+    },
+    {
+      "id": "amber_vl26",
+      "quote": "Hoo hoo, I flame to please!",
+      "translation": "フッフー、喜ばせるために燃えるのよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「I aim to please（喜んで奉仕します）」のパロディ。</li><li>大道芸人として、観客（敵）を沸かせるのが私の仕事です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl26.mp3"
+    },
+    {
+      "id": "amber_vl27",
+      "quote": "I'm still on fire over here!",
+      "translation": "私、こっちでまだ燃えてるんだけど！",
+      "explanation": "<strong>解説:</strong><br><ul><li>まだ火が消えてなくて助けを求めているのか、まだやる気満々なのか。</li><li>どっちにしても騒がしいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl27.mp3"
+    },
+    {
+      "id": "amber_vl28",
+      "quote": "Finally! My fifteen minutes of flame!",
+      "translation": "ついに！私の15分間の炎よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「15分間の名声（誰でも一時的には有名になれる）」という言葉のパロディ。</li><li>短い間でも輝けば（燃えれば）それでいい！という潔さ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl28.mp3"
+    },
+    {
+      "id": "amber_vl29",
+      "quote": "This is fine.",
+      "translation": "大丈夫よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>火事の中で「This is fine」と言ってお茶を飲む有名なネットミームの再現。</li><li>現実逃避している時のセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl29.mp3"
+    },
+    {
+      "id": "amber_vl30",
+      "quote": "Ya burnt!",
+      "translation": "燃えちゃったね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「論破されたね」「ディスられたね」という意味でも使われるスラング。</li><li>物理的にも精神的にも相手を黒焦げにします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl30.mp3"
+    },
+    {
+      "id": "amber_vl31",
+      "quote": "Fuego!",
+      "translation": "フエゴ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>スペイン語で「火（Fire）」。</li><li>ラテン系の情熱的な叫びです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl31.mp3"
+    },
+    {
+      "id": "amber_vl32",
+      "quote": "¡Woah, muy caliente!",
+      "translation": "うわぉ、すごく熱いわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>スペイン語で「激アツ！」。</li><li>自分の炎の熱さに自分で驚いています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/amber_vl32.mp3"
+    }
+  ]
+}

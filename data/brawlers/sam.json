@@ -1,0 +1,360 @@
+{
+  "name": "サム",
+  "nameEn": "Sam",
+  "rarity": "hyper-rare",
+  "role": "damage-dealer",
+  "quote": "Gloves are off.",
+  "iconUrl": "https://i.imgur.com/m8rGNIC.png",
+  "voicelines": [
+    {
+      "id": "sam_vl1",
+      "quote": "Time to hit them with the old one-two!",
+      "translation": "伝家の宝刀、ワンツーパンチの時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"the old one-two\" は、ボクシングの基本的なコンビネーションである「ワンツーパンチ」のこと。転じて「お決まりのやり方、伝家の宝刀」といった意味も持ちます。</li><li>これから得意技で攻撃することを宣言しています。</li></ul><strong>英文法:</strong><br>「Time to + 動詞」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl1.mp3"
+    },
+    {
+      "id": "sam_vl2",
+      "quote": "Undefeated Brawler!",
+      "translation": "無敗のブロウラーよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"undefeated\" は「無敗の、負け知らずの」。自分の無敵さを誇示する、自信に満ちた自己紹介です。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl2.mp3"
+    },
+    {
+      "id": "sam_vl3",
+      "quote": "I'm on the ropes!",
+      "translation": "ロープ際に追い詰められた！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ボクシングで、ロープ際に追い詰められて防戦一方になる状態を \"on the ropes\" と言います。</li><li>転じて、「（比喩的に）窮地に陥っている、絶体絶命だ」という意味の、非常に一般的なイディオムです。</li></ul><strong>英文法:</strong><br>定型化された慣用句を使った、自身の状況説明です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl3.mp3"
+    },
+    {
+      "id": "sam_vl4",
+      "quote": "It's a knockout!",
+      "translation": "ノックアウトだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ボクシングで相手を完全に倒した状態である「ノックアウト」を宣言しています。完全勝利の雄叫びです。</li></ul><strong>英文法:</strong><br>ボクシングの試合で使われる、定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl4.mp3"
+    },
+    {
+      "id": "sam_vl5",
+      "quote": "I got knocked out.",
+      "translation": "ノックアウトされちまった。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分がノックアウトされた、つまり完全に負かされたことを認めるセリフです。</li></ul><strong>英文法:</strong><br>\"get + 過去分詞\" の形で受動態を表す、口語的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl5.mp3"
+    },
+    {
+      "id": "sam_vl6",
+      "quote": "Hook!",
+      "translation": "フック！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ボクシングのパンチの一種である「フック」を、技名として叫んでいます。</li></ul><strong>英文法:</strong><br>名詞単独の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl6.mp3"
+    },
+    {
+      "id": "sam_vl7",
+      "quote": "Sucker punch!",
+      "translation": "不意打ちパンチだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sucker punch\" は、相手が予期していない、卑怯な「不意打ち」を意味するスラングです。</li><li>奇襲が成功した時などに使われます。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl7.mp3"
+    },
+    {
+      "id": "sam_vl8",
+      "quote": "Let's go beat up some bots!",
+      "translation": "ボットどもをぶちのめしに行くぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"beat up\" は「～をボコボコにする、打ちのめす」という句動詞。</li><li>\"bots\" は「ロボット」の略で、ここでは弱い敵を指している可能性があります。</li></ul><strong>英文法:</strong><br>「Let's go + 動詞」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl8.mp3"
+    },
+    {
+      "id": "sam_vl9",
+      "quote": "I'll beat you all to the punch.",
+      "translation": "お前ら全員、俺が先手を取ってやる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"beat someone to the punch\" は、ボクシングで「相手より先にパンチを当てる」ことから転じて、「（競争相手より）先に行動する、先手を打つ」という意味のイディオムです。</li></ul><strong>英文法:</strong><br>未来を表す \"I will\" を使った、慣用句を含む文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl9.mp3"
+    },
+    {
+      "id": "sam_vl10",
+      "quote": "Roll with the punches.",
+      "translation": "パンチは受け流すもんだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ボクシングで、パンチの衝撃を和らげるために体を動かして「受け流す」ことを \"roll with the punches\" と言います。</li><li>転じて、「困難な状況に柔軟に対応する、逆境を受け流す」という意味の、非常に有名なイディオムです。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文の形をとった、ことわざのような表現です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl10.mp3"
+    },
+    {
+      "id": "sam_vl11",
+      "quote": "3, 2, 1, you're done, mate.",
+      "translation": "3、2、1、お前の負けだ、相棒。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>カウントダウンの後、相手の敗北を宣告しています。</li><li>\"mate\" は、イギリスやオーストラリアで「友達、相棒」を意味する非常に一般的な呼びかけですが、ここでは皮肉なニュアンスです。</li></ul><strong>英文法:</strong><br>カウントダウンと、簡潔な宣告文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl11.mp3"
+    },
+    {
+      "id": "sam_vl12",
+      "quote": "T.K.O.",
+      "translation": "T.K.O.だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Technical Knockout\"（テクニカルノックアウト）の略。ボクシングで、一方が戦闘続行不可能と判断された場合の勝利です。</li></ul><strong>英文法:</strong><br>頭字語（Acronym）を使った、簡潔な勝利宣言です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl12.mp3"
+    },
+    {
+      "id": "sam_vl13",
+      "quote": "Jab!",
+      "translation": "ジャブ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ボクシングの基本的なパンチである「ジャブ」を、技名として叫んでいます。</li></ul><strong>英文法:</strong><br>名詞単独の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl13.mp3"
+    },
+    {
+      "id": "sam_vl14",
+      "quote": "Sam's hammer!",
+      "translation": "サムズ・ハンマー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の強力なパンチを「サムのハンマー」と称して、技名のように叫んでいます。</li></ul><strong>英文法:</strong><br>所有格を使った名詞句です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl14.mp3"
+    },
+    {
+      "id": "sam_vl15",
+      "quote": "Time to show the kids how it's done!",
+      "translation": "ガキどもにお手本を見せてやる時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分より若いブロウラーたちを「子供（kids）」と呼び、ベテランとして「本当のやり方（how it's done）」を見せつけてやる、という自信と経験を示すセリフです。</li></ul><strong>英文法:</strong><br>「Time to + 動詞」の構文に、間接疑問文が続いています。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl15.mp3"
+    },
+    {
+      "id": "sam_vl16",
+      "quote": "This one's for Belle.",
+      "translation": "これはベルのためだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>この勝利や行動を、ゴールドアームギャングのリーダーである「ベル」に捧げるセリフです。彼らの強い絆がうかがえます。</li></ul><strong>英文法:</strong><br>\"This one is for...\" の短縮形です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl16.mp3"
+    },
+    {
+      "id": "sam_vl17",
+      "quote": "Saved by the bell.",
+      "translation": "ゴングに救われたな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ボクシングで、ノックアウト寸前の選手がラウンド終了のゴング（bell）に救われる状況から来たイディオムです。</li><li>転じて、「土壇場で（偶然の出来事によって）救われる」という意味で広く使われます。</li></ul><strong>英文法:</strong><br>受動態の形をとった、有名な慣用句です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl17.mp3"
+    },
+    {
+      "id": "sam_vl18",
+      "quote": "Look kids, that's how it's done.",
+      "translation": "見な坊主ども、こうやるんだよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の見事なプレイを見せつけた後、年下の者たちに「これが本当のやり方だ」と手本を示す、ベテランらしいセリフです。</li></ul><strong>英文法:</strong><br>命令文と、説明の文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl18.mp3"
+    },
+    {
+      "id": "sam_vl19",
+      "quote": "Oh, that was a low blow!",
+      "translation": "おい、そりゃ反則だろ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"low blow\" は、ボクシングでベルトより下を攻撃する「反則打」のこと。</li><li>転じて、「卑怯なやり方、ルール違反の言動」という意味でも使われます。相手の攻撃が卑劣だったと非難しています。</li></ul><strong>英文法:</strong><br>過去形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl19.mp3"
+    },
+    {
+      "id": "sam_vl20",
+      "quote": "Counterpunch!",
+      "translation": "カウンターパンチ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の攻撃に合わせて打つ、反撃の「カウンターパンチ」を技名として叫んでいます。</li></ul><strong>英文法:</strong><br>名詞単独の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl20.mp3"
+    },
+    {
+      "id": "sam_vl21",
+      "quote": "In your face!",
+      "translation": "どうだ、まいったか！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の目の前で何かを成功させたり、打ち負かしたりした時に使う、非常に挑発的で攻撃的なスラングです。「ざまあみろ！」というニュアンスです。</li></ul><strong>英文法:</strong><br>前置詞句だけの、定型化されたスラング表現です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl21.mp3"
+    },
+    {
+      "id": "sam_vl22",
+      "quote": "Put up your jukes.",
+      "translation": "こぶしを構えな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"dukes\" は、スラングで「拳（こぶし）」を意味します。</li><li>\"Put up your dukes\" は「拳を構えろ」「さあ、やるぞ」という、喧嘩を始める際の決まり文句です。（セリフのjukesはdukesの聞き間違いか意図的な変更の可能性）</li></ul><strong>英文法:</strong><br>句動詞を使った命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl22.mp3"
+    },
+    {
+      "id": "sam_vl23",
+      "quote": "Winner, winner, chicken dinner!",
+      "translation": "勝者あり、チキンディナーあり！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは、特にギャンブルで勝利した時に使われる、非常に有名な幸運のフレーズです。</li></ul><strong>英文法:</strong><br>リズミカルな名詞句の羅列です。<br><br><strong>🧠豆知識:</strong><br>昔のラスベガスのカジノで、標準的なチキンディナーが賭け金とほぼ同額だったことから、「勝てばチキンディナーが食えるぞ！」という意味で使われ始めたと言われています。今ではバトルロイヤルゲームなどでもお馴染みです。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl23.mp3"
+    },
+    {
+      "id": "sam_vl24",
+      "quote": "Oh, feeling groggy.",
+      "translation": "おぉ、フラフラするぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"groggy\" は、頭を打ったり、病気や寝不足で、頭がぼーっとして「ふらふらする」状態を表す形容詞です。</li></ul><strong>英文法:</strong><br>\"I am feeling groggy.\" の主語が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl24.mp3"
+    },
+    {
+      "id": "sam_vl25",
+      "quote": "You're brown-bread!",
+      "translation": "お前さん、もうお陀仏だぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは、「お前は死んだ」という意味の、非常に有名な「コックニー・ライミング・スラング（ロンドンの下町言葉）」です。</li><li>\"brown bread\"（茶色いパン）が、\"dead\"（死んだ）と韻を踏むことから、\"dead\" の隠語として使われます。</li></ul><strong>英文法:</strong><br>be動詞の後に、形容詞として機能するスラングの名詞句を置いた文です。<br><br><strong>🧠豆知識:</strong><br>「コックニー・ライミング・スラング」は、19世紀のロンドン東部で生まれた、特定の単語を、それと韻を踏む別の言葉で置き換える言葉遊び・隠語です。サムがこの表現を使うことで、彼の「ロンドンの労働者階級出身の、昔気質のボクサー」というキャラクター性が際立ちます。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl25.mp3"
+    },
+    {
+      "id": "sam_vl26",
+      "quote": "Throwing in the towel!",
+      "translation": "タオルを投げ込むぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ボクシングで、セコンドが「降参」の意思を示すためにリングにタオルを投げ込む行為から、「諦める、降参する」という意味のイディオムになりました。</li><li>ここでは、相手に対して「お前はもう降参するしかないな」と、勝利を宣告しています。</li></ul><strong>英文法:</strong><br>定型化された慣用句です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl26.mp3"
+    },
+    {
+      "id": "sam_vl27",
+      "quote": "Kidney punch!",
+      "translation": "腎臓打ち！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"kidney punch\" は、背中側の腎臓を狙うパンチで、ボクシングでは反則とされています。サムの少しダーティな戦い方を表しているのかもしれません。</li></ul><strong>英文法:</strong><br>技名としての名詞句です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl27.mp3"
+    },
+    {
+      "id": "sam_vl28",
+      "quote": "Get 'em jabbers!",
+      "translation": "やっちまえ、ジャバーズ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Get 'em\" は \"Get them\" の口語的な短縮形。</li><li>\"jabbers\" は、サムが装着しているナックルダスター（あるいは仲間）の愛称のようです。</li></ul><strong>英文法:</strong><br>命令文と呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl28.mp3"
+    },
+    {
+      "id": "sam_vl29",
+      "quote": "Playtime's over, kids.",
+      "translation": "お遊びは終わりだ、ガキども。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ここからは本気でいくぞ」と宣言する、定番の決め台詞です。</li><li>相手を「子供（kids）」と呼ぶことで、自分の方が経験豊富で格上であることを見せつけています。</li></ul><strong>英文法:</strong><br>\"Playtime is over.\" の短縮形です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl29.mp3"
+    },
+    {
+      "id": "sam_vl30",
+      "quote": "Champion!",
+      "translation": "チャンピオン！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分こそがチャンピオンであると、シンプルに、しかし力強く宣言しています。</li></ul><strong>英文法:</strong><br>名詞単独の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl30.mp3"
+    },
+    {
+      "id": "sam_vl31",
+      "quote": "Kids got my back. Yeah, right.",
+      "translation": "若者たちが俺を援護してくれる。…へっ、ありえねぇな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"have someone's back\" は「～を援護する、～の味方である」という意味のイディオム。</li><li>\"Yeah, right.\" は、直前に言ったことを即座に否定する、強烈な皮肉の表現です。「～だってさ。んなわけあるか」というニュアンスです。</li></ul><strong>英文法:</strong><br>肯定文の後に、それを完全に否定する皮肉な相槌が続いています。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl31.mp3"
+    },
+    {
+      "id": "sam_vl32",
+      "quote": "Time for bed!",
+      "translation": "おねんねの時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を子供扱いし、「もう寝る時間だぞ」と、ノックアウトすることを予告しています。</li></ul><strong>英文法:</strong><br>「Time for + 名詞」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl32.mp3"
+    },
+    {
+      "id": "sam_vl33",
+      "quote": "I'll get you next round!",
+      "translation": "次のラウンドで借りは返す！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>敗北した際に、「次の試合では必ずお前を倒す」と、再戦と復讐を誓うセリフです。</li></ul><strong>英文法:</strong><br>未来を表す \"I will\" を使った、決意表明です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl33.mp3"
+    },
+    {
+      "id": "sam_vl34",
+      "quote": "Cross!",
+      "translation": "クロス！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ボクシングのパンチの一種である「クロス」を、技名として叫んでいます。</li></ul><strong>英文法:</strong><br>名詞単独の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl34.mp3"
+    },
+    {
+      "id": "sam_vl35",
+      "quote": "Gloves are off.",
+      "translation": "グローブは外したぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ボクシンググローブを外すことは、ルール無用の本気の喧嘩を始める合図です。</li><li>転じて、「手加減なしでやるぞ」「本気出すぞ」という意味のイディオムとして使われます。</li></ul><strong>英文法:</strong><br>定型化された慣用句です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl35.mp3"
+    },
+    {
+      "id": "sam_vl36",
+      "quote": "Time for an argy bargy!",
+      "translation": "口論の時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"argy-bargy\" は、イギリス英語のスラングで、「口論、騒々しい言い争い」または「ちょっとした乱闘」を意味します。</li><li>これから騒がしい戦いが始まるぞ、と宣言しています。</li></ul><strong>英文法:</strong><br>「Time for + 名詞（スラング）」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl36.mp3"
+    },
+    {
+      "id": "sam_vl37",
+      "quote": "Ah, youth of today...",
+      "translation": "あぁ、近頃の若いモンは…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Kids today.\" と同じく、年長者が若者の行動に呆れたり、嘆いたりする際の決まり文句です。</li></ul><strong>英文法:</strong><br>名詞句だけで、嘆きの感情を表しています。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl37.mp3"
+    },
+    {
+      "id": "sam_vl38",
+      "quote": "Sleepy time!",
+      "translation": "おねむの時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Time for bed!\" と同じく、相手を子供扱いし、ノックアウトすることを予告するセリフです。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の組み合わせで、呼びかけのように機能しています。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl38.mp3"
+    },
+    {
+      "id": "sam_vl39",
+      "quote": "It's all gone Pete Tong!",
+      "translation": "全部パーだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これも「コックニー・ライミング・スラング」の一つ。有名なDJの名前「Pete Tong」が、「wrong」（間違い、失敗）と韻を踏むことから、「すべてがうまくいかなくなった、めちゃくちゃだ」という意味で使われます。</li></ul><strong>英文法:</strong><br>定型化された、ライミング・スラングのイディオムです。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl39.mp3"
+    },
+    {
+      "id": "sam_vl40",
+      "quote": "Uppercut!",
+      "translation": "アッパーカット！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ボクシングのパンチの一種である「アッパーカット」を、技名として叫んでいます。</li></ul><strong>英文法:</strong><br>名詞単独の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl40.mp3"
+    },
+    {
+      "id": "sam_vl41",
+      "quote": "Alright jabbers, let's do it!",
+      "translation": "よし野郎ども、やるぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Alright\" は「よし、さあ」。</li><li>\"jabbers\" は、彼のナックルダスターの愛称か、あるいは彼のギャング仲間への呼びかけのようです。</li></ul><strong>英文法:</strong><br>呼びかけと、「Let's + 動詞」の提案・誘いの構文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl41.mp3"
+    },
+    {
+      "id": "sam_vl42",
+      "quote": "Nice one! I'll give you that.",
+      "translation": "やるじゃないか！それは認めてやる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Nice one!\" は「よくやった！」「見事だ！」と相手を称賛する言葉。</li><li>\"I'll give you that.\" は「（不本意ながらも）その点は認めてやろう」と、相手の特定の長所や行動を評価する際の決まり文句です。</li></ul><strong>英文法:</strong><br>二つの定型句を組み合わせることで、相手を認めつつも、まだ負けたわけではないというニュアンスを出しています。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl42.mp3"
+    },
+    {
+      "id": "sam_vl43",
+      "quote": "You were outclassed.",
+      "translation": "お前は格が違ったな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"outclass\" は「～よりはるかに格が上である、～を圧倒する」という意味。</li><li>相手が自分より完全に実力が劣っていたと、完勝を宣言しています。</li></ul><strong>英文法:</strong><br>受動態の過去形です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl43.mp3"
+    },
+    {
+      "id": "sam_vl44",
+      "quote": "Too many kids!",
+      "translation": "ガキが多すぎる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>周りが経験の浅い若者ばかりであることへの、不満や苛立ちを表しています。</li></ul><strong>英文法:</strong><br>簡潔な名詞句だけの文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl44.mp3"
+    },
+    {
+      "id": "sam_vl45",
+      "quote": "Oi! Leave it out!",
+      "translation": "オイ！いい加減にしろ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Oi!\" は、注意を引くための、イギリスの労働者階級などが使う非常に荒っぽい呼びかけです。</li><li>\"Leave it out!\" は、主にイギリス英語で「やめろ！」「いい加減にしろ！」「ふざけるな！」といった意味で使われる強い制止の言葉です。</li></ul><strong>英文法:</strong><br>イギリス英語特有の、非常に口語的な命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl45.mp3"
+    },
+    {
+      "id": "sam_vl46",
+      "quote": "My Be-e-lle!",
+      "translation": "俺のベール！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>敗北した際に、自分の大切な存在である「ベル」の名前を、悲痛に叫んでいます。</li></ul><strong>英文法:</strong><br>名前を感情を込めて伸ばして発音しています。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl46.mp3"
+    },
+    {
+      "id": "sam_vl47",
+      "quote": "You're having a laugh.",
+      "translation": "ふざけてんだろ、お前。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>主にイギリス英語で、相手の言動が信じられない、ばかげていると感じた時に「冗談だろ？」「からかってるのか？」という意味で使われる表現です。</li></ul><strong>英文法:</strong><br>現在進行形ですが、文字通りの意味ではなく、相手への非難を表す慣用句として機能します。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl47.mp3"
+    },
+    {
+      "id": "sam_vl48",
+      "quote": "That was shambolic.",
+      "translation": "ありゃあ、しっちゃかめっちゃかだったな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"shambolic\" は、イギリス英語のスラングで「無秩序な、混乱した、しっちゃかめっちゃかな」という意味です。</li><li>試合内容や誰かの行動が、ひどく disorganized だったと評しています。</li></ul><strong>英文法:</strong><br>be動詞の過去形を使った、状態を説明する文です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl48.mp3"
+    },
+    {
+      "id": "sam_vl49",
+      "quote": "Bang out of order, mate.",
+      "translation": "そりゃ完全にルール違反だぜ、相棒。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"out of order\" は、イギリス英語で「（言動が）許容できない、ルール違反だ、ひどい」という意味。</li><li>\"Bang\" は、ここでは「完全に、まったく」という強調の副詞として使われています。</li></ul><strong>英文法:</strong><br>イギリスのスラングを組み合わせた、強い非難の表現です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl49.mp3"
+    },
+    {
+      "id": "sam_vl50",
+      "quote": "Proper naughty...",
+      "translation": "こりゃ、相当タチが悪い…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Proper\" は、イギリス英語のスラングで「本物の、まったくの」という強調の副詞。</li><li>\"naughty\" は元々「いたずらな」という意味ですが、ここでは「タチが悪い、悪質な」といったニュアンスで使われています。</li></ul><strong>英文法:</strong><br>イギリス英語のスラングを組み合わせた表現です。",
+      "audioUrl": "https://Amphibian333.github.io/sam_vl50.mp3"
+    }
+  ]
+}

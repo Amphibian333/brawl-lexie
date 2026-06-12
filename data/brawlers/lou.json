@@ -1,0 +1,290 @@
+{
+  "name": "ルー",
+  "nameEn": "Lou",
+  "rarity": "ultra-rare",
+  "role": "support",
+  "quote": "I'm cool, I'm so cool!",
+  "iconUrl": "https://i.imgur.com/95a1gbl.png",
+  "voicelines": [
+    {
+      "id": "lou_vl1",
+      "quote": "Keep it frosty!",
+      "translation": "ひんやりいこうぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「冷静にいこう（Keep it cool）」を、氷キャラらしく「ひんやりいこう」と言い換えたお洒落なジョーク。</li><li>熱くなってる味方を冷やすのにも使えるかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl1.mp3"
+    },
+    {
+      "id": "lou_vl2",
+      "quote": "Un-cone-trollable.",
+      "translation": "アン・コーン・トローラブルだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「制御不能（Uncontrollable）」とアイスの「コーン」をかけたダジャレ！</li><li>ウルトで敵がツルツル滑って制御不能になってる時に言いたい一言。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl2.mp3"
+    },
+    {
+      "id": "lou_vl3",
+      "quote": "Oh my days!",
+      "translation": "なんてこったい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>予想外のことが起きた時のリアクション。</li><li>ちょっと古風な言い方が、ルーの可愛らしいキャラクターに合っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl3.mp3"
+    },
+    {
+      "id": "lou_vl4",
+      "quote": "Bad to the cone.",
+      "translation": "骨の髄までコーンだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「骨の髄までワルだぜ」というカッコいいセリフを、コーンに変えて可愛くアピール。</li><li>見た目は可愛いけど、性能は凶悪ですからね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl4.mp3"
+    },
+    {
+      "id": "lou_vl5",
+      "quote": "I got crushed!",
+      "translation": "潰されちゃった！",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時のセリフ。</li><li>文字通り「押しつぶされた」という意味と、かき氷（クラッシュアイス）になっちゃった、というダブルミーニングかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl5.mp3"
+    },
+    {
+      "id": "lou_vl6",
+      "quote": "Feel the freeze!",
+      "translation": "この凍てつきを感じな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>攻撃を当てて、相手のスタンゲージが溜まっていく時のプレッシャーを与える一言！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl6.mp3"
+    },
+    {
+      "id": "lou_vl7",
+      "quote": "Slip n' slide!",
+      "translation": "スリップ＆スライド！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルトの上で敵がツルツル滑って転んでる様子を楽しんでます。</li><li>「滑って転んで大惨事！」って感じのノリです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl7.mp3"
+    },
+    {
+      "id": "lou_vl8",
+      "quote": "Try a blizz ball y'all!",
+      "translation": "ブリズボールはいかが、みんな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>攻撃を「ブリザードのボール」と呼んで、みんなに振る舞っています。</li><li>アイス屋さんらしく、敵にもサービス精神旺盛です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl8.mp3"
+    },
+    {
+      "id": "lou_vl9",
+      "quote": "I'm in the cone zone!",
+      "translation": "コーンゾーンに入ったぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>スポーツ選手が極限集中する「ゾーン」に入った状態。</li><li>もちろん「コーン」とかけてます。絶好調な時に使いましょう！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl9.mp3"
+    },
+    {
+      "id": "lou_vl10",
+      "quote": "Gosh golly!",
+      "translation": "おやおや、まあ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>カートゥーンアニメのキャラクターが言いそうな、とぼけた驚き方。</li><li>深刻な状況でもどこか呑気なルーおじさんです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl10.mp3"
+    },
+    {
+      "id": "lou_vl11",
+      "quote": "Easy breezy!",
+      "translation": "楽勝さ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「そよ風みたいに余裕だぜ！」ってこと。</li><li>韻を踏んでてリズムが良いので、勝った時に口ずさみたくなります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl11.mp3"
+    },
+    {
+      "id": "lou_vl12",
+      "quote": "Shame on you!",
+      "translation": "恥を知りなさい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>チーミングしてくる敵や、卑怯な手を使ってくる相手にピシャリと言ってやりたい一言。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl12.mp3"
+    },
+    {
+      "id": "lou_vl13",
+      "quote": "You want ice with that?",
+      "translation": "それに氷もつけますかい？",
+      "explanation": "<strong>解説:</strong><br><ul><li>攻撃しておいて「氷もいる？」と聞く、ファストフード店の店員さんみたいな煽り。</li><li>もう十分凍ってるって！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl13.mp3"
+    },
+    {
+      "id": "lou_vl14",
+      "quote": "New and improved flavor sauce!",
+      "translation": "新しく改良されたフレーバーソースだよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の攻撃を新商品みたいに宣伝してます。</li><li>「さらに強力になりました！」ってアピールしながら攻撃を浴びせましょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl14.mp3"
+    },
+    {
+      "id": "lou_vl15",
+      "quote": "Uncle Lou is here for you!",
+      "translation": "ルーおじさんが、君のためにいるよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分のことを「おじさん（Uncle）」呼びする親しみやすさ！</li><li>味方を守るサポートキャラとしての頼もしさをアピールしてます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl15.mp3"
+    },
+    {
+      "id": "lou_vl16",
+      "quote": "Y'all be lovin' the sour apples flavor!",
+      "translation": "みんな、サワーアップルフレーバーが大好きなんだろ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>青リンゴ味のシロップ（攻撃）を強制プレゼント！</li><li>「好きだろ？」と決めつけて投げつける強引さが素敵です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl16.mp3"
+    },
+    {
+      "id": "lou_vl17",
+      "quote": "Gee willikers!",
+      "translation": "うわぁ、びっくりした！",
+      "explanation": "<strong>解説:</strong><br><ul><li>これまたレトロな驚き方。「おっ魂消た！」くらいのニュアンスです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl17.mp3"
+    },
+    {
+      "id": "lou_vl18",
+      "quote": "You got coned!",
+      "translation": "コーンされちゃったね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「コーン（円錐）」で倒したから「コーンされた」。ルー独自の勝利宣言です。</li><li>完敗した相手にかける、ちょっと悔しい言葉。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl18.mp3"
+    },
+    {
+      "id": "lou_vl19",
+      "quote": "Have a blizz ball!",
+      "translation": "ブリズボールをどうぞ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>通常攻撃を投げる時のセリフ。</li><li>「試食どうぞ〜」くらいの軽いノリで、凍える雪玉を投げつけます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl19.mp3"
+    },
+    {
+      "id": "lou_vl20",
+      "quote": "100% certified flavor sauce!",
+      "translation": "100%保証付きのフレーバーソースだよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>品質保証付きの純度100％の攻撃！</li><li>スノーテルの商品は品質第一です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl20.mp3"
+    },
+    {
+      "id": "lou_vl21",
+      "quote": "I'm just shootin' the freeze!",
+      "translation": "ただ、フリーズを撃ってるだけさ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ただのお喋りさ（shooting the breeze）」をもじった言葉遊び。</li><li>彼にとっては戦闘も、軽快なお喋りみたいなものなのかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl21.mp3"
+    },
+    {
+      "id": "lou_vl22",
+      "quote": "Freeze frame, I'm winnin' the game!",
+      "translation": "フリーズフレーム、僕がゲームに勝ってる！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵をカチコチに凍らせて（フリーズフレーム）、その間に勝利を掴む！</li><li>ラッパーみたいに韻を踏んでてノリノリです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl22.mp3"
+    },
+    {
+      "id": "lou_vl23",
+      "quote": "You're on thin ice, my friend!",
+      "translation": "君は薄氷を踏んでいるんだよ、友よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「危ない橋を渡ってるね」という警告のイディオム。</li><li>氷キャラのルーが言うと、物理的に足元が滑るという意味も含んでて皮肉が効いてます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl23.mp3"
+    },
+    {
+      "id": "lou_vl24",
+      "quote": "I'm frostalicious!",
+      "translation": "僕はフロスタリシャスだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「冷たい（Frosty）」と「美味しい（Delicious）」を合体させた造語。</li><li>自分で自分を「美味しくて最高！」と言っちゃう自信家っぷり。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl24.mp3"
+    },
+    {
+      "id": "lou_vl25",
+      "quote": "Don't you worry, I'll be right back!",
+      "translation": "心配しないで、すぐに戻ってくるから！",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられても前向き！</li><li>「ちょっと行ってくるだけさ」みたいなノリでリスポーンを待ちます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl25.mp3"
+    },
+    {
+      "id": "lou_vl26",
+      "quote": "Woo-hoo!",
+      "translation": "ウーフー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>純粋な喜びの叫び！</li><li>マリオっぽい陽気なジャンプ音が聞こえてきそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl26.mp3"
+    },
+    {
+      "id": "lou_vl27",
+      "quote": "Filled with vitamin G!",
+      "translation": "ビタミンGがたっぷり！",
+      "explanation": "<strong>解説:</strong><br><ul><li>謎の栄養素「ビタミンG」配合！</li><li>たぶん「Goodness（良さ）」とか「Gale（ゲイル）」のG？元気が出そうな攻撃です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl27.mp3"
+    },
+    {
+      "id": "lou_vl28",
+      "quote": "Now with 12% more goodness!",
+      "translation": "今なら、おいしさが12%増量！",
+      "explanation": "<strong>解説:</strong><br><ul><li>スーパーのチラシみたいな宣伝文句。</li><li>なぜ12%なのかは謎ですが、とにかくお得らしいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl28.mp3"
+    },
+    {
+      "id": "lou_vl29",
+      "quote": "B-B-B-B-Brain freeze!",
+      "translation": "き、き、キーーン！頭が凍る！",
+      "explanation": "<strong>解説:</strong><br><ul><li>かき氷を一気に食べた時のあの頭痛！</li><li>攻撃を食らった相手も、きっと同じように頭がキーンとしてるはず。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl29.mp3"
+    },
+    {
+      "id": "lou_vl30",
+      "quote": "Raspberry crush!",
+      "translation": "ラズベリークラッシュ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>必殺技の名前みたいにかっこよく叫んでますが、要はラズベリー味のかき氷です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl30.mp3"
+    },
+    {
+      "id": "lou_vl31",
+      "quote": "Uncle Lou needs a rest.",
+      "translation": "ルーおじさんは、休憩が必要だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時の言い訳が「休憩」。</li><li>年寄りじみたことを言ってますが、中身はロボットです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl31.mp3"
+    },
+    {
+      "id": "lou_vl32",
+      "quote": "Whoo!",
+      "translation": "うー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ノリノリの掛け声！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl32.mp3"
+    },
+    {
+      "id": "lou_vl33",
+      "quote": "I got the drip to make you slip!",
+      "translation": "君をスリップさせる、イケてるスタイルを持ってるぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「滴り（drip）」と「イケてるファッション（drip）」をかけた高度なラップ！</li><li>俺のイケてるシロップで滑って転びな！という意味。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl33.mp3"
+    },
+    {
+      "id": "lou_vl34",
+      "quote": "Gee-whiz, try a blizz!",
+      "translation": "おやおや、ブリズを試してみて！",
+      "explanation": "<strong>解説:</strong><br><ul><li>韻を踏んだ軽快なセールストーク。</li><li>思わず試してみたくなる（攻撃を食らってみたくなる）ようなリズム感が魅力。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl34.mp3"
+    },
+    {
+      "id": "lou_vl35",
+      "quote": "Blueberry twirl!",
+      "translation": "ブルーベリー・ツワール！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ブルーベリー味の攻撃！くるくる回りながら攻撃しているイメージが湧きます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl35.mp3"
+    },
+    {
+      "id": "lou_vl36",
+      "quote": "Yahoo!",
+      "translation": "ヤッフー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>王道の喜びボイス。勝った時にみんなで叫びたい！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl36.mp3"
+    },
+    {
+      "id": "lou_vl37",
+      "quote": "I got the sauce!",
+      "translation": "ソースはあるぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「美味しいソース」と、スラングの「イケてる要素（Sauce）」をかけてます。</li><li>「俺には才能があるぜ！」とドヤ顔で言ってる感じ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl37.mp3"
+    },
+    {
+      "id": "lou_vl38",
+      "quote": "A frosty treat that'll keep you on your feet!",
+      "translation": "君を夢中にさせる、冷たいごちそうだよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「立っていられないほど（ツルツル滑って）最高のごちそう」ってこと。</li><li>相手を翻弄する気満々です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl38.mp3"
+    },
+    {
+      "id": "lou_vl39",
+      "quote": "Mango tango.",
+      "translation": "マンゴ・タンゴ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>語呂が良くて言いたくなるフレーズNo.1。</li><li>マンゴー味で情熱的に踊りましょう！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl39.mp3"
+    },
+    {
+      "id": "lou_vl40",
+      "quote": "Aha!",
+      "translation": "アハ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を見つけた時や、攻撃が当たった時の「やったね！」という声。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lou_vl40.mp3"
+    }
+  ]
+}

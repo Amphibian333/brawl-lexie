@@ -1,0 +1,108 @@
+{
+  "name": "スプラウト",
+  "nameEn": "Sprout",
+  "rarity": "ultra-rare",
+  "role": "thrower",
+  "quote": "Planting... complete.",
+  "iconUrl": "https://i.imgur.com/gceBqEc.png",
+  "voicelines": [
+    {
+      "id": "sprout_vl1",
+      "quote": "Nature.",
+      "translation": "「自然」",
+      "explanation": "<strong>解説:</strong><br><ul><li>ただ一言「自然」とつぶやくシュールさ。</li><li>スプラウトにとっては、敵も味方もステージも全て「自然」というカテゴリに見えているのかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sprout_vl1.mp3"
+    },
+    {
+      "id": "sprout_vl2",
+      "quote": "Job done. Have a nice day.",
+      "translation": "「仕事、完了。良い一日を」",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を倒して仕事を終えた後の、マニュアル通りの挨拶。</li><li>この事務的な感じが、逆にプロっぽくてクールです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sprout_vl2.mp3"
+    },
+    {
+      "id": "sprout_vl3",
+      "quote": "Obstruction.",
+      "translation": "「障害物」",
+      "explanation": "<strong>解説:</strong><br><ul><li>目の前の敵や壁を、単なる「邪魔なもの（Obstruction）」として処理しています。</li><li>感情的にならず、淡々と排除しようとするのがロボットらしいところ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sprout_vl3.mp3"
+    },
+    {
+      "id": "sprout_vl4",
+      "quote": "Fertilizing.",
+      "translation": "「施肥中」",
+      "explanation": "<strong>解説:</strong><br><ul><li>攻撃することを「肥料やり」と勘違いしている（？）ユニークなセリフ。</li><li>敵にとっては、爆弾という名の肥料を撒かれているわけです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sprout_vl4.mp3"
+    },
+    {
+      "id": "sprout_vl5",
+      "quote": "Returning to dock.",
+      "translation": "「ドックへ帰還中」",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時のセリフ。</li><li>「死んだ」のではなく、充電するために「ドックに戻る」だけ。またすぐに戻ってくるぞ、というニュアンスも感じられます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sprout_vl5.mp3"
+    },
+    {
+      "id": "sprout_vl6",
+      "quote": "Planting.",
+      "translation": "「植樹中」",
+      "explanation": "<strong>解説:</strong><br><ul><li>通常攻撃で種爆弾を投げる時のセリフ。</li><li>彼にとっては、戦場も花壇も変わらないようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sprout_vl6.mp3"
+    },
+    {
+      "id": "sprout_vl7",
+      "quote": "I like trees.",
+      "translation": "「木が好きです」",
+      "explanation": "<strong>解説:</strong><br><ul><li>唐突な告白！</li><li>植樹ロボットとしての純粋な気持ちがポロリとこぼれた、可愛らしい一言です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sprout_vl7.mp3"
+    },
+    {
+      "id": "sprout_vl8",
+      "quote": "Error.",
+      "translation": "「エラー」",
+      "explanation": "<strong>解説:</strong><br><ul><li>ダメージを受けた時のシステム警告。</li><li>痛がる代わりに「エラー」と報告するのが、無機質でかっこいいポイント。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sprout_vl8.mp3"
+    },
+    {
+      "id": "sprout_vl9",
+      "quote": "Task. Completed.",
+      "translation": "「任務。完了」",
+      "explanation": "<strong>解説:</strong><br><ul><li>キルを取った時の報告。</li><li>単語を区切って言うことで、機械が情報を処理した感じがよく出ています。SF映画のロボットみたい！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sprout_vl9.mp3"
+    },
+    {
+      "id": "sprout_vl10",
+      "quote": "Programming error.",
+      "translation": "「プログラミング・エラー」",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けたのは自分のせいじゃなくて、プログラムのバグのせいだ！と言いたげなセリフ。</li><li>ある意味、一番人間らしい言い訳かもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sprout_vl10.mp3"
+    },
+    {
+      "id": "sprout_vl11",
+      "quote": "Flower.",
+      "translation": "「花」",
+      "explanation": "<strong>解説:</strong><br><ul><li>何かを見つけて認識した時の一言。</li><li>激しい戦いの中でも花を見つける余裕があるなんて、さすが自然を愛するロボットです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sprout_vl11.mp3"
+    },
+    {
+      "id": "sprout_vl12",
+      "quote": "Hello.",
+      "translation": "「ハロー」",
+      "explanation": "<strong>解説:</strong><br><ul><li>プログラムされた定型文のような挨拶。</li><li>感情のこもっていない「ハロー」が、逆に不気味で愛らしいスプラウトの魅力を引き立てています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sprout_vl12.mp3"
+    },
+    {
+      "id": "sprout_vl13",
+      "quote": "Path. Cleared.",
+      "translation": "「進路。確保」",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を倒して道を開けた時の報告。</li><li>邪魔者は排除した、さあ進もう、という頼もしさを感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sprout_vl13.mp3"
+    },
+    {
+      "id": "sprout_vl14",
+      "quote": "Commencing assignment.",
+      "translation": "「任務を開始します」",
+      "explanation": "<strong>解説:</strong><br><ul><li>試合開始の合図。</li><li>「assignment（任務）」という言葉を使うことで、ただの戦闘ではなく、重要なミッションに挑む雰囲気を醸し出しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sprout_vl14.mp3"
+    }
+  ]
+}

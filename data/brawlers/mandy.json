@@ -1,0 +1,262 @@
+{
+  "name": "マンディ",
+  "nameEn": "Mandy",
+  "rarity": "hyper-rare",
+  "role": "marksman",
+  "quote": "Mandy's candy!",
+  "iconUrl": "https://i.imgur.com/C0497Vl.png",
+  "voicelines": [
+    {
+      "id": "mandy_vl1",
+      "quote": "Come on people, get a move on!",
+      "translation": "さあみんな、ぐずぐずしないで！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"get a move on\" は「急ぐ、さっさと進む」という意味の、非常に一般的な句動詞です。</li><li>従業員や仲間に対して、行動を急かす、せっかちな女社長らしいセリフです。</li></ul><strong>英文法:</strong><br>\"Come on\" という呼びかけと、動詞の原形で始まる命令文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl1.mp3"
+    },
+    {
+      "id": "mandy_vl2",
+      "quote": "Sugar high!",
+      "translation": "シュガーハイよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sugar high\" は、砂糖を大量に摂取した後に一時的に気分が高揚し、興奮状態になることを指す言葉です。</li><li>自身のテンションが最高潮に達していることを表現しています。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl2.mp3"
+    },
+    {
+      "id": "mandy_vl3",
+      "quote": "Ugh, no special candy for you!",
+      "translation": "はぁ、あなたに特別キャンディはなしよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>言うことを聞かない子供を罰するように、「あなたには特別なお菓子はあげません」と、相手への \"ご褒美\" を取り上げています。</li></ul><strong>英文法:</strong><br>\"Ugh\" は不満や嫌悪を表す間投詞です。文全体は簡潔な否定文です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl3.mp3"
+    },
+    {
+      "id": "mandy_vl4",
+      "quote": "Hands off my sweets.",
+      "translation": "あたしのお菓子に触らないで。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Hands off\" は「手を触れるな、手出しするな」という意味の、強い警告の決まり文句です。</li><li>自分の大切なもの（お菓子）に他人が触れることを、断固として拒絶しています。</li></ul><strong>英文法:</strong><br>命令文の一種です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl4.mp3"
+    },
+    {
+      "id": "mandy_vl5",
+      "quote": "Ugh, melting!",
+      "translation": "うぅ、溶けちゃう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ダメージを受けて、自分がまるでキャンディのように「溶けて（melting）」いく、と嘆いています。</li></ul><strong>英文法:</strong><br>\"I am melting.\" の主語が省略された、現在進行形の表現です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl5.mp3"
+    },
+    {
+      "id": "mandy_vl6",
+      "quote": "Ah, sugar blast!",
+      "translation": "あぁ、シュガーブラスト！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"blast\" は「爆風、突風」。自身の強力な砂糖（シュガー）の攻撃を、技名のように叫んでいます。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」の組み合わせによる、技名のようなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl6.mp3"
+    },
+    {
+      "id": "mandy_vl7",
+      "quote": "Free candy!",
+      "translation": "キャンディ無料よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>必殺技などを繰り出す際に、「キャンディを無料で大盤振る舞いよ」と叫んでいますが、もちろんこの「キャンディ」は危険な攻撃です。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl7.mp3"
+    },
+    {
+      "id": "mandy_vl8",
+      "quote": "Suck on that.",
+      "translation": "これでもしゃぶってなさい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Suck on that.\" は、相手を打ち負かしたり、やり込めたりした時に使う、非常に挑発的で侮辱的なスラングです。「この結果を味わえ」「ざまあみろ」というニュアンスです。</li></ul><strong>英文法:</strong><br>命令文の形をとった、定型化されたスラングです。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl8.mp3"
+    },
+    {
+      "id": "mandy_vl9",
+      "quote": "Uhm, where is Chester when I need him?",
+      "translation": "あーもう、肝心な時にチェスターはどこにいるの？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"when I need him\" は「彼が必要な時に（限って）」。</li><li>部下であるチェスターが、いてほしい時にいないことへの不満を漏らしています。</li></ul><strong>英文法:</strong><br>Whereで始まる基本的な疑問文です。\"Uhm\" は、ためらいや苛立ちを表す間投詞です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl9.mp3"
+    },
+    {
+      "id": "mandy_vl10",
+      "quote": "Next time it will be Chester.",
+      "translation": "次はチェスターの番よ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が倒された際に、「次はあいつ（チェスター）がやられる番だ」と、責任転嫁したり、あるいは単に次の展開を予測したりしています。</li></ul><strong>英文法:</strong><br>未来を表す \"will\" を使った、シンプルな文です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl10.mp3"
+    },
+    {
+      "id": "mandy_vl11",
+      "quote": "Sugar low!",
+      "translation": "シュガーロー…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sugar high\" の反対で、血糖値が下がり、エネルギーが切れて無気力になった状態「シュガーロー」を指します。</li><li>自分が敗北して、力が抜けてしまった様子を表現しています。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl11.mp3"
+    },
+    {
+      "id": "mandy_vl12",
+      "quote": "Sugar rush crush!",
+      "translation": "シュガーラッシュ・クラッシュ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Sugar rush\" は \"sugar high\" とほぼ同義で、砂糖による興奮状態。</li><li>\"crush\" は「粉砕する」。韻を踏んだ、リズミカルな技名です。</li></ul><strong>英文法:</strong><br>名詞を3つ並べた、キャッチーなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl12.mp3"
+    },
+    {
+      "id": "mandy_vl13",
+      "quote": "Try my special candy!",
+      "translation": "私のスペシャルキャンディを試してみて！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手に自分の特別なキャンディ（攻撃）を試すよう、挑発的に勧めています。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl13.mp3"
+    },
+    {
+      "id": "mandy_vl14",
+      "quote": "Sweet and sour, taste my power!",
+      "translation": "甘くて酸っぱい、私の力を味わいなさい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Sweet and sour\"（甘酸っぱい）と \"power\"（力）で韻を踏んだ、決め台詞です。</li><li>マンディの「甘い見た目と、酸っぱい（気難しい）性格」という二面性と、その力を示しています。</li></ul><strong>英文法:</strong><br>前半は形容詞句、後半は命令文で構成されています。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl14.mp3"
+    },
+    {
+      "id": "mandy_vl15",
+      "quote": "Moldy mints!",
+      "translation": "カビの生えたミントめ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Moldy\" は「カビの生えた」。</li><li>相手を、価値のない「カビの生えたミント」に例えて侮辱しています。</li></ul><strong>英文法:</strong><br>感嘆文として使われる、侮辱的な名詞句です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl15.mp3"
+    },
+    {
+      "id": "mandy_vl16",
+      "quote": "Ha, mean like a jellybean!",
+      "translation": "ハッ、ジェリービーンみたいに意地悪よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"mean\" は「意地悪な」。\"jellybean\" と韻を踏むために使われていますが、意味の繋がりはあまりありません。</li><li>リズムと語感を優先した、ユーモラスな自己紹介です。</li></ul><strong>英文法:</strong><br>\"like ~\" を使った比喩表現です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl16.mp3"
+    },
+    {
+      "id": "mandy_vl17",
+      "quote": "I'm too sweet for this world!",
+      "translation": "私、この世にはスウィートすぎるわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が「甘すぎる（優しすぎる、可愛すぎる）」ために、この厳しい世界ではやっていけない、と大げさに嘆いています。</li><li>実際には、自分の素晴らしさを自慢する、ナルシストなセリフです。</li></ul><strong>英文法:</strong><br>「too... for ~」構文で、「～にとっては…すぎる」と、過度であることを示します。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl17.mp3"
+    },
+    {
+      "id": "mandy_vl18",
+      "quote": "Time for a lifesaver!",
+      "translation": "ライフセーバーの時間よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"lifesaver\" は、有名なリング状のキャンディの名前ですが、文字通り「命の恩人、救命具」という意味もあります。</li><li>「キャンディを食べる時間」と「（自分や味方を）救う時間」をかけた、ダブルミーニングです。</li></ul><strong>英文法:</strong><br>「Time for + 名詞」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl18.mp3"
+    },
+    {
+      "id": "mandy_vl19",
+      "quote": "One taste is all it takes.",
+      "translation": "一度味わえば、もう十分よ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「一度味見（One taste）するだけで、それが必要な全てだ」が直訳。</li><li>「私の攻撃を一発食らえば、それで勝負は決まりよ」という、自信に満ちたセリフです。</li></ul><strong>英文法:</strong><br>広告のキャッチコピーのような、リズミカルで覚えやすい構文です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl19.mp3"
+    },
+    {
+      "id": "mandy_vl20",
+      "quote": "Sugary sweet and hard to beat!",
+      "translation": "砂糖のように甘くて、倒すのは難しいのよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sweet\" と \"beat\" で韻を踏んだ、キャッチーな自己紹介です。</li><li>自分の「甘さ」と「倒しにくさ（強さ）」という、二つの特徴をアピールしています。</li></ul><strong>英文法:</strong><br>二つの形容詞句を \"and\" で繋いでいます。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl20.mp3"
+    },
+    {
+      "id": "mandy_vl21",
+      "quote": "Cruddy caramel!",
+      "translation": "安っぽいキャラメルめ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Cruddy\" は「汚い、質の悪い、安っぽい」といった意味のスラングです。</li><li>相手を、価値のないお菓子に例えて侮辱しています。</li></ul><strong>英文法:</strong><br>侮辱として使われる感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl21.mp3"
+    },
+    {
+      "id": "mandy_vl22",
+      "quote": "Smackdown in candy town!",
+      "translation": "キャンディータウンでスマックダウンよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Smackdown\" はプロレス用語で「叩き潰すこと、徹底的な対決」。</li><li>自分のテリトリーである「キャンディータウン」で、これから激しい戦いが始まることを宣言しています。</li></ul><strong>英文法:</strong><br>「名詞 + in + 場所」の、力強いフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl22.mp3"
+    },
+    {
+      "id": "mandy_vl23",
+      "quote": "My sweeties!",
+      "translation": "私のかわい子ちゃんたち！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sweetie\" は、子供や恋人などへの愛情のこもった呼びかけ。</li><li>自分の仲間や、あるいは自分のキャンディ（攻撃）に対して、親しみを込めて呼びかけています。</li></ul><strong>英文法:</strong><br>呼びかけの言葉です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl23.mp3"
+    },
+    {
+      "id": "mandy_vl24",
+      "quote": "Mandy's candy!",
+      "translation": "マンディのキャンディーよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分のお店の名前であり、自身の代名詞でもある「マンディのキャンディー」を叫ぶことで、存在をアピールしています。</li></ul><strong>英文法:</strong><br>所有格を使った、キャッチーなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl24.mp3"
+    },
+    {
+      "id": "mandy_vl25",
+      "quote": "Sweet like candy. Ha, not!",
+      "translation": "キャンディみたいに甘い。…なーんてね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>一度「キャンディのように甘い」と言っておきながら、即座に \"not!\" と付け加えて、それを完全に否定しています。</li><li>彼女の「甘いだけじゃない、意地悪な（サワーな）」性格を完璧に表す、ひねくれたセリフです。</li></ul><strong>英文法:</strong><br>肯定のフレーズの後に、それを打ち消す強い否定の単語を置いています。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl25.mp3"
+    },
+    {
+      "id": "mandy_vl26",
+      "quote": "I'm one tough cookie.",
+      "translation": "あたし、手強いクッキーなんだから。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"a tough cookie\" は、「精神的に強い人、打たれ強い人、タフな人」を意味する、非常に一般的なイディオム（慣用句）です。</li><li>お菓子屋さんであるマンディのテーマ「クッキー（cookie）」と、自身の「手強さ（tough）」をかけた、キャラクターらしい自己紹介です。</li></ul><strong>英文法:</strong><br>「主語 + be動詞 + 補語」のシンプルな肯定文です。ここではイディオムである \"a tough cookie\" が補語になっています。<br><br><strong>🧠豆知識:</strong><br>このイディオムは、見た目はもろそうでも、困難な状況に耐え抜く芯の強い人物を指して使われます。甘い見た目とは裏腹に、気性が荒く戦闘的なマンディの性格を完璧に表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl26.mp3"
+    },
+    {
+      "id": "mandy_vl27",
+      "quote": "Lousy licorice.",
+      "translation": "最低のリコリスね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Lousy\" は「ひどい、最低の、くだらない」という意味。</li><li>\"licorice\"（リコリス、甘草のお菓子）は、欧米では非常に好みが分かれるお菓子として有名です。嫌いな人にとっては「不味いお菓子の代名詞」です。</li></ul><strong>英文法:</strong><br>相手を、自分が嫌いなものに例えて侮辱しています。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl27.mp3"
+    },
+    {
+      "id": "mandy_vl28",
+      "quote": "Lollipop drop!",
+      "translation": "ロリポップ・ドロップ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Lollipop\"（棒付きキャンディ）と \"drop\"（落とす）を組み合わせた技名です。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl28.mp3"
+    },
+    {
+      "id": "mandy_vl29",
+      "quote": "Ugh, bitter like burned syrup!",
+      "translation": "うぅ、焦げたシロップみたいに苦いわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"bitter\" は「苦い」。</li><li>敗北や不快な状況を、お菓子作りでの失敗である「焦げたシロップ」の苦さに例えています。</li></ul><strong>英文法:</strong><br>\"like ~\" を使った比喩表現です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl29.mp3"
+    },
+    {
+      "id": "mandy_vl30",
+      "quote": "Mandy is my name, sweetness ain't my game!",
+      "translation": "名はマンディ、甘いだけが取り柄じゃないの！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「X is my name, Y is my game」（名はX、得意なのはY）という自己紹介の定型句をもじっています。</li><li>ここでは「甘さ（sweetness）は私の得意分野じゃない（ain't my game）」と否定することで、見た目に反して手強いことをアピールしています。</li></ul><strong>英文法:</strong><br>\"ain't\" は \"is not\" の口語的な否定です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl30.mp3"
+    },
+    {
+      "id": "mandy_vl31",
+      "quote": "Like a kid in a candy store.",
+      "translation": "お菓子屋さんにいる子供みたい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"like a kid in a candy store\" は、「（お菓子屋さんで目を輝かせる子供のように）非常に興奮している、大喜びしている」という意味の、非常に有名なイディオムです。</li></ul><strong>英文法:</strong><br>比喩表現を用いた定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl31.mp3"
+    },
+    {
+      "id": "mandy_vl32",
+      "quote": "Stupid sprinkles!",
+      "translation": "このマヌケなスプリンクルが！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sprinkles\" は、ケーキなどにかける粒状の砂糖菓子。</li><li>相手を、見た目は綺麗だが中身のない「スプリンクル」に例えて「マヌケ（Stupid）」と罵っています。</li></ul><strong>英文法:</strong><br>侮辱として使われる感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl32.mp3"
+    },
+    {
+      "id": "mandy_vl33",
+      "quote": "Ha, like taking candy from a baby!",
+      "translation": "ハッ、赤ん坊からキャンディを取り上げるみたいに簡単ね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"like taking candy from a baby\" は、「（赤ん坊からキャンディを奪うほど）非常に簡単だ、朝飯前だ」という意味のイディオムです。</li><li>相手が非常に弱く、倒すのが楽勝だったことを表します。</li></ul><strong>英文法:</strong><br>定型化された比喩表現です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl33.mp3"
+    },
+    {
+      "id": "mandy_vl34",
+      "quote": "Ugh, don't touch my candies, Chester!",
+      "translation": "もう、あたしのキャンディに触らないで、チェスター！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>部下であるチェスターのいたずらや失敗に対して、うんざりしながら怒っているセリフです。</li></ul><strong>英文法:</strong><br>否定の命令文と、呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl34.mp3"
+    },
+    {
+      "id": "mandy_vl35",
+      "quote": "Ugh, gumballs!",
+      "translation": "うげっ、ガムボール！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"gumballs\" は球状のガム。</li><li>何かネガティブな状況に対して、悪態をついています。</li></ul><strong>英文法:</strong><br>感嘆詞と名詞の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl35.mp3"
+    },
+    {
+      "id": "mandy_vl36",
+      "quote": "Aww, too sour for ya?",
+      "translation": "あら、あなたには酸っぱすぎたかしら？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の攻撃が、相手にとって「酸っぱすぎた（刺激が強すぎた）」のではないか、とからかっています。</li><li>\"ya\" は \"you\" の口語的な発音です。</li></ul><strong>英文法:</strong><br>\"Is it too sour for you?\" が省略された形の疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/mandy_vl36.mp3"
+    }
+  ]
+}

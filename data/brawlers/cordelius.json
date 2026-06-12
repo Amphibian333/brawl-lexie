@@ -1,0 +1,262 @@
+{
+  "name": "コーデリアス",
+  "nameEn": "Cordelius",
+  "rarity": "legend-rare",
+  "role": "assassin",
+  "quote": "Mush-mush!",
+  "iconUrl": "https://i.imgur.com/Wv4vxx5.png",
+  "voicelines": [
+    {
+      "id": "cordelius_vl1",
+      "quote": "Who's a fungi? Me!",
+      "translation": "楽しいヤツは誰だ？僕だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Fungi（菌類）」と「Fun guy（楽しいヤツ）」をかけた高度なダジャレ。</li><li>自分で自分を「楽しいヤツ」と言っちゃう、ちょっと危ないテンションです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl1.mp3"
+    },
+    {
+      "id": "cordelius_vl2",
+      "quote": "I'm winning? I thought I was hallucinating.",
+      "translation": "僕が勝ってる？幻覚を見てるのかと思ったよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>常に幻覚を見ている彼ならではの反応。</li><li>「え、これ現実？」と自分でも驚いています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl2.mp3"
+    },
+    {
+      "id": "cordelius_vl3",
+      "quote": "Put a cap on it.",
+      "translation": "それにキャップをしな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「黙れ（口を閉じろ）」という意味と、キノコの「カサ（Cap）」をかけた表現。</li><li>キノコ愛にあふれた脅し文句です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl3.mp3"
+    },
+    {
+      "id": "cordelius_vl4",
+      "quote": "*laughs* You're not mold enough!",
+      "translation": "（笑い声）君はまだ、カビが生えるほどじゃないね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Old enough（年季が入ってる）」と「Mold（カビ）」をかけたジョーク。</li><li>「青二才め」と言いたいようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl4.mp3"
+    },
+    {
+      "id": "cordelius_vl5",
+      "quote": "Fungi fiend!",
+      "translation": "菌類の悪魔め！",
+      "explanation": "<strong>解説:</strong><br><ul><li>キノコに取り憑かれた自分自身、あるいは敵を罵倒する言葉。</li><li>菌類最強！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl5.mp3"
+    },
+    {
+      "id": "cordelius_vl6",
+      "quote": "Spores of destruction, spread your love!",
+      "translation": "破壊の胞子よ、汝の愛を広めるのだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>毒胞子をばら撒くことを「愛を広める」と表現する狂気。</li><li>彼にとっては毒も愛なのかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl6.mp3"
+    },
+    {
+      "id": "cordelius_vl7",
+      "quote": "Time for the shroom and doom show!",
+      "translation": "キノコと破滅のショーの時間だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Shroom（キノコ）」と「Doom（破滅）」で韻を踏んだタイトルコール。</li><li>楽しげなショーの始まりですが、内容は地獄です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl7.mp3"
+    },
+    {
+      "id": "cordelius_vl8",
+      "quote": "Wow, look at all those colors!",
+      "translation": "わぁ、見てよ、あのたくさんの色を！",
+      "explanation": "<strong>解説:</strong><br><ul><li>完全にキマッてます。</li><li>私たちには見えないサイケデリックな世界が見えているようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl8.mp3"
+    },
+    {
+      "id": "cordelius_vl9",
+      "quote": "No, don't touch my shrooms!",
+      "translation": "だめ、僕のキノコに触らないで！",
+      "explanation": "<strong>解説:</strong><br><ul><li>大事なキノコを守ろうとする必死な叫び。</li><li>庭師としてのプライドでしょうか、それとも依存症でしょうか。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl9.mp3"
+    },
+    {
+      "id": "cordelius_vl10",
+      "quote": "You are going on the compost pile.",
+      "translation": "君は堆肥の山行きだね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>倒した敵を「肥料」にするというエコな発想（サイコパス）。</li><li>自然に還してあげるようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl10.mp3"
+    },
+    {
+      "id": "cordelius_vl11",
+      "quote": "Spore you later, alligator.",
+      "translation": "胞子を後で、アリゲーター。",
+      "explanation": "<strong>解説:</strong><br><ul><li>定番の別れの挨拶「See you later, alligator」の「See」を「Spore（胞子）」に変えたダジャレ。</li><li>お茶目な一面も見せます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl11.mp3"
+    },
+    {
+      "id": "cordelius_vl12",
+      "quote": "Fungi fury!",
+      "translation": "菌類の怒り！",
+      "explanation": "<strong>解説:</strong><br><ul><li>怒り爆発！</li><li>菌類の恐ろしさを思い知らせてやります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl12.mp3"
+    },
+    {
+      "id": "cordelius_vl13",
+      "quote": "Prepare to be fungified!",
+      "translation": "菌類化される準備をしろ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「お前もキノコにしてやろうか！」という恐ろしい宣言。</li><li>マリオもびっくりのキノコ人間化計画です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl13.mp3"
+    },
+    {
+      "id": "cordelius_vl14",
+      "quote": "Just leave me alone!",
+      "translation": "とにかく、ほっといてくれ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>一人の世界に浸りたい時の拒絶。</li><li>邪魔する奴は許しません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl14.mp3"
+    },
+    {
+      "id": "cordelius_vl15",
+      "quote": "Mind the plants.",
+      "translation": "植物に気をつけな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>植物を踏み荒らす不届き者への注意。</li><li>森の管理人は厳しいのです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl15.mp3"
+    },
+    {
+      "id": "cordelius_vl16",
+      "quote": "You're more bark than bite.",
+      "translation": "君は、噛みつくより吠える方が大きいね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「口ほどにもないな」という意味の慣用句。</li><li>「Bark（木の皮／吠える）」がかかっているのがポイント。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl16.mp3"
+    },
+    {
+      "id": "cordelius_vl17",
+      "quote": "Time to turn over a new leaf.",
+      "translation": "新しい葉をめくる時間だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「心機一転する」という意味のイディオム。</li><li>植物（Leaf）にかけて、リスポーンして出直すことを表現しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl17.mp3"
+    },
+    {
+      "id": "cordelius_vl18",
+      "quote": "Doom shroom!",
+      "translation": "ドゥーム・シュルーム！",
+      "explanation": "<strong>解説:</strong><br><ul><li>必殺の「破滅キノコ」。</li><li>響きが良くて強そうな技名です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl18.mp3"
+    },
+    {
+      "id": "cordelius_vl19",
+      "quote": "Time for truffle.",
+      "translation": "トリュフの時間だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Trouble（トラブル）」と「Truffle（トリュフ）」をかけたダジャレ。</li><li>高級キノコのような極上のトラブルをお届けします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl19.mp3"
+    },
+    {
+      "id": "cordelius_vl20",
+      "quote": "Doing it for the shrooms.",
+      "translation": "キノコたちのためにやってるのさ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>行動原理はすべてキノコのため。</li><li>キノコ愛が止まりません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl20.mp3"
+    },
+    {
+      "id": "cordelius_vl21",
+      "quote": "Mushroom!",
+      "translation": "マッシュルーム！",
+      "explanation": "<strong>解説:</strong><br><ul><li>とりあえず叫んでおくスタイル。</li><li>キノコ最高！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl21.mp3"
+    },
+    {
+      "id": "cordelius_vl22",
+      "quote": "Friends!",
+      "translation": "友達！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を「友達」と呼ぶサイコパス感。</li><li>幻覚で友達に見えているのかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl22.mp3"
+    },
+    {
+      "id": "cordelius_vl23",
+      "quote": "Ah, my shroom!",
+      "translation": "あぁ、僕のキノコが！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ダメージを受けた時の悲鳴。</li><li>自分の体よりキノコの心配をしています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl23.mp3"
+    },
+    {
+      "id": "cordelius_vl24",
+      "quote": "Weee, mushroom!",
+      "translation": "うぃー、マッシュルーム！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ラリってる…じゃなくて、楽しそうです。</li><li>純粋な子供のようにはしゃいでいます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl24.mp3"
+    },
+    {
+      "id": "cordelius_vl25",
+      "quote": "Mushy mushy mushrooms.",
+      "translation": "ぐにゃぐにゃ、フワフワ、マッシュルーム。",
+      "explanation": "<strong>解説:</strong><br><ul><li>キノコの感触を楽しんでいる様子。</li><li>ASMRみたいでちょっと気持ちいい響きです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl25.mp3"
+    },
+    {
+      "id": "cordelius_vl26",
+      "quote": "You reap what you sow.",
+      "translation": "自分の蒔いた種は、自分で刈り取るものだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「自業自得」という意味のことわざ。</li><li>庭師キャラが言うと説得力が増します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl26.mp3"
+    },
+    {
+      "id": "cordelius_vl27",
+      "quote": "You prickly person.",
+      "translation": "君は、トゲトゲした人だね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Prickly（トゲがある／怒りっぽい）」という植物用語を使った悪口。</li><li>サボテンみたいに近寄りがたい奴だ、と言っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl27.mp3"
+    },
+    {
+      "id": "cordelius_vl28",
+      "quote": "Going back to my roots.",
+      "translation": "自分のルーツに還るよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「原点回帰」と植物の「根（Roots）」をかけた上手い表現。</li><li>土に還る（やられる）時のセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl28.mp3"
+    },
+    {
+      "id": "cordelius_vl29",
+      "quote": "Fly my shroomies!",
+      "translation": "飛べ、僕のキノコちゃんたち！",
+      "explanation": "<strong>解説:</strong><br><ul><li>可愛い手下（毒キノコ）たちを放つ号令。</li><li>魔女みたいで楽しそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl29.mp3"
+    },
+    {
+      "id": "cordelius_vl30",
+      "quote": "*blabbers* \"Mush!\" *blabbers* \"Mush!\"",
+      "translation": "（意味不明な言葉）「マッシュ！」（意味不明な言葉）「マッシュ！」",
+      "explanation": "<strong>解説:</strong><br><ul><li>興奮しすぎて何を言ってるか分かりません。</li><li>とりあえず「マッシュ（キノコ）」と言いたいことだけは伝わります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl30.mp3"
+    },
+    {
+      "id": "cordelius_vl31",
+      "quote": "Thorn in my side, I better go hide.",
+      "translation": "厄介者がそばにいる、隠れた方が良さそうだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Thorn in side（目の上のたんこぶ）」と「Hide（隠れる）」で韻を踏んだポエム。</li><li>面倒な敵からは逃げるが勝ちです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl31.mp3"
+    },
+    {
+      "id": "cordelius_vl32",
+      "quote": "Never trust a shroom in a raincoat.",
+      "translation": "レインコートを着たキノコは、決して信用するな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>彼独自の謎ルール。</li><li>幻覚の世界では常識なのかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl32.mp3"
+    },
+    {
+      "id": "cordelius_vl33",
+      "quote": "Pushing up the daisies.",
+      "translation": "ヒナギクを押し上げているよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>英語の婉曲表現で「死んで埋められている」という意味。</li><li>土の下から花を育てる肥料になっちゃった、というブラックジョークです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl33.mp3"
+    },
+    {
+      "id": "cordelius_vl34",
+      "quote": "Too weird to live! Too wild to die!",
+      "translation": "生きるには奇妙すぎ、死ぬにはワイルドすぎる！",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『ラスベガスをやっつけろ』の原作者の有名な言葉。</li><li>ドラッグカルチャーの象徴的なセリフを引用するあたり、キャラ設定が徹底しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl34.mp3"
+    },
+    {
+      "id": "cordelius_vl35",
+      "quote": "Tree-mendous pain.",
+      "translation": "トゥリーメンダスな痛みだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Tremendous（すさまじい）」と「Tree（木）」をかけたダジャレ。</li><li>痛い時でも植物ジョークは忘れません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl35.mp3"
+    },
+    {
+      "id": "cordelius_vl36",
+      "quote": "Oh, getting rid of the bad seeds.",
+      "translation": "おぉ、悪い種を取り除いているところさ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を「悪い種（Bad seeds）」として駆除。</li><li>庭の手入れ感覚でキルしています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/cordelius_vl36.mp3"
+    }
+  ]
+}

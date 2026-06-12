@@ -1,0 +1,325 @@
+{
+  "name": "ドラコ",
+  "nameEn": "Draco",
+  "rarity": "legend-rare",
+  "role": "tank",
+  "quote": "Fear the dragon!",
+  "iconUrl": "https://i.imgur.com/egzyVCl.png",
+  "voicelines": [
+    {
+      "id": "draco_vl1",
+      "quote": "Let's thrash, slash, bash and dash!",
+      "translation": "スラッシュして、バッシュして、ダッシュして、暴れまくろうぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>攻撃的な単語を並べた早口言葉のような掛け声。</li><li>「Thrash」はヘヴィメタルのジャンル「スラッシュメタル」とかけています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl1.mp3"
+    },
+    {
+      "id": "draco_vl2",
+      "quote": "Turning it up to 11. Hahahahahaha!",
+      "translation": "ボリュームを11まで上げるぜ。ハハハハハ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ロック映画の名作『スパイナル・タップ』のパロディ。</li><li>普通の限界（10）を超えて、11までブチ上げるぜ！という意味のスラングです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl2.mp3"
+    },
+    {
+      "id": "draco_vl3",
+      "quote": "But my spirit remains unbroken!",
+      "translation": "だが俺の魂は、砕けていない！",
+      "explanation": "<strong>解説:</strong><br><ul><li>RPGの勇者みたいな不屈の精神。</li><li>体は負けても心は負けてない、というカッコいい敗北ゼリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl3.mp3"
+    },
+    {
+      "id": "draco_vl4",
+      "quote": "Woo-hoo, total party kill! Ha ha!",
+      "translation": "ウーフー、パーティ全滅だ！ハハ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>TRPG用語「TPK（Total Party Kill＝全滅）」を使った勝利宣言。</li><li>敵チームを壊滅させた喜びを、ゲーマー用語で表現しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl4.mp3"
+    },
+    {
+      "id": "draco_vl5",
+      "quote": "I got shredded... bleh.",
+      "translation": "ズタズタにされちまった…げぇ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ギターの速弾き（Shred）と、物理的に切り刻まれることをかけた言葉。</li><li>メタラーらしく散りました。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl5.mp3"
+    },
+    {
+      "id": "draco_vl6",
+      "quote": "Seek and destroy!",
+      "translation": "索敵して破壊せよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>メタリカの名曲「Seek & Destroy」のタイトルそのもの。</li><li>見つけ出してぶっ壊す！というシンプルな行動原理です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl6.mp3"
+    },
+    {
+      "id": "draco_vl7",
+      "quote": "My dragon brings all the flames to the fight, and, dang right, they'll burn you up!",
+      "translation": "俺のドラゴンが全ての炎を戦いにもたらす、そして、当然、そいつがお前を燃え上がらせる！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ヒット曲「Milkshake」の歌詞のパロディ。</li><li>即興で替え歌を作って歌っちゃう、ノリの良さが魅力です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl7.mp3"
+    },
+    {
+      "id": "draco_vl8",
+      "quote": "Winging it, dragon style!",
+      "translation": "即興でいくぜ、ドラゴンスタイルでな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Wing it（アドリブでやる）」とドラゴンの「Wing（翼）」をかけたダジャレ。</li><li>計画なんてない、勢いだけで戦うスタイルです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl8.mp3"
+    },
+    {
+      "id": "draco_vl9",
+      "quote": "Ah, you need a nerf.",
+      "translation": "あぁ、お前、弱体化が必要だな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けた相手に対して「強すぎ！運営さん弱体化（Nerf）してよ！」と文句を言う、ゲーマーあるある。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl9.mp3"
+    },
+    {
+      "id": "draco_vl10",
+      "quote": "Epic quest fail.",
+      "translation": "壮大なクエストの失敗だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>人生をRPGのクエストだと思っているドラコらしい嘆き。</li><li>「GAME OVER」の画面が見えてきそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl10.mp3"
+    },
+    {
+      "id": "draco_vl11",
+      "quote": "Shoot to thrill, play to kill.",
+      "translation": "スリルのために撃ち、殺すためにプレイする。",
+      "explanation": "<strong>解説:</strong><br><ul><li>AC/DCの名曲「Shoot to Thrill」のオマージュ。</li><li>スリルと勝利を追い求める、ロックな生き様です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl11.mp3"
+    },
+    {
+      "id": "draco_vl12",
+      "quote": "My dragon brings all the flames to the fight!",
+      "translation": "俺のドラゴンが、全ての炎を戦いにもたらす！",
+      "explanation": "<strong>解説:</strong><br><ul><li>先ほどの替え歌のショートバージョン。</li><li>自慢のドラゴン（風船）を見せびらかしています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl12.mp3"
+    },
+    {
+      "id": "draco_vl13",
+      "quote": "D20 in hand, dragon at my command.",
+      "translation": "手にはD20、ドラゴンは我が意のままに。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「D20」はTRPGで使う20面ダイスのこと。</li><li>「運命（ダイス）もドラゴンも俺が支配する」という、中二病全開の決め台詞です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl13.mp3"
+    },
+    {
+      "id": "draco_vl14",
+      "quote": "Master of muppets.",
+      "translation": "操り人形のマスターだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>メタリカの「Master of Puppets」をもじったダジャレ。</li><li>Puppets（人形）をMuppets（マヌケな人形）に変えて、敵を小馬鹿にしています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl14.mp3"
+    },
+    {
+      "id": "draco_vl15",
+      "quote": "Let the Brawlers hit the floor!",
+      "translation": "ブロウラーどもを、床に叩きつけろ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>Drowning Poolの「Bodies」という曲のサビの替え歌。</li><li>メタル好きなら誰もがヘドバンしたくなるフレーズです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl15.mp3"
+    },
+    {
+      "id": "draco_vl16",
+      "quote": "Oh, woefully wiped out.",
+      "translation": "ああ、悲しいかな、一掃されてしまった。",
+      "explanation": "<strong>解説:</strong><br><ul><li>物語の語り部みたいな大げさな口調。</li><li>負けた時もドラマチックに演じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl16.mp3"
+    },
+    {
+      "id": "draco_vl17",
+      "quote": "Fired up and ready to roast!",
+      "translation": "気合は十分、丸焼きの準備はできてるぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Fired up（燃えてきた）」と「Roast（焼く）」をかけた表現。</li><li>ドラゴン（火炎放射）を使う彼にぴったりのセリフ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl17.mp3"
+    },
+    {
+      "id": "draco_vl18",
+      "quote": "Time to shre-e-ed some foes.",
+      "translation": "敵をズタズタにする時間だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Shred」はギターの超絶速弾きのこと。</li><li>敵を切り刻むように、ギターをかき鳴らすぜ！という意味です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl18.mp3"
+    },
+    {
+      "id": "draco_vl19",
+      "quote": "Grr, MadEvil mosh pit mayhem.",
+      "translation": "グルル、マッドイービルのモッシュピットの混沌だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「マッドイービル」は彼が好きなバンド（または自分のバンド）の名前かも？</li><li>戦場をライブ会場のモッシュピット（暴れる場所）に見立てています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl19.mp3"
+    },
+    {
+      "id": "draco_vl20",
+      "quote": "Stabidy stab!",
+      "translation": "ブスリ、ブスリ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>子供が遊ぶような軽い口調で攻撃。</li><li>無邪気な残酷さが垣間見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl20.mp3"
+    },
+    {
+      "id": "draco_vl21",
+      "quote": "Flame wa-a-ar!",
+      "translation": "フレイム・ウォー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ネットスラングの「炎上（Flame war）」と、リアルな火炎放射をかけています。</li><li>物理的に炎上させてやんよ！という叫び。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl21.mp3"
+    },
+    {
+      "id": "draco_vl22",
+      "quote": "You see me rolling? You waiting.",
+      "translation": "俺がノッてるのが見えるか？お前は待ってるだけだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>Chamillionaireのラップ曲「Ridin'」のパロディ。</li><li>ドラゴンの背に乗って（Rolling）調子に乗っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl22.mp3"
+    },
+    {
+      "id": "draco_vl23",
+      "quote": "Guitars wail when my enemies fail.",
+      "translation": "俺の敵が倒れる時、ギターがむせび泣く。",
+      "explanation": "<strong>解説:</strong><br><ul><li>詩的な表現。敵の断末魔をギターの音色（チョーキング）に例えています。</li><li>ナルシスト全開です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl23.mp3"
+    },
+    {
+      "id": "draco_vl24",
+      "quote": "Just kidding!",
+      "translation": "なーんてな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>カッコつけた後に照れ隠しで言うセリフ。</li><li>根は陽気なあんちゃんです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl24.mp3"
+    },
+    {
+      "id": "draco_vl25",
+      "quote": "Fancy lancey!",
+      "translation": "ファンシー・ランシー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の武器（ランス）を「素敵でしょ？」と自慢する韻踏み言葉。</li><li>語呂が良いので言いたいだけかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl25.mp3"
+    },
+    {
+      "id": "draco_vl26",
+      "quote": "My dice, my dragon, my destiny-y-y!",
+      "translation": "我がダイス、我がドラゴン、我が運命よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ドラコの大事なものトップ3。</li><li>TRPGとドラゴンへの愛を、ハイトーンボイスでシャウトします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl26.mp3"
+    },
+    {
+      "id": "draco_vl27",
+      "quote": "Rumble and roar, to the top I soar!",
+      "translation": "轟き、吠え、俺は頂点へと舞い上がる！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ドラゴンのように空高く舞い上がるイメージ。</li><li>韻を踏んでいて、物語の英雄譚の一節のようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl27.mp3"
+    },
+    {
+      "id": "draco_vl28",
+      "quote": "Huh, formidable foe, I'll best you for sure!",
+      "translation": "ふん、手ごわい敵だが、必ずお前を打ち負かす！",
+      "explanation": "<strong>解説:</strong><br><ul><li>RPGのボス戦前のセリフみたいです。</li><li>相手を強敵（Formidable foe）と認めつつ、勝利を確信する主人公ムーブ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl28.mp3"
+    },
+    {
+      "id": "draco_vl29",
+      "quote": "From kick flip to kick flop.",
+      "translation": "キックフリップから、キックフロップへ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Flip（成功）」から「Flop（大失敗）」へ転落したという自虐。</li><li>カッコよく決めるつもりが、無様にコケた時に。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl29.mp3"
+    },
+    {
+      "id": "draco_vl30",
+      "quote": "The ace of blades!",
+      "translation": "剣のエースだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>モーターヘッドの名曲「Ace of Spades」のパロディ。</li><li>スペード（Spades）を刃（Blades）に変えた、メタル愛あふれる自己紹介。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl30.mp3"
+    },
+    {
+      "id": "draco_vl31",
+      "quote": "Dragon bre-e-eath!",
+      "translation": "ドラゴン・ブレェェェス！",
+      "explanation": "<strong>解説:</strong><br><ul><li>メタルシャウトで必殺技名を叫びます。</li><li>喉の強さも武器の一つです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl31.mp3"
+    },
+    {
+      "id": "draco_vl32",
+      "quote": "Enter the dragon, man!",
+      "translation": "ドラゴン入場だ、兄弟！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ブルース・リーの映画『燃えよドラゴン（Enter the Dragon）』の引用。</li><li>主役の登場だぜ！というワクワク感。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl32.mp3"
+    },
+    {
+      "id": "draco_vl33",
+      "quote": "Dragon roar!",
+      "translation": "ドラゴン・ロア！",
+      "explanation": "<strong>解説:</strong><br><ul><li>シンプルにドラゴンの咆哮。</li><li>威嚇する時の掛け声です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl33.mp3"
+    },
+    {
+      "id": "draco_vl34",
+      "quote": "Power chord!",
+      "translation": "パワーコード！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ロックギターでよく使われる和音の名前。</li><li>「ジャーン！」と力強い音を鳴らすイメージで攻撃します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl34.mp3"
+    },
+    {
+      "id": "draco_vl35",
+      "quote": "Dragon breath!",
+      "translation": "ドラゴンブレス！",
+      "explanation": "<strong>解説:</strong><br><ul><li>叫ばないバージョンの技名。</li><li>冷静に炎を吐く時用です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl35.mp3"
+    },
+    {
+      "id": "draco_vl36",
+      "quote": "Metal warriors, number one!",
+      "translation": "メタルウォリアーは、ナンバーワン！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「メタルの戦士が最強だ！」という種族（？）の誇り。</li><li>メタルへの愛が止まりません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl36.mp3"
+    },
+    {
+      "id": "draco_vl37",
+      "quote": "You better be nice, or I'll get my dice!",
+      "translation": "いい子にしてな、さもないと俺のダイスが出てくるぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「サイコロで運命を決めてやるぞ」というTRPGゲーマーならではの脅し。</li><li>クリティカルヒットが出るか、ファンブルするかは運次第。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl37.mp3"
+    },
+    {
+      "id": "draco_vl38",
+      "quote": "Dragon rider, pain provider.",
+      "translation": "ドラゴンライダー、痛みを与える者。",
+      "explanation": "<strong>解説:</strong><br><ul><li>韻を踏んだカッコいい二つ名。</li><li>「苦痛を提供する者」って響きがメタルっぽいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl38.mp3"
+    },
+    {
+      "id": "draco_vl39",
+      "quote": "Ah, failed the saving throw.",
+      "translation": "あぁ、セーヴィングスローに失敗した。",
+      "explanation": "<strong>解説:</strong><br><ul><li>TRPGで、魔法や毒を回避するためのダイス判定（セーヴィングスロー）に失敗した、つまり「やられた」ということ。</li><li>最後までゲーマーです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl39.mp3"
+    },
+    {
+      "id": "draco_vl40",
+      "quote": "Dive bomb!",
+      "translation": "ダイブ・ボム！",
+      "explanation": "<strong>解説:</strong><br><ul><li>急降下爆撃！</li><li>ギターの奏法（アームを使って音程を急降下させる技）ともかかっています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl40.mp3"
+    },
+    {
+      "id": "draco_vl41",
+      "quote": "Inflate-o-dragon!",
+      "translation": "インフレート・ドラゴン！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「膨らむドラゴン！」とバラしちゃってます。</li><li>彼が乗っているのは本物のドラゴンではなく、風船のドラゴンなのです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl41.mp3"
+    },
+    {
+      "id": "draco_vl42",
+      "quote": "Say your prayers, little one.",
+      "translation": "お祈りをしなさい、おチビさん。",
+      "explanation": "<strong>解説:</strong><br><ul><li>メタリカの「Enter Sandman」の歌詞の引用であり、悪役の定番セリフ。</li><li>トドメを刺す前の慈悲（のフリ）です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl42.mp3"
+    },
+    {
+      "id": "draco_vl43",
+      "quote": "I will, I will rock you!",
+      "translation": "俺が、俺が、お前をロックしてやる！",
+      "explanation": "<strong>解説:</strong><br><ul><li>クイーンの超名曲「We Will Rock You」の替え歌。</li><li>足踏みと手拍子が聞こえてきそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl43.mp3"
+    },
+    {
+      "id": "draco_vl44",
+      "quote": "You want a toast, get ready to roast!",
+      "translation": "乾杯したいなら、丸焼きにされる準備をしな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Toast（乾杯）」と「Roast（焼く）」をかけた韻踏み。</li><li>勝利の美酒を味わうのは俺だ、ということです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl44.mp3"
+    },
+    {
+      "id": "draco_vl45",
+      "quote": "Draco-o-o!",
+      "translation": "ドラコーーー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の名前をロングトーンでシャウト！</li><li>ライブの最後のような完全燃焼感があります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/draco_vl45.mp3"
+    }
+  ]
+}

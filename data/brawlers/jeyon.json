@@ -1,0 +1,290 @@
+{
+  "name": "ジェヨン",
+  "nameEn": "Jeyon",
+  "rarity": "ultra-rare",
+  "role": "support",
+  "quote": "Singing king is ready to swing!",
+  "iconUrl": "https://i.imgur.com/T0ja8oC.png",
+  "voicelines": [
+    {
+      "id": "jeyon_vl1",
+      "quote": "Melodic middle-aged mayhem.",
+      "translation": "メロディックな中年の大混乱。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「歌って踊れるイケおじ（カオス）」という自己紹介。</li><li>中年の星として戦場をかき回します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl1.mp3"
+    },
+    {
+      "id": "jeyon_vl2",
+      "quote": "This was just a rehearsal.",
+      "translation": "これはただのリハーサルだったのさ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けた時の言い訳。「本番はこれからだし！」と強がって見せるのがスターのプライド。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl2.mp3"
+    },
+    {
+      "id": "jeyon_vl3",
+      "quote": "Love has left, but I still fight.",
+      "translation": "愛は去った、だが私はまだ戦う。",
+      "explanation": "<strong>解説:</strong><br><ul><li>過去の失恋を引きずりつつも戦う、哀愁漂う大人のセリフ。</li><li>背中で語るタイプです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl3.mp3"
+    },
+    {
+      "id": "jeyon_vl4",
+      "quote": "Pitch perfect performance!",
+      "translation": "音程完璧なパフォーマンス！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分のプレイを「音程バッチリ！」と自画自賛。</li><li>ナルシスト気味ですが、実力は本物…のはず。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl4.mp3"
+    },
+    {
+      "id": "jeyon_vl5",
+      "quote": "Ride the rhythm of your heart!",
+      "translation": "心の赴くままに！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「心のリズムに乗れ！」という熱いアドバイス。</li><li>音楽家らしい情熱的な鼓舞です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl5.mp3"
+    },
+    {
+      "id": "jeyon_vl6",
+      "quote": "Melody power!",
+      "translation": "メロディーパワー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>力の源は「メロディー」。</li><li>シンプルですが、彼にとっては最強のエネルギーです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl6.mp3"
+    },
+    {
+      "id": "jeyon_vl7",
+      "quote": "Take a deep breath!",
+      "translation": "深呼吸しろ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>味方を落ち着かせるサポート役らしい一言。</li><li>まずはリラックスして、リズムを整えましょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl7.mp3"
+    },
+    {
+      "id": "jeyon_vl8",
+      "quote": "Singing king is ready to swing!",
+      "translation": "歌う王様は、スウィングする準備万端だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「歌う王様」のお通りだ！</li><li>Swing（音楽のスウィング／武器を振るう）をかけた、お洒落な戦闘開始の合図。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl8.mp3"
+    },
+    {
+      "id": "jeyon_vl9",
+      "quote": "Born to sing, built to win!",
+      "translation": "歌うために生まれ、勝つために作られた！",
+      "explanation": "<strong>解説:</strong><br><ul><li>韻を踏んだ完璧なキャッチコピー。</li><li>天性のエンターテイナーであることをアピールしています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl9.mp3"
+    },
+    {
+      "id": "jeyon_vl10",
+      "quote": "I should've stayed in accounting!",
+      "translation": "会計士のままいれば良かった！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ピンチの時に漏れる本音。実は「元・会計士」だったことが判明！</li><li>安定した職を捨てて夢を追った中年の悲哀がここに。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl10.mp3"
+    },
+    {
+      "id": "jeyon_vl11",
+      "quote": "This is not a duet!",
+      "translation": "これはデュエットじゃないんだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「お前と仲良く歌う（協力する）気はない！」という拒絶。</li><li>敵との馴れ合いはゴメンです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl11.mp3"
+    },
+    {
+      "id": "jeyon_vl12",
+      "quote": "Mic drop moment.",
+      "translation": "マイクドロップの瞬間だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>パフォーマンスを完璧に終えて、マイクを落とすカッコいい仕草。</li><li>決定的な勝利を決めた時のドヤ顔が見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl12.mp3"
+    },
+    {
+      "id": "jeyon_vl13",
+      "quote": "Feel the moment!",
+      "translation": "この瞬間を感じろ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ライブのクライマックスでの煽り文句。</li><li>「今ここにある熱狂を味わえ！」</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl13.mp3"
+    },
+    {
+      "id": "jeyon_vl14",
+      "quote": "Join the pain train!",
+      "translation": "ペイントレインに参加しろ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「痛みの列車（Pain train）」へようこそ！</li><li>これからお前らを地獄ツアーに連れて行ってやるぜ、という攻撃的な誘い。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl14.mp3"
+    },
+    {
+      "id": "jeyon_vl15",
+      "quote": "Kicking it old school, karaoke style!",
+      "translation": "昔ながらのやり方でいくぜ、カラオケスタイルでな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「カラオケ流」という謎の戦闘スタイル。</li><li>古いやり方（オールドスクール）にこだわるベテランの味。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl15.mp3"
+    },
+    {
+      "id": "jeyon_vl16",
+      "quote": "Second place is still respectable.",
+      "translation": "2位でも、まだ立派なものだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けても自分を慰めるポジティブさ（妥協）。</li><li>「銀メダルだってすごいじゃないか」という大人の余裕です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl16.mp3"
+    },
+    {
+      "id": "jeyon_vl17",
+      "quote": "If I die, play my demo.",
+      "translation": "もし私が死んだら、私のデモテープを流してくれ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>死ぬ間際まで自分の音楽を残そうとする執念。</li><li>芸人の鑑ですが、ちょっと重いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl17.mp3"
+    },
+    {
+      "id": "jeyon_vl18",
+      "quote": "Sing when you are winning!",
+      "translation": "勝ってる時は歌うんだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「勝てば官軍、高らかに歌え！」というモットー。</li><li>調子がいい時はノリノリです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl18.mp3"
+    },
+    {
+      "id": "jeyon_vl19",
+      "quote": "There is no ballad sad enough.",
+      "translation": "十分に悲しいバラードなんて、存在しない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺の悲しみを表現できる曲なんてない…」という悲劇のヒロイン（ヒーロー）ごっこ。</li><li>負けた時の嘆きです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl19.mp3"
+    },
+    {
+      "id": "jeyon_vl20",
+      "quote": "More passion, more energy, more footwork!",
+      "translation": "もっと情熱を、もっとエネルギーを、もっとフットワークを！",
+      "explanation": "<strong>解説:</strong><br><ul><li>熱血指導者みたいな檄。</li><li>「まだまだ足りないぞ！」と仲間を鼓舞（スパルタ教育）しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl20.mp3"
+    },
+    {
+      "id": "jeyon_vl21",
+      "quote": "Emotional damage.",
+      "translation": "エモーショナル・ダメージ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>有名なネットミーム「Emotional Damage（精神的ダメージ）」。</li><li>物理攻撃よりも心に響いたようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl21.mp3"
+    },
+    {
+      "id": "jeyon_vl22",
+      "quote": "Let's take it down a notch.",
+      "translation": "少しトーンを落とそう。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ヒートアップしすぎた場をなだめる大人の対応。</li><li>「まあまあ、落ち着いて」とクールダウンさせます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl22.mp3"
+    },
+    {
+      "id": "jeyon_vl23",
+      "quote": "My love is battlefield.",
+      "translation": "僕の愛は、戦場だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>名曲「Love Is a Battlefield」のパロディ。</li><li>彼の人生において、愛と戦いは切り離せないもののようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl23.mp3"
+    },
+    {
+      "id": "jeyon_vl24",
+      "quote": "I'm the real deal!",
+      "translation": "俺は本物だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺はフェイクじゃない、本物のスターだ」という主張。</li><li>自信満々な姿が頼もしいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl24.mp3"
+    },
+    {
+      "id": "jeyon_vl25",
+      "quote": "No! My dream can't end here!",
+      "translation": "いやだ！俺の夢が、ここで終わるはずがない！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ドラマチックな敗北シーン。</li><li>「まだだ…まだ終わらんよ！」という執念を感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl25.mp3"
+    },
+    {
+      "id": "jeyon_vl26",
+      "quote": "Time for a triumphant melody!",
+      "translation": "勝利のメロディーの時間だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>勝った時に流れる脳内BGM。</li><li>高らかに勝利を歌い上げます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl26.mp3"
+    },
+    {
+      "id": "jeyon_vl27",
+      "quote": "Once again, I rise.",
+      "translation": "再び、私は立ち上がる。",
+      "explanation": "<strong>解説:</strong><br><ul><li>倒れても何度でも立ち上がる、不屈の男。</li><li>かっこいいけど、ちょっと芝居がかってます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl27.mp3"
+    },
+    {
+      "id": "jeyon_vl28",
+      "quote": "Show me some energy!",
+      "translation": "エネルギーを見せてみろ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「元気がないぞ！もっと声出せ！」と客席を煽るパフォーマー。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl28.mp3"
+    },
+    {
+      "id": "jeyon_vl29",
+      "quote": "Let's go nice and slow.",
+      "translation": "ナイスに、そしてゆっくり行こうぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>R&Bの曲紹介みたいな、ムーディーな雰囲気作り。</li><li>焦らず着実に攻める時の合図です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl29.mp3"
+    },
+    {
+      "id": "jeyon_vl30",
+      "quote": "The stage is set!",
+      "translation": "舞台の準備は整った！",
+      "explanation": "<strong>解説:</strong><br><ul><li>お膳立ては完了、あとは主役（俺）が出るだけだ！</li><li>ここからが本当のショータイムです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl30.mp3"
+    },
+    {
+      "id": "jeyon_vl31",
+      "quote": "Come into my fiery heart!",
+      "translation": "私の燃える心の中へ来い！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺の胸に飛び込んで来い！」という熱烈なラブコール（攻撃）。</li><li>暑苦しいくらいの情熱です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl31.mp3"
+    },
+    {
+      "id": "jeyon_vl32",
+      "quote": "Time for an end-core.",
+      "translation": "エンドコアの時間だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>アンコール（Encore）と終わり（End）をかけた造語。</li><li>「これが最後の曲（とどめ）だ！」ということです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl32.mp3"
+    },
+    {
+      "id": "jeyon_vl33",
+      "quote": "This is our moment!",
+      "translation": "これは、我々の瞬間だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>チーム全体を鼓舞するリーダーの一言。</li><li>今この瞬間を掴み取れ！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl33.mp3"
+    },
+    {
+      "id": "jeyon_vl34",
+      "quote": "My mic, my moment!",
+      "translation": "我がマイク、我が瞬間！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「マイクは渡さない、ここは俺の独壇場だ！」というアピール。</li><li>目立ちたがり屋の本領発揮です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl34.mp3"
+    },
+    {
+      "id": "jeyon_vl35",
+      "quote": "Let's go! It's party time!",
+      "translation": "行くぞ！パーティータイムだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「楽しもうぜ！」という陽気な掛け声。</li><li>彼がいる場所はどこでもパーティー会場になります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl35.mp3"
+    },
+    {
+      "id": "jeyon_vl36",
+      "quote": "For my fans!",
+      "translation": "我がファンのために！",
+      "explanation": "<strong>解説:</strong><br><ul><li>すべての行動はファンのため。</li><li>アイドルとしてのプロ意識の高さ（と妄想力）が光ります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl36.mp3"
+    },
+    {
+      "id": "jeyon_vl37",
+      "quote": "I love you all!",
+      "translation": "みんな、愛してるぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ステージから客席に向けた定番の挨拶。</li><li>敵も味方も関係なく、みんなに愛を振りまきます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl37.mp3"
+    },
+    {
+      "id": "jeyon_vl38",
+      "quote": "Let's mic this an unforgettable moment.",
+      "translation": "これを忘れられない瞬間にマイクしよう。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Make（作る）」と「Mic（マイク）」をかけたおじさんギャグ。</li><li>滑ってても気にしないハートの強さがあります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl38.mp3"
+    },
+    {
+      "id": "jeyon_vl39",
+      "quote": "This song is for you all.",
+      "translation": "この歌は、みんなに捧げるよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>攻撃を「歌」に見立ててプレゼント。</li><li>ありがた迷惑な贈り物です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl39.mp3"
+    },
+    {
+      "id": "jeyon_vl40",
+      "quote": "I will give you all my heart.",
+      "translation": "私の心の全てを、君に捧げよう。",
+      "explanation": "<strong>解説:</strong><br><ul><li>全力でぶつかるという決意表明。</li><li>ロマンチックな言葉ですが、戦場では「全力で倒す」という意味になります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/jeyon_vl40.mp3"
+    }
+  ]
+}

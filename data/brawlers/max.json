@@ -1,0 +1,199 @@
+{
+  "name": "MAX",
+  "nameEn": "Max",
+  "rarity": "ultra-rare",
+  "role": "support",
+  "quote": "Max energy!",
+  "iconUrl": "https://i.imgur.com/2EYXPdS.png",
+  "voicelines": [
+    {
+      "id": "max_vl1",
+      "quote": "Let's go, come on, zip zip!",
+      "translation": "行くよ、さあ、シュシュッ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>開幕からフルスロットル！味方を急かす、せっかちなMAXらしい掛け声です。</li><li>「zip zip」は素早く動く時の擬音。準備運動なんてしてる暇はありません！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl1.mp3"
+    },
+    {
+      "id": "max_vl2",
+      "quote": "Yes yes yes yes!",
+      "translation": "イエスイエスイエス！",
+      "explanation": "<strong>解説:</strong><br><ul><li>うまくいった時の喜びも超高速！</li><li>興奮しすぎて言葉が追いつかない感じが、彼女のハイテンションさを表しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl2.mp3"
+    },
+    {
+      "id": "max_vl3",
+      "quote": "Ouch!",
+      "translation": "痛っ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ダメージを受けた時のシンプルな一言。</li><li>でもすぐに体勢を立て直して走り出しそうな、軽快な響きがあります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl3.mp3"
+    },
+    {
+      "id": "max_vl4",
+      "quote": "Sorry, didn't see ya there.",
+      "translation": "ごめん、そこにいるの見えなかった。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を倒した時に言う、強烈な皮肉！</li><li>「私が速すぎて、止まっているあなたが目に入らなかったわ」なんて、スピードスターにしか言えないセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl4.mp3"
+    },
+    {
+      "id": "max_vl5",
+      "quote": "Hey! What happened?",
+      "translation": "ねえ！何が起こったの？",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時に状況が理解できていない様子。</li><li>「私のスピードについてこれる奴がいたなんて！」という驚きが隠されています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl5.mp3"
+    },
+    {
+      "id": "max_vl6",
+      "quote": "Max energy!",
+      "translation": "マックスエナジー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>MAXの代名詞とも言える決め台詞！</li><li>エナジードリンクを飲んでパワー全開、ここからが本番だという気合を感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl6.mp3"
+    },
+    {
+      "id": "max_vl7",
+      "quote": "Go go go go!",
+      "translation": "ゴーゴーゴーゴー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>とにかく前に進め！ラッシュをかける時に連呼したくなる、勢い重視の掛け声です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl7.mp3"
+    },
+    {
+      "id": "max_vl8",
+      "quote": "Why is everyone so slow?",
+      "translation": "なんでみんなそんなに遅いの？",
+      "explanation": "<strong>解説:</strong><br><ul><li>周りの動きがスローモーションに見えちゃう、スピードスターあるあるな悩み。</li><li>野良マッチで味方の寄りが遅い時に、心の中でつぶやきたくなるセリフNo.1かも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl8.mp3"
+    },
+    {
+      "id": "max_vl9",
+      "quote": "Did someone hit me?",
+      "translation": "誰か私を殴った？",
+      "explanation": "<strong>解説:</strong><br><ul><li>あまりに一瞬の出来事で、攻撃されたことすら気づいていない様子。</li><li>ダメージを受けても止まらない、彼女のタフさ（鈍感さ？）が出ています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl9.mp3"
+    },
+    {
+      "id": "max_vl10",
+      "quote": "Try to keep up.",
+      "translation": "ついてきてみて。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私に追いつけるかな？」という挑発的なセリフ。</li><li>スーパーを使って一気に距離を離す時や、敵を翻弄する時にぴったりです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl10.mp3"
+    },
+    {
+      "id": "max_vl11",
+      "quote": "Crashing, crashing!",
+      "translation": "クラッシュ！クラッシュ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>勢い余って壁にぶつかったり、制御不能になったりしている緊急事態！</li><li>速すぎるのも考えものです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl11.mp3"
+    },
+    {
+      "id": "max_vl12",
+      "quote": "Turn it to max.",
+      "translation": "マックスまで上げて。",
+      "explanation": "<strong>解説:</strong><br><ul><li>スピードもテンションも、限界（MAX）まで上げろ！</li><li>自分の名前とかけた、おしゃれな言い回しです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl12.mp3"
+    },
+    {
+      "id": "max_vl13",
+      "quote": "No time, gotta move.",
+      "translation": "時間がない、動かなきゃ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>一瞬も止まっていられない、マグロのような性格。</li><li>常に戦場を走り回るMAXのプレイスタイルそのものです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl13.mp3"
+    },
+    {
+      "id": "max_vl14",
+      "quote": "In the lead, winning, number one, best of the best, whoo!",
+      "translation": "リードして、勝ってて、ナンバーワンで、最高の中の最高、うー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分が勝っている状況を、早口言葉のようにまくし立てる勝利宣言。</li><li>思考回路も口の回転も超高速！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl14.mp3"
+    },
+    {
+      "id": "max_vl15",
+      "quote": "Who did that?",
+      "translation": "誰がやったの？",
+      "explanation": "<strong>解説:</strong><br><ul><li>どこから撃たれたのか分からない！不意打ちを食らった時のリアクションです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl15.mp3"
+    },
+    {
+      "id": "max_vl16",
+      "quote": "See ya!",
+      "translation": "じゃあね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を追い抜く時や倒した時に、「お先に！」と軽く言い放つ挨拶。</li><li>背中を見せて走り去るのが最高にクールです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl16.mp3"
+    },
+    {
+      "id": "max_vl17",
+      "quote": "Time...to slow...down...",
+      "translation": "スピードを…落とす…時間…",
+      "explanation": "<strong>解説:</strong><br><ul><li>倒された時のセリフ。電池が切れたおもちゃのように、徐々に言葉が遅くなっていくのが切ない…。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl17.mp3"
+    },
+    {
+      "id": "max_vl18",
+      "quote": "Free energy!",
+      "translation": "エナジー無料！",
+      "explanation": "<strong>解説:</strong><br><ul><li>スーパー発動！味方全員にスピードアップ効果を配る時の太っ腹な一言。</li><li>「私のエナジー、みんなにも分けてあげる！」</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl18.mp3"
+    },
+    {
+      "id": "max_vl19",
+      "quote": "Three, two, one, BLAST OFF!",
+      "translation": "３、２、１、発射！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ロケット発射のカウントダウン。ここからトップスピードで突っ込むぞ！という合図です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl19.mp3"
+    },
+    {
+      "id": "max_vl20",
+      "quote": "This is just the warm-up, right?",
+      "translation": "これってただの準備運動でしょ？",
+      "explanation": "<strong>解説:</strong><br><ul><li>激戦を終えた後でも涼しい顔。「え、もう終わり？まだ走り足りないんだけど」という底なしのスタミナ自慢です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl20.mp3"
+    },
+    {
+      "id": "max_vl21",
+      "quote": "Need more energy drink.",
+      "translation": "もっとエナジードリンクが必要。",
+      "explanation": "<strong>解説:</strong><br><ul><li>エナジー切れのピンチ！カフェイン中毒気味な彼女の本音が漏れています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl21.mp3"
+    },
+    {
+      "id": "max_vl22",
+      "quote": "Faster than lightning.",
+      "translation": "稲妻より速い！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私は雷よりも速い！」と豪語する自信満々なセリフ。まさに電光石火の早業を見せつけましょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl22.mp3"
+    },
+    {
+      "id": "max_vl23",
+      "quote": "Energy levels, critical.",
+      "translation": "エネルギーレベル、危険水域。",
+      "explanation": "<strong>解説:</strong><br><ul><li>HPが残りわずかな時の、ロボットのような警告メッセージ。早く回復しないとシステムダウンしちゃいます！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl23.mp3"
+    },
+    {
+      "id": "max_vl24",
+      "quote": "Max to the max!",
+      "translation": "マックスは最高にマックス！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私のテンションも能力も、限界突破（MAX）よ！」という、自分の名前を使ったお気に入りのフレーズ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl24.mp3"
+    },
+    {
+      "id": "max_vl25",
+      "quote": "Turbo time.",
+      "translation": "ターボタイム。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ギアを一段上げる合図。ここからさらに加速して、戦場を駆け抜けます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl25.mp3"
+    },
+    {
+      "id": "max_vl26",
+      "quote": "Kablam, pow, zap, sizzle!",
+      "translation": "カブラム、パウ、ザップ、シズル！",
+      "explanation": "<strong>解説:</strong><br><ul><li>アメコミの効果音を口で言っちゃうお茶目な一面。</li><li>攻撃の手数が多い彼女らしく、擬音語もマシンガントークです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl26.mp3"
+    },
+    {
+      "id": "max_vl27",
+      "quote": "Sugar crash!",
+      "translation": "シュガークラッシュ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>甘いものを摂りすぎてハイになった後、急にガクッとくるあれです。エナジードリンクの飲み過ぎには注意！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/max_vl27.mp3"
+    }
+  ]
+}

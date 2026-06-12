@@ -1,0 +1,290 @@
+{
+  "name": "グロム",
+  "nameEn": "Grom",
+  "rarity": "hyper-rare",
+  "role": "thrower",
+  "quote": "Here comes the BIG BOOOM!",
+  "iconUrl": "https://i.imgur.com/mzhwDdQ.png",
+  "voicelines": [
+    {
+      "id": "grom_vl1",
+      "quote": "I go now.",
+      "translation": "今、行く。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「今から行きます」という意志を、非常にシンプルに表現しています。</li><li>ロシア語話者が話しそうな、冠詞や時制を省略した「ブロークンイングリッシュ」が特徴です。</li></ul><strong>英文法:</strong><br>本来であれば \"I am going now.\" や \"I will go now.\" となるところを、動詞の原形をそのまま使っています。これにより、朴訥とした、あるいは少し不慣れなキャラクター性を表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl1.mp3"
+    },
+    {
+      "id": "grom_vl2",
+      "quote": "I am in chocolate!",
+      "translation": "私はチョコレートの中にいる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>英語では意味をなさない、非常に奇妙な喜びの表現です。</li><li>これは、ロシア語の「в шоколаде（フ・シャカラーヂェ）」という表現を直訳したものです。</li></ul><strong>英文法:</strong><br>文の構造は正しいですが、ロシア語のイディオムを直訳しているため、比喩的な意味が英語では伝わりません。<br><br><strong>🧠豆知識:</strong><br>ロシア語の「в шоколаде」は、「（チョコレートにまみれるように）贅沢な暮らしをしている、万事うまくいっている、最高の状態だ」という意味のイディオムです。グロムが勝利に酔いしれている様子がうかがえます。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl2.mp3"
+    },
+    {
+      "id": "grom_vl3",
+      "quote": "I do not like!",
+      "translation": "好きじゃない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>何かを好まないという、強い拒絶の気持ちをストレートに表現しています。</li></ul><strong>英文法:</strong><br>本来であれば \"I do not like it/this.\" のように目的語が必要ですが、それを省略することで、子供っぽく、あるいは感情的な響きになっています。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl3.mp3"
+    },
+    {
+      "id": "grom_vl4",
+      "quote": "I am teaching but you are not learning.",
+      "translation": "私が教えているのに、お前は学んでいない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「私がこうして（攻撃で）教えてやっているのに、お前は全く学習しないな」と、相手の愚かさを嘆き、見下しているセリフです。</li></ul><strong>英文法:</strong><br>\"I am teaching\" と \"you are not learning\" という二つの現在進行形の文を、接続詞 \"but\" で対比させています。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl4.mp3"
+    },
+    {
+      "id": "grom_vl5",
+      "quote": "Don't move, I will be returning.",
+      "translation": "動くな、すぐ戻る。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手にその場を動かないよう命令し、自分が戻ってくることを予告しています。軍人や警備員らしい、冷静で威圧的なセリフです。</li></ul><strong>英文法:</strong><br>前半は否定の命令文、後半は未来進行形 \"will be returning\" を使って「（その時には）戻ってきているだろう」という、確実な未来の行動を示しています。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl5.mp3"
+    },
+    {
+      "id": "grom_vl6",
+      "quote": "Here comes the BIG BOOOM!",
+      "translation": "でっかい爆発が来るぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身の必殺技である強力な爆弾が、今まさに炸裂することを宣言する、グロムの決め台詞です。</li><li>\"BIG BOOOM\" と大文字で強調することで、その爆発の規模の大きさを表現しています。</li></ul><strong>英文法:</strong><br>\"Here comes...\" は、何かが近づいてくる時に使われる倒置構文で、臨場感を高める効果があります。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl6.mp3"
+    },
+    {
+      "id": "grom_vl7",
+      "quote": "Must be careful!",
+      "translation": "気をつけねば！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>危険な状況で、自分自身に「注意しなければならない」と言い聞かせているセリフです。彼の慎重で心配性な性格が表れています。</li></ul><strong>英文法:</strong><br>\"I must be careful.\" の主語 \"I\" が省略された形です。助動詞 \"must\" は強い義務や必要性を表します。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl7.mp3"
+    },
+    {
+      "id": "grom_vl8",
+      "quote": "I put you under my belt!",
+      "translation": "お前を私のベルトの下に置いた！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"have ~ under one's belt\" は「（経験・知識・勝利などを）既に身につけている、達成済みである」という意味の英語のイディオムです。</li><li>相手を倒したことを「自分の達成リストに加えた」と、少し変わった言い方で勝利を宣言しています。</li></ul><strong>英文法:</strong><br>イディオムを使った、過去形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl8.mp3"
+    },
+    {
+      "id": "grom_vl9",
+      "quote": "Ой! What was this?!",
+      "translation": "オイ！今のは何だ？！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Ой! (Oi!)\" は、ロシア語で驚きや軽い痛み、不満を表す一般的な間投詞です。日本語の「おっと！」や「あら！」に近いです。</li><li>不意の攻撃に対して、ロシア語で驚きを表現しています。</li></ul><strong>英文法:</strong><br>ロシア語の間投詞と、英語の過去形の疑問文が組み合わさっています。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl9.mp3"
+    },
+    {
+      "id": "grom_vl10",
+      "quote": "Grom laughs",
+      "translation": "（グロムが笑う）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>彼の少し神経質で、憂鬱な性格を反映した、乾いた、あるいは引きつったような笑い声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"laugh\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl10.mp3"
+    },
+    {
+      "id": "grom_vl11",
+      "quote": "Нееееет!",
+      "translation": "いやぁぁぁぁ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これはロシア語の \"Нет (Nyet)\"、つまり英語の \"No\" を、感情を込めて長く伸ばしたものです。</li><li>敗北した時などの、強い絶望や拒絶を表す叫びです。</li></ul><strong>英文法:</strong><br>ロシア語の否定の言葉です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl11.mp3"
+    },
+    {
+      "id": "grom_vl12",
+      "quote": "It is time for party.",
+      "translation": "パーティーの時間である。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>勝利を「パーティーの時間だ」と祝っています。</li></ul><strong>英文法:</strong><br>冠詞の \"a\" が抜けており（正しくは \"time for a party\"）、グロムの少し不自由な英語を表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl12.mp3"
+    },
+    {
+      "id": "grom_vl13",
+      "quote": "I am not in my own plate.",
+      "translation": "私は自分自身の皿の中にいない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>英語では意味不明ですが、これはロシア語のイディオム「не в своей тарелке（ニェ・フ・スヴァイェイ・タリェールケ）」を直訳したものです。</li><li>「（自分の皿にいないように）居心地が悪い、調子が悪い」という意味で、敗北した時の不快感を表現しています。</li></ul><strong>英文法:</strong><br>文の構造は正しいですが、ロシア語のイディオムを直訳しているため、意味が通じなくなっています。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl13.mp3"
+    },
+    {
+      "id": "grom_vl14",
+      "quote": "What you sow, you will reap!",
+      "translation": "自分で蒔いた種は、自分で刈り取ることになる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「あなたが蒔いたものは、あなたが収穫するだろう」が直訳で、「自業自得だ」「自分の行いの報いはいずれ受けることになる」という意味の、聖書に由来することわざです。</li></ul><strong>英文法:</strong><br>関係代名詞 \"What\" を使った名詞節が文頭に来る、格言でよく使われる構文です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl14.mp3"
+    },
+    {
+      "id": "grom_vl15",
+      "quote": "Back then, we all had to suffer.",
+      "translation": "あの頃は、我々は皆、苦しまねばならなかった。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Back then\" は「その当時は、あの頃は」。</li><li>兵士だった過去の辛い経験を思い出し、それを今の状況に重ねている、トラウマを抱えたセリフです。</li></ul><strong>英文法:</strong><br>\"had to ~\" は「～しなければならなかった」という、過去の強い義務を表します。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl15.mp3"
+    },
+    {
+      "id": "grom_vl16",
+      "quote": "With one left hand!",
+      "translation": "左手一本でだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「こんなことは左手一本でたやすくできる」と、自分の強さや、相手が弱いことを誇示するセリフです。</li></ul><strong>英文法:</strong><br>「～だけで」という手段を表す前置詞 \"With\" を使った感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl16.mp3"
+    },
+    {
+      "id": "grom_vl17",
+      "quote": "I am left with my own nose.",
+      "translation": "私は自分の鼻と一緒に残された。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これもロシア語のイディオム「остаться с носом（アスターッツァ・ス・ノーサム）」を直訳したものです。</li><li>「鼻と一緒に残る」とは、「手ぶらで終わる、何も得られない、出し抜かれる」という意味で、敗北して何も得られなかった悔しさを表現しています。</li></ul><strong>英文法:</strong><br>ロシア語のイディオムの直訳のため、英語としては奇妙な文になっています。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl17.mp3"
+    },
+    {
+      "id": "grom_vl18",
+      "quote": "Walkie-talkie: \"The panflute is in the kitchen.\"",
+      "translation": "トランシーバー: 「パンフルートはキッチンにある」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>彼の持つトランシーバーから聞こえてくる、謎の暗号のようなメッセージです。</li><li>一見意味不明な言葉は、スパイ映画で使われるような合言葉を模しており、グロムの警戒心の強さや妄想癖を表しています。</li></ul><strong>英文法:</strong><br>単純なSVCの文ですが、文脈が謎めいています。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl18.mp3"
+    },
+    {
+      "id": "grom_vl19",
+      "quote": "Things exploding, грусть-тоска.",
+      "translation": "物が爆発し、悲しみと憂鬱。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>目の前で起きている爆発と、自身の内なる感情を並べています。</li><li>「грусть-тоска (grust'-toska)」はロシア語で、「深い悲しみ、憂鬱、哀愁」といった、どうしようもない物悲しさを表す言葉です。</li></ul><strong>英文法:</strong><br>英語のフレーズとロシア語の名詞を組み合わせた、バイリンガルなセリフです。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl19.mp3"
+    },
+    {
+      "id": "grom_vl20",
+      "quote": "I have full pants of happiness!",
+      "translation": "ズボンいっぱいの幸せを手に入れた！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ロシアの有名なコメディ映画のセリフ「полные штаны счастья（ポールヌィエ・シュタヌィ・シャーッスチヤ）」を直訳したものです。</li><li>「この上なく幸せだ」という気持ちを、非常に大げさでコミカルに表現しています。</li></ul><strong>英文法:</strong><br>ロシア語の表現を直訳した、ユーモラスな文です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl20.mp3"
+    },
+    {
+      "id": "grom_vl21",
+      "quote": "Ёлки-палки!",
+      "translation": "ヨールキ・パールキ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これはロシア語で、強い驚き、苛立ち、あるいは喜びなど、様々な感情を表す非常に一般的な間投詞です。</li><li>直訳は「モミの木、棒切れ！」ですが、意味はありません。日本語の「ちくしょう！」や「なんてこった！」に近いニュアンスです。</li></ul><strong>英文法:</strong><br>ロシア語の感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl21.mp3"
+    },
+    {
+      "id": "grom_vl22",
+      "quote": "It was written on your forehead.",
+      "translation": "お前の額に書いてあったぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"be written on one's forehead\" は「（人の考えや運命が）顔に書いてある、見え見えだ」という意味のイディオムです。</li><li>「お前が負けることは、最初から分かりきっていた」と、相手を見下しています。</li></ul><strong>英文法:</strong><br>受動態の過去形を使った、慣用句です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl22.mp3"
+    },
+    {
+      "id": "grom_vl23",
+      "quote": "Pancake!",
+      "translation": "パンケーキ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を爆弾で「パンケーキのようにぺちゃんこにしてやった」という意味合いで叫んでいます。</li></ul><strong>英文法:</strong><br>名詞単独の感嘆文で、相手の状態を比喩しています。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl23.mp3"
+    },
+    {
+      "id": "grom_vl24",
+      "quote": "Walkie-talkie: \"Clear the area!\"",
+      "translation": "トランシーバー: 「その場から退避せよ！」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>トランシーバーから聞こえる、軍や警察が使う典型的な命令です。</li><li>爆弾を設置した後などに、周囲に退避を促す警告として使われます。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる、緊急性の高い命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl24.mp3"
+    },
+    {
+      "id": "grom_vl25",
+      "quote": "Optimism is lack of information.",
+      "translation": "楽観主義とは、情報不足のことである。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「物事を楽観視できるのは、単に状況を正しく理解していないからだ」という、非常に皮肉で悲観的な格言です。</li><li>グロムのネガティブな世界観がよく表れています。</li></ul><strong>英文法:</strong><br>格言や定義で使われる、シンプルなSVCの文です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl25.mp3"
+    },
+    {
+      "id": "grom_vl26",
+      "quote": "I am jumping out of my pants.",
+      "translation": "ズボンから飛び出そうだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"jump out of one's skin\"（飛び上がるほど驚く）というイディオムをもじったものか、あるいはロシア語の別の表現の直訳の可能性があります。</li><li>「非常に興奮している」または「ものすごく驚いている」状態を表しています。</li></ul><strong>英文法:</strong><br>現在進行形を使った、比喩的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl26.mp3"
+    },
+    {
+      "id": "grom_vl27",
+      "quote": "Walkie-talkie: \"Mission successful.\"",
+      "translation": "トランシーバー: 「任務、完了」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>トランシーバーから、任務が成功したことを告げる声が聞こえてきます。敵を倒したことを「任務完了」と捉えています。</li></ul><strong>英文法:</strong><br>軍事報告で使われる、簡潔な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl27.mp3"
+    },
+    {
+      "id": "grom_vl28",
+      "quote": "I hear the children laughing at me!",
+      "translation": "子供たちが私を笑う声が聞こえる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>グロムが子供に対して強い恐怖心を抱いている、という彼のキャラクター設定の根幹を示す、非常に重要なセリフです。</li><li>幻聴のように、子供たちの笑い声に怯えています。</li></ul><strong>英文法:</strong><br>知覚動詞 \"hear\" を使った第5文型（SVOC）です。「OがCしているのを聞く」という意味になります。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl28.mp3"
+    },
+    {
+      "id": "grom_vl29",
+      "quote": "Walkie-talkie: \"Bravo Oscar Oscar Mike.\"",
+      "translation": "トランシーバー: 「ブラボー・オスカー・オスカー・マイク」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これはNATOフォネティックコード（通話表）を使った暗号です。</li><li>それぞれの単語の頭文字を取ると「B-O-O-M」となり、「爆弾」を意味しています。</li></ul><strong>英文法:</strong><br>軍事や航空分野で、聞き間違いを防ぐために使われるアルファベットの表現方法です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl29.mp3"
+    },
+    {
+      "id": "grom_vl30",
+      "quote": "Must remember bring walkie talkie.",
+      "translation": "トランシーバーを持ってくること、覚えておかねば。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>大事なトランシーバーを持ってくるのを忘れないように、と自分に言い聞かせています。</li></ul><strong>英文法:</strong><br>\"remember to bring\" と不定詞を使うべきところを、原形 \"bring\" にしている、グロムのブロークンイングリッシュです。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl30.mp3"
+    },
+    {
+      "id": "grom_vl31",
+      "quote": "Who is laughing at Grom now?",
+      "translation": "今、グロムを笑っているのは誰だ？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>以前は笑われていたかもしれないが、今や状況は逆転したぞ、と問いかける修辞的なセリフです。</li><li>「もう誰も俺を笑えないだろう」という、勝利の宣言です。</li></ul><strong>英文法:</strong><br>Whoで始まる疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl31.mp3"
+    },
+    {
+      "id": "grom_vl32",
+      "quote": "Walkie-talkie: \"Remember the mission!\"",
+      "translation": "トランシーバー: 「任務を思い出せ！」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>トランシーバーから、初心を忘れないよう、あるいは個人的な感情に流されないよう、上官が命令しているかのような声が聞こえてきます。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl32.mp3"
+    },
+    {
+      "id": "grom_vl33",
+      "quote": "Walkie-talkie: \"Do you copy?\"",
+      "translation": "トランシーバー: 「聞こえるか？」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Do you copy?\" は、無線通信で「こちらの言うことが聞こえますか？理解しましたか？」と相手に確認する際の決まり文句です。</li></ul><strong>英文法:</strong><br>無線用語として定着した、疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl33.mp3"
+    },
+    {
+      "id": "grom_vl34",
+      "quote": "More walkie, less talkie!",
+      "translation": "歩くのはもっと、喋るのは少なく！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>トランシーバーを意味する \"walkie-talkie\" という単語を、\"walkie\"（歩くこと）と \"talkie\"（喋ること）に分解した言葉遊びです。</li><li>「喋ってないで、もっと行動しろ」という意味です。</li></ul><strong>英文法:</strong><br>比較の形を使った、スローガンのようなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl34.mp3"
+    },
+    {
+      "id": "grom_vl35",
+      "quote": "Walkie-talkie: \"The bear is dancing.\"",
+      "translation": "トランシーバー: 「クマが踊っている」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これもスパイの合言葉のような、謎めいたメッセージです。</li><li>「クマ」はロシアを象徴する動物であり、何かロシアに関連する隠された意味があるのかもしれません。</li></ul><strong>英文法:</strong><br>現在進行形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl35.mp3"
+    },
+    {
+      "id": "grom_vl36",
+      "quote": "Walkie-talkie: \"Hey, calm down. I'm here.\"",
+      "translation": "トランシーバー: 「おい、落ち着け。私がいる」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>パニックに陥っているグロムを、トランシーバーの向こうの誰か（上官や相棒）がなだめているようです。彼の精神的な不安定さを示唆しています。</li></ul><strong>英文法:</strong><br>命令文と、安心させるための肯定文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl36.mp3"
+    },
+    {
+      "id": "grom_vl37",
+      "quote": "Walkie-talkie: \"The bear is sleeping.\"",
+      "translation": "トランシーバー: 「クマは眠っている」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「クマが踊っている」と対になるような、謎のメッセージです。「脅威は去った」あるいは「作戦開始の合図」など、様々な解釈ができます。</li></ul><strong>英文法:</strong><br>現在進行形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl37.mp3"
+    },
+    {
+      "id": "grom_vl38",
+      "quote": "Don't rush the horses!",
+      "translation": "馬を急かすな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ロシアのことわざ「Не гони лошадей!（ニェ・ガニー・ラシャジェイ！）」の直訳です。</li><li>「物事を急ぐな、焦るな」という意味で使われます。</li></ul><strong>英文法:</strong><br>ロシア語のことわざを直訳した、否定の命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl38.mp3"
+    },
+    {
+      "id": "grom_vl39",
+      "quote": "Walkie-talkie: \"Don't forget the milk.\"",
+      "translation": "トランシーバー: 「牛乳を忘れるな」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>緊迫した戦場で、突如として「牛乳を忘れるな」という日常的なお使いのメモが聞こえてくる、シュールなギャグです。</li></ul><strong>英文法:</strong><br>否定の命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl39.mp3"
+    },
+    {
+      "id": "grom_vl40",
+      "quote": "Walkie-talkie: \"The bear is in the circus.\"",
+      "translation": "トランシーバー: 「クマはサーカスにいる」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これもまた、謎めいた合言葉です。「脅威は無力化された」といった意味の暗号かもしれません。</li></ul><strong>英文法:</strong><br>シンプルなSVCの文です。",
+      "audioUrl": "https://Amphibian333.github.io/grom_vl40.mp3"
+    }
+  ]
+}

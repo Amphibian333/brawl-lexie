@@ -1,0 +1,255 @@
+{
+  "name": "ファング",
+  "nameEn": "Fang",
+  "rarity": "ultra-rare",
+  "role": "assassin",
+  "quote": "Fang-tastic!",
+  "iconUrl": "https://i.imgur.com/er0FeQd.png",
+  "voicelines": [
+    {
+      "id": "fang_vl1",
+      "quote": "Hahaha, wanna fight the Fang?",
+      "translation": "ハハハ、このファング様とやりてぇのか？",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分を「The Fang」と呼ぶナルシストっぷり！</li><li>「俺とやるって？正気かよ？」と余裕しゃくしゃくな態度が、アクションスター気取りの彼らしいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl1.mp3"
+    },
+    {
+      "id": "fang_vl2",
+      "quote": "No one defeats the Fang!",
+      "translation": "誰もこのファング様は倒せねぇ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>最強宣言！</li><li>「俺に勝てる奴なんていねぇよ」と豪語する、自信満々な勝利ボイスです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl2.mp3"
+    },
+    {
+      "id": "fang_vl3",
+      "quote": "Fang it!",
+      "translation": "ファングっとけ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Dang it!（ちくしょう！）」をもじった造語。</li><li>自分の名前を動詞にしちゃうセンスが独特すぎます。「とりあえずファングっとけばなんとかなる！」みたいなノリです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl3.mp3"
+    },
+    {
+      "id": "fang_vl4",
+      "quote": "Fangtastic!",
+      "translation": "ファンタスティック！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Fantastic（素晴らしい）」と自分の名前を合体させた、お気に入りの決め台詞。</li><li>ウルトで連続キルを決めた時に叫びたい一言です！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl4.mp3"
+    },
+    {
+      "id": "fang_vl5",
+      "quote": "Enjoy it while you can...",
+      "translation": "今のうちに楽しんでおくんだな…",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時の捨て台詞。「今は勝っていい気になってるだろうが、すぐに後悔させてやる」という悪役ムーブです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl5.mp3"
+    },
+    {
+      "id": "fang_vl6",
+      "quote": "The heat is on!",
+      "translation": "戦いの火蓋は切られた！",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『ビバリーヒルズ・コップ』の主題歌でお馴染みのフレーズ。</li><li>映画好きのファングらしいチョイスです。「さあ、盛り上がってきたぜ！」</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl6.mp3"
+    },
+    {
+      "id": "fang_vl7",
+      "quote": "Hahaha, It's time for some action!",
+      "translation": "ハハハ、アクションの時間だぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>これから映画のアクションシーンみたいな派手な戦いを始めるぞ、というワクワク感が伝わってきます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl7.mp3"
+    },
+    {
+      "id": "fang_vl8",
+      "quote": "It's popcorn time!",
+      "translation": "ポップコーンの時間だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「面白いショーが始まるぞ！」という意味と、実際にポップコーンをばら撒いて攻撃することをかけたセリフ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl8.mp3"
+    },
+    {
+      "id": "fang_vl9",
+      "quote": "Furious Fang!",
+      "translation": "猛烈ファング！",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『ワイルド・スピード（Fast & Furious）』を意識したような名乗り。</li><li>怒りの鉄拳ならぬ、怒りの飛び蹴りをお見舞いします！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl9.mp3"
+    },
+    {
+      "id": "fang_vl10",
+      "quote": "Oh, you got fanged!",
+      "translation": "おぉ、ファングされちまったな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺にやられちゃったね」という意味の造語。</li><li>相手を倒した後に、ちょっと小馬鹿にした感じで言うのがポイントです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl10.mp3"
+    },
+    {
+      "id": "fang_vl11",
+      "quote": "You're so corny!",
+      "translation": "お前、ダサすぎ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Corny（ダサい）」と、ポップコーンの「Corn（トウモロコシ）」をかけた高度な煽り！</li><li>映画館バイトならではの語彙力です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl11.mp3"
+    },
+    {
+      "id": "fang_vl12",
+      "quote": "Dragon Fang!",
+      "translation": "ドラゴン・ファング！",
+      "explanation": "<strong>解説:</strong><br><ul><li>カンフー映画といえばドラゴン！</li><li>自分を伝説のドラゴンに見立てた、必殺技っぽい掛け声です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl12.mp3"
+    },
+    {
+      "id": "fang_vl13",
+      "quote": "Ok, challenge accepted.",
+      "translation": "いいだろう、その挑戦、受けた。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵に向かっていく時のカッコいいセリフ。</li><li>格闘ゲームの対戦開始前みたいな緊張感があります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl13.mp3"
+    },
+    {
+      "id": "fang_vl14",
+      "quote": "I'm popping off, losers!",
+      "translation": "俺、絶好調だぜ、負け犬ども！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Popping off（弾ける＝絶好調）」とポップコーンをかけた表現。</li><li>調子に乗って敵を煽りまくる、ファングの性格全開です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl14.mp3"
+    },
+    {
+      "id": "fang_vl15",
+      "quote": "A worthy adversary.",
+      "translation": "好敵手だな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>強敵と出会った時に相手を認める、武道家っぽいセリフ。</li><li>上から目線なのは相変わらずですが、敬意は払っているようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl15.mp3"
+    },
+    {
+      "id": "fang_vl16",
+      "quote": "Fear the Fang!",
+      "translation": "このファング様を恐れるがいい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の名前を連呼して、存在感をアピール！</li><li>とにかく自分が大好きなのが伝わってきます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl16.mp3"
+    },
+    {
+      "id": "fang_vl17",
+      "quote": "We shall meet again, my friend!",
+      "translation": "また会おう、友よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ライバルとの別れのシーンみたいに、ドラマチックに退場（リスポーン）します。</li><li>負けたのにカッコつけてるのが憎めないところ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl17.mp3"
+    },
+    {
+      "id": "fang_vl18",
+      "quote": "Draaggoonn Fang!!!!!!",
+      "translation": "ドラァァゴォォン・ファーングッ！！",
+      "explanation": "<strong>解説:</strong><br><ul><li>必殺の飛び蹴りを放つ時の絶叫！</li><li>カンフー映画のクライマックスシーン並みに気合が入ってます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl18.mp3"
+    },
+    {
+      "id": "fang_vl19",
+      "quote": "My foot, your face, it's on!",
+      "translation": "俺の足、お前の顔面、勝負開始だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺の足がお前の顔面に行くぞ！」という、めちゃくちゃ分かりやすい攻撃予告。</li><li>自信があるからこそ言える、大胆不敵な挑発です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl19.mp3"
+    },
+    {
+      "id": "fang_vl20",
+      "quote": "Ay, enough about you! Let's focus on me!",
+      "translation": "おい、お前の話はもういい！俺に集中しようぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自己顕示欲の塊！</li><li>「主役は俺だ！」と言わんばかりに、カメラを独占しようとするスター気質です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl20.mp3"
+    },
+    {
+      "id": "fang_vl21",
+      "quote": "Alright, impressive!",
+      "translation": "やるな、見事だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>相手のスーパープレイに素直に感心しています。</li><li>根は熱い格闘家なので、良い動きには敬意を表するようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl21.mp3"
+    },
+    {
+      "id": "fang_vl22",
+      "quote": "Check me out! I've got moves.",
+      "translation": "俺を見ろよ！技を持ってるんだぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺の華麗な動きを見てくれ！」というアピール。</li><li>キレッキレのダンスやアクションを見せつける気満々です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl22.mp3"
+    },
+    {
+      "id": "fang_vl23",
+      "quote": "Huh...how do I look?",
+      "translation": "ふぅ…俺、どう見える？",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦いの後も髪型や見栄えを気にするナルシスト。</li><li>常にカメラを意識しているアクションスターの鑑です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl23.mp3"
+    },
+    {
+      "id": "fang_vl24",
+      "quote": "Power Fang!",
+      "translation": "パワー・ファング！",
+      "explanation": "<strong>解説:</strong><br><ul><li>パワーアップした自分を技名みたいに呼んでます。</li><li>語呂の良さと勢いだけで押し切るスタイル。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl24.mp3"
+    },
+    {
+      "id": "fang_vl25",
+      "quote": "Alright! You'll get a kick out of this!",
+      "translation": "よし！こいつは楽しめるぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「楽しむ（get a kick）」と「キックを食らう」をかけたダジャレ。</li><li>「俺のキックを楽しんでいけよ！」という粋な言い回しです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl25.mp3"
+    },
+    {
+      "id": "fang_vl26",
+      "quote": "Golden Fang.",
+      "translation": "ゴールデン・ファング。",
+      "explanation": "<strong>解説:</strong><br><ul><li>さらに輝く自分を演出！</li><li>「ゴールデン」をつけるだけで何でも強そうに見える、小学生男子のようなセンスが素敵です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl26.mp3"
+    },
+    {
+      "id": "fang_vl27",
+      "quote": "Wooh! That was too close...",
+      "translation": "うぉっ！危なかった…",
+      "explanation": "<strong>解説:</strong><br><ul><li>ギリギリで攻撃をかわした時の本音。</li><li>アクション映画のワンシーンみたいに、スリルを楽しんでいるようにも聞こえます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl27.mp3"
+    },
+    {
+      "id": "fang_vl28",
+      "quote": "You butter believe it! Ha ha ha!",
+      "translation": "信じるこったな！ハハハ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Better（した方がいい）」と「Butter（バター）」をかけたコテコテのダジャレ。</li><li>ポップコーンにはバターが欠かせませんからね！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl28.mp3"
+    },
+    {
+      "id": "fang_vl29",
+      "quote": "Can I kick it?",
+      "translation": "蹴ってもいいかい？",
+      "explanation": "<strong>解説:</strong><br><ul><li>ヒップホップの名曲からの引用！</li><li>「俺の出番（キック）かい？」と、リズムに乗りながら戦闘に参加します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl29.mp3"
+    },
+    {
+      "id": "fang_vl30",
+      "quote": "Wooh! Pop and chop!",
+      "translation": "うぉー！ポップ＆チョップ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ポップコーンみたいに弾けて、空手チョップをお見舞いする！</li><li>語呂合わせが気持ちいい、彼独自の戦闘スタイルです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl30.mp3"
+    },
+    {
+      "id": "fang_vl31",
+      "quote": "Buttery smooth moves!",
+      "translation": "バターのように滑らかな動き！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の動きを「バターみたいに滑らか」と自画自賛。</li><li>ポップコーン売りの彼らしい、独特な表現です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl31.mp3"
+    },
+    {
+      "id": "fang_vl32",
+      "quote": "Super jump kick dash!",
+      "translation": "スーパージャンプ・キック・ダッシュ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルトの動作をそのまま叫んでるだけ！</li><li>少年漫画の必殺技みたいで、逆に清々しいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl32.mp3"
+    },
+    {
+      "id": "fang_vl33",
+      "quote": "Free refills on foot punch!",
+      "translation": "フットパンチのおかわりは無料だぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ジュースのおかわり無料」みたいに、「俺のキックはいくらでも食らわせてやるよ！」というジョーク。</li><li>サービス精神旺盛（？）な挑発です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl33.mp3"
+    },
+    {
+      "id": "fang_vl34",
+      "quote": "A-salt and buttery!",
+      "translation": "ア・ソルト＆バターリー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「暴行罪（Assault and battery）」と「塩とバター（Salt and buttery）」をかけた、超高度なダジャレ！</li><li>法を犯すレベルの美味しさ（強さ）ってことかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl34.mp3"
+    },
+    {
+      "id": "fang_vl35",
+      "quote": "Wooh! Snack run!",
+      "translation": "うぉー！おやつタイムだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を倒しに行くのを「おやつを買いに行く（Snack run）」感覚で楽しんでます。</li><li>彼にとっては戦闘もちょっとした休憩時間みたいなもの？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/fang_vl35.mp3"
+    }
+  ]
+}

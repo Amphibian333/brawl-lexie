@@ -1,0 +1,304 @@
+{
+  "name": "クランシー",
+  "nameEn": "Clancy",
+  "rarity": "ultra-rare",
+  "role": "damage-dealer",
+  "quote": "※クランシーは公式がまだ音声パックを出していないので音声は対応していません。Living the lobster life!",
+  "iconUrl": "https://i.imgur.com/Ku3VSW5.png",
+  "voicelines": [
+    {
+      "id": "clancy_vl1",
+      "quote": "Armored and ready for carnage.",
+      "translation": "装甲は万全、殺戮の準備はできている。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ロブスターの甲羅を「装甲（アーマー）」と呼ぶカッコよさ！</li><li>歴戦の戦士のような渋いセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl1.mp3"
+    },
+    {
+      "id": "clancy_vl2",
+      "quote": "Living the lobster life!",
+      "translation": "ロブスターライフを満喫中！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Living the good life（いい暮らし）」をもじった言葉。</li><li>悠々自適なロブスター生活を楽しんでいるようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl2.mp3"
+    },
+    {
+      "id": "clancy_vl3",
+      "quote": "Hahahahaha! A pinch pinch pinch.",
+      "translation": "ハハハハハ！挟んで、挟んで、挟む！",
+      "explanation": "<strong>解説:</strong><br><ul><li>楽しそうにハサミをチョキチョキしてます。</li><li>無邪気なだけに逆に怖い！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl3.mp3"
+    },
+    {
+      "id": "clancy_vl4",
+      "quote": "Saline salvo.",
+      "translation": "塩水の斉射。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「斉射（Salvo）」という軍事用語を使うあたり、やはり軍人上がりのようです。</li><li>海水をマシンガンのようにぶっ放します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl4.mp3"
+    },
+    {
+      "id": "clancy_vl5",
+      "quote": "I am lobster!",
+      "translation": "我はロブスターなり！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「アイアンマン」みたいなノリで自己紹介。</li><li>シンプルですが、種族への誇りを感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl5.mp3"
+    },
+    {
+      "id": "clancy_vl6",
+      "quote": "Snap to it.",
+      "translation": "シャキッとしろ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「急げ！」という命令と、ハサミの「パチン（Snap）」という音をかけた表現。</li><li>部下を叱咤する鬼軍曹です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl6.mp3"
+    },
+    {
+      "id": "clancy_vl7",
+      "quote": "Lobsters rock!",
+      "translation": "ロブスターは最高だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ロブスター最強！」という種族愛。</li><li>人間なんて目じゃないぜ、という勢いがあります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl7.mp3"
+    },
+    {
+      "id": "clancy_vl8",
+      "quote": "I am the red warrior.",
+      "translation": "我は赤き戦士。",
+      "explanation": "<strong>解説:</strong><br><ul><li>茹でられて赤くなったわけじゃありません。</li><li>情熱と闘志の赤色です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl8.mp3"
+    },
+    {
+      "id": "clancy_vl9",
+      "quote": "Clancy Claws is coming to town.",
+      "translation": "クランシー・クローズが街にやってくる。",
+      "explanation": "<strong>解説:</strong><br><ul><li>クリスマスソング「サンタが街にやってくる」の替え歌。</li><li>サンタクロースと自分のハサミ（Claws）をかけてます。プレゼントは鉛玉かな？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl9.mp3"
+    },
+    {
+      "id": "clancy_vl10",
+      "quote": "From the depth of the sea, to the height of victory!",
+      "translation": "海の深淵から、勝利の頂へ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>深海から這い上がって勝利を掴む、という壮大なストーリー。</li><li>詩的でカッコいいスローガンです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl10.mp3"
+    },
+    {
+      "id": "clancy_vl11",
+      "quote": "Claws of fury!",
+      "translation": "怒りのハサミよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>カンフー映画のタイトル「ドラゴン怒りの鉄拳（Fist of Fury）」みたいな技名。</li><li>怒りに任せて挟みまくります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl11.mp3"
+    },
+    {
+      "id": "clancy_vl12",
+      "quote": "Pinch and prevail!",
+      "translation": "挟んで、勝利せよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「挟めば勝てる！」というシンプルな戦術。</li><li>頭韻を踏んでてリズムが良いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl12.mp3"
+    },
+    {
+      "id": "clancy_vl13",
+      "quote": "Pinch them into submission.",
+      "translation": "挟みつけて、服従させろ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵が「参った」と言うまで締め上げる、冷酷なコマンドーの一面。</li><li>プロレス技みたいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl13.mp3"
+    },
+    {
+      "id": "clancy_vl14",
+      "quote": "Fancy Clancy!",
+      "translation": "ファンシー・クランシー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「派手なクランシー」という韻を踏んだ自己紹介。</li><li>自分でファンシーって言うのがちょっと可愛いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl14.mp3"
+    },
+    {
+      "id": "clancy_vl15",
+      "quote": "Cribbity crab sticks!",
+      "translation": "クリビティ・クラブスティック！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「カニカマ（Crab sticks）」を使った意味不明な叫び。</li><li>テンションが上がって変なことを口走っちゃった感じです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl15.mp3"
+    },
+    {
+      "id": "clancy_vl16",
+      "quote": "Crusty commando!",
+      "translation": "甲殻のコマンドー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「硬い殻を持つ特殊部隊員」。</li><li>水陸両用の最強ソルジャーです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl16.mp3"
+    },
+    {
+      "id": "clancy_vl17",
+      "quote": "Leave them shellshocked.",
+      "translation": "奴らをシェルショック状態にしてやれ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「シェルショック（戦争神経症）」と「シェル（殻）」をかけた高度なブラックジョーク。</li><li>俺の攻撃でトラウマを植え付けてやれ、という恐ろしい命令です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl17.mp3"
+    },
+    {
+      "id": "clancy_vl18",
+      "quote": "Salty sea biscuit.",
+      "translation": "しょっぱいシービスケット。",
+      "explanation": "<strong>解説:</strong><br><ul><li>船乗りの保存食「堅パン」のこと。</li><li>自分自身を「噛みごたえのあるタフガイ」と表現しているのかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl18.mp3"
+    },
+    {
+      "id": "clancy_vl19",
+      "quote": "Lobster of valor.",
+      "translation": "武勇のロブスター。",
+      "explanation": "<strong>解説:</strong><br><ul><li>勲章をもらうレベルの活躍をしたロブスター。</li><li>英雄気取りです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl19.mp3"
+    },
+    {
+      "id": "clancy_vl20",
+      "quote": "Shell shockwave!",
+      "translation": "シェル・衝撃波！",
+      "explanation": "<strong>解説:</strong><br><ul><li>必殺技の名前みたいに叫んでます。</li><li>殻から衝撃波が出るんでしょうか？強そうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl20.mp3"
+    },
+    {
+      "id": "clancy_vl21",
+      "quote": "I'll claw my way to victory, one pinch at a time!",
+      "translation": "一挟みずつ、勝利への道を切り開く！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「一歩ずつ（One step at a time）」をロブスター風にアレンジ。</li><li>地道な努力が勝利への近道です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl21.mp3"
+    },
+    {
+      "id": "clancy_vl22",
+      "quote": "I don't break character, I break Brawlers!",
+      "translation": "俺はキャラを壊さない、ブロウラーを壊すんだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「役になりきる」という意味と「敵を破壊する」という意味をかけたセリフ。</li><li>俺はいつでもロブスターになりきってるぜ（本物だけど）、ということ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl22.mp3"
+    },
+    {
+      "id": "clancy_vl23",
+      "quote": "Time to improvise.",
+      "translation": "即興でやる時間だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>作戦通りにいかない時はアドリブで！</li><li>現場の判断力が問われる、プロの仕事です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl23.mp3"
+    },
+    {
+      "id": "clancy_vl24",
+      "quote": "Get in the sea.",
+      "translation": "海にお帰り。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「おととい来やがれ」のマリンバージョン。</li><li>陸に上がってきた敵を海へ追い返します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl24.mp3"
+    },
+    {
+      "id": "clancy_vl25",
+      "quote": "Combat crayfish.",
+      "translation": "戦闘ザリガニ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ロブスターじゃなくてザリガニ（Crayfish）なの？</li><li>まあ、似たようなものです。強ければよし！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl25.mp3"
+    },
+    {
+      "id": "clancy_vl26",
+      "quote": "Marine mayhem.",
+      "translation": "海の、大混乱。",
+      "explanation": "<strong>解説:</strong><br><ul><li>海から来た大災害！</li><li>戦場を荒らし回る自分の姿に酔いしれています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl26.mp3"
+    },
+    {
+      "id": "clancy_vl27",
+      "quote": "This isn't just a battle, it's a crustacean crusade.",
+      "translation": "これはただの戦いじゃない、甲殻類の聖戦だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>甲殻類の名誉をかけた戦い（クルセイド）。</li><li>話のスケールが壮大すぎますが、本人は大真面目です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl27.mp3"
+    },
+    {
+      "id": "clancy_vl28",
+      "quote": "I'm the terror of the tides.",
+      "translation": "俺は潮流の恐怖だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>海の伝説の怪物みたいな二つ名。</li><li>海賊王も裸足で逃げ出す強さです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl28.mp3"
+    },
+    {
+      "id": "clancy_vl29",
+      "quote": "Scuttle into the fray.",
+      "translation": "ちょこちょこと乱闘の中へ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>カニ歩きで戦場へ潜入！</li><li>「Scuttle（ちょこちょこ走る）」という表現がリアルです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl29.mp3"
+    },
+    {
+      "id": "clancy_vl30",
+      "quote": "Humans are overrated.",
+      "translation": "人間は過大評価されすぎだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「人間なんて大したことないね」というマウント。</li><li>甲殻類最強説を唱えています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl30.mp3"
+    },
+    {
+      "id": "clancy_vl31",
+      "quote": "Boiled and buttered!",
+      "translation": "茹でられて、バターを塗られた！",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時のセリフ。</li><li>一番美味しい食べられ方になっちゃいました。調理完了です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl31.mp3"
+    },
+    {
+      "id": "clancy_vl32",
+      "quote": "A pinch.",
+      "translation": "ひとつまみだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「塩ひとつまみ（A pinch of salt）」程度のこと、つまり「楽勝だ」という意味と、ハサミで「つねる（Pinch）」をかけた粋なセリフ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl32.mp3"
+    },
+    {
+      "id": "clancy_vl33",
+      "quote": "Crusty carnage!",
+      "translation": "甲殻の殺戮！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「甲殻類（Crustacean）」と「大虐殺（Carnage）」の韻踏み。</li><li>響きはポップですが、意味は凶悪です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl33.mp3"
+    },
+    {
+      "id": "clancy_vl34",
+      "quote": "Clancy is the name, going full lobster is the game.",
+      "translation": "名はクランシー、全力ロブスターが信条だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>昔の自己紹介の定型句。「全力ロブスター」ってどんな状態なんでしょうか？とにかく本気ってことですね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl34.mp3"
+    },
+    {
+      "id": "clancy_vl35",
+      "quote": "I'm on a lobster roll.",
+      "translation": "俺はロブスターロールに乗ってるぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「絶好調（On a roll）」と「ロブスターロール（サンドイッチ）」をかけたダジャレ。</li><li>美味しいし調子もいいし最高！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl35.mp3"
+    },
+    {
+      "id": "clancy_vl36",
+      "quote": "Lethargic langoustine.",
+      "translation": "気だるいアカザエビだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられてグッタリしてる自分を、高級食材「アカザエビ」に例えてます。</li><li>死んでも高級感は忘れません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl36.mp3"
+    },
+    {
+      "id": "clancy_vl37",
+      "quote": "Lobsteeeeer!",
+      "translation": "ロブスターーー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の種族名を叫んで突撃！</li><li>シンプルイズベスト！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl37.mp3"
+    },
+    {
+      "id": "clancy_vl38",
+      "quote": "Shell yeah, let's do this!",
+      "translation": "シェル・イェア、やるぞ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Hell yeah!（最高だぜ、やるぜ！）」のHellをShell（殻）に変えたジョーク。</li><li>気合十分です！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl38.mp3"
+    },
+    {
+      "id": "clancy_vl39",
+      "quote": "Feeling crabby!",
+      "translation": "イライラするぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Crabby（不機嫌な）」と「Crab（カニ）」をかけた表現。</li><li>ロブスターだけど、気分はカニ並みに横歩きしたくなるほどイライラしてるようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl39.mp3"
+    },
+    {
+      "id": "clancy_vl40",
+      "quote": "Crustaceous calamity!",
+      "translation": "甲殻類の大災害！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分が歩く災害であることをアピール。</li><li>頭文字をCで揃えた、語呂の良いフレーズです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl40.mp3"
+    },
+    {
+      "id": "clancy_vl41",
+      "quote": "Neptune awaits.",
+      "translation": "ネプチューンが待っている。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敗北時のセリフ。</li><li>海の神様（ネプチューン）の元へ還る…という、壮大な最期です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl41.mp3"
+    },
+    {
+      "id": "clancy_vl42",
+      "quote": "Son of a clambake!",
+      "translation": "なんてこった！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Son of a b****!（ちくしょう！）」をマイルドにした言い方。</li><li>「Clambake（貝の蒸し焼きパーティー）」を使うあたり、海鮮愛を感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/clancy_vl42.mp3"
+    }
+  ]
+}

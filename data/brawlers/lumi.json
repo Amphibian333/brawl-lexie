@@ -1,0 +1,395 @@
+{
+  "name": "ルミ",
+  "nameEn": "Lumi",
+  "rarity": "ultra-rare",
+  "role": "damage-dealer",
+  "quote": "※ルミは公式がまだ音声パックを出していないので音声は対応していません。Serving blast beats and broken teeth!",
+  "iconUrl": "https://i.imgur.com/Rul8olu.png",
+  "voicelines": [
+    {
+      "id": "lumi_vl1",
+      "quote": "Let's leave the cat on the table.",
+      "translation": "猫はテーブルの上に置いときましょ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>フィンランドの諺「猫をテーブルに上げる（本題に入る）」の直訳。</li><li>英語圏の人には意味不明なのが逆にクールな、独特の言い回しです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl1.mp3"
+    },
+    {
+      "id": "lumi_vl2",
+      "quote": "Drumroll, please! Ba dum tsh.",
+      "translation": "ドラムロール、お願い！バ・ダム・チッ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ジョークの後のオチの効果音（リムショット）。</li><li>自分で言っちゃうところが、場の盛り上げ役であるドラマーっぽいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl2.mp3"
+    },
+    {
+      "id": "lumi_vl3",
+      "quote": "Even the smallest cow has horn.",
+      "translation": "どんな小さな牛にも、ツノはあるものよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「窮鼠猫を噛む」的なことわざ。</li><li>小さくてもナメてかかると痛い目を見るわよ、という警告です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl3.mp3"
+    },
+    {
+      "id": "lumi_vl4",
+      "quote": "And so the forest answers as you scream.",
+      "translation": "そしてあなたが叫べば、森は答える。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「森は叫んだように答える（因果応報）」というフィンランドの格言。</li><li>北欧の森の神秘的で静かな怖さを感じさせます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl4.mp3"
+    },
+    {
+      "id": "lumi_vl5",
+      "quote": "I'm throwing my spoon in the corner.",
+      "translation": "私はスプーンを隅に投げているわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>フィンランド語で「死ぬ（諦める）」を意味する「スプーンを投げる」の直訳。</li><li>やられた時のセリフですが、言い回しがシュールすぎます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl5.mp3"
+    },
+    {
+      "id": "lumi_vl6",
+      "quote": "Serving blast beats and broken teeth!",
+      "translation": "ブラストビートと砕けた歯をお届けするわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ブラストビート」はメタルの高速ドラム連打のこと。</li><li>音楽と一緒に「折れた歯」までプレゼントする、過激なサービス精神です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl6.mp3"
+    },
+    {
+      "id": "lumi_vl7",
+      "quote": "I won! Yay! Can I go home now?",
+      "translation": "勝った！イェイ！もう家に帰っていい？",
+      "explanation": "<strong>解説:</strong><br><ul><li>勝った瞬間、すぐに定時退社したがるマイペースさ。</li><li>仕事（バトル）はきっちりこなすけど、プライベートも大事にするタイプです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl7.mp3"
+    },
+    {
+      "id": "lumi_vl8",
+      "quote": "Pain doesn't kill, but it makes you weak.",
+      "translation": "痛みは殺しはしない、でも弱くはさせるわね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「死ぬこと以外かすり傷」…とは言わず、「痛いと弱るよね」と現実的なことを言う冷静さ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl8.mp3"
+    },
+    {
+      "id": "lumi_vl9",
+      "quote": "You miss a beat, you pay the price.",
+      "translation": "ビートを一つ逃せば、代償を払うことになる。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ドラマーにとってリズムのズレは命取り。</li><li>戦場でも一瞬の遅れが死を招くという、プロの教訓です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl9.mp3"
+    },
+    {
+      "id": "lumi_vl10",
+      "quote": "Burnt my butt and sat on the blisters.",
+      "translation": "お尻を火傷して、その水ぶくれの上に座ったわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「踏んだり蹴ったり」を意味するフィンランドの言い回し。</li><li>サウナでの失敗談っぽく聞こえるのが面白いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl10.mp3"
+    },
+    {
+      "id": "lumi_vl11",
+      "quote": "Drums of doom go boom boom boom!",
+      "translation": "破滅のドラムが、ブンブンブンと鳴り響く！",
+      "explanation": "<strong>解説:</strong><br><ul><li>韻を踏んだリズミカルな攻撃ボイス。</li><li>重低音で敵を粉砕するイメージです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl11.mp3"
+    },
+    {
+      "id": "lumi_vl12",
+      "quote": "1, 2, 1, 2, 3, 4!",
+      "translation": "ワン、ツー、ワン、ツー、スリー、フォー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>演奏開始のカウント。</li><li>ここから激しいギグ（戦闘）が始まります！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl12.mp3"
+    },
+    {
+      "id": "lumi_vl13",
+      "quote": "This was a victory like wearing victory pants.",
+      "translation": "これは、勝利のパンツを履くような、そんな勝利だったわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>フィンランド独特の比喩表現なのか、ルミのオリジナルなのか。</li><li>とにかく「最高の気分」ってことだけは伝わります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl13.mp3"
+    },
+    {
+      "id": "lumi_vl14",
+      "quote": "Pain makes you grow, and suffering refines you.",
+      "translation": "痛みはあなたを成長させ、苦しみはあなたを磨き上げる。",
+      "explanation": "<strong>解説:</strong><br><ul><li>メタルバンドの歌詞みたいなストイックな哲学。</li><li>厳しい冬を生きる北欧の魂を感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl14.mp3"
+    },
+    {
+      "id": "lumi_vl15",
+      "quote": "Guess you can't handle my tempo.",
+      "translation": "私のテンポには、ついてこれないみたいね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『セッション』のような、鬼ドラマー発言。</li><li>「遅い！遅い！」とリズム感のない敵を見下しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl15.mp3"
+    },
+    {
+      "id": "lumi_vl16",
+      "quote": "Ei auta itku markkinoilla.",
+      "translation": "市場で泣いても無駄よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>フィンランド語のことわざ「覆水盆に返らず」。</li><li>「人前で泣いても誰も助けてくれないわよ」という、厳しい現実を突きつけます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl16.mp3"
+    },
+    {
+      "id": "lumi_vl17",
+      "quote": "Let's kick things up a notch!",
+      "translation": "もう一段階、レベルを上げましょう！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ギアを上げて本気を出す時の合図。</li><li>ここからBPM（テンポ）が上がります！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl17.mp3"
+    },
+    {
+      "id": "lumi_vl18",
+      "quote": "Didn't miss a beat!",
+      "translation": "ビートを一つも逃さなかったわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ノーミスでクリアした時の達成感。</li><li>「私ってば完璧」というドヤ顔が見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl18.mp3"
+    },
+    {
+      "id": "lumi_vl19",
+      "quote": "Life is not just dancing on roses.",
+      "translation": "人生は、バラの上で踊るだけじゃないのよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「人生甘くない」というフィンランドの格言の英訳。</li><li>バラの上で踊るのも痛そうですが、とにかく人生は厳しいのです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl19.mp3"
+    },
+    {
+      "id": "lumi_vl20",
+      "quote": "I wish you all the stamina.",
+      "translation": "あなたに、ありったけのスタミナがあらんことを。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「幸運を祈る」ではなく「スタミナを祈る」ところがポイント。</li><li>「私の演奏（攻撃）は長いわよ？耐えられる？」という皮肉です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl20.mp3"
+    },
+    {
+      "id": "lumi_vl21",
+      "quote": "Ei hätä ole tämän näköinen.",
+      "translation": "心配事なんて、こんな見た目じゃないわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>フィンランド語の決まり文句で「大したことないわよ」。</li><li>ピンチの時でも動じない、肝の座った性格です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl21.mp3"
+    },
+    {
+      "id": "lumi_vl22",
+      "quote": "Blast beat!",
+      "translation": "ブラストビート！",
+      "explanation": "<strong>解説:</strong><br><ul><li>必殺の高速連打！</li><li>ドラムスティックで敵をタコ殴りにします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl22.mp3"
+    },
+    {
+      "id": "lumi_vl23",
+      "quote": "This is deeply uncomfortable.",
+      "translation": "これは、非常に不快だわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ダメージを受けた時の感想。</li><li>「痛い」というより「不快」。冷静に怒っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl23.mp3"
+    },
+    {
+      "id": "lumi_vl24",
+      "quote": "I ran to the finish like a moose in a swamp.",
+      "translation": "沼の中のヘラジカのように、ゴールまで走ったわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>フィンランド名物「ヘラジカ」と「沼」を使った独特な比喩。</li><li>泥臭くても力強く進む、という意味でしょうか。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl24.mp3"
+    },
+    {
+      "id": "lumi_vl25",
+      "quote": "Pain is weakness leaving the body.",
+      "translation": "痛みとは、体から弱さが去っていくことよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>筋トレ界隈や軍隊でよく聞くマッチョな名言。</li><li>メタルドラマーには体力が必要ですからね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl25.mp3"
+    },
+    {
+      "id": "lumi_vl26",
+      "quote": "You just got drumrolled!",
+      "translation": "ドラムロールされちゃったわね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私のドラムの餌食になったな！」という勝利宣言。</li><li>敵をスティックで転がしたのかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl26.mp3"
+    },
+    {
+      "id": "lumi_vl27",
+      "quote": "I'm feeling a little offbeat.",
+      "translation": "ちょっと調子が狂ってるみたい。",
+      "explanation": "<strong>解説:</strong><br><ul><li>体調不良を「リズムが狂う（Offbeat）」と表現する音楽家らしさ。</li><li>本調子じゃない時の言い訳です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl27.mp3"
+    },
+    {
+      "id": "lumi_vl28",
+      "quote": "Drums of destruction!",
+      "translation": "破壊のドラムよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>中二病心くすぐる技名。</li><li>音圧で敵を破壊します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl28.mp3"
+    },
+    {
+      "id": "lumi_vl29",
+      "quote": "Are we done yet?",
+      "translation": "まだ終わらないの？",
+      "explanation": "<strong>解説:</strong><br><ul><li>飽きっぽい一面。「早く帰ってサウナ入りたい」という心の声が聞こえます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl29.mp3"
+    },
+    {
+      "id": "lumi_vl30",
+      "quote": "Voitto kotiin!",
+      "translation": "勝利を持ち帰るわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フィンランド語の応援フレーズ。「優勝カップを持って帰るぞ！」という気合です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl30.mp3"
+    },
+    {
+      "id": "lumi_vl31",
+      "quote": "Metal drummers don't tap out.",
+      "translation": "メタルドラマーは、ギブアップしないのよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「タップアウト（降参）」はしない、という不屈の精神。</li><li>どんなにツーバス連打がきつくても、演奏を止めないのがドラマーの誇りです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl31.mp3"
+    },
+    {
+      "id": "lumi_vl32",
+      "quote": "Joy and sorrow work hand in hand.",
+      "translation": "喜びと悲しみは、手を取り合って働くものよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>フィンランドのメランコリックな精神性。「幸せと不幸はセットよ」と悟っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl32.mp3"
+    },
+    {
+      "id": "lumi_vl33",
+      "quote": "Metal breakdown.",
+      "translation": "メタル・ブレイクダウン。",
+      "explanation": "<strong>解説:</strong><br><ul><li>曲のテンポが落ちて重くなる「ブレイクダウン」パートと、自分が倒れる（Breakdown）ことをかけた表現。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl33.mp3"
+    },
+    {
+      "id": "lumi_vl34",
+      "quote": "Time for some Brawler breaking beats!",
+      "translation": "ブロウラーを破壊するビートの時間よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を物理的に破壊するビートを刻みます。</li><li>音楽というより兵器です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl34.mp3"
+    },
+    {
+      "id": "lumi_vl35",
+      "quote": "Mosh pit ruless!",
+      "translation": "モッシュピットのルールよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「モッシュピット（ライブで客が暴れる場所）」では、ぶつかり合うのが当たり前。</li><li>「痛いのはお互い様よ」という乱闘の理屈です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl35.mp3"
+    },
+    {
+      "id": "lumi_vl36",
+      "quote": "Paradiddle of pain.",
+      "translation": "痛みのパラディドル。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「パラディドル」はドラムの基礎練習パターン。</li><li>基礎練習でさえ敵には苦痛を与える攻撃になります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl36.mp3"
+    },
+    {
+      "id": "lumi_vl37",
+      "quote": "I rock it, you just roll it.",
+      "translation": "私がロックさせる、あなたはただ転がるだけ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Rock & Roll」を分解して、「私はRock（かっこいい）、お前はRoll（転がる＝ダサい）」と格付けしています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl37.mp3"
+    },
+    {
+      "id": "lumi_vl38",
+      "quote": "Crashing like a cymbal.",
+      "translation": "シンバルのように、クラッシュするわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられて派手に倒れる様子を、シンバルの音に例えています。</li><li>最期まで音楽的です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl38.mp3"
+    },
+    {
+      "id": "lumi_vl39",
+      "quote": "Breaking the sound barrier!",
+      "translation": "音速の壁を突破する！",
+      "explanation": "<strong>解説:</strong><br><ul><li>音速を超えるほどのスピードで移動（またはドラム連打）！</li><li>速すぎて見えないかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl39.mp3"
+    },
+    {
+      "id": "lumi_vl40",
+      "quote": "Let's kick some pylly!",
+      "translation": "お尻を蹴り上げてやりましょう！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フィンランド語で「お尻（Pylly）」を蹴っ飛ばすぞ！という掛け声。</li><li>ちょっとお下品ですが、気合は十分です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl40.mp3"
+    },
+    {
+      "id": "lumi_vl41",
+      "quote": "There's still space behind the sauna.",
+      "translation": "サウナの裏には、まだスペースがあるわよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>フィンランドのブラックジョーク。「サウナの裏」は、昔「始末したものを隠す場所」とされていたとか…。</li><li>つまり「お前の墓場はそこよ」という意味です。怖すぎ！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl41.mp3"
+    },
+    {
+      "id": "lumi_vl42",
+      "quote": "Heittää löylyä kuin sauna majuri?",
+      "translation": "サウナ少佐みたいに、ロウリュする？",
+      "explanation": "<strong>解説:</strong><br><ul><li>サウナ奉行（ロウリュを仕切る人）のことを「サウナ少佐」と呼ぶユーモア。</li><li>熱い蒸気（攻撃）をお見舞いしてやるわ、ということです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl42.mp3"
+    },
+    {
+      "id": "lumi_vl43",
+      "quote": "Going in at 200 beats per minute.",
+      "translation": "BPM200で突入するわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>BPM200はかなりの高速テンポ。</li><li>心拍数もテンションも爆上がりで突撃します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl43.mp3"
+    },
+    {
+      "id": "lumi_vl44",
+      "quote": "I double kicked you to oblivion!",
+      "translation": "ダブルキックで、あなたを忘却の彼方へ送ったわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ドラムの「ツーバス（ダブルキック）」で敵を蹴散らした！</li><li>物理的なキックなのか、音圧なのかは不明です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl44.mp3"
+    },
+    {
+      "id": "lumi_vl45",
+      "quote": "I won't be getting up from this.",
+      "translation": "これからは、もう立ち上がれないでしょうね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>完全にノックアウトされた時のセリフ。</li><li>「もう無理、寝かせて」という諦めモードです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl45.mp3"
+    },
+    {
+      "id": "lumi_vl46",
+      "quote": "Soittaa kuin hullu myrskyn keskellä!",
+      "translation": "嵐の真ん中で、狂ったように演奏する！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フィンランド語で叫ぶ情熱的なセリフ。</li><li>周りがカオスであればあるほど燃える、生粋のライブパフォーマーです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl46.mp3"
+    },
+    {
+      "id": "lumi_vl47",
+      "quote": "Nyt mennään 200 BPM.",
+      "translation": "今、BPM200で行くわよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>フィンランド語版の「BPM200で突入！」。</li><li>母国語で気合を入れ直します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl47.mp3"
+    },
+    {
+      "id": "lumi_vl48",
+      "quote": "The deceased do not complain!",
+      "translation": "亡くなった者は、文句を言わないものよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「死人に口なし」。</li><li>倒した敵に対して「静かになって清々したわ」と言い放つ冷徹さ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl48.mp3"
+    },
+    {
+      "id": "lumi_vl49",
+      "quote": "The drums of doom are calling.",
+      "translation": "破滅のドラムが、呼んでいる。",
+      "explanation": "<strong>解説:</strong><br><ul><li>地獄からの呼び声ならぬ、破滅のドラム音。</li><li>私が叩くドラムが、お前の終わりの合図よ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl49.mp3"
+    },
+    {
+      "id": "lumi_vl50",
+      "quote": "Let's jump into cold water!",
+      "translation": "冷水に飛び込みましょう！",
+      "explanation": "<strong>解説:</strong><br><ul><li>サウナの後は冷たい湖へダイブ！</li><li>フィンランド式のリフレッシュ方法を戦場に持ち込んでます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl50.mp3"
+    },
+    {
+      "id": "lumi_vl51",
+      "quote": "Tulta munille!",
+      "translation": "タマに火をつけろ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フィンランド軍隊式の激しい掛け声（直訳は股間に火をつけろ）。</li><li>「全力でいけ！」という意味のスラングです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl51.mp3"
+    },
+    {
+      "id": "lumi_vl52",
+      "quote": "Ojasta allikkoon.",
+      "translation": "側溝から、水たまりへ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「一難去ってまた一難」のフィンランド語版。</li><li>溝から這い上がったら、また水たまりに落ちた…という踏んだり蹴ったりな状況。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl52.mp3"
+    },
+    {
+      "id": "lumi_vl53",
+      "quote": "Aika aikaa kutakin, sanoi pässi kun päätä leikattiin.",
+      "translation": "『何事にも時がある』と、首を斬られる時に雄羊は言った。",
+      "explanation": "<strong>解説:</strong><br><ul><li>フィンランドのブラックジョーク。「終わりの時は誰にでも来る」という悟り。</li><li>死ぬ間際にこんなことわざが出るなんて、肝が据わりすぎです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl53.mp3"
+    },
+    {
+      "id": "lumi_vl54",
+      "quote": "I get my kicks from my sticks!",
+      "translation": "私のスティックが、私を興奮させるの！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Kick（興奮）」と「Stick（ドラムスティック）」で韻を踏んだセリフ。</li><li>ドラムを叩くことこそが私の生きがい！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl54.mp3"
+    },
+    {
+      "id": "lumi_vl55",
+      "quote": "Anta tulla lunta tupaa ja jäitä porstua!",
+      "translation": "小屋に雪を、玄関に氷を、降らせてみなさい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「雪でも氷でも何でも来い！」という、フィンランド人ならではの挑発。</li><li>どんな過酷な状況でも受けて立つという覚悟です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lumi_vl55.mp3"
+    }
+  ]
+}

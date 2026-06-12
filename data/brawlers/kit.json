@@ -1,0 +1,297 @@
+{
+  "name": "キット",
+  "nameEn": "Kit",
+  "rarity": "legend-rare",
+  "role": "support",
+  "quote": "Meow!",
+  "iconUrl": "https://i.imgur.com/5QJkniM.png",
+  "voicelines": [
+    {
+      "id": "kit_vl1",
+      "quote": "Thrilled to be here, really.",
+      "translation": "ここにいられて、本当に感激だよ（棒読み）。",
+      "explanation": "<strong>解説:</strong><br><ul><li>声のトーンが明らかに死んでいる皮肉な挨拶。</li><li>「本当はこんなところ来たくなかった」という本音がダダ漏れです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl1.mp3"
+    },
+    {
+      "id": "kit_vl2",
+      "quote": "Have waited all my nine lives for this moment.",
+      "translation": "この瞬間のために、僕の9つの命を全て待ちわびたよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「猫には命が9つある」という伝説を使った大げさな表現。</li><li>生涯をかけて待ち望んだ（という設定の）セリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl2.mp3"
+    },
+    {
+      "id": "kit_vl3",
+      "quote": "Now, it's purr-sonal.",
+      "translation": "さて、これは個人的な恨みだよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Personal（個人的）」と猫の「Purr（ゴロゴロ音）」をかけたダジャレ。</li><li>可愛い音を出してますが、目は笑っていません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl3.mp3"
+    },
+    {
+      "id": "kit_vl4",
+      "quote": "Purr-fect.",
+      "translation": "ニャーフェクト。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Perfect」と「Purr」をかけた定番の猫ジョーク。</li><li>自分のプレイを自画自賛するナルシストな一面です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl4.mp3"
+    },
+    {
+      "id": "kit_vl5",
+      "quote": "Huh, what a catastrophe.",
+      "translation": "ふん、なんて大惨事なんだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Catastrophe（大惨事）」の中に「Cat（猫）」が入っている言葉遊び。</li><li>やられた時に「なんてことだ！」と嘆いています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl5.mp3"
+    },
+    {
+      "id": "kit_vl6",
+      "quote": "Feline frenzy!",
+      "translation": "ネコの狂乱！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Feline（ネコ科）」の本能が目覚めた瞬間。</li><li>狂ったようにひっかき回す、野性味あふれる攻撃です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl6.mp3"
+    },
+    {
+      "id": "kit_vl7",
+      "quote": "Wow, I'm a cat. Try to get over it.",
+      "translation": "わぉ、僕は猫だよ。早くその事実を受け入れたらどうだい。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「たかが猫に負けたの？」と相手を煽るセリフ。</li><li>元スター俳優ならではの上から目線です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl7.mp3"
+    },
+    {
+      "id": "kit_vl8",
+      "quote": "I'm a cat, of course I win.",
+      "translation": "僕は猫だもの、勝って当然さ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>猫は世界の支配者だから勝つのは当たり前、という傲慢な理屈。</li><li>猫好きには反論できません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl8.mp3"
+    },
+    {
+      "id": "kit_vl9",
+      "quote": "But... I'm a cat.",
+      "translation": "でも…僕は猫なのに。",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けた時の言い訳。「猫だから手加減してよ」という甘えが見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl9.mp3"
+    },
+    {
+      "id": "kit_vl10",
+      "quote": "You are gonna cry, aren't you?",
+      "translation": "君、泣くんでしょ？",
+      "explanation": "<strong>解説:</strong><br><ul><li>倒した相手を「泣き虫」扱いする意地悪な煽り。</li><li>サディスティックな一面が垣間見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl10.mp3"
+    },
+    {
+      "id": "kit_vl11",
+      "quote": "Pounce, flounce, and bounce!",
+      "translation": "飛びかかって、飛び跳ねて、そしてバウンドする！",
+      "explanation": "<strong>解説:</strong><br><ul><li>猫の動きを表すリズミカルな言葉。</li><li>ウルトで敵に飛び乗る時の楽しげな様子です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl11.mp3"
+    },
+    {
+      "id": "kit_vl12",
+      "quote": "Meow! Sorry, got caught up in the moment.",
+      "translation": "ニャー！ごめん、つい、その場のノリで。",
+      "explanation": "<strong>解説:</strong><br><ul><li>本能で飛びかかっちゃった時の言い訳。</li><li>「悪気はなかったんだ（嘘）」という感じです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl12.mp3"
+    },
+    {
+      "id": "kit_vl13",
+      "quote": "Live, love, laugh, and lick.",
+      "translation": "生きて、愛して、笑って、そして舐める。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Live, Love, Laugh（人生を大切に）」という標語のパロディ。</li><li>最後に「Lick（舐める）」を足すのが猫流のライフスタイルです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl13.mp3"
+    },
+    {
+      "id": "kit_vl14",
+      "quote": "Cat's got your tongue? Yes, I have.",
+      "translation": "どうして黙っているんだい？そう、僕が君の舌を頂いたのさ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Cat got your tongue?（なぜ黙ってるの？）」という慣用句に対する、ホラーな回答。</li><li>本当に舌を引っこ抜いたかのような怖さがあります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl14.mp3"
+    },
+    {
+      "id": "kit_vl15",
+      "quote": "Gonna start running out of lives.",
+      "translation": "そろそろ命が尽き始めそうだな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「9つの命」も残り少なくなってきたというピンチの合図。</li><li>ゲームオーバーが近づいています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl15.mp3"
+    },
+    {
+      "id": "kit_vl16",
+      "quote": "Friends forever!",
+      "translation": "永遠に友達だよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>味方にくっついた時のセリフ。</li><li>可愛い言葉ですが、寄生しているようにも見えてちょっと怖いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl16.mp3"
+    },
+    {
+      "id": "kit_vl17",
+      "quote": "Cat's out of the bag.",
+      "translation": "猫が袋から出ちゃった。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「秘密がバレた」という意味の慣用句。</li><li>隠れていた場所から飛び出した時や、本性を現した時に。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl17.mp3"
+    },
+    {
+      "id": "kit_vl18",
+      "quote": "Something smells fishy here, and I love it!",
+      "translation": "何かここ、うさん臭い匂いがするね、そして僕はそれが大好きだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Fishy（魚臭い／怪しい）」というダブルミーニング。</li><li>猫だから魚の匂い（とトラブル）が大好物なのです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl18.mp3"
+    },
+    {
+      "id": "kit_vl20",
+      "quote": "You've got a face for failure.",
+      "translation": "君は、失敗向きの顔をしてるね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Face for radio（声はいいけど顔は…）」のパロディ。</li><li>「負け顔が似合ってるよ」という強烈な皮肉です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl20.mp3"
+    },
+    {
+      "id": "kit_vl21",
+      "quote": "Ahh, finally some rest.",
+      "translation": "あぁ、やっと一休みできる。",
+      "explanation": "<strong>解説:</strong><br><ul><li>勝利後の安堵。</li><li>早く家に帰って寝たい、という本音が漏れています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl21.mp3"
+    },
+    {
+      "id": "kit_vl22",
+      "quote": "You are stuck with me-ow!",
+      "translation": "あなたは私と、ニャいるしかないのよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Stuck with me（私から離れられない）」と「Meow」をかけたダジャレ。</li><li>味方にくっついた時の「もう逃げられないよ」という愛の告白（束縛）。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl22.mp3"
+    },
+    {
+      "id": "kit_vl23",
+      "quote": "Don't start believing.",
+      "translation": "信じ始めないことね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>名曲「Don't Stop Believin'」の全否定。</li><li>「希望なんて持つな」と突き放す、リアリストな猫です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl23.mp3"
+    },
+    {
+      "id": "kit_vl24",
+      "quote": "Of course, I'm paw-some!",
+      "translation": "もちろん、僕はポーサムなのさ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Awesome（最高）」と「Paw（肉球）」をかけた定番ジョーク。</li><li>自信満々のドヤ顔が目に浮かびます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl24.mp3"
+    },
+    {
+      "id": "kit_vl25",
+      "quote": "Me-ow!",
+      "translation": "ミー、オウ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Meow（ニャー）」を「Me, Ow!（僕、痛い！）」と分解した高度な言葉遊び。</li><li>ダメージを受けた時の悲鳴です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl25.mp3"
+    },
+    {
+      "id": "kit_vl26",
+      "quote": "Smartphones, stupid people.",
+      "translation": "スマートフォン、愚かな人々。",
+      "explanation": "<strong>解説:</strong><br><ul><li>現代社会を斬る風刺的な一言。</li><li>人間を見下している猫視点ならではの辛辣な意見です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl26.mp3"
+    },
+    {
+      "id": "kit_vl27",
+      "quote": "Was this ever fun?",
+      "translation": "これって、楽しいことあったっけ？",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦いに虚しさを感じているのか、単に飽きたのか。</li><li>冷めた態度が逆にクールです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl27.mp3"
+    },
+    {
+      "id": "kit_vl28",
+      "quote": "Claws of the love!",
+      "translation": "愛の爪よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ひっかき攻撃を「愛」と呼ぶ歪んだ愛情表現。</li><li>猫の甘噛み（ガチ噛み）みたいなものです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl28.mp3"
+    },
+    {
+      "id": "kit_vl29",
+      "quote": "Ugh, whe-, wher-, where did that small red dot go?",
+      "translation": "うぅ、あ、あの、あの赤い点はどこへ行ったんだ？",
+      "explanation": "<strong>解説:</strong><br><ul><li>レーザーポインターの赤い点を探してキョロキョロ。</li><li>どんなに賢くても、猫の本能には抗えません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl29.mp3"
+    },
+    {
+      "id": "kit_vl30",
+      "quote": "You aren't kitten around, are you?",
+      "translation": "あなた、本気でやってるんじゃないでしょうね？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Kidding（冗談）」と「Kitten（子猫）」をかけたダジャレ。</li><li>相手のマジ攻撃にちょっと引いている様子。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl30.mp3"
+    },
+    {
+      "id": "kit_vl31",
+      "quote": "Feline good.",
+      "translation": "気分はネコ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Feeling good（いい気分）」と「Feline（ネコ科）」をかけたダジャレ。</li><li>調子がいい時の鼻歌交じりのセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl31.mp3"
+    },
+    {
+      "id": "kit_vl32",
+      "quote": "Back to the Internet.",
+      "translation": "インターネットに帰るよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられたらネットの世界（猫動画の聖地）へ帰還。</li><li>現代の猫にとっての故郷はインターネットなのです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl32.mp3"
+    },
+    {
+      "id": "kit_vl33",
+      "quote": "Oh, did I smell tuna?",
+      "translation": "おや、ツナの匂いがしたかな？",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦いの最中にご飯の匂いに釣られる自由奔放さ。</li><li>ツナ缶の音には敏感です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl33.mp3"
+    },
+    {
+      "id": "kit_vl34",
+      "quote": "Claws are out, free facelift.",
+      "translation": "爪は出てるわ、フェイスリフトは無料よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>顔をひっかいて「整形手術（フェイスリフト）してあげる」というブラックジョーク。</li><li>美容外科医もびっくりの荒療治です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl34.mp3"
+    },
+    {
+      "id": "kit_vl35",
+      "quote": "Making everyone else look good. Well done.",
+      "translation": "他の皆を引き立ててやってるのさ。よくやったもんだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けたのは「あえて引き立て役になってやったからだ」という究極の負け惜しみ。</li><li>プライドの高さはエベレスト級です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl35.mp3"
+    },
+    {
+      "id": "kit_vl36",
+      "quote": "Ugh, gotta go lick myself.",
+      "translation": "あー、自分を舐めに行かないと。",
+      "explanation": "<strong>解説:</strong><br><ul><li>傷を癒やすための毛づくろい宣言。</li><li>猫にとっては大事な儀式です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl36.mp3"
+    },
+    {
+      "id": "kit_vl37",
+      "quote": "Come on, let's get physical. Physical.",
+      "translation": "さあ、フィジカルにいこうぜ。フィジカルに。",
+      "explanation": "<strong>解説:</strong><br><ul><li>オリビア・ニュートン＝ジョンの名曲の歌詞。</li><li>肉弾戦（ひっかき合い）への誘いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl37.mp3"
+    },
+    {
+      "id": "kit_vl38",
+      "quote": "Crying cat face.",
+      "translation": "泣き猫の顔。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ネットで有名な「泣いてる猫のミーム（画像）」のこと。</li><li>自分の今の顔がそれみたいだ、と自虐しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl38.mp3"
+    },
+    {
+      "id": "kit_vl39",
+      "quote": "You aimed low, and managed to miss the mark.",
+      "translation": "あなたは低く狙って、それでも的を外したわね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「志も低い上に、それすら達成できないなんて」という最大級の侮辱。</li><li>言葉の爪も鋭いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl39.mp3"
+    },
+    {
+      "id": "kit_vl40",
+      "quote": "Has it really come to this?",
+      "translation": "本当に、こんなことになっちゃったの？",
+      "explanation": "<strong>解説:</strong><br><ul><li>落ちぶれた現状を嘆くようなセリフ。</li><li>元スターの哀愁が漂います。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl40.mp3"
+    },
+    {
+      "id": "kit_vl41",
+      "quote": "Mark my claws, you'll remember this moment.",
+      "translation": "私の爪に刻んでおきなさい、あなたはこの瞬間を忘れないわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Mark my words（私の言葉を覚えておけ）」のパロディ。</li><li>言葉じゃなくて「爪痕」を記憶に刻み込みます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl41.mp3"
+    },
+    {
+      "id": "kit_vl42",
+      "quote": "Now, it's my turn.",
+      "translation": "さあ、私の番よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>反撃開始の合図。</li><li>ここから猫の逆襲が始まります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kit_vl42.mp3"
+    }
+  ]
+}

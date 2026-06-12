@@ -1,0 +1,24 @@
+{
+  "name": "グレイ",
+  "nameEn": "Gray",
+  "rarity": "ultra-rare",
+  "role": "support",
+  "quote": "Pew!",
+  "iconUrl": "https://i.imgur.com/KpmI3nv.png",
+  "voicelines": [
+    {
+      "id": "gray_vl1",
+      "quote": "Pew!",
+      "translation": "ピュー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>無口なパントマイマーが、指鉄砲を撃つ時だけ自分で効果音を言っちゃうお茶目さ！</li><li>昔のゲームや漫画みたいなレトロな音が可愛いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/gray_vl1.mp3"
+    },
+    {
+      "id": "gray_vl2",
+      "quote": "Pewoing!",
+      "translation": "ピューイン！",
+      "explanation": "<strong>解説:</strong><br><ul><li>さらに気の抜けた発射音。</li><li>ワープホールを作る時の不思議な音を口で表現してるのかも？緊迫感ゼロなのがグレイらしいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/gray_vl2.mp3"
+    }
+  ]
+}

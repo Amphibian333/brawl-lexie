@@ -1,4 +1,5 @@
       // ■ 変数定義
+      let brawlers = [];
       let filteredBrawlers = [];
       let lastScrollPosition = 0;
       let currentAudio = null;
@@ -9,6 +10,34 @@
       let isJpHidden = localStorage.getItem('lexie_jp_hidden') === 'true';
       let playbackRate = parseFloat(localStorage.getItem('lexie_playback_rate') || '1');
       let fontSize = localStorage.getItem('lexie_font_size') || 'md';
+
+      async function loadBrawlersIndex() {
+        try {
+          const response = await fetch('data/brawlers-index.json');
+          brawlers = await response.json();
+        } catch (err) {
+          console.error("Failed to load brawlers-index.json", err);
+        }
+      }
+
+      async function ensureBrawlersLoaded(voicelineIds) {
+        if (!voicelineIds || voicelineIds.length === 0) return;
+        const fetchPromises = [];
+        brawlers.forEach(b => {
+          const needsLoad = voicelineIds.some(vid => b.voicelineIds && b.voicelineIds.includes(vid));
+          if (needsLoad && !b.voicelines) {
+            const p = fetch(`data/brawlers/${b.fileId}.json`)
+              .then(res => res.json())
+              .then(detail => {
+                b.voicelines = detail.voicelines;
+                b.tiktokEmbed = detail.tiktokEmbed;
+              })
+              .catch(err => console.error(`Failed to preload brawler ${b.nameEn}:`, err));
+            fetchPromises.push(p);
+          }
+        });
+        await Promise.all(fetchPromises);
+      }
 
       // ■ 要素の取得
       const searchInput = document.getElementById("brawler-search");
@@ -324,10 +353,10 @@
         };
       }
 
-      // 単語帳詳細ページ（Phase 3 で実装）
-      function renderDeckDetail(deckId) {
+      async function renderDeckDetail(deckId) {
         const deck = getDecks().find(d => d.id === deckId);
         if (!deck) return;
+        await ensureBrawlersLoaded(deck.voicelineIds);
         const detailView = document.getElementById('deck-detail-view');
         const listView = document.getElementById('deck-list-view');
         listView.style.display = 'none';
@@ -471,9 +500,10 @@
       // 3. お気に入りページの表示（レンダリング）
       // ----------------------------------------------------
       // ▼▼▼ 2. 修正版 renderFavoritesPage（ここからコピー） ▼▼▼
-      function renderFavoritesPage() {
+      async function renderFavoritesPage() {
         const favBrawlersList = getFavorites();
         const favVoicelinesList = getVoicelineFavorites();
+        await ensureBrawlersLoaded(favVoicelinesList);
         const searchText = favSearchInput.value.toLowerCase();
         const onlyVoicelines = showVoicelinesOnlyCheckbox.checked;
 
@@ -733,8 +763,18 @@
           <div class="role">${getRoleText(b.role)}</div>
           <div class="quote">"${b.quote}"</div>
         `;
-        card.onclick = () => {
+        card.onclick = async () => {
           lastScrollPosition = window.scrollY;
+          if (!b.voicelines) {
+            try {
+              const response = await fetch(`data/brawlers/${b.fileId}.json`);
+              const detail = await response.json();
+              b.voicelines = detail.voicelines;
+              b.tiktokEmbed = detail.tiktokEmbed;
+            } catch (err) {
+              console.error("Failed to load brawler details:", err);
+            }
+          }
           displayBrawlerDetail(b);
         };
         const favBtn = card.querySelector(".fav-btn");
@@ -1198,7 +1238,13 @@
           window.scrollTo({ top: 0, behavior: "smooth" });
 
         migrateMemorizeHard();
-        if (typeof brawlers !== "undefined") filterBrawlers();
+        loadBrawlersIndex().then(() => {
+          filterBrawlers();
+          const currentActiveLink = document.querySelector('.nav-link.active');
+          if (currentActiveLink && currentActiveLink.dataset.target === 'favorites') {
+            renderFavoritesPage();
+          }
+        });
         embedTikTokVideo("7507203728039070996", "tiktok-video-1");
 
         // デッキ選択ドロワー：オーバーレイ外クリックで閉じる

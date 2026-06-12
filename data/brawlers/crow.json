@@ -1,0 +1,122 @@
+{
+  "name": "クロウ",
+  "nameEn": "Crow",
+  "rarity": "legend-rare",
+  "role": "assassin",
+  "quote": "I'm the boss of bosses!",
+  "iconUrl": "https://i.imgur.com/7Px47LD.png",
+  "voicelines": [
+    {
+      "id": "crow_vl1",
+      "quote": "Let's settle this beef.",
+      "translation": "このビーフ、カタをつけようぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Beef（ビーフ）」はスラングで「揉め事、抗争」のこと。食べ物ではありません。</li><li>「この抗争に決着をつけるぞ」という、ギャング映画のような開戦の合図です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl1.mp3"
+    },
+    {
+      "id": "crow_vl2",
+      "quote": "I'm the boss of bosses!",
+      "translation": "俺はボスの中のボスだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>マフィア用語で「カポ・ディ・トゥッティ・カピ（全ボスの頂点）」のこと。</li><li>スターパークの裏社会を牛耳る、圧倒的な貫禄を見せつけます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl2.mp3"
+    },
+    {
+      "id": "crow_vl3",
+      "quote": "You cockroach!",
+      "translation": "このゴキブリ野郎！",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『スカーフェイス』でアル・パチーノが叫ぶ有名な罵倒。</li><li>敵を害虫扱いして踏み潰す、冷酷なアサシンの一面です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl3.mp3"
+    },
+    {
+      "id": "crow_vl4",
+      "quote": "Nice piece of work!",
+      "translation": "見事な仕事っぷりだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>素直に褒めている場合もありますが、文脈によっては「やれやれ、とんでもない奴だ」という呆れや皮肉として使われます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl4.mp3"
+    },
+    {
+      "id": "crow_vl5",
+      "quote": "Hey, you clipped me.",
+      "translation": "おい、今のはかすったぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>被弾しても「かすり傷（Clip）だ」と言い張るタフガイ。</li><li>弱みを見せないのがボスの流儀です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl5.mp3"
+    },
+    {
+      "id": "crow_vl6",
+      "quote": "Ka-kaw!",
+      "translation": "カァー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>カラスの本能が出た鳴き声。</li><li>ウルトで飛ぶ瞬間に聞こえると、敵にとっては絶望の合図です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl6.mp3"
+    },
+    {
+      "id": "crow_vl7",
+      "quote": "I smell a rat.",
+      "translation": "裏切り者の匂いがするな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「I smell a rat（ネズミの臭いがする）」は、「何か怪しい」「裏切り者がいる」という慣用句。</li><li>勘の鋭いボスからは逃げられません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl7.mp3"
+    },
+    {
+      "id": "crow_vl8",
+      "quote": "Talk is cheap.",
+      "translation": "口だけなら、なんとでも言える。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「御託はいいから行動で示せ」という厳しい姿勢。</li><li>プロフェッショナルな殺し屋の美学です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl8.mp3"
+    },
+    {
+      "id": "crow_vl9",
+      "quote": "Woah woah woah!",
+      "translation": "おっとっと！",
+      "explanation": "<strong>解説:</strong><br><ul><li>攻撃を食らった時や、予想外のことが起きた時のリアクション。</li><li>冷静なボスも少し焦る時があるようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl9.mp3"
+    },
+    {
+      "id": "crow_vl10",
+      "quote": "Sleeping with the fishes.",
+      "translation": "魚と一緒に寝ることになるぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『ゴッドファーザー』由来の有名なマフィアの隠語。</li><li>「殺されて海に沈められる（土左衛門になる）」という直接的な殺害予告です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl10.mp3"
+    },
+    {
+      "id": "crow_vl11",
+      "quote": "Don't mess with my crew.",
+      "translation": "俺のクルーに手を出すな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>仲間（ファミリー）を大切にする、仁義に厚い一面。</li><li>ブルやビビを守る兄貴分としてのセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl11.mp3"
+    },
+    {
+      "id": "crow_vl12",
+      "quote": "I'm walking here!",
+      "translation": "こっちは歩いてるんだぞ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『真夜中のカーボーイ』のアドリブ名シーンの引用。</li><li>「俺の進路を塞ぐんじゃねえ」という威嚇です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl12.mp3"
+    },
+    {
+      "id": "crow_vl13",
+      "quote": "I always get my mark.",
+      "translation": "俺は必ず、ターゲットを仕留める。",
+      "explanation": "<strong>解説:</strong><br><ul><li>仕事人のプライド。</li><li>一度狙った獲物（Mark）は絶対に逃がさない、アサシンの鑑です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl13.mp3"
+    },
+    {
+      "id": "crow_vl14",
+      "quote": "Get outta here.",
+      "translation": "とっとと消えな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>雑魚敵をあしらう時のセリフ。</li><li>「お前じゃ話にならん」という余裕が漂います。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl14.mp3"
+    },
+    {
+      "id": "crow_vl15",
+      "quote": "You looking at me?",
+      "translation": "俺になんか用か？",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『タクシードライバー』で、ロバート・デ・ニーロが鏡に向かって言う有名な独り言。</li><li>目を合わせただけで喧嘩になりそうな雰囲気です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl15.mp3"
+    },
+    {
+      "id": "crow_vl16",
+      "quote": "Hey! Watch out!",
+      "translation": "おい！気をつけろ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>シンプルな警告ですが、ドスの効いた声で言われると威圧感抜群。</li><li>「どこ見て歩いてんだ」と因縁をつけているようにも聞こえます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/crow_vl16.mp3"
+    }
+  ]
+}

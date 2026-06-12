@@ -1,0 +1,136 @@
+{
+  "name": "ブル",
+  "nameEn": "Bull",
+  "rarity": "rare",
+  "role": "tank",
+  "quote": "Don't mess with the Bull!",
+  "iconUrl": "https://i.imgur.com/xESQplM.png",
+  "voicelines": [
+    {
+      "id": "bull_vl1",
+      "quote": "You better Bull-lieve it!",
+      "translation": "ブルを信じとけってな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"believe it\"（それを信じろ）と、自身の名前 \"Bull\" を掛け合わせた言葉遊び（ダジャレ）です。</li><li>\"You better\" は「～した方がいい」という、ただの助言よりも強い勧告や警告のニュアンスを持ちます。</li></ul><strong>英文法:</strong><br>\"You better + 動詞の原形\" は \"You had better...\" の口語的な省略形です。「～しないと（悪いことが起きるぞ）」という含みを持つことがあります。<br><br><strong>🧠豆知識:</strong><br>ゲームキャラクターが自身の名前をセリフに織り交ぜるダジャレは、キャラクターの個性を際立たせ、プレイヤーに親しみやすさを感じさせる定番の手法です。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl1.mp3"
+    },
+    {
+      "id": "bull_vl2",
+      "quote": "Don't mess with the Bull!",
+      "translation": "このブル様に逆らうな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「オレにちょっかいを出すな」「オレを怒らせるな」という意味の、非常に直接的で強い警告のフレーズです。</li><li>タフで短気なキャラクターの決め台詞として、映画やゲームで頻繁に使われます。</li></ul><strong>英文法:</strong><br>\"Don't + 動詞の原形\" で始まる否定の命令文です。\"mess with ~\" は「～に手出しをする、～をからかう、～を怒らせる」といった意味を持つ句動詞です。<br><br><strong>🧠豆知識:</strong><br>このセリフは、相手との間に明確な一線を引き、それ以上踏み込んだら容赦しないという最終警告のニュアンスを持っています。ブルのキャラクター性を一言で表す完璧なセリフです。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl2.mp3"
+    },
+    {
+      "id": "bull_vl3",
+      "quote": "And stay down!",
+      "translation": "そのまま寝てな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手をノックダウンさせた後、「起き上がってくるな」と追い打ちをかける、非常に攻撃的なセリフです。</li></ul><strong>英文法:</strong><br>\"Stay down\" は「伏せていろ」「起き上がるな」という意味の命令文です。文頭の \"And\" は、直前の行動（攻撃など）に続けて発言していることを示します。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl3.mp3"
+    },
+    {
+      "id": "bull_vl4",
+      "quote": "You got me.",
+      "translation": "やられたぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「やられた」「一本取られた」という意味で、自身の敗北を認める際に使われる口語表現です。</li><li>文字通り「君が私を捕らえた」という意味から転じて、「君の勝ちだ」というニュアンスになります。</li></ul><strong>英文法:</strong><br>\"You got me.\" は \"You have got me.\" の省略形で、ここでは相手の行動が完了し、自分がその結果（捕まる、負ける）を受けた状態を示します。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl4.mp3"
+    },
+    {
+      "id": "bull_vl5",
+      "quote": "Bulldozer!",
+      "translation": "ブルドーザーだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身の名前 \"Bull\" と、強力な突進力を持つ建設機械「ブルドーザー（Bulldozer）」を掛けています。</li><li>自身の破壊的な突進力やパワーを象徴する雄叫びです。</li></ul><strong>英文法:</strong><br>名詞を単独で叫ぶことで、自身のパワーを宣言する感嘆文として機能しています。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl5.mp3"
+    },
+    {
+      "id": "bull_vl6",
+      "quote": "Yo, I'm in charge.",
+      "translation": "よぉ、オレが仕切ってるぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Yo\" は非常にカジュアルな呼びかけ。</li><li>\"in charge\" は「責任者である」「担当している」という意味で、ここでは「この場の支配者はオレだ」と宣言しています。</li></ul><strong>英文法:</strong><br>「主語 + be動詞 + in charge」で「（主語）が責任者だ」という意味になる、一般的なイディオムです。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl6.mp3"
+    },
+    {
+      "id": "bull_vl7",
+      "quote": "Bull laughs",
+      "translation": "（ブルが笑う）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>自信に満ちた、あるいは相手を威圧するような力強い笑い声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"laugh\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl7.mp3"
+    },
+    {
+      "id": "bull_vl8",
+      "quote": "Not funny!",
+      "translation": "笑えねぇぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の行動や状況が「面白くない」「不愉快だ」と感じた時の、怒りや不満のこもったセリフです。</li></ul><strong>英文法:</strong><br>\"It is not funny.\" の主語と動詞が省略された、非常に短い否定文です。口語では頻繁に使われます。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl8.mp3"
+    },
+    {
+      "id": "bull_vl9",
+      "quote": "Bull sad...",
+      "translation": "ブル、悲しい…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>屈強なキャラクターが、あえて子供のように自分を三人称で呼び、悲しみを表現することで、ギャップのあるコミカルな印象を与えます。</li></ul><strong>英文法:</strong><br>\"Bull is sad.\" という文が、感情を込めて途切れ途切れに話すニュアンスで、動詞 \"is\" が省略されています。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl9.mp3"
+    },
+    {
+      "id": "bull_vl10",
+      "quote": "Charge!",
+      "translation": "突撃！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>戦闘や攻撃を開始する際の、シンプルで力強い命令です。特に、直線的に突進する攻撃を指すことが多いです。</li></ul><strong>英文法:</strong><br>動詞 \"Charge\" の原形をそのまま使った命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl10.mp3"
+    },
+    {
+      "id": "bull_vl11",
+      "quote": "You wanna brawl?",
+      "translation": "やりてぇのか？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"wanna\" は \"want to\" の非常にカジュアルな口語の短縮形です。</li><li>\"brawl\" は「（ルール無用の）大乱闘、殴り合いのケンカ」を意味します。</li><li>「ケンカしたいのか？」と相手を挑発するセリフです。</li></ul><strong>英文法:</strong><br>疑問文の形をしていますが、実際には質問ではなく、相手への挑発として機能しています。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl11.mp3"
+    },
+    {
+      "id": "bull_vl12",
+      "quote": "Bull's in charge.",
+      "translation": "ブル様のお通りだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Bull's\" は \"Bull is\" の短縮形。</li><li>三人称で自分を語ることで、自分の支配力を客観的な事実のように宣言しています。</li></ul><strong>英文法:</strong><br>「主語 + be動詞 + in charge」の構文です。\"I'm in charge.\" よりも少し芝居がかった、尊大な響きがあります。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl12.mp3"
+    },
+    {
+      "id": "bull_vl13",
+      "quote": "Bull groans",
+      "translation": "（ブルがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>\"groan\" は、苦痛や不満、深い疲労などで発せられる、低く長めのうめき声を指します。</li></ul><strong>英文法:</strong><br>動詞 \"groan\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl13.mp3"
+    },
+    {
+      "id": "bull_vl14",
+      "quote": "Yeah, that'll teach ya.",
+      "translation": "へっ、これで懲りたか。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"That'll teach you\" は、相手が失敗や痛い目に遭った時に「それが良い教訓になっただろう」「それで懲りろ」という意味で使われる、皮肉のこもった決まり文句です。</li><li>\"ya\" は \"you\" のくだけた発音です。</li></ul><strong>英文法:</strong><br>\"That will teach you.\" が元の形。直訳は「それがあなたに教えるだろう」となります。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl14.mp3"
+    },
+    {
+      "id": "bull_vl15",
+      "quote": "Angry bull!",
+      "translation": "怒れる雄牛だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身の現在の感情（怒り）と、キャラクターの象徴（雄牛）を組み合わせて、状態をシンプルに宣言しています。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の組み合わせによる感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl15.mp3"
+    },
+    {
+      "id": "bull_vl16",
+      "quote": "No one, beats, the Bull!",
+      "translation": "誰にも、このブルは、倒せねぇ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>言葉を一つ一つ区切って発音することで、一言一言に重みを持たせ、「誰もブルには勝てない」という事実を強調しています。</li></ul><strong>英文法:</strong><br>\"No one beats the Bull.\" という通常の文の間にコンマ（ , ）を入れることで、演説のようなタメを作り出しています。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl16.mp3"
+    },
+    {
+      "id": "bull_vl17",
+      "quote": "Stop it.",
+      "translation": "やめろ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の行動を止めさせたい時の、短く直接的な命令です。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる、基本的な命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl17.mp3"
+    },
+    {
+      "id": "bull_vl18",
+      "quote": "Bull cries out",
+      "translation": "（ブルが叫ぶ）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>\"cry out\" は、苦痛や驚きなどで、思わず大声を上げて叫ぶ様子を表します。</li></ul><strong>英文法:</strong><br>動詞 \"cry out\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/bull_vl18.mp3"
+    }
+  ]
+}

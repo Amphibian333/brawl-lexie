@@ -1,0 +1,283 @@
+{
+  "name": "チャーリー",
+  "nameEn": "Charlie",
+  "rarity": "ultra-rare",
+  "role": "damage-dealer",
+  "quote": "Let the show begin!",
+  "iconUrl": "https://i.imgur.com/yudMejg.png",
+  "voicelines": [
+    {
+      "id": "charlie_vl1",
+      "quote": "Straight from the streets with zero defeats!",
+      "translation": "ストリートから、無敗のままで！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ストリート育ちだけど、一度も負けたことないわよ」という強気な自己紹介。</li><li>韻を踏んでてラップみたいでカッコいいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl1.mp3"
+    },
+    {
+      "id": "charlie_vl2",
+      "quote": "Circus crown, not clown!",
+      "translation": "サーカスの王冠よ、道化師じゃなくてね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私はピエロじゃなくて女王様よ」というプライドの高さ。</li><li>サーカスの頂点に立つのは自分だと信じて疑いません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl2.mp3"
+    },
+    {
+      "id": "charlie_vl3",
+      "quote": "Oh mon dieu!",
+      "translation": "オー・モン・デュー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フランス語で「なんてこと！」（Oh my God!）。</li><li>驚いた時もフランス語が出ちゃうのがオシャレです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl3.mp3"
+    },
+    {
+      "id": "charlie_vl4",
+      "quote": "My yo-yo brings all the pain to your face.",
+      "translation": "私のヨーヨーが、あなたの顔に全ての痛みをもたらすわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>有名曲「Milkshake」のパロディ。</li><li>甘い誘惑かと思いきや、ヨーヨーで顔面直撃を狙ってくる怖さ！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl4.mp3"
+    },
+    {
+      "id": "charlie_vl5",
+      "quote": "I'll come back just like a yo-yo.",
+      "translation": "ヨーヨーみたいに、必ず戻ってくるわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「やられてもヨーヨーみたいに戻ってくるわよ」というリスポーン時のセリフ。</li><li>何度でも蘇る不屈の精神です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl5.mp3"
+    },
+    {
+      "id": "charlie_vl6",
+      "quote": "Web of wonder!",
+      "translation": "驚異のウェブ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルトの繭（コクーン）を「不思議なクモの巣」と呼んで自画自賛。</li><li>捕まった相手にとっては悪夢でしかありません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl6.mp3"
+    },
+    {
+      "id": "charlie_vl7",
+      "quote": "Distract and disarm.",
+      "translation": "注意をそらして、武装解除よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>元泥棒らしい手口。「こっちを見てる隙に…いただき！」という鮮やかな盗みのテクニックです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl7.mp3"
+    },
+    {
+      "id": "charlie_vl8",
+      "quote": "Spin when you're winning!",
+      "translation": "勝ってる時はスピンよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「勝てば官軍、負ければ賊軍」的な、勝ったもん勝ちの精神。</li><li>スピンしながら煽ってくる姿が目に浮かびます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl8.mp3"
+    },
+    {
+      "id": "charlie_vl9",
+      "quote": "Excuse-moi ?",
+      "translation": "エクスキューゼ・モワ？",
+      "explanation": "<strong>解説:</strong><br><ul><li>フランス語で「失礼ですが？（何ですって？）」。</li><li>相手の失礼な態度に、ちょっとムッとして言い返す時の上品な嫌味です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl9.mp3"
+    },
+    {
+      "id": "charlie_vl10",
+      "quote": "It's my yo-yo.",
+      "translation": "これは私のヨーヨーよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私のものよ、触らないで」という独占欲。</li><li>大事な商売道具ですからね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl10.mp3"
+    },
+    {
+      "id": "charlie_vl11",
+      "quote": "Like a sad clown without a circus.",
+      "translation": "サーカスをなくした、悲しいピエロのようね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>倒した相手への哀れみの言葉。</li><li>「居場所のないピエロみたいで可哀想」と、詩的にディスってます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl11.mp3"
+    },
+    {
+      "id": "charlie_vl12",
+      "quote": "Like a papillon!",
+      "translation": "パピヨンのように！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フランス語で「蝶（パピヨン）」。</li><li>蝶のように華麗に舞う自分の動きに酔いしれています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl12.mp3"
+    },
+    {
+      "id": "charlie_vl13",
+      "quote": "You can't resist my charm.",
+      "translation": "私の魅力には抗えないでしょ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルトで捕まえた時に。「ほら、私から離れられないでしょ？」という魔性の女発言。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl13.mp3"
+    },
+    {
+      "id": "charlie_vl14",
+      "quote": "My life is a circus and I love it!",
+      "translation": "私の人生はサーカス、そしてそれが大好きなの！",
+      "explanation": "<strong>解説:</strong><br><ul><li>波乱万丈な人生を心から楽しんでいるポジティブさ。</li><li>スリルがないと生きていけないタイプです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl14.mp3"
+    },
+    {
+      "id": "charlie_vl15",
+      "quote": "It will take more than that!",
+      "translation": "そんなものじゃ足りないわよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ダメージを受けた時の強がり。</li><li>「私を倒したいならもっと本気出しなさい」という挑発です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl15.mp3"
+    },
+    {
+      "id": "charlie_vl16",
+      "quote": "You better brie-lieve it.",
+      "translation": "信じた方がいいわよ、ブリーだけにね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Believe（信じる）」とフランスの「Brie（ブリーチーズ）」をかけたダジャレ。</li><li>フランス人キャラ全開のジョークです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl16.mp3"
+    },
+    {
+      "id": "charlie_vl17",
+      "quote": "Messing with a yo-yo has its ups and downs.",
+      "translation": "ヨーヨーに手を出すと、浮き沈みがあるものよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「人生山あり谷あり（Ups and downs）」と、ヨーヨーの上下運動をかけた上手い表現。</li><li>深いような、そうでもないような？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl17.mp3"
+    },
+    {
+      "id": "charlie_vl18",
+      "quote": "Hush, little baby!",
+      "translation": "お静かに、小さなベイビーちゃん！",
+      "explanation": "<strong>解説:</strong><br><ul><li>子守唄の一節。</li><li>相手を赤ん坊扱いして「静かに眠りなさい（倒れなさい）」と言う、優雅で怖いセリフ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl18.mp3"
+    },
+    {
+      "id": "charlie_vl19",
+      "quote": "Watch the string! I'll take your bling.",
+      "translation": "糸に気をつけて！あなたのキラキラはいただくわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「糸に気を取られてる隙に、宝石（Bling）はいただくわよ」という怪盗予告。</li><li>韻を踏んでてリズムが良いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl19.mp3"
+    },
+    {
+      "id": "charlie_vl20",
+      "quote": "Magnifique!",
+      "translation": "マニフィーク！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フランス語で「素晴らしい！」。</li><li>自分の華麗なプレイにうっとりしています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl20.mp3"
+    },
+    {
+      "id": "charlie_vl22",
+      "quote": "I stole your heart, literally.",
+      "translation": "あなたのハート、文字通り盗んであげたわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「心を奪う（魅了する）」という意味と、物理的に「心臓（ハート）を盗む」という意味のダブルミーニング。</li><li>繭に閉じ込める能力を考えると、物理的な方かもしれません…。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl22.mp3"
+    },
+    {
+      "id": "charlie_vl23",
+      "quote": "Oh, pâtisserie of misery!",
+      "translation": "ああ、悲劇のパティスリーよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「パティスリー（ケーキ屋）」と「ミザリー（悲劇）」で韻を踏んだ、独特な嘆き。</li><li>悲劇すらもお菓子の家みたいに楽しんでいるのかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl23.mp3"
+    },
+    {
+      "id": "charlie_vl24",
+      "quote": "Ta-da!",
+      "translation": "タダー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>マジシャンが「ジャジャーン！」と何かを見せる時の効果音。</li><li>華麗なトリック（攻撃）が決まった時に。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl24.mp3"
+    },
+    {
+      "id": "charlie_vl25",
+      "quote": "Spin, swing, and circus bling!",
+      "translation": "スピンして、スウィングして、サーカスのきらめきよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分のアクションをリズミカルに解説。</li><li>戦場をサーカスの舞台に変えてしまいます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl25.mp3"
+    },
+    {
+      "id": "charlie_vl26",
+      "quote": "What a carnival of clowns.",
+      "translation": "なんて道化師だらけのカーニバルなのかしら。",
+      "explanation": "<strong>解説:</strong><br><ul><li>周りのプレイヤー全員を「ピエロ」呼ばわりして見下す、女王様気質。</li><li>「どいつもこいつもバカばっかり」ってことです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl26.mp3"
+    },
+    {
+      "id": "charlie_vl27",
+      "quote": "This puts a new spin on things.",
+      "translation": "これで物事に新たな展開が加わったわね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「新しい展開（Spin）」とヨーヨーの「回転（Spin）」をかけた表現。</li><li>状況が変わった時に使う、お洒落な言い回しです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl27.mp3"
+    },
+    {
+      "id": "charlie_vl28",
+      "quote": "Très bien ! I killed again!",
+      "translation": "トレビアン！また殺っちゃった！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フランス語で「素晴らしい！」。</li><li>キルを取るたびに優雅に喜ぶ、残酷な一面が見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl28.mp3"
+    },
+    {
+      "id": "charlie_vl29",
+      "quote": "Au revoir !",
+      "translation": "オ・ルヴォワール！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フランス語で「さようなら」。</li><li>敵を倒して去っていく時の、定番にして至高の挨拶です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl29.mp3"
+    },
+    {
+      "id": "charlie_vl30",
+      "quote": "Showstopper!",
+      "translation": "ショーストッパーよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>拍手喝采でショーを一時中断させるほどの凄い演技のこと。</li><li>自分のプレイが最高すぎて、みんな見とれちゃったでしょ？という自慢です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl30.mp3"
+    },
+    {
+      "id": "charlie_vl31",
+      "quote": "Let the carnival of carnage begin!",
+      "translation": "殺戮のカーニバルを始めましょう！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「カーニバル」と「カーネイジ（大虐殺）」で韻を踏んだ、恐ろしい開会宣言。</li><li>楽しいサーカスが、血の惨劇に変わる瞬間です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl31.mp3"
+    },
+    {
+      "id": "charlie_vl32",
+      "quote": "Le fric, c'est chic!",
+      "translation": "お金って、シックよね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フランスの有名なディスコソングの歌詞。「お金こそが正義」みたいな意味。</li><li>泥棒キャラらしい、お金への執着が見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl32.mp3"
+    },
+    {
+      "id": "charlie_vl33",
+      "quote": "Ooh la la!",
+      "translation": "ウー・ラ・ラ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フランス語の「あらまあ！」。</li><li>驚いた時や、ちょっとセクシーな気分の時に使う、お決まりのフレーズ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl33.mp3"
+    },
+    {
+      "id": "charlie_vl34",
+      "quote": "You're French toast.",
+      "translation": "あなた、フレンチトーストね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「You're toast（お前はもう終わりだ）」という英語のスラングに「フレンチ」を付けたジョーク。</li><li>フランス人ならではの皮肉です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl34.mp3"
+    },
+    {
+      "id": "charlie_vl35",
+      "quote": "Oh, j'suis cramé.",
+      "translation": "あぁ、もう燃え尽きちゃったわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>フランス語のスラングで「もうダメ、ヘトヘト」。</li><li>やられた時に、気取らず本音が出ちゃった感じです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl35.mp3"
+    },
+    {
+      "id": "charlie_vl36",
+      "quote": "Calme-toi.",
+      "translation": "カルム・トワ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>フランス語で「落ち着いて」。</li><li>焦ってる敵や、突っ込んでくる相手を冷静にいなす一言。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl36.mp3"
+    },
+    {
+      "id": "charlie_vl37",
+      "quote": "Espèce de ouf!",
+      "translation": "このイカれたヤツ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フランスの若者言葉で罵倒！</li><li>上品ぶってるけど、キレると口が悪くなるタイプみたいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl37.mp3"
+    },
+    {
+      "id": "charlie_vl38",
+      "quote": "Et voilà!",
+      "translation": "エ・ヴォワラ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フランス語で「はい、出来上がり！」。</li><li>マジックを披露した後や、敵を倒した後にドヤ顔で言うセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl38.mp3"
+    },
+    {
+      "id": "charlie_vl39",
+      "quote": "Tais-toi!",
+      "translation": "テ・トワ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フランス語で「黙りなさい！」。</li><li>うるさい相手をピシャリと黙らせる、キツめの一言。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl39.mp3"
+    },
+    {
+      "id": "charlie_vl40",
+      "quote": "Aïe!",
+      "translation": "アイェ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>フランス語で「痛っ！」。</li><li>とっさの悲鳴もフランス語なのがリアルです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/charlie_vl40.mp3"
+    }
+  ]
+}

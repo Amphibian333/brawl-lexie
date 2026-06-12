@@ -1,0 +1,143 @@
+{
+  "name": "バーリー",
+  "nameEn": "Barley",
+  "rarity": "rare",
+  "role": "thrower",
+  "quote": "Ready to serve!",
+  "iconUrl": "https://i.imgur.com/nbH7MgT.png",
+  "voicelines": [
+    {
+      "id": "barley_vl1",
+      "quote": "I'm ready to serve.",
+      "translation": "お申し付けください。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"serve\" は「（食事や飲み物を）提供する」という意味。バーテンダーロボットであるバーリーの丁寧な決め台詞です。</li><li>「（攻撃を）お見舞いする」というダブルミーニングにもなっています。</li></ul><strong>英文法:</strong><br>\"be ready to + 動詞\" は「～する準備ができている」という、準備万端な状態を表す一般的な構文です。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl1.mp3"
+    },
+    {
+      "id": "barley_vl2",
+      "quote": "Happy to serve!",
+      "translation": "喜んでお仕えします！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Happy to ~\" は「喜んで～します」と、相手の要望に快く応じる際の丁寧でフレンドリーな表現です。</li></ul><strong>英文法:</strong><br>\"I am happy to serve.\" の主語 \"I am\" が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl2.mp3"
+    },
+    {
+      "id": "barley_vl3",
+      "quote": "What was that?",
+      "translation": "今のは何でしょう？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>不意の出来事や、予期せぬ攻撃に対して驚きを表現するセリフです。ロボットらしい、少し冷静なトーンです。</li></ul><strong>英文法:</strong><br>What で始まる過去形の疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl3.mp3"
+    },
+    {
+      "id": "barley_vl4",
+      "quote": "Awfully sorry.",
+      "translation": "大変申し訳ありません。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"awfully\" は「非常に、ひどく」という意味で、謝罪の気持ちを強く強調する副詞です。</li><li>丁寧で紳士的なキャラクターが使う、少し古風な表現です。</li></ul><strong>英文法:</strong><br>形容詞 \"sorry\" を副詞 \"awfully\" が修飾しています。\"I am awfully sorry.\" が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl4.mp3"
+    },
+    {
+      "id": "barley_vl5",
+      "quote": "It's been a pleasure.",
+      "translation": "光栄でございました。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ご一緒できて楽しかったです」「光栄でした」という、別れの際や何かを終えた時に使われる、非常に丁寧な挨拶です。</li></ul><strong>英文法:</strong><br>\"It has been a pleasure.\" の現在完了形。経験として「良い時間だった」というニュアンスを示します。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl5.mp3"
+    },
+    {
+      "id": "barley_vl6",
+      "quote": "Oops, my bad.",
+      "translation": "おっと、失礼しました。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Oops\" は小さなミスをした時の「おっと」。</li><li>\"my bad\" は「私のミスです」という意味の非常にカジュアルなスラングです。丁寧なバーリーがスラングを使うギャップが特徴です。</li></ul><strong>英文法:</strong><br>\"my bad\" は \"It was my bad decision/fault.\" が省略された、口語独特の謝罪表現です。<br><br><strong>🧠豆知識:</strong><br>「My bad」は1980年代から90年代にかけて広まったスラングで、フォーマルな場では軽すぎると見なされることもあります。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl6.mp3"
+    },
+    {
+      "id": "barley_vl7",
+      "quote": "Bottoms up!",
+      "translation": "乾杯！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>飲み会などで、グラスを掲げて「飲み干そう！」と促す際の威勢の良い掛け声です。バーテンダーらしいセリフです。</li></ul><strong>英文法:</strong><br>直訳は「グラスの底を上に！」。そこから「一気に飲み干せ！」という意味の、命令文のような慣用句になりました。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl7.mp3"
+    },
+    {
+      "id": "barley_vl8",
+      "quote": "Another round?",
+      "translation": "おかわりはいかがです？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>バーテンダーが客に「もう一杯いかがですか？」と尋ねる際の決まり文句です。</li><li>\"round\" は、ここでは「皆に一杯ずつの飲み物」を指します。</li></ul><strong>英文法:</strong><br>\"Would you like another round?\" が省略された、丁寧ながらも簡潔な疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl8.mp3"
+    },
+    {
+      "id": "barley_vl9",
+      "quote": "Ouch.",
+      "translation": "痛っ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>痛みを感じた時に発せられる、最も一般的な感嘆詞の一つです。</li></ul><strong>英文法:</strong><br>感嘆詞として単独で使われます。\"Ow!\" とほぼ同じ意味です。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl9.mp3"
+    },
+    {
+      "id": "barley_vl10",
+      "quote": "A little… strong?",
+      "translation": "少々…強すぎましたかな？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が出した飲み物（ここでは攻撃のボトル）の威力が強すぎたかもしれない、と自問自答しているようなセリフです。</li></ul><strong>英文法:</strong><br>\"Is it a little strong?\" のように、文全体が省略された疑問の形です。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl10.mp3"
+    },
+    {
+      "id": "barley_vl11",
+      "quote": "It's been lovely.",
+      "translation": "素晴らしい時間でした。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"lovely\" は「素晴らしい、素敵な」。\"It's been a pleasure.\" と同様に、丁寧で親しみやすい別れの挨拶です。</li></ul><strong>英文法:</strong><br>現在完了形 \"It has been\" に形容詞 \"lovely\" が続いています。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl11.mp3"
+    },
+    {
+      "id": "barley_vl12",
+      "quote": "Whoopsie!",
+      "translation": "おっとっと！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Oops\" をさらに子供っぽく、あるいはコミカルにした表現です。小さなミスや失敗に対する軽い驚きを示します。</li></ul><strong>英文法:</strong><br>感嘆詞の一種です。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl12.mp3"
+    },
+    {
+      "id": "barley_vl13",
+      "quote": "This one's on the house!",
+      "translation": "これは当店のおごりです！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"on the house\" は、バーやレストランで「店のおごりで」「無料でサービスします」という意味の非常に重要なイディオムです。</li></ul><strong>英文法:</strong><br>\"This one is...\" に前置詞句 \"on the house\" が続いています。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl13.mp3"
+    },
+    {
+      "id": "barley_vl14",
+      "quote": "Ready for another?",
+      "translation": "次をご用意しましょうか？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「次（another）の準備はよろしいですか？」と、おかわりを提案する丁寧なフレーズです。</li></ul><strong>英文法:</strong><br>\"Are you ready for another?\" が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl14.mp3"
+    },
+    {
+      "id": "barley_vl15",
+      "quote": "That hurt.",
+      "translation": "痛みましたな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ダメージを受けた事実を、過去形で冷静に述べています。</li></ul><strong>英文法:</strong><br>動詞 \"hurt\" は現在形も過去形も同じ形ですが、ここでは文脈から過去形だとわかります。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl15.mp3"
+    },
+    {
+      "id": "barley_vl16",
+      "quote": "Barley laughs",
+      "translation": "（バーリーが笑う）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>ロボットらしい、少し機械的でカラカラとした笑い声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"laugh\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl16.mp3"
+    },
+    {
+      "id": "barley_vl17",
+      "quote": "New customers.",
+      "translation": "新しいお客様ですな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>新しい敵が現れたことを「新しい客」と表現する、バーテンダーらしいセリフです。</li></ul><strong>英文法:</strong><br>名詞句だけで状況を説明する、簡潔な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl17.mp3"
+    },
+    {
+      "id": "barley_vl18",
+      "quote": "Ah! Another customer!",
+      "translation": "おや！また新たなお客様が！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>敵の出現を、驚きや歓迎の感情を込めて表現しています。</li></ul><strong>英文法:</strong><br>感嘆詞 \"Ah!\" と名詞句 \"Another customer\" の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl18.mp3"
+    },
+    {
+      "id": "barley_vl19",
+      "quote": "You've been served.",
+      "translation": "ご注文の品です。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「（飲み物が）提供されましたよ」という意味ですが、法律用語で「（召喚状が）送達された」という意味もあり、ダブルミーニングになっています。</li><li>「お前はもうおしまいだ」という宣告のニュアンスを含みます。</li></ul><strong>英文法:</strong><br>現在完了形の受動態 \"have been served\" が使われています。",
+      "audioUrl": "https://Amphibian333.github.io/barley_vl19.mp3"
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "name": "R-T",
+  "nameEn": "R-T",
+  "rarity": "ultra-rare",
+  "role": "damage-dealer",
+  "quote": "Observing...",
+  "iconUrl": "https://i.imgur.com/EDgtwJU.png",
+  "voicelines": [
+    {
+      "id": "rt_vl1",
+      "quote": "Live from Starr Park!",
+      "translation": "スターパークから生中継です！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ニュース番組のレポーターみたいな挨拶。</li><li>監視カメラの映像をリアルタイム配信してるんでしょうか？プライバシーゼロですね！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl1.mp3"
+    },
+    {
+      "id": "rt_vl2",
+      "quote": "All eyes on me!",
+      "translation": "私に注目！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「みんなこっちを見ろ！」という意味と、監視カメラ（目）の映像が全て自分に集まっている、というダブルミーニング。</li><li>監視社会のリーダーっぽいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl2.mp3"
+    },
+    {
+      "id": "rt_vl3",
+      "quote": "We're going to need a small break.",
+      "translation": "少し休憩が必要になるでしょう。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時のセリフ。</li><li>「故障した」とか「負けた」とは言わず、「休憩」と言い換えるあたり、丁寧なロボットならではの気遣い（？）です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl3.mp3"
+    },
+    {
+      "id": "rt_vl4",
+      "quote": "Please, be mindful of your surroundings.",
+      "translation": "どうか、ご自身の周囲にご注意ください。",
+      "explanation": "<strong>解説:</strong><br><ul><li>駅のアナウンスみたいな注意喚起。</li><li>戦場で言われると「敵に囲まれてるから気をつけろよ」という不穏な警告に聞こえます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl4.mp3"
+    },
+    {
+      "id": "rt_vl5",
+      "quote": "This is normal!",
+      "translation": "これは正常です！",
+      "explanation": "<strong>解説:</strong><br><ul><li>どう見てもヤバい状況なのに「正常です」と言い張る怖さ。</li><li>バグってるのか、それともこのカオスこそがスターパークの日常なのか…。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl5.mp3"
+    },
+    {
+      "id": "rt_vl6",
+      "quote": "Ahead of the game!",
+      "translation": "ゲームの先を行っています！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「一歩リードしてるぜ」という意味。</li><li>全てを監視・分析しているR-Tには、敵の行動なんてお見通しってことですね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl6.mp3"
+    },
+    {
+      "id": "rt_vl7",
+      "quote": "On air.",
+      "translation": "放送中。",
+      "explanation": "<strong>解説:</strong><br><ul><li>今の戦闘シーン、全部配信されてますよ！</li><li>見られていると知ったら、敵も迂闊な動きはできないかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl7.mp3"
+    },
+    {
+      "id": "rt_vl8",
+      "quote": "Scanning.",
+      "translation": "スキャン中。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ターゲットをロックオン！</li><li>このセリフの後に強烈な攻撃が飛んできそうでドキッとします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl8.mp3"
+    },
+    {
+      "id": "rt_vl9",
+      "quote": "Accessing anger management module.",
+      "translation": "アンガーマネジメント・モジュールにアクセス中。",
+      "explanation": "<strong>解説:</strong><br><ul><li>怒りを抑えるためのプログラムを起動中。</li><li>つまり、今めちゃくちゃキレそうになってるってことです。逃げて！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl9.mp3"
+    },
+    {
+      "id": "rt_vl10",
+      "quote": "I am watching you!",
+      "translation": "私はあなたを見ています！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ストーカーみたいなセリフですが、監視ロボットなので仕事熱心なだけです。</li><li>草むらに隠れても無駄ですよ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl10.mp3"
+    },
+    {
+      "id": "rt_vl11",
+      "quote": "Re-boot-ing!",
+      "translation": "再起動中！",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時のシステムダウン音。</li><li>「Re-boot」と「Boot（長靴）」をかけてる言葉遊びでもあります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl11.mp3"
+    },
+    {
+      "id": "rt_vl12",
+      "quote": "Nobody can stop me!",
+      "translation": "誰も私を止められない！",
+      "explanation": "<strong>解説:</strong><br><ul><li>暴走モード突入？</li><li>普段冷静なロボットが感情を露わにする瞬間、熱いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl12.mp3"
+    },
+    {
+      "id": "rt_vl13",
+      "quote": "Recording!",
+      "translation": "録画中！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「今の恥ずかしいプレイ、ばっちり録画しましたよ」というプレッシャー。</li><li>証拠映像として残っちゃいます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl13.mp3"
+    },
+    {
+      "id": "rt_vl14",
+      "quote": "Verified victory!",
+      "translation": "認証済みの勝利！",
+      "explanation": "<strong>解説:</strong><br><ul><li>勝利がシステム的に確定した瞬間。</li><li>Twitter（X）の認証バッジみたいな「Verified（公式）」な勝利です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl14.mp3"
+    },
+    {
+      "id": "rt_vl15",
+      "quote": "Contemplating, calculating.",
+      "translation": "熟考し、計算中。",
+      "explanation": "<strong>解説:</strong><br><ul><li>次の手を考えているロボットらしい独り言。</li><li>高速で戦況をシミュレーションしているのでしょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl15.mp3"
+    },
+    {
+      "id": "rt_vl16",
+      "quote": "Hope to see you soon again.",
+      "translation": "またすぐにお会いできることを願っています。",
+      "explanation": "<strong>解説:</strong><br><ul><li>お店を出る時の挨拶みたいですが、倒した相手に言うと「すぐリスポーンしてまた倒されてね」という皮肉に聞こえます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl16.mp3"
+    },
+    {
+      "id": "rt_vl17",
+      "quote": "All is well.",
+      "translation": "すべて順調。",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『きっと、うまくいく（All is well）』の決め台詞と同じ。</li><li>どんなピンチでも「大丈夫、順調だ」と言い聞かせるポジティブさ（または現実逃避）。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl17.mp3"
+    },
+    {
+      "id": "rt_vl18",
+      "quote": "Weeeeeeeee!",
+      "translation": "ウィィィィィ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>分離形態で高速移動する時の歓声！</li><li>ロボットだって楽しい時は叫びたいんです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl18.mp3"
+    },
+    {
+      "id": "rt_vl19",
+      "quote": "Initializing systems.",
+      "translation": "システムを初期化中。",
+      "explanation": "<strong>解説:</strong><br><ul><li>試合開始時の起動音。</li><li>PCが立ち上がる時みたいなワクワク感があります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl19.mp3"
+    },
+    {
+      "id": "rt_vl20",
+      "quote": "R-T in the place to be, do it for the robot family.",
+      "translation": "最高の場所にいるR-T、ロボットファミリーのためにやるぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>突然のラップ！</li><li>韻を踏んでてノリノリです。意外とファンキーな性格なのかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl20.mp3"
+    },
+    {
+      "id": "rt_vl21",
+      "quote": "This is fine!",
+      "translation": "大丈夫です！",
+      "explanation": "<strong>解説:</strong><br><ul><li>燃え盛る部屋で「大丈夫」と言い聞かせる有名なネットミームのパロディ。</li><li>全然大丈夫じゃない状況で使うのがお約束です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl21.mp3"
+    },
+    {
+      "id": "rt_vl22",
+      "quote": "Oh, you went the wrong way.",
+      "translation": "おや、あなたは道を間違えましたね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>カーナビみたいな口調ですが、意味は「俺に挑んだのが運の尽きだ」という死の宣告です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl22.mp3"
+    },
+    {
+      "id": "rt_vl23",
+      "quote": "Everything is OK.",
+      "translation": "すべて問題ありません。",
+      "explanation": "<strong>解説:</strong><br><ul><li>本当にOKな時にも使いますが、大抵はトラブル発生中のごまかしとして使われます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl23.mp3"
+    },
+    {
+      "id": "rt_vl24",
+      "quote": "Weee, I'm losing my mind!",
+      "translation": "うぃー、理性を失いそうだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>テンション上がりすぎて処理落ち寸前！</li><li>分離して暴れ回る時のカオスな状態を表してます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl24.mp3"
+    },
+    {
+      "id": "rt_vl25",
+      "quote": "Cute robot mode, engaged.",
+      "translation": "キュートロボットモード、作動。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「可愛いモード」に切り替える機能があるらしいです。</li><li>敵を油断させるための作戦でしょうか？あざとい！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl25.mp3"
+    },
+    {
+      "id": "rt_vl26",
+      "quote": "Showing myself the way to victory.",
+      "translation": "自分自身に、勝利への道を示しているところです。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ナビゲーションシステムを使って、勝利への最短ルートを検索中。</li><li>迷わず突き進みます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl26.mp3"
+    },
+    {
+      "id": "rt_vl27",
+      "quote": "Having minor technical issues.",
+      "translation": "軽微な技術的問題が発生中。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時の言い訳。「負けたんじゃない、ちょっとバグっただけだ」と言い張るプログラマーみたいなセリフ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl27.mp3"
+    },
+    {
+      "id": "rt_vl28",
+      "quote": "Please, do not ignore my instructions.",
+      "translation": "どうか、私の指示を無視しないでください。",
+      "explanation": "<strong>解説:</strong><br><ul><li>丁寧な口調の中に「言うこと聞けよ？」という圧を感じます。</li><li>ルールを守らない悪い子はお仕置きです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl28.mp3"
+    },
+    {
+      "id": "rt_vl29",
+      "quote": "R-T requesting extraction.",
+      "translation": "R-Tより、脱出を要請。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時の通信。</li><li>スパイ映画みたいに、本部へ救援を求めています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl29.mp3"
+    },
+    {
+      "id": "rt_vl30",
+      "quote": "Don't mind me!",
+      "translation": "お気になさらず！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ただの監視カメラですよ～」と気配を消そうとしていますが、もちろん攻撃する気満々です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl30.mp3"
+    },
+    {
+      "id": "rt_vl31",
+      "quote": "*boots up* \"Welcome to Starr Park!\"",
+      "translation": "（起動音）「スターパークへようこそ！」",
+      "explanation": "<strong>解説:</strong><br><ul><li>本来の仕事である案内ロボットとしての挨拶。</li><li>この明るい声で、恐ろしいバトルロイヤルへご案内します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl31.mp3"
+    },
+    {
+      "id": "rt_vl32",
+      "quote": "Glad to be of service.",
+      "translation": "お役に立てて光栄です。",
+      "explanation": "<strong>解説:</strong><br><ul><li>執事ロボットみたいな丁寧な感謝。</li><li>キルを取った後に言うと「処分完了しました」みたいな怖さがあります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl32.mp3"
+    },
+    {
+      "id": "rt_vl33",
+      "quote": "Sorry, major malfunction.",
+      "translation": "申し訳ありません、重大な機能不全です。",
+      "explanation": "<strong>解説:</strong><br><ul><li>大ダメージを受けた時の悲鳴。</li><li>「故障！故障！」とシステムが叫んでいる感じです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl33.mp3"
+    },
+    {
+      "id": "rt_vl34",
+      "quote": "Mindful mayhem!",
+      "translation": "注意深い大混乱！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「注意深い」と「大混乱」という矛盾した言葉の組み合わせ。</li><li>計算づくで場を荒らす、R-Tの戦い方をよく表しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl34.mp3"
+    },
+    {
+      "id": "rt_vl35",
+      "quote": "How may I help you?",
+      "translation": "ご用件を承ります。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「いらっしゃいませ！」と敵をお出迎え。</li><li>お客様へのサービスは、レーザービームのプレゼントです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl35.mp3"
+    },
+    {
+      "id": "rt_vl36",
+      "quote": "Have a fantastic day!",
+      "translation": "素晴らしい一日を！",
+      "explanation": "<strong>解説:</strong><br><ul><li>別れ際の爽やかな挨拶。</li><li>敵を倒して退場させた後に言うと、最高に皮肉が効いてます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl36.mp3"
+    },
+    {
+      "id": "rt_vl37",
+      "quote": "In my absence, please read the Starr Park FAQ.",
+      "translation": "私が不在の間は、スターパークのFAQをお読みください。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた後の対応までマニュアル通り！</li><li>「私が死んでも、よくある質問コーナーを読んで待っててね」というシュールさ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl37.mp3"
+    },
+    {
+      "id": "rt_vl38",
+      "quote": "Ha ha!",
+      "translation": "ハッハッ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ロボットの乾いた笑い声。</li><li>感情があるのかないのか分からないところが不気味です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl38.mp3"
+    },
+    {
+      "id": "rt_vl39",
+      "quote": "Please, ask me anything!",
+      "translation": "どうぞ、何でもお尋ねください！",
+      "explanation": "<strong>解説:</strong><br><ul><li>質問コーナー受付中！</li><li>でも戦場で質問してる暇なんてありませんよね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl39.mp3"
+    },
+    {
+      "id": "rt_vl40",
+      "quote": "Oh, you seem lost!",
+      "translation": "おや、道に迷われたようですね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>迷子の案内をするフリをして、敵を追い詰める策士。</li><li>「迷子センター（リスポーン地点）へご案内します」ってことかも。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl40.mp3"
+    },
+    {
+      "id": "rt_vl41",
+      "quote": "You seem in need of directions.",
+      "translation": "道案内が必要なようですね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「どっちに行けばいいか分からないの？教えてあげるよ、地獄行きだ！」というような、慇懃無礼な煽り文句です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/rt_vl41.mp3"
+    }
+  ]
+}

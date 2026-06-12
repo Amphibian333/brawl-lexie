@@ -1,0 +1,185 @@
+{
+  "name": "サンディ",
+  "nameEn": "Sandy",
+  "rarity": "legend-rare",
+  "role": "support",
+  "quote": "Sooo tired...",
+  "iconUrl": "https://i.imgur.com/GvldnNK.png",
+  "voicelines": [
+    {
+      "id": "sandy_vl1",
+      "quote": "Did I, do something?",
+      "translation": "僕、何かしたかな？",
+      "explanation": "<strong>解説:</strong><br><ul><li>寝ぼけてて何も覚えてない様子。</li><li>無意識のうちに敵を倒しちゃうくらい強いってことかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl1.mp3"
+    },
+    {
+      "id": "sandy_vl2",
+      "quote": "Huh?",
+      "translation": "え？",
+      "explanation": "<strong>解説:</strong><br><ul><li>状況が飲み込めてない時の素朴な疑問。</li><li>「まだ戦うの？」という面倒くささがにじみ出てます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl2.mp3"
+    },
+    {
+      "id": "sandy_vl3",
+      "quote": "Nap-time.",
+      "translation": "お昼寝の時間だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>彼にとってはいつでもお昼寝タイム。</li><li>戦場をベッドだと思ってそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl3.mp3"
+    },
+    {
+      "id": "sandy_vl4",
+      "quote": "Huh, good night.",
+      "translation": "ふぁ、おやすみ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>倒した相手への別れの挨拶。</li><li>「永遠の眠りにつけ」という意味か、単に自分が寝たいだけか。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl4.mp3"
+    },
+    {
+      "id": "sandy_vl5",
+      "quote": "Sand shroud!",
+      "translation": "砂の帳！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルト発動！砂嵐でみんなを隠す技名。</li><li>「Shroud（覆い）」という言葉選びがちょっと詩的です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl5.mp3"
+    },
+    {
+      "id": "sandy_vl6",
+      "quote": "So tired.",
+      "translation": "すごく、眠い…",
+      "explanation": "<strong>解説:</strong><br><ul><li>サンディの口癖。</li><li>常に眠気と戦っている彼の、切実な訴えです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl6.mp3"
+    },
+    {
+      "id": "sandy_vl7",
+      "quote": "Uh, amazing.",
+      "translation": "うーん、すごい。",
+      "explanation": "<strong>解説:</strong><br><ul><li>感情のこもってない棒読みの称賛。</li><li>「へー、すごいね（興味ないけど）」って感じです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl7.mp3"
+    },
+    {
+      "id": "sandy_vl8",
+      "quote": "Hey!",
+      "translation": "ねえ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>弱々しい呼びかけ。</li><li>大声を出す元気もないみたいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl8.mp3"
+    },
+    {
+      "id": "sandy_vl9",
+      "quote": "Get some rest.",
+      "translation": "少し休みなよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を気遣っているようで、「僕も休みたいからさっさと終わって」という本音が透けて見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl9.mp3"
+    },
+    {
+      "id": "sandy_vl10",
+      "quote": "Sandstorm!",
+      "translation": "サンドストーム！",
+      "explanation": "<strong>解説:</strong><br><ul><li>必殺技の名前を叫ぶ時だけは、ちょっとだけ声が大きくなります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl10.mp3"
+    },
+    {
+      "id": "sandy_vl11",
+      "quote": "Huh, I guess I'll have to do stuff...",
+      "translation": "ふぁ、何かやらないとダメな感じ…？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「働きたくないでござる」を地で行くセリフ。</li><li>しぶしぶ戦う姿に共感する人も多いはず。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl11.mp3"
+    },
+    {
+      "id": "sandy_vl12",
+      "quote": "So tired of winning.",
+      "translation": "勝つのにも、飽き飽きだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「勝ちすぎて退屈だ」という強キャラ発言。</li><li>眠いだけじゃなくて、実はめちゃくちゃ強いのかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl12.mp3"
+    },
+    {
+      "id": "sandy_vl13",
+      "quote": "Relax!",
+      "translation": "リラックスして。",
+      "explanation": "<strong>解説:</strong><br><ul><li>熱くなってる周りをなだめる一言。</li><li>「そんなに必死にならなくてもいいじゃん」というマイペースさ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl13.mp3"
+    },
+    {
+      "id": "sandy_vl14",
+      "quote": "Seriously? Shh...",
+      "translation": "本気で言ってる？しーっ…",
+      "explanation": "<strong>解説:</strong><br><ul><li>うるさい相手に「静かにして（寝かせて）」と注意。</li><li>安眠妨害は許しません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl14.mp3"
+    },
+    {
+      "id": "sandy_vl15",
+      "quote": "To sleep, perchance to dream.",
+      "translation": "眠ること、ことによると夢も見よう。",
+      "explanation": "<strong>解説:</strong><br><ul><li>シェイクスピア『ハムレット』の有名なセリフ。</li><li>死（永遠の眠り）についての深い言葉を、眠いだけの彼が言う皮肉が効いてます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl15.mp3"
+    },
+    {
+      "id": "sandy_vl16",
+      "quote": "For the win.",
+      "translation": "勝利のために。",
+      "explanation": "<strong>解説:</strong><br><ul><li>一応やる気はあるみたいです。</li><li>最後の力を振り絞って言ってる感じがします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl16.mp3"
+    },
+    {
+      "id": "sandy_vl17",
+      "quote": "So happy.",
+      "translation": "すごく、幸せ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>全然幸せそうに聞こえない棒読み。</li><li>表情筋を動かすのも面倒なんでしょうか。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl17.mp3"
+    },
+    {
+      "id": "sandy_vl18",
+      "quote": "Whoa. chill.",
+      "translation": "おっと、落ち着いて。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Chill（チル）」する達人からのアドバイス。</li><li>「まあまあ、落ち着こうよ」と場を和ませます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl18.mp3"
+    },
+    {
+      "id": "sandy_vl19",
+      "quote": "Sweet dreams!",
+      "translation": "良い夢を！",
+      "explanation": "<strong>解説:</strong><br><ul><li>相手を倒した時の決め台詞。</li><li>「永遠に寝てな」という怖さと、単純な挨拶のダブルミーニング。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl19.mp3"
+    },
+    {
+      "id": "sandy_vl20",
+      "quote": "Huh, nighty night.",
+      "translation": "ふぁ、おやすみ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「おやすみ～」という子供っぽい言い方。</li><li>敵を寝かしつける子守唄代わりの攻撃です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl20.mp3"
+    },
+    {
+      "id": "sandy_vl21",
+      "quote": "Calm down everyone.",
+      "translation": "みんな、落ち着いて。",
+      "explanation": "<strong>解説:</strong><br><ul><li>パニックになってる味方への指示。</li><li>眠そうですが、意外と冷静に状況を見ています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl21.mp3"
+    },
+    {
+      "id": "sandy_vl22",
+      "quote": "So cool. Yeah.",
+      "translation": "すごくクール。ああ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>投げやりな感想。「はいはい、すごいすごい」って感じです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl22.mp3"
+    },
+    {
+      "id": "sandy_vl23",
+      "quote": "Huh, whatever.",
+      "translation": "ふーん、どうでもいいけど。",
+      "explanation": "<strong>解説:</strong><br><ul><li>無関心の極み。</li><li>勝っても負けても、眠ければどうでもいいのです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl23.mp3"
+    },
+    {
+      "id": "sandy_vl24",
+      "quote": "Go to sleep.",
+      "translation": "寝なさい。",
+      "explanation": "<strong>解説:</strong><br><ul><li>命令口調で強制睡眠（キル）！</li><li>自分が寝たいから周りも寝かせようとしてます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl24.mp3"
+    },
+    {
+      "id": "sandy_vl25",
+      "quote": "Yay, woo-hoo.",
+      "translation": "イェーイ、ウーフー。",
+      "explanation": "<strong>解説:</strong><br><ul><li>史上最もテンションの低い「イェーイ」。</li><li>一応喜んでるフリをしてあげる優しさ（？）です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/sandy_vl25.mp3"
+    }
+  ]
+}

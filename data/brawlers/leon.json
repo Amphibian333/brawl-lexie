@@ -1,0 +1,150 @@
+{
+  "name": "レオン",
+  "nameEn": "Leon",
+  "rarity": "legend-rare",
+  "role": "assassin",
+  "quote": "Leon! Chameleon!",
+  "iconUrl": "https://i.imgur.com/IHufhXx.png",
+  "voicelines": [
+    {
+      "id": "leon_vl1",
+      "quote": "Let's go!",
+      "translation": "行くぞ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>試合開始の掛け声。</li><li>フードを被った少年の、冒険が始まるワクワク感が伝わってきます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl1.mp3"
+    },
+    {
+      "id": "leon_vl2",
+      "quote": "Leon in the lead!",
+      "translation": "レオンがリード中！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「僕が一番！」と自分を実況する無邪気さ。</li><li>カメレオンみたいに姿を隠しながらも、目立ちたい願望があるのかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl2.mp3"
+    },
+    {
+      "id": "leon_vl3",
+      "quote": "No way!",
+      "translation": "ありえない！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「マジかよ！」という驚きのリアクション。</li><li>予想外の攻撃を受けた時や、ミスした時に出る子供らしい素直な言葉です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl3.mp3"
+    },
+    {
+      "id": "leon_vl4",
+      "quote": "Yes yes yes!",
+      "translation": "よしよしよし！",
+      "explanation": "<strong>解説:</strong><br><ul><li>うまくいった時のガッツポーズ！</li><li>連続キルを決めた興奮が伝わってきます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl4.mp3"
+    },
+    {
+      "id": "leon_vl5",
+      "quote": "Not fair!",
+      "translation": "ずるいぞ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けた時に「不公平だ！」と拗ねるセリフ。</li><li>透明になれる君がそれを言う？というツッコミ待ちかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl5.mp3"
+    },
+    {
+      "id": "leon_vl6",
+      "quote": "Sneaky-time!",
+      "translation": "こっそりタイムだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルト発動！透明になって忍び寄る合図です。</li><li>敵にとっては恐怖の時間の始まりです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl6.mp3"
+    },
+    {
+      "id": "leon_vl7",
+      "quote": "We can do this!",
+      "translation": "僕たちならやれる！",
+      "explanation": "<strong>解説:</strong><br><ul><li>チームを励ますポジティブな一言。</li><li>意外とリーダーシップがある…のかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl7.mp3"
+    },
+    {
+      "id": "leon_vl8",
+      "quote": "Hey Nita, check me out!",
+      "translation": "ねえニタ、俺を見てなよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>お姉ちゃんのニタにカッコいいところを見せたい弟心。</li><li>兄弟の絆を感じる微笑ましいセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl8.mp3"
+    },
+    {
+      "id": "leon_vl9",
+      "quote": "You got me.",
+      "translation": "やられたな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けを認める潔さ。</li><li>「一本取られたよ」と、ちょっと大人ぶってる感じもします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl9.mp3"
+    },
+    {
+      "id": "leon_vl10",
+      "quote": "Invisibility!",
+      "translation": "インビジビリティ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「透明化！」と能力名を叫んで変身するヒーローごっこ。</li><li>子供の夢が詰まったスーパーです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl10.mp3"
+    },
+    {
+      "id": "leon_vl11",
+      "quote": "Time to brawl.",
+      "translation": "乱闘の時間だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>静かに闘志を燃やすクールな一面。</li><li>アサシンとしてのスイッチが入った瞬間です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl11.mp3"
+    },
+    {
+      "id": "leon_vl12",
+      "quote": "Untouchable.",
+      "translation": "アンタッチャブル。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「誰にも触れられない（捕まらない）」という絶対的な自信。</li><li>透明になって敵を翻弄している時の優越感たっぷりなセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl12.mp3"
+    },
+    {
+      "id": "leon_vl13",
+      "quote": "Yeah!",
+      "translation": "イェア！",
+      "explanation": "<strong>解説:</strong><br><ul><li>シンプルだけど力強い喜びの声！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl13.mp3"
+    },
+    {
+      "id": "leon_vl14",
+      "quote": "Nita!",
+      "translation": "ニタ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ピンチの時に思わずお姉ちゃんの名前を叫んじゃう！</li><li>やっぱりまだ甘えん坊な弟くんです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl14.mp3"
+    },
+    {
+      "id": "leon_vl15",
+      "quote": "Watch this!",
+      "translation": "これを見な！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「すごい技を見せるから注目して！」というアピール。</li><li>目立ちたがり屋な性格がよく出ています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl15.mp3"
+    },
+    {
+      "id": "leon_vl16",
+      "quote": "Don't make me get Nita!",
+      "translation": "ニタを呼ばせないでくれよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「いじめたらお姉ちゃんに言いつけるぞ！」という最強の脅し文句。</li><li>ニタのクマ（ブルース）が出てきたら誰も勝てません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl16.mp3"
+    },
+    {
+      "id": "leon_vl17",
+      "quote": "No!",
+      "translation": "やだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>拒絶の叫び。</li><li>やられたくない、負けたくないという必死さが伝わります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl17.mp3"
+    },
+    {
+      "id": "leon_vl18",
+      "quote": "Ha, see ya!",
+      "translation": "ハッ、じゃあな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を倒して、透明になって消える時の捨て台詞。</li><li>アサシンとして最高にカッコいい去り際です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl18.mp3"
+    },
+    {
+      "id": "leon_vl19",
+      "quote": "Woo-hoo!",
+      "translation": "ウーフー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>テンションMAXの歓声！</li><li>心からバトルを楽しんでいるようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl19.mp3"
+    },
+    {
+      "id": "leon_vl20",
+      "quote": "Yes!",
+      "translation": "よし！",
+      "explanation": "<strong>解説:</strong><br><ul><li>確かな手応えを感じた時の一言。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/leon_vl20.mp3"
+    }
+  ]
+}

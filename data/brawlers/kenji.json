@@ -1,0 +1,318 @@
+{
+  "name": "ケンジ",
+  "nameEn": "Kenji",
+  "rarity": "legend-rare",
+  "role": "assassin",
+  "quote": "Only my heart is stronger than my blade.",
+  "iconUrl": "https://i.imgur.com/ixEeSWv.png",
+  "voicelines": [
+    {
+      "id": "kenji_vl1",
+      "quote": "Time to chop and drop.",
+      "translation": "刻んで、沈める時間だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>寿司職人として食材を「刻み（Chop）」、戦士として敵を「倒す（Drop）」というダブルミーニング。</li><li>韻を踏んでてリズムが良いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl1.mp3"
+    },
+    {
+      "id": "kenji_vl2",
+      "quote": "I'm on a sushi roll!",
+      "translation": "俺は寿司ロールに乗ってるぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「On a roll（絶好調）」と「Sushi roll（巻き寿司）」をかけたダジャレ。</li><li>調子がいい時につい出ちゃうオヤジギャグです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl2.mp3"
+    },
+    {
+      "id": "kenji_vl3",
+      "quote": "Even monkeys fall from trees.",
+      "translation": "猿も木から落ちる。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ことわざ「猿も木から落ちる（弘法にも筆の誤り）」の英訳。</li><li>失敗した時の自分への慰めです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl3.mp3"
+    },
+    {
+      "id": "kenji_vl4",
+      "quote": "The frog in the well knows nothing of the ocean.",
+      "translation": "井の中の蛙、大海を知らず。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ことわざ「井の中の蛙大海を知らず」。</li><li>「お前は俺という大海を知らないちっぽけなカエルだ」という、達人らしい見下し方です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl4.mp3"
+    },
+    {
+      "id": "kenji_vl5",
+      "quote": "Fall seven times and stand up eight.",
+      "translation": "七転び八起き。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ことわざ「七転び八起き」。</li><li>何度倒れても立ち上がる、侍スピリットです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl5.mp3"
+    },
+    {
+      "id": "kenji_vl6",
+      "quote": "Ha ha!",
+      "translation": "ハハッ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>豪快な笑い声。</li><li>自信に満ち溢れています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl6.mp3"
+    },
+    {
+      "id": "kenji_vl7",
+      "quote": "Wasabi!",
+      "translation": "ワサビ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>気合を入れる時の謎の掛け声。</li><li>ピリリと辛い一撃をお見舞いします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl7.mp3"
+    },
+    {
+      "id": "kenji_vl8",
+      "quote": "Only my heart is stronger than my blade.",
+      "translation": "俺の刃より強いのは、俺の心だけだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺の刀は最強だが、俺のメンタルはもっと最強だ」というカッコいいセリフ。</li><li>心技体が揃った武人の言葉です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl8.mp3"
+    },
+    {
+      "id": "kenji_vl9",
+      "quote": "I am not worthy.",
+      "translation": "私には、その価値がない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けた時の謙虚な言葉。</li><li>「まだまだ修行が足りん」と反省しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl9.mp3"
+    },
+    {
+      "id": "kenji_vl10",
+      "quote": "My blade never forgets a Brawler.",
+      "translation": "俺の刃は、一度斬ったブロウラーを忘れない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>刀を擬人化したような、ちょっと怖いセリフ。</li><li>一度狙った獲物は逃さない執念深さを感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl10.mp3"
+    },
+    {
+      "id": "kenji_vl11",
+      "quote": "The weak are meat, the strong eat!",
+      "translation": "弱者は肉、強者が食らう！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「弱肉強食」を英語で説明するとこうなります。</li><li>彼にとって戦場は巨大な厨房なのかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl11.mp3"
+    },
+    {
+      "id": "kenji_vl12",
+      "quote": "Sliced and diced.",
+      "translation": "スライスして、刻んでやったぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「みじん切りにしてやったぜ」という料理人らしい勝利宣言。</li><li>敵を食材扱いしています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl12.mp3"
+    },
+    {
+      "id": "kenji_vl13",
+      "quote": "Oh!",
+      "translation": "おぉ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>短い感嘆詞。</li><li>驚いた時や、攻撃を受けた時の反応です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl13.mp3"
+    },
+    {
+      "id": "kenji_vl14",
+      "quote": "Eugh!",
+      "translation": "うっ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ダメージボイス。</li><li>苦しげなうめき声です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl14.mp3"
+    },
+    {
+      "id": "kenji_vl15",
+      "quote": "Loyalty and duty.",
+      "translation": "忠義と、務め。",
+      "explanation": "<strong>解説:</strong><br><ul><li>侍としての行動指針。</li><li>彼が誰に仕えているのかは謎ですが、忠誠心は高いようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl15.mp3"
+    },
+    {
+      "id": "kenji_vl16",
+      "quote": "Chef special, victory roll!",
+      "translation": "シェフのスペシャル、ビクトリーロールだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>勝利の舞を「ビクトリーロール（巻き寿司）」に例えるセンス。</li><li>本日のおすすめメニューです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl16.mp3"
+    },
+    {
+      "id": "kenji_vl17",
+      "quote": "Impressive.",
+      "translation": "見事だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵の強さを素直に認める潔さ。</li><li>強者としての余裕があります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl17.mp3"
+    },
+    {
+      "id": "kenji_vl18",
+      "quote": "One blade, many Brawlers.",
+      "translation": "一本の刃、多くのブロウラー。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「たった一本の刀で、大勢の敵を相手にする」というカッコいい構図。</li><li>宮本武蔵のような剣豪の風格です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl18.mp3"
+    },
+    {
+      "id": "kenji_vl19",
+      "quote": "Vengeance is all I have left.",
+      "translation": "私に残されたのは、復讐だけだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>急にシリアスになる復讐鬼モード。</li><li>過去に何か重い事情がありそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl19.mp3"
+    },
+    {
+      "id": "kenji_vl20",
+      "quote": "Blade fury!",
+      "translation": "ブレード・フューリー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>必殺技の名前。</li><li>「怒りの刃」で敵を切り刻みます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl20.mp3"
+    },
+    {
+      "id": "kenji_vl21",
+      "quote": "乾杯！",
+      "translation": "乾杯！",
+      "explanation": "<strong>解説:</strong><br><ul><li>勝利の美酒を味わう時の一言。</li><li>日本語でそのまま「カンパイ！」と言っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl21.mp3"
+    },
+    {
+      "id": "kenji_vl22",
+      "quote": "My shame is great.",
+      "translation": "我が恥は、大きい。",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けた時の「恥ずかしい…」という気持ちを武士語で。</li><li>切腹しそうな勢いで反省しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl22.mp3"
+    },
+    {
+      "id": "kenji_vl23",
+      "quote": "Ha ha ha, Brawler, sashimi style.",
+      "translation": "ハハハ、ブロウラーの刺し身スタイルだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を「刺し身」にしちゃった、というブラックジョーク。</li><li>活き造りでしょうか。怖いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl23.mp3"
+    },
+    {
+      "id": "kenji_vl24",
+      "quote": "I can smell the sakura.",
+      "translation": "桜の香りがする。",
+      "explanation": "<strong>解説:</strong><br><ul><li>死に際に故郷の桜を思い出す、映画のワンシーンのようなセリフ。</li><li>散り際の美学です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl24.mp3"
+    },
+    {
+      "id": "kenji_vl25",
+      "quote": "Ha ha ha ha, samurai slash!",
+      "translation": "ハハハハ、サムライ・スラッシュ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分で技名を叫んじゃうお茶目な一面。</li><li>楽しそうで何よりです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl25.mp3"
+    },
+    {
+      "id": "kenji_vl26",
+      "quote": "I fear nothing!",
+      "translation": "恐れるものは何もない！",
+      "explanation": "<strong>解説:</strong><br><ul><li>恐怖を克服した達人の境地。</li><li>どんな強敵にも立ち向かいます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl26.mp3"
+    },
+    {
+      "id": "kenji_vl27",
+      "quote": "やばい！",
+      "translation": "やばい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ピンチの時に素で出ちゃった日本語。</li><li>「Yabai!」の発音がリアルです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl27.mp3"
+    },
+    {
+      "id": "kenji_vl28",
+      "quote": "I do not seek revenge, I only seek justice!",
+      "translation": "私が求めるは復讐ではない、ただ正義のみ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「復讐鬼」から「正義の味方」へキャラ変？</li><li>自分に言い聞かせているのかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl28.mp3"
+    },
+    {
+      "id": "kenji_vl29",
+      "quote": "Justice has been served!",
+      "translation": "正義は、果たされた！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Serve（料理を出す／任務を果たす）」をかけた表現。</li><li>「一丁上がり！」というニュアンスも含まれています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl29.mp3"
+    },
+    {
+      "id": "kenji_vl30",
+      "quote": "I have found the way of the samurai.",
+      "translation": "私は、武士道を見出した。",
+      "explanation": "<strong>解説:</strong><br><ul><li>悟りを開いた瞬間。</li><li>迷いが消え、剣筋が冴え渡ります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl30.mp3"
+    },
+    {
+      "id": "kenji_vl31",
+      "quote": "Ha ha ha ha ha, tuna time!",
+      "translation": "ハハハハハ、マグロの時間だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵をマグロ（解体される獲物）だと思って喜んでいます。</li><li>包丁を研ぐ音が聞こえてきそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl31.mp3"
+    },
+    {
+      "id": "kenji_vl32",
+      "quote": "地金が出る！",
+      "translation": "地金が出る！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ことわざ「地金が出る（本性がバレる）」。</li><li>化けの皮を剥がしてやる、という意味でしょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl32.mp3"
+    },
+    {
+      "id": "kenji_vl33",
+      "quote": "Silence speaks, shouting whispers.",
+      "translation": "沈黙は語り、叫びは囁く。",
+      "explanation": "<strong>解説:</strong><br><ul><li>禅問答のような深い言葉。</li><li>「静けさの中にこそ真実がある」的なサムライ哲学です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl33.mp3"
+    },
+    {
+      "id": "kenji_vl34",
+      "quote": "Life is like death, except different.",
+      "translation": "生は死のようだ、違う点を除いてはね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「生きることは死ぬことと同じ…いや違うけどね」という、深いようで浅いセリフ。</li><li>ちょっと天然が入ってます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl34.mp3"
+    },
+    {
+      "id": "kenji_vl35",
+      "quote": "単刀直入！",
+      "translation": "単刀直入！",
+      "explanation": "<strong>解説:</strong><br><ul><li>四字熟語を叫んで突撃！</li><li>「前置きはなしだ、死ね！」という潔さ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl35.mp3"
+    },
+    {
+      "id": "kenji_vl36",
+      "quote": "I have no honor.",
+      "translation": "私に、名誉などない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺は名誉なんか捨てた」というダークヒーロー的な発言。</li><li>手段を選ばない覚悟を感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl36.mp3"
+    },
+    {
+      "id": "kenji_vl37",
+      "quote": "オラオラオラオラオラオラ！",
+      "translation": "オラオラオラオラオラオラ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>『ジョジョの奇妙な冒険』の承太郎のラッシュ時の掛け声。</li><li>連続攻撃（ウルト）の時に叫びたくなります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl37.mp3"
+    },
+    {
+      "id": "kenji_vl38",
+      "quote": "身から出た錆！",
+      "translation": "身から出た錆！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「自業自得だ！」と敵を断罪するセリフ。</li><li>刀を使う彼が「錆」と言うのが洒落てます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl38.mp3"
+    },
+    {
+      "id": "kenji_vl39",
+      "quote": "My knife, your life.",
+      "translation": "我がナイフ、汝のライフ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Knife」と「Life」で韻を踏んだ詩的な脅し。</li><li>「俺のナイフがお前の命を奪う」というシンプルな因果関係。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl39.mp3"
+    },
+    {
+      "id": "kenji_vl40",
+      "quote": "抜き差しならぬ！ ",
+      "translation": "抜き差しならぬ！ ",
+      "explanation": "<strong>解説:</strong><br><ul><li>「どうにもならない状況（っべー！）」という意味。</li><li>囲まれた時などに使う、侍言葉です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl40.mp3"
+    },
+    {
+      "id": "kenji_vl41",
+      "quote": "You're no match for my blade.",
+      "translation": "お前では、俺の刃の相手にはならない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「格が違うんだよ」という勝利宣言。</li><li>圧倒的な実力差を見せつけた後に。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl41.mp3"
+    },
+    {
+      "id": "kenji_vl42",
+      "quote": "マジで！？",
+      "translation": "マジで！？",
+      "explanation": "<strong>解説:</strong><br><ul><li>予想外のことが起きた時の素のリアクション。</li><li>現代語を喋る侍です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl42.mp3"
+    },
+    {
+      "id": "kenji_vl43",
+      "quote": "Death by tofu, ha ha ha!",
+      "translation": "豆腐による死、ハハハ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「豆腐にぶつかって死んだようなもんだ（情けない死に方だ）」という嘲笑。</li><li>豆腐の角は意外と痛い…わけありません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl43.mp3"
+    },
+    {
+      "id": "kenji_vl44",
+      "quote": "豆腐の角に頭ぶつけて死んじまえ！",
+      "translation": "豆腐の角に頭ぶつけて死んじまえ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>日本の有名な悪口（ことわざ）。</li><li>「そんなヘマするなら死んだほうがマシだ」という強烈な煽りです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kenji_vl44.mp3"
+    }
+  ]
+}

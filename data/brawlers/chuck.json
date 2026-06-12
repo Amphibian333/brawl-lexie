@@ -1,0 +1,234 @@
+{
+  "name": "チャック",
+  "nameEn": "Chuck",
+  "rarity": "ultra-rare",
+  "role": "assassin",
+  "quote": "Choo choo!",
+  "iconUrl": "https://i.imgur.com/PLjFAZq.png",
+  "voicelines": [
+    {
+      "id": "chuck_vl1",
+      "quote": "Back on track!",
+      "translation": "軌道に戻ったぞ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「計画通りに進んでいる」という意味と、文字通り「線路（トラック）に戻った」という意味をかけたセリフ。</li><li>脱線してもすぐに復帰する、タフな車掌さんです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl1.mp3"
+    },
+    {
+      "id": "chuck_vl2",
+      "quote": "My magnum opus!",
+      "translation": "我が最高傑作だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>芸術家が生涯で一番の作品に対して使う言葉。</li><li>自分のプレイを「芸術」だと思っている、ナルシストな一面が見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl2.mp3"
+    },
+    {
+      "id": "chuck_vl3",
+      "quote": "Ugh, lost my train of thought!",
+      "translation": "うぅ、思考の列車を見失った！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「何を考えてたか忘れちゃった」という意味のイディオム「lose one's train of thought」を使ったダジャレ。</li><li>電車男のチャックにはぴったりの言い回しです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl3.mp3"
+    },
+    {
+      "id": "chuck_vl4",
+      "quote": "What a trill!",
+      "translation": "なんてトリルだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「トリル（音楽の装飾音）」と「スリル（Thrill）」をかけているのかも？</li><li>音楽用語を使って興奮を表現する、マエストロらしい感嘆です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl4.mp3"
+    },
+    {
+      "id": "chuck_vl5",
+      "quote": "A symphony of suffering!",
+      "translation": "苦しみの交響曲だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵の悲鳴を「交響曲（シンフォニー）」に例える狂気。</li><li>戦場を指揮するコンダクター気取りです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl5.mp3"
+    },
+    {
+      "id": "chuck_vl6",
+      "quote": "Choo-choo!",
+      "translation": "シュッシュッポッポ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>子供みたいな擬音語ですが、チャックが言うと重量感のある蒸気機関車の音に聞こえます。突撃の合図！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl6.mp3"
+    },
+    {
+      "id": "chuck_vl7",
+      "quote": "Next stop, Creepyville!",
+      "translation": "次の停車駅は、不気味村！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「次は～、地獄～、地獄でございます～」みたいな車内アナウンス。</li><li>乗ったら二度と帰ってこれなそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl7.mp3"
+    },
+    {
+      "id": "chuck_vl8",
+      "quote": "Il mio momento!",
+      "translation": "私の瞬間だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>イタリア語で「俺の見せ場だ！」。</li><li>ウルトで華麗に突っ込む時に叫びたい、カッコいい決め台詞です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl8.mp3"
+    },
+    {
+      "id": "chuck_vl9",
+      "quote": "Steamy staccato!",
+      "translation": "湯気のスタッカートよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>蒸気の音を、短く切る演奏法「スタッカート」に例えています。</li><li>リズム良く蒸気を吹き出しながら攻撃する様子が目に浮かびます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl9.mp3"
+    },
+    {
+      "id": "chuck_vl10",
+      "quote": "Brawlissimo!",
+      "translation": "ブロリッシモ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ブラボー（Bravo）」の最上級「ブラヴィッシモ」と「ブロー（Brawl）」を合体させた造語。</li><li>「最高の戦いだ！」と絶賛しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl10.mp3"
+    },
+    {
+      "id": "chuck_vl11",
+      "quote": "Molto triste.",
+      "translation": "非常に悲しい。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時のイタリア語。</li><li>悲劇のオペラ歌手みたいに、大げさに悲しんで見せます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl11.mp3"
+    },
+    {
+      "id": "chuck_vl12",
+      "quote": "Destination: pain!",
+      "translation": "目的地は、苦痛！",
+      "explanation": "<strong>解説:</strong><br><ul><li>この列車は「苦痛」行きです。</li><li>乗客（敵）にとっては最悪のツアーですね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl12.mp3"
+    },
+    {
+      "id": "chuck_vl13",
+      "quote": "Into the fray, full steam ahead!",
+      "translation": "乱闘の中へ、全速前進！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「全速前進（Full steam ahead）」は蒸気船や機関車の合図。</li><li>迷わず敵陣に突っ込む勇ましさを感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl13.mp3"
+    },
+    {
+      "id": "chuck_vl14",
+      "quote": "From minor to major!",
+      "translation": "短調から長調へ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>暗い曲調（短調）から、明るい曲調（長調）へ転調するように、形勢逆転したことを表現しています。お洒落！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl14.mp3"
+    },
+    {
+      "id": "chuck_vl15",
+      "quote": "Pianissimo, please!",
+      "translation": "ピアニッシモで、お願い。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「静かにしてくれ」という命令を、音楽用語で上品に言っています。</li><li>うるさい敵を黙らせた時に使いたい皮肉です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl15.mp3"
+    },
+    {
+      "id": "chuck_vl16",
+      "quote": "Winning fanfare!",
+      "translation": "勝利のファンファーレだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>勝った時に高らかに宣言！</li><li>脳内で勝利のBGMが再生されているようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl16.mp3"
+    },
+    {
+      "id": "chuck_vl17",
+      "quote": "Prossima fermata, ospedale!",
+      "translation": "次の停車駅は、病院！",
+      "explanation": "<strong>解説:</strong><br><ul><li>イタリア語のアナウンス。「次～、病院～、病院～」。</li><li>敵を病院送りにしてやる、というブラックジョークです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl17.mp3"
+    },
+    {
+      "id": "chuck_vl18",
+      "quote": "Time to let off some steam! Choo-choo!",
+      "translation": "蒸気を発散させる時間だ！シュッシュッポッポ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ストレス発散の時間だ！」という意味と、蒸気機関車の蒸気を逃がすことをかけた表現。</li><li>暴れ回る気満々です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl18.mp3"
+    },
+    {
+      "id": "chuck_vl19",
+      "quote": "Time for the applause!",
+      "translation": "拍手の時間だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の素晴らしいプレイに対して、観客（プレイヤー）に拍手を要求しています。</li><li>自信家なマエストロらしい振る舞い。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl19.mp3"
+    },
+    {
+      "id": "chuck_vl20",
+      "quote": "Attenzione!",
+      "translation": "アッテンツィオーネ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>イタリア語で「注意！」。</li><li>列車が通るから危ないぞ、という警告です。轢かれないように注意！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl20.mp3"
+    },
+    {
+      "id": "chuck_vl21",
+      "quote": "You need more train-ing. Ha ha ha ha!",
+      "translation": "君にはもっとトレーニングが必要だな。ハハハハ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Training（訓練）」を「Train（電車）-ing」と区切って発音する親父ギャグ。</li><li>ドヤ顔で笑っているのが目に浮かびます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl21.mp3"
+    },
+    {
+      "id": "chuck_vl22",
+      "quote": "Concerto of carnage!",
+      "translation": "大虐殺の協奏曲！",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦場の悲惨な状況すら、壮大な音楽作品として楽しんでしまう狂気。</li><li>芸術家気取りのヴィランって感じです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl22.mp3"
+    },
+    {
+      "id": "chuck_vl23",
+      "quote": "Treno!",
+      "translation": "電車だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>イタリア語で「電車」。</li><li>シンプルに自分の正体を叫んで突撃します。分かりやすい！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl23.mp3"
+    },
+    {
+      "id": "chuck_vl24",
+      "quote": "All aboard the pain train!",
+      "translation": "ペイントレインに全員乗車！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「苦痛をもたらす列車（Pain Train）」が出発進行！</li><li>英語圏のゲームでよく使われる、強キャラが暴れる時の決まり文句です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl24.mp3"
+    },
+    {
+      "id": "chuck_vl25",
+      "quote": "Grazie a tutti!",
+      "translation": "みんな、ありがとう！",
+      "explanation": "<strong>解説:</strong><br><ul><li>イタリア語で「皆様に感謝を」。</li><li>ショーの終わりに観客へお辞儀をしているような、優雅な勝利ボイスです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl25.mp3"
+    },
+    {
+      "id": "chuck_vl26",
+      "quote": "Please, go conduct yourself.",
+      "translation": "どうぞ、ご自身で指揮なさってください。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「自分の指揮（行動）くらい自分でしなさい」＝「私の邪魔をするな」という、遠回しで上品な嫌味。</li><li>指揮者（Conductor）ならではの言葉遊びです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl26.mp3"
+    },
+    {
+      "id": "chuck_vl27",
+      "quote": "Arrivederci. Ah!",
+      "translation": "アリヴェデルチ。あぁ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>カッコよく「さようなら（Arrivederci）」とキメた直後にやられて「あぁ！」と叫ぶ、締まらない最期。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl27.mp3"
+    },
+    {
+      "id": "chuck_vl28",
+      "quote": "That was well orchestrated.",
+      "translation": "それは見事にオーケストレーションされていた。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵の連携攻撃を「見事な編曲（構成）だった」と褒める余裕。</li><li>負けても芸術家としての視点を忘れません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl28.mp3"
+    },
+    {
+      "id": "chuck_vl29",
+      "quote": "È stato bello!",
+      "translation": "素晴らしかった！",
+      "explanation": "<strong>解説:</strong><br><ul><li>イタリア語で「美しかった！」という感想。</li><li>良い試合や良いプレイに対して、素直に感動しているようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl29.mp3"
+    },
+    {
+      "id": "chuck_vl30",
+      "quote": "Arrivederci!",
+      "translation": "さようなら！",
+      "explanation": "<strong>解説:</strong><br><ul><li>『ジョジョの奇妙な冒険』などでも有名なイタリア語の別れの挨拶。</li><li>敵を倒して去っていく時に言うと最高にクールです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl30.mp3"
+    },
+    {
+      "id": "chuck_vl31",
+      "quote": "È stato ben orchestrato!",
+      "translation": "見事にオーケストレーションされていた！",
+      "explanation": "<strong>解説:</strong><br><ul><li>さっきの「That was well orchestrated」のイタリア語版。</li><li>大事なことなので2ヶ国語で言いました。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl31.mp3"
+    },
+    {
+      "id": "chuck_vl32",
+      "quote": "Eccomi! Il maestro!",
+      "translation": "エッコミ！私がマエストロだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私が来た！巨匠の登場だ！」という高らかな宣言。</li><li>自信満々でステージ（戦場）に現れる姿が目に浮かびます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chuck_vl32.mp3"
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "name": "ベル",
+  "nameEn": "Belle",
+  "rarity": "hyper-rare",
+  "role": "marksman",
+  "quote": "The Goldarm Gang never forgets.",
+  "iconUrl": "https://i.imgur.com/3gNXBGu.png",
+  "voicelines": [
+    {
+      "id": "belle_vl1",
+      "quote": "My fizzle, is ready to sizzle.",
+      "translation": "あたしのシュワシュワが、ジュージュー焼く準備万端よ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fizzle\" は「シューッ」という音や「不発」、\"sizzle\" は肉が焼ける「ジュージュー」という音を指します。</li><li>\"fizzle\" と \"sizzle\" で韻を踏んだ、リズミカルなセリフ。自身の電撃攻撃が、いつでも相手を焼き尽くす準備ができていると宣言しています。</li></ul><strong>英文法:</strong><br>前半と後半で文が分かれており、一呼吸置くことで期待感を高めています。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl1.mp3"
+    },
+    {
+      "id": "belle_vl2",
+      "quote": "I'm the leader of the gang.",
+      "translation": "あたしがこのギャングのリーダーよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が「ゴールドアームギャング」のリーダーであることを、ストレートに宣言しています。</li></ul><strong>英文法:</strong><br>「主語 + be動詞 + 補語」のシンプルな自己紹介文です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl2.mp3"
+    },
+    {
+      "id": "belle_vl3",
+      "quote": "Show some respect!",
+      "translation": "敬意を払いな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の無礼な態度に対して、「敬意（respect）を示せ」と要求する、女ボスらしい威厳のある命令です。</li></ul><strong>英文法:</strong><br>動詞の原形 \"show\" で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl3.mp3"
+    },
+    {
+      "id": "belle_vl4",
+      "quote": "Gotta do everything myself.",
+      "translation": "何でも自分でやんなきゃならないね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>周りの仲間が頼りないため、「結局、全部自分でやらなきゃいけない」と不満を漏らしているセリフです。</li></ul><strong>英文法:</strong><br>\"I've gotta do...\" の主語 \"I've\" が省略された形です。\"gotta\" は \"have got to\"（～しなければならない）の口語的な短縮形です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl4.mp3"
+    },
+    {
+      "id": "belle_vl5",
+      "quote": "The Goldarm Gang never forgets.",
+      "translation": "ゴールドアームギャングは決して忘れない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「この恨みは決して忘れないぞ」という、ギャングとしての報復を誓う、非常に脅威的なセリフです。</li></ul><strong>英文法:</strong><br>\"never\" を使った、強い否定の文です。「決して～ない」という強い意志を表します。<br><br><strong>🧠豆知識:</strong><br>有名なドラマ『ゲーム・オブ・スローンズ』の「The North remembers.（北部は忘れない）」など、特定の集団が「決して忘れない」と宣言するセリフは、その集団の執念深さと結束の固さを示す決め台詞として使われます。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl5.mp3"
+    },
+    {
+      "id": "belle_vl6",
+      "quote": "I've got you in my sights!",
+      "translation": "あんたはもう、照準の中よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"in my sights\" は「照準の中に、視界の中に」という意味。</li><li>狙撃手であるベルが、ターゲットを完全に射程内に捉えたことを宣言する、クールなセリフです。</li></ul><strong>英文法:</strong><br>\"I have got you...\" の構文で、相手を捕らえた状態にあることを示します。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl6.mp3"
+    },
+    {
+      "id": "belle_vl7",
+      "quote": "Gotta get a hot start!",
+      "translation": "幸先の良いスタートを切らないとね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"get a hot start\" は「好調なスタートを切る」という意味の口語表現です。</li><li>試合の序盤で、勢いをつけることの重要性を語っています。</li></ul><strong>英文法:</strong><br>\"I've gotta get...\" の主語が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl7.mp3"
+    },
+    {
+      "id": "belle_vl8",
+      "quote": "It's all mine! Ha ha ha ha ha ha!",
+      "translation": "全部あたしのものよ！ハハハハハ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>戦場にあるもの全て（エメラルドや勝利など）が自分の所有物だと宣言する、強欲な女ボスのセリフです。</li></ul><strong>英文法:</strong><br>\"all mine\" は「すべて私のもの」と所有を強く主張する表現です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl8.mp3"
+    },
+    {
+      "id": "belle_vl9",
+      "quote": "You messed with the wrong ma.",
+      "translation": "あんた、敵にする相手を間違えたね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"mess with the wrong person\" は「敵にする相手を間違える」という決まり文句。</li><li>\"ma\" は「お母さん」を意味し、ここではギャングの女ボス（母親的存在）である自分を指しています。「このあたしを敵に回すとは、大した度胸じゃないか」というニュアンスです。</li></ul><strong>英文法:</strong><br>定型化された慣用句を使った、過去の行動を非難する文です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl9.mp3"
+    },
+    {
+      "id": "belle_vl10",
+      "quote": "Glad you ain't my kid.",
+      "translation": "あんたがあたしの子じゃなくて良かったよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手のふがいなさや弱さを見て、「こんなのが自分の子供じゃなくて心底良かった」と呆れ返っているセリフです。</li></ul><strong>英文法:</strong><br>\"I'm glad...\" の主語と動詞が省略されています。\"ain't\" は \"are not\" の非常に口語的な短縮形です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl10.mp3"
+    },
+    {
+      "id": "belle_vl11",
+      "quote": "You got me. This time.",
+      "translation": "やられたね。今回はね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"You got me\" は「やられた、一本取られた」と敗北を認める言葉。</li><li>しかし、最後に \"This time.\"（今回は）と付け加えることで、「今回は負けてやるが、次はないぞ」という、強気な負け惜しみを表現しています。</li></ul><strong>英文法:</strong><br>二つの短いフレーズを組み合わせることで、複雑な感情を表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl11.mp3"
+    },
+    {
+      "id": "belle_vl12",
+      "quote": "You can run! But you can't hide...",
+      "translation": "逃げることはできる！でも隠れることはできない…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「どこへ逃げようとも、必ず見つけ出してやる」という、逃げ場のない恐怖を相手に与える、非常に有名な脅し文句です。</li></ul><strong>英文法:</strong><br>助動詞 \"can\" と \"can't\" を使い、「できること」と「できないこと」を対比させています。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl12.mp3"
+    },
+    {
+      "id": "belle_vl13",
+      "quote": "Aw c'mon. Let me show you how it's done.",
+      "translation": "やれやれ。お手本を見せてやるよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Aw c'mon.\" は、相手の不甲斐なさに呆れた時の「おいおい、しっかりしろよ」といった間投詞。</li><li>\"Let me show you how it's done.\" は「プロのやり方というものを見せてやろう」という、ベテランが素人に見せつける際の、自信に満ちたセリフです。</li></ul><strong>英文法:</strong><br>使役動詞 \"Let\" を使った命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl13.mp3"
+    },
+    {
+      "id": "belle_vl14",
+      "quote": "Time to collect!",
+      "translation": "回収の時間よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"collect\" は「集める、回収する」。</li><li>借金の取り立て屋のように、敵から何か（勝利や報酬）を「回収する」時間だと宣言しています。</li></ul><strong>英文法:</strong><br>\"It's time to collect.\" の主語と動詞が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl14.mp3"
+    },
+    {
+      "id": "belle_vl15",
+      "quote": "Huh. So you think you're tough, huh?",
+      "translation": "ふん。自分がタフだとでも思ってるのかい？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の強さを認めつつも、「それで？だから何だ？」と、全く動じていない様子を見せる、ベテランらしい挑発です。</li><li>文頭と文末の \"huh?\" が、相手を小馬鹿にしたような雰囲気を強調しています。</li></ul><strong>英文法:</strong><br>\"So you think...?\" は「それで、君は～だと思っているのか？」と、相手の考えを確認する形の疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl15.mp3"
+    },
+    {
+      "id": "belle_vl16",
+      "quote": "Outta my way, greenhorn.",
+      "translation": "どきな、青二才。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Outta\" は \"Out of\" の口語的な短縮形。</li><li>\"greenhorn\" は「未経験者、青二才、新人」を指すスラングです。自分より格下の相手を軽蔑的に扱うセリフです。</li></ul><strong>英文法:</strong><br>命令文と呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl16.mp3"
+    },
+    {
+      "id": "belle_vl17",
+      "quote": "I'm gonna find you!",
+      "translation": "見つけ出してやる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>どこに隠れても無駄だ、と相手にプレッシャーを与える、執念深いセリフです。</li></ul><strong>英文法:</strong><br>\"gonna\" は \"going to\" の口語的な短縮形。未来の行動への強い意志を示します。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl17.mp3"
+    },
+    {
+      "id": "belle_vl18",
+      "quote": "Bang.",
+      "translation": "バーン。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身のライフルが放たれた時の、乾いた銃声を表す擬音語です。</li></ul><strong>英文法:</strong><br>感嘆詞として使われる擬音語です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl18.mp3"
+    },
+    {
+      "id": "belle_vl19",
+      "quote": "I'm shoulder to the holder.",
+      "translation": "さあ、仕事にかかるよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは既存のイディオムではなく、ベルの独創的な言い回しのようです。</li><li>\"put one's shoulder to the wheel\"（仕事に精を出す）のような表現を、彼女流にアレンジした可能性があります。「さあ、本格的に取り掛かるか」といったニュアンスです。</li></ul><strong>英文法:</strong><br>独特の造語的なフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl19.mp3"
+    },
+    {
+      "id": "belle_vl20",
+      "quote": "Where there's a will, there's a weld.",
+      "translation": "意志あるところに、溶接あり。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは、「精神一到何事か成らざらん」という意味の有名なことわざ \"Where there's a will, there's a way.\"（意志あるところに、道は開ける）をもじった、見事な言葉遊び（pun）です。</li><li>「道（way）」を、彼女の得意な「溶接（weld）」に置き換えることで、どんな困難も自分の技術で解決するという、ベルの職人としての自信と哲学を表しています。</li></ul><strong>英文法:</strong><br>\"Where there is A, there is B.\" は「Aがあるところには、Bがある」という、ことわざや格言でよく使われる構文です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl20.mp3"
+    },
+    {
+      "id": "belle_vl21",
+      "quote": "Hey! I got a job to do.",
+      "translation": "ちょっと！こっちには仕事があるんだよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>邪魔をしてくる相手に対して、「こっちはやるべき仕事があるんだから、邪魔するな」と一喝しています。</li></ul><strong>英文法:</strong><br>\"I got\" は \"I have got\" の口語的な形です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl21.mp3"
+    },
+    {
+      "id": "belle_vl22",
+      "quote": "Aww... did you burn yourself?",
+      "translation": "あらら…自分でヤケドしちゃったのかい？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が自分の電撃攻撃でダメージを受けたことを、「自分でヤケドした」と表現し、子供を諭すように、しかし皮肉たっぷりにからかっています。</li></ul><strong>英文法:</strong><br>過去形の疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl22.mp3"
+    },
+    {
+      "id": "belle_vl23",
+      "quote": "This... ain't over.",
+      "translation": "まだ…終わりじゃないよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が倒されても、「これで終わりだと思うなよ」と、復讐を誓う捨て台詞です。</li><li>言葉を区切ることで、強い執念を表現しています。</li></ul><strong>英文法:</strong><br>\"ain't\" は \"is not\" の口語的な短縮形です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl23.mp3"
+    },
+    {
+      "id": "belle_vl24",
+      "quote": "The Goldarm Gang says hi.",
+      "translation": "ゴールドアームギャングから、ご挨拶だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の攻撃を、ギャングからの「挨拶」だと表現する、粋で脅威的なセリフです。</li></ul><strong>英文法:</strong><br>擬人化されたギャングが主語になっています。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl24.mp3"
+    },
+    {
+      "id": "belle_vl25",
+      "quote": "C'mon, let's go, gang.",
+      "translation": "さあ、行くよ、みんな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"C'mon\" は \"Come on\" の短縮形。</li><li>\"gang\" は、ここでは自分のギャングの仲間たちへの呼びかけです。</li><li>リーダーとして、仲間を率いて行動を開始する掛け声です。</li></ul><strong>英文法:</strong><br>呼びかけと、提案・誘いの構文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl25.mp3"
+    },
+    {
+      "id": "belle_vl26",
+      "quote": "This is for you, son. Ha! Just kiddin'!",
+      "translation": "これはお前の分だよ、坊や。ハッ！なーんてね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手に何かを渡すフリをして、「これはお前の分だ」と言いながら、すぐに「冗談だよ！」とからかっています。</li><li>\"son\" は実の息子でなくても、年下の男性への呼びかけとして使うことがあります。</li><li>\"Just kiddin'!\" は \"Just kidding!\" の口語発音です。</li></ul><strong>英文法:</strong><br>二つの文を組み合わせることで、相手をからかう構成になっています。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl26.mp3"
+    },
+    {
+      "id": "belle_vl27",
+      "quote": "Belle groans",
+      "translation": "（ベルがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>ダメージを受けた時の苦痛や、不満を表すうめき声です。</li></ul><strong>英文法:</strong><br>動詞 \"groan\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl27.mp3"
+    },
+    {
+      "id": "belle_vl28",
+      "quote": "Ah, suck it up, buttercup.",
+      "translation": "あーあ、泣き言言うんじゃないよ、お嬢ちゃん。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"suck it up\" は「泣き言を言わずに耐えろ、我慢しろ」という意味の、少し手厳しい励ましのスラングです。</li><li>\"buttercup\" はキンポウゲという花のことで、子供や女性への愛情のこもった呼びかけですが、ここでは相手を「甘ちゃん」だと見下す皮肉として使われています。</li></ul><strong>英文法:</strong><br>\"suck it up\" と \"buttercup\" で韻を踏んだ、リズミカルな決まり文句です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl28.mp3"
+    },
+    {
+      "id": "belle_vl29",
+      "quote": "Ho! That's gonna leave a mark!",
+      "translation": "ほう！こりゃ痕に残るだろうね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"leave a mark\" は「痕跡を残す」。自分の攻撃が、相手に消えない傷跡を残すほど強力だったと、満足げに語っています。</li></ul><strong>英文法:</strong><br>\"gonna\" を使った、未来への確信を表す文です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl29.mp3"
+    },
+    {
+      "id": "belle_vl30",
+      "quote": "Time to shoot and loot.",
+      "translation": "撃って、奪う時間だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"shoot\"（撃つ）と \"loot\"（略奪する）で韻を踏んだ、無法者としての行動理念を表すスローガンです。</li></ul><strong>英文法:</strong><br>「Time to + 動詞 and 動詞」の構文です。<br><br><strong>🧠豆知識:</strong><br>「Looter Shooter（ルーターシューター）」というゲームジャンルがあるように、「撃って戦利品を得る」というコンセプトは、多くのゲームの根幹をなしています。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl30.mp3"
+    },
+    {
+      "id": "belle_vl31",
+      "quote": "Nothing beats a well-welding welder's weld!",
+      "translation": "上手に溶接する溶接工の溶接に勝るものはないね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"well-welding welder's weld\"（上手に溶接する溶接工の溶接）という、\"weld\" を多用した早口言葉のようなセリフです。</li><li>自身の溶接技術への、絶対的な自信を表しています。</li></ul><strong>英文法:</strong><br>\"Nothing beats ~\" は「～に勝るものはない」「～が最高だ」という意味の決まり文句です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl31.mp3"
+    },
+    {
+      "id": "belle_vl32",
+      "quote": "Stop whining!",
+      "translation": "泣き言はやめな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"whine\" は、犬がクーンと鳴くような、あるいは子供がメソメソと「泣き言を言う」こと。</li><li>相手の弱音に対して、苛立ちを込めて一喝しています。</li></ul><strong>英文法:</strong><br>動詞 \"Stop\" の後に、動名詞 \"whining\" が続いています。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl32.mp3"
+    },
+    {
+      "id": "belle_vl33",
+      "quote": "Mom never misses.",
+      "translation": "ママは的を外さないのさ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分を「ママ」と呼び、その射撃の腕前が百発百中であることを、自信満々に語っています。</li></ul><strong>英文法:</strong><br>\"never\" を使った、強い否定の現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl33.mp3"
+    },
+    {
+      "id": "belle_vl34",
+      "quote": "First we shoot, and then we loot.",
+      "translation": "まず撃って、それから奪う。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分たちの行動手順を、シンプルかつ冷徹に説明しています。ここでも \"shoot\" と \"loot\" で韻を踏んでいます。</li></ul><strong>英文法:</strong><br>\"First... and then...\" は「まず～して、それから…」と、行動の順番を示す構文です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl34.mp3"
+    },
+    {
+      "id": "belle_vl35",
+      "quote": "No one beats the Goldenarm!",
+      "translation": "誰もゴールデンアームには勝てない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分自身の通り名であろう「ゴールデンアーム」は、誰にも負けないと宣言しています。</li></ul><strong>英文法:</strong><br>\"No one beats ~\" は「誰も～には勝てない」という、無敵をアピールする表現です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl35.mp3"
+    },
+    {
+      "id": "belle_vl36",
+      "quote": "Meh, this ain't no glove of love.",
+      "translation": "メェ、こいつは愛のグローブなんかじゃないよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Meh\" は、無関心や退屈を表す間投詞。</li><li>\"glove of love\"（愛のグローブ）という、メルヘンなものを引き合いに出し、自分の武器がそんな生易しいものではない、と否定しています。</li></ul><strong>英文法:</strong><br>\"ain't no ~\" は \"is not any ~\" を非常に口語的に、そして強く否定する言い方です。「～なんかでは断じてない」というニュアンスです。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl36.mp3"
+    },
+    {
+      "id": "belle_vl37",
+      "quote": "Turnin' up the heat!",
+      "translation": "ヒートアップさせていくよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"turn up the heat\" は、文字通り「熱を上げる」ことから転じて、「プレッシャーを強める」「状況をさらに激しくする」という意味のイディオムです。</li></ul><strong>英文法:</strong><br>\"Turning\" は \"g\" を省略した口語発音。現在進行形で、今まさに状況を激化させていることを示します。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl37.mp3"
+    },
+    {
+      "id": "belle_vl38",
+      "quote": "Time to turn and burn!",
+      "translation": "反転して燃やす時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"turn and burn\" は、元々戦闘機の急旋回・急加速を指す言葉。転じて、「素早く方向転換して、一気に事を成し遂げる」といった意味で使われます。</li></ul><strong>英文法:</strong><br>「Time to + 動詞 and 動詞」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl38.mp3"
+    },
+    {
+      "id": "belle_vl39",
+      "quote": "That's why they call me the Goldenarm.",
+      "translation": "だから皆あたしをゴールデンアームと呼ぶのさ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の素晴らしい活躍の理由として、「だからこそ、私はこう呼ばれているのだ」と、自身の異名を誇らしげに語る、決め台詞です。</li></ul><strong>英文法:</strong><br>\"That's why...\" は「そういうわけで…だ」と、理由を説明する際の定番の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl39.mp3"
+    },
+    {
+      "id": "belle_vl40",
+      "quote": "Gotta secure the bag!",
+      "translation": "ブツを確保しないと！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"secure the bag\" は、元々ヒップホップカルチャーから広まったスラングで、「大金を手に入れる」「目標を達成して利益を確保する」といった意味です。</li></ul><strong>英文法:</strong><br>\"I've gotta secure...\" の主語が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl40.mp3"
+    },
+    {
+      "id": "belle_vl41",
+      "quote": "Crime does pay! Ha ha ha ha!",
+      "translation": "犯罪は割に合うのさ！ハハハハ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「犯罪は割に合わない（Crime doesn't pay）」という、一般的な道徳的な教えを、真っ向から否定しています。</li><li>無法者である彼女の、大胆不敵な価値観を表すセリフです。</li></ul><strong>英文法:</strong><br>否定文で使われる助動詞 \"does\" を、肯定文で使うことで、「本当に割に合うのだ」と動詞 \"pay\" を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/belle_vl41.mp3"
+    }
+  ]
+}

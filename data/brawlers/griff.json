@@ -1,0 +1,339 @@
+{
+  "name": "グリフ",
+  "nameEn": "Griff",
+  "rarity": "hyper-rare",
+  "role": "damage-dealer",
+  "quote": "Ka-ching!",
+  "iconUrl": "https://i.imgur.com/prPOieW.png",
+  "voicelines": [
+    {
+      "id": "griff_vl1",
+      "quote": "Open for business.",
+      "translation": "営業中だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>お店が「営業中」であることを示す、最も基本的な看板の言葉です。</li><li>グリフの店主としてのアイデンティティを表す、戦闘開始の合図です。</li></ul><strong>英文法:</strong><br>\"We are open for business.\" の主語と動詞が省略された、定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl1.mp3"
+    },
+    {
+      "id": "griff_vl2",
+      "quote": "Sweet smell of success!",
+      "translation": "成功の甘い香り！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"the sweet smell of success\" は「成功がもたらす心地よい感覚や雰囲気」を表現する、英語の有名な慣用句です。</li><li>勝利やお金儲けがうまくいった時の、満足感を表現しています。</li></ul><strong>英文法:</strong><br>「名詞 + of + 名詞」で構成される、定型化されたフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl2.mp3"
+    },
+    {
+      "id": "griff_vl3",
+      "quote": "That's coming out of your paycheck!",
+      "translation": "それはお前の給料から天引きだからな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>従業員が何か高価なものを壊したり、会社に損害を与えたりした時に、上司が言う典型的な脅し文句です。</li><li>「その損害分は、お前の給料（paycheck）から差し引くぞ」という意味です。</li></ul><strong>英文法:</strong><br>未来を表す現在進行形が使われており、「（これから）天引きされることになるぞ」というニュアンスです。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl3.mp3"
+    },
+    {
+      "id": "griff_vl4",
+      "quote": "Should have read the terms and conditions!",
+      "translation": "利用規約を読んでおくべきだったな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"terms and conditions\" は、契約書やサービスに付随する「利用規約」のこと。</li><li>相手が不利な状況に陥ったのは、細かい規約を読んでいなかったせいだと、相手の落ち度を指摘するセリフです。</li></ul><strong>英文法:</strong><br>\"should have + 過去分詞\" は「～すべきだった（のにしなかった）」という、過去の行動への後悔や非難を表す重要な構文です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl4.mp3"
+    },
+    {
+      "id": "griff_vl5",
+      "quote": "We are closed! Huh...",
+      "translation": "閉店だ！はぁ…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が倒されたことを、お店が「閉店（closed）」することに例えています。</li><li>最後の \"Huh...\" というため息に、商売を続けられない無念さが滲み出ています。</li></ul><strong>英文法:</strong><br>be動詞を使った、状態を表すシンプルな文です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl5.mp3"
+    },
+    {
+      "id": "griff_vl6",
+      "quote": "Griff laughs",
+      "translation": "（グリフが笑う）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>お金儲けがうまくいった時などの、がめつく、満足げな笑い声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"laugh\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl6.mp3"
+    },
+    {
+      "id": "griff_vl7",
+      "quote": "You break it! You bought it...",
+      "translation": "壊したな！お買い上げだ…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"You break it, you buy it.\" は、壊れ物を扱う店などでよく見られる警告文で、「もし商品を壊したら、それを買い取ってもらいます」という意味です。</li><li>敵にダメージを与えたことを、相手が自分の商品（攻撃）を「買ってくれた」と見なす、商売人らしい皮肉なセリフです。</li></ul><strong>英文法:</strong><br>ここでは \"buy\" の過去形 \"bought\" を使うことで、既にお買い上げが確定したニュアンスを出しています。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl7.mp3"
+    },
+    {
+      "id": "griff_vl8",
+      "quote": "I knew I could do it. Tuh-hee.",
+      "translation": "やれると分かっていたさ。テヘッ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>勝利した際に、「自分ならできると信じていた」と自信をのぞかせます。</li><li>最後の \"Tuh-hee.\" という、少し気取った、あるいは照れたような笑い声が特徴です。</li></ul><strong>英文法:</strong><br>\"I knew...\" という過去形の文で、以前から確信していたことを示します。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl8.mp3"
+    },
+    {
+      "id": "griff_vl9",
+      "quote": "Don't touch the merchandise!",
+      "translation": "商品に触るな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"merchandise\" は「商品」のこと。</li><li>店主として、客（ここでは敵）が商品（自分自身や味方、あるいは目標物）に触れることを固く禁じています。</li></ul><strong>英文法:</strong><br>\"Don't + 動詞\" の否定命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl9.mp3"
+    },
+    {
+      "id": "griff_vl10",
+      "quote": "No. Refunds!",
+      "translation": "返品は、受け付けん！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"No refunds\" は「返品不可」という、お店でよく使われる方針です。</li><li>ここでは、一度与えたダメージ（商品）を取り消すことはできない、という強い意志を示しています。</li></ul><strong>英文法:</strong><br>短い単語を区切って言うことで、断固とした態度を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl10.mp3"
+    },
+    {
+      "id": "griff_vl11",
+      "quote": "Tell the bank I'm busy...",
+      "translation": "銀行には、忙しいと伝えてくれ…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>借金の返済を催促する「銀行（the bank）」からの連絡を断ろうとしているセリフ。</li><li>がめつい一方で、経営が苦しいのかもしれないという背景を匂わせています。</li></ul><strong>英文法:</strong><br>間接話法を使った命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl11.mp3"
+    },
+    {
+      "id": "griff_vl12",
+      "quote": "Money money money! Money money money!",
+      "translation": "カネ、カネ、カネ！カネ、カネ、カネ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>お金に対する、彼の異常なまでの執着心をストレートに表現したセリフです。</li></ul><strong>英文法:</strong><br>名詞 \"Money\" を連呼することで、強い欲望や興奮を表しています。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl12.mp3"
+    },
+    {
+      "id": "griff_vl13",
+      "quote": "Another day? Another dollar!",
+      "translation": "別の日だって？また1ドル稼ぐだけさ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Another day, another dollar\" は「（代わり映えのしない毎日だが）まあ、今日も一日働いてお金を稼ぐか」といったニュアンスの、労働者の決まり文句です。</li></ul><strong>英文法:</strong><br>対句になった、リズミカルな定型表現です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl13.mp3"
+    },
+    {
+      "id": "griff_vl14",
+      "quote": "Everyone gets a 2% discount!",
+      "translation": "みんな2%割引だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>大盤振る舞いをしているように見せかけて、たった「2%」という非常にけちな割引率を提示する、グリフのがめつい性格がよく表れたセリフです。</li></ul><strong>英文法:</strong><br>「主語 + 動詞 + 目的語」のシンプルな文です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl14.mp3"
+    },
+    {
+      "id": "griff_vl15",
+      "quote": "Ooh, you cost me a sale!",
+      "translation": "おぉ、お前のせいで儲け損なったじゃないか！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"cost someone a sale\" は「（人）に商品を一つ売り損なわせる」という意味。</li><li>相手のせいで商売の機会を逃したことへの、強い不満を表しています。</li></ul><strong>英文法:</strong><br>動詞 \"cost\" の過去形です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl15.mp3"
+    },
+    {
+      "id": "griff_vl16",
+      "quote": "Ah-ah-ah-ahem. Are you Browse or buying?",
+      "translation": "ア、ア、ア、コホン。見るだけかい、それとも買うのかい？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"ahem\" は、咳払いをして相手の注意を引く音です。</li><li>\"Browse or buying?\" は、店員が客に購入の意思があるか尋ねる際の決まり文句です。「冷やかしなら帰れ」というニュアンスも含まれます。</li></ul><strong>英文法:</strong><br>or を使った選択疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl16.mp3"
+    },
+    {
+      "id": "griff_vl17",
+      "quote": "I'll be right with you. Aha-ha-ha.",
+      "translation": "すぐにお伺いしますよ。アハハハ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"I'll be right with you\" は、店員が他の客に対応している時などに使う「すぐに対応しますので、少々お待ちください」という丁寧な決まり文句です。</li><li>最後の含み笑いに、腹の中で何を考えているか分からない不気味さがあります。</li></ul><strong>英文法:</strong><br>未来形を使った、丁寧な接客フレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl17.mp3"
+    },
+    {
+      "id": "griff_vl18",
+      "quote": "Ding ding ding ding!",
+      "translation": "チリンチリンチリンチリン！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>店のカウンターにある呼び鈴の音や、レジの音を模した擬音語です。来客やお金の動きに興奮している様子です。</li></ul><strong>英文法:</strong><br>擬音語の繰り返しです。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl18.mp3"
+    },
+    {
+      "id": "griff_vl19",
+      "quote": "All sales are final!",
+      "translation": "お買い上げ後の返品は一切不可！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「すべての販売は最終的なものです」が直訳で、「一度売った商品は、返品も返金も一切受け付けません」という、店側の強い方針を示す決まり文句です。</li></ul><strong>英文法:</strong><br>小売店で非常によく使われる、定型化された表現です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl19.mp3"
+    },
+    {
+      "id": "griff_vl20",
+      "quote": "Huh-ho! Ka-ching!",
+      "translation": "フッホー！チャリーン！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Ka-ching!\" は、古い機械式のキャッシュレジスター（レジ）が開く時の「チャリーン！」という音を表す擬音語です。</li><li>お金儲けが成功した時の喜びや、利益が上がった瞬間を象徴する、非常に有名なサウンドです。</li></ul><strong>英文法:</strong><br>文法的な構造を持たない感嘆詞です。喜びの感情を音で表現しています。<br><br><strong>🧠豆知識:</strong><br>この音は、漫画やアニメ、映画などで「儲かった！」というシーンの決まり文句として世界中で使われます。頭がキャッシュレジスターであるグリフの、最もキャラクターを象徴するセリフの一つです。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl20.mp3"
+    },
+    {
+      "id": "griff_vl21",
+      "quote": "Oh! I-I have the money. Don't worry!",
+      "translation": "おぉ！わ、ワシはお金を持ってるぞ。心配するな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>誰かにお金がないことを疑われたのか、どもりながら必死に「お金はある」と主張しています。彼の金銭的な不安や、見栄っ張りな一面がうかがえます。</li></ul><strong>英文法:</strong><br>どもり（stuttering）で、動揺や焦りを表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl21.mp3"
+    },
+    {
+      "id": "griff_vl22",
+      "quote": "You just had to refuse my final offer!",
+      "translation": "ワシの最終提案を断るしかなかったようだな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"final offer\" は「最終提案」。交渉などで、これ以上の譲歩はないという最後の条件を指します。</li><li>相手を倒した際に、「ワシの慈悲深い最終提案を断ったから、こうなったのだ」と、相手のせいにしています。</li></ul><strong>英文法:</strong><br>\"had to ~\" は「～しなければならなかった」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl22.mp3"
+    },
+    {
+      "id": "griff_vl23",
+      "quote": "Only a minor setback.",
+      "translation": "ほんの些細な後退だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"setback\" は「妨げ、後退、失敗」。</li><li>自分が倒されたり不利な状況に陥ったりしても、「これは一時的な小さな問題に過ぎない」と強がるセリフです。</li></ul><strong>英文法:</strong><br>\"This is only a minor setback.\" の主語と動詞が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl23.mp3"
+    },
+    {
+      "id": "griff_vl24",
+      "quote": "Winner winner winner winner!",
+      "translation": "勝者、勝者、勝者、勝者！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が勝者（Winner）であることを連呼し、勝利の喜びを爆発させています。</li></ul><strong>英文法:</strong><br>名詞を繰り返すことで、強い興奮を表しています。<br><br><strong>🧠豆知識:</strong><br>ギャンブルで勝った時に言うおまじない「Winner winner, chicken dinner!」を彷彿とさせるセリフです。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl24.mp3"
+    },
+    {
+      "id": "griff_vl25",
+      "quote": "Ooh! 5% discount on selected items.",
+      "translation": "おぉ！一部商品、5%割引だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「一部の商品（selected items）」だけ、しかもたった「5%」の割引という、やはりけちな宣伝文句です。</li></ul><strong>英文法:</strong><br>店のお知らせで使われる、簡潔な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl25.mp3"
+    },
+    {
+      "id": "griff_vl26",
+      "quote": "Uh-huh. It's a bling thing.",
+      "translation": "ああ、そりゃあ派手なもんだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"a bling thing\" は「派手なもの、キラキラしたもの」といった意味。</li><li>誰かの豪華な持ち物や、派手な状況に対して、相槌を打ちながらコメントしています。</li></ul><strong>英文法:</strong><br>\"Uh-huh\" は肯定の相槌です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl26.mp3"
+    },
+    {
+      "id": "griff_vl27",
+      "quote": "Uh— you know, just take it up with my accountant... please?",
+      "translation": "あー、その件は、うちの会計士と話してくれ…頼むから…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"take it up with ~\" は「～と話し合う、～に問題を提起する」という意味。</li><li>面倒な金の要求やクレームに対して、「担当は私じゃないから会計士と話してくれ」と、責任逃れをしようとしています。</li></ul><strong>英文法:</strong><br>命令文ですが、\"please?\" と疑問形にすることで、弱気な懇願のニュアンスになっています。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl27.mp3"
+    },
+    {
+      "id": "griff_vl28",
+      "quote": "Cash. Only!",
+      "translation": "現金。のみ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「支払いは現金のみ」という、店の方針を断固として示しています。クレジットカードなどの手数料を嫌う、がめつい店主らしいセリフです。</li></ul><strong>英文法:</strong><br>単語を区切って言うことで、強い意志を表しています。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl28.mp3"
+    },
+    {
+      "id": "griff_vl29",
+      "quote": "I can't take it anymore! Bah-h-h-h...",
+      "translation": "もう耐えられない！ぐわーっ…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"I can't take it anymore\" は「もうこれ以上耐えられない」という、我慢の限界を表す決まり文句です。</li><li>最後の叫び声に、ストレスが爆発した様子が表れています。</li></ul><strong>英文法:</strong><br>助動詞 \"can't\" を使った否定文です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl29.mp3"
+    },
+    {
+      "id": "griff_vl30",
+      "quote": "Free coins!",
+      "translation": "コインが無料だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>敵を倒した時などに、コイン（お金）が手に入ることへの、純粋な喜びの叫びです。</li></ul><strong>英文法:</strong><br>「名詞 + 形容詞」の倒置ですが、ここでは「無料コイン！」という一つのフレーズとして機能しています。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl30.mp3"
+    },
+    {
+      "id": "griff_vl31",
+      "quote": "Oh. Another customer!",
+      "translation": "おや、また新たなお客様が！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>新たな敵の出現を「新しい客（customer）」と表現する、グリフの店主らしいセリフです。</li></ul><strong>英文法:</strong><br>感嘆詞と名詞句の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl31.mp3"
+    },
+    {
+      "id": "griff_vl32",
+      "quote": "Cash is king!",
+      "translation": "現金こそが王様だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「現金は王様だ」という、金融やビジネスの世界で使われる有名な格言です。どんな資産よりも、すぐに使える現金の価値が最も高い、という意味です。</li></ul><strong>英文法:</strong><br>ことわざとして定着している、シンプルなSVCの文です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl32.mp3"
+    },
+    {
+      "id": "griff_vl33",
+      "quote": "Uh-heh-heh! Everything is fine!",
+      "translation": "ウヘヘ！すべて順調だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>怪しげな笑い声と共に「すべて順調だ」と言っていますが、かえって何か問題があるのではないかと勘ぐらせる、胡散臭いセリフです。</li></ul><strong>英文法:</strong><br>笑い声と、シンプルな肯定文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl33.mp3"
+    },
+    {
+      "id": "griff_vl34",
+      "quote": "Warranty expired!",
+      "translation": "保証期間は切れた！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Warranty\" は「（製品の）保証」、\"expired\" は「期限切れ」。</li><li>相手を倒した際に、「お前の保証期間は切れたから、もう助けてやらない」という、冷たい宣告として使っています。</li></ul><strong>英文法:</strong><br>「主語 + 動詞」の簡潔な文です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl34.mp3"
+    },
+    {
+      "id": "griff_vl35",
+      "quote": "I! Owe! You!",
+      "translation": "この！借りは！返す！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"I owe you.\" は「私はあなたに借りがある」という意味ですが、ここでは「この借りは必ず返す（報復してやる）」という、強い復讐の誓いとして使われています。</li><li>単語を一つ一つ区切って言うことで、強い怒りと決意を表現しています。</li></ul><strong>英文法:</strong><br>シンプルなSVOの文ですが、発音で感情を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl35.mp3"
+    },
+    {
+      "id": "griff_vl36",
+      "quote": "Ho-ho, have a refund!",
+      "translation": "ホッホー、返金してやろう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"refund\" は「返金」。</li><li>必殺技でコイン（お金）をばらまく際に、「普段はしない返金をしてやるぞ」と、大盤振る舞い（？）を宣言しています。</li></ul><strong>英文法:</strong><br>笑い声と命令文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl36.mp3"
+    },
+    {
+      "id": "griff_vl37",
+      "quote": "Ooh! I have just what you need!",
+      "translation": "おぉ！あなたにピッタリの物がありますよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>優秀な店員が、客の求めているものを察して商品を提案する際の決まり文句です。</li><li>ここでは、相手が求めているであろう「敗北」を「プレゼント」してやる、という皮肉なニュアンスです。</li></ul><strong>英文法:</strong><br>関係代名詞 \"what\" を使い、「あなたが欲しがっているもの」を一つの名詞句として表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl37.mp3"
+    },
+    {
+      "id": "griff_vl38",
+      "quote": "You can't spell refund! Without fu-un!",
+      "translation": "返金（refund）は楽しく（fun）なくちゃな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「refund という単語は、fun という文字がなければ綴れない」というのが直訳。</li><li>実際には \"refund\" に \"fun\" の綴りは含まれていませんが、音が似ていることを利用した、少し無理のある言葉遊びです。</li></ul><strong>英文法:</strong><br>\"spell A without B\" は「BなしでAを綴る」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl38.mp3"
+    },
+    {
+      "id": "griff_vl39",
+      "quote": "Get outta my shop!",
+      "translation": "ワシの店から出ていけ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"outta\" は \"out of\" の非常にカジュアルな短縮形。</li><li>自分のテリトリーから相手を追い出す、店主らしい怒りのセリフです。</li></ul><strong>英文法:</strong><br>句動詞 \"Get out of\" を使った、強い命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl39.mp3"
+    },
+    {
+      "id": "griff_vl40",
+      "quote": "Huh-heh-hey! Ka-ching!",
+      "translation": "フヘヘイ！チャリーン！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>お金を手に入れた時の、喜びと興奮が入り混じった、独特の笑い声とレジの音です。</li></ul><strong>英文法:</strong><br>擬音語と感嘆詞の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl40.mp3"
+    },
+    {
+      "id": "griff_vl41",
+      "quote": "Here is your refund!",
+      "translation": "さあ、返金だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>必殺技でお金をばらまく際の掛け声。「ほら、これが欲しかった返金だろ」と、相手に投げつけているようなニュアンスです。</li></ul><strong>英文法:</strong><br>\"Here is...\" は、相手に物を渡す時の決まり文句です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl41.mp3"
+    },
+    {
+      "id": "griff_vl42",
+      "quote": "Only the best deals!",
+      "translation": "最高の取引だけだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"deal\" は「取引」。自分の店が、最高にお得な取引しか提供しないと宣伝しています。</li></ul><strong>英文法:</strong><br>名詞句だけの、広告のようなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl42.mp3"
+    },
+    {
+      "id": "griff_vl43",
+      "quote": "Refunds for everyone!",
+      "translation": "みんなに返金だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>必殺技を使う際の、気前の良い宣言です。</li></ul><strong>英文法:</strong><br>「名詞 + for + everyone」のシンプルな構造です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl43.mp3"
+    },
+    {
+      "id": "griff_vl44",
+      "quote": "How may I help you?",
+      "translation": "いらっしゃいませ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「どのようにお手伝いしましょうか？」が直訳で、店員が客に声をかける際の、最も丁寧で一般的な決まり文句です。「いらっしゃいませ」にあたります。</li></ul><strong>英文法:</strong><br>助動詞 \"may\" を使った、非常に丁寧な疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl44.mp3"
+    },
+    {
+      "id": "griff_vl45",
+      "quote": "Everything's for sale!",
+      "translation": "何もかも売り物だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"for sale\" は「売り物である」という意味。</li><li>お金のためなら何でも売る、というグリフのがめつい商売哲学を表しています。</li></ul><strong>英文法:</strong><br>\"Everything is for sale.\" の短縮形です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl45.mp3"
+    },
+    {
+      "id": "griff_vl46",
+      "quote": "Oh yeah. Just keep buying.",
+      "translation": "おお、そうだ。そのまま買い続けな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が自分の攻撃を受け続けている状況を、客が「買い物をし続けている」ことに例え、満足げに促しています。</li></ul><strong>英文法:</strong><br>\"keep + 動詞の-ing形\" は「～し続ける」という意味の重要な構文です。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl46.mp3"
+    },
+    {
+      "id": "griff_vl47",
+      "quote": "You try! You buy!",
+      "translation": "試したら、買うんだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>洋服の試着などで、「試すだけ試して買わないのは許さないぞ」という意味で使われる、少し強引な店員のセリフです。</li><li>「ワシの攻撃を試したからには、きっちり最後まで付き合ってもらうぞ」というニュアンスです。</li></ul><strong>英文法:</strong><br>二つの短い文を並べることで、原因と結果（試す→買う）を強く結びつけています。",
+      "audioUrl": "https://Amphibian333.github.io/griff_vl47.mp3"
+    }
+  ]
+}

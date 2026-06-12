@@ -1,0 +1,157 @@
+{
+  "name": "ポコ",
+  "nameEn": "Poco",
+  "rarity": "rare",
+  "role": "support",
+  "quote": "Poco goes loco!",
+  "iconUrl": "https://i.imgur.com/R8VIQ4p.png",
+  "voicelines": [
+    {
+      "id": "poco_vl1",
+      "quote": "Feel the power of music!",
+      "translation": "音楽の力を感じな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ポコのミュージシャンというキャラクター性を表す、エネルギッシュな決め台詞です。</li></ul><strong>英文法:</strong><br>動詞 \"Feel\" で始まる命令文です。「Feel the power of ～」で「～の力を感じろ！」という強調表現になります。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl1.mp3"
+    },
+    {
+      "id": "poco_vl2",
+      "quote": "I'm stoked!",
+      "translation": "ノってきたぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"stoked\" は、特にサーファーやスケーター文化から広まったスラングで、「すごく興奮している」「ワクワクしている」という意味です。</li></ul><strong>英文法:</strong><br>\"I am\" の短縮形 \"I'm\" に、形容詞として機能する過去分詞 \"stoked\" が続いています。<br><br><strong>🧠豆知識:</strong><br>\"Stoked\" は元々「（火に薪をくべて）燃え立たせる」という意味の動詞 \"stoke\" から来ており、そこから「感情が高ぶる」という意味に転じました。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl2.mp3"
+    },
+    {
+      "id": "poco_vl3",
+      "quote": "Wow! Dude?",
+      "translation": "うわっ！マジかよ？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Wow\" は強い驚きを表す感嘆詞。</li><li>\"Dude\" は、男性に対して使われる非常にカジュアルな呼びかけで、「おい」「君」のようなニュアンスです。</li></ul><strong>英文法:</strong><br>感嘆詞と呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl3.mp3"
+    },
+    {
+      "id": "poco_vl4",
+      "quote": "Too bad, man.",
+      "translation": "残念だったな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Too bad\" は「それは残念だ」「お気の毒に」と相手に同情を示す際の決まり文句ですが、ここでは相手を倒した後に皮肉として使っています。</li><li>\"man\" は \"dude\" と同様にカジュアルな呼びかけです。</li></ul><strong>英文法:</strong><br>\"That is too bad.\" が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl4.mp3"
+    },
+    {
+      "id": "poco_vl5",
+      "quote": "I'm bailing.",
+      "translation": "ずらかるぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"bail\" は、スラングで「（厄介な状況から）急いで立ち去る、逃げる」という意味です。</li></ul><strong>英文法:</strong><br>現在進行形 \"I am bailing\" を使うことで、今まさに逃げようとしているという、切迫した状況を表しています。<br><br><strong>🧠豆知識:</strong><br>保釈金のことを \"bail\" と言うことから、「（お金を払ってでも）その場から解放されたい」というニュアンスで使われるようになった、という説があります。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl5.mp3"
+    },
+    {
+      "id": "poco_vl6",
+      "quote": "Musical mayhem!",
+      "translation": "音楽の大騒ぎだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"mayhem\" は「大混乱、大騒動」という意味。自身の音楽が、戦場に楽しいカオスをもたらすことを示しています。</li></ul><strong>英文法:</strong><br>「形容詞(Musical) + 名詞(mayhem)」のシンプルな感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl6.mp3"
+    },
+    {
+      "id": "poco_vl7",
+      "quote": "Let's get this party started!",
+      "translation": "パーティーを始めようぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>イベントや集まりを始める際の、非常にポピュラーで威勢の良い掛け声です。</li></ul><strong>英文法:</strong><br>「get + [名詞] + [過去分詞]」の形で、「（名詞）を（過去分詞）の状態にさせる」という意味になります。ここでは「このパーティーを開始された状態にしよう」となります。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl7.mp3"
+    },
+    {
+      "id": "poco_vl8",
+      "quote": "I'm turning it up to eleven!",
+      "translation": "ボリュームを11まで上げるぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「最大級にする」「限界を超える」という意味の有名なイディオムです。</li></ul><strong>英文法:</strong><br>現在進行形で、今まさに限界を超えようとしていることを示します。<br><br><strong>🧠豆知識:</strong><br>これはロック・モキュメンタリー映画『This Is Spinal Tap』で、通常のアンプの最大ボリューム「10」を超える「11」の目盛りがついたアンプが登場するシーンが元ネタです。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl8.mp3"
+    },
+    {
+      "id": "poco_vl9",
+      "quote": "Woah!",
+      "translation": "うおっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>驚きや危険を察知した時に発せられる、一般的な感嘆詞です。</li></ul><strong>英文法:</strong><br>感情をそのまま音にした感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl9.mp3"
+    },
+    {
+      "id": "poco_vl10",
+      "quote": "Wow! That sucks!",
+      "translation": "うわ、それ最悪！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"suck\" は、俗語で「ひどい、最悪だ、ダサい」といったネガティブな状況全般を表す非常に便利な動詞です。</li></ul><strong>英文法:</strong><br>感嘆詞 \"Wow!\" に、三人称単数現在の \"sucks\" を使った文が続いています。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl10.mp3"
+    },
+    {
+      "id": "poco_vl11",
+      "quote": "Hey! You broke my guitar!",
+      "translation": "おい！オレのギターを壊しやがったな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>大切なギターを壊されたことに対する、怒りと非難を表すセリフです。</li></ul><strong>英文法:</strong><br>動詞 \"break\" の過去形 \"broke\" を使った、過去の出来事を述べる文です。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl11.mp3"
+    },
+    {
+      "id": "poco_vl12",
+      "quote": "Lead guitar for the win!",
+      "translation": "リードギターで勝利だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"for the win\" は「～で勝利」「～最高」という意味で、何かを称賛したり、勝利の決め手となったものを叫んだりする際のスラングです。FTWと略されることもあります。</li></ul><strong>英文法:</strong><br>名詞句の後に付けて使う、口語的な決まり文句です。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl12.mp3"
+    },
+    {
+      "id": "poco_vl13",
+      "quote": "Gimme a beat!",
+      "translation": "ビートをくれ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Gimme\" は \"Give me\" の非常にカジュアルな口語の短縮形です。</li><li>バンドメンバーに演奏の開始を合図するような、ミュージシャンらしいセリフです。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl13.mp3"
+    },
+    {
+      "id": "poco_vl14",
+      "quote": "Poco goes loco!",
+      "translation": "ポコはイカれちまう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"loco\" はスペイン語で「クレイジーな、狂った」という意味の形容詞。英語圏でもスラングとして定着しています。</li><li>自身の名前 \"Poco\" と韻を踏んでおり、キャッチーな決め台詞になっています。</li></ul><strong>英文法:</strong><br>\"go + [形容詞]\" は「～の状態になる」という意味の口語表現です。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl14.mp3"
+    },
+    {
+      "id": "poco_vl15",
+      "quote": "Like, whatever.",
+      "translation": "ていうか、どうでもいいし。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Like\" は文頭や文中で特に意味なく使われるつなぎ言葉。</li><li>\"Whatever\" は「どうでもいい」「なんでもいい」という、無関心や投げやりな態度を示す言葉。ティーンエイジャーが使いがちな口癖を模倣しています。</li></ul><strong>英文法:</strong><br>二つの口語的な単語を組み合わせることで、特定のキャラクター像（少し気だるげな若者）を表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl15.mp3"
+    },
+    {
+      "id": "poco_vl16",
+      "quote": "Still friends?",
+      "translation": "まだ友達だよな？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を攻撃した後などに、「これくらいじゃ友情は壊れないよな？」と確認する、少し皮肉のこもったセリフです。</li></ul><strong>英文法:</strong><br>\"Are we still friends?\" の主語と動詞が省略された、口語的な疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl16.mp3"
+    },
+    {
+      "id": "poco_vl17",
+      "quote": "I got a bone to pick.",
+      "translation": "ちょっと言わせてもらうぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"have a bone to pick with someone\" は「（人）に文句がある、言いたいことがある」という意味のイディオムです。</li></ul><strong>英文法:</strong><br>\"I got\" は \"I have got\" の口語的な形です。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl17.mp3"
+    },
+    {
+      "id": "poco_vl18",
+      "quote": "Sweet sounds!",
+      "translation": "最高のサウンドだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Sweet\" はスラングで「素晴らしい」「イケてる」という意味で使われます。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の組み合わせによる感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl18.mp3"
+    },
+    {
+      "id": "poco_vl19",
+      "quote": "Let's rock!",
+      "translation": "ロックしようぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「さあ始めよう！」「盛り上がろう！」という意味で使われる、非常にポピュラーな掛け声です。</li></ul><strong>英文法:</strong><br>「Let's + 動詞」の構文。\"rock\" は「ロックミュージックを演奏する」から転じて、「楽しむ、盛り上がる」といった意味で使われます。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl19.mp3"
+    },
+    {
+      "id": "poco_vl20",
+      "quote": "Not cool…",
+      "translation": "イケてないぜ…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"cool\" は「かっこいい」という意味のスラング。それを否定することで、相手の行動や起きた出来事が「ダメだ」「ひどい」と非難しています。</li></ul><strong>英文法:</strong><br>\"That's not cool.\" が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl20.mp3"
+    },
+    {
+      "id": "poco_vl21",
+      "quote": "Power chord!",
+      "translation": "パワーコード！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「パワーコード」は、ロックギターでよく使われる、ルート音と5度の音の2音（または3音）で構成されるシンプルな和音のことです。</li><li>技名として叫んでいます。</li></ul><strong>英文法:</strong><br>音楽の専門用語を感嘆文として使っています。",
+      "audioUrl": "https://Amphibian333.github.io/poco_vl21.mp3"
+    }
+  ]
+}

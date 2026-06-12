@@ -1,0 +1,59 @@
+{
+  "name": "タラ",
+  "nameEn": "Tara",
+  "rarity": "ultra-rare",
+  "role": "damage-dealer",
+  "quote": "Hmmmm...",
+  "iconUrl": "https://i.imgur.com/yVk5ujO.png",
+  "voicelines": [
+    {
+      "id": "tara_vl1",
+      "quote": "Tara laughs",
+      "translation": "（タラが笑う）",
+      "explanation": "<strong>解説:</strong><br><ul><li>言葉を発さず、不気味に笑うタラ。</li><li>包帯越しに響くこもった笑い声が、ミステリアスな雰囲気を醸し出しています。敵を翻弄した時にどうぞ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/tara_vl1.mp3"
+    },
+    {
+      "id": "tara_vl2",
+      "quote": "Tara shrieks",
+      "translation": "（タラが金切り声を上げる）",
+      "explanation": "<strong>解説:</strong><br><ul><li>攻撃を繰り出す時や、ダメージを受けた時の鋭い叫び声。</li><li>単なる悲鳴というよりは、呪いの言葉を叫んでいるようにも聞こえる、魔術的な響きがあります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/tara_vl2.mp3"
+    },
+    {
+      "id": "tara_vl3",
+      "quote": "Tara wails",
+      "translation": "（タラが泣き叫ぶ）",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時の悲痛な叫び。</li><li>異界の力を持つ彼女でも、倒れる時は無念さが溢れ出ます。断末魔のような響きが特徴です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/tara_vl3.mp3"
+    },
+    {
+      "id": "tara_vl4",
+      "quote": "Tara taunts",
+      "translation": "（タラが挑発する）",
+      "explanation": "<strong>解説:</strong><br><ul><li>言葉にならない音で相手を挑発します。</li><li>何を言っているのか分からないところが逆に不気味で、相手にプレッシャーを与えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/tara_vl4.mp3"
+    },
+    {
+      "id": "tara_vl5",
+      "quote": "Tara hums",
+      "translation": "（タラがハミングする）",
+      "explanation": "<strong>解説:</strong><br><ul><li>鼻歌のような、呪文の詠唱のような、不思議なメロディ。</li><li>余裕がある時や、勝利した時に聞ける、ちょっとご機嫌（？）なタラです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/tara_vl5.mp3"
+    },
+    {
+      "id": "tara_vl6",
+      "quote": "Tara growls",
+      "translation": "（タラがうなる）",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵に対する威嚇のうなり声。</li><li>普段は静かな彼女が感情を露わにする、攻撃的な一面です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/tara_vl6.mp3"
+    },
+    {
+      "id": "tara_vl7",
+      "quote": "Tara cheers",
+      "translation": "（タラが歓声を上げる）",
+      "explanation": "<strong>解説:</strong><br><ul><li>勝利の喜びを爆発させる歓声！</li><li>ミステリアスな彼女も、勝った時はやっぱり嬉しいようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/tara_vl7.mp3"
+    }
+  ]
+}

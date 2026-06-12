@@ -1,0 +1,241 @@
+{
+  "name": "リコ",
+  "nameEn": "Rico",
+  "rarity": "super-rare",
+  "role": "marksman",
+  "quote": "I am not sorry.",
+  "iconUrl": "https://i.imgur.com/Qwi4fmp.png",
+  "voicelines": [
+    {
+      "id": "rico_vl1",
+      "quote": "I do not come in peace.",
+      "translation": "平和のために来たんじゃないぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>SF映画の定番セリフ「I come in peace.（平和の使者です）」を「not」で否定しています。</li><li>平和的な意図が一切なく、敵意をむき出しにしていることを示す挑発的な一言です。</li></ul><strong>英文法:</strong><br>\"come in peace\"（平和目的で来る）は定型句。助動詞 \"do not\" を使い、動詞 \"come\" を強く否定しています。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl1.mp3"
+    },
+    {
+      "id": "rico_vl2",
+      "quote": "Rico laughs",
+      "translation": "（リコの笑い声）",
+      "explanation": "<strong>この英文でのポイント:</strong><br>リコの機械的、あるいは自信に満ちた笑い声を表現しています。<br><br><strong>英文法:</strong><br>\"laughs\" は「笑う」という意味の動詞。ト書き（動作や状況を説明する文）で使われています。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl2.mp3"
+    },
+    {
+      "id": "rico_vl3",
+      "quote": "You hurt me.",
+      "translation": "傷つけたな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>ロボットであるリコが言うことで、物理的な痛みよりも、プライドが傷ついたことを示唆するニュアンスも含まれます。<br><br><strong>英文法:</strong><br>\"hurt\" は動詞で「傷つける」という意味。ここでは過去形として使われています。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl3.mp3"
+    },
+    {
+      "id": "rico_vl4",
+      "quote": "I am not sorry.",
+      "translation": "悪いけど、全然悪くないね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>謝罪の言葉 \"I am sorry\" を \"not\" で否定することで、全く後悔していないことを強調しています。<br><br><strong>英文法:</strong><br>\"sorry\"（申し訳ない）という形容詞を \"not\" で否定し、謝罪の気持ちがないことを明確にしています。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl4.mp3"
+    },
+    {
+      "id": "rico_vl5",
+      "quote": "Sadness.",
+      "translation": "哀しみだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>敵を倒した時に、相手の敗北を冷淡に「それが現実だ」と言い放つようなニュアンスで使われます。<br><br><strong>英文法:</strong><br>名詞 \"Sadness\"（哀しみ）が単独で使われた感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl5.mp3"
+    },
+    {
+      "id": "rico_vl6",
+      "quote": "Domination mode engaged.",
+      "translation": "支配モード、起動。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"domination mode\" は周囲を完全に支配する状態のこと。</li><li>\"engaged\" は機械やシステムが「作動中」であることを意味します。</li></ul><strong>英文法:</strong><br>「名詞句 + 過去分詞」の形で、状態が作動したことを宣言する機械的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl6.mp3"
+    },
+    {
+      "id": "rico_vl7",
+      "quote": "Ready for battle.",
+      "translation": "戦闘準備OK。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>戦いに臨む準備が整ったことを簡潔に宣言するセリフです。<br><br><strong>英文法:</strong><br>\"Ready for + 名詞\" で「～の準備ができている」という定型表現です。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl7.mp3"
+    },
+    {
+      "id": "rico_vl8",
+      "quote": "I am ridiculously amazing.",
+      "translation": "オレって、笑えるほどすごい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>\"ridiculously\" は「ばかばかしいほど」「信じられないほど」と、度を超えた強調を表す副詞です。絶対的な自信と傲慢さが感じられます。<br><br><strong>英文法:</strong><br>副詞 \"ridiculously\" が、形容詞 \"amazing\"（素晴らしい）を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl8.mp3"
+    },
+    {
+      "id": "rico_vl9",
+      "quote": "That was painful.",
+      "translation": "今のは痛かった。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>敵の攻撃を受けてダメージを負った時に、素直に痛みを認めているセリフです。<br><br><strong>英文法:</strong><br>\"painful\" は「痛い」「苦痛な」という意味の形容詞です。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl9.mp3"
+    },
+    {
+      "id": "rico_vl10",
+      "quote": "Rico gives a weak cry",
+      "translation": "（リコの弱々しい叫び声）",
+      "explanation": "<strong>この英文でのポイント:</strong><br>大きなダメージを受けた時や、ノックアウトされそうな時に発する弱々しい悲鳴を表現しています。<br><br><strong>英文法:</strong><br>\"weak cry\"（弱々しい叫び声）は名詞句です。ト書きで状況を説明しています。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl10.mp3"
+    },
+    {
+      "id": "rico_vl11",
+      "quote": "Playtime is over.",
+      "translation": "遊びは終わりだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>余裕を見せていた状態から、本気モードに切り替える際に発するセリフ。これからは容赦しないという警告です。<br><br><strong>英文法:</strong><br>\"Playtime is over\"（遊びの時間は終わりだ）という定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl11.mp3"
+    },
+    {
+      "id": "rico_vl12",
+      "quote": "Let's go.",
+      "translation": "行くぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>戦闘開始時や、行動を起こす際にチームメイトを促す、シンプルだが力強いセリフです。<br><br><strong>英文法:</strong><br>\"Let's + 動詞の原形\" で「～しよう」という提案や命令を表すフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl12.mp3"
+    },
+    {
+      "id": "rico_vl13",
+      "quote": "Robot power.",
+      "translation": "ロボットパワー、全開！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>自身のロボットとしての能力や、機械ならではの力を最大限に発揮することを宣言するセリフです。<br><br><strong>英文法:</strong><br>\"Robot power\"（ロボットの力）という名詞句で、力を宣言しています。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl13.mp3"
+    },
+    {
+      "id": "rico_vl14",
+      "quote": "Ow ow ow!",
+      "translation": "いててて！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>連続した痛みに対する感嘆詞です。敵の攻撃を受けている時に発せられます。<br><br><strong>英文法:</strong><br>痛みを表現する感嘆詞なので、特定の文法はありません。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl14.mp3"
+    },
+    {
+      "id": "rico_vl15",
+      "quote": "I got you.",
+      "translation": "捕まえたぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>敵を攻撃して捕らえたり、優位に立ったりした際に発するセリフです。「やったぞ」という意味合いもあります。<br><br><strong>英文法:</strong><br>\"got you\" は \"I have got you\" の略で、「捕まえた」「一本取った」といった意味で使われる口語表現です。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl15.mp3"
+    },
+    {
+      "id": "rico_vl16",
+      "quote": "Owawa owawa ow.",
+      "translation": "あわわわわ、いてー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>痛みを表現する擬音語です。「Ow ow ow!」よりもさらに慌てたり、混乱したりしている様子がうかがえます。<br><br><strong>英文法:</strong><br>擬音語なので文法はありません。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl16.mp3"
+    },
+    {
+      "id": "rico_vl17",
+      "quote": "Danger. Danger.",
+      "translation": "危険、危険。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>周囲や自身の危険な状況を、ロボットらしく機械的な警告として発しています。<br><br><strong>英文法:</strong><br>名詞 \"Danger\"（危険）を繰り返すことで警告を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl17.mp3"
+    },
+    {
+      "id": "rico_vl18",
+      "quote": "Do not run away.",
+      "translation": "逃げるな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>敵に対して、逃走を許さないという意思を明確に伝える威圧的な命令です。<br><br><strong>英文法:</strong><br>\"Do not + 動詞の原形\" で始まる、強い否定の命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl18.mp3"
+    },
+    {
+      "id": "rico_vl19",
+      "quote": "Total pwnage.",
+      "translation": "完全制圧だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>\"pwnage\" は「圧倒的な勝利」「完封勝ち」を意味するネットスラングです。傲慢な勝利宣言です。<br><br><strong>英文法:</strong><br>\"pwnage\" は名詞で、スラングの「圧倒的な勝利」を意味します。<br><br><strong>🧠豆知識:</strong><br>「pwn」はオンラインゲームで「own」(圧倒する)をタイプミスしたのが由来とされ、「完全に打ち負かすこと」を意味するスラングとして広まりました。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl19.mp3"
+    },
+    {
+      "id": "rico_vl20",
+      "quote": "Why did you do that?",
+      "translation": "なんでそんなことした？",
+      "explanation": "<strong>この英文でのポイント:</strong><br>敵の行動に対して、驚きや不満、あるいは理解不能といった感情を表明するセリフです。<br><br><strong>英文法:</strong><br>\"Why did you ~?\" で始まる、過去の行動の理由を問う疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl20.mp3"
+    },
+    {
+      "id": "rico_vl21",
+      "quote": "You have been eliminated.",
+      "translation": "消えてもらった。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>相手を倒した時に、まるでゲームのシステムメッセージのように、冷徹かつ客観的に敗北を宣告するセリフです。<br><br><strong>英文法:</strong><br>\"You have been eliminated\"（あなたは排除された）は、ゲームなどで使われる現在完了形の受動態です。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl21.mp3"
+    },
+    {
+      "id": "rico_vl22",
+      "quote": "Game over.",
+      "translation": "ゲームオーバー。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>相手を倒した時に、戦いが完全に終了したことを宣告する、簡潔で直接的なセリフです。<br><br><strong>英文法:</strong><br>ゲームの終了を表す世界共通の定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl22.mp3"
+    },
+    {
+      "id": "rico_vl23",
+      "quote": "Unleashing ultimate power.",
+      "translation": "究極パワー、解放！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>自分の最大級の能力や、必殺技を放つ際に発するセリフです。潜在能力を解き放つことを予告しています。<br><br><strong>英文法:</strong><br>動詞 \"unleash\"（～を解き放つ）の現在分詞形で、行動の開始を宣言しています。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl23.mp3"
+    },
+    {
+      "id": "rico_vl24",
+      "quote": "Go team.",
+      "translation": "チーム、いけー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>味方のチームを鼓舞し、行動を促す応援のセリフです。<br><br><strong>英文法:</strong><br>\"Go + チーム名／人\" の形で「～、頑張れ」「～、行け」という応援の定型句になります。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl24.mp3"
+    },
+    {
+      "id": "rico_vl25",
+      "quote": "I got skills to pay the bills.",
+      "translation": "才能でメシ食ってんだよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>\"skills to pay the bills\" は「生計を立てるに足るだけの技術や才能がある」という意味のイディオムです。自分の能力が非常に優れていることを誇示しています。<br><br><strong>英文法:</strong><br>\"I got skills\" は \"I have skills\" の口語表現です。\"to pay the bills\" が \"skills\" を修飾しています。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl25.mp3"
+    },
+    {
+      "id": "rico_vl26",
+      "quote": "You are a hacker.",
+      "translation": "お前、チーターだろ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>相手の能力が異常に優れている時に「不正行為をしているのではないか」と疑いをかけるセリフです。<br><br><strong>英文法:</strong><br>\"hacker\" はゲームなどで不正行為を行う者（チーター）を指します。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl26.mp3"
+    },
+    {
+      "id": "rico_vl27",
+      "quote": "Sorry.",
+      "translation": "ごめん…なわけないだろ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>謝罪の言葉を口にしながらも、全く悪びれる様子を見せない、皮肉的で冷淡な謝罪です。<br><br><strong>英文法:</strong><br>\"Sorry\" は「ごめんなさい」という意味の形容詞ですが、文脈によって皮肉になります。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl27.mp3"
+    },
+    {
+      "id": "rico_vl28",
+      "quote": "I will be back.",
+      "translation": "また来るぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>倒された後に再登場や復讐を予期させる、不屈の精神を示す有名なセリフです。<br><br><strong>英文法:</strong><br>未来の強い意思を表す \"I will be back\" は、映画『ターミネーター』で有名になった定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl28.mp3"
+    },
+    {
+      "id": "rico_vl29",
+      "quote": "Run away, think of your future.",
+      "translation": "逃げろ、未来のためにな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>敵に対して、これ以上戦っても無駄だと警告し、逃げることを促す、冷笑的な忠告です。<br><br><strong>英文法:</strong><br>\"Run away\" と \"think of your future\" という2つの命令文を繋げています。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl29.mp3"
+    },
+    {
+      "id": "rico_vl30",
+      "quote": "Teamwork for the win.",
+      "translation": "チームワークで勝つ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>チームプレイの重要性を認識していることを示唆するポジティブなセリフです。<br><br><strong>英文法:</strong><br>\"for the win\" は「勝利のためには～が重要だ」「～は最高だ」という意味のスラング的な定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl30.mp3"
+    },
+    {
+      "id": "rico_vl31",
+      "quote": "That must have hurt.",
+      "translation": "それ、痛かったろ？",
+      "explanation": "<strong>この英文でのポイント:</strong><br>敵に攻撃を与えた際に、相手の痛みを指摘し、嘲笑しているセリフです。<br><br><strong>英文法:</strong><br>\"must have + 過去分詞\" で「～したに違いない」という過去の事柄への確信を表します。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl31.mp3"
+    },
+    {
+      "id": "rico_vl32",
+      "quote": "Just a regular day at the office.",
+      "translation": "まあ、いつもの仕事だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>戦場での激しい戦いも、リコにとっては日常業務の一環であるという、冷静かつ傲慢な態度を示しています。<br><br><strong>英文法:</strong><br>\"Just a regular day at the office\" は「オフィスでのいつもの一日」という定型句で、比喩的に「日常業務」を意味します。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl32.mp3"
+    },
+    {
+      "id": "rico_vl33",
+      "quote": "You lose. I win.",
+      "translation": "お前の負け。オレの勝ち。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>簡潔で直接的な敗北宣言と勝利宣言です。相手に一切の慈悲や余地を与えず、明確な勝敗を突きつける、リコの冷徹な側面が表れています。<br><br><strong>英文法:</strong><br>非常にシンプルで直接的な文構造です。",
+      "audioUrl": "https://Amphibian333.github.io/rico_vl33.mp3"
+    }
+  ]
+}

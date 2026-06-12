@@ -1,0 +1,31 @@
+{
+  "name": "ティック",
+  "nameEn": "Tick",
+  "rarity": "super-rare",
+  "role": "thrower",
+  "quote": "(Excited blathering)",
+  "iconUrl": "https://i.imgur.com/lpGYOED.png",
+  "voicelines": [
+    {
+      "id": "tick_vl1",
+      "quote": "Tick blathers",
+      "translation": "（ティックが意味不明な言葉を話す）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>\"blather\" は、とりとめもなく、意味のないことを早口で長々と話すことを意味します。ティックの機械的で理解不能な発話を表現しています。</li></ul><strong>英文法:</strong><br>動詞 \"blather\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/tick_vl1.mp3"
+    },
+    {
+      "id": "tick_vl2",
+      "quote": "Tick whimpers",
+      "translation": "（ティックがクンクン鳴く）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"whimper\" は、恐怖や痛みで、弱々しくクンクンと鼻を鳴らすように泣く様子を指します。</li></ul><strong>英文法:</strong><br>動詞 \"whimper\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/tick_vl2.mp3"
+    },
+    {
+      "id": "tick_vl3",
+      "quote": "Tick winds down",
+      "translation": "（ティックの動作が停止する音）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"wind down\" は、ぜんまい仕掛けのおもちゃが止まる時のように、機械の動作が徐々に遅くなって停止する様子を表します。ティックが破壊された時の表現です。</li></ul><strong>英文法:</strong><br>句動詞 \"wind down\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/tick_vl3.mp3"
+    }
+  ]
+}

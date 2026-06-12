@@ -1,0 +1,206 @@
+{
+  "name": "バイロン",
+  "nameEn": "Byron",
+  "rarity": "ultra-rare",
+  "role": "support",
+  "quote": "Try my new concoction!",
+  "iconUrl": "https://i.imgur.com/9eynJ6x.png",
+  "voicelines": [
+    {
+      "id": "byron_vl1",
+      "quote": "Try some snake oil extract!",
+      "translation": "このスネークオイル抽出液を試してみたまえ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"snake oil\" は、効果のない、あるいは偽物の万能薬を指す言葉です。「スネークオイルの抽出液」を勧めることで、彼が売る商品が胡散臭いものであることを自ら示しています。</li></ul><strong>英文法:</strong><br>動詞 \"Try\" で始まる命令文で、「試してみなさい」と商品を勧めています。<br><br><strong>🧠豆知識:</strong><br>「スネークオイル・セールスマン」とは、19世紀のアメリカで、口八丁で効果のない薬を売り歩いた詐欺師たちの典型的なイメージです。バイロンがこの言葉を使うことで、彼の「口の上手い、しかし信用できない商人」というキャラクター性が確立されています。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl1.mp3"
+    },
+    {
+      "id": "byron_vl2",
+      "quote": "The sweet taste of victory!",
+      "translation": "勝利の甘美な味！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>勝利という結果を、まるで何か美味しいものを味わうかのように「甘い味（sweet taste）」と表現しています。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl2.mp3"
+    },
+    {
+      "id": "byron_vl3",
+      "quote": "That was a big mistake.",
+      "translation": "それは大きな間違いだったな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の行動が、致命的な「大きな間違い（a big mistake）」であったと、冷静に、しかし脅威的に指摘しています。</li></ul><strong>英文法:</strong><br>過去形のシンプルな文です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl3.mp3"
+    },
+    {
+      "id": "byron_vl4",
+      "quote": "Pa-the-tic!",
+      "translation": "哀れな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Pathetic\"（哀れな、惨めな）という単語を、一音節ずつ区切って発音することで、相手への軽蔑と侮辱を、最大限に強調しています。</li></ul><strong>英文法:</strong><br>演劇的な発話法で、感情を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl4.mp3"
+    },
+    {
+      "id": "byron_vl5",
+      "quote": "I shall return.",
+      "translation": "私は必ず、戻ってくる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>敗北した際に、再登場や復讐を誓う、古風で格式張った捨て台詞です。</li></ul><strong>英文法:</strong><br>\"shall\" は \"will\" よりもフォーマルで、運命的で、逆らうことのできない強い意志を表す助動詞です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl5.mp3"
+    },
+    {
+      "id": "byron_vl6",
+      "quote": "Enjoy your treat!",
+      "translation": "ご褒美を楽しみたまえ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"treat\" は「ご褒美、おやつ」。</li><li>自分の攻撃を、相手への「ご褒美」だと称して、皮肉たっぷりに勧めています。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl6.mp3"
+    },
+    {
+      "id": "byron_vl7",
+      "quote": "The reptiles are growing restless.",
+      "translation": "爬虫類たちが、落ち着きをなくしている。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"reptiles\" は「爬虫類」。彼が扱うヘビなどを指していると思われます。</li><li>\"grow restless\" は「そわそわし始める、落ち着きがなくなる」。</li><li>これから何か不吉なことが起きることを、詩的に、そして脅威的に示唆しています。</li></ul><strong>英文法:</strong><br>現在進行形を使った、状況の変化を表す文です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl7.mp3"
+    },
+    {
+      "id": "byron_vl8",
+      "quote": "I am swimming in weak sauce.",
+      "translation": "私はウィークソースの中を泳いでいるようだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"weak sauce\" は、「くだらないもの、レベルの低いもの」を意味する現代的なスラングです。</li><li>周りが弱い敵ばかりで、まるで「レベルの低いソースの海」を泳いでいるようだ、と周囲を見下しています。</li></ul><strong>英文法:</strong><br>現在進行形を使った、比喩的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl8.mp3"
+    },
+    {
+      "id": "byron_vl9",
+      "quote": "You will pay for that. Dearly.",
+      "translation": "その代償は払ってもらうぞ。高く、な。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"pay dearly\" は「高くつく、手痛い代償を払う」という意味のイディオムです。</li><li>相手の行動に対して、必ず厳しい報復をすることを、冷徹に宣言しています。最後に \"Dearly.\" と付け加えることで、不気味さを強調しています。</li></ul><strong>英文法:</strong><br>未来を表す \"will\" を使った脅迫文です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl9.mp3"
+    },
+    {
+      "id": "byron_vl10",
+      "quote": "How unfortunate.",
+      "translation": "なんと不運な。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の不幸な状況に対して、「お気の毒に」と同情するフリをしながら、全く同情していない、非常に皮肉なセリフです。</li></ul><strong>英文法:</strong><br>\"How + 形容詞!\" の形の感嘆文ですが、ここでは \"That is\" が省略されています。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl10.mp3"
+    },
+    {
+      "id": "byron_vl11",
+      "quote": "I will find you!",
+      "translation": "見つけ出してやろう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>どこへ逃げようとも、必ず見つけ出すという、ストーカーのような執念を感じさせる脅し文句です。</li></ul><strong>英文法:</strong><br>未来を表す \"will\" を使った、強い意志表明です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl11.mp3"
+    },
+    {
+      "id": "byron_vl12",
+      "quote": "Buy a thousand, get one free.",
+      "translation": "1000個買えば、1個無料だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「一つ買えば、一つ無料（Buy one, get one free）」という一般的なセールス文句を、「1000個買えば」と変えることで、彼の極度のがめつさをユーモラスに表現しています。</li></ul><strong>英文法:</strong><br>命令文と、結果を表す文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl12.mp3"
+    },
+    {
+      "id": "byron_vl13",
+      "quote": "Sign here, with your life.",
+      "translation": "ここにサインを、君の命でな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>契約書にサインを求める際に、「インクの代わりに、お前の命でサインしろ」と、悪魔との契約のような、非常に物騒な要求をしています。</li></ul><strong>英文法:</strong><br>命令文に、手段を表す前置詞句 \"with your life\" が続いています。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl13.mp3"
+    },
+    {
+      "id": "byron_vl14",
+      "quote": "You broke the contract!",
+      "translation": "契約を破ったな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が、自分との間にある（と彼が勝手に思っている）「契約（contract）」を破ったと、厳しく非難しています。</li></ul><strong>英文法:</strong><br>過去形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl14.mp3"
+    },
+    {
+      "id": "byron_vl15",
+      "quote": "Your tears fuel my laughter.",
+      "translation": "君の涙が、我が笑いの燃料となる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fuel\" は「～に燃料を供給する、～を煽る」。</li><li>相手の悲しみが、自分の喜びの源であるという、非常にサディスティックなセリフです。</li></ul><strong>英文法:</strong><br>SVOのシンプルな文ですが、詩的で悪役らしい表現です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl15.mp3"
+    },
+    {
+      "id": "byron_vl16",
+      "quote": "This cannot be!",
+      "translation": "ありえん！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>信じられないような事態（特に自分の敗北）に直面し、それを受け入れられない時の、大げさで演劇的な叫びです。</li></ul><strong>英文法:</strong><br>助動詞 \"cannot\" を使った、強い否定の文です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl16.mp3"
+    },
+    {
+      "id": "byron_vl17",
+      "quote": "Take this! At your peril!",
+      "translation": "これを受け取れ！命の保証はないがな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"at your peril\" は、「自身の危険において、命の保証はないぞ」と、相手にリスクを警告する、古風で脅迫的な表現です。</li></ul><strong>英文法:</strong><br>命令文に、脅威的な警告句が続いています。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl17.mp3"
+    },
+    {
+      "id": "byron_vl18",
+      "quote": "Time to seal the deal.",
+      "translation": "契約成立の時間だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"seal the deal\" は「取引をまとめる、契約を成立させる」という意味のイディオムです。</li><li>相手を倒すことを、商談が成立したことに例えています。</li></ul><strong>英文法:</strong><br>「Time to + 動詞句」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl18.mp3"
+    },
+    {
+      "id": "byron_vl19",
+      "quote": "I will end you!",
+      "translation": "お前を終わらせてやろう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の存在そのものを「終わらせる（end）」という、非常に強い殺意を込めた脅し文句です。</li></ul><strong>英文法:</strong><br>未来を表す \"will\" を使った、強い意志表明です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl19.mp3"
+    },
+    {
+      "id": "byron_vl20",
+      "quote": "Useless.",
+      "translation": "役立たずめ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を「役立たず（Useless）」だと、一言で切り捨てる、最大限の侮辱です。</li></ul><strong>英文法:</strong><br>形容詞単独の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl20.mp3"
+    },
+    {
+      "id": "byron_vl21",
+      "quote": "Nooooo!",
+      "translation": "ありえなぁぁい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>敗北した際の、信じられないという気持ちと絶望を表す、大げさな叫びです。</li></ul><strong>英文法:</strong><br>感嘆詞 \"No\" を長く伸ばして、感情を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl21.mp3"
+    },
+    {
+      "id": "byron_vl22",
+      "quote": "Try my latest concoction!",
+      "translation": "私の最新の調合品を試したまえ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"latest\" は「最新の」。\"concoction\" は「（様々なものを混ぜ合わせた）調合品」。</li><li>自分の新しい自信作（の毒薬）を、セールスマンらしく勧めています。</li></ul><strong>英文法:</strong><br>命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl22.mp3"
+    },
+    {
+      "id": "byron_vl23",
+      "quote": "Potential, satisfaction, guaranteed.",
+      "translation": "潜在能力、満足感、保証付きだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の商品が、「潜在能力（Potential）」を引き出し、「満足感（satisfaction）」を与えることを、「保証する（guaranteed）」と、自信満々に宣伝しています。</li></ul><strong>英文法:</strong><br>三つの単語を並べた、広告のキャッチコピーのようなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl23.mp3"
+    },
+    {
+      "id": "byron_vl24",
+      "quote": "Sen-sational!",
+      "translation": "センセーショナル！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Sensational\"（衝撃的な、素晴らしい）という単語を、一音節ずつ区切って発音することで、その素晴らしさを大げさに、そして演劇的に表現しています。</li></ul><strong>英文法:</strong><br>感嘆詞的な形容詞です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl24.mp3"
+    },
+    {
+      "id": "byron_vl25",
+      "quote": "Run, run, as fast as you can!",
+      "translation": "走れ、走れ、できるだけ速く！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは、有名な童話『しょうがパンぼうや（The Gingerbread Man）』で、主人公が追い手から逃げる際に歌う歌の一節です。</li><li>相手に「逃げてごらん、でも無駄だよ」と、追い詰めることを楽しんでいます。</li></ul><strong>英文法:</strong><br>有名な童話からの引用です。「as... as you can」は「できるだけ～」という意味の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl25.mp3"
+    },
+    {
+      "id": "byron_vl26",
+      "quote": "Next time, try my excellent aiming elixir.",
+      "translation": "次は、私の素晴らしい照準の秘薬を試すがいい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"elixir\" は「霊薬、エリクサー」。</li><li>攻撃を外した相手に対して、「次は、エイムが良くなる私の薬を試してみてはどうかね？」と、商品を宣伝しながら皮肉を言っています。</li></ul><strong>英文法:</strong><br>命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl26.mp3"
+    },
+    {
+      "id": "byron_vl27",
+      "quote": "Have a free taste... of doom.",
+      "translation": "無料でお試しあれ…破滅の味をな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「無料で試飲どうぞ（Have a free taste）」と優しく勧めた後で、その中身が「破滅（doom）」であることを明かす、非常に悪役らしいセリフです。</li></ul><strong>英文法:</strong><br>命令文の後に、補足説明を付け加えています。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl27.mp3"
+    },
+    {
+      "id": "byron_vl28",
+      "quote": "You need my no-noob-cure!",
+      "translation": "君には私のノー・ヌーブ・キュアが必要だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"noob\"（初心者、ヘタクソ）を \"cure\"（治療する）ための、\"no\"（否定）の薬、というような、彼が作った造語の薬品名です。</li><li>相手の腕前のなさを、治療すべき病気だと見なしています。</li></ul><strong>英文法:</strong><br>造語を使った、ユニークな表現です。",
+      "audioUrl": "https://Amphibian333.github.io/byron_vl28.mp3"
+    }
+  ]
+}

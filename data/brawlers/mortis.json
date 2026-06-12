@@ -1,0 +1,206 @@
+{
+  "name": "モーティス",
+  "nameEn": "Mortis",
+  "rarity": "ultra-rare",
+  "role": "assassin",
+  "quote": "Bearer of bats!",
+  "iconUrl": "https://i.imgur.com/ag6w3UF.png",
+  "voicelines": [
+    {
+      "id": "mortis_vl1",
+      "quote": "I bring you the gift of darkness!",
+      "translation": "闇の贈り物を届けに来ましたぞ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の攻撃を「闇のプレゼント」なんて言っちゃう、最高に厨二病でカッコいい登場のセリフです。</li><li>草むらから奇襲をかける時に心の中で叫びたい一言！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl1.mp3"
+    },
+    {
+      "id": "mortis_vl2",
+      "quote": "Mortis, the magnificent!",
+      "translation": "壮麗なるモーティス！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺様は素晴らしい！」と自分で言っちゃうナルシスト全開のセリフ。</li><li>スーパープレイを決めた後にドヤ顔で言いましょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl2.mp3"
+    },
+    {
+      "id": "mortis_vl3",
+      "quote": "I'm mortified.",
+      "translation": "屈辱ですぞ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ダメージを受けた時に、「痛い」ではなく「恥ずかしい（屈辱だ）」と言うのがプライドの高いモーティスらしい！</li><li>自分の名前（Mortis）と掛けた、ちょっとしたダジャレでもあります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl3.mp3"
+    },
+    {
+      "id": "mortis_vl4",
+      "quote": "You have been bested!",
+      "translation": "汝、打ち負かされたり！",
+      "explanation": "<strong>解説:</strong><br><ul><li>相手を倒した時の勝利宣言。「お前の負けだ！」と言うよりも、ずっと偉そうで演劇的な言い回しです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl4.mp3"
+    },
+    {
+      "id": "mortis_vl5",
+      "quote": "Mortally wounded!",
+      "translation": "致命傷だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時のセリフ。これも「致命的な（Mortal）」と自分の名前を掛けています。</li><li>大げさに叫ぶことで、悲劇のヒーローを気取っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl5.mp3"
+    },
+    {
+      "id": "mortis_vl6",
+      "quote": "Dash and destroy!",
+      "translation": "ダッシュして破壊！",
+      "explanation": "<strong>解説:</strong><br><ul><li>モーティスの戦い方をこれ以上なくシンプルに表した言葉。突っ込んで、暴れる。それだけ！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl6.mp3"
+    },
+    {
+      "id": "mortis_vl7",
+      "quote": "Creatures of the night!",
+      "translation": "夜の生物たちよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>コウモリたちを呼んでいるのか、それとも自分のような「夜の住人」への呼びかけか。</li><li>深夜テンションでゲームをしている時に使いたくなるフレーズです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl7.mp3"
+    },
+    {
+      "id": "mortis_vl8",
+      "quote": "Mortis, bringer of doom!",
+      "translation": "モーティス、破滅をもたらす者！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「破滅をもたらす者」なんて、ラスボスくらいしか名乗らないような称号を自分で言っちゃいます。威圧感たっぷり。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl8.mp3"
+    },
+    {
+      "id": "mortis_vl9",
+      "quote": "Witness my power!",
+      "translation": "我が力を見るがよい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>必殺技を使う前などの「見せ場」で使うと最高に気持ちいいセリフ。「俺のプレイをよく見ておけ！」という自信の表れです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl9.mp3"
+    },
+    {
+      "id": "mortis_vl10",
+      "quote": "You fiend!",
+      "translation": "この悪党め！",
+      "explanation": "<strong>解説:</strong><br><ul><li>パワーキューブを横取りされた時なんかに言いたくなる、古風な罵り言葉。「貴様！」といったニュアンスです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl10.mp3"
+    },
+    {
+      "id": "mortis_vl11",
+      "quote": "Your soul is mine!",
+      "translation": "お前の魂は私のものだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を倒して魂をいただく、まさに死神や吸血鬼の決め台詞。キルした瞬間に脳内で再生したらかっこいいやつです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl11.mp3"
+    },
+    {
+      "id": "mortis_vl12",
+      "quote": "Mortis, the mortal.",
+      "translation": "モーティス、死すべき定め。",
+      "explanation": "<strong>解説:</strong><br><ul><li>倒された時に、自分の名前と「死ぬ運命（Mortal）」を掛けて、皮肉っぽくつぶやきます。負けてもユーモアを忘れません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl12.mp3"
+    },
+    {
+      "id": "mortis_vl13",
+      "quote": "Dashingly handsome!",
+      "translation": "颯爽としてハンサム！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「素早い（Dashing）」と「イケメン（Handsome）」を掛けた、自分大好き発言。</li><li>華麗に敵の攻撃をかわした時にどうぞ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl13.mp3"
+    },
+    {
+      "id": "mortis_vl14",
+      "quote": "Feel my wrath!",
+      "translation": "我が怒りを感じよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>怒りの反撃開始！相手に突っ込んでいく時の気合十分なセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl14.mp3"
+    },
+    {
+      "id": "mortis_vl15",
+      "quote": "I am a creature of the night!",
+      "translation": "我は夜の生物なり！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺は吸血鬼だぞ！」と高らかに宣言する、モーティスを象徴する名台詞。夜更かししてゲームしている時の言い訳にも使えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl15.mp3"
+    },
+    {
+      "id": "mortis_vl16",
+      "quote": "My excellence is undeniable!",
+      "translation": "我が優秀さは、否定しようがない！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺が上手いのは確定事項だろ？」という圧倒的自信。MVPを取った時なんかに言いたいセリフNo.1です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl16.mp3"
+    },
+    {
+      "id": "mortis_vl17",
+      "quote": "How dare you!",
+      "translation": "よくも！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「よくもこの俺様に手を出したな！」と、プライドを傷つけられた時の怒りの一言。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl17.mp3"
+    },
+    {
+      "id": "mortis_vl18",
+      "quote": "Time to rest.",
+      "translation": "休息の時間だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時も「負けた」とは言わず、「ちょっと休憩するだけさ」と余裕を見せるのが紳士の嗜みです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl18.mp3"
+    },
+    {
+      "id": "mortis_vl19",
+      "quote": "Gloom and doom!",
+      "translation": "憂鬱と破滅！",
+      "explanation": "<strong>解説:</strong><br><ul><li>暗い言葉を並べて韻を踏んだ、不吉な呪文のような掛け声。相手にバッドエンドをお届けします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl19.mp3"
+    },
+    {
+      "id": "mortis_vl20",
+      "quote": "Slice and dice!",
+      "translation": "スライス＆ダイス！",
+      "explanation": "<strong>解説:</strong><br><ul><li>料理で「みじん切り」にすることですが、ゲームでは敵をザクザク切り刻む時に使われる、軽快な決め台詞です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl20.mp3"
+    },
+    {
+      "id": "mortis_vl21",
+      "quote": "Have much fear, Mortis is here!",
+      "translation": "大いに恐れるがよい、モーティスがここに来た！",
+      "explanation": "<strong>解説:</strong><br><ul><li>韻を踏んだリズミカルな登場セリフ。「俺が来たからにはもう安心だ（敵にとっては地獄だ）」という存在感のアピール！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl21.mp3"
+    },
+    {
+      "id": "mortis_vl22",
+      "quote": "Bear witness to my fitness!",
+      "translation": "我が肉体の完成度を目撃せよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の健康美（フィットネス）を見てくれ！という謎の自慢。ダッシュで動き回るスタミナには自信があるようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl22.mp3"
+    },
+    {
+      "id": "mortis_vl23",
+      "quote": "No!",
+      "translation": "ならぬ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ただの「No」ではなく、演劇風に「ならぬー！」と叫ぶ拒絶の言葉。思い通りにいかなかった時の悲痛な叫びです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl23.mp3"
+    },
+    {
+      "id": "mortis_vl24",
+      "quote": "I believe you got owned.",
+      "translation": "君は完敗したと、私は思うがね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ボコボコにしてやったぜ」というスラングを、あえて丁寧な言葉遣いで言うことで、相手を強烈に煽っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl24.mp3"
+    },
+    {
+      "id": "mortis_vl25",
+      "quote": "Betrayal!",
+      "translation": "裏切りだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>チームメイトのミスに巻き込まれた時や、予想外の反撃を受けた時に。悲劇の主人公になりきって叫びましょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl25.mp3"
+    },
+    {
+      "id": "mortis_vl26",
+      "quote": "Bringer of bats!",
+      "translation": "コウモリをもたらす者！",
+      "explanation": "<strong>解説:</strong><br><ul><li>必殺技でコウモリを放つ時の合図！「俺はコウモリ使いだぞ！」という強烈な自己主張です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl26.mp3"
+    },
+    {
+      "id": "mortis_vl27",
+      "quote": "We shall meet again!",
+      "translation": "また会おうぞ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>悪役が逃げる時のお約束、「覚えてろよ、また来るからな！」という捨て台詞。リスポーンする時の気持ちにぴったり。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl27.mp3"
+    },
+    {
+      "id": "mortis_vl28",
+      "quote": "Fly free my pretties!",
+      "translation": "自由にお飛び、我が可愛し子たちよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>手下のコウモリたちを「可愛い子ちゃん」と呼んで解き放つセリフ。</li></ul><br><strong>🧠豆知識:</strong><br>元ネタは映画『オズの魔法使』で、西の悪い魔女が手下の空飛ぶサルたちに命令する時の有名なセリフです。",
+      "audioUrl": "https://Amphibian333.github.io/mortis_vl28.mp3"
+    }
+  ]
+}

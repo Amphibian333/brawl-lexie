@@ -1,0 +1,283 @@
+{
+  "name": "ストゥー",
+  "nameEn": "Stu",
+  "rarity": "hyper-rare",
+  "role": "assassin",
+  "quote": "Wheeeee!",
+  "iconUrl": "https://i.imgur.com/dSquiFi.png",
+  "voicelines": [
+    {
+      "id": "stu_vl1",
+      "quote": "Dah-da-da-da, ha-ha-ah-ha!",
+      "translation": "ダッダッダッダ、ハッハッアッハ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>言葉ではなく、どもり（stuttering）や機械的な音の羅列で、興奮や準備運動をしている様子を表しています。</li><li>故障気味のロボットというストゥーのキャラクターを象徴するサウンドです。</li></ul><strong>英文法:</strong><br>特定の文法構造を持たない、擬音語の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl1.mp3"
+    },
+    {
+      "id": "stu_vl2",
+      "quote": "Who wa-wa-wants an au-au-autograph?",
+      "translation": "だ、だ、誰かサ、サ、サインは欲しいかな？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「誰がサインを欲しい？（Who wants an autograph?）」という文が、どもりによって途切れ途切れになっています。</li><li>自分が人気者である（と信じている）スタントマンらしいセリフです。</li></ul><strong>英文法:</strong><br>通常の疑問文の単語が、どもりによって音節ごとに繰り返されています。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl2.mp3"
+    },
+    {
+      "id": "stu_vl3",
+      "quote": "It's nothi-thi-thing.",
+      "translation": "な、な、なんてことないさ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「It's nothing.（大したことないよ）」という謙遜や強がりの言葉が、どもりによって表現されています。</li></ul><strong>英文法:</strong><br>通常の表現が、どもりによって \"nothi-thi-thing\" のように変化しています。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl3.mp3"
+    },
+    {
+      "id": "stu_vl4",
+      "quote": "Ha-ha! I got-got-ga-got you!",
+      "translation": "ハハ！つ、つ、捕まえた！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「I got you!（捕まえた！）」という勝利のセリフが、興奮によるどもりで強調されています。</li></ul><strong>英文法:</strong><br>\"Got you!\" は口語で「捕まえたぞ」「やったぞ」といった意味で使われる定型句です。ここではどもりが加わっています。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl4.mp3"
+    },
+    {
+      "id": "stu_vl5",
+      "quote": "Crash and burn, get fixed, return!",
+      "translation": "クラッシュして炎上、修理して、復活！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ストゥーの戦闘サイクル「破壊 → 修理 → 戦線復帰」を、リズミカルに表現したスローガンです。</li></ul><strong>英文法:</strong><br>動詞の原形をコンマで繋いで、一連の行動をテンポよく示しています。\"Crash and burn\" は「大失敗する」という意味の慣用句ですが、ここでは文字通りの意味でも使われています。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl5.mp3"
+    },
+    {
+      "id": "stu_vl6",
+      "quote": "Wheeeee!",
+      "translation": "ヒャッホー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>高速で移動する際のスピード感や、スリルを楽しんでいる時の歓声です。</li></ul><strong>英文法:</strong><br>喜びや興奮をそのまま音にしたような間投詞です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl6.mp3"
+    },
+    {
+      "id": "stu_vl7",
+      "quote": "Safety last, ha-ha-ha-ha-ha!",
+      "translation": "安全は二の次、ハハハハハ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「安全第一（Safety first）」という有名な標語を、意図的に「安全は最後（Safety last）」と逆転させることで、危険を顧みない無鉄砲なスタントマンとしての性格を表現しています。</li></ul><strong>英文法:</strong><br>有名な慣用句のパロディです。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl7.mp3"
+    },
+    {
+      "id": "stu_vl8",
+      "quote": "Spectacular Stu merchandise now for sale. Si-si-side effects may include being awesome-",
+      "translation": "スペクタキュラー・ストゥーのグッズ発売中。ふ、ふ、副作用には、最高になることが含まれるかも…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身のグッズ（merchandise）を宣伝する、コマーシャルのようなセリフです。</li><li>「副作用（side effects）には『最高になること』が含まれる」と、薬の注意書きのような言い方でジョークを言っていますが、途中で言葉が途切れています。</li></ul><strong>英文法:</strong><br>\"may include...\" は「～を含むかもしれない」という、可能性を示す丁寧な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl8.mp3"
+    },
+    {
+      "id": "stu_vl9",
+      "quote": "Stu groans",
+      "translation": "（ストゥーがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>ダメージを受けた時などに発する、機械的なうめき声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"groan\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl9.mp3"
+    },
+    {
+      "id": "stu_vl10",
+      "quote": "Oh, you get used to it.",
+      "translation": "ああ、すぐに慣れるさ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が受けたダメージや、自身の常軌を逸した行動に対して、他人事のように「そのうち慣れるよ」とコメントしている、ユーモラスなセリフです。</li></ul><strong>英文法:</strong><br>\"get used to ~\" は「～に慣れる」という意味の非常に重要な定型表現です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl10.mp3"
+    },
+    {
+      "id": "stu_vl11",
+      "quote": "I'm oka-a-ay, I thi-i-i-ink.",
+      "translation": "ボ、ボクは大丈夫…だ、だ、だと思う…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「僕は大丈夫（I'm okay）」と言いながらも、どもっていることと、最後に「だと思う（I think）」と付け加えることで、全く大丈夫ではなさそうな様子をコミカルに表現しています。</li></ul><strong>英文法:</strong><br>肯定の文と、自信のなさを表す文がどもりながら繋がっています。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl11.mp3"
+    },
+    {
+      "id": "stu_vl12",
+      "quote": "Spin-pin-pin to win, ba-ba-ba-baby!",
+      "translation": "ス、ス、スピンして勝つんだ、ベ、ベ、ベイビー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「Spin to win（スピンして勝つ）」という、ストゥーの戦闘スタイルを表すリズミカルなフレーズを、どもりながら叫んでいます。</li></ul><strong>英文法:</strong><br>「動詞 + to + 動詞」の形で目的（勝つためにスピンする）を表しています。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl12.mp3"
+    },
+    {
+      "id": "stu_vl13",
+      "quote": "I'll sh-sh-show you crazy!",
+      "translation": "本当のクレイジーってやつを、み、見せてやる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「お前にクレイジーを見せてやる」という、これから予測不能で危険な行動に出ることを示唆する脅し文句です。</li></ul><strong>英文法:</strong><br>\"I'll\" は \"I will\" の短縮形です。\"crazy\" はここでは名詞的に「狂気」そのものを指しています。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl13.mp3"
+    },
+    {
+      "id": "stu_vl14",
+      "quote": "Smell my fumes! Ha-ha!",
+      "translation": "オレ様の排気ガスを嗅ぎな！ハハ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fumes\" は自動車などの「排気ガス」のこと。</li><li>相手を追い越したり、置き去りにしたりする際に、自分の速さを誇示する挑発的なセリフです。</li></ul><strong>英文法:</strong><br>動詞 \"Smell\" で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl14.mp3"
+    },
+    {
+      "id": "stu_vl15",
+      "quote": "If only I could feel-feel-feel pain.",
+      "translation": "も、もしも痛みを感じられたらなぁ…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ロボットであるため痛みを感じないが、それに少し憧れているような、あるいは逆にそれを強みとしてアピールしているような、皮肉なニュアンスのセリフです。</li></ul><strong>英文法:</strong><br>\"If only I could...\" は、実現が難しいことへの強い願望を表す仮定法の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl15.mp3"
+    },
+    {
+      "id": "stu_vl16",
+      "quote": "You failed the cra-a-ash test, ya dummy!",
+      "translation": "お前は衝突試験に、ら、落第だ、このマヌケ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手との衝突を「衝突試験（crash test）」に例え、相手がそれに「不合格（failed）」だったと宣告しています。</li><li>\"dummy\" は「マヌケ」という侮辱語ですが、衝突試験で使われる人形も「クラッシュテストダミー」と呼ぶため、ダブルミーニングになっています。</li></ul><strong>英文法:</strong><br>\"ya\" は \"you\" の口語的な発音です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl16.mp3"
+    },
+    {
+      "id": "stu_vl17",
+      "quote": "I'm-I'm-I'm only a bit-b-bi-bi-bit broken.",
+      "translation": "ぼ、僕は、ちょ、ちょ、ちょっと壊れてるだけだから…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ダメージを受けているにもかかわらず、「少し（a bit）壊れているだけだ」と強がるセリフ。どもりがその強がりを裏切っており、コミカルです。</li></ul><strong>英文法:</strong><br>\"only a bit\" は「ほんの少しだけ」と程度を限定する表現です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl17.mp3"
+    },
+    {
+      "id": "stu_vl18",
+      "quote": "Spin to win! 'Til you drop!",
+      "translation": "回って勝つ！お前が倒れるまでな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「スピンして勝つ」というスローガンに、「相手が倒れるまで」という条件を付け加え、執拗な攻撃スタイルを表現しています。</li></ul><strong>英文法:</strong><br>\"'Til\" は \"Until\"（～まで）の口語的な短縮形です。\"you drop\" は「あなたが倒れる」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl18.mp3"
+    },
+    {
+      "id": "stu_vl19",
+      "quote": "Hey, ki-ki-kiddos! W-w-w-watch this!",
+      "translation": "や、や、やあ、みんな！こ、こ、これを見ろ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"kiddos\" は \"kids\"（子供たち）をより親しみを込めて呼ぶ言い方。</li><li>観客（子供たち）に、これからすごいスタントを見せるとアピールしています。</li></ul><strong>英文法:</strong><br>呼びかけと命令文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl19.mp3"
+    },
+    {
+      "id": "stu_vl20",
+      "quote": "Winners munch on Col-Col-Colt Crunch. It's spectacular!",
+      "translation": "勝者はコ、コ、コルトクランチを食べるんだ。最高だぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>架空のシリアル「コルトクランチ」のコマーシャルのようなセリフ。ストゥーがスポンサー付きのプロのスタントマンであることを示唆しています。</li><li>\"munch on\" は「～をムシャムシャ食べる」という口語表現です。</li></ul><strong>英文法:</strong><br>\"It's spectacular!\" は「それは壮観だ！素晴らしい！」と商品を称賛する感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl20.mp3"
+    },
+    {
+      "id": "stu_vl21",
+      "quote": "This machine is ge-ge-gettin' mean!",
+      "translation": "このマシンは、だ、だ、段々ヤバくなってきたぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"mean\" はスラングで「意地悪な」の他に、「すごい」「ヤバい」「手強い」といった肯定的な意味を持ちます。</li><li>自分自身の戦闘能力が上がっていることを示しています。</li></ul><strong>英文法:</strong><br>\"gettin'\" は \"getting\" の口語発音。「get + 形容詞」で「～の状態になる」という変化を表します。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl21.mp3"
+    },
+    {
+      "id": "stu_vl22",
+      "quote": "Spectacular Stu!",
+      "translation": "スペクタキュラー・ストゥー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「壮観なるストゥー！」と、自身のリングネームやキャッチフレーズを叫んでいます。</li></ul><strong>英文法:</strong><br>「形容詞 + 固有名詞」で構成される、自己紹介フレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl22.mp3"
+    },
+    {
+      "id": "stu_vl23",
+      "quote": "Time to wipe my tears and clean my gears!",
+      "translation": "涙を拭いて、ギアを磨く時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>感情的な「涙（tears）」と、機械的な「歯車（gears）」を並べることで、ロボットでありながら人間のような感情を持つストゥーのユニークなキャラクターを表現しています。</li><li>\"tears\" と \"gears\" で韻を踏んでいます。</li></ul><strong>英文法:</strong><br>「Time to + [動詞] and [動詞]」の形で、これから行うべき2つの行動を示しています。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl23.mp3"
+    },
+    {
+      "id": "stu_vl24",
+      "quote": "Dash, bash, and crash!",
+      "translation": "ダッシュ、バッシュ、そしてクラッシュ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Dash\"（突進）、\"Bash\"（強打）、\"Crash\"（衝突）という、ストゥーの攻撃的なプレイスタイルを表す3つの単語で韻を踏んだ、リズミカルなスローガンです。</li></ul><strong>英文法:</strong><br>動詞の原形をコンマと \"and\" で繋ぎ、一連の行動をテンポよく示しています。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl24.mp3"
+    },
+    {
+      "id": "stu_vl25",
+      "quote": "Do-Do-Doin' it for all the lonely c-a-ats out there!",
+      "translation": "そ、そこにいる、全ての孤独な子猫ちゃんたちのためにやってるんだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>なぜか「孤独な猫たち」のために戦っていると語る、ストゥーの風変わりで優しい一面が見えるセリフです。</li><li>\"cats\" はスラングで「人々、やつら」という意味で使われることもあります。</li></ul><strong>英文法:</strong><br>\"Doin'\" は \"Doing\" の口語発音。\"out there\" は「世の中にいる」といったニュアンスです。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl25.mp3"
+    },
+    {
+      "id": "stu_vl26",
+      "quote": "I'm one lean mean winnin' machi-i-ine!",
+      "translation": "オレは無駄なく、手強く、勝利する、マ、マシンだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"lean, mean, winning machine\" は「無駄がなく、効率的で、勝利するための機械」という意味の、韻を踏んだ決まり文句です。</li><li>自身の性能の高さをアピールしています。</li></ul><strong>英文法:</strong><br>\"winnin'\" は \"winning\" の、\"machi-i-ine\" は \"machine\" のどもりを伴った発音です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl26.mp3"
+    },
+    {
+      "id": "stu_vl27",
+      "quote": "Nerd alert.",
+      "translation": "オタク警報発令。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Nerd\" は「オタク」や「ガリ勉」を指すスラング。</li><li>「オタク警報」とふざけて言うことで、相手をからかったり、見下したりしています。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」で構成されるスラングのフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl27.mp3"
+    },
+    {
+      "id": "stu_vl28",
+      "quote": "Kee-e-e-eep the tire marks as a souvenir...",
+      "translation": "タ、タイヤの跡は、記念に取っときな…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が高速で通り過ぎた後に残る「タイヤの跡（tire marks）」を、「記念品（souvenir）」として相手にくれてやる、という挑発的なセリフです。</li></ul><strong>英文法:</strong><br>「Keep A as B」で「AをBとして取っておく」という意味になります。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl28.mp3"
+    },
+    {
+      "id": "stu_vl29",
+      "quote": "Fa-a-ailure... Builds character!",
+      "translation": "し、失敗は…人格を形成する！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「失敗は人を成長させる」という、ありふれた格言を、どもりながら言うことでコミカルな響きにしています。敗北した時の言い訳のようです。</li></ul><strong>英文法:</strong><br>\"Failure builds character.\" は英語でよく使われることわざの一つです。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl29.mp3"
+    },
+    {
+      "id": "stu_vl30",
+      "quote": "Rush! Crush!",
+      "translation": "ラッシュ！クラッシュ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Rush\"（突進）と \"Crush\"（粉砕）という、韻を踏んだ力強い単語を並べて、攻撃的なスタイルを表現しています。</li></ul><strong>英文法:</strong><br>動詞の原形を並べた、技名のような掛け声です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl30.mp3"
+    },
+    {
+      "id": "stu_vl31",
+      "quote": "I'm cr-r-r-r-cruisin' for a bruisin'!",
+      "translation": "ケンカを売りに、ク、クルージング中だぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"be cruising for a bruising\" は「自ら厄介事に首を突っ込んでいる」「喧嘩を売って回っている」という意味の、韻を踏んだスラングです。</li><li>わざと危険な状況を楽しんでいる、ストゥーのスタントマンらしい性格を表しています。</li></ul><strong>英文法:</strong><br>\"cruisin'\" は \"cruising\" の口語発音。イディオムとして定着している表現です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl31.mp3"
+    },
+    {
+      "id": "stu_vl32",
+      "quote": "This mo-mo-mo-moment is sponsored by Colt Crunch cereal.",
+      "translation": "こ、この瞬間は、コルトクランチ・シリアルの提供でお送りします。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>テレビ番組でスポンサーを紹介する時の決まり文句を使い、自分のスタントがショーであることを演出しています。</li></ul><strong>英文法:</strong><br>\"be sponsored by ~\" は「～によって提供されている」という受動態の表現です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl32.mp3"
+    },
+    {
+      "id": "stu_vl33",
+      "quote": "Wow... Lo-o-ook at all those stars!",
+      "translation": "うわぁ…あ、あのたくさんの星を、見、見て…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>頭を強く打った時に「目から火花が出る（seeing stars）」という表現にかけた、皮肉なセリフです。大きなダメージを受けたことを示唆しています。</li></ul><strong>英文法:</strong><br>\"Look at...\" で始まる命令文ですが、どもりによって苦しそうなニュアンスが加わっています。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl33.mp3"
+    },
+    {
+      "id": "stu_vl34",
+      "quote": "One wheel peel!",
+      "translation": "一輪ピール！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"wheel peel\" または \"peel out\" は、急発進や急加速でタイヤが空転し、地面との摩擦で煙や跡がつく様子を指すスラングです。</li><li>一輪車であるストゥーが、派手なパフォーマンスをすることを宣言しています。</li></ul><strong>英文法:</strong><br>スラングを使った、技名のような掛け声です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl34.mp3"
+    },
+    {
+      "id": "stu_vl35",
+      "quote": "Time to bu-bu-bu-burn some rubber!",
+      "translation": "タ、タイヤを焦がす時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"burn rubber\" は「タイヤを焦がす」が直訳で、車が急発進・急加速することを意味するスラングです。</li><li>これから猛スピードで突進することを予告しています。</li></ul><strong>英文法:</strong><br>「Time to + 動詞の原形」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl35.mp3"
+    },
+    {
+      "id": "stu_vl36",
+      "quote": "I'm ju-ju-just a hunk of junk...",
+      "translation": "ボ、僕はただのガラクタの塊さ…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"hunk of junk\" は「ガラクタの塊」「ポンコツ」という意味のスラングです。</li><li>自分が破壊されたり、役に立たなかったりした時に、自嘲的に言うセリフです。</li></ul><strong>英文法:</strong><br>\"just\" は「ただの～にすぎない」と、価値の低さを強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl36.mp3"
+    },
+    {
+      "id": "stu_vl37",
+      "quote": "Spectacular Stu is here...for — o-o-oh.",
+      "translation": "スペクタキュラー・ストゥーが来たぞ…あ、あれぇ…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>決め台詞の途中で言葉が途切れ、\"o-o-oh\" といううめき声に変わっています。スタントに失敗したり、何かにつまずいたりしたコミカルな様子を表します。</li></ul><strong>英文法:</strong><br>文が途中で中断され、間投詞に繋がることで、アクシデントを表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl37.mp3"
+    },
+    {
+      "id": "stu_vl38",
+      "quote": "I almost made that ju-ju-jump.",
+      "translation": "あ、あのジャンプ、ほ、ほとんど成功だったのに。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"almost\" は「ほとんど、もう少しで」。ジャンプに失敗したものの、惜しかったと悔しがっているセリフです。</li></ul><strong>英文法:</strong><br>\"almost\" を使うことで、完全な失敗ではない、というニュアンスを加えています。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl38.mp3"
+    },
+    {
+      "id": "stu_vl39",
+      "quote": "Wa-a-a-asted! Ugh!",
+      "translation": "ム、ムダ死にだ！うっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Wasted\" は、ビデオゲームでプレイヤーが死亡した時によく使われるスラングで、「やられた」「死んだ」という意味です。</li></ul><strong>英文法:</strong><br>形容詞として使われる過去分詞です。ここでは感嘆文として単独で使われています。",
+      "audioUrl": "https://Amphibian333.github.io/stu_vl39.mp3"
+    }
+  ]
+}

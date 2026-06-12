@@ -1,0 +1,304 @@
+{
+  "name": "ウィロー",
+  "nameEn": "Willow",
+  "rarity": "ultra-rare",
+  "role": "support",
+  "quote": "I smell suffering, and I like it.",
+  "iconUrl": "https://i.imgur.com/tw0xrDO.png",
+  "voicelines": [
+    {
+      "id": "willow_vl1",
+      "quote": "I smell suffering, and I like it.",
+      "translation": "苦しみの匂いがする、いい匂いだわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「他人の不幸は蜜の味」を地で行くサディスト発言。</li><li>苦しむ姿を見るのが大好き、という悪役っぷりが最高です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl1.mp3"
+    },
+    {
+      "id": "willow_vl2",
+      "quote": "Surrounded by fools.",
+      "translation": "周りは愚か者ばかりね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分以外は全員バカに見えてるようです。</li><li>野良マッチで味方が頼りない時に、つい言いたくなるセリフかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl2.mp3"
+    },
+    {
+      "id": "willow_vl3",
+      "quote": "You are playing with poison!",
+      "translation": "あなた、毒で遊んでいるのよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「火遊びすると火傷するわよ」の毒バージョン。</li><li>文字通り毒攻撃をしてくる彼女に逆らうのは危険すぎます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl3.mp3"
+    },
+    {
+      "id": "willow_vl4",
+      "quote": "You won't live to regret this!",
+      "translation": "これを後悔する頃には、もう生きていないわよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「後悔させてやる！」よりも怖い、「後悔する時間すら与えない」という死の宣告。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl4.mp3"
+    },
+    {
+      "id": "willow_vl5",
+      "quote": "Ha ha!",
+      "translation": "ハッハッ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>高圧的で意地悪な笑い声。</li><li>相手が毒ダメージでジワジワ減っていくのを見て楽しんでそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl5.mp3"
+    },
+    {
+      "id": "willow_vl6",
+      "quote": "Are those screams of pain that I hear?",
+      "translation": "私が聞いているのは、苦痛の叫び声かしら？",
+      "explanation": "<strong>解説:</strong><br><ul><li>悲鳴をBGMにして楽しむタイプ。</li><li>わざとらしく聞くあたり、性格の悪さが滲み出ています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl6.mp3"
+    },
+    {
+      "id": "willow_vl7",
+      "quote": "Cool, cruel and ready to rule.",
+      "translation": "クールで、残酷で、支配する準備はできているわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>韻を踏んだカッコいい自己紹介。</li><li>「冷酷で残忍な支配者」になる気満々です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl7.mp3"
+    },
+    {
+      "id": "willow_vl8",
+      "quote": "That's close enough!",
+      "translation": "そこまでよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>近寄ってきた敵を追い払う時の一言。</li><li>「私のパーソナルスペースに入らないで！」という拒絶感がすごいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl8.mp3"
+    },
+    {
+      "id": "willow_vl9",
+      "quote": "The swamp is calling my name.",
+      "translation": "沼が私の名を呼んでいるわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時のセリフ。</li><li>故郷の沼に帰るだけ…という、ちょっと詩的な退場シーンです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl9.mp3"
+    },
+    {
+      "id": "willow_vl10",
+      "quote": "Soul seeker!",
+      "translation": "魂の探求者よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>魂を求めて彷徨う亡霊のような名乗り。</li><li>ウルトで敵の体を乗っ取る彼女にぴったりの二つ名です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl10.mp3"
+    },
+    {
+      "id": "willow_vl11",
+      "quote": "Hearing people's fears is music to my ears.",
+      "translation": "人々の恐怖を聞くのは、私の耳には音楽だわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>恐怖の叫び声が音楽に聞こえるなんて、完全にサイコパスの感性です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl11.mp3"
+    },
+    {
+      "id": "willow_vl12",
+      "quote": "Bad to the bone and ready for my throne.",
+      "translation": "骨の髄まで悪くて、王座の準備はできてるわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私は根っからの悪党で、女王になる器よ」という宣言。</li><li>韻を踏んでてリズムが良いので、つい口ずさみたくなります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl12.mp3"
+    },
+    {
+      "id": "willow_vl13",
+      "quote": "Slimy snails and lizard tails!",
+      "translation": "ぬるぬるのカタツムリに、トカゲの尻尾よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>魔女が鍋をかき混ぜながら唱えてそうな呪文。</li><li>ゲテモノばかり並べるのが魔女っ子（？）の嗜みです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl13.mp3"
+    },
+    {
+      "id": "willow_vl14",
+      "quote": "Ha ha, this is fun!",
+      "translation": "ハハ、楽しいわね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦場を遊び場だと思ってる無邪気さ（狂気）。</li><li>敵を翻弄している時に心から楽しんでそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl14.mp3"
+    },
+    {
+      "id": "willow_vl15",
+      "quote": "I will make you beg for mercy.",
+      "translation": "慈悲を乞わせてあげるわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「助けてくださいと言わせてやる」というドS発言。</li><li>じわじわと毒で追い詰めるプレイスタイルに合ってます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl15.mp3"
+    },
+    {
+      "id": "willow_vl16",
+      "quote": "Find a foe!",
+      "translation": "敵を見つけなさい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>手下のオタマジャクシたちへの命令。</li><li>「獲物はどこ！？」とけしかける女王様です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl16.mp3"
+    },
+    {
+      "id": "willow_vl17",
+      "quote": "In the creepy love tunnel, only I can hear you scream!",
+      "translation": "不気味な愛のトンネルの中では、あなたの悲鳴は私にしか聞こえないのよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ホラー映画のキャッチコピー「宇宙では、あなたの悲鳴は誰にも聞こえない」のパロディ。</li><li>愛のトンネルで悲鳴って、デートスポットとしては最悪ですね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl17.mp3"
+    },
+    {
+      "id": "willow_vl18",
+      "quote": "If you're not winning, you're not me.",
+      "translation": "もし勝っていないのなら、それはあなたじゃないわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「勝つのが私、負けるのは私じゃない」という究極のナルシシズム。</li><li>負けたことを認めない強情さも魅力？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl18.mp3"
+    },
+    {
+      "id": "willow_vl19",
+      "quote": "You had your fun? Now it's my time.",
+      "translation": "あなたは楽しんだかしら？さあ、今度は私の番よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>反撃開始の合図。「調子に乗るのもそこまでよ」と、形勢逆転を狙います。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl19.mp3"
+    },
+    {
+      "id": "willow_vl20",
+      "quote": "Don't call me cute!",
+      "translation": "私のこと、カワイイなんて呼ばないで！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「可愛い」と言われるのは心外らしいです。</li><li>「美しい」とか「恐ろしい」と言われたいお年頃なのでしょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl20.mp3"
+    },
+    {
+      "id": "willow_vl21",
+      "quote": "My minions will find you.",
+      "translation": "私の手下がお前を見つけ出すわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「逃げても無駄よ」という脅し。</li><li>どこまでも追いかけてくるオタマジャクシの恐怖！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl21.mp3"
+    },
+    {
+      "id": "willow_vl22",
+      "quote": "Brain bringer!",
+      "translation": "脳みそをもたらす者！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルトで相手の脳（操作）を乗っ取る能力を表した異名。</li><li>響きはカッコいいけど、やってることはエグいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl22.mp3"
+    },
+    {
+      "id": "willow_vl23",
+      "quote": "My sloppy delights are gonna give you the frights.",
+      "translation": "私のずぶ濡れの喜びが、あなたに恐怖を与えるでしょうね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ベチョベチョした攻撃で怖がらせてあげる」という、独特すぎる脅し文句。</li><li>生理的嫌悪感を煽ってきます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl23.mp3"
+    },
+    {
+      "id": "willow_vl24",
+      "quote": "Ah, I love winning and watching people cry.",
+      "translation": "ああ、勝つのと、人が泣くのを見るのが大好きだわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>性格の悪さを隠そうともしない清々しさ！</li><li>ここまで来ると逆に好感が持てる…かも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl24.mp3"
+    },
+    {
+      "id": "willow_vl25",
+      "quote": "Eh, nothing a little mud couldn't fix.",
+      "translation": "ええ、ちょっと泥があれば直せないものなんてないわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「泥さえあれば万事解決」という謎の信頼感。</li><li>彼女にとっては、泥が最高のスキンケアであり、薬であり、武器なのでしょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl25.mp3"
+    },
+    {
+      "id": "willow_vl26",
+      "quote": "Hope I gave you the creeps!",
+      "translation": "ゾッとさせてあげられたかしら！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「怖がってくれた？」と感想を聞くサイコパスっぷり。</li><li>相手のビビった顔を見るのがご褒美なんです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl26.mp3"
+    },
+    {
+      "id": "willow_vl27",
+      "quote": "Back to the bog.",
+      "translation": "沼地へお帰り。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を倒して、リスポーン地点（沼）送りにした時の捨て台詞。</li><li>「お前にお似合いの場所に帰りな」という皮肉です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl27.mp3"
+    },
+    {
+      "id": "willow_vl28",
+      "quote": "You are mine now!",
+      "translation": "お前は今や、私のものよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルト命中！相手を操っている時の支配者のセリフ。</li><li>この瞬間が一番楽しそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl28.mp3"
+    },
+    {
+      "id": "willow_vl29",
+      "quote": "Please, tell me your life story. I'll add the ending!",
+      "translation": "お願い、あなたの人生の物語を聞かせて。結末は、私が加えてあげるから！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「あなたの人生、私が終わらせてあげる」という、とんでもなくお洒落で残酷な殺害予告。</li><li>物語の悪役として100点満点のセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl29.mp3"
+    },
+    {
+      "id": "willow_vl30",
+      "quote": "Kneel before your queen!",
+      "translation": "女王の前に、ひざまずきなさい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>圧倒的な上から目線！</li><li>全てのブロウラーを下僕だと思っているフシがあります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl30.mp3"
+    },
+    {
+      "id": "willow_vl31",
+      "quote": "I'm the queen of mean!",
+      "translation": "私は意地悪の女王よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「意地悪（mean）」と「女王（queen）」で韻を踏んだ自己紹介。</li><li>自分が嫌な奴だという自覚があるのがまたタチが悪いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl31.mp3"
+    },
+    {
+      "id": "willow_vl32",
+      "quote": "Nooooo! Ah.",
+      "translation": "いやぁぁぁ！あぁ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>断末魔の叫び。</li><li>最後のため息に、「こんなはずじゃなかったのに」という無念さがこもっています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl32.mp3"
+    },
+    {
+      "id": "willow_vl33",
+      "quote": "Dance, my puppet, dance!",
+      "translation": "踊れ、私の操り人形、踊るのよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>操った敵を自分の意のままに動かす時の命令。</li><li>悪役冥利に尽きる瞬間ですね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl33.mp3"
+    },
+    {
+      "id": "willow_vl34",
+      "quote": "I'm not your bog-standard villain.",
+      "translation": "私はありふれた悪役じゃないのよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Bog-standard（平凡な）」という熟語に、自分の「Bog（沼）」をかけた高度なダジャレ。</li><li>「ただの悪役と一緒にしないで」というプライドを感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl34.mp3"
+    },
+    {
+      "id": "willow_vl35",
+      "quote": "Your pain, my pleasure!",
+      "translation": "あなたの痛みは、私の喜び！",
+      "explanation": "<strong>解説:</strong><br><ul><li>サディストの座右の銘みたいなセリフ。</li><li>対比構造が美しく、悪役としての美学を感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl35.mp3"
+    },
+    {
+      "id": "willow_vl36",
+      "quote": "You're just a tool, you weak-minded fool!",
+      "translation": "あなたはただの道具よ、この精神薄弱な愚か者！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を完全に道具扱いして罵倒する、容赦ない言葉攻め。</li><li>精神的にもダメージを与えてきます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl36.mp3"
+    },
+    {
+      "id": "willow_vl37",
+      "quote": "Your creeps are my peeps.",
+      "translation": "あなたたちがゾッとするものは、私の仲間よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「みんなが怖がるお化けや怪物は、私の友達よ」ということ。</li><li>不気味なものに囲まれているのが落ち着くタイプです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl37.mp3"
+    },
+    {
+      "id": "willow_vl38",
+      "quote": "I feast on fools!",
+      "translation": "私は愚か者を糧とする！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「バカを食べて生きてる」という、妖怪みたいな発言。</li><li>不用意に近づいてくる敵は、彼女にとって格好の餌食です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl38.mp3"
+    },
+    {
+      "id": "willow_vl39",
+      "quote": "Embrace the darkness!",
+      "translation": "闇を受け入れなさい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を闇堕ちさせようとする誘惑の言葉。</li><li>厨二病っぽくてカッコいいですね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl39.mp3"
+    },
+    {
+      "id": "willow_vl40",
+      "quote": "Pain dealer, soul stealer.",
+      "translation": "痛みを配る者、魂を盗む者。",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の職業（？）をラップみたいに紹介。</li><li>やってることは極悪非道ですが、響きはクールです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl40.mp3"
+    },
+    {
+      "id": "willow_vl41",
+      "quote": "Another dream crushed.",
+      "translation": "また一つの夢が、砕け散ったわね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を倒して「はい、夢終わり～」と冷たく言い放つ。</li><li>相手の希望を絶望に変えるのが生きがいなのです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl41.mp3"
+    },
+    {
+      "id": "willow_vl42",
+      "quote": "Ugh, romance? Not a chance.",
+      "translation": "はぁ、ロマンスですって？ありえないわね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「恋愛？くだらない」とバッサリ。</li><li>愛のトンネルで働いているのに、愛を一番信じていないのが皮肉で面白いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/willow_vl42.mp3"
+    }
+  ]
+}

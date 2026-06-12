@@ -1,0 +1,31 @@
+{
+  "name": "フランケン",
+  "nameEn": "Frank",
+  "rarity": "hyper-rare",
+  "role": "tank",
+  "quote": "(Roars)",
+  "iconUrl": "https://i.imgur.com/6qyk4m7.png",
+  "voicelines": [
+    {
+      "id": "frank_vl1",
+      "quote": "Frank roars",
+      "translation": "（フランケンが咆哮する）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、キャラクターの行動を描写する「ト書き」です。</li><li>\"roar\" は、ライオンのような猛獣が発する、力強く響き渡る「咆哮」を指します。</li><li>キャラクターの登場時や、力を解放する際の威嚇として使われます。</li></ul><strong>英文法:</strong><br>動詞 \"roar\" の三人称単数現在形です。主語 \"Frank\" に合わせて \"-s\" が付いています。",
+      "audioUrl": "https://Amphibian333.github.io/frank_vl1.mp3"
+    },
+    {
+      "id": "frank_vl2",
+      "quote": "Frank taunts",
+      "translation": "（フランケンが挑発する）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"taunt\" は、相手をからかったり、怒らせるために軽蔑的な言葉や行動をとることを意味します。フランケンの場合は、自信を示すような力強いポーズや音を発します。</li></ul><strong>英文法:</strong><br>動詞 \"taunt\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/frank_vl2.mp3"
+    },
+    {
+      "id": "frank_vl3",
+      "quote": "Frank groans",
+      "translation": "（フランケンがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"groan\" は、苦痛、疲労、または深い不満を表す、低く長めのうめき声を指します。ダメージを受けた時などに使われます。</li></ul><strong>英文法:</strong><br>動詞 \"groan\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/frank_vl3.mp3"
+    }
+  ]
+}

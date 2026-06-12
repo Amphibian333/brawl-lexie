@@ -1,0 +1,255 @@
+{
+  "name": "ガス",
+  "nameEn": "Gus",
+  "rarity": "super-rare",
+  "role": "support",
+  "quote": "This could get dangerous.",
+  "iconUrl": "https://i.imgur.com/IVsQTGF.png",
+  "voicelines": [
+    {
+      "id": "gus_vl1",
+      "quote": "This could get dangerous.",
+      "translation": "危ないことになるかも。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>怖がりながらも戦いに臨む、ガスの性格を表すセリフです。</li></ul><strong>英文法:</strong><br>\"could get + 形容詞\" は「～になるかもしれない」という、確信のない未来の可能性を示す表現です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl1.mp3"
+    },
+    {
+      "id": "gus_vl2",
+      "quote": "Maybe, I'll get to meet Spike!",
+      "translation": "もしかしたら、スパイクに会えるかも！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>大好きなレジェンドレアキャラクター「スパイク」に会えるかもしれない、という期待を込めたセリフです。</li></ul><strong>英文法:</strong><br>\"get to + 動詞\" は「～する機会を得る」「～することができる」という口語的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl2.mp3"
+    },
+    {
+      "id": "gus_vl3",
+      "quote": "I miss the ghost train.",
+      "translation": "幽霊列車が恋しいな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ガスの背景設定に関連する「幽霊列車」を懐かしむセリフです。</li></ul><strong>英文法:</strong><br>\"I miss ~\" は「～がいなくて寂しい」「～が恋しい」という意味の一般的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl3.mp3"
+    },
+    {
+      "id": "gus_vl4",
+      "quote": "Good for me, bad for you.",
+      "translation": "僕には良いこと、君には悪いこと。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>対照的なフレーズを並べることで、相手を倒した時などの皮肉っぽいニュアンスを出しています。</li></ul><strong>英文法:</strong><br>完全な文ではありませんが、口語ではよく使われる対比表現です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl4.mp3"
+    },
+    {
+      "id": "gus_vl5",
+      "quote": "Am I a ghost?",
+      "translation": "僕、幽霊なのかな？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身のアイデンティティについて不安げに問いかける、子供らしいセリフです。</li></ul><strong>英文法:</strong><br>be動詞で始まる基本的な Yes/No 疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl5.mp3"
+    },
+    {
+      "id": "gus_vl6",
+      "quote": "Get 'em, Spooky!",
+      "translation": "スプーキー、やっちゃえ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ペットの「スプーキー」（風船おばけ）に攻撃を命令するセリフです。</li></ul><strong>英文法:</strong><br>\"Get 'em\" は \"Get them\" の口語的な短縮形です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl6.mp3"
+    },
+    {
+      "id": "gus_vl7",
+      "quote": "Here we go again.",
+      "translation": "またこれか…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「また同じことの繰り返しだ」という、少しうんざりした、あるいは憂鬱な気持ちを表す決まり文句です。</li></ul><strong>英文法:</strong><br>\"Here we go\" は「さあ行こう」という意味ですが、\"again\" が付くとネガティブなニュアンスになることが多いです。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl7.mp3"
+    },
+    {
+      "id": "gus_vl8",
+      "quote": "I really hope Spike is watching this!",
+      "translation": "スパイクがこれを見ててくれたらいいな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>憧れのスパイクに自分の活躍を見てほしい、という健気な願いが込められています。</li></ul><strong>英文法:</strong><br>\"I hope ~\"（～だといいな）という願望を表す構文。\"really\" で気持ちを強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl8.mp3"
+    },
+    {
+      "id": "gus_vl9",
+      "quote": "Ugh, this place is scary.",
+      "translation": "うぅ、ここ怖いよ…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Ugh\" は嫌悪感や恐怖を表す間投詞。怖がりなガスの性格がよく出ています。</li></ul><strong>英文法:</strong><br>間投詞に続いて、シンプルな現在形の文が来ています。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl9.mp3"
+    },
+    {
+      "id": "gus_vl10",
+      "quote": "You should be more careful.",
+      "translation": "もっと気をつけた方がいいよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手に対して、子供ながらに忠告しているセリフです。</li></ul><strong>英文法:</strong><br>\"should be\" は「～であるべきだ」という、助言や忠告を表す表現です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl10.mp3"
+    },
+    {
+      "id": "gus_vl11",
+      "quote": "Why me?",
+      "translation": "なんで僕なの？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>理不尽な目に遭った時に「なぜ自分がこんな目に…」と嘆く、英語の定番フレーズです。</li></ul><strong>英文法:</strong><br>短い疑問文の形で、不満や悲しみを表現します。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl11.mp3"
+    },
+    {
+      "id": "gus_vl12",
+      "quote": "Spooky, fetch!",
+      "translation": "スプーキー、取ってきて！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fetch\" は、犬などのペットに物を「取ってこさせる」時に使う動詞です。</li></ul><strong>英文法:</strong><br>ペットへの指示として使われる、典型的な命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl12.mp3"
+    },
+    {
+      "id": "gus_vl13",
+      "quote": "Words aren't always enough.",
+      "translation": "言葉だけじゃ足りない時もあるんだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>子供らしい見た目とは裏腹に、少し哲学的で深みのあるセリフです。</li></ul><strong>英文法:</strong><br>\"not always\" は「いつも～というわけではない」という部分否定の表現です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl13.mp3"
+    },
+    {
+      "id": "gus_vl14",
+      "quote": "Wow, I'm in the lead!",
+      "translation": "わぁ、僕がリードしてる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が優勢な状況に、本人も驚いているようなニュアンスのセリフです。</li></ul><strong>英文法:</strong><br>\"in the lead\" は、スポーツやゲームで「首位にいる」「リードしている」という意味のイディオムです。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl14.mp3"
+    },
+    {
+      "id": "gus_vl15",
+      "quote": "Don't be mean.",
+      "translation": "いじわるしないでよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の意地悪な行動をやめるように頼む、子供らしいセリフです。</li></ul><strong>英文法:</strong><br>\"Don't be + 形容詞\" は「～しないで」という、状態に対する否定の命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl15.mp3"
+    },
+    {
+      "id": "gus_vl16",
+      "quote": "Costly mistake.",
+      "translation": "高くついたミスだね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手のミスが、大きな代償（costly）につながったことを指摘するセリフです。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の組み合わせによる短いフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl16.mp3"
+    },
+    {
+      "id": "gus_vl17",
+      "quote": "I will haunt you!",
+      "translation": "呪ってやる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"haunt\" は幽霊が「（場所や人に）取り憑く、出没する」という意味。幽霊キャラらしい脅し文句です。</li></ul><strong>英文法:</strong><br>未来の意志を表す \"will\" を使った、宣言文です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl17.mp3"
+    },
+    {
+      "id": "gus_vl18",
+      "quote": "Who is frightened now?",
+      "translation": "今、怖がってるのはどっちかな？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>形勢が逆転し、今まで怖がっていた自分が相手を怖がらせている状況で使う、皮肉のこもった問いかけです。</li></ul><strong>英文法:</strong><br>\"Who is ~ now?\" の形で、状況の変化を問いかけます。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl18.mp3"
+    },
+    {
+      "id": "gus_vl19",
+      "quote": "Sometimes, you gotta fight.",
+      "translation": "戦わなきゃいけない時もあるんだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>怖がりな少年が、勇気を振り絞って戦う決意を固めたような、成長を感じさせるセリフです。</li></ul><strong>英文法:</strong><br>\"gotta\" は \"have got to\" の口語的な短縮形で、「～しなければならない」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl19.mp3"
+    },
+    {
+      "id": "gus_vl20",
+      "quote": "Uh, stop looking at me!",
+      "translation": "うぅ、見ないでよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Uh\" は戸惑いやためらいを表す間投詞。恥ずかしがり屋な一面が見えます。</li></ul><strong>英文法:</strong><br>弱いトーンで発せられる否定の命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl20.mp3"
+    },
+    {
+      "id": "gus_vl21",
+      "quote": "W-What was that?",
+      "translation": "な、なんだったの今の？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>言葉の頭で \"W-\" と stutter（どもる）することで、恐怖やパニックを表現しています。</li></ul><strong>英文法:</strong><br>キャラクターの感情を表現するための、話し方の演出です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl21.mp3"
+    },
+    {
+      "id": "gus_vl22",
+      "quote": "You got bested by a child.",
+      "translation": "子供に負かされたね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"best\" を動詞として使い、「～に打ち勝つ」という意味になります。相手が子供である自分に負けたことを、少し得意げに指摘しています。</li></ul><strong>英文法:</strong><br>\"You got + 過去分詞\" の形で受動態を表す口語表現です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl22.mp3"
+    },
+    {
+      "id": "gus_vl23",
+      "quote": "Go, fetch!",
+      "translation": "行け、取ってきて！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ペットであるスプーキーに、何かを取りに行かせる時の短い命令です。</li></ul><strong>英文法:</strong><br>2つの動詞を並べた命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl23.mp3"
+    },
+    {
+      "id": "gus_vl24",
+      "quote": "Is that Spike?",
+      "translation": "あれってスパイク？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>憧れのスパイクを見つけたかもしれない、という期待と興奮が混じったセリフです。</li></ul><strong>英文法:</strong><br>be動詞で始まる基本的な Yes/No 疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl24.mp3"
+    },
+    {
+      "id": "gus_vl25",
+      "quote": "We made it, Spooky.",
+      "translation": "スプーキー、やったね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"make it\" は「成功する」「うまくやる」「目的地にたどり着く」といった意味を持つ便利なイディオムです。</li></ul><strong>英文法:</strong><br>過去形 \"made\" を使って、成功したことを報告しています。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl25.mp3"
+    },
+    {
+      "id": "gus_vl26",
+      "quote": "Hey, I'm just a kid.",
+      "translation": "ねえ、僕はただの子供だよ？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の無力さや幼さをアピールして、相手の同情を誘ったり、言い訳をしたりする時に使うセリフです。</li></ul><strong>英文法:</strong><br>\"just\" は「ただ～だけ」と限定する副詞です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl26.mp3"
+    },
+    {
+      "id": "gus_vl27",
+      "quote": "My balloon!",
+      "translation": "僕の風船が！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>大切なペット（風船）がやられた時の、子供らしい悲痛な叫びです。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl27.mp3"
+    },
+    {
+      "id": "gus_vl28",
+      "quote": "You didn't have to do that!",
+      "translation": "そんなことしなくてもよかったのに！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の行動が不要であり、かつ残酷であったことを非難するセリフです。</li></ul><strong>英文法:</strong><br>\"didn't have to ~\" は「～する必要はなかった」という意味の過去の否定です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl28.mp3"
+    },
+    {
+      "id": "gus_vl29",
+      "quote": "Spooky is gonna get you!",
+      "translation": "スプーキーがやっつけちゃうからね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分のペットが相手をやっつけるだろう、と予告する脅し文句です。</li></ul><strong>英文法:</strong><br>\"gonna\" は \"going to\" の口語的な短縮形です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl29.mp3"
+    },
+    {
+      "id": "gus_vl30",
+      "quote": "Time to take Spooky for a walk.",
+      "translation": "スプーキーをお散歩に連れてく時間だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>必殺技を使う時などに、それを「散歩」に例えて言う、ユーモラスなセリフです。</li></ul><strong>英文法:</strong><br>\"take ~ for a walk\" は「～を散歩に連れて行く」という定型表現です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl30.mp3"
+    },
+    {
+      "id": "gus_vl31",
+      "quote": "Ugh, wait till I get Spooky!",
+      "translation": "うぅ、スプーキーを呼ぶまで待ってなよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>今はやられても、ペットを呼べば反撃できるぞ、という負け惜しみのセリフです。</li></ul><strong>英文法:</strong><br>\"wait till ~\" は「～するまで待ってろ」という、脅しや予告で使われる言い方です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl31.mp3"
+    },
+    {
+      "id": "gus_vl32",
+      "quote": "Ha, you got spooked!",
+      "translation": "へへっ、ビビったでしょ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"spook\" は「怖がらせる」という動詞。相手を驚かせたり怖がらせたりした時に使います。ペットの「スプーキー」とかけた言葉遊びでもあります。</li></ul><strong>英文法:</strong><br>\"You got + 過去分詞\" の形で受動態を表す口語表現です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl32.mp3"
+    },
+    {
+      "id": "gus_vl33",
+      "quote": "Gotta stay calm.",
+      "translation": "落ち着かなくちゃ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>怖い状況で、自分に「落ち着け」と言い聞かせているセリフです。</li></ul><strong>英文法:</strong><br>\"I gotta stay calm\" の主語 \"I\" が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl33.mp3"
+    },
+    {
+      "id": "gus_vl34",
+      "quote": "You scared me!",
+      "translation": "びっくりさせないでよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手のせいで怖い思いをした、と非難するセリフです。</li></ul><strong>英文法:</strong><br>\"scare\" は「怖がらせる」という意味の動詞。過去形 \"scared\" を使っています。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl34.mp3"
+    },
+    {
+      "id": "gus_vl35",
+      "quote": "Oo-o-oh...",
+      "translation": "うぅぅ〜…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>恐怖や悲しみ、落胆を表す、効果音のような呻き声です。</li></ul><strong>英文法:</strong><br>感情を表現する間投詞です。",
+      "audioUrl": "https://Amphibian333.github.io/gus_vl35.mp3"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "name": "ビビ",
+  "nameEn": "Bibi",
+  "rarity": "hyper-rare",
+  "role": "tank",
+  "quote": "Batter up!",
+  "iconUrl": "https://i.imgur.com/6gu7mDo.png",
+  "voicelines": [
+    {
+      "id": "bibi_vl1",
+      "quote": "Batter up!",
+      "translation": "バッター、構え！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>野球の試合で、審判が次の打者に打席に入るよう促す際の決まり文句です。</li><li>「さあ、勝負開始だ！」という、ビビの戦闘開始の合図になっています。</li></ul><strong>英文法:</strong><br>命令文の一種で、呼びかけとして機能する定型句です。<br><br><strong>🧠豆知識:</strong><br>このセリフはビビの野球というテーマを象徴する、最も代表的なボイスです。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl1.mp3"
+    },
+    {
+      "id": "bibi_vl2",
+      "quote": "Home run!",
+      "translation": "ホームラン！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>野球で最高の攻撃である「ホームラン」を叫ぶことで、自身の攻撃が完璧に決まったことや、勝利を表現しています。</li></ul><strong>英文法:</strong><br>名詞を単独で叫ぶ感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl2.mp3"
+    },
+    {
+      "id": "bibi_vl3",
+      "quote": "Hey, show some respect.",
+      "translation": "おい、敬意を払いな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の無礼な態度に対して、「敬意（respect）を示せ」と要求する、少し不良っぽい警告です。</li></ul><strong>英文法:</strong><br>動詞の原形 \"show\" で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl3.mp3"
+    },
+    {
+      "id": "bibi_vl4",
+      "quote": "Yes!",
+      "translation": "よし！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>成功や勝利に対する、シンプルで直接的な喜びの表現です。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl4.mp3"
+    },
+    {
+      "id": "bibi_vl5",
+      "quote": "Bibi bye bye...",
+      "translation": "ビビ、バイバイ…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>敗北した際に、自分自身に別れを告げるような、少し悲しげで子供っぽいセリフです。</li></ul><strong>英文法:</strong><br>呼びかけと挨拶の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl5.mp3"
+    },
+    {
+      "id": "bibi_vl6",
+      "quote": "Chew on this!",
+      "translation": "こいつを味わいな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Chew on this.\" は、文字通り「これを噛め」という意味ですが、転じて「この一撃を食らえ！」または「この事実（俺の強さ）をよく考えろ」という、挑発的な意味で使われるスラングです。</li></ul><strong>英文法:</strong><br>動詞 \"Chew\" で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl6.mp3"
+    },
+    {
+      "id": "bibi_vl7",
+      "quote": "Smack attack!",
+      "translation": "スマック・アタック！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Smack\" は「（平手で）ピシャリと打つ」という意味。自身のバットでの攻撃を、リズミカルな技名のように叫んでいます。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」の組み合わせによる、技名のようなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl7.mp3"
+    },
+    {
+      "id": "bibi_vl8",
+      "quote": "Brilliant Bibi.",
+      "translation": "華麗なるビビ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Brilliant\" は「素晴らしい、華麗な、見事な」という意味。自分自身を称賛する、自信に満ちたセリフです。</li></ul><strong>英文法:</strong><br>\"I am Brilliant Bibi.\" のように、主語と動詞が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl8.mp3"
+    },
+    {
+      "id": "bibi_vl9",
+      "quote": "You made a big mistake!",
+      "translation": "あんた、大きな間違いを犯したね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"make a mistake\" は「間違いを犯す」という定型表現。</li><li>自分を怒らせた相手に対して、「とんでもない間違いを犯したな（ただじゃおかないぞ）」と警告するセリフです。</li></ul><strong>英文法:</strong><br>動詞 \"make\" の過去形 \"made\" を使った、過去の行動を非難する文です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl9.mp3"
+    },
+    {
+      "id": "bibi_vl10",
+      "quote": "I'm a cool cat.",
+      "translation": "あたし、イケてるから。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"a cool cat\" は、1950年代のジャズ文化などから広まった古いスラングで、「イケてるやつ」「かっこいい人」を意味します。</li></ul><strong>英文法:</strong><br>自己紹介の文です。<br><br><strong>🧠豆知識:</strong><br>ビビの不良っぽい（ヤンキー）スタイルは、日本の1980年代の文化と、アメリカの1950年代の「グリーサー」と呼ばれる不良文化がミックスされています。このセリフは後者の影響を反映しています。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl10.mp3"
+    },
+    {
+      "id": "bibi_vl11",
+      "quote": "Oh my gosh!",
+      "translation": "マジで！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>強い驚きや興奮、衝撃を表す非常に一般的な感嘆詞です。</li></ul><strong>英文法:</strong><br>\"Oh my God!\" を直接言うのを避けるための、より丁寧で柔らかな婉曲表現です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl11.mp3"
+    },
+    {
+      "id": "bibi_vl12",
+      "quote": "Bubble trouble!",
+      "translation": "バブル・トラブル！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Bubble\"（泡）と \"trouble\"（やっかいごと）で韻を踏んだ、キャッチーな技名です。</li><li>自身のスーパー（ガムの泡）が、相手にとってはやっかいなことになる、と予告しています。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl12.mp3"
+    },
+    {
+      "id": "bibi_vl13",
+      "quote": "Tough as nails, hard as a rock.",
+      "translation": "釘のようにタフで、岩のように硬い。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"tough as nails\"（釘のようにタフ）と \"hard as a rock\"（岩のように硬い）は、どちらも「非常に頑丈だ、屈強だ」という意味の、よく使われる比喩表現（直喩）です。</li></ul><strong>英文法:</strong><br>「as + 形容詞 + as + 名詞」の形で、「～のように…だ」という比較を表す構文です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl13.mp3"
+    },
+    {
+      "id": "bibi_vl14",
+      "quote": "Can't touch this.",
+      "translation": "これに触るな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>MCハマーのヒット曲「U Can't Touch This」からの直接的な引用です。「（すごすぎて）誰も俺に触れることはできない」という、究極の自信と自己顕示を表すセリフです。</li></ul><strong>英文法:</strong><br>\"You can't touch this.\" の主語が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl14.mp3"
+    },
+    {
+      "id": "bibi_vl15",
+      "quote": "Cool it!",
+      "translation": "頭を冷やしな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Cool it!\" は「落ち着け」「冷静になれ」という意味の、非常にカジュアルな命令です。興奮している相手をなだめる、あるいは制止する際に使います。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文の形をとった、定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl15.mp3"
+    },
+    {
+      "id": "bibi_vl16",
+      "quote": "Mr. Bat says hi!",
+      "translation": "バットさんがよろしくって！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の武器であるバットを「ミスター・バット」と擬人化し、「彼が挨拶しているよ」と言うことで、「これからこいつ（バット）でお前を殴るぞ」という攻撃予告を、ユーモラスに表現しています。</li></ul><strong>英文法:</strong><br>三人称単数現在の \"-s\" が動詞 \"say\" に付いています。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl16.mp3"
+    },
+    {
+      "id": "bibi_vl17",
+      "quote": "Swing and a miss.",
+      "translation": "空振り三振。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>野球で、バットを振った（swing）がボールに当たらなかった（a miss）状況を指す言葉。</li><li>相手の攻撃が外れた時や、自分が攻撃を外した時に使われます。</li></ul><strong>英文法:</strong><br>野球実況で使われる、定型化された名詞句です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl17.mp3"
+    },
+    {
+      "id": "bibi_vl18",
+      "quote": "こんにち-whack!",
+      "translation": "こんにちワック！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>日本語の挨拶「こんにちは」と、英語で「（強く）打つ」という意味の \"whack\" を組み合わせた、非常にユニークな言葉遊びです。</li><li>「挨拶代わりに一発お見舞いするわよ」という、ビビの好戦的な性格が表れています。</li></ul><strong>英文法:</strong><br>日本語と英語を組み合わせた、バイリンガルなダジャレです。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl18.mp3"
+    },
+    {
+      "id": "bibi_vl19",
+      "quote": "Let's play!",
+      "translation": "遊ぼうぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「さあ、遊ぼう！」と相手を誘っていますが、ここでの「遊び」とは「戦い」のことを指しており、自信と余裕を感じさせる挑発です。</li></ul><strong>英文法:</strong><br>「Let's + 動詞の原形」の、提案・誘いの構文です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl19.mp3"
+    },
+    {
+      "id": "bibi_vl20",
+      "quote": "I love you Mr. Bat.",
+      "translation": "大好きだよ、バットさん。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の武器であるバットを「ミスター・バット」と呼び、愛情を表現するセリフ。彼女にとってバットが単なる道具ではなく、大切な相棒であることがわかります。</li></ul><strong>英文法:</strong><br>「I love you」という基本的な愛情表現の後に、呼びかけが続いています。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl20.mp3"
+    },
+    {
+      "id": "bibi_vl21",
+      "quote": "Watch it nerd!",
+      "translation": "気をつけな、オタク！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Watch it!\" は「気をつけろ！」という警告。</li><li>\"nerd\" は「オタク」や「ガリ勉」を指す、少し軽蔑的なスラングです。相手を格下と見ていることがわかります。</li></ul><strong>英文法:</strong><br>命令文と呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl21.mp3"
+    },
+    {
+      "id": "bibi_vl22",
+      "quote": "さよなら!",
+      "translation": "さよなら！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を倒した際に、日本語で別れの挨拶を告げるセリフ。日本の「番長」や「スケバン」といった不良文化の要素を取り入れた、ビビのキャラクター性を際立たせています。</li></ul><strong>英文法:</strong><br>日本語の挨拶です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl22.mp3"
+    },
+    {
+      "id": "bibi_vl23",
+      "quote": "Strike out.",
+      "translation": "ストライクアウト。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>野球用語で「三振」のこと。相手を完全に打ち負かしたことを、野球のルールに例えて宣言しています。</li></ul><strong>英文法:</strong><br>野球で使われる定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl23.mp3"
+    },
+    {
+      "id": "bibi_vl24",
+      "quote": "Base bubble!",
+      "translation": "ベースバブル！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Baseball\"（野球）と \"Bubblegum\"（風船ガム）を組み合わせた、ビビらしい技名です。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl24.mp3"
+    },
+    {
+      "id": "bibi_vl25",
+      "quote": "Somebody order a knuckle sandwich?",
+      "translation": "誰かナックルサンドイッチを注文したかい？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"knuckle sandwich\" は「拳骨（で殴ること）」を意味するスラングです。</li><li>「誰か殴られたいヤツはいるか？」と、レストランの店員のようにふざけて言う、非常に挑発的なセリフです。</li></ul><strong>英文法:</strong><br>過去形の疑問文の形をとった、スラング表現です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl25.mp3"
+    },
+    {
+      "id": "bibi_vl26",
+      "quote": "Mr. Bat wants to play.",
+      "translation": "バットさんが遊びたがってるよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>再び武器を擬人化し、「バットが遊びたがっている」、つまり「バットがお前を殴りたがっている」と、攻撃を予告する不吉なセリフです。</li></ul><strong>英文法:</strong><br>「主語 + wants to + 動詞」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/bibi_vl27.mp3"
+    }
+  ]
+}

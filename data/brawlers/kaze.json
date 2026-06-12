@@ -1,0 +1,269 @@
+{
+  "name": "カゼ",
+  "nameEn": "Kaze",
+  "rarity": "ultra-legend-rare",
+  "role": "assassin",
+  "quote": "A little wind, a little chaos.",
+  "iconUrl": "https://i.imgur.com/fcODLOk.png",
+  "voicelines": [
+    {
+      "id": "kaze_ninja_vl1",
+      "quote": "I come, I slay, I leave.",
+      "translation": "我、来たり、斬りたり、去りぬ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>カエサルの「来た、見た、勝った」の忍者バージョン。</li><li>迅速に仕事をこなす、プロの暗殺者です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl1.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl2",
+      "quote": "I kill time harder than this.",
+      "translation": "これより、暇つぶしの方が骨が折れる。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「こんなの暇つぶし以下だ」という強烈な侮辱。</li><li>敵があまりにも弱すぎて退屈しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl2.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl3",
+      "quote": "That was your big move?",
+      "translation": "それが、お前の大技か？",
+      "explanation": "<strong>解説:</strong><br><ul><li>必殺技を食らっても「で、それが何か？」と涼しい顔。</li><li>圧倒的な実力差を見せつけます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl3.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl4",
+      "quote": "Aha, is this really your best?",
+      "translation": "アハッ、これが本当に、お前のベストか？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「本気出してこれ？」と煽る、意地悪な質問。</li><li>相手のプライドをズタズタにします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl4.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl5",
+      "quote": "Fate cuts deeper than steel.",
+      "translation": "運命は、鋼よりも深く斬る。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「運命からは逃れられない」という達人の悟り。</li><li>刀で斬るよりも深く、相手の心を斬ります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl5.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl6",
+      "quote": "Too slow, too weak, too gone.",
+      "translation": "遅すぎ、弱すぎ、そして、もういない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「遅いし弱いし、もう死んでるよ」という三段論法。</li><li>気づいた時にはもう手遅れです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl6.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl7",
+      "quote": "My katana is thirsty. Who is next?",
+      "translation": "我が刀は、渇いている。次は誰だ？",
+      "explanation": "<strong>解説:</strong><br><ul><li>典型的な辻斬りのセリフ。</li><li>戦いに飢えている戦闘狂な一面が顔を出します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl7.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl8",
+      "quote": "Should I pretend that was difficult.",
+      "translation": "難しかったフリでも、しておくべきか。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「あまりに簡単すぎて申し訳ない」という嫌味。</li><li>接待プレイを提案する余裕っぷりです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl8.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl9",
+      "quote": "Cute, but ineffective.",
+      "translation": "可愛いが、効果はないな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「頑張ってるのは可愛いけど、無駄だよ」という、大人から子供へのような評価。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl9.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl10",
+      "quote": "One strike, one Brawler.",
+      "translation": "一撃、一殺。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「一撃必殺」のブロスタ版。</li><li>無駄な手数は使いません。一発で仕留めます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl10.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl11",
+      "quote": "Lost by focus.",
+      "translation": "集中力を失い、敗北した。",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けた原因を冷静に分析するストイックさ。</li><li>「油断した」と自分を責めています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl11.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl12",
+      "quote": "Training is underrated.",
+      "translation": "トレーニングは、過小評価されている。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「日々の鍛錬こそが全て」という武道の教え。</li><li>天才肌に見えて、実は努力家なのかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl12.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl13",
+      "quote": "Line up. I'll make this quick.",
+      "translation": "一列に並べ。すぐに終わらせてやる。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「まとめてかかってこい」という最強キャラの風格。</li><li>雑魚敵を処理する時のセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl13.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl14",
+      "quote": "I expected warriors, not clowns.",
+      "translation": "私が期待していたのは戦士だ、道化師ではない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「お前らはピエロか？」と呆れる様子。</li><li>本気で戦える相手を求めています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl14.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl15",
+      "quote": "Now, you've got my attention.",
+      "translation": "ほう、やっと私の注意を引いたな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ダメージを受けて「面白くなってきたじゃない」とニヤリとする瞬間。</li><li>ここからが本番です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl15.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl16",
+      "quote": "Your story ends here.",
+      "translation": "お前の物語は、ここで終わりだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ラスボスのような断定的な死の宣告。</li><li>相手の人生（ストーリー）を強制終了させます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl16.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl17",
+      "quote": "I won't forget that.",
+      "translation": "そのことは、忘れん。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時の恨み節。</li><li>「必ず借りは返す」という執念深さを感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl17.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl18",
+      "quote": "Another soul fades into darkness.",
+      "translation": "また一つの魂が、闇へと消えていく。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を倒した後の詩的な独り言。</li><li>仕事人の虚無感が漂っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl18.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl19",
+      "quote": "Who ordered a swift demise?",
+      "translation": "誰だ、迅速な最期を注文したのは？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「死のデリバリー」をお届け！</li><li>すぐに楽にしてやる、という皮肉な優しさです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl19.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl20",
+      "quote": "Not even worth sharpening my blade.",
+      "translation": "我が刃を研ぐ価値すらない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「お前なんかのために刀を汚したくない」という見下し。</li><li>相手を完全にナメきっています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl20.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl21",
+      "quote": "You're making this fun.",
+      "translation": "お前、これを楽しくしてくれているな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>強敵と出会ってワクワクしている戦闘狂の顔。</li><li>退屈な任務に飽きていたようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl21.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl22",
+      "quote": "I strike, you fall. Simple.",
+      "translation": "我、撃ち、汝、倒れる。単純なことだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺が攻撃すればお前は死ぬ」、それだけだというシンプルな真理。</li><li>絶対的な自信の表れです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl22.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl23",
+      "quote": "A ghost leaves no trace.",
+      "translation": "幽霊は、痕跡を残さない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>忍者の極意。</li><li>誰にも気づかれずに忍び寄り、仕事をこなします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl23.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl24",
+      "quote": "Strong, silent, and swift.",
+      "translation": "強く、静かに、そして、速く。",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分のモットーを唱える自己紹介。</li><li>3つの「S」が揃った完璧な戦士です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl24.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl25",
+      "quote": "This is hardly worth my effort.",
+      "translation": "これは、私の労力にほとんど値しない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「こんな雑魚相手に本気出すのもな…」というぼやき。</li><li>省エネモードで戦います。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl25.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl26",
+      "quote": "Just a scratch, but keep trying.",
+      "translation": "ただのかすり傷だ、だが、続けろ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ダメージを受けても余裕の表情。</li><li>「もっと楽しませてくれよ」と敵を煽っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl26.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl27",
+      "quote": "Your fear feeds my blade.",
+      "translation": "お前の恐怖が、我が刃の糧となる。",
+      "explanation": "<strong>解説:</strong><br><ul><li>相手がビビればビビるほど強くなる、という魔剣のようなセリフ。</li><li>恐怖をエネルギーに変えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl27.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl28",
+      "quote": "Every defeat makes me stronger.",
+      "translation": "全ての敗北が、私をより強くする。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「サイヤ人」的なポジティブ思考。</li><li>負けるたびに学習し、強くなって帰ってきます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl28.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl29",
+      "quote": "I can taste your fear.",
+      "translation": "お前の恐怖の味がする。",
+      "explanation": "<strong>解説:</strong><br><ul><li>獲物を追い詰める捕食者のセリフ。</li><li>五感が研ぎ澄まされすぎて、感情まで味わえるようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl29.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl30",
+      "quote": "No mercy, no survivors.",
+      "translation": "慈悲もなく、生存者もなし。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「皆殺しだ」という非情な命令。</li><li>生かしては帰さないという覚悟が決まっています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl30.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl31",
+      "quote": "You are but falling leaves.",
+      "translation": "お前たちは、ただの落ち葉にすぎん。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を「落ち葉」に例える風流な見下し。</li><li>風（Kaze）の一吹きで吹き飛ぶ存在だということです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl31.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl32",
+      "quote": "A worthy challenger, nice.",
+      "translation": "価値ある挑戦者だ、良いな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>強敵を認める武人の心。</li><li>「久しぶりに楽しめそうだ」と少し嬉しそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl32.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl33",
+      "quote": "Too much fandom.",
+      "translation": "ファンダムが、多すぎる。",
+      "explanation": "<strong>解説:</strong><br><ul><li>忍んでいたいのに、人気が出すぎて困っている様子。</li><li>芸者としての人気が邪魔をしているのかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl33.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl34",
+      "quote": "Your fate is sealed.",
+      "translation": "お前の運命は、決まった。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「お前はもう死んでいる」的な宣告。</li><li>ターゲットロックオン完了です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl34.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl35",
+      "quote": "Silent, deadly, unstoppable.",
+      "translation": "静かで、致命的で、そして、止められない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分のキャッチコピーを読み上げている感じ。</li><li>静かなる殺戮マシーンです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl35.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl36",
+      "quote": "Anyone can get lucky.",
+      "translation": "誰にだって、幸運は訪れるものさ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けたのは「相手がラッキーだっただけ」という負け惜しみ。</li><li>実力負けとは認めたくありません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl36.mp3"
+    },
+    {
+      "id": "kaze_ninja_vl37",
+      "quote": "You won't regret that.",
+      "translation": "お前は、それを後悔しないだろう。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「後悔する時間も与えずに殺してやるからな」という、逆説的な脅し。</li><li>深読みするとめちゃくちゃ怖いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/kaze_ninja_vl37.mp3"
+    }
+  ]
+}

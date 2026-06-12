@@ -1,0 +1,339 @@
+{
+  "name": "アンジェロ",
+  "nameEn": "Angelo",
+  "rarity": "hyper-rare",
+  "role": "marksman",
+  "quote": "I am the drama.",
+  "iconUrl": "https://i.imgur.com/4nnXC2y.png",
+  "voicelines": [
+    {
+      "id": "angelo_vl1",
+      "quote": "I am the drama.",
+      "translation": "私がドラマそのものなの。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が単にドラマチックなだけでなく、「ドラマという概念そのものである」と宣言する、究極の自己顕示欲を表すセリフです。</li><li>インターネットミームとして、「自分こそが全ての騒動の中心だ」と自負する際に使われます。</li></ul><strong>英文法:</strong><br>シンプルなSVCの肯定文ですが、非常に強い自己主張が込められています。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl1.mp3"
+    },
+    {
+      "id": "angelo_vl2",
+      "quote": "Half human, half fly, hmhm, all fabulous!",
+      "translation": "半分人間、半分ハエ、フフン、全部ファビュラス！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fabulous\" は「素晴らしい、素敵すぎる」という意味の、特にファッションやエンタメ業界で使われる言葉です。</li><li>自身の奇妙な出自を、最終的には「全部ひっくるめて最高」だと肯定する、ポジティブで自信に満ちた自己紹介です。</li></ul><strong>英文法:</strong><br>名詞句を並べて自分を説明する、リズミカルなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl2.mp3"
+    },
+    {
+      "id": "angelo_vl3",
+      "quote": "Oh no, you didn't.",
+      "translation": "あら、やっちゃったわね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が信じられないような行動（特に失礼なことや大胆なこと）をした時に、「まさかあなたがそんなことをするなんて」という驚きや強い非難を込めて使われる決まり文句です。</li></ul><strong>英文法:</strong><br>\"Oh no, you did not do that.\" が省略された形で、独特のイントネーションで発話されます。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl3.mp3"
+    },
+    {
+      "id": "angelo_vl4",
+      "quote": "Oh, it's all love.",
+      "translation": "あら、全ては愛よ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の行動や周りで起きていること全てを、「結局は愛ゆえの行動なのよ」と、達観したように、あるいは都合よく解釈しているセリフです。</li></ul><strong>英文法:</strong><br>シンプルな肯定文です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl4.mp3"
+    },
+    {
+      "id": "angelo_vl5",
+      "quote": "Sashay, away!",
+      "translation": "颯爽と、お退きなさい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sashay\" は、モデルのように自信に満ちて、優雅に、しかし大げさに歩く様子を指す動詞です。</li><li>「颯爽と、あっちへお行きなさい」と、相手を舞台から退場させるように見下している、非常に演劇的なセリフです。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文です。\"Sashay away\" で一つの定型句として機能します。<br><br><strong>🧠豆知識:</strong><br>これは、世界的に大ヒットしたリアリティ番組『ル・ポールのドラァグ・レース』で、司会のル・ポールが脱落者に告げる際の、非常に象徴的な決め台詞です。アンジェロがこのセリフを使うことで、彼の「ファビュラスでドラマクイーンなディーヴァ」というキャラクター性が確立されています。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl5.mp3"
+    },
+    {
+      "id": "angelo_vl6",
+      "quote": "Oh, breathe in the awesomeness.",
+      "translation": "さあ、この素晴らしさを吸い込んで。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"awesomeness\" は「素晴らしさ、最高なこと」。</li><li>自分自身が放つオーラや、自分が作り出した素晴らしい状況を、まるで空気のように吸い込むよう相手に促しています。</li></ul><strong>英文法:</strong><br>命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl6.mp3"
+    },
+    {
+      "id": "angelo_vl7",
+      "quote": "I'm here to slay, get out of my way!",
+      "translation": "最高に輝くために来たの、そこをどきなさい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"slay\" はスラングで、「（ショーなどで）完璧なパフォーマンスをする、圧倒する、最高にイケてる」という意味です。</li><li>\"get out of my way\" は「私の道からどけ」という強い命令。韻を踏んだ、自信満々な登場のセリフです。</li></ul><strong>英文法:</strong><br>二つの文を並べることで、目的と要求を力強く示しています。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl7.mp3"
+    },
+    {
+      "id": "angelo_vl8",
+      "quote": "Oh, I'm fierce and I'm fly.",
+      "translation": "あら、私ってどう猛でイケてるでしょ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fierce\" は「どう猛な」ですが、スラングでは「最高にかっこいい、パワフルな」という褒め言葉になります。</li><li>\"fly\" は文字通り「ハエ」であることと、スラングで「イケてる、かっこいい」という意味のダブルミーニングです。</li></ul><strong>英文法:</strong><br>二つの肯定文を \"and\" で繋いでいます。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl8.mp3"
+    },
+    {
+      "id": "angelo_vl9",
+      "quote": "I can't even!",
+      "translation": "もう、ありえない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"I can't even...\" は、感情が高ぶりすぎて言葉が続けられない状態を表す、非常に現代的なスラングです。「信じられない」「言葉にならない」といったニュアンスです。</li></ul><strong>英文法:</strong><br>文が途中で終わっているのが特徴で、それ自体が感情の昂ぶりを表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl9.mp3"
+    },
+    {
+      "id": "angelo_vl10",
+      "quote": "Hey, I'm just winging it.",
+      "translation": "ねえ、私、ただ羽ばたいてるだけよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"winging it\" は、「即興でやる、ぶっつけ本番でやる」という意味のイディオムです。</li><li>それを、文字通り自分が「翼（wing）で飛んでいる」こととかけた、見事な言葉遊びです。</li></ul><strong>英文法:</strong><br>現在進行形を使った、ダブルミーニングの表現です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl10.mp3"
+    },
+    {
+      "id": "angelo_vl11",
+      "quote": "Ho, sickening.",
+      "translation": "ほら、最高でしょ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sickening\" は、文字通りは「吐き気を催すような」ですが、ドラァグカルチャーのスラングでは、「（嫉妬で吐き気がするほど）素晴らしい、完璧すぎる」という意味の、最上級の褒め言葉です。</li></ul><strong>英文法:</strong><br>形容詞単独の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl11.mp3"
+    },
+    {
+      "id": "angelo_vl12",
+      "quote": "Take a deep breath.",
+      "translation": "深呼吸して。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>興奮している相手や、パニックになっている相手を「落ち着きなさい」となだめるセリフです。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl12.mp3"
+    },
+    {
+      "id": "angelo_vl13",
+      "quote": "Oh I won't bite, but I will buzz.",
+      "translation": "あら、噛みついたりはしないわよ、でも羽音は立てるから。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"bite\"（噛む）と \"buzz\"（ブンブンいう）を対比させています。</li><li>「直接的な危害（bite）は加えないかもしれないけど、蚊のようにうるさく付きまとって、不快にはさせてあげるわ」という、嫌味な脅しです。</li></ul><strong>英文法:</strong><br>未来の否定 \"won't\" と、肯定 \"will\" を \"but\" で繋いで対比させています。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl13.mp3"
+    },
+    {
+      "id": "angelo_vl14",
+      "quote": "You just wish you were me.",
+      "translation": "あなた、ただ私になりたいだけでしょ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が自分に嫉妬していると決めつけ、「あなたのその行動は、私への憧れの裏返しなのよ」と、究極の自信とナルシシズムを見せつけています。</li></ul><strong>英文法:</strong><br>仮定法過去 \"were\" を使って、現実ではない願望（あなたが私であること）を表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl14.mp3"
+    },
+    {
+      "id": "angelo_vl15",
+      "quote": "You need to leave!",
+      "translation": "あなた、退場すべきよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手に対して、「あなたはこの場にふさわしくないから立ち去るべきだ」と、強く、しかし一方的に要求しています。</li></ul><strong>英文法:</strong><br>\"need to ~\" は「～する必要がある」という、強い必要性を示す構文です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl15.mp3"
+    },
+    {
+      "id": "angelo_vl16",
+      "quote": "You got served!",
+      "translation": "お見舞いされたわね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"get served\" は、スラングで「完膚なきまでに打ち負かされる」「やり込められる」という意味です。特にダンスバトルなどで使われ始めました。</li></ul><strong>英文法:</strong><br>\"get + 過去分詞\" の口語的な受動態です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl16.mp3"
+    },
+    {
+      "id": "angelo_vl17",
+      "quote": "Flutter and fly, off to the sky.",
+      "translation": "はためいて、飛んで、空の彼方へ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Flutter\"（はためく）、\"fly\"（飛ぶ）、\"sky\"（空）と、自身の「ハエ」としてのテーマに沿った単語を並べた、詩的なセリフです。</li></ul><strong>英文法:</strong><br>動詞の原形を並べ、行動を示唆しています。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl17.mp3"
+    },
+    {
+      "id": "angelo_vl18",
+      "quote": "And breathe!",
+      "translation": "そして、息をして！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>緊張する場面や、何かをやり遂げた後などに、「（一息ついて）リラックスして」と促す言葉です。</li></ul><strong>英文法:</strong><br>接続詞 \"And\" に命令文が続いています。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl18.mp3"
+    },
+    {
+      "id": "angelo_vl19",
+      "quote": "Time to spill the tea!",
+      "translation": "お茶会（ゴシップタイム）の時間よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"spill the tea\" は、「お茶をこぼす」という意味から転じて、「秘密を暴露する、ゴシップを話す」という意味で使われる、非常にポピュラーなスラングです。</li></ul><strong>英文法:</strong><br>「Time to + 動詞」の構文と、イディオムを組み合わせたものです。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl19.mp3"
+    },
+    {
+      "id": "angelo_vl20",
+      "quote": "OMG! This is so boring!",
+      "translation": "オーマイガー！これ、超つまらないんだけど！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"OMG\" は \"Oh my God!\" のインターネット略語。</li><li>目の前の状況が、自分というスターにとっては退屈すぎると、不満を表明しています。</li></ul><strong>英文法:</strong><br>略語の感嘆詞と、\"so\" で強調された文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl20.mp3"
+    },
+    {
+      "id": "angelo_vl21",
+      "quote": "You're flirting with danger, darling.",
+      "translation": "危険と戯れているのね、ダーリン。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"flirt with danger\" は、「危険なことに手を出す、危険な状況に身を置く」という意味のイディオムです。</li><li>自分に逆らうことがいかに危険なことか、優雅に、しかし脅威的に警告しています。</li></ul><strong>英文法:</strong><br>現在進行形を使った、比喩的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl21.mp3"
+    },
+    {
+      "id": "angelo_vl22",
+      "quote": "Oh, boo hoo. Dry your tears, honey.",
+      "translation": "あら、よしよし。涙を拭きなさいな、ハニー。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"boo hoo\" は、子供の泣き声を馬鹿にしたような擬音語。</li><li>相手が泣いている（あるいは弱っている）のを、「よしよし、かわいそうに」と慰めるフリをしながら、全く同情していない、非常に皮肉なセリフです。</li></ul><strong>英文法:</strong><br>擬音語と命令文を組み合わせた、相手をからかう表現です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl22.mp3"
+    },
+    {
+      "id": "angelo_vl23",
+      "quote": "Oh, I am so done!",
+      "translation": "あー、もう、うんざり！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"be done with ~\" は「～とはもう終わりだ、～にはうんざりだ」という意味。</li><li>目の前の状況に、心底うんざりしていることを表します。</li></ul><strong>英文法:</strong><br>\"so\" で感情を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl23.mp3"
+    },
+    {
+      "id": "angelo_vl24",
+      "quote": "Just keep breathing.",
+      "translation": "ただ、息を続けて。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>パニックになったり、困難な状況に陥ったりした相手に対して、「大丈夫だから、とにかく落ち着いて息をして」と励ますセリフです。</li></ul><strong>英文法:</strong><br>\"keep + 動詞の-ing形\" は「～し続ける」という継続を表す構文です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl24.mp3"
+    },
+    {
+      "id": "angelo_vl25",
+      "quote": "Look at my fabulous wings!",
+      "translation": "私の素敵な翼をご覧なさい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の「素晴らしくて（fabulous）」「翼（wings）」に注目するよう、観客にアピールしています。</li></ul><strong>英文法:</strong><br>命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl25.mp3"
+    },
+    {
+      "id": "angelo_vl26",
+      "quote": "Some drama, please?",
+      "translation": "少しはドラマチックにしてくださる？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>退屈な状況に対して、「もっとドラマチックな展開はないの？」と要求しています。</li></ul><strong>英文法:</strong><br>名詞句と \"please?\" を組み合わせた、丁寧なようでいて、実は不満たらたらの要求文です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl26.mp3"
+    },
+    {
+      "id": "angelo_vl27",
+      "quote": "That was sketchy.",
+      "translation": "今のは、かなり怪しかったわね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sketchy\" はスラングで、「怪しい、うさん臭い、質の低い、危なっかしい」といった意味です。</li><li>相手の行動や、何かの出来事に対して、疑いや質の低さを指摘しています。</li></ul><strong>英文法:</strong><br>過去形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl27.mp3"
+    },
+    {
+      "id": "angelo_vl28",
+      "quote": "Getting stomped in the swamp!",
+      "translation": "沼地で踏みつけられてる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"get stomped\" は「踏みつけられる」、転じてスラングで「完敗する、ボコボコにされる」という意味。</li><li>自分のホームグラウンドである「沼（swamp）」で、自分が負けていることへの不満や驚きを表します。</li></ul><strong>英文法:</strong><br>\"I am getting stomped...\" の主語が省略された、口語的な受動態です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl28.mp3"
+    },
+    {
+      "id": "angelo_vl29",
+      "quote": "I'll be back more fabulous than ever!",
+      "translation": "これまで以上にファビュラスになって戻ってくるわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>敗北しても、ただでは起き上がらないという強い意志を示しています。</li><li>\"more fabulous than ever\" は「これまで以上に素敵に」という、比較級を使った強調表現です。</li></ul><strong>英文法:</strong><br>未来を表す \"I will\" を使った、決意表明です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl29.mp3"
+    },
+    {
+      "id": "angelo_vl30",
+      "quote": "Toxic tears by Angelo.",
+      "translation": "アンジェロ印の、毒の涙よ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Toxic\" は「有毒な」。自分の涙すらも、相手にとっては毒になる、と表現しています。</li><li>\"by Angelo\" を付けることで、まるで香水か何かのブランド名のように、自分の涙を演出しています。</li></ul><strong>英文法:</strong><br>名詞句です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl30.mp3"
+    },
+    {
+      "id": "angelo_vl31",
+      "quote": "Rocking the boujie bayou aesthetic.",
+      "translation": "イケてる沼地のブルジョワスタイルで決めてるの。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"rocking\" はスラングで「～を見事に着こなす、～でキメる」。</li><li>\"boujie\" は \"bourgeois\" のスラングで「ブルジョワな、高級志向の」。</li><li>\"bayou\" は「（アメリカ南部の）沼地」。</li><li>\"aesthetic\" は「美学、スタイル」。</li><li>「沼地という素朴な場所に、あえて高級なスタイルを持ち込むのがイケてる」という、ファッションに関する自己評価です。</li></ul><strong>英文法:</strong><br>非常に現代的なスラングを組み合わせた、現在進行形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl31.mp3"
+    },
+    {
+      "id": "angelo_vl32",
+      "quote": "Oh, main character vibes!",
+      "translation": "あら、主役のオーラが出てるわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"main character vibes\" は、「（物語の）主人公のような雰囲気・オーラ」という意味の、非常に現代的なインターネットスラングです。</li><li>自分が今、物語の主人公のように輝いている、と感じています。</li></ul><strong>英文法:</strong><br>スラングを使った感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl32.mp3"
+    },
+    {
+      "id": "angelo_vl33",
+      "quote": "Aha, buzz off, baby.",
+      "translation": "アハッ、あっち行ってちょうだい、ベイビー。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"buzz off\" は「あっちへ行け」という、ハチの羽音（buzz）とかけたスラング。</li><li>\"baby\" は、ここでは相手を小馬鹿にしたようなニュアンスの呼びかけです。</li></ul><strong>英文法:</strong><br>命令文と呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl33.mp3"
+    },
+    {
+      "id": "angelo_vl34",
+      "quote": "Lovestruck.",
+      "translation": "恋に落ちちゃった。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"lovestruck\" は、「恋の病にかかった、恋に夢中な」状態を表す形容詞です。</li><li>憧れのブロウラーを見て、一瞬で恋に落ちてしまったかのような、大げさな反応です。</li></ul><strong>英文法:</strong><br>\"I am lovestruck.\" の主語と動詞が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl34.mp3"
+    },
+    {
+      "id": "angelo_vl35",
+      "quote": "You made a fly cry!",
+      "translation": "あなた、ハエを泣かせたわよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分自身を「ハエ（fly）」と呼び、相手の行動によって自分が傷つき、泣いていると、悲劇のヒロインのように訴えています。</li></ul><strong>英文法:</strong><br>使役動詞 \"make\" を使った第5文型（SVOC）で、「OをCの状態にさせる」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl35.mp3"
+    },
+    {
+      "id": "angelo_vl36",
+      "quote": "Presenting bayou breeze by Angelo.",
+      "translation": "ご紹介します、アンジェロ作『沼地のそよ風』。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Presenting...\" は、何か新しいものを披露する際の「ご紹介します」というプレゼンテーションの言葉。</li><li>自分の攻撃を、まるで新作香水「沼地のそよ風（bayou breeze）」のように、エレガントに紹介しています。</li></ul><strong>英文法:</strong><br>現在分詞で始まる、宣言文です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl36.mp3"
+    },
+    {
+      "id": "angelo_vl37",
+      "quote": "Giving cupid core.",
+      "translation": "キューピッド・コアな感じを出すわよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Giving X\" は「Xな雰囲気を醸し出す」。</li><li>\"-core\" は、特定のスタイルや美学を表す接尾辞。</li><li>\"cupid core\" は「キューピッドのような美学・スタイル」。自分の攻撃や存在が、愛の天使キューピッドのようであると表現しています。</li></ul><strong>英文法:</strong><br>非常に新しいインターネットスラングを組み合わせた表現です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl37.mp3"
+    },
+    {
+      "id": "angelo_vl38",
+      "quote": "♫Rainbow rampa-a-age!",
+      "translation": "♫虹色の、大暴れー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Rainbow\"（虹色）と \"rampage\"（大暴れ）を組み合わせた、歌うような技名です。</li></ul><strong>英文法:</strong><br>形容詞と名詞を組み合わせた、リズミカルな感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl38.mp3"
+    },
+    {
+      "id": "angelo_vl39",
+      "quote": "I'm buzzing, baby.",
+      "translation": "ワクワクしてるわ、ベイビー。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"buzzing\" は「ブンブン飛んでいる」と「ワクワクしている」のダブルミーニングです。</li></ul><strong>英文法:</strong><br>現在進行形です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl39.mp3"
+    },
+    {
+      "id": "angelo_vl40",
+      "quote": "Oh, honey.",
+      "translation": "あら、ハニー。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手への呼びかけですが、同情、呆れ、皮肉など、文脈によって様々なニュアンスを持つ、含みのある一言です。</li></ul><strong>英文法:</strong><br>感嘆詞と呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl40.mp3"
+    },
+    {
+      "id": "angelo_vl41",
+      "quote": "Finally, some drama!",
+      "translation": "やっとドラマが始まったわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>退屈な状況が終わり、ようやく面白い展開（ドラマ）が始まったことへの、心からの喜びを表しています。ドラマを愛する彼らしいセリフです。</li></ul><strong>英文法:</strong><br>感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl41.mp3"
+    },
+    {
+      "id": "angelo_vl42",
+      "quote": "♫Fierce, fabulous and fly-y-y!",
+      "translation": "♫どう猛で、ファビュラスで、イケてるー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分を表現する3つのF（Fierce, fabulous, fly）を並べた、歌うような自己紹介です。</li></ul><strong>英文法:</strong><br>三つの形容詞を並べた、キャッチーなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl42.mp3"
+    },
+    {
+      "id": "angelo_vl43",
+      "quote": "Abubup, all eyes on me.",
+      "translation": "アババッ、皆、私に注目。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Abubup\" は、相手の言葉を遮る際などに使う、意味のない音です。</li><li>\"all eyes on me\" は「全ての視線が私に注がれている」と、自分が注目の的であることを要求、あるいは宣言しています。</li></ul><strong>英文法:</strong><br>定型化されたフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl43.mp3"
+    },
+    {
+      "id": "angelo_vl44",
+      "quote": "Ow!",
+      "translation": "いやっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>痛みに対する、短い悲鳴です。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl44.mp3"
+    },
+    {
+      "id": "angelo_vl45",
+      "quote": "Hashtag winging.",
+      "translation": "＃即興でやってるだけ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"winging it\"（即興でやる）を、SNSのハッシュタグのように言っています。</li><li>自分の翼（wing）とかけた言葉遊びです。</li></ul><strong>英文法:</strong><br>スラングを使った、現代的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl45.mp3"
+    },
+    {
+      "id": "angelo_vl46",
+      "quote": "Rrr, looking for a snack.",
+      "translation": "うぅるる、おやつを探してるの。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Rrr\" は、ハエや蚊が発する羽音のような、あるいは威嚇のうなりのような音です。</li><li>相手を「おやつ（snack）」と呼び、これから攻撃（捕食）することを予告しています。</li></ul><strong>英文法:</strong><br>擬音語と、現在進行形の文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl46.mp3"
+    },
+    {
+      "id": "angelo_vl47",
+      "quote": "Hush mode.",
+      "translation": "お静かにモード。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Hush\" は「静かに、黙って」という言葉。</li><li>自分が静かになるのか、あるいは相手を黙らせるのか、どちらの意味にも取れる不気味な宣言です。</li></ul><strong>英文法:</strong><br>「名詞 + mode」の形で、特定の行動モードに入ることを示しています。",
+      "audioUrl": "https://Amphibian333.github.io/angelo_vl47.mp3"
+    }
+  ]
+}

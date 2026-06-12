@@ -1,0 +1,241 @@
+{
+  "name": "メグ",
+  "nameEn": "Meg",
+  "rarity": "legend-rare",
+  "role": "damage-dealer",
+  "quote": "Let's do this!",
+  "iconUrl": "https://i.imgur.com/RlOGFQ7.png",
+  "voicelines": [
+    {
+      "id": "meg_vl1",
+      "quote": "Oh! Last time I fired my gun, I was at the academy!",
+      "translation": "あら！最後に銃を撃ったのは、アカデミーにいた時だったわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>実戦経験が浅いことを匂わせるセリフ。</li><li>養成所（アカデミー）出たての新人ヒーロー感が出ています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl1.mp3"
+    },
+    {
+      "id": "meg_vl2",
+      "quote": "Tech for the win!",
+      "translation": "テックで勝利！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「科学技術こそが最強！」という信条。</li><li>根性論よりもテクノロジーを信じる現代っ子です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl2.mp3"
+    },
+    {
+      "id": "meg_vl3",
+      "quote": "Ugh! Incorrect!",
+      "translation": "うぅ！不正解よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵の行動を「間違い」とバッサリ切り捨てる理系女子。</li><li>クイズの不正解ブザーみたいな言い方です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl3.mp3"
+    },
+    {
+      "id": "meg_vl4",
+      "quote": "I did it!",
+      "translation": "やったわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>シンプルで素直な喜びの声。</li><li>等身大の女の子らしさが垣間見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl4.mp3"
+    },
+    {
+      "id": "meg_vl5",
+      "quote": "Ugh! I must improve!",
+      "translation": "うぅ！もっと改善しないと！",
+      "explanation": "<strong>解説:</strong><br><ul><li>失敗しても落ち込むより先に「改善（Improve）」を考えるポジティブさ。</li><li>意識高い系の優等生です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl5.mp3"
+    },
+    {
+      "id": "meg_vl6",
+      "quote": "Meet Rob!",
+      "translation": "ロブに挨拶して！",
+      "explanation": "<strong>解説:</strong><br><ul><li>相棒のメカ「ロブ」を紹介！</li><li>ここからがメグの本領発揮です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl6.mp3"
+    },
+    {
+      "id": "meg_vl7",
+      "quote": "I'm so, ready for this!",
+      "translation": "これに対する準備は、万端よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「準備オッケー！いつでも来い！」というワクワク感。</li><li>シミュレーションは完璧なようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl7.mp3"
+    },
+    {
+      "id": "meg_vl8",
+      "quote": "Out of the lab and into the lead!",
+      "translation": "ラボから出て、トップに躍り出る！",
+      "explanation": "<strong>解説:</strong><br><ul><li>研究室（ラボ）の引きこもりが、戦場のリーダーになるサクセスストーリー。</li><li>韻を踏んでてリズムが良い名言です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl8.mp3"
+    },
+    {
+      "id": "meg_vl9",
+      "quote": "Hmm! There must be a glitch!",
+      "translation": "ふーむ！何かグリッチがあるに違いないわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けたのは実力じゃなくて「バグ（Glitch）」のせい。</li><li>プログラマーやゲーマーがよく使う言い訳です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl9.mp3"
+    },
+    {
+      "id": "meg_vl10",
+      "quote": "Textbook takedown!",
+      "translation": "教科書通りのテイクダウンね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「教科書に載せたいくらい完璧な撃破」という自画自賛。</li><li>理論派らしい勝利の味わい方です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl10.mp3"
+    },
+    {
+      "id": "meg_vl11",
+      "quote": "Wrong, wrong, wrong!",
+      "translation": "間違い、間違い、間違い！",
+      "explanation": "<strong>解説:</strong><br><ul><li>予想外のことが起きてパニックになっているのか、敵の行動を全否定しているのか。</li><li>とにかく納得がいかない様子。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl11.mp3"
+    },
+    {
+      "id": "meg_vl12",
+      "quote": "Tech upgrade enabled!",
+      "translation": "技術アップグレード、有効化！",
+      "explanation": "<strong>解説:</strong><br><ul><li>パワーアップをシステム音声っぽく宣言。</li><li>メカ好きにはたまらない演出です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl12.mp3"
+    },
+    {
+      "id": "meg_vl13",
+      "quote": "Woo-hoo!",
+      "translation": "ウーフー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>メカに乗って無敵気分！</li><li>テンションMAXの歓声です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl13.mp3"
+    },
+    {
+      "id": "meg_vl14",
+      "quote": "Numbers don't lie.",
+      "translation": "数字は嘘をつかないわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「感情論よりデータでしょ」というクールな一面。</li><li>科学者としてのポリシーを感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl14.mp3"
+    },
+    {
+      "id": "meg_vl15",
+      "quote": "Debugging!",
+      "translation": "デバッグ中！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を「バグ」と見なして駆除（デバッグ）中。</li><li>戦場をプログラムのコードだと思っているのかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl15.mp3"
+    },
+    {
+      "id": "meg_vl16",
+      "quote": "Yeah!",
+      "translation": "ええ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>気合十分の掛け声。</li><li>シンプルですが力強いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl16.mp3"
+    },
+    {
+      "id": "meg_vl17",
+      "quote": "Violation!",
+      "translation": "違反よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ルール違反です！」と警告。</li><li>正義感が強すぎて、敵のズルが許せない性格。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl17.mp3"
+    },
+    {
+      "id": "meg_vl18",
+      "quote": "Engaging mech mode!",
+      "translation": "メカモードに移行！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルト発動の合図。</li><li>ロボットアニメの主人公になりきってます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl18.mp3"
+    },
+    {
+      "id": "meg_vl19",
+      "quote": "Oh, this is so exciting! Ha-ha-ha!",
+      "translation": "まあ、これってすごくエキサイティングね！ハハハ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦いのスリルを楽しんでいる様子。</li><li>普段は真面目ですが、ハンドル（操縦桿）を握ると性格が変わるタイプかも。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl19.mp3"
+    },
+    {
+      "id": "meg_vl20",
+      "quote": "I'm winning!",
+      "translation": "私が勝ってる！",
+      "explanation": "<strong>解説:</strong><br><ul><li>優勢な状況に自分でも驚きつつ喜んでいる感じ。</li><li>「私、結構やるじゃん！」という発見。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl20.mp3"
+    },
+    {
+      "id": "meg_vl21",
+      "quote": "Hmm! Not part of the manual!",
+      "translation": "ふーむ！マニュアルにはないわね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「説明書に書いてない！」と焦るマニュアル人間な一面。</li><li>アドリブは苦手のようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl21.mp3"
+    },
+    {
+      "id": "meg_vl22",
+      "quote": "Trust the process.",
+      "translation": "プロセスを信じて。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「今は苦しくても、手順通りやればうまくいく」という自分への言い聞かせ。</li><li>開発者らしい忍耐強さです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl22.mp3"
+    },
+    {
+      "id": "meg_vl23",
+      "quote": "I'll get my bot!",
+      "translation": "私のボットを呼んでくるわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>生身でやられた時の捨て台詞。</li><li>「メカさえあれば勝てるのに！」という悔しさが滲みます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl23.mp3"
+    },
+    {
+      "id": "meg_vl24",
+      "quote": "Tech support 2.0!",
+      "translation": "テクニカルサポート2.0よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「進化したサポート（物理的な攻撃）」をお届け！</li><li>バージョン2.0になって強さも倍増です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl24.mp3"
+    },
+    {
+      "id": "meg_vl25",
+      "quote": "Hey! Wait for me!",
+      "translation": "ちょっと！待ってよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>足が遅くて置いていかれそうになっているのかも。</li><li>必死についていこうとする姿が可愛いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl25.mp3"
+    },
+    {
+      "id": "meg_vl26",
+      "quote": "Ugh! Need to recalibrate!",
+      "translation": "うぅ！再調整が必要だわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた原因を分析中。</li><li>「設定（キャリブレーション）がズレてただけだし」という負け惜しみ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl26.mp3"
+    },
+    {
+      "id": "meg_vl27",
+      "quote": "Did I really do that?!",
+      "translation": "私、本当にあんなことしたの？！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分のスーパープレイが信じられない様子。</li><li>ビギナーズラックか、隠された才能か。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl27.mp3"
+    },
+    {
+      "id": "meg_vl28",
+      "quote": "Paralysis! Through analysis.",
+      "translation": "麻痺よ！分析によるね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「分析麻痺（考えすぎて動けなくなること）」という心理学用語を使ったインテリな煽り。</li><li>「考えすぎでフリーズしたでしょ？」ということです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl28.mp3"
+    },
+    {
+      "id": "meg_vl29",
+      "quote": "Robot rampage.",
+      "translation": "ロボットの大暴れ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>メカで暴れまわっている状況を客観的に実況。</li><li>破壊神モードです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl29.mp3"
+    },
+    {
+      "id": "meg_vl30",
+      "quote": "Good to go.",
+      "translation": "準備万端。",
+      "explanation": "<strong>解説:</strong><br><ul><li>システム・オールグリーン。出撃OK！</li><li>チェックリストを全て確認した安心感があります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl30.mp3"
+    },
+    {
+      "id": "meg_vl31",
+      "quote": "Time to reboot.",
+      "translation": "再起動の時間ね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「死ぬ」ではなく「再起動（リブート）」。</li><li>システムを入れ直して、すぐに戦線復帰します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl31.mp3"
+    },
+    {
+      "id": "meg_vl32",
+      "quote": "Rob don't stop.",
+      "translation": "ロブは止まらない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>相棒のロブへの信頼感。</li><li>文法を崩した勢いのあるフレーズで、無敵感をアピールしています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl32.mp3"
+    },
+    {
+      "id": "meg_vl33",
+      "quote": "Robot mode.",
+      "translation": "ロボットモード。",
+      "explanation": "<strong>解説:</strong><br><ul><li>変身時のコマンド入力のようなセリフ。</li><li>生身の弱さとはおさらばです！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/meg_vl33.mp3"
+    }
+  ]
+}

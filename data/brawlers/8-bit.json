@@ -1,0 +1,164 @@
+{
+  "name": "8ビット",
+  "nameEn": "8-Bit",
+  "rarity": "super-rare",
+  "role": "marksman",
+  "quote": "Player 1, get ready!",
+  "iconUrl": "https://i.imgur.com/NoYd8bu.png",
+  "voicelines": [
+    {
+      "id": "8bit_vl1",
+      "quote": "Player one, get ready!",
+      "translation": "プレイヤー1、準備完了！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>1980年代のアーケードゲームで、ゲーム開始前によく使われた定番のフレーズです。</li><li>\"Player one\" は一人目のプレイヤーのこと。\"get ready\" は「準備しろ」という呼びかけです。</li></ul><strong>英文法:</strong><br>呼びかけと命令文を組み合わせた構文です。<br><br><strong>🧠豆知識:</strong><br>このセリフは、レトロなアーケードゲームの雰囲気を完璧に再現しており、8ビットのキャラクター性を象徴しています。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl1.mp3"
+    },
+    {
+      "id": "8bit_vl2",
+      "quote": "New high score!",
+      "translation": "ハイスコア更新！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"high score\" はゲームでの「最高得点」のこと。それを更新した際の喜びを表すセリフです。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の組み合わせによる感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl2.mp3"
+    },
+    {
+      "id": "8bit_vl3",
+      "quote": "Combustion sound plays",
+      "translation": "（燃焼音が鳴る）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"Combustion\" は「燃焼」を意味し、何かが燃えたり爆発したりする際の音を表しています。</li></ul><strong>英文法:</strong><br>「名詞句 + 動詞」の形の描写文です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl3.mp3"
+    },
+    {
+      "id": "8bit_vl4",
+      "quote": "Jingle plays",
+      "translation": "（ジングルが鳴る）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"Jingle\" は、テレビやゲームで使われる、短くキャッチーな効果音やメロディのことです。</li></ul><strong>英文法:</strong><br>「名詞 + 動詞」の形の描写文です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl4.mp3"
+    },
+    {
+      "id": "8bit_vl5",
+      "quote": "Jingle softens",
+      "translation": "（ジングルが静かになる）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"soften\" は「柔らかくなる、静かになる」という意味で、ここでは効果音がフェードアウトしていく様子を表します。</li></ul><strong>英文法:</strong><br>「名詞 + 動詞」の形の描写文です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl5.mp3"
+    },
+    {
+      "id": "8bit_vl6",
+      "quote": "Game, not over.",
+      "translation": "ゲームは、まだ終わりじゃない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ゲームで敗北した時に表示される「Game over」という有名なフレーズを、「not over」と否定することで、「まだ諦めていないぞ」という意志を示しています。</li></ul><strong>英文法:</strong><br>通常の語順（Game is not over.）を崩し、間にタメを入れることで、強い意志を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl6.mp3"
+    },
+    {
+      "id": "8bit_vl7",
+      "quote": "Player one, get ready!",
+      "translation": "プレイヤー1、準備完了！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>1980年代のアーケードゲームで、ゲーム開始前によく使われた定番のフレーズです。</li><li>\"Player one\" は一人目のプレイヤーのこと。\"get ready\" は「準備しろ」という呼びかけです。</li></ul><strong>英文法:</strong><br>呼びかけと命令文を組み合わせた構文です。<br><br><strong>🧠豆知識:</strong><br>このセリフは、レトロなアーケードゲームの雰囲気を完璧に再現しており、8ビットのキャラクター性を象徴しています。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl7.mp3"
+    },
+    {
+      "id": "8bit_vl8",
+      "quote": "Jingle plays",
+      "translation": "（ジングルが鳴る）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"Jingle\" は、テレビやゲームで使われる、短くキャッチーな効果音やメロディのことです。</li></ul><strong>英文法:</strong><br>「名詞 + 動詞」の形の描写文です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl8.mp3"
+    },
+    {
+      "id": "8bit_vl9",
+      "quote": "8-Bit groans",
+      "translation": "（8ビットがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"groan\" は、苦痛や不満で発せられる低いうめき声を表します。</li></ul><strong>英文法:</strong><br>動詞 \"groan\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl9.mp3"
+    },
+    {
+      "id": "8bit_vl10",
+      "quote": "Jingle plays",
+      "translation": "（ジングルが鳴る）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"Jingle\" は、テレビやゲームで使われる、短くキャッチーな効果音やメロディのことです。</li></ul><strong>英文法:</strong><br>「名詞 + 動詞」の形の描写文です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl10.mp3"
+    },
+    {
+      "id": "8bit_vl11",
+      "quote": "You lose!",
+      "translation": "お前の負けだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の敗北を、シンプルかつ直接的に突きつける勝利宣言です。</li></ul><strong>英文法:</strong><br>「主語 + 動詞」の非常に簡潔な現在形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl11.mp3"
+    },
+    {
+      "id": "8bit_vl12",
+      "quote": "Let's go!",
+      "translation": "行くぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>チームを鼓舞し、行動の開始を促す、最も一般的な掛け声です。</li></ul><strong>英文法:</strong><br>「Let's + 動詞の原形」の、提案・誘いの構文です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl12.mp3"
+    },
+    {
+      "id": "8bit_vl13",
+      "quote": "Jingle plays",
+      "translation": "（ジングルが鳴る）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"Jingle\" は、テレビやゲームで使われる、短くキャッチーな効果音やメロディのことです。</li></ul><strong>英文法:</strong><br>「名詞 + 動詞」の形の描写文です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl13.mp3"
+    },
+    {
+      "id": "8bit_vl14",
+      "quote": "Oh no!",
+      "translation": "しまっ…！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>失敗や予期せぬ事態に対する、一般的な感嘆詞です。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl14.mp3"
+    },
+    {
+      "id": "8bit_vl15",
+      "quote": "You win!",
+      "translation": "お前の勝ちだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ゲーム機が勝者を告げるように、相手の勝利を淡々と（あるいは悔しそうに）宣言します。</li></ul><strong>英文法:</strong><br>「主語 + 動詞」のシンプルな現在形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl15.mp3"
+    },
+    {
+      "id": "8bit_vl16",
+      "quote": "Melody plays",
+      "translation": "（メロディが流れる）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"Melody\" は「旋律」を意味し、ゲーム内の特定の状況で流れる音楽を表しています。</li></ul><strong>英文法:</strong><br>「名詞 + 動詞」の形の描写文です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl16.mp3"
+    },
+    {
+      "id": "8bit_vl17",
+      "quote": "8-Bit quacks",
+      "translation": "（8ビットがアヒルのように鳴く）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"quack\" はアヒルの鳴き声のこと。ゲームのイースターエッグ（隠し要素）のような、予期せぬ面白いサウンドです。</li></ul><strong>英文法:</strong><br>動詞 \"quack\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl17.mp3"
+    },
+    {
+      "id": "8bit_vl18",
+      "quote": "Well done.",
+      "translation": "お見事。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「よくやった」「お見事」と相手の行動を称賛する言葉です。文脈によっては、皮肉として使われることもあります。</li></ul><strong>英文法:</strong><br>\"That was well done.\" などが省略された、一般的な褒め言葉です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl18.mp3"
+    },
+    {
+      "id": "8bit_vl19",
+      "quote": "8-Bit cries",
+      "translation": "（8ビットが泣く）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。レトロゲームの電子音のような、悲しげなサウンドが鳴る様子を示します。</li></ul><strong>英文法:</strong><br>動詞 \"cry\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl19.mp3"
+    },
+    {
+      "id": "8bit_vl20",
+      "quote": "8-Bit grunts",
+      "translation": "（8ビットがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"grunt\" は、力を入れたり、苦痛を感じたりした時に発する、短く低い声を表します。</li></ul><strong>英文法:</strong><br>動詞 \"grunt\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl20.mp3"
+    },
+    {
+      "id": "8bit_vl21",
+      "quote": "8-Bit wails",
+      "translation": "（8ビットが泣き叫ぶ）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"wail\" は、悲しみや苦痛で、大声を上げて泣き叫ぶ、嘆き悲しむ様子を表します。</li></ul><strong>英文法:</strong><br>動詞 \"wail\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl21.mp3"
+    },
+    {
+      "id": "8bit_vl22",
+      "quote": "Mission failed.",
+      "translation": "ミッション失敗。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>多くのゲームで、任務に失敗した際に表示されるメッセージです。敗北を簡潔に、そして非情に告げます。</li></ul><strong>英文法:</strong><br>「名詞 + 過去分詞」の形で、状態が完了したことを示す、ゲーム特有の表現です。",
+      "audioUrl": "https://Amphibian333.github.io/8bit_vl22.mp3"
+    }
+  ]
+}

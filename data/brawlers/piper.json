@@ -1,0 +1,150 @@
+{
+  "name": "エリザベス",
+  "nameEn": "Piper",
+  "rarity": "hyper-rare",
+  "role": "marksman",
+  "quote": "I'm sugar and spice.",
+  "iconUrl": "https://i.imgur.com/YH8mKTr.png",
+  "voicelines": [
+    {
+      "id": "piper_vl1",
+      "quote": "I'm sugar and spice.",
+      "translation": "わたくし、お砂糖とスパイスでできているの。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは英語の童謡「What Are Little Girls Made Of?」の一節、「sugar and spice and everything nice（お砂糖とスパイスと素敵なもの全部）」から来ています。</li><li>女の子の可愛らしさ（sugar）と、少しピリッとした気の強さ（spice）の両方を兼ね備えている、と自己紹介するセリフです。</li></ul><strong>英文法:</strong><br>\"sugar and spice\" は、女性の多面的な性格を表す、定型化された名詞句です。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl1.mp3"
+    },
+    {
+      "id": "piper_vl2",
+      "quote": "Oh my!",
+      "translation": "まあ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>驚きや軽い衝撃を表す、上品で少し古風な感嘆詞です。アメリカ南部の淑女（Southern Belle）が使うような言葉遣いです。</li></ul><strong>英文法:</strong><br>\"Oh my God!\" を直接的に言うのを避けるための、丁寧な婉曲表現としても使われます。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl2.mp3"
+    },
+    {
+      "id": "piper_vl3",
+      "quote": "Well, I do declare!",
+      "translation": "まあ、驚きましたわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「いやはや、驚きました」「本当にそう思いますわ」といった、強い驚きや確信を表明する、非常に古風で上品なフレーズです。</li><li>これもアメリカ南部の言葉遣いを象徴する表現です。</li></ul><strong>英文法:</strong><br>\"do\" は、動詞 \"declare\"（宣言する）を強調する役割を果たしています。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl3.mp3"
+    },
+    {
+      "id": "piper_vl4",
+      "quote": "Bless your heart.",
+      "translation": "お可哀想に。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>直訳は「あなたの心に神のご加護を」ですが、特にアメリカ南部では、相手の愚かさや不幸に対して、同情するフリをしながら見下す、強烈な皮肉として使われることで有名です。</li></ul><strong>英文法:</strong><br>文脈によって、心からの同情と、痛烈な皮肉のどちらにもなり得る、非常にニュアンスが重要な定型句です。<br><br><strong>🧠豆知識:</strong><br>「Bless your heart」は、表向きは優しく聞こえるため、言われた側がすぐに皮肉だと気づかないこともある、南部英語の奥深さを象徴するフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl4.mp3"
+    },
+    {
+      "id": "piper_vl5",
+      "quote": "Goodness gracious!",
+      "translation": "まあ、なんてことですの！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>驚き、感嘆、あるいは軽い不満を表す、上品で少し古風な感嘆詞です。</li></ul><strong>英文法:</strong><br>\"Goodness\" や \"gracious\" は、\"God\"（神）という言葉を直接使うのを避けるための婉曲語です。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl5.mp3"
+    },
+    {
+      "id": "piper_vl6",
+      "quote": "Piper laughs",
+      "translation": "（パイパーが笑う）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>お嬢様らしい、上品で「おほほ」というような笑い声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"laugh\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl6.mp3"
+    },
+    {
+      "id": "piper_vl7",
+      "quote": "Come get it.",
+      "translation": "さあ、いらっしゃい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「欲しいなら取りに来なさいな」と、相手を優雅に挑発するセリフです。</li></ul><strong>英文法:</strong><br>\"Come and get it.\" が省略された、口語的な命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl7.mp3"
+    },
+    {
+      "id": "piper_vl8",
+      "quote": "Ha, kiss my grits.",
+      "translation": "ハッ、失礼しちゃうわ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"grits\" はアメリカ南部でよく食べられるトウモロコシの粥。</li><li>このフレーズは、下品な侮辱表現である \"Kiss my ass!\"（くたばれ！）を、南部らしく上品（？）に言い換えた、強烈な皮肉・拒絶の言葉です。</li></ul><strong>英文法:</strong><br>命令文の形を取った、非常に口語的な侮辱のイディオムです。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl8.mp3"
+    },
+    {
+      "id": "piper_vl9",
+      "quote": "Mind your manners!",
+      "translation": "お行儀よくなさい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の無礼な行動に対して、「礼儀をわきまえなさい」と叱る、上品ながらも強い警告です。</li></ul><strong>英文法:</strong><br>\"Mind your manners\" は「行儀作法に気をつけなさい」という意味の、定型化された命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl9.mp3"
+    },
+    {
+      "id": "piper_vl10",
+      "quote": "Aww, sweetie?",
+      "translation": "あら、坊や？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sweetie\" は本来、子供や恋人への愛情のこもった呼びかけですが、ここでは相手を子供扱いし、見下すための皮肉として使われています。</li></ul><strong>英文法:</strong><br>感嘆詞と呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl10.mp3"
+    },
+    {
+      "id": "piper_vl11",
+      "quote": "Ah, stick a fork in me, I'm done.",
+      "translation": "あぁ、もうおしまいにしましょ。わたくし、完璧よ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Stick a fork in it, it's done.\"（フォークを刺してごらん、もう出来上がりだ）という、肉料理の火の通りを確認する表現から来たイディオムです。</li><li>「もう完全に終わりだ」「やりきった」という意味で使われます。敵を完全に倒した後の、満足げなセリフです。</li></ul><strong>英文法:</strong><br>命令文と、自分の状態を述べる文が組み合わさった、口語的な慣用句です。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl11.mp3"
+    },
+    {
+      "id": "piper_vl12",
+      "quote": "This ain't my first rodeo.",
+      "translation": "こういうのは初めてじゃなくってよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「これが私の初めてのロデオじゃない」が直訳。転じて「こんな状況は手慣れたものよ」「場数は踏んでいるわ」と、自身の経験豊富さをアピールする、アメリカ南部のカウボーイ文化に由来する慣用句です。</li></ul><strong>英文法:</strong><br>\"ain't\" は \"is not\" の非常に口語的な短縮形です。慣用句として定着しています。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl12.mp3"
+    },
+    {
+      "id": "piper_vl13",
+      "quote": "Ah!",
+      "translation": "きゃっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>驚きや、軽い痛み、危険を感じた時に発する、短く上品な悲鳴です。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl13.mp3"
+    },
+    {
+      "id": "piper_vl14",
+      "quote": "You're welcome.",
+      "translation": "どういたしまして。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>感謝に対する返答ですが、ここでは敵に攻撃を「恵んであげた」かのような、皮肉と優越感に満ちたトーンで使われています。</li></ul><strong>英文法:</strong><br>一般的な挨拶表現ですが、言い方によってニュアンスが大きく変わります。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl14.mp3"
+    },
+    {
+      "id": "piper_vl15",
+      "quote": "Oh my stars.",
+      "translation": "まあ、星が綺麗…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「なんてこと！」という強い驚きを表す、非常に上品で古風な感嘆詞です。ダメージを受けて「目から星が出る」様子を、お嬢様らしく表現している可能性もあります。</li></ul><strong>英文法:</strong><br>\"Oh my God!\" を直接言うのを避けるための、婉曲的な間投詞です。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl15.mp3"
+    },
+    {
+      "id": "piper_vl16",
+      "quote": "Gimme some sugar!",
+      "translation": "キスしてちょうだい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Gimme\" は \"Give me\" の口語的な短縮形。</li><li>\"sugar\" はスラングで「キス」を意味します。勝利後などに、ファンサービスとして投げキッスをしながら言っているようなセリフです。</li></ul><strong>英文法:</strong><br>命令文の形をとった、愛情表現を求めるフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl16.mp3"
+    },
+    {
+      "id": "piper_vl17",
+      "quote": "Ouch!",
+      "translation": "痛っ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>物理的な痛みや、精神的なショックを受けた時に発する、最も一般的な感嘆詞の一つです。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl17.mp3"
+    },
+    {
+      "id": "piper_vl18",
+      "quote": "Aww, too bad.",
+      "translation": "あらあら、お気の毒に。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「それは残念だ」と相手に同情しているように見せかけつつ、実際には全く同情していない、皮肉のこもった決まり文句です。</li></ul><strong>英文法:</strong><br>\"That's too bad.\" が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl18.mp3"
+    },
+    {
+      "id": "piper_vl19",
+      "quote": "Ouf.",
+      "translation": "うっ…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>フランス語由来の感嘆詞で、「うっ」という詰まった声や、疲労のため息を表します。パイパーの洗練されたイメージに合っています。</li></ul><strong>英文法:</strong><br>外来語の感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl19.mp3"
+    },
+    {
+      "id": "piper_vl20",
+      "quote": "Piper yelps",
+      "translation": "（パイパーがキャンと鳴く）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>\"yelp\" は、犬がキャンと鳴くような、突然の痛みや驚きで発せられる、短く甲高い悲鳴を指します。</li></ul><strong>英文法:</strong><br>動詞 \"yelp\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/piper_vl20.mp3"
+    }
+  ]
+}

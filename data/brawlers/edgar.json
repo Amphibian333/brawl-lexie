@@ -1,0 +1,234 @@
+{
+  "name": "エドガー",
+  "nameEn": "Edgar",
+  "rarity": "hyper-rare",
+  "role": "assassin",
+  "quote": "CEO of Brawl Stars.",
+  "iconUrl": "https://i.imgur.com/DfuNESS.png",
+  "voicelines": [
+    {
+      "id": "edgar_vl1",
+      "quote": "This is so lame.",
+      "translation": "マジでダサい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"lame\" は「ダサい、つまらない、くだらない」という意味の、非常に一般的なスラングです。</li><li>クールでいることを信条とするエドガーが、目の前の状況や相手を軽蔑していることを示します。</li></ul><strong>英文法:</strong><br>\"so\" は形容詞 \"lame\" を強調する副詞で、「とても、すごく」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl1.mp3"
+    },
+    {
+      "id": "edgar_vl2",
+      "quote": "Don't look at me!",
+      "translation": "オレを見るな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>注目されることを嫌う、エドガーの内向的で少し神経質な性格を表すセリフです。</li></ul><strong>英文法:</strong><br>\"Don't + 動詞の原形\" で始まる、基本的な否定の命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl2.mp3"
+    },
+    {
+      "id": "edgar_vl3",
+      "quote": "Leave me alone!",
+      "translation": "ほっといてくれ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「一人にしてくれ」と、他者との関わりを拒絶するセリフ。エドガーの他人を寄せ付けないクールな態度を示しています。</li></ul><strong>英文法:</strong><br>動詞 \"Leave\" で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl3.mp3"
+    },
+    {
+      "id": "edgar_vl4",
+      "quote": "Lol.",
+      "translation": "（笑）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Laughing Out Loud\"（大声で笑う）の頭文字を取った、インターネットスラングです。</li><li>実際に声を出して笑うのではなく、相手の行動を「ウケる」と心の中で嘲笑しているような、冷めたニュアンスで使われます。</li></ul><strong>英文法:</strong><br>ネットチャットで生まれた略語で、感嘆詞のように機能します。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl4.mp3"
+    },
+    {
+      "id": "edgar_vl5",
+      "quote": "This is so unfair!",
+      "translation": "こんなの不公平だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"unfair\" は「不公平な、不当な」。</li><li>自分が不利な状況に陥ったことに対して、子供っぽく不満を漏らしているセリフです。</li></ul><strong>英文法:</strong><br>\"so\" で形容詞 \"unfair\" を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl5.mp3"
+    },
+    {
+      "id": "edgar_vl6",
+      "quote": "Edgar screams",
+      "translation": "（エドガーが叫ぶ）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>ダメージを受けた時などに発する、彼の年相応の苦痛や怒りの叫び声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"scream\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl6.mp3"
+    },
+    {
+      "id": "edgar_vl7",
+      "quote": "Huh, can't believe I have to do this.",
+      "translation": "はぁ、これをやらなきゃいけないなんて、信じられないね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Huh\" は、ため息や呆れを表す間投詞。</li><li>戦うこと自体を「面倒くさい」と感じている、エドガーのやる気のない態度が表れています。</li></ul><strong>英文法:</strong><br>\"I can't believe...\" は「～だなんて信じられない」と、不満や驚きを表す構文です。\"have to do\" は「～しなければならない」という義務を表します。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl7.mp3"
+    },
+    {
+      "id": "edgar_vl8",
+      "quote": "CEO of Brawl Stars.",
+      "translation": "ブロスタのCEOだから。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは「（僕は）ブロスタのCEO（最高経営責任者）だ」と宣言する、非常に現代的なスラング表現です。</li><li>「CEO of [何か]」は、「自分は[何か]において頂点に立つ存在だ」「自分が[何か]を代表する人間だ」と、冗談めかして、あるいは皮肉を込めて自慢する際に使われるインターネットミームです。</li></ul><strong>英文法:</strong><br>名詞句を単独で発する感嘆文です。\"I am the CEO of Brawl Stars.\" の主語と動詞が省略されています。<br><br><strong>🧠豆知識:</strong><br>この「CEO of X」というミームは、特にTikTokなどのSNSで若者を中心に広まりました。エドガーのティーンエイジャーらしい、ネットカルチャーに精通したキャラクター性を象徴するセリフです。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl8.mp3"
+    },
+    {
+      "id": "edgar_vl9",
+      "quote": "Get away from me!",
+      "translation": "あっち行けよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手に「自分から離れろ」と命令する、強い拒絶の言葉です。</li></ul><strong>英文法:</strong><br>\"Get away from ~\" は「～から離れる」という意味の句動詞。ここでは命令文として使われています。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl9.mp3"
+    },
+    {
+      "id": "edgar_vl10",
+      "quote": "So lame.",
+      "translation": "マジでダサい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"lame\" は「ダサい、つまらない、くだらない」という意味の、非常に一般的なスラングです。</li><li>クールでいることを信条とするエドガーが、目の前の状況や相手を軽蔑していることを示します。</li></ul><strong>英文法:</strong><br>\"so\" は形容詞 \"lame\" を強調する副詞で、「とても、すごく」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl10.mp3"
+    },
+    {
+      "id": "edgar_vl11",
+      "quote": "What?",
+      "translation": "は？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の言動や起きたことに対して、驚き、疑い、あるいは不満を示す、非常に短い一言です。</li></ul><strong>英文法:</strong><br>疑問詞を単独で使うことで、強い感情を表します。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl11.mp3"
+    },
+    {
+      "id": "edgar_vl12",
+      "quote": "Edgar shrieks",
+      "translation": "（エドガーが金切り声を上げる）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"shriek\" は、恐怖や激しい痛みで発せられる、非常に甲高く鋭い叫び声（金切り声）を指します。</li></ul><strong>英文法:</strong><br>動詞 \"shriek\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl12.mp3"
+    },
+    {
+      "id": "edgar_vl13",
+      "quote": "Boring.",
+      "translation": "つまんないの。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「退屈だ」と一言で切り捨てることで、目の前の状況や相手に全く興味がないという、冷めた態度を示しています。</li></ul><strong>英文法:</strong><br>形容詞を単独で発する感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl13.mp3"
+    },
+    {
+      "id": "edgar_vl14",
+      "quote": "I low-key wanna win this game.",
+      "translation": "このゲーム、地味に勝ちたいんだけど。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"low-key\" は「控えめに、地味に、ぶっちゃけ」といったニュアンスの現代的なスラングです。</li><li>表向きはやる気なさそうにしながらも、「実は勝ちたい」という本音を漏らしている、ティーンエイジャーらしいセリフです。</li></ul><strong>英文法:</strong><br>\"wanna\" は \"want to\" の口語的な短縮形です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl14.mp3"
+    },
+    {
+      "id": "edgar_vl15",
+      "quote": "Don't touch the scarf!",
+      "translation": "そのマフラーに触るな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分のアイデンティティの一部である「マフラー」に触られることを、極端に嫌がっています。エドガーのこだわりや、パーソナルスペースを大事にする性格が表れています。</li></ul><strong>英文法:</strong><br>否定の命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl15.mp3"
+    },
+    {
+      "id": "edgar_vl16",
+      "quote": "Whatever.",
+      "translation": "どうでもいいし。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「どうでもいい」「なんでもいいよ」と、無関心や投げやりな態度を示す、非常に一般的なスラングです。反抗的なティーンエイジャーが多用するイメージがあります。</li></ul><strong>英文法:</strong><br>感嘆詞として単独で使われます。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl16.mp3"
+    },
+    {
+      "id": "edgar_vl17",
+      "quote": "No way!",
+      "translation": "ありえない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>信じられない出来事に対する、強い驚きや否定を表す決まり文句です。</li></ul><strong>英文法:</strong><br>感嘆詞的に使われる定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl17.mp3"
+    },
+    {
+      "id": "edgar_vl18",
+      "quote": "Yolo! Wooh!",
+      "translation": "人生一度きり！うぉー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"YOLO\" は \"You Only Live Once\"（人生は一度きり）の頭文字を取ったスラング。後先考えずに大胆な行動に出る際の掛け声として使われます。</li><li>\"Wooh!\" は興奮を表す歓声です。</li></ul><strong>英文法:</strong><br>スラングと感嘆詞の組み合わせです。<br><br><strong>🧠豆知識:</strong><br>YOLOは2010年代に流行した言葉で、少し前の流行語という感じが、エドガーのキャラクター設定の深みを増しています。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl18.mp3"
+    },
+    {
+      "id": "edgar_vl19",
+      "quote": "Great. Now everyone hates me.",
+      "translation": "最高。これで全員に嫌われた。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Great\" は、ここでは完全に皮肉として使われています。最悪の状況に対して「素晴らしいね」と言うことで、強い不満や自嘲を表します。</li><li>思い込みの激しい、彼の被害妄想的な一面が見えるセリフです。</li></ul><strong>英文法:</strong><br>皮肉の感嘆詞と、現在形の文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl19.mp3"
+    },
+    {
+      "id": "edgar_vl20",
+      "quote": "Ew!",
+      "translation": "うわっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>何か汚いものや、気持ち悪いものを見た時に発する、強い嫌悪感を表す感嘆詞です。</li></ul><strong>英文法:</strong><br>感情をそのまま音にした間投詞です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl20.mp3"
+    },
+    {
+      "id": "edgar_vl21",
+      "quote": "Eh.",
+      "translation": "えー…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>無関心、退屈、あるいは軽い失望など、はっきりしない曖昧な感情を表す間投詞です。「ふーん」「まあね」といったニュアンスです。</li></ul><strong>英文法:</strong><br>間投詞です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl21.mp3"
+    },
+    {
+      "id": "edgar_vl22",
+      "quote": "So much tryharding.",
+      "translation": "ガチ勢多すぎ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"tryhard\" は、ゲームなどに「必死になりすぎている人、ガチ勢」を指す、少し軽蔑的なスラングです。</li><li>クールでいたいエドガーが、熱くなっている他のプレイヤーを冷めた目で見ている様子を表します。</li></ul><strong>英文法:</strong><br>動名詞 \"tryharding\" を使って、「必死になること」を表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl22.mp3"
+    },
+    {
+      "id": "edgar_vl23",
+      "quote": "Edgar cries",
+      "translation": "（エドガーが泣く）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。敗北した際の悔しさや悲しみを表す泣き声です。</li></ul><strong>英文法:</strong><br>動詞 \"cry\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl23.mp3"
+    },
+    {
+      "id": "edgar_vl24",
+      "quote": "Uh, back on the grind.",
+      "translation": "あー、また作業に戻るか。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"on the grind\" は「（仕事や勉強などを）コツコツ頑張っている状態」を指すスラングです。</li><li>一度中断された後、「さて、また面倒な作業に戻るか」といった、少し気だるいニュアンスです。</li></ul><strong>英文法:</strong><br>\"I am back on the grind.\" の主語と動詞が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl24.mp3"
+    },
+    {
+      "id": "edgar_vl25",
+      "quote": "Don't be salty.",
+      "translation": "イライラすんなよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"salty\" は、スラングで「（特にゲームの敗北などで）イライラしている、根に持っている、しょげている」という意味です。</li><li>負けて不機嫌になっている相手をからかうセリフです。</li></ul><strong>英文法:</strong><br>\"Don't be + 形容詞\" の否定命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl25.mp3"
+    },
+    {
+      "id": "edgar_vl26",
+      "quote": "Wow, hardcore.",
+      "translation": "うわ、ガチじゃん。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"hardcore\" は「本格的な、筋金入りの、ガチの」といった意味のスラングです。</li><li>相手の本気度や、状況の激しさに対して、少し引いているか、あるいは感心している様子を表します。</li></ul><strong>英文法:</strong><br>感嘆詞と形容詞の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl26.mp3"
+    },
+    {
+      "id": "edgar_vl27",
+      "quote": "Wow, you are so awesome.",
+      "translation": "わー、君って超サイコーだねー（棒読み）。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>言葉自体は最高の褒め言葉ですが、エドガーが言うと、全く感情がこもっていない「棒読み」に聞こえ、強烈な皮肉や呆れの表現になります。</li></ul><strong>英文法:</strong><br>基本的な肯定文ですが、イントネーションや文脈が意味を180度変えます。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl27.mp3"
+    },
+    {
+      "id": "edgar_vl28",
+      "quote": "Pssh, I could do this if I wanted to!",
+      "translation": "チェッ、やる気になればこんなの出来るし！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Pssh\" は「チェッ」という舌打ちのような、軽蔑や不満を表す間投詞です。</li><li>失敗したことに対して、「本気を出してないだけだ」と強がる、典型的な負け惜しみのセリフです。</li></ul><strong>英文法:</strong><br>仮定法過去「...if I wanted to」を使って、「もし私がそうしたかったら（実際はしたくないけど）」という、現実とは異なる仮定を述べています。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl28.mp3"
+    },
+    {
+      "id": "edgar_vl29",
+      "quote": "Big yikes!",
+      "translation": "うわ、キッツ…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Yikes!\" は、気まずい状況やドン引きするようなことに対する「うわっ！」という感嘆詞。</li><li>それを \"Big\" で強調することで、「これは相当ヤバい」「見てられないほどキツい」という、より強い感情を表しています。</li></ul><strong>英文法:</strong><br>スラングとして定着した感嘆表現です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl29.mp3"
+    },
+    {
+      "id": "edgar_vl30",
+      "quote": "You can't make me!",
+      "translation": "オレに強制できると思うなよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>誰かに何かを強制された時に、「お前に強制される筋合いはない！」と強く反抗する、子供っぽいセリフです。</li></ul><strong>英文法:</strong><br>助動詞 \"can't\" と使役動詞 \"make\" を組み合わせた文です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl30.mp3"
+    },
+    {
+      "id": "edgar_vl31",
+      "quote": "I'm lagging!",
+      "translation": "ラグってる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>オンラインゲームで、インターネット接続の遅延で動きがカクカクになる「ラグ」が発生していることを訴えています。負けそうになった時の言い訳の定番でもあります。</li></ul><strong>英文法:</strong><br>現在進行形です。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl31.mp3"
+    },
+    {
+      "id": "edgar_vl32",
+      "quote": "I'm shook.",
+      "translation": "マジびびった。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"shook\" は、スラングで「（恐怖や驚きで）動揺している、衝撃を受けている」という意味です。元は動詞 \"shake\" の過去分詞形です。</li></ul><strong>英文法:</strong><br>\"I'm + 形容詞\" の構文。非常に現代的な若者言葉です。<br><br><strong>🧠豆知識:</strong><br>\"shook\" というスラングは、ヒップホップの歌詞から広まり、特にインターネットミームとして爆発的に使われるようになりました。",
+      "audioUrl": "https://Amphibian333.github.io/edgar_vl32.mp3"
+    }
+  ]
+}
