@@ -1,0 +1,220 @@
+{
+  "name": "ダリル",
+  "nameEn": "Darryl",
+  "rarity": "super-rare",
+  "role": "assassin",
+  "quote": "That's how I roll!",
+  "iconUrl": "https://i.imgur.com/1xnozNB.png",
+  "voicelines": [
+    {
+      "id": "darryl_vl1",
+      "quote": "Yo ho ho!",
+      "translation": "ヨーホーホー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>典型的な海賊のかけ声で、酒を飲んで陽気に笑う、あるいは戦闘に臨む際の掛け声として使われます。<br><br><strong>英文法:</strong><br>海賊の感嘆詞、掛け声であり、特定の文法はありません。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl1.mp3"
+    },
+    {
+      "id": "darryl_vl2",
+      "quote": "It's all about boats and booty.",
+      "translation": "船と宝がすべてだぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"booty\" は、海賊の文脈では「略奪品」「宝物」を指すスラングです。</li><li>\"It's all about X\" は「Xこそがすべてだ」「Xが最も重要だ」という意味のフレーズです。</li></ul><strong>英文法:</strong><br>\"all about\"（～がすべてだ）という定型句です。\"booty\" はスラングで「宝物」を意味します。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl2.mp3"
+    },
+    {
+      "id": "darryl_vl3",
+      "quote": "I blast ye!",
+      "translation": "お前をぶっ飛ばすぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>\"ye\" は、古英語や古い物語で使われる \"you\"（お前）の古風な表現です。海賊らしさを演出しています。<br><br><strong>英文法:</strong><br>\"blast\" は「爆破する」「吹き飛ばす」という意味の動詞。目的語に古風な二人称代名詞 \"ye\" を使っています。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl3.mp3"
+    },
+    {
+      "id": "darryl_vl4",
+      "quote": "Har har har yar!",
+      "translation": "ハッハッハッ、ヤー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Har har har\" は典型的な海賊の笑い声です。</li><li>\"yar\" は海賊が「よし！」といった肯定を表す際に使う \"yeah\" の海賊風表現です。</li></ul><strong>英文法:</strong><br>擬音語と海賊の感嘆詞の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl4.mp3"
+    },
+    {
+      "id": "darryl_vl5",
+      "quote": "Abandon ship! Abandon ship!",
+      "translation": "緊急退避だーっ！船を捨てろ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>船が沈没しかけるなどの緊急事態に、乗組員に船からの脱出を命じる際に使われる海事用語です。<br><br><strong>英文法:</strong><br>「船を捨てる」という命令の定型句を繰り返すことで、緊急性を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl5.mp3"
+    },
+    {
+      "id": "darryl_vl6",
+      "quote": "Roll the planks!",
+      "translation": "板を転がせ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>\"plank\" は海賊が捕虜を海に突き落とすための「飛び板」を指すことがあり、ダリルのローリング能力と掛けたダブルミーニングになっています。<br><br><strong>英文法:</strong><br>\"Roll\"（転がす）という動詞の命令形です。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl6.mp3"
+    },
+    {
+      "id": "darryl_vl7",
+      "quote": "Yolo ho and a bottle of barnacles!",
+      "translation": "ヨロホー！フジツボのビン付きだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>現代スラング \"YOLO\"（人生一度きり）を海賊の掛け声「Yo ho ho」と融合させています。</li><li>\"barnacles\" は船底などに付着する「フジツボ」。海の要素をコミカルに取り入れています。</li></ul><strong>英文法:</strong><br>\"Yolo ho\" はスラングと掛け声を組み合わせた造語です。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl7.mp3"
+    },
+    {
+      "id": "darryl_vl8",
+      "quote": "I got booty in me barrel!",
+      "translation": "樽の中にはお宝ぎっしり！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"booty\" は「宝物」。</li><li>\"in me barrel\" は \"in my barrel\" の海賊風の言い方です。</li><li>自分の体（樽）にたくさんの宝物を隠し持っていることを自慢しています。</li></ul><strong>英文法:</strong><br>\"I got\"（I have の口語）や \"me\"（my の代わり）など、崩れた口語表現が特徴です。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl8.mp3"
+    },
+    {
+      "id": "darryl_vl9",
+      "quote": "You slimy sea urchin!",
+      "translation": "このヌルヌルウニ野郎！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>海賊らしく海の生き物「ウニ（sea urchin）」に例えた、ユーモアのある罵倒語です。相手を不快で取るに足らない存在と見下しています。<br><br><strong>英文法:</strong><br>「You + 形容詞 + 名詞」の形で相手を罵る際の典型的な言い方です。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl9.mp3"
+    },
+    {
+      "id": "darryl_vl10",
+      "quote": "Yo ho, oh no!",
+      "translation": "ヨーホー……うわ、やべっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>海賊の陽気な掛け声 \"Yo ho\" から一転して \"oh no!\" と続くことで、予期せぬ悪い事態への驚きや焦りを表しています。<br><br><strong>英文法:</strong><br>掛け声と間投詞を組み合わせた、リズムの良いフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl10.mp3"
+    },
+    {
+      "id": "darryl_vl11",
+      "quote": "Roll the arr!",
+      "translation": "アールを転がせ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>海賊の口癖である巻き舌の \"Arr\" と、ダリルの特技「ローリング（転がる）」を掛けたダジャレです。<br><br><strong>英文法:</strong><br>キャラクターの能力と口癖を掛け合わせた、ユニークな言葉遊びです。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl11.mp3"
+    },
+    {
+      "id": "darryl_vl12",
+      "quote": "Ahoy mateys!",
+      "translation": "おーい、仲間たち！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Ahoy\" は船乗りの伝統的な挨拶・呼びかけです。</li><li>\"mateys\" は \"mates\"（仲間たち）の海賊風の言い方です。</li></ul><strong>英文法:</strong><br>船乗りや海賊が使う挨拶の定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl12.mp3"
+    },
+    {
+      "id": "darryl_vl13",
+      "quote": "Show me the booty!",
+      "translation": "宝を見せな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>敵に対して、持っている宝物（コインやジェムなど）を要求する、海賊の本能的な欲求が強く表れたセリフです。<br><br><strong>英文法:</strong><br>動詞 \"Show\" で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl13.mp3"
+    },
+    {
+      "id": "darryl_vl14",
+      "quote": "You salty sea dog!",
+      "translation": "この古株船乗りめ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>\"salty sea dog\" は「経験豊富なベテラン船乗り」を指すイディオムですが、ここでは「この老いぼれ」といった軽い侮辱として使われています。<br><br><strong>英文法:</strong><br>文脈によって意味が変わるイディオムを使った、海賊らしい罵倒表現です。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl14.mp3"
+    },
+    {
+      "id": "darryl_vl15",
+      "quote": "Pirate pwnage!",
+      "translation": "海賊の圧勝だぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>ネットスラング \"pwnage\"（圧倒的な勝利）に \"Pirate\"（海賊）を組み合わせ、海賊である自分たちの完全勝利を宣言しています。<br><br><strong>英文法:</strong><br>名詞 \"Pirate\" とスラングの名詞 \"pwnage\" の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl15.mp3"
+    },
+    {
+      "id": "darryl_vl16",
+      "quote": "Crusty crab sticks!",
+      "translation": "カピカピのカニカマじゃねーか！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>期待外れなものや、見るに値しないものを見た時の、ユーモア混じりの軽蔑の表現です。<br><br><strong>英文法:</strong><br>感嘆を表す名詞句です。\"crusty\" は「カピカピに乾燥した」、\"crab sticks\" は「カニカマ」を指します。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl16.mp3"
+    },
+    {
+      "id": "darryl_vl17",
+      "quote": "Yo ho roll!",
+      "translation": "ヨーホー・ローリング！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>海賊の掛け声 \"Yo ho\" と、ダリルの特技である「ローリング」を組み合わせた、キャラクター性と能力を同時に表現するセリフです。<br><br><strong>英文法:</strong><br>掛け声と動詞を組み合わせた、勢いのあるフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl17.mp3"
+    },
+    {
+      "id": "darryl_vl18",
+      "quote": "100% certified pirate.",
+      "translation": "100％正真正銘の海賊だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br>\"certified\" は「公式に認定された」「保証された」という意味。自分は本物の海賊だと自信満々に宣言しています。<br><br><strong>英文法:</strong><br>「100% + 認定された(certified) + 名詞(pirate)」の形で、本物であることを強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl18.mp3"
+    },
+    {
+      "id": "darryl_vl19",
+      "quote": "Behold! My bountiful booty.",
+      "translation": "見よ！このたっぷりの宝を！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Behold!\" は古風な「見よ！」という命令。</li><li>\"bountiful\" は「豊富な」、\"booty\" は「宝物」。</li><li>手に入れた膨大な宝物を誇示する、満足げなセリフです。</li></ul><strong>英文法:</strong><br>古風な動詞 \"Behold\" で始まる感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl19.mp3"
+    },
+    {
+      "id": "darryl_vl20",
+      "quote": "Argh, you peg-legged parrot!",
+      "translation": "くっ…この義足のオウム野郎！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>\"peg-legged\"（義足の）や \"parrot\"（オウム）といった、海賊のステレオタイプを組み合わせたユニークな罵倒語です。<br><br><strong>英文法:</strong><br>海賊のうめき声 \"Argh\" から始まる、相手を罵るフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl20.mp3"
+    },
+    {
+      "id": "darryl_vl21",
+      "quote": "Double barrel Darryl, for the win!",
+      "translation": "ダブルバレルのダリル、勝利を決めるぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Double barrel\" は彼の二連式ショットガンを指します。</li><li>\"for the win\" は「勝利のために」「最高だ」という意味のスラングです。</li></ul><strong>英文法:</strong><br>自分の名前と武器を冠して、スラング \"for the win\" で勝利を宣言しています。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl21.mp3"
+    },
+    {
+      "id": "darryl_vl22",
+      "quote": "Jumping jellyfish!",
+      "translation": "飛び跳ねるクラゲかよっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>「なんてこった！」「驚いたな！」といった強い驚きを、海にちなんだ言葉 \"jellyfish\"（クラゲ）を使って表すユーモラスな表現です。<br><br><strong>英文法:</strong><br>\"Jumping + 名詞\" の形で、驚きや感嘆を表す口語的なフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl22.mp3"
+    },
+    {
+      "id": "darryl_vl23",
+      "quote": "You see me rolling!",
+      "translation": "オレ様が転がってるのが見えるだろ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アメリカのラッパーChamillionaireのヒット曲 \"Ridin'\" の歌詞のパロディです。</li><li>ダリルの「ローリング能力」と、「成功している」というスラングの意味を掛けています。</li></ul><strong>英文法:</strong><br>\"see me rolling\" は「私が転がっているのを見る」という意味ですが、元ネタの文脈から自己顕示のニュアンスが加わります。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl23.mp3"
+    },
+    {
+      "id": "darryl_vl24",
+      "quote": "Totally legit pirate over here!",
+      "translation": "こちとら、完全に本物の海賊でい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"legit\" は \"legitimate\"（正当な、本物の）の口語的な短縮形です。</li><li>\"over here\" は「こっちにいる私は」と自分を指し示す表現です。</li></ul><strong>英文法:</strong><br>副詞 \"Totally\"（完全に）で形容詞 \"legit\" を強調し、本物であることをアピールしています。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl24.mp3"
+    },
+    {
+      "id": "darryl_vl25",
+      "quote": "Yo! Double B.D. in the sea, that's me!",
+      "translation": "ヨー！海の中のダブル・B.D.、それがオレ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Double B.D.\" は \"Double Barrel Darryl\" の略称です。</li><li>ラップのようにリズミカルに自己紹介する、現代文化と融合した海賊らしいセリフです。</li></ul><strong>英文法:</strong><br>\"Yo!\" という呼びかけから始まり、ニックネームと場所を提示し、\"that's me!\" で締めくくる自己紹介の形です。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl25.mp3"
+    },
+    {
+      "id": "darryl_vl26",
+      "quote": "You smelly seagull!",
+      "translation": "このクッサいカモメ野郎！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>海賊らしく海の鳥「カモメ（seagull）」に例えた、ユーモアのある罵倒語です。相手を不潔で不快な存在として見下しています。<br><br><strong>英文法:</strong><br>「You + 形容詞 + 名詞」の形で相手を罵る際の典型的な言い方です。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl26.mp3"
+    },
+    {
+      "id": "darryl_vl27",
+      "quote": "Darryl whistles",
+      "translation": "（ダリルの口笛）",
+      "explanation": "<strong>この英文でのポイント:</strong><br>ダリルが口笛を吹く様子を表しています。彼の陽気な性格や、リラックスした態度を示唆します。<br><br><strong>英文法:</strong><br>\"whistles\" は「口笛を吹く」という動詞。ト書きで使われています。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl27.mp3"
+    },
+    {
+      "id": "darryl_vl28",
+      "quote": "Arr you kidding me?",
+      "translation": "ありえね〜だろ！？",
+      "explanation": "<strong>この英文でのポイント:</strong><br>\"Are you kidding me?\"（冗談だろ？）の \"Are\" を、海賊の口癖 \"Arr\" に置き換えたダジャレです。<br><br><strong>英文法:</strong><br>驚きや不満を表す定型句 \"Are you kidding me?\" をもじった、ユーモラスな表現です。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl28.mp3"
+    },
+    {
+      "id": "darryl_vl29",
+      "quote": "That's how I roll!",
+      "translation": "これがオレのやり方さ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"That's how I roll\" は「これが私のやり方/生き方だ」というスラングです。</li><li>ダリルの「ローリング能力」と、彼の「生き方」を掛けたダブルミーニングです。</li></ul><strong>英文法:</strong><br>\"roll\" という単語に「転がる」と「行動する/生きる」の二つの意味を持たせた言葉遊びです。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl29.mp3"
+    },
+    {
+      "id": "darryl_vl30",
+      "quote": "Respect the roll!",
+      "translation": "オレの回転、ナメんなよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br>自分の得意な「ローリング能力（the roll）」に対して、相手に敬意を払うことを強要する、自信と威圧的な態度を示すセリフです。<br><br><strong>英文法:</strong><br>動詞 \"Respect\"（～に敬意を払う）で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/darryl_vl30.mp3"
+    }
+  ]
+}

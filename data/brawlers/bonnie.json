@@ -1,0 +1,318 @@
+{
+  "name": "ボニー",
+  "nameEn": "Bonnie",
+  "rarity": "hyper-rare",
+  "role": "damage-dealer",
+  "quote": "Cannonball!",
+  "iconUrl": "https://i.imgur.com/GUHemaI.png",
+  "voicelines": [
+    {
+      "id": "bonnie_vl1",
+      "quote": "Check this out, Janet!",
+      "translation": "ジャネット、これ見て！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Check this out\" は「これを見て！」「これに注目して！」と、誰かの注意を引くための非常に一般的なスラングです。</li><li>姉である「ジャネット」に、自分のすごいスタントや活躍を見てほしい、という子供らしいアピールです。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文と、呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl1.mp3"
+    },
+    {
+      "id": "bonnie_vl2",
+      "quote": "That's going on the highlight reel.",
+      "translation": "これはハイライトシーン行きだね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"highlight reel\" は、スポーツなどで最高のプレーや名場面だけを集めたビデオのこと。</li><li>自分の今行ったプレイが、後で見返す価値のあるほど素晴らしいものだった、と自画自賛しています。</li></ul><strong>英文法:</strong><br>未来を表す現在進行形が使われており、「（今ので）ハイライト入りが確定した」というニュアンスです。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl2.mp3"
+    },
+    {
+      "id": "bonnie_vl3",
+      "quote": "Haven't got time for this!",
+      "translation": "こんなことしてる時間ないのに！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>何かもっと重要なことがあるのに、目の前の戦いなどで足止めされていることへの苛立ちを表しています。</li></ul><strong>英文法:</strong><br>\"I haven't got time for this.\" の主語 \"I\" が省略された、口語的な表現です。\"haven't got\" は \"don't have\" と同じ意味で、特にイギリス英語でよく使われます。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl3.mp3"
+    },
+    {
+      "id": "bonnie_vl4",
+      "quote": "See you later.",
+      "translation": "またね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「また後で会いましょう」という、一般的な別れの挨拶です。</li><li>敵を倒した時に言うことで、「（あの世で）またな」といった皮肉なニュアンスになります。</li></ul><strong>英文法:</strong><br>定型化された挨拶表現です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl4.mp3"
+    },
+    {
+      "id": "bonnie_vl5",
+      "quote": "I get knocked down, but I get up again.",
+      "translation": "倒されても、また立ち上がるんだから！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは、1997年の大ヒット曲、チャンバワンバの「タブサンピング」の最も有名な一節をそのまま引用したものです。</li><li>「打ちのめされても、また立ち上がる」という、不屈の精神を表す歌詞が、何度も危険なスタントに挑戦するボニーのキャラクターに完璧にマッチしています。</li></ul><strong>英文法:</strong><br>前半は \"get + 過去分詞\" の形で受動態を表し（打ちのめされる）、後半は能動態（立ち上がる）で、接続詞 \"but\" で対比させています。<br><br><strong>🧠豆知識:</strong><br>この曲「Tubthumping」は、そのキャッチーなメロディと反骨精神あふれる歌詞から、世界中のスポーツイベントや映画などで、困難に立ち向かうシーンの応援歌として頻繁に使用されています。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl5.mp3"
+    },
+    {
+      "id": "bonnie_vl6",
+      "quote": "Boom boom boom, let's shake the room!",
+      "translation": "ドンドンドン、この場を揺るがそう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"boom\" という爆発音と、\"shake the room\"（部屋を揺るがす）で韻を踏んだ、リズミカルな掛け声です。</li><li>これから派手なパフォーマンスで、皆を驚かせようという意気込みが表れています。</li></ul><strong>英文法:</strong><br>擬音語と、「Let's + 動詞」の提案・誘いの構文を組み合わせています。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl6.mp3"
+    },
+    {
+      "id": "bonnie_vl7",
+      "quote": "Young and reckless coming through.",
+      "translation": "若くて無鉄砲なお嬢さんのお通りよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Young and reckless\" は「若くて無謀」。</li><li>\"coming through\" は、人混みをかき分けて進む時に「通りますよ」と注意を促す言葉です。</li><li>自分自身をそう称して、周りに道を開けるよう促しています。</li></ul><strong>英文法:</strong><br>名詞句だけで、自身の登場を宣言しています。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl7.mp3"
+    },
+    {
+      "id": "bonnie_vl8",
+      "quote": "Janet! Are you seeing this?",
+      "translation": "ジャネット！これ見てる？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>素晴らしいプレイが決まった瞬間に、姉のジャネットに「今の見た？」と同意を求めているセリフです。</li></ul><strong>英文法:</strong><br>現在進行形の疑問文で、今まさに行われていることを見ているか尋ねています。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl8.mp3"
+    },
+    {
+      "id": "bonnie_vl9",
+      "quote": "You're gonna knock out another tooth!",
+      "translation": "また歯が抜けちゃうよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"knock out a tooth\" は「歯を殴り飛ばす、歯が抜ける」。</li><li>ダメージを受けて、また歯が一本抜けてしまう、と嘆いています。彼女が無鉄砲なスタントで普段から怪我をしていることがうかがえます。</li></ul><strong>英文法:</strong><br>\"gonna\" は \"going to\" の口語的な短縮形です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl9.mp3"
+    },
+    {
+      "id": "bonnie_vl10",
+      "quote": "Don't mess with Clyde.",
+      "translation": "クライドに手を出すな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Clyde\" はボニーが乗っている大砲の名前。</li><li>\"Don't mess with ~\" は「～にちょっかいを出すな」という強い警告です。相棒を大切にしていることがわかります。</li></ul><strong>英文法:</strong><br>否定の命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl10.mp3"
+    },
+    {
+      "id": "bonnie_vl11",
+      "quote": "I'll be better next time.",
+      "translation": "次はもっとうまくやるから。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>失敗した際に、次はもっとうまくやると誓う、前向きなセリフです。</li></ul><strong>英文法:</strong><br>\"I'll\" は \"I will\" の短縮形。\"better\" は \"good\" の比較級です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl11.mp3"
+    },
+    {
+      "id": "bonnie_vl12",
+      "quote": "Cannonball!",
+      "translation": "キャノンボール！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>プールに飛び込む際の、体を丸めて飛び込む技「キャノンボール（砲弾）」と、彼女の武器である「大砲（Cannon）」をかけた言葉です。</li><li>必殺技で自身が大砲から飛び出す際の、完璧な掛け声です。</li></ul><strong>英文法:</strong><br>名詞単独の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl12.mp3"
+    },
+    {
+      "id": "bonnie_vl13",
+      "quote": "My time, my show.",
+      "translation": "私の時間、私のショーよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「今は私の時間で、私のショーの始まりだ」と、自分が主役であることを力強く宣言しています。</li></ul><strong>英文法:</strong><br>名詞句を並べることで、リズミカルに所有を主張しています。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl13.mp3"
+    },
+    {
+      "id": "bonnie_vl14",
+      "quote": "Adrenaline for the win.",
+      "translation": "アドレナリンで勝利！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Adrenaline\" は、興奮した時に分泌されるホルモン。</li><li>\"for the win\" は「～で勝利」「～最高」という意味のスラング。</li><li>「この興奮（アドレナリン）が勝利をもたらす！」という意味です。</li></ul><strong>英文法:</strong><br>名詞句の後に \"for the win\" を付ける、口語的な決まり文句です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl14.mp3"
+    },
+    {
+      "id": "bonnie_vl15",
+      "quote": "I'm telling uncle Stu!",
+      "translation": "スチューおじさんに言いつけるから！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>何か理不尽な目に遭った時に、保護者である「スチューおじさん」に報告すると脅す、子供らしいセリフです。</li></ul><strong>英文法:</strong><br>未来を表す現在進行形が使われており、「（今に）言いつけてやる」という強い意志を表します。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl15.mp3"
+    },
+    {
+      "id": "bonnie_vl16",
+      "quote": "Wooohh!",
+      "translation": "うぉー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>興奮や喜び、あるいはスリルを楽しんでいる時の、理屈抜きの歓声です。</li></ul><strong>英文法:</strong><br>感情をそのまま音にした感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl16.mp3"
+    },
+    {
+      "id": "bonnie_vl17",
+      "quote": "Trying to bounce back.",
+      "translation": "立ち直ろうとしてるところ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"bounce back\" は「（失敗や病気などから）立ち直る、回復する」という意味の句動詞です。</li><li>敗北や困難な状況から、なんとか回復しようとしている様子を表します。</li></ul><strong>英文法:</strong><br>\"I am trying to bounce back.\" の主語が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl17.mp3"
+    },
+    {
+      "id": "bonnie_vl18",
+      "quote": "Yippee!",
+      "translation": "やったー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>喜びや興奮が最高潮に達した時に、子供のように無邪気に発せられる歓声です。「わーい！」といったニュアンスです。</li></ul><strong>英文法:</strong><br>感嘆詞の一種です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl18.mp3"
+    },
+    {
+      "id": "bonnie_vl19",
+      "quote": "Rolling out!",
+      "translation": "出動！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>大砲のクライドに乗って「転がり出る（Rolling out）」様子を表しています。</li></ul><strong>英文法:</strong><br>現在分詞を単独で使うことで、行動の開始を宣言しています。<br><br><strong>🧠豆知識:</strong><br>アニメ『トランスフォーマー』で、司令官オプティマスプライムが出撃する際の決め台詞「Roll out!」としても非常に有名です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl19.mp3"
+    },
+    {
+      "id": "bonnie_vl20",
+      "quote": "Adrenaline rush!",
+      "translation": "アドレナリンがほとばしる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"adrenaline rush\" は、興奮や危険によってアドレナリンが大量に分泌され、心拍数が上がるような状態を指す言葉です。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl20.mp3"
+    },
+    {
+      "id": "bonnie_vl21",
+      "quote": "Bonnie groans",
+      "translation": "（ボニーがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>ダメージを受けた時の、苦しそうなうめき声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"groan\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl21.mp3"
+    },
+    {
+      "id": "bonnie_vl22",
+      "quote": "Bonnie screams",
+      "translation": "（ボニーが叫ぶ）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。大きなダメージを受けた時や、恐怖を感じた時の叫び声を表します。</li></ul><strong>英文法:</strong><br>動詞 \"scream\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl22.mp3"
+    },
+    {
+      "id": "bonnie_vl23",
+      "quote": "This is an occupational hazard.",
+      "translation": "これは職業上の危険ってやつね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"occupational hazard\" は「職業上、避けられない危険」という意味。</li><li>スタントマンである自分にとって、怪我をすることは仕事のうちだと、少し達観したように言うセリフです。</li></ul><strong>英文法:</strong><br>シンプルなSVCの文です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl23.mp3"
+    },
+    {
+      "id": "bonnie_vl24",
+      "quote": "Look at all those explosions.",
+      "translation": "見てよ、あのたくさんの爆発！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>戦場で起きている爆発を、まるでスタントショーの特殊効果のように楽しんでいる、怖いもの知らずなセリフです。</li></ul><strong>英文法:</strong><br>\"Look at...\" で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl24.mp3"
+    },
+    {
+      "id": "bonnie_vl25",
+      "quote": "Bonnie and Clyde are going for a ride.",
+      "translation": "ボニーとクライドがお出かけよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分と大砲のクライドが「ドライブに行く（going for a ride）」と、軽快に宣言しています。ここでのドライブは、もちろん敵陣への突撃を意味します。</li></ul><strong>英文法:</strong><br>現在進行形を使った、未来の行動の予告です。<br><br><strong>🧠豆知識:</strong><br>「ボニーとクライド」は、1930年代にアメリカに実在した有名な銀行強盗のカップルの名前です。無法者でお尋ね者というイメージが、無鉄砲なボニーのキャラクターに重なります。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl25.mp3"
+    },
+    {
+      "id": "bonnie_vl26",
+      "quote": "Light the fuse!",
+      "translation": "導火線に火をつけて！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fuse\" は「導火線」。大砲を発射する準備ができたことを示す、威勢のいい掛け声です。</li></ul><strong>英文法:</strong><br>動詞 \"Light\" で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl26.mp3"
+    },
+    {
+      "id": "bonnie_vl27",
+      "quote": "Watch out, Clyde.",
+      "translation": "クライド、気をつけて。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相棒である大砲のクライドを気遣うセリフ。彼女の優しさが垣間見えます。</li><li>\"Watch out\" は「危ない、気をつけて」という警告です。</li></ul><strong>英文法:</strong><br>命令文と呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl27.mp3"
+    },
+    {
+      "id": "bonnie_vl28",
+      "quote": "I got you good.",
+      "translation": "うまくやったでしょ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"got you good\" は「うまくやった」「一杯食わせた」「しっかり当てた」といった意味の口語表現です。</li></ul><strong>英文法:</strong><br>\"get someone good\" で「（人）をうまくやっつける」というニュアンスになります。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl28.mp3"
+    },
+    {
+      "id": "bonnie_vl29",
+      "quote": "You kaboom'd me?",
+      "translation": "私をドカンってやったの？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>爆発音である \"kaboom\" を、まるで動詞のように使っています。「私を爆発させたのか？」という、驚きと非難が込められています。</li></ul><strong>英文法:</strong><br>擬音語を動詞の過去形のように使う、非常に創造的でコミカルな表現です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl29.mp3"
+    },
+    {
+      "id": "bonnie_vl30",
+      "quote": "Let's light this party up.",
+      "translation": "このパーティーを盛り上げよう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"light up\" は「明るく照らす、火をつける」。</li><li>これから始まる戦いを「パーティー」に例え、「派手にやろうぜ！」と仲間を鼓舞しています。</li></ul><strong>英文法:</strong><br>「Let's + 動詞」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl30.mp3"
+    },
+    {
+      "id": "bonnie_vl31",
+      "quote": "Did someone say danger?",
+      "translation": "誰か『危険』って言った？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>危険な状況を待ってましたとばかりに、「危険と聞いて飛んできました」というニュアンスで言う、スタントマンらしいセリフです。</li></ul><strong>英文法:</strong><br>過去形の疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl31.mp3"
+    },
+    {
+      "id": "bonnie_vl32",
+      "quote": "My greatest stunt yet!",
+      "translation": "私の史上最高のスタントよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"yet\" は、最上級の表現と共に使うと「今までのとこで、史上」という意味を強調します。</li><li>自分の今行ったプレイが、過去最高に素晴らしいスタントだったと自画自賛しています。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl32.mp3"
+    },
+    {
+      "id": "bonnie_vl33",
+      "quote": "You okay, Clyde?",
+      "translation": "クライド、大丈夫？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相棒である大砲のクライドの身を案じる、優しいセリフです。</li></ul><strong>英文法:</strong><br>\"Are you okay?\" のbe動詞が省略された、口語的な疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl33.mp3"
+    },
+    {
+      "id": "bonnie_vl34",
+      "quote": "You can't hide from Bonnie and Clyde!",
+      "translation": "ボニーとクライドからは隠れられないよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分と相棒から逃れることは不可能だと、敵に宣告しています。</li></ul><strong>英文法:</strong><br>助動詞 \"can't\" を使った、否定の文です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl34.mp3"
+    },
+    {
+      "id": "bonnie_vl35",
+      "quote": "Bonnie cries",
+      "translation": "（ボニーが泣く）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>敗北した際の悔しさや、痛みで泣いている様子を示します。</li></ul><strong>英文法:</strong><br>動詞 \"cry\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl35.mp3"
+    },
+    {
+      "id": "bonnie_vl36",
+      "quote": "It's Bonnie and Clyde, time to hide!",
+      "translation": "ボニーとクライドよ、隠れる時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Clyde\" と \"hide\" で韻を踏んだ、キャッチーな登場のセリフです。</li><li>自分たちが現れたからには、敵は隠れるしかない、と警告しています。</li></ul><strong>英文法:</strong><br>二つの文を並べた、リズミカルなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl36.mp3"
+    },
+    {
+      "id": "bonnie_vl37",
+      "quote": "Exciting!",
+      "translation": "エキサイティング！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>目の前の状況が「ワクワクする」と、興奮を表現しています。</li></ul><strong>英文法:</strong><br>形容詞単独の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl37.mp3"
+    },
+    {
+      "id": "bonnie_vl38",
+      "quote": "Looks like you could use a stunt double.",
+      "translation": "スタントダブルが必要みたいね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"stunt double\" は、俳優の代わりに危険なシーンを演じる代役のこと。</li><li>相手が弱々しく、危険な戦場にいるべきではないと、「代役を呼んだらどう？」と皮肉を言っています。</li></ul><strong>英文法:</strong><br>\"look like ~\" は「～のように見える」。\"could use ~\" は「～があれば助かるだろう、～が必要だろう」という、控えめな提案の表現です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl38.mp3"
+    },
+    {
+      "id": "bonnie_vl39",
+      "quote": "Bonnie gags",
+      "translation": "（ボニーがむせる）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"gag\" は、喉に何かが詰まって「オエッ」とむせたり、吐き気を催したりする様子を指します。</li></ul><strong>英文法:</strong><br>動詞 \"gag\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl39.mp3"
+    },
+    {
+      "id": "bonnie_vl40",
+      "quote": "I'm lit!",
+      "translation": "私、サイコー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"lit\" は、スラングで「最高の、素晴らしい、イケてる」といった意味です。</li><li>同時に、導火線に「火がついた（lit）」状態である、というダブルミーニングにもなっています。</li></ul><strong>英文法:</strong><br>\"I'm + 形容詞（スラング）\" の構文です。<br><br><strong>🧠豆知識:</strong><br>\"lit\" は元々動詞 \"light\" の過去分詞形ですが、近年、若者の間で「最高に盛り上がっている」という意味のスラングとして爆発的に広まりました。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl40.mp3"
+    },
+    {
+      "id": "bonnie_vl41",
+      "quote": "We got this, Clyde!",
+      "translation": "私たちならいけるよ、クライド！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"We got this.\" は「我々なら大丈夫だ」「これはもらった」と、自信と仲間への信頼を示す、非常にポピュラーな口語表現です。</li></ul><strong>英文法:</strong><br>\"We have got this.\" が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl41.mp3"
+    },
+    {
+      "id": "bonnie_vl42",
+      "quote": "Shots fired.",
+      "translation": "攻撃開始。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>文字通り「銃弾が発射された」という意味ですが、転じて、議論などで「痛烈な批判が飛び出した」という意味のスラングとしても使われます。</li><li>ここでは、戦闘が開始されたことを冷静に告げています。</li></ul><strong>英文法:</strong><br>受動態の文が、感嘆詞のように使われています。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl42.mp3"
+    },
+    {
+      "id": "bonnie_vl43",
+      "quote": "We'll get them next time.",
+      "translation": "次はあいつらをやっつけてやる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>試合に負けた時などに、「次は勝つぞ」と再戦を誓う、スポーツマンシップあふれる決まり文句です。</li></ul><strong>英文法:</strong><br>未来形 \"We will\" を使った、未来への決意表明です。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl43.mp3"
+    },
+    {
+      "id": "bonnie_vl44",
+      "quote": "I got two words for you. Brush your teeth!",
+      "translation": "あなたに言いたいことは二言よ。『歯を磨け！』",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"I got two words for you.\" は、相手に何か重要なこと（大抵は侮辱）を言う前の、お決まりの前置きです。</li><li>しかし、続く言葉は全く関係のない「歯を磨け！」というお説教で、相手をからかっています。</li></ul><strong>英文法:</strong><br>前置きの文と、それに続く命令文の組み合わせです。<br><br><strong>🧠豆知識:</strong><br>通常、この前置きの後には \"Suck it!\" のような2単語の侮辱が続きます。それを子供のお説教に置き換えることで、ボニーらしいユーモアを生んでいます。",
+      "audioUrl": "https://Amphibian333.github.io/bonnie_vl44.mp3"
+    }
+  ]
+}

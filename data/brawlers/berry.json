@@ -1,0 +1,325 @@
+{
+  "name": "ベリー",
+  "nameEn": "Berry",
+  "rarity": "hyper-rare",
+  "role": "support",
+  "quote": "＃現在は音声対応しておりません　We don't make mistakes, just happy little accidents.",
+  "iconUrl": "https://i.imgur.com/OaefVVd.png",
+  "voicelines": [
+    {
+      "id": "berry_vl1",
+      "quote": "Great, time for more humiliation.",
+      "translation": "最高だ、さらなる屈辱の時間だな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"humiliation\" は「屈辱、恥」。</li><li>\"Great\" は、ここでは完全に皮肉として使われています。最悪の状況に対して「素晴らしいね」と言うことで、強い不満や自嘲を表します。</li></ul><strong>英文法:</strong><br>皮肉の感嘆詞と、「Time for + 名詞」の構文が組み合わさっています。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl1.mp3"
+    },
+    {
+      "id": "berry_vl2",
+      "quote": "So amazing. Go, me.",
+      "translation": "なんて素晴らしいんだ。いけ、僕。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分のプレイを「素晴らしい（amazing）」と自画自賛しながらも、どこか気乗りしない様子で「いけ、僕（Go, me.）」と自分を鼓舞しています。</li><li>彼の自己陶酔と自己憐憫が入り混じった、複雑な性格を表しています。</li></ul><strong>英文法:</strong><br>感嘆文と、自分自身への命令文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl2.mp3"
+    },
+    {
+      "id": "berry_vl3",
+      "quote": "Ooh, stop horsing around!",
+      "translation": "おぉ、馬みたいに騒ぐのはやめて！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"horse around\" は、「馬のように騒々しくふざけ回る」という意味のイディオムです。</li><li>ユニコーンである彼が「馬」という言葉を使って相手を非難する、面白い言葉選びです。</li></ul><strong>英文法:</strong><br>動詞 \"Stop\" の後に、動名詞 \"horsing around\" が続いています。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl3.mp3"
+    },
+    {
+      "id": "berry_vl4",
+      "quote": "Wow, you didn't even try.",
+      "translation": "わぁ、君、本気も出してなかったね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が弱すぎたため、「君は挑戦すらしていなかった」と、軽蔑を込めて指摘しています。</li></ul><strong>英文法:</strong><br>\"didn't even ~\" は「～さえしなかった」という、最低限の行動すらなかったことを強調する否定表現です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl4.mp3"
+    },
+    {
+      "id": "berry_vl5",
+      "quote": "Ooh, peace at last.",
+      "translation": "あぁ、やっと平和が訪れた。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"at last\" は「ついに、やっと」。</li><li>騒がしい戦いが終わり、待ち望んだ平穏が訪れたことへの安堵を表しています。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl5.mp3"
+    },
+    {
+      "id": "berry_vl6",
+      "quote": "All the colors of the rainbow!",
+      "translation": "虹のすべての色よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身の攻撃や存在が、虹のようにカラフルで素晴らしいものであると、詩的に表現しています。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl6.mp3"
+    },
+    {
+      "id": "berry_vl7",
+      "quote": "Let's melt your hopes and freeze your dreams.",
+      "translation": "君の希望を溶かし、君の夢を凍らせてあげよう。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「希望を溶かし（melt your hopes）」「夢を凍らせる（freeze your dreams）」という、非常に詩的で、しかし残酷な脅し文句です。</li><li>相手の精神を完全に破壊することを予告しています。</li></ul><strong>英文法:</strong><br>\"Let's...\" で始まる提案の文です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl7.mp3"
+    },
+    {
+      "id": "berry_vl8",
+      "quote": "Sweet dreams are made of this.",
+      "translation": "素敵な夢は、これでできているのさ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは、1983年のイギリスの音楽デュオ、ユーリズミックスのメガヒット曲「Sweet Dreams (Are Made of This)」の有名な一節です。</li><li>自分の攻撃や存在こそが、「素敵な夢」を構成する要素なのだと、ミステリアスに語っています。</li></ul><strong>英文法:</strong><br>有名な楽曲の歌詞からの引用です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl8.mp3"
+    },
+    {
+      "id": "berry_vl9",
+      "quote": "Ugh, don't eat the horn.",
+      "translation": "うぅ、そのツノは食べないで。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ユニコーンの象徴である「ツノ（horn）」を食べないで、と懇願しています。彼のアイデンティティの危機を示唆する、ユニークなセリフです。</li></ul><strong>英文法:</strong><br>否定の命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl9.mp3"
+    },
+    {
+      "id": "berry_vl10",
+      "quote": "Why the long face? Oh, that's me.",
+      "translation": "なぜ浮かない顔をしてるんだい？ああ、それは僕か。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Why the long face?\" は、悲しそうな、あるいは不満げな顔をしている人にかける「どうして浮かない顔をしてるの？」という決まり文句です。</li><li>それを言った後で、「ああ、浮かない顔（long face）をしているのは僕自身だった」と気づく、自虐的なジョークです。ユニコーンである彼の、文字通り「長い顔」ともかかっています。</li></ul><strong>英文法:</strong><br>定型句を使った、自問自答のような表現です。<br><br><strong>🧠豆知識:</strong><br>このセリフは、ベリーのキャラクター性（常に悲しみに暮れている芸術家）を完璧に表現しています。自分の悲しみを他者に投影してしまい、後からそれが自分自身のことだと気づくという、彼の自己憐憫とユーモアのセンスが光る一言です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl10.mp3"
+    },
+    {
+      "id": "berry_vl11",
+      "quote": "Always with the self-destruction, ah.",
+      "translation": "いつも自己破壊と一緒だ、ああ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が常に「自己破壊的（self-destruction）」な傾向にあることを、嘆いています。彼の悲観的な性格が表れています。</li></ul><strong>英文法:</strong><br>\"Always with the ~\" は、「またいつもの～か」と、繰り返される出来事に呆れたり、うんざりしたりする際に使う口語表現です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl11.mp3"
+    },
+    {
+      "id": "berry_vl12",
+      "quote": "Crushing dreams and candy coating nightmares!",
+      "translation": "夢を打ち砕き、悪夢をキャンディでコーティング！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"crushing dreams\" は「夢を打ち砕くこと」。</li><li>\"candy coating nightmares\" は「悪夢をキャンディでコーティングする」。</li><li>彼の芸術が、人々の夢を破壊し、悪夢ですら甘いキャンディのように見せてしまう、というダークで独特な世界観を表しています。</li></ul><strong>英文法:</strong><br>二つの動名詞句を \"and\" で繋いでいます。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl12.mp3"
+    },
+    {
+      "id": "berry_vl13",
+      "quote": "Ain't no valley low eno-o-o-o-ough.",
+      "translation": "どんな低い谷も、低すぎることなんてなーいー。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>有名なモータウンのヒット曲「Ain't No Mountain High Enough」の歌詞「Ain't no valley low enough」を引用したものです。</li><li>歌うように、そして音を伸ばすことで、彼の感情的な、アーティストとしての一面を表現しています。</li></ul><strong>英文法:</strong><br>\"ain't no...\" は強い否定を表す口語表現です。有名な楽曲の歌詞からの引用です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl13.mp3"
+    },
+    {
+      "id": "berry_vl14",
+      "quote": "Rainbow sparkles, woo.",
+      "translation": "虹色のきらめき、うふっ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ユニコーンらしい、「虹色のきらめき（Rainbow sparkles）」というファンシーな言葉と、気だるい「woo」という感嘆詞のギャップが、彼のキャラクターを表しています。</li></ul><strong>英文法:</strong><br>名詞句と感嘆詞の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl14.mp3"
+    },
+    {
+      "id": "berry_vl15",
+      "quote": "Ow! Color me sad.",
+      "translation": "痛っ！悲しみの色に染めてくれ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Color me [形容詞]\" は、「私を～な色で塗ってくれ」という直訳から、「私は（～だと感じている）」という意味の、少し古風で文学的な表現です。</li><li>ダメージを受けた痛みを、「悲しみ」という感情の色に例えています。</li></ul><strong>英文法:</strong><br>命令文の形をとった、感情表現のイディオムです。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl15.mp3"
+    },
+    {
+      "id": "berry_vl16",
+      "quote": "What a colorful demise!",
+      "translation": "なんてカラフルな最期なんだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"demise\" は「終焉、死」。</li><li>自分が敗北したことすらも、「カラフルだ」と芸術的に表現する、彼らしい美学が込められています。</li></ul><strong>英文法:</strong><br>\"What a + 形容詞 + 名詞!\" の形の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl16.mp3"
+    },
+    {
+      "id": "berry_vl17",
+      "quote": "Ah, you got me.",
+      "translation": "ああ、やられたよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「やられた」「一本取られた」と、敗北を認める際に使われる一般的な口語表現です。</li></ul><strong>英文法:</strong><br>\"You have got me.\" が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl17.mp3"
+    },
+    {
+      "id": "berry_vl18",
+      "quote": "Rainbows and mayhem!",
+      "translation": "虹と大混乱！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「虹（Rainbows）」という美しくポジティブなものと、「大混乱（mayhem）」という破壊的なものを並べることで、彼の予測不能でカオスな性質を表しています。</li></ul><strong>英文法:</strong><br>二つの名詞を \"and\" で繋げた、スローガンのようなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl18.mp3"
+    },
+    {
+      "id": "berry_vl19",
+      "quote": "Time to turn that frown... further down.",
+      "translation": "そのしかめっ面を…もっと下に向ける時間だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"turn that frown upside down\"（そのしかめっ面をひっくり返せ＝笑顔になって）という、励ましの決まり文句を、意地悪にもじっています。</li><li>「しかめっ面を、さらに下へ」、つまり「もっと悲しい顔をさせてやる」という、ダークな脅し文句です。</li></ul><strong>英文法:</strong><br>有名なイディオムを、逆の意味になるように改変しています。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl19.mp3"
+    },
+    {
+      "id": "berry_vl20",
+      "quote": "In chaos, we find our true colors.",
+      "translation": "混沌の中にこそ、我々は本当の色を見出すのだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"true colors\" は「本当の姿、本性」。</li><li>混乱した状況（chaos）の中でこそ、人の本性が現れるという、彼の芸術的で哲学的な世界観を表すセリフです。</li></ul><strong>英文法:</strong><br>倒置構文（In chaos, ...）を使った、格言のような文です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl20.mp3"
+    },
+    {
+      "id": "berry_vl21",
+      "quote": "Art is pain.",
+      "translation": "芸術は、痛みだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>素晴らしい芸術は、苦痛や葛藤の中から生まれる、という芸術家たちの間で語られる哲学的な言葉です。</li></ul><strong>英文法:</strong><br>シンプルなSVCの文です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl21.mp3"
+    },
+    {
+      "id": "berry_vl22",
+      "quote": "Color me bad.",
+      "translation": "邪悪な色に染めてくれ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Color me [形容詞]\" 構文を使い、「私は悪いヤツだ」と宣言しています。</li></ul><strong>英文法:</strong><br>命令文の形をとった、自己紹介的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl22.mp3"
+    },
+    {
+      "id": "berry_vl23",
+      "quote": "Unicorn tears.",
+      "translation": "ユニコーンの涙。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の攻撃や、あるいは自分が流す涙を、ファンタジーの世界の貴重なアイテム「ユニコーンの涙」に例えています。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl23.mp3"
+    },
+    {
+      "id": "berry_vl24",
+      "quote": "Unicorn power activate!",
+      "translation": "ユニコーンパワー、起動！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>必殺技を使う時などに、自身の力が「起動する（activate）」と宣言する、アニメのヒーローのような掛け声です。</li></ul><strong>英文法:</strong><br>名詞句と動詞を組み合わせた、力強い宣言です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl24.mp3"
+    },
+    {
+      "id": "berry_vl25",
+      "quote": "War is my canvas, time to doodle!",
+      "translation": "戦争は僕のキャンバス、落書きの時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"canvas\" は絵を描くための「キャンバス」。</li><li>\"doodle\" は「（無意識に描く）落書き」。</li><li>激しい戦争ですら、自分にとっては芸術を創造するための場所に過ぎない、という芸術家としての世界観を表しています。</li></ul><strong>英文法:</strong><br>二つの文を並べて、自身の哲学を語っています。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl25.mp3"
+    },
+    {
+      "id": "berry_vl26",
+      "quote": "Prepare for a bitter dose of reality with a dash of... Berry.",
+      "translation": "苦い現実を味わう準備をしなさい…ベリー風味のね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"a bitter dose of reality\" は「現実の苦い一服」、つまり「厳しい現実」。</li><li>\"a dash of...\" は「ほんの少しの～」。</li><li>相手に厳しい現実を突きつけるが、そこにはほんの少し「ベリー」の味付けがしてある、と脅しています。</li></ul><strong>英文法:</strong><br>命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl26.mp3"
+    },
+    {
+      "id": "berry_vl27",
+      "quote": "Oh, the bitter taste of disgrace.",
+      "translation": "ああ、不名誉の苦い味。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"disgrace\" は「不名誉、屈辱」。</li><li>敗北した際の屈辱を、まるで何かを味わうかのように「苦い味（bitter taste）」と表現しています。</li></ul><strong>英文法:</strong><br>名詞句だけの、文学的な感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl27.mp3"
+    },
+    {
+      "id": "berry_vl28",
+      "quote": "My candy is not for kids.",
+      "translation": "僕のキャンディは子供向けじゃない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の攻撃（キャンディ）が、子供だましの甘いものではなく、大人向けの危険なものであると警告しています。</li></ul><strong>英文法:</strong><br>シンプルな否定文です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl28.mp3"
+    },
+    {
+      "id": "berry_vl29",
+      "quote": "We don't make mistakes, just happy little accidents.",
+      "translation": "我々は失敗しない、ただの幸せな偶然があるだけさ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは、アメリカの有名な画家であり、テレビ番組『ボブの絵画教室』のホストであったボブ・ロスの、非常に象徴的な決め台詞です。</li><li>「アートにおいて失敗というものは存在せず、それは『幸せな偶然（happy little accidents）』として、新たな創造の一部になるのだ」という、彼の優しい哲学を表しています。</li></ul><strong>英文法:</strong><br>\"not A, just B\" の形で、「Aではなく、ただBなのだ」と、物事の見方を転換させています。<br><br><strong>🧠豆知識:</strong><br>ボブ・ロスのこの言葉は、多くの人々に影響を与えました。ベリーがこのセリフを言うことで、彼が単に悲しんでいるだけでなく、芸術家としての深い哲学を持っていることが強調されます。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl29.mp3"
+    },
+    {
+      "id": "berry_vl30",
+      "quote": "Here comes an extra scoop of Berry sugar.",
+      "translation": "ベリーシュガーのおかわりが来るよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"an extra scoop of\" は、アイスクリームなどの「おかわり一杯分」。</li><li>追加の攻撃を、甘い「ベリーシュガー」のおかわりに例えています。</li></ul><strong>英文法:</strong><br>\"Here comes...\" の倒置構文です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl30.mp3"
+    },
+    {
+      "id": "berry_vl31",
+      "quote": "So many emotions.",
+      "translation": "たくさんの感情が…。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>喜び、悲しみ、怒りなど、様々な感情が自分の中で渦巻いている、複雑な心境を表しています。</li></ul><strong>英文法:</strong><br>\"so many...\" で「なんてたくさんの～」という感嘆を表します。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl31.mp3"
+    },
+    {
+      "id": "berry_vl32",
+      "quote": "Salty, sour and sore.",
+      "translation": "しょっぱくて、酸っぱくて、そして痛い。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"salty\"（しょっぱい、イライラしてる）、\"sour\"（酸っぱい、不機嫌な）、\"sore\"（痛い）という、ネガティブな感情や状態を表す言葉を並べています。</li><li>敗北した時の、心と体の状態を表現しています。</li></ul><strong>英文法:</strong><br>三つの形容詞を並べた、リズミカルなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl32.mp3"
+    },
+    {
+      "id": "berry_vl33",
+      "quote": "I like to beat the brush.",
+      "translation": "筆を叩くのが好きなんだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これも画家ボブ・ロスの有名な行動・セリフの引用です。彼は絵の具を洗った筆を、イーゼルなどに叩きつけて乾かす際に「beat the devil out of it（悪魔を叩き出す）」と言っていました。</li></ul><strong>英文法:</strong><br>シンプルなSVOの文です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl33.mp3"
+    },
+    {
+      "id": "berry_vl34",
+      "quote": "Taking the sour of the sweet, getting back on my feet.",
+      "translation": "甘いものから酸っぱさを取り、また立ち上がる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sweet\" と \"feet\" で韻を踏んだ、詩的なセリフです。</li><li>良いこと（sweet）の中にある悪い部分（sour）を乗り越えて、「また立ち直る（getting back on my feet）」という、前向きな決意を表しています。</li></ul><strong>英文法:</strong><br>二つの動名詞句を並べています。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl34.mp3"
+    },
+    {
+      "id": "berry_vl35",
+      "quote": "Sweet and sour, candy is my power.",
+      "translation": "甘くて酸っぱい、キャンディが僕のパワーさ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sour\" と \"power\" で韻を踏んでいます。</li><li>自分の性格の二面性（甘さと酸っぱさ）と、力の源（キャンディ）を、キャッチーに自己紹介しています。</li></ul><strong>英文法:</strong><br>二つの文を並べた、スローガンのようなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl35.mp3"
+    },
+    {
+      "id": "berry_vl36",
+      "quote": "Time for candy. Ugh, gotta watch out for Mandy.",
+      "translation": "キャンディの時間だ。うぅ、マンディには気をつけないと。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>キャンディランドの同僚（あるいは上司）である「マンディ」に、警戒心を持っていることがわかるセリフです。</li></ul><strong>英文法:</strong><br>\"gotta watch out for ~\" は「～に気をつけなければならない」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl36.mp3"
+    },
+    {
+      "id": "berry_vl37",
+      "quote": "Not gonna sugarcoat it.",
+      "translation": "オブラートには包まないよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sugarcoat\" は、文字通り「砂糖でコーティングする」ことから転じて、「（厳しい事実などを）耳障りよく言う、オブラートに包む」という意味の動詞です。</li><li>「はっきり言うけど」という、前置きのセリフです。</li></ul><strong>英文法:</strong><br>\"I am not gonna sugarcoat it.\" の主語とbe動詞が省略されています。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl37.mp3"
+    },
+    {
+      "id": "berry_vl38",
+      "quote": "It's gonna be a sweet ride! Ugh.",
+      "translation": "甘い旅になるぞ！…はぁ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"a sweet ride\" は「最高の乗り心地」、転じて「最高の経験」。</li><li>一度はポジティブなことを言いながら、最後の「Ugh」というため息で、やはり気乗りしない、という彼の複雑な心境を表しています。</li></ul><strong>英文法:</strong><br>未来を表す \"gonna\" を使った文と、間投詞の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl38.mp3"
+    },
+    {
+      "id": "berry_vl39",
+      "quote": "Happy horsey.",
+      "translation": "ハッピーなウマさん。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分（ユニコーン）のことを、子供っぽい言葉で「幸せなウマさん」と表現しています。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl39.mp3"
+    },
+    {
+      "id": "berry_vl40",
+      "quote": "Berry nice to meet you, sparkles, ugh.",
+      "translation": "ベリーナイス・トゥ・ミーチュー、キラキラちゃん…はぁ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Very nice to meet you\"（はじめまして）の \"Very\" を、自分の名前「ベリー」にかけたダジャレです。</li><li>\"sparkles\" は、相手を「キラキラちゃん」と呼ぶ、皮肉のこもったニックネームかもしれません。</li></ul><strong>英文法:</strong><br>挨拶の定型句をもじったものです。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl40.mp3"
+    },
+    {
+      "id": "berry_vl41",
+      "quote": "Some tears for dessert.",
+      "translation": "デザートに涙をどうぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を倒した後、「デザートとして、この涙でも味わうがいい」と、自分の悲しみを相手に差し出すような、詩的でダークなセリフです。</li></ul><strong>英文法:</strong><br>名詞句だけの、提案のような文です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl41.mp3"
+    },
+    {
+      "id": "berry_vl42",
+      "quote": "Sweet dreams!",
+      "translation": "良い夢を！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「良い夢を見てね」という、おやすみの挨拶です。</li><li>相手をノックアウトした際に、「永遠の眠りにつけ」という皮肉を込めて使っています。</li></ul><strong>英文法:</strong><br>定型化された挨拶表現です。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl42.mp3"
+    },
+    {
+      "id": "berry_vl43",
+      "quote": "The sound of salty tears brings sweetness to my ears.",
+      "translation": "しょっぱい涙の音は、僕の耳に甘美な響きをもたらす。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"salty tears\" は「しょっぱい涙」、つまり悲しみの涙。</li><li>他人の悲しみが、自分にとっては「甘い（sweetness）」と感じる、という彼のサディスティックでダークな一面を表す、詩的なセリフです。</li></ul><strong>英文法:</strong><br>\"tears\" と \"ears\" で韻を踏んでいます。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl43.mp3"
+    },
+    {
+      "id": "berry_vl44",
+      "quote": "Yummy gummy, what a dummy.",
+      "translation": "おいしいグミ、なんてマヌケ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"gummy\"（グミ）と \"dummy\"（マヌケ）で韻を踏んだ、リズミカルな侮辱の言葉です。</li></ul><strong>英文法:</strong><br>名詞句を二つ並べています。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl44.mp3"
+    },
+    {
+      "id": "berry_vl45",
+      "quote": "Sour, not sweet, enjoy your defeat.",
+      "translation": "酸っぱくて、甘くない、君の敗北を楽しんで。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sweet\" と \"defeat\" で韻を踏んでいます。</li><li>自分が「甘くない（not sweet）」存在であり、相手に「敗北（defeat）を楽しむ」よう皮肉を言っています。</li></ul><strong>英文法:</strong><br>形容詞句と、命令文で構成されています。",
+      "audioUrl": "https://Amphibian333.github.io/berry_vl45.mp3"
+    }
+  ]
+}

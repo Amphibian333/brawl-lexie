@@ -1,0 +1,185 @@
+{
+  "name": "パム",
+  "nameEn": "Pam",
+  "rarity": "hyper-rare",
+  "role": "support",
+  "quote": "Wham bam, here comes Pam!",
+  "iconUrl": "https://i.imgur.com/oepAM2Z.png",
+  "voicelines": [
+    {
+      "id": "pam_vl1",
+      "quote": "My tools ain't for fools!",
+      "translation": "あたしの道具は素人お断りだよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"tools\"（道具）と \"fools\"（愚か者）で韻を踏んだ、リズミカルな警告です。</li><li>自分の商売道具に強い誇りを持ち、それを軽々しく扱う者を許さない職人気質を表しています。</li></ul><strong>英文法:</strong><br>\"ain't\" は \"are not\" の非常に口語的で、少し品のない響きを持つ短縮形です。パムの大雑把な性格に合っています。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl1.mp3"
+    },
+    {
+      "id": "pam_vl2",
+      "quote": "Top of the scrap heap.",
+      "translation": "ガラクタの山のてっぺんよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"scrap heap\" は「ガラクタの山」。</li><li>文字通りガラクタの山の上に立っていることと、「ガラクタ集め（スクラップヤード）の世界では自分が一番だ」という比喩的な意味をかけています。</li></ul><strong>英文法:</strong><br>\"I'm at the top of the scrap heap.\" などの文が省略された、名詞句だけの表現です。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl2.mp3"
+    },
+    {
+      "id": "pam_vl3",
+      "quote": "Oh, you'll pay for this!",
+      "translation": "ああ、高くつくわよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の行動に対して、「その代償は払ってもらうからな」と、強い報復を誓う脅し文句です。</li></ul><strong>英文法:</strong><br>未来を表す \"will\" を使った、強い意志を示す文です。\"pay for ~\" は「～の代金を払う」の他に「～の報いを受ける」という意味もあります。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl3.mp3"
+    },
+    {
+      "id": "pam_vl4",
+      "quote": "Don't be crying.",
+      "translation": "泣くんじゃないよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が泣いたり弱音を吐いたりしていることに対して、突き放すように、あるいは母親のように諭すセリフです。</li></ul><strong>英文法:</strong><br>\"Don't cry.\" よりも、\"Don't be crying.\"（泣いている状態になるな）と言うことで、少しだけ持続的なニュアンスが出ます。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl4.mp3"
+    },
+    {
+      "id": "pam_vl5",
+      "quote": "No!",
+      "translation": "ダメ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>強い拒否や、危険を察知した際の警告を表す、直接的な感嘆詞です。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl5.mp3"
+    },
+    {
+      "id": "pam_vl6",
+      "quote": "I'll fix you up!",
+      "translation": "あたしがアンタを直してやるよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fix someone up\" は「～を修理する」「～を治療する」「～を元気づける」といった意味を持つ句動詞です。</li><li>味方を回復させる時は文字通り、敵を倒した時は「（あの世へ行けるよう）修理してやる」といった皮肉な意味になります。</li></ul><strong>英文法:</strong><br>未来形 \"I will\" を使った、意志の強い発言です。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl6.mp3"
+    },
+    {
+      "id": "pam_vl7",
+      "quote": "Let's get scrappy!",
+      "translation": "ガラクタパワーでいくよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"scrappy\" は「喧嘩好きな、闘志あふれる」と「ガラクタでできた」という二重の意味を持ちます。</li><li>「闘志を燃やして戦おう！」と仲間を鼓舞する掛け声です。</li></ul><strong>英文法:</strong><br>\"Let's get + 形容詞\" は「～な状態になろう」という、行動の開始を促す表現です。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl7.mp3"
+    },
+    {
+      "id": "pam_vl8",
+      "quote": "This is my scrap yard.",
+      "translation": "ここはあたしのスクラップ置き場さ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"scrap yard\" は「廃品置き場」。</li><li>戦場を自分の縄張りだと宣言し、敵はここで「スクラップ」になる運命だと警告しています。</li></ul><strong>英文法:</strong><br>「This is...」で始まる、所有を主張するシンプルな文です。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl8.mp3"
+    },
+    {
+      "id": "pam_vl9",
+      "quote": "Nuts and bolts!",
+      "translation": "こんちくしょう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>文字通りは「ナットとボルト」ですが、驚きや苛立ち、失望を表す感嘆詞として使われることがあります。「ちくしょう！」というニュアンスです。</li></ul><strong>英文法:</strong><br>名詞句が、感嘆詞として機能する口語表現です。<br><br><strong>🧠豆知識:</strong><br>\"Oh, nuts!\" も同様に「しまった！」「ちぇっ！」といった軽い失望を表す感嘆詞として使われます。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl9.mp3"
+    },
+    {
+      "id": "pam_vl10",
+      "quote": "Nothing to salvage.",
+      "translation": "もう使い物になる部品は無いね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"salvage\" は「（廃品などから）使えるものを回収する」という意味。</li><li>相手を完全に破壊し尽くし、もはや再利用の価値すらない、と宣告する冷徹なセリフです。</li></ul><strong>英文法:</strong><br>「動詞の原形」を修飾する不定詞の形容詞的用法です。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl10.mp3"
+    },
+    {
+      "id": "pam_vl11",
+      "quote": "Ah, scrap it.",
+      "translation": "あーあ、もうお払い箱だね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"scrap it\" はスラングで「それを捨てる」「それを諦める」「それをやめる」という意味です。</li><li>相手を倒した後、「もうアンタは用済みだ」と言い放っています。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文の形をとった、口語的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl11.mp3"
+    },
+    {
+      "id": "pam_vl12",
+      "quote": "Repair, reuse, recycle!",
+      "translation": "修理、再利用、リサイクル！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>環境保護の標語である3R「Reduce（削減）、Reuse（再利用）、Recycle（リサイクル）」を、修理工である自身の信条に合わせて「Repair（修理）」に置き換えた、ユニークなスローガンです。</li></ul><strong>英文法:</strong><br>動詞の原形を3つ並べた、標語らしいリズミカルなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl12.mp3"
+    },
+    {
+      "id": "pam_vl13",
+      "quote": "Wham bam, here comes Pam!",
+      "translation": "ドッカンバーン、パムの登場だよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Wham bam\" は、衝撃音や素早い一連の行動を表す擬音語です。</li><li>\"Here comes Pam!\" は「パムが来たぞ！」と、自身の登場を派手にアピールしています。全体で韻を踏んだ、キャッチーな決め台詞です。</li></ul><strong>英文法:</strong><br>擬音語と、「Here comes + 主語」という倒置構文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl13.mp3"
+    },
+    {
+      "id": "pam_vl14",
+      "quote": "Rubbish rampage!",
+      "translation": "ガラクタ大乱闘！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Rubbish\" は、主にイギリス英語で「ゴミ、ガラクタ」を意味します。</li><li>\"Rampage\" は「大暴れ」。自身の攻撃が、ガラクタの山がなだれ込むように破壊的であることを表現しています。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」の組み合わせによる、技名のようなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl14.mp3"
+    },
+    {
+      "id": "pam_vl15",
+      "quote": "Pam groans",
+      "translation": "（パムがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>ダメージを受けた時などに発する、苦しそうなうめき声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"groan\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl15.mp3"
+    },
+    {
+      "id": "pam_vl16",
+      "quote": "Not tough enough!",
+      "translation": "タフさが足りないね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が自分の攻撃に耐えられなかったり、弱かったりした時に、「もっと頑丈じゃないとダメだね」と挑発的に言い放つセリフです。</li></ul><strong>英文法:</strong><br>\"You are not tough enough.\" の主語と動詞が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl16.mp3"
+    },
+    {
+      "id": "pam_vl17",
+      "quote": "It's just a scratch.",
+      "translation": "こんなのかすり傷だよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分がダメージを受けても、「ただの引っかき傷だ」と強がる、タフなキャラクターの定番セリフです。</li></ul><strong>英文法:</strong><br>\"scratch\" は「引っかき傷」。「It's just a...\" で「それはただの～にすぎない」と、事態を軽視する表現です。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl17.mp3"
+    },
+    {
+      "id": "pam_vl18",
+      "quote": "Come on, we can do this!",
+      "translation": "さあ、あたしたちならやれるよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Come on\" は「さあ」「しっかりしろ」と仲間を励ます掛け声。</li><li>チームを鼓舞し、団結を促す、頼れる母親のようなポジティブなセリフです。</li></ul><strong>英文法:</strong><br>呼びかけと、「can」を使った可能性を示す文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl18.mp3"
+    },
+    {
+      "id": "pam_vl19",
+      "quote": "Come to mama!",
+      "translation": "ママのところにおいで！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>回復タレットを置いた時などに、味方を「子供」のように呼び寄せるセリフです。パムの「ママ」としてのキャラクター性を象徴しています。</li></ul><strong>英文法:</strong><br>\"Come to...\" で始まる命令文です。\"mama\" は母親を指す親しみを込めた言葉です。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl19.mp3"
+    },
+    {
+      "id": "pam_vl20",
+      "quote": "Who's your mama?",
+      "translation": "アンタのママは誰だい？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を圧倒した時に「誰がお前の主人様だか分かったか？」と問い詰めるような、非常に高圧的で挑発的なスラングです。</li><li>自分が相手より完全に優位な存在（母親のように支配的な存在）であることを示しています。</li></ul><strong>英文法:</strong><br>疑問文の形をしていますが、答えを求めるものではなく、相手を威圧するための修辞的な問いかけです。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl20.mp3"
+    },
+    {
+      "id": "pam_vl21",
+      "quote": "Pam screams",
+      "translation": "（パムが叫ぶ）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>大きなダメージを受けた時や、ノックアウトされた時の悲鳴を表します。</li></ul><strong>英文法:</strong><br>動詞 \"scream\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl21.mp3"
+    },
+    {
+      "id": "pam_vl22",
+      "quote": "You got scrapped.",
+      "translation": "あんたはスクラップにされたのさ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を倒した際に、彼らが使い物にならない「スクラップ（鉄くず）」になった、と勝利を宣言するセリフです。修理工であるパムらしい言葉遊びです。</li></ul><strong>英文法:</strong><br>\"get + 過去分詞\" は受動態を表す口語的な表現で、「スクラップにされる」という状態の変化を示します。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl22.mp3"
+    },
+    {
+      "id": "pam_vl23",
+      "quote": "Ooh, mama's gotta rest.",
+      "translation": "あー、ママも一休みしないとね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>戦闘後やダメージを受けた後など、自分が疲れていることを示し、休憩の必要性を訴えるセリフです。</li></ul><strong>英文法:</strong><br>\"mama's gotta rest\" は \"mama has got to rest\" の口語的な短縮形です。\"gotta\" は「～しなければならない」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl23.mp3"
+    },
+    {
+      "id": "pam_vl24",
+      "quote": "Time to fix this mess!",
+      "translation": "このゴタゴタを片付ける時間だよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"mess\" は「散らかった状態、混乱」。</li><li>戦場の乱れた状況を、修理工として「修理して（fix）」片付けようという意欲を示すセリフです。</li></ul><strong>英文法:</strong><br>「Time to + 動詞の原形」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl24.mp3"
+    },
+    {
+      "id": "pam_vl25",
+      "quote": "Aw, banana oil.",
+      "translation": "あらまあ、くだらないね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Banana oil!\" は、1920年代頃に流行したアメリカのスラングで、「ばかげてる！」「くだらない！」「そんなのお世辞だろ！」といった、相手の言動への不信や不満を表す言葉です。</li></ul><strong>英文法:</strong><br>名詞句が、感嘆詞として機能する古いスラングです。<br><br><strong>🧠豆知識:</strong><br>このスラングの語源は諸説ありますが、バナナの香りをつけた安価な模造品があったことから、「偽物、くだらないもの」という意味で使われるようになったと言われています。",
+      "audioUrl": "https://Amphibian333.github.io/pam_vl25.mp3"
+    }
+  ]
+}

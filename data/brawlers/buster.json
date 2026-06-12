@@ -1,0 +1,248 @@
+{
+  "name": "バスター",
+  "nameEn": "Buster",
+  "rarity": "ultra-rare",
+  "role": "tank",
+  "quote": "Blockbuster!",
+  "iconUrl": "https://i.imgur.com/9xj4zll.png",
+  "voicelines": [
+    {
+      "id": "buster_vl1",
+      "quote": "Time to start the show!",
+      "translation": "ショーの始まりだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>さあ、上映開始！</li><li>映写技師のバスターにとって、バトルフィールドは巨大なスクリーン。主役はもちろん自分です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl1.mp3"
+    },
+    {
+      "id": "buster_vl2",
+      "quote": "Blockbuster!",
+      "translation": "ブロックバスター！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「大ヒット映画」と「攻撃をブロックしてぶっ壊す（Bust）」をかけた最高の決め台詞。</li><li>ウルトで弾き返した時に叫びたい！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl2.mp3"
+    },
+    {
+      "id": "buster_vl3",
+      "quote": "I ain't got time for pain.",
+      "translation": "痛みなんかに構ってるヒマはねえ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>80年代のアクション映画スターみたいな渋いセリフ。</li><li>「撃たれたけど蚊に刺された程度だな」みたいなタフさを感じさせます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl3.mp3"
+    },
+    {
+      "id": "buster_vl4",
+      "quote": "Let's hope for a better sequel!",
+      "translation": "もっと良い続編を期待しようぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けた試合を「駄作映画」に例えるセンス！</li><li>「次回作（次のマッチ）はもっと面白くなるはずさ」というポジティブな敗北ボイスです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl4.mp3"
+    },
+    {
+      "id": "buster_vl5",
+      "quote": "Oh man, this is the worst!",
+      "translation": "おいおい、こりゃ最悪だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画の主人公が絶体絶命のピンチで言いそうなセリフ。</li><li>ピンチすらもエンタメにしちゃうバスターの余裕が見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl5.mp3"
+    },
+    {
+      "id": "buster_vl6",
+      "quote": "I will protect you!",
+      "translation": "俺が君を守る！",
+      "explanation": "<strong>解説:</strong><br><ul><li>タンク役の鏡！</li><li>味方の前に立って盾を展開する時に言われたら、惚れてしまうこと間違いなしのイケメンボイスです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl6.mp3"
+    },
+    {
+      "id": "buster_vl7",
+      "quote": "Lights off, it's showtime!",
+      "translation": "照明を消せ、ショータイムだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画館で照明が落ちて、ワクワクするあの瞬間。</li><li>ここからバスター劇場の開幕です！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl7.mp3"
+    },
+    {
+      "id": "buster_vl8",
+      "quote": "Box office smash!",
+      "translation": "興行的大ヒット！",
+      "explanation": "<strong>解説:</strong><br><ul><li>キルを取った時のドヤ顔が見える一言。</li><li>「今のプレイ、興行収入100億円間違いなしだろ！」みたいな自画自賛です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl8.mp3"
+    },
+    {
+      "id": "buster_vl9",
+      "quote": "Hanging on till the break of dawn.",
+      "translation": "夜明けまで持ちこたえるぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ゾンビ映画とかで籠城戦をしてる時の気分。</li><li>耐久力のあるバスターなら、本当に夜明けまで耐え抜きそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl9.mp3"
+    },
+    {
+      "id": "buster_vl10",
+      "quote": "No talkin' during the movie!",
+      "translation": "映画の最中はおしゃべり禁止だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>映写技師らしいマナー指導。</li><li>うるさい敵（攻撃してくる敵）を黙らせる時に使うと皮肉が効いててグッド！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl10.mp3"
+    },
+    {
+      "id": "buster_vl11",
+      "quote": "Time for a rerun.",
+      "translation": "再放送の時間だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられても「再放送（リスポーン）」があるから大丈夫。</li><li>何度でも蘇って、同じ映画を見せてやるぜ！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl11.mp3"
+    },
+    {
+      "id": "buster_vl12",
+      "quote": "By the power of cinema!",
+      "translation": "シネマの力にかけて！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「グレスコル！」みたいなヒーローの変身・必殺技の掛け声のパロディ。</li><li>映画の力は無限大です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl12.mp3"
+    },
+    {
+      "id": "buster_vl13",
+      "quote": "Tickets, please!",
+      "translation": "チケットを拝見！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵に近づく時の「ここから先は有料だぜ？」みたいな威圧感。</li><li>チケット（実力）がない奴は通しません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl13.mp3"
+    },
+    {
+      "id": "buster_vl14",
+      "quote": "Star of my own movie.",
+      "translation": "俺自身の映画のスターさ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「人生という映画の主役は自分だ」という、ちょっとカッコいいナルシスト発言。</li><li>MVPを取った時にぴったり。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl14.mp3"
+    },
+    {
+      "id": "buster_vl15",
+      "quote": "I felt nothing!",
+      "translation": "何も感じなかったぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ダメージを受けた時の強がり。「蚊が止まったかと思ったわ」レベルの煽り耐性です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl15.mp3"
+    },
+    {
+      "id": "buster_vl16",
+      "quote": "Blinded by the light!",
+      "translation": "光で目がくらんだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>プロジェクターの強烈な光で目くらまし！</li><li>有名な洋楽のタイトルでもあります。バスターは音楽も詳しそう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl16.mp3"
+    },
+    {
+      "id": "buster_vl17",
+      "quote": "I ran outta film!",
+      "translation": "フィルムが切れちまった！",
+      "explanation": "<strong>解説:</strong><br><ul><li>弾切れ（リロード中）か、体力が尽きた時のセリフ。</li><li>映写技師にとっては致命的なミスです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl17.mp3"
+    },
+    {
+      "id": "buster_vl18",
+      "quote": "Come with me if you wanna live.",
+      "translation": "生きたければ、俺についてこい。",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『ターミネーター』の名台詞！</li><li>これを言いながら味方を守るシールドを展開するのが、バスター使いの夢です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl18.mp3"
+    },
+    {
+      "id": "buster_vl19",
+      "quote": "Enjoy the show!",
+      "translation": "ショーを楽しみな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を倒しながら余裕の一言。</li><li>「俺の活躍を特等席で見せてやるよ（倒れながらな！）」というニュアンス。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl19.mp3"
+    },
+    {
+      "id": "buster_vl20",
+      "quote": "I brought the pain, I took the gain!",
+      "translation": "痛みをもたらし、利益は俺がいただく！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「お前には痛みを、俺には勝利を」。韻を踏んでてラップみたいでカッコいい！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl20.mp3"
+    },
+    {
+      "id": "buster_vl21",
+      "quote": "Ugh, was that meant to hurt?",
+      "translation": "うっ、今の、痛がらせるつもりだったのか？",
+      "explanation": "<strong>解説:</strong><br><ul><li>攻撃を食らってもピンピンしてる時の煽り。</li><li>「本気で殴ったの？くすぐったいんだけど」と言いたげです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl21.mp3"
+    },
+    {
+      "id": "buster_vl22",
+      "quote": "Hope you enjoyed your dead time story.",
+      "translation": "君が死ぬまでの物語、楽しんでくれたかな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ベッドタイム・ストーリー（寝る前のお話）」を「デッドタイム・ストーリー」に変えたブラックジョーク。</li><li>おやすみなさい、永遠にな！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl22.mp3"
+    },
+    {
+      "id": "buster_vl23",
+      "quote": "Let's rewind.",
+      "translation": "巻き戻そうぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ミスった時に「今のナシ！」って言いたい気持ち。</li><li>ビデオテープ世代にしか通じないかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl23.mp3"
+    },
+    {
+      "id": "buster_vl24",
+      "quote": "Come by my side, no need to hide.",
+      "translation": "俺のそばに来い、隠れる必要はない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺が守ってやるから出ておいで」という頼もしい呼びかけ。</li><li>隠れてる味方に安心感を与えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl24.mp3"
+    },
+    {
+      "id": "buster_vl25",
+      "quote": "Welcome to the screening.",
+      "translation": "上映会へようこそ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦闘開始の挨拶。「これからお前がやられるシーンを上映するぜ」という皮肉かもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl25.mp3"
+    },
+    {
+      "id": "buster_vl26",
+      "quote": "No pain, no gain!",
+      "translation": "痛みなくして、得るものなし！",
+      "explanation": "<strong>解説:</strong><br><ul><li>筋トレ界隈でも有名な格言。</li><li>ダメージを受けるタンク役だからこそ、説得力が増す言葉です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl26.mp3"
+    },
+    {
+      "id": "buster_vl27",
+      "quote": "You got exposed.",
+      "translation": "正体がバレたな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>草むらに隠れてる敵を見つけた時などに。</li><li>カメラの「露出（Exposure）」ともかかってる上手い表現です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl27.mp3"
+    },
+    {
+      "id": "buster_vl28",
+      "quote": "Uh, I'm gonna need a bigger projector.",
+      "translation": "あー、もっとデカいプロジェクターが必要だな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『ジョーズ』の名台詞「もっと大きな船が必要だ」のパロディ。</li><li>とんでもない強敵に出会った時のリアクションです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl28.mp3"
+    },
+    {
+      "id": "buster_vl29",
+      "quote": "Let's go to the danger zone!",
+      "translation": "デンジャーゾーンへ行こうぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『トップガン』のテーマ曲！</li><li>危険な場所ほど燃える、アクションスターの魂が叫んでます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl29.mp3"
+    },
+    {
+      "id": "buster_vl30",
+      "quote": "Ow!",
+      "translation": "うわっ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>シンプルなダメージボイス。</li><li>演技じゃなくて素で痛がってる感じがします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl30.mp3"
+    },
+    {
+      "id": "buster_vl31",
+      "quote": "I'm a lean, mean projection machine.",
+      "translation": "俺は無駄なく、手強い、映写機マシンだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「戦闘マシーン」をもじった言葉遊び。</li><li>映写機担いで戦場を駆け回る、唯一無二の存在です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl31.mp3"
+    },
+    {
+      "id": "buster_vl32",
+      "quote": "Gone in a flash.",
+      "translation": "一瞬で消え去った。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を一瞬で倒した時、あるいは自分が瞬殺された時に。</li><li>映画のワンシーンのように儚いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl32.mp3"
+    },
+    {
+      "id": "buster_vl33",
+      "quote": "Keep the change.",
+      "translation": "お釣りはとっときな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『ホーム・アローン』などでお馴染みの、悪党を倒した後の捨て台詞。</li><li>キルした後に言うと最高にクール！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl33.mp3"
+    },
+    {
+      "id": "buster_vl34",
+      "quote": "Yeah!",
+      "translation": "よっしゃ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>気合十分！勝利の雄叫び！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buster_vl34.mp3"
+    }
+  ]
+}

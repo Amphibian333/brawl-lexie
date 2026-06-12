@@ -1,0 +1,213 @@
+{
+  "name": "ゲイル",
+  "nameEn": "Gale",
+  "rarity": "hyper-rare",
+  "role": "support",
+  "quote": "Slow and steady wins the race!",
+  "iconUrl": "https://i.imgur.com/bfp9FOM.png",
+  "voicelines": [
+    {
+      "id": "gale_vl1",
+      "quote": "No rest for the wicked! Heh heh heh.",
+      "translation": "悪人に休息はないんじゃな！ヘッヘッヘ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"No rest for the wicked\" は「悪人に休みなし」という意味の、聖書に由来することわざです。</li><li>転じて、「働き者は休むヒマがない」「次から次へとやることがある」という、多忙な状況を嘆く際の決まり文句として使われます。</li></ul><strong>英文法:</strong><br>ことわざとして定着している名詞句です。<br><br><strong>🧠豆知識:</strong><br>勤勉な（しかし少し不平不満を言う）老人であるゲイルの、自身の境遇を皮肉っぽく語るセリフです。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl1.mp3"
+    },
+    {
+      "id": "gale_vl2",
+      "quote": "You showed them, Gale, you showed them all!",
+      "translation": "見せてやったわい、ゲイル、皆に見せつけてやったわい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"show them\" は「彼らに見せる」ですが、ここでは「実力を見せつける」「思い知らせる」というニュアンスです。</li><li>自分自身を「ゲイル」と三人称で呼び、自分の活躍を褒め称える、満足げなセリフです。</li></ul><strong>英文法:</strong><br>過去形の文を繰り返し、自分を鼓舞しています。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl2.mp3"
+    },
+    {
+      "id": "gale_vl3",
+      "quote": "Ooh, that smarts!",
+      "translation": "うぅ、こりゃあ、ちと痛むわい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"That smarts!\" は、「それが痛む！」という意味の、少し古風な表現です。</li><li>動詞の \"smart\" は「（鋭く）ズキズキ痛む、ヒリヒリする」という意味を持ちます。</li></ul><strong>英文法:</strong><br>主語 \"That\" に、動詞 \"smart\" の三人称単数現在形が続いています。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl3.mp3"
+    },
+    {
+      "id": "gale_vl4",
+      "quote": "Heh-hey!",
+      "translation": "ヘッヘイ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>喜びや、何かうまくいった時の、老人らしい少ししゃがれた掛け声です。</li></ul><strong>英文法:</strong><br>感情を表現する感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl4.mp3"
+    },
+    {
+      "id": "gale_vl5",
+      "quote": "Kids today.",
+      "translation": "近頃の若いもんは。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>年長者が、若者の行動や考え方に呆れたり、不満を漏らしたりする際の典型的な決まり文句です。</li></ul><strong>英文法:</strong><br>\"Kids today...\" の後に、「are so reckless（は本当に無鉄砲だ）」などの文が省略されています。名詞句だけで、嘆きや呆れの感情を表現します。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl5.mp3"
+    },
+    {
+      "id": "gale_vl6",
+      "quote": "What does this button do?",
+      "translation": "このボタンは何をするんじゃ？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>新しい機械や、見慣れない装置のボタンを前にして、その機能が分からず戸惑っている様子を表すセリフです。老人らしい、新しいものへの不慣れさを示しています。</li></ul><strong>英文法:</strong><br>Whatで始まる基本的な疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl6.mp3"
+    },
+    {
+      "id": "gale_vl7",
+      "quote": "I'm a-comin', I'm a-comin'.",
+      "translation": "今行くぞ、今行くぞい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"a-comin'\" は、\"coming\" を意味する、非常に古風、あるいはアメリカ南部などの方言的な表現です。</li><li>老人キャラクターを際立たせるための、意図的な言葉遣いです。</li></ul><strong>英文法:</strong><br>「a- + 動詞のing形」は、かつて英語で使われていた古い文法の名残です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl7.mp3"
+    },
+    {
+      "id": "gale_vl8",
+      "quote": "Mr. P is gonna be so happy!",
+      "translation": "ミスターPがさぞお喜びになるじゃろう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の活躍や成果によって、雇い主である「ミスターP」が喜ぶだろう、と期待しているセリフです。彼の忠実な従業員としての一面がうかがえます。</li></ul><strong>英文法:</strong><br>\"gonna\" は \"going to\" の口語的な短縮形です。\"so happy\" で強い喜びを表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl8.mp3"
+    },
+    {
+      "id": "gale_vl9",
+      "quote": "Jeez Louise!",
+      "translation": "やれやれ、なんてこった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>驚きや苛立ち、呆れなどを表す感嘆詞です。</li><li>\"Jesus Christ!\" という強い驚きの表現を、直接的な言葉を避けて柔らかくした「minced oath（婉曲誓言）」の一つです。</li></ul><strong>英文法:</strong><br>意味を持たない感嘆詞として機能する、定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl9.mp3"
+    },
+    {
+      "id": "gale_vl10",
+      "quote": "Never too old to be a bit bold!",
+      "translation": "ちと大胆になるのに、歳を取りすぎたということはないんじゃ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"old\"（年老いた）と \"bold\"（大胆な）で韻を踏んだ、リズミカルなセリフです。</li><li>「いくつになっても、大胆な挑戦はできる」という、自身の老いをものともしない気概を示しています。</li></ul><strong>英文法:</strong><br>「too... to ~」構文の否定形で、「～するには…すぎる、ということはない」という意味になります。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl10.mp3"
+    },
+    {
+      "id": "gale_vl11",
+      "quote": "Gosh darn!",
+      "translation": "ちくしょうめ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>苛立ちや不満、軽い怒りを表す感嘆詞です。</li><li>これも \"God damn!\" という強いののしり言葉を避けるための「minced oath（婉曲誓言）」です。</li></ul><strong>英文法:</strong><br>古風で、コミカルな響きを持つ感嘆句です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl11.mp3"
+    },
+    {
+      "id": "gale_vl12",
+      "quote": "Hold onto your hats!",
+      "translation": "帽子をしっかり押さえるんじゃ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「帽子をしっかり掴んでおけ」が直訳。これから何か激しいことや、驚くようなことが起きるぞ、という際の決まり文句です。</li><li>ゲイルが必殺技で吹雪を起こす前の、完璧な前口上です。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文の形をとった、有名なイディオムです。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl12.mp3"
+    },
+    {
+      "id": "gale_vl13",
+      "quote": "Off I go.",
+      "translation": "さて、行くとするか。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「さあ、行こう」という意味ですが、\"I go off.\" を倒置させることで、少し芝居がかった、あるいは古風な響きになっています。</li></ul><strong>英文法:</strong><br>「副詞 + 主語 + 動詞」の倒置構文です。詩や物語などで、リズムを整えるために使われることがあります。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl13.mp3"
+    },
+    {
+      "id": "gale_vl14",
+      "quote": "Old Gale lived to tell the tale!",
+      "translation": "このわし、ゲイルは生き延びて語り草になったわい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"live to tell the tale\" は「（危険な経験を）生き延びて、その話を語り継ぐ」という意味のイディオムです。</li><li>自分が九死に一生を得たことを、大げさに、そして誇らしげに語っています。</li></ul><strong>英文法:</strong><br>定型化された慣用句です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl14.mp3"
+    },
+    {
+      "id": "gale_vl15",
+      "quote": "Ah shoot!",
+      "translation": "あぁ、しまった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>失敗した時や、うまくいかなかった時に使う、軽い失望や苛立ちを表す感嘆詞です。</li><li>\"Shit!\" という強い言葉を避けるための、丁寧な言い方です。</li></ul><strong>英文法:</strong><br>婉曲的な間投詞です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl15.mp3"
+    },
+    {
+      "id": "gale_vl16",
+      "quote": "Old Gale still got it!",
+      "translation": "このゲイルも、まだまだイケるわい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"still got it\" は「（年を取っても）まだ腕は衰えていない」「まだイケる」という意味の、非常にポピュラーなスラングです。</li></ul><strong>英文法:</strong><br>\"Old Gale still has got it.\" の \"has\" が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl16.mp3"
+    },
+    {
+      "id": "gale_vl17",
+      "quote": "Down I go.",
+      "translation": "わしは倒れるぞい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Off I go.\" と同じく、\"I go down.\"（私は倒れる）を倒置させた表現。</li><li>自分が倒されることを、少し芝居がかって、あるいは客観的に述べています。</li></ul><strong>英文法:</strong><br>「副詞 + 主語 + 動詞」の倒置構文です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl17.mp3"
+    },
+    {
+      "id": "gale_vl18",
+      "quote": "Old Gale is gonna make it snow!",
+      "translation": "このゲイル様が、雪を降らせてくれるわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身の必殺技である、雪を降らせる能力を宣言しています。</li><li>自分を三人称で呼ぶことで、尊大さや自信を表現しています。</li></ul><strong>英文法:</strong><br>\"gonna\" は \"going to\" の口語的な短縮形です。使役動詞 \"make\" を使った第5文型（SVOC）で、「it（天候）をsnow（雪が降る状態）にさせる」という意味になります。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl18.mp3"
+    },
+    {
+      "id": "gale_vl19",
+      "quote": "Slow and steady wins the race!",
+      "translation": "ゆっくり着実な者がレースに勝つんじゃ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>イソップ寓話『ウサギとカメ』の教訓として有名な、英語のことわざです。</li><li>「速さだけが重要なのではなく、着実に努力を続けることが最終的な勝利に繋がる」という意味です。</li></ul><strong>英文法:</strong><br>ことわざとして定着している、教訓的な文です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl19.mp3"
+    },
+    {
+      "id": "gale_vl20",
+      "quote": "Sweet and dandy like cotton candy!",
+      "translation": "綿菓子みたいに、甘くてダンディじゃ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"dandy\" と \"candy\" で韻を踏んだ、リズミカルでご機嫌なセリフです。</li><li>\"dandy\" は「素晴らしい、素敵な」という意味の少し古風な形容詞。\"cotton candy\" は「綿菓子」です。</li></ul><strong>英文法:</strong><br>\"like ~\"（～のように）を使った、比喩表現です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl20.mp3"
+    },
+    {
+      "id": "gale_vl21",
+      "quote": "Dagnabbit!",
+      "translation": "ちぇっ、いまいましい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これも \"God damn it!\" を婉曲的にした、古風な感嘆詞です。苛立ちや不満を表します。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl21.mp3"
+    },
+    {
+      "id": "gale_vl22",
+      "quote": "Don't blame me! I just work for Mr. P!",
+      "translation": "ワシを責めるな！ワシはミスターPのために働いとるだけじゃ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Don't blame me\" は「私を責めないで」。</li><li>自分の行動の責任を、雇い主である「ミスターP」に転嫁しようとする、少しコミカルな言い訳です。</li></ul><strong>英文法:</strong><br>否定の命令文と、理由を説明する文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl22.mp3"
+    },
+    {
+      "id": "gale_vl23",
+      "quote": "Well, blow me down.",
+      "translation": "おったまげたわい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「おったまげた！」「驚いた！」という意味の、非常に古風でコミカルな感嘆表現です。</li><li>文字通り「私を吹き倒してくれ」という意味ではなく、予期せぬ出来事に対する強い驚きを示します。</li></ul><strong>英文法:</strong><br>命令文の形をとっていますが、実際には命令として機能せず、感嘆詞のように使われる定型句（イディオム）です。<br><br><strong>🧠豆知識:</strong><br>このセリフは、アメリカの有名なアニメキャラクター「ポパイ」の決め台詞として非常に広く知られています。このフレーズを使うことで、ゲイルに「古き良き時代の労働者」という、親しみやすく少し滑稽なキャラクター性を与えています。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl23.mp3"
+    },
+    {
+      "id": "gale_vl24",
+      "quote": "I might be slow, but I can sure make it snow! Heh heh.",
+      "translation": "ワシは遅いかもしれんが、雪を降らせるのはお手の物じゃ！ヘッヘッ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"slow\"（遅い）と \"snow\"（雪）で韻を踏んでいます。</li><li>自分の弱点（動きが遅いこと）を認めつつも、それを上回る強み（雪を降らせる能力）があることをアピールしています。</li></ul><strong>英文法:</strong><br>\"might be ~\" で可能性を示し、\"but\" で逆接に繋ぎ、\"can sure ~\" で「確かに～できる」と能力を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl24.mp3"
+    },
+    {
+      "id": "gale_vl25",
+      "quote": "Oh Gale, you silly sausage!",
+      "translation": "おお、ゲイルや、このおバカさんめ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"silly sausage\" は、主にイギリス英語で使われる、親しみを込めた「おバカさん」「ドジな人」といった意味の呼びかけです。</li><li>自分自身の間違いやドジに対して、愛情を込めて（あるいは呆れて）ツッコミを入れています。</li></ul><strong>英文法:</strong><br>呼びかけの形をとった、自己言及のセリフです。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl25.mp3"
+    },
+    {
+      "id": "gale_vl26",
+      "quote": "Wowza!",
+      "translation": "こりゃたまげた！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Wow!\" をさらに強調した、強い驚きを表す感嘆詞です。少し古風でコミカルな響きがあります。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl26.mp3"
+    },
+    {
+      "id": "gale_vl27",
+      "quote": "Oh dear.",
+      "translation": "おやおや。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>軽い驚き、困惑、あるいは同情を表す、非常に一般的で少し丁寧な感嘆詞です。「あらあら」「やれやれ」といったニュアンスです。</li></ul><strong>英文法:</strong><br>定型化された感嘆句です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl27.mp3"
+    },
+    {
+      "id": "gale_vl28",
+      "quote": "Gale groans",
+      "translation": "（ゲイルがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>ダメージを受けた時の苦痛や、疲労によるうめき声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"groan\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl28.mp3"
+    },
+    {
+      "id": "gale_vl29",
+      "quote": "I'm just gonna rest here for a minute.",
+      "translation": "ここでちと一休みさせてもらうかの。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が倒されたことを、「少し休憩する」と遠回しに表現しています。</li></ul><strong>英文法:</strong><br>\"gonna\" は \"going to\" の口語的な短縮形です。\"for a minute\" は「少しの間」という意味の決まり文句です。",
+      "audioUrl": "https://Amphibian333.github.io/gale_vl29.mp3"
+    }
+  ]
+}

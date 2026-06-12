@@ -1,0 +1,206 @@
+{
+  "name": "ジェシー",
+  "nameEn": "Jessie",
+  "rarity": "super-rare",
+  "role": "damage-dealer",
+  "quote": "Time to get constructive!",
+  "iconUrl": "https://i.imgur.com/ao8Y0vZ.png",
+  "voicelines": [
+    {
+      "id": "jessie_vl1",
+      "quote": "Jess will fix it!",
+      "translation": "ジェスが直しちゃう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>三人称で自分の名前「Jess（ジェス）」を使い、何かを「修理する（fix）」ことを宣言しています。</li><li>助動詞 \"will\" を使うことで、「必ず直してみせる」という強い意志や自信を表しています。</li></ul><strong>英文法:</strong><br>「主語 + will + 動詞の原形」で、未来の行動に対する強い意志や約束を示します。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl1.mp3"
+    },
+    {
+      "id": "jessie_vl2",
+      "quote": "I'm number one!",
+      "translation": "私がナンバーワン！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が一番優れていると主張する、自信に満ちたセリフです。</li></ul><strong>英文法:</strong><br>\"number one\" は「一番、最高」という意味の形容詞句として使われています。「I'm + [形容詞句]」のシンプルな構文です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl2.mp3"
+    },
+    {
+      "id": "jessie_vl3",
+      "quote": "Jessie whimpers",
+      "translation": "（ジェシーがすすり泣く）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>\"whimper\" は、痛みや悲しみで、か細くクンクンと泣く様子を表します。</li></ul><strong>英文法:</strong><br>動詞 \"whimper\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl3.mp3"
+    },
+    {
+      "id": "jessie_vl4",
+      "quote": "Jessie laughs",
+      "translation": "（ジェシーが笑う）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。ジェシーの子供らしい、あるいは少しいたずらっぽい笑い声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"laugh\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl4.mp3"
+    },
+    {
+      "id": "jessie_vl5",
+      "quote": "Constructing!",
+      "translation": "組み立て中！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Construct\" は「建設する、組み立てる」という動詞。タレットなどを設置している最中の、元気な掛け声です。</li></ul><strong>英文法:</strong><br>現在分詞を単独で使うことで、今まさに行っている行動を感嘆文のように表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl5.mp3"
+    },
+    {
+      "id": "jessie_vl6",
+      "quote": "Build and brawl!",
+      "translation": "組み立てて、戦う！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Build\"（建設する）と \"brawl\"（乱闘する）という、ジェシーの戦闘スタイルを象徴する2つの単語で韻を踏んだ、キャッチーなスローガンです。</li></ul><strong>英文法:</strong><br>2つの動詞（命令形）を \"and\" で繋げた、リズミカルなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl6.mp3"
+    },
+    {
+      "id": "jessie_vl7",
+      "quote": "I'm in the lead.",
+      "translation": "私がリードしてる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"in the lead\" は、競争や試合で「首位にいる」「優勢である」ことを示すイディオムです。</li></ul><strong>英文法:</strong><br>「主語 + be動詞 + in the lead」の形で使われる、一般的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl7.mp3"
+    },
+    {
+      "id": "jessie_vl8",
+      "quote": "Socket to ya!",
+      "translation": "ソケットをお見舞いよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Socket\" は、工具のソケットやコンセントの差込口のこと。</li><li>1960年代の有名なフレーズ \"Sock it to me!\"（かかってこい！、やってやれ！）をもじった言葉遊びです。</li></ul><strong>英文法:</strong><br>\"ya\" は \"you\" の非常にカジュアルな発音です。イディオムをもじった、独創的な掛け声です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl8.mp3"
+    },
+    {
+      "id": "jessie_vl9",
+      "quote": "Jessie groans",
+      "translation": "（ジェシーがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"groan\" は、苦痛や不満で発せられる低いうめき声を表します。</li></ul><strong>英文法:</strong><br>動詞 \"groan\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl9.mp3"
+    },
+    {
+      "id": "jessie_vl10",
+      "quote": "Great spot.",
+      "translation": "いい場所ね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"spot\" は「場所、地点」。タレットを設置するのに最適な場所を見つけた時のセリフです。</li></ul><strong>英文法:</strong><br>\"This is a great spot.\" などの文が省略された、名詞句だけの簡潔な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl10.mp3"
+    },
+    {
+      "id": "jessie_vl11",
+      "quote": "Time to get constructive.",
+      "translation": "建設的な時間ね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"constructive\" は「建設的な」という形容詞。文字通り「何かを組み立てる」ことと、「有意義なことをする」という2つの意味をかけています。</li></ul><strong>英文法:</strong><br>\"get + 形容詞\" は「～の状態になる」という意味。ここでは「建設的になる時間」となります。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl11.mp3"
+    },
+    {
+      "id": "jessie_vl12",
+      "quote": "Leading score.",
+      "translation": "スコアはリード中。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が（または自分のチームが）スコアで優勢であることを示す、簡潔な報告です。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の名詞句だけで状況を説明しています。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl12.mp3"
+    },
+    {
+      "id": "jessie_vl13",
+      "quote": "Oh no!",
+      "translation": "あーん、もう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>失敗したり、予期せぬ悪いことが起きたりした時の、落胆や軽いパニックを表す最も一般的な感嘆詞です。</li></ul><strong>英文法:</strong><br>感嘆詞として単独で使われます。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl13.mp3"
+    },
+    {
+      "id": "jessie_vl14",
+      "quote": "Broken beyond repair.",
+      "translation": "修理不可能なほど壊れちゃった…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"beyond repair\" は「修理の範囲を超えている」、つまり「修理不可能」という意味の重要なイディオムです。</li><li>タレットが破壊された時などの、悲しみや落胆を表します。</li></ul><strong>英文法:</strong><br>\"It is broken beyond repair.\" の主語と動詞が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl14.mp3"
+    },
+    {
+      "id": "jessie_vl15",
+      "quote": "Say hello to my little friend.",
+      "translation": "私の小さなトモダチにご挨拶しな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは有名なギャング映画『スカーフェイス』（1983年）の主人公トニー・モンタナが放つ、非常に有名なセリフのパロディです。</li><li>映画では巨大な銃を「小さな友達（my little friend）」と呼んでいますが、ジェシーの場合は自身のタレット「スクラッピー」を指しています。</li></ul><strong>英文法:</strong><br>\"Say hello to...\" は「～によろしくと言う」という意味ですが、ここでは「～にご挨拶しな」という、武器を披露する際の決め台詞として使われています。<br><br><strong>🧠豆知識:</strong><br>このセリフは映画史上で最も象徴的なものの一つとされ、数えきれないほどのパロディやオマージュが存在します。強力な武器や道具を取り出す際の、お決まりのジョークとして広く知られています。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl15.mp3"
+    },
+    {
+      "id": "jessie_vl16",
+      "quote": "Where will I put my friend?",
+      "translation": "私のトモダチはどこに置こうかな？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"friend\"（友達）とは、彼女のタレット「スクラッピー」のこと。どこに設置すれば最も効果的か考えている、エンジニアらしいセリフです。</li></ul><strong>英文法:</strong><br>Whereで始まる未来形の疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl16.mp3"
+    },
+    {
+      "id": "jessie_vl17",
+      "quote": "Technology wins.",
+      "translation": "科学技術の勝利ね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身の発明品であるタレットなどが活躍した際に、その成果を「科学技術（Technology）の勝利だ」と称賛しています。</li></ul><strong>英文法:</strong><br>「主語 + 動詞」のシンプルな現在形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl17.mp3"
+    },
+    {
+      "id": "jessie_vl18",
+      "quote": "Oh no you didn't.",
+      "translation": "よくもそんなことしてくれたわね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が信じられないような行動（特に失礼なことや大胆なこと）をした時に、「まさかあなたがそんなことをするなんて」という驚きや強い非難を込めて使われる決まり文句です。</li></ul><strong>英文法:</strong><br>\"Oh no, you did not do that.\" が省略された形で、独特のイントネーションで発話されます。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl18.mp3"
+    },
+    {
+      "id": "jessie_vl19",
+      "quote": "Don't mess with Jess!",
+      "translation": "ジェスに手を出すんじゃないよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Don't mess with ~\"（～に手を出すな）という警告フレーズと、自分の愛称 \"Jess\" を組み合わせ、韻を踏んだキャッチーな脅し文句になっています。</li></ul><strong>英文法:</strong><br>否定の命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl19.mp3"
+    },
+    {
+      "id": "jessie_vl20",
+      "quote": "No!",
+      "translation": "ダメ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>強い否定や拒絶を表す、シンプルで直接的な感嘆詞です。</li></ul><strong>英文法:</strong><br>単独で強い感情を表す感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl20.mp3"
+    },
+    {
+      "id": "jessie_vl21",
+      "quote": "Turret time!",
+      "translation": "タレットの時間よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これからタレットを設置することを宣言する、シンプルで元気な掛け声です。</li></ul><strong>英文法:</strong><br>「名詞 + time」の形で、「～の時間だ」とカジュアルに宣言する口語表現です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl21.mp3"
+    },
+    {
+      "id": "jessie_vl22",
+      "quote": "We can do this!",
+      "translation": "私たちならできる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>チームメイトを鼓舞し、勝利への自信を示す、非常にポジティブなセリフです。</li></ul><strong>英文法:</strong><br>助動詞 \"can\" を使った、能力や可能性を表す文です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl22.mp3"
+    },
+    {
+      "id": "jessie_vl23",
+      "quote": "Y-Yes!",
+      "translation": "う、うん！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Y-\" の部分は、どもったり、少し自信がなかったり、あるいは驚きながら同意したりする様子を表しています。</li></ul><strong>英文法:</strong><br>言葉に詰まる様子（stuttering）を文字で表現したものです。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl23.mp3"
+    },
+    {
+      "id": "jessie_vl24",
+      "quote": "No no no!",
+      "translation": "いやいやいや！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"No\" を繰り返すことで、強い否定や、パニックに陥っている切迫した状況を表現しています。</li></ul><strong>英文法:</strong><br>感嘆詞の繰り返しによる強調表現です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl24.mp3"
+    },
+    {
+      "id": "jessie_vl25",
+      "quote": "Yes!",
+      "translation": "やった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>成功や喜びをストレートに表現する、ポジティブな感嘆詞です。</li></ul><strong>英文法:</strong><br>感嘆詞として単独で使われます。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl25.mp3"
+    },
+    {
+      "id": "jessie_vl26",
+      "quote": "Jessie grunts",
+      "translation": "（ジェシーが力む）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"grunt\" は、力を入れたり、努力したりする時に発する短く低い声を表します。</li></ul><strong>英文法:</strong><br>動詞 \"grunt\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl26.mp3"
+    },
+    {
+      "id": "jessie_vl27",
+      "quote": "Sorry.",
+      "translation": "ごめんね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ミスをした時や、相手に申し訳ないと思った時の、シンプルな謝罪の言葉です。</li></ul><strong>英文法:</strong><br>形容詞 \"Sorry\" を単独で使う、最も一般的な謝罪の形です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl27.mp3"
+    },
+    {
+      "id": "jessie_vl28",
+      "quote": "Woo-hoo!",
+      "translation": "イェーイ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>理屈抜きの、純粋な喜びや興奮を表す歓声です。</li></ul><strong>英文法:</strong><br>感情をそのまま音にしたような感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/jessie_vl28.mp3"
+    }
+  ]
+}

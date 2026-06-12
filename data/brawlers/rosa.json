@@ -1,0 +1,192 @@
+{
+  "name": "ローサ",
+  "nameEn": "Rosa",
+  "rarity": "rare",
+  "role": "tank",
+  "quote": "Time to bloom!",
+  "iconUrl": "https://i.imgur.com/YloIzPF.png",
+  "voicelines": [
+    {
+      "id": "rosa_vl1",
+      "quote": "Aloe aloe aloe.",
+      "translation": "アロエ、アロエ、アロエ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>植物の「アロエ（Aloe）」を、まるで呪文のように繰り返すことで、植物学者であるローサのキャラクター性を表現しています。</li><li>発音が似ているスペイン語の挨拶「¡Hola!（オラ！）」のようにも聞こえる、ユニークなセリフです。</li></ul><strong>英文法:</strong><br>名詞を繰り返すことで、リズム感と強調を生み出しています。文法的な意味よりも、キャラクターの雰囲気を伝える役割が大きいです。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl1.mp3"
+    },
+    {
+      "id": "rosa_vl2",
+      "quote": "Botany for the win!",
+      "translation": "植物学で勝利よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Botany\" は「植物学」を意味します。</li><li>\"for the win\" は「～で勝利！」「～最高！」という意味で使われる、非常にポピュラーなスラングです。FTWと略されることもあります。</li></ul><strong>英文法:</strong><br>名詞句の後に前置詞句 \"for the win\" を付けて、勝利の要因や称賛の対象を示す、口語的な決まり文句です。<br><br><strong>🧠豆知識:</strong><br>\"For the win!\" は、元々スポーツやゲームの実況で使われ始め、今ではネットミームとして日常の様々な場面で「これが決め手だ！」というニュアンスで使われています。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl2.mp3"
+    },
+    {
+      "id": "rosa_vl3",
+      "quote": "Oh, bother.",
+      "translation": "あら、やっかいね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"bother\" は「面倒なこと」「やっかいごと」という意味。何か困ったことが起きた時に、軽く不満や困惑を示す、少し古風で丁寧な表現です。</li></ul><strong>英文法:</strong><br>感嘆詞 \"Oh\" と名詞 \"bother\" を組み合わせた、短い感嘆文です。<br><br><strong>🧠豆知識:</strong><br>この表現は、特にイギリスの有名なキャラクター「くまのプーさん」の口癖として非常によく知られており、穏やかで少しおっとりした印象を与えます。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl3.mp3"
+    },
+    {
+      "id": "rosa_vl4",
+      "quote": "Haha! Beaten by a boxing botanist!",
+      "translation": "ハハ！ボクシング植物学者に負かされたわね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が「ボクシングをする植物学者（a boxing botanist）」という異色の経歴を持つ自分に負けたことを、楽しそうに指摘しています。</li></ul><strong>英文法:</strong><br>文頭の \"Beaten\" は、\"You were beaten...\" のように主語とbe動詞が省略された受動態の過去分詞です。口語ではこのように文の一部を省略することがよくあります。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl4.mp3"
+    },
+    {
+      "id": "rosa_vl5",
+      "quote": "I'm wilting!",
+      "translation": "しおれてきちゃった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"wilt\" は、植物が「しおれる、しなびる」という意味。ダメージを受けて元気がなくなっていく様子を、植物に例えて表現しています。</li></ul><strong>英文法:</strong><br>\"I am wilting\" という現在進行形で、今まさに元気がなくなっている状態を表しています。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl5.mp3"
+    },
+    {
+      "id": "rosa_vl6",
+      "quote": "Flower power!",
+      "translation": "フラワーパワーよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「花の力」を意味し、自身の植物を使った能力を象徴する掛け声です。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」の組み合わせによる、力強いスローガンのようなフレーズです。<br><br><strong>🧠豆知識:</strong><br>\"Flower Power\" は、1960年代から70年代にかけてアメリカで起こった、戦争に反対し平和を訴えるヒッピー文化の象徴的なスローガンでした。「暴力より花を」という平和的な抵抗のシンボルです。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl6.mp3"
+    },
+    {
+      "id": "rosa_vl7",
+      "quote": "Time to take care of the weeds!",
+      "translation": "雑草処理の時間よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"take care of\" は「～の世話をする」の他に、「～を処理する、やっつける」という意味も持ちます。</li><li>敵を庭の「雑草（weeds）」に例え、これから一掃することを宣言しています。</li></ul><strong>英文法:</strong><br>\"Time to + 動詞の原形\" で「～する時間だ」という、行動の開始を示す定番の表現です。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl7.mp3"
+    },
+    {
+      "id": "rosa_vl8",
+      "quote": "I rose to the occasion!",
+      "translation": "この大一番、乗り切ったわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"rise to the occasion\" は「難局にうまく対処する」「いざという時に力を発揮する」という意味のイディオムです。</li><li>自身の名前 \"Rosa\"（rose/ローズ=バラ）と、\"rise\" の過去形 \"rose\" をかけた、見事な言葉遊びになっています。</li></ul><strong>英文法:</strong><br>動詞 \"rise\" の過去形 \"rose\" を使った過去形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl8.mp3"
+    },
+    {
+      "id": "rosa_vl9",
+      "quote": "You're having a laugh!",
+      "translation": "冗談でしょ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>主にイギリス英語で使われる表現で、相手の言動が信じられない、ばかげていると感じた時に「本気で言ってるの？」「ふざけてるでしょ！」という意味で使われます。</li></ul><strong>英文法:</strong><br>現在進行形ですが、文字通りの意味ではなく、相手への強い疑いや非難を表す慣用句として機能します。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl9.mp3"
+    },
+    {
+      "id": "rosa_vl10",
+      "quote": "Ready for composting.",
+      "translation": "堆肥になる準備はできたわ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"compost\" は、落ち葉などを腐らせて作る「堆肥」のこと。</li><li>自分が倒されたことを、植物が枯れて土に還るプロセスに例えた、ユニークで少しブラックなユーモアです。</li></ul><strong>英文法:</strong><br>\"I am ready for composting.\" の主語と動詞が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl10.mp3"
+    },
+    {
+      "id": "rosa_vl11",
+      "quote": "Ah! Fungus!",
+      "translation": "きゃっ！菌類！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Fungus\" は「菌類（キノコやカビなど）」。植物を愛するローサが、植物を枯らすこともある菌類を見て驚いている、キャラクターらしいセリフです。</li></ul><strong>英文法:</strong><br>感嘆詞 \"Ah!\" と名詞 \"Fungus\" の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl11.mp3"
+    },
+    {
+      "id": "rosa_vl12",
+      "quote": "Time to blossom!",
+      "translation": "開花の時よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"blossom\" は「（花が）咲く、開花する」という意味の動詞。自身の能力が最大限に発揮される瞬間を、花が咲くことに例えています。</li></ul><strong>英文法:</strong><br>「Time to + 動詞の原形」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl12.mp3"
+    },
+    {
+      "id": "rosa_vl13",
+      "quote": "Rosa is my name, botany is my game!",
+      "translation": "我が名はローサ、専門は植物学！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"name\" と \"game\" で韻を踏んだ、自己紹介の決まり文句です。</li><li>\"[Y] is my game\" は「Yは私の得意分野だ」という意味の慣用表現です。</li></ul><strong>英文法:</strong><br>「X is my name, Y is my game」という定型化された構文で、リズミカルな自己紹介として使われます。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl13.mp3"
+    },
+    {
+      "id": "rosa_vl14",
+      "quote": "You grow girl!",
+      "translation": "その調子よ、ガール！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>応援の掛け声である \"You go, girl!\"（いけいけ、ガール！）の \"go\" を、植物の「成長する（grow）」に置き換えた、見事な言葉遊びです。</li></ul><strong>英文法:</strong><br>命令文の形を取った応援のフレーズをもじったものです。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl14.mp3"
+    },
+    {
+      "id": "rosa_vl15",
+      "quote": "Blooming 'eck!",
+      "translation": "なんてこった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Blooming heck!\" は、イギリス英語で驚きや苛立ちを表す非常に強い感嘆表現 \"Bloody hell!\" を、植物の「開花（Blooming）」という言葉で柔らかく言い換えたものです。</li></ul><strong>英文法:</strong><br>強い言葉を避けるための婉曲表現の一種です。<br><br><strong>🧠豆知識:</strong><br>\"Bloody\" はイギリスでは非常に強い俗語（ののしり言葉）として扱われるため、\"Blooming\" のような別の言葉に置き換えて使われることがよくあります。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl15.mp3"
+    },
+    {
+      "id": "rosa_vl16",
+      "quote": "Weed 'em and reap!",
+      "translation": "雑草を刈り取り、収穫する！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Weed 'em\" は「彼ら（雑草）を抜く」。'em は them の短縮形です。</li><li>\"reap\" は「収穫する」という意味。敵を雑草のように刈り取り、勝利を収穫するという意味が込められています。</li></ul><strong>英文法:</strong><br>二つの動詞句を \"and\" で繋いだ、リズミカルな命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl16.mp3"
+    },
+    {
+      "id": "rosa_vl17",
+      "quote": "No!",
+      "translation": "ダメ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>強い否定や拒絶を表す、シンプルで直接的な感嘆詞です。</li></ul><strong>英文法:</strong><br>単独で強い感情を表す感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl17.mp3"
+    },
+    {
+      "id": "rosa_vl18",
+      "quote": "Tempest florally!",
+      "translation": "花の嵐よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Tempest\" は「大嵐」。</li><li>\"florally\" は「花のように」という意味の副詞ですが、ここでは形容詞のように使って「花の嵐」という造語的な技名にしています。</li></ul><strong>英文法:</strong><br>名詞と副詞を組み合わせた、詩的で独創的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl18.mp3"
+    },
+    {
+      "id": "rosa_vl19",
+      "quote": "Petals to the meadow!",
+      "translation": "花びらよ、牧草地へ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Petals\" は「花びら」、\"meadow\" は「（草花の咲く）牧草地」。</li><li>自身の攻撃が、まるで嵐で花びらが野原に舞い散るようだと表現した、詩的なセリフです。</li></ul><strong>英文法:</strong><br>「[名詞] to the [名詞]」の形で、方向や行先を示しています。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl19.mp3"
+    },
+    {
+      "id": "rosa_vl20",
+      "quote": "Leaf me alone.",
+      "translation": "ほっといてちょうだい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「放っておいて」という意味の \"Leave me alone.\" と、植物学者であるローサのテーマ「葉（Leaf）」をかけた、非常に clever な言葉遊び（pun）です。</li></ul><strong>英文法:</strong><br>正しい命令文 \"Leave me alone.\" の動詞 \"Leave\" を、発音が同じ名詞 \"Leaf\" に意図的に置き換えています。文法的には正しくありませんが、ダジャレとして成立させるための意図的な間違いです。<br><br><strong>🧠豆知識:</strong><br>英語のユーモアでは、このように同じ発音の異なる単語（同音異義語）を使ったダジャレが頻繁に登場します。キャラクターの個性を際立たせる効果的な手法です。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl20.mp3"
+    },
+    {
+      "id": "rosa_vl21",
+      "quote": "Make like a tree and leaf.",
+      "translation": "木のように、去りなさい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"make like a tree and leave\"（木のように、そして去れ）という、英語の古いジョークです。</li><li>前のセリフと同様に、\"leave\"（去る）を、発音が同じで植物に関連する \"leaf\"（葉）に置き換えています。</li></ul><strong>英文法:</strong><br>命令文の形を取った、言葉遊びのイディオムです。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl21.mp3"
+    },
+    {
+      "id": "rosa_vl22",
+      "quote": "Rosa moans",
+      "translation": "（ローサがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>\"moan\" は、苦痛や悲しみ、あるいは快感などで発せられる、長めのうめき声を指します。</li></ul><strong>英文法:</strong><br>動詞 \"moan\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl22.mp3"
+    },
+    {
+      "id": "rosa_vl23",
+      "quote": "Kabloom!!",
+      "translation": "カブルーム！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>大きな爆発音を表す擬音語 \"Kaboom!\" と、植物の「開花（bloom）」を組み合わせた見事な造語です。</li><li>必殺技の爆発的な効果と、植物のテーマを同時に表現しています。</li></ul><strong>英文法:</strong><br>擬音語をベースにした独創的な感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl23.mp3"
+    },
+    {
+      "id": "rosa_vl24",
+      "quote": "Ugh!",
+      "translation": "うっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>苦痛や嫌悪感、不快感を表す、短く詰まった感嘆詞です。</li></ul><strong>英文法:</strong><br>感情を直接的に表す感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl24.mp3"
+    },
+    {
+      "id": "rosa_vl25",
+      "quote": "Weed 'em and reap, darling.",
+      "translation": "雑草を刈り取り、収穫するのよ、ダーリン。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>vl16のセリフに、\"darling\"（あなた、愛しい人）という呼びかけを加えています。</li><li>これにより、優雅でありながらも容赦のない、ローサの二面性のあるキャラクターが強調されます。</li></ul><strong>英文法:</strong><br>命令文に、呼びかけの言葉が追加された形です。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl25.mp3"
+    },
+    {
+      "id": "rosa_vl26",
+      "quote": "Rosa groans",
+      "translation": "（ローサがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"groan\" は、苦痛や不満で発せられる低いうめき声で、ダメージを受けた時の反応を示します。</li></ul><strong>英文法:</strong><br>動詞 \"groan\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/rosa_vl26.mp3"
+    }
+  ]
+}

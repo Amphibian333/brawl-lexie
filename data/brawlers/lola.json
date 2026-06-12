@@ -1,0 +1,185 @@
+{
+  "name": "ローラ",
+  "nameEn": "Lola",
+  "rarity": "hyper-rare",
+  "role": "damage-dealer",
+  "quote": "I'm the star!",
+  "iconUrl": "https://i.imgur.com/vbo5pFs.png",
+  "voicelines": [
+    {
+      "id": "lola_vl1",
+      "quote": "Look at the eyes, chico! They never lie.",
+      "translation": "この目を見なさい、坊や！目は決して嘘をつかないのよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"chico\" はスペイン語で「少年、坊や」という意味の呼びかけです。</li><li>「目は口ほどに物を言う」ということわざのように、「目を見れば真実がわかる」と、相手に迫るセリフです。</li></ul><strong>英文法:</strong><br>命令文と、現在形の否定文が組み合わさっています。\"never\" は強い否定を表す副詞です。<br><br><strong>🧠豆知識:</strong><br>このセリフは、ジェシーのセリフにもあった映画『スカーフェイス』で、主人公トニー・モンタナが放つ象徴的なセリフの引用です。ローラがB級映画女優であることを示唆しています。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl1.mp3"
+    },
+    {
+      "id": "lola_vl2",
+      "quote": "Oh honey, don't you wish you were me?",
+      "translation": "あらハニー、あなたも私になりたいんじゃないの？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"honey\" は愛情のこもった呼びかけですが、ここでは相手を見下すニュアンスで使われています。</li><li>「あなたも私みたいに素敵になりたいでしょう？」と、自分の魅力に絶対的な自信を持っていることを示す、非常にナルシストな問いかけです。</li></ul><strong>英文法:</strong><br>\"don't you wish...?\" は、相手の願望を問いかける形をとりながら、「（どうせあなたは）～したいんでしょ？」と決めつける、修辞的な疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl2.mp3"
+    },
+    {
+      "id": "lola_vl3",
+      "quote": "Oh, so I'm a joke to you?",
+      "translation": "へぇ、じゃあ、私あなたのジョークの的ってわけ？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"be a joke to someone\" は「（人）にとって笑いの種である、からかいの対象である」という意味。</li><li>相手の行動を、自分への侮辱と捉え、「私を笑いものにするつもり？」と非難しています。</li></ul><strong>英文法:</strong><br>be動詞を使った疑問文です。\"so\" が文頭に来ることで、相手の言動を受けての反応であることを示しています。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl3.mp3"
+    },
+    {
+      "id": "lola_vl4",
+      "quote": "Oops, sometimes a lady has to be the bad guy!",
+      "translation": "おっと、時にはレディも悪役にならなくちゃね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"bad guy\" は「悪役」。</li><li>自分の攻撃的な行動を、「時には仕方なく悪役を演じなければならないのよ」と、女優らしく正当化しています。</li></ul><strong>英文法:</strong><br>\"has to be\" は「～でなければならない」という義務を表します。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl4.mp3"
+    },
+    {
+      "id": "lola_vl5",
+      "quote": "But I'm the star!",
+      "translation": "だって私が主役（スター）ですもの！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>どんな状況でも、自分こそが「主役（the star）」であると主張する、ローラの自己中心的な性格を象徴するセリフです。</li></ul><strong>英文法:</strong><br>シンプルな自己紹介文ですが、\"But\" を付けることで、何らかの不満や反論の意図があることを示しています。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl5.mp3"
+    },
+    {
+      "id": "lola_vl6",
+      "quote": "Say hello to my little friend!",
+      "translation": "私の小さなトモダチにご挨拶なさい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これも映画『スカーフェイス』からの有名なセリフの引用です。</li><li>映画では巨大な銃を「小さな友達」と呼びますが、ローラの場合は、自分の分身であるエゴ（ダイヤモンドの狐）を指しています。</li></ul><strong>英文法:</strong><br>命令文の形をとった、決め台詞です。<br><br><strong>🧠豆知識:</strong><br>このセリフはジェシーも使いますが、対象がタレットかエゴ（分身）かという点で、キャラクター性が表現されています。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl6.mp3"
+    },
+    {
+      "id": "lola_vl7",
+      "quote": "Ready to shine!",
+      "translation": "輝く準備はできてるわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スターとして、舞台やカメラの前で「輝く（shine）」準備が万端であることを宣言しています。</li></ul><strong>英文法:</strong><br>\"I am ready to shine.\" の主語と動詞が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl7.mp3"
+    },
+    {
+      "id": "lola_vl8",
+      "quote": "Ready for my close-up!",
+      "translation": "私のクローズアップの準備はできたかしら！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「クローズアップ（顔のアップ撮影）の準備はできているわ」という意味の、非常に有名な映画のセリフです。</li><li>戦場を常に映画の撮影現場だと考えている、ローラの大女優らしい自意識を表しています。</li></ul><strong>英文法:</strong><br>\"I am ready for my close-up.\" の主語とbe動詞が省略された形です。<br><br><strong>🧠豆知識:</strong><br>このセリフは、1950年の名作映画『サンセット大通り』で、落ちぶれた大女優ノーマ・デズモンドが発する象徴的な一言です。以来、自己陶酔やスター気取りを象徴するフレーズとして、数多くの作品でパロディにされてきました。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl8.mp3"
+    },
+    {
+      "id": "lola_vl9",
+      "quote": "How rude!",
+      "translation": "なんて無礼なの！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の失礼な言動に対して、上品に、しかし強く非難する際の決まり文句です。</li></ul><strong>英文法:</strong><br>\"How + 形容詞!\" の形で、「なんて～なの！」という感嘆文になります。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl9.mp3"
+    },
+    {
+      "id": "lola_vl10",
+      "quote": "Exit stage right.",
+      "translation": "舞台の右手へ退場。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>演劇の脚本で使われる「ト書き（舞台指示）」の言葉です。\"stage right\" は舞台の「上手（かみて）」を指します。</li><li>自分が倒されることを、まるで役者が舞台から退場するかのように、芝居がかって表現しています。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる、指示文です。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl10.mp3"
+    },
+    {
+      "id": "lola_vl11",
+      "quote": "I will be back in the limelight.",
+      "translation": "私はまた脚光を浴びに戻ってくるわ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"limelight\" は、かつて舞台照明に使われた石灰光から、「脚光、注目の的」を意味する言葉です。</li><li>倒されても、必ずスターの座に返り咲いてみせる、という強い決意表明です。</li></ul><strong>英文法:</strong><br>未来を表す \"will\" を使った、力強い宣言です。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl11.mp3"
+    },
+    {
+      "id": "lola_vl12",
+      "quote": "Glitz and glamour!",
+      "translation": "華やかさと魅力！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Glitz\" は「派手な輝き」、\"glamour\" は「魅力、華やかさ」。</li><li>ショービジネスの世界を象徴する、キラキラした言葉を並べた感嘆のセリフです。</li></ul><strong>英文法:</strong><br>二つの名詞を \"and\" で繋げた、リズミカルなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl12.mp3"
+    },
+    {
+      "id": "lola_vl13",
+      "quote": "Hola, darlings!",
+      "translation": "オラ、ダーリンたち！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Hola\" はスペイン語の「こんにちは」。</li><li>\"darlings\" は「愛しい人たち」という、ファンや観客への呼びかけ。</li><li>国際的な大女優のように、外国語を交えて挨拶しています。</li></ul><strong>英文法:</strong><br>スペイン語の挨拶と、英語の呼びかけを組み合わせたものです。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl13.mp3"
+    },
+    {
+      "id": "lola_vl14",
+      "quote": "Who wants an autograph?",
+      "translation": "サインが欲しいのは誰かしら？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"autograph\" は有名人の「サイン」。</li><li>ファンサービスとして、あるいは「どうせ皆、私のサインが欲しいんでしょ？」という自信の表れとして、サインを欲しがる人を募っています。</li></ul><strong>英文法:</strong><br>Whoで始まる基本的な疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl14.mp3"
+    },
+    {
+      "id": "lola_vl15",
+      "quote": "Don't you know who I am?",
+      "translation": "私が誰だか知らないとでも言うの？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>有名人が、自分を知らない相手に対して、信じられないという気持ちと怒りを込めて言う、お決まりのセリフです。</li></ul><strong>英文法:</strong><br>否定疑問文の形をとっており、「知らないはずがないでしょう？」という強い非難のニュアンスを持ちます。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl15.mp3"
+    },
+    {
+      "id": "lola_vl16",
+      "quote": "No one outshines the diva!",
+      "translation": "この歌姫より輝ける者はいないのよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"outshine\" は「～より輝く、～より優れている」。</li><li>\"diva\" は、元々オペラの主役女性歌手を指し、転じて「わがままで才能ある大スター」を意味します。</li><li>「自分より目立つことは誰にもできない」と宣言しています。</li></ul><strong>英文法:</strong><br>\"No one...\" を主語にした、強い否定の文です。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl16.mp3"
+    },
+    {
+      "id": "lola_vl17",
+      "quote": "You haven't seen the last of me!",
+      "translation": "これで私がおしまいだと思ったら大間違いよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「あなたは私の最後を見たわけではない」が直訳。物語の悪役などが、敗北して退場する際に言う「これで終わりだと思うなよ」「また戻ってくるからな」という、典型的な捨て台詞です。</li></ul><strong>英文法:</strong><br>現在完了形を使った、非常に有名な決まり文句です。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl17.mp3"
+    },
+    {
+      "id": "lola_vl18",
+      "quote": "Double trouble!",
+      "translation": "トラブルが2倍よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分自身と、分身であるエゴの2人で攻撃することで、「厄介事（trouble）が2倍になる」と警告しています。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の、技名のようなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl18.mp3"
+    },
+    {
+      "id": "lola_vl19",
+      "quote": "Roll out the red carpet.",
+      "translation": "レッドカーペットを敷きなさい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"roll out the red carpet\" は、VIPやスターを歓迎するために「レッドカーペットを敷く」ことから、「～を盛大に歓迎する、丁重にもてなす」という意味のイディオムです。</li><li>ここでは、自分というスターのために、レッドカーペットを用意するよう命令しています。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl19.mp3"
+    },
+    {
+      "id": "lola_vl20",
+      "quote": "I'm an icon, a legend, and the moment.",
+      "translation": "私はアイコンであり、レジェンドであり、そして『今この瞬間』そのものなの。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"icon\"（象徴）、\"legend\"（伝説）と、自分を偉大な存在として称え、最後に \"the moment\"（今この瞬間）と締めくくる、非常に現代的でパワフルな自己紹介です。</li><li>「今最も輝いている、時代の寵児」であることを宣言しています。</li></ul><strong>英文法:</strong><br>3つの名詞句を並列に繋いで、自分がいかに素晴らしい存在であるかを説明しています。<br><br><strong>🧠豆知識:</strong><br>\"I am the moment.\" は、SNSなどで「今、自分が最高にイケてる状態だ」とアピールする際に使われる、比較的新しいスラングです。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl20.mp3"
+    },
+    {
+      "id": "lola_vl21",
+      "quote": "Excuse me!",
+      "translation": "ちょっと失礼！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「失礼します」という丁寧な言葉ですが、言い方によっては「ちょっと、何なの！？」という、強い非難や怒りを表す言葉になります。</li></ul><strong>英文法:</strong><br>定型化された挨拶・謝罪の表現です。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl21.mp3"
+    },
+    {
+      "id": "lola_vl22",
+      "quote": "Oh, poor baby...",
+      "translation": "あら、可哀想な子…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手に対して「可哀想に」と同情しているように見せかけて、実際には全く同情しておらず、むしろ見下している、皮肉のこもったセリフです。</li></ul><strong>英文法:</strong><br>呼びかけの形をとった、感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl22.mp3"
+    },
+    {
+      "id": "lola_vl23",
+      "quote": "The show needs me!",
+      "translation": "このショーには私が必要なの！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分がこの戦い（ショー）に不可欠な存在であると、強く主張しています。</li></ul><strong>英文法:</strong><br>シンプルなSVOの肯定文です。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl23.mp3"
+    },
+    {
+      "id": "lola_vl24",
+      "quote": "Time to steal the show!",
+      "translation": "ショーの主役をいただく時間よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"steal the show\" は、主役以上に注目を集め、観客の称賛を「盗む（steal）」、つまり「独り占めする」という意味のイディオムです。</li></ul><strong>英文法:</strong><br>「Time to + 動詞の原形」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl24.mp3"
+    },
+    {
+      "id": "lola_vl25",
+      "quote": "How dare you!",
+      "translation": "よくもそんなことを！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の信じられないような無礼な行動に対して、「よくもまあ、そんなことができますね！」と、強い怒りと非難を表す、非常に一般的な決まり文句です。</li></ul><strong>英文法:</strong><br>\"How dare + 主語 + 動詞の原形\" の形で、「よくも～できるな」という非難を表す構文です。",
+      "audioUrl": "https://Amphibian333.github.io/lola_vl25.mp3"
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "name": "メロディー",
+  "nameEn": "Melodie",
+  "rarity": "ultra-rare",
+  "role": "assassin",
+  "quote": "Sing for me!",
+  "iconUrl": "https://i.imgur.com/tRdGUY3.png",
+  "voicelines": [
+    {
+      "id": "melodie_vl1",
+      "quote": "Chi-Chi, Yo-Yo, stand by.",
+      "translation": "チチ、ヨーヨー、スタンバイして。",
+      "explanation": "<strong>解説:</strong><br><ul><li>周りを飛んでる音符たち（チチとヨーヨー）への指示。</li><li>バックダンサーに指示を出すような、プロっぽい雰囲気がカッコいいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl1.mp3"
+    },
+    {
+      "id": "melodie_vl2",
+      "quote": "Reload, reline, keep this moment on my mind.",
+      "translation": "リロードして、リラインして、この瞬間を心に刻むの。",
+      "explanation": "<strong>解説:</strong><br><ul><li>本番前の集中モード。</li><li>ステージに立つ直前のアイドルのような緊張感と覚悟が伝わってきます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl2.mp3"
+    },
+    {
+      "id": "melodie_vl3",
+      "quote": "Fake love!",
+      "translation": "フェイクラブ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>BTSの名曲「FAKE LOVE」のオマージュかも？</li><li>「偽りの愛なんていらないわ」と敵を突き放す、クールな一言。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl3.mp3"
+    },
+    {
+      "id": "melodie_vl4",
+      "quote": "That was pitch perfect.",
+      "translation": "今の、音程完璧だったわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>攻撃がクリーンヒットした時の自画自賛。</li><li>自分のプレイに酔いしれるナルシストな一面も魅力です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl4.mp3"
+    },
+    {
+      "id": "melodie_vl5",
+      "quote": "This was rehearsal, right?",
+      "translation": "これってリハーサルでしょ？",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けた時の言い訳。「本番ならこんなミスしないし！」というプライドの高さが見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl5.mp3"
+    },
+    {
+      "id": "melodie_vl6",
+      "quote": "Let's go, Melodians!",
+      "translation": "行くわよ、メロディアンズ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ファンのみんな（Melodians）への呼びかけ。</li><li>戦場でもファンの応援を背に戦う、真のアイドルです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl6.mp3"
+    },
+    {
+      "id": "melodie_vl7",
+      "quote": "Harmony brings melody.",
+      "translation": "ハーモニーがメロディーをもたらすの。",
+      "explanation": "<strong>解説:</strong><br><ul><li>音楽の真理を語るような、ちょっと深いセリフ。</li><li>自分の名前（Melodie）とかけているのがオシャレです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl7.mp3"
+    },
+    {
+      "id": "melodie_vl8",
+      "quote": "Woo! I just slayed.",
+      "translation": "ウー！私、最高に輝いちゃった。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Slay（圧倒する、最高にイケてる）」というスラング。</li><li>完璧なキルを決めた時の、抑えきれない興奮です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl8.mp3"
+    },
+    {
+      "id": "melodie_vl9",
+      "quote": "Worst concert ever!",
+      "translation": "史上最悪のコンサートだわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けた試合を「最悪のライブ」に例えるセンス。</li><li>プロ意識が高いからこそ、失敗が許せないのでしょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl9.mp3"
+    },
+    {
+      "id": "melodie_vl10",
+      "quote": "For my Melodians!",
+      "translation": "私のメロディアンズのために！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ファンのために戦う」というアイドル精神。</li><li>推しのために頑張るのではなく、ファンのために頑張るのが彼女流。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl10.mp3"
+    },
+    {
+      "id": "melodie_vl11",
+      "quote": "Stars never stop sparkling.",
+      "translation": "スターは輝きを止めないものよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>どんな時でも輝き続けるのがスターの条件。</li><li>逆境でも諦めない強さを感じさせる名言です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl11.mp3"
+    },
+    {
+      "id": "melodie_vl12",
+      "quote": "Shooting stars!",
+      "translation": "シューティングスターよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>音符ミサイルを発射する時の掛け声。</li><li>キラキラした流れ星のように、美しく敵を撃ち抜きます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl12.mp3"
+    },
+    {
+      "id": "melodie_vl13",
+      "quote": "Don't miss the show.",
+      "translation": "このショーを見逃さないで。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「瞬き厳禁よ！」というアピール。</li><li>自分の活躍をしっかり見てほしい、目立ちたがり屋な一面。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl13.mp3"
+    },
+    {
+      "id": "melodie_vl14",
+      "quote": "Shoutout to my Melodians!",
+      "translation": "私のメロディアンズに感謝を！",
+      "explanation": "<strong>解説:</strong><br><ul><li>受賞スピーチなどでよく使われる感謝の言葉。</li><li>常にファンへの感謝を忘れない、アイドルの鑑です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl14.mp3"
+    },
+    {
+      "id": "melodie_vl15",
+      "quote": "K-drama alert!",
+      "translation": "韓ドラ警報！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「まるで韓国ドラマみたいな展開ね！」という驚き。</li><li>劇的な逆転劇や、まさかの裏切りがあった時に。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl15.mp3"
+    },
+    {
+      "id": "melodie_vl16",
+      "quote": "K-pop don't stop 'til I reach the top.",
+      "translation": "私がトップに立つまで、K-POPは止まらない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>K-POP界の頂点を目指す野心家。</li><li>韻を踏んだラップ調のセリフがカッコいいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl16.mp3"
+    },
+    {
+      "id": "melodie_vl17",
+      "quote": "Even a fallen star still shines.",
+      "translation": "堕ちた星でさえ、まだ輝いているのよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられてもなお、美しくあろうとする姿勢。</li><li>悲劇のヒロインを演じているようにも見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl17.mp3"
+    },
+    {
+      "id": "melodie_vl18",
+      "quote": "Everybody, scream!",
+      "translation": "みんな、叫んで！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ライブ会場での煽り文句「Scream!!」。</li><li>敵の悲鳴を求めているのかも…？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl18.mp3"
+    },
+    {
+      "id": "melodie_vl19",
+      "quote": "Gonna rise to the top, watch my enemies drop.",
+      "translation": "トップへのし上がって、敵が倒れるのを見るの。",
+      "explanation": "<strong>解説:</strong><br><ul><li>成功への執着と、敵への敵対心を隠さない強気な歌詞。</li><li>可愛い顔して言うことが怖いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl19.mp3"
+    },
+    {
+      "id": "melodie_vl20",
+      "quote": "Dreams come true!",
+      "translation": "夢は叶う！",
+      "explanation": "<strong>解説:</strong><br><ul><li>勝利した時の純粋な喜び。</li><li>スターになる夢にまた一歩近づいた瞬間です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl20.mp3"
+    },
+    {
+      "id": "melodie_vl21",
+      "quote": "This is the real K-pop.",
+      "translation": "これこそが本物のK-POPよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私のパフォーマンスこそが本物」という絶対的な自信。</li><li>他の偽物には負けないというプライドを感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl21.mp3"
+    },
+    {
+      "id": "melodie_vl22",
+      "quote": "You'll remember this melody forever.",
+      "translation": "あなた、このメロディーを永遠に忘れないわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私（メロディー）のことを一生忘れさせてあげない」という、ちょっと重めの愛（攻撃）。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl22.mp3"
+    },
+    {
+      "id": "melodie_vl23",
+      "quote": "Don't let it get to your head.",
+      "translation": "調子に乗らないことね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>勝った相手に対する釘刺し。「まぐれで勝ったくらいで天狗にならないでよ」という先輩風です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl23.mp3"
+    },
+    {
+      "id": "melodie_vl24",
+      "quote": "Remember my name. Yeah!",
+      "translation": "私の名前、覚えておきなさい。いいわね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私の名はメロディー！」と世界中に知らしめるような宣言。</li><li>売名行為もアイドルの仕事です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl24.mp3"
+    },
+    {
+      "id": "melodie_vl25",
+      "quote": "So many songs to sing, so much joy to bring!",
+      "translation": "歌うべき歌がたくさん、もたらすべき喜びがたくさん！",
+      "explanation": "<strong>解説:</strong><br><ul><li>アイドルとしての使命感に燃えるポジティブなセリフ。</li><li>もっと歌いたい、もっとみんなを喜ばせたい！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl25.mp3"
+    },
+    {
+      "id": "melodie_vl26",
+      "quote": "I'm your idol.",
+      "translation": "私が、あなたのアイドルよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「推しは私で決まりでしょ？」という強引な誘惑。</li><li>拒否権はありません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl26.mp3"
+    },
+    {
+      "id": "melodie_vl27",
+      "quote": "I don't dress to impress!",
+      "translation": "感心させるために着飾るんじゃないわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「男ウケとかどうでもいい、自分のためにオシャレしてるの！」という、自立した女性のスタンス。カッコいい！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl27.mp3"
+    },
+    {
+      "id": "melodie_vl28",
+      "quote": "I might be your idol, but you don't own me.",
+      "translation": "私はあなたのアイドルかもしれないけど、あなたのものじゃないわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ファンとの距離感を大事にするプロ意識。</li><li>「勘違いしないでね」と牽制する、媚びない姿勢が素敵です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl28.mp3"
+    },
+    {
+      "id": "melodie_vl29",
+      "quote": "아! 킹받네!",
+      "translation": "あぁ！マジむかつく！",
+      "explanation": "<strong>解説:</strong><br><ul><li>韓国語のスラング「キンバッネ（超ムカつく）」。</li><li>イラッとした時に、つい母国語が出てしまうのがリアルです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl29.mp3"
+    },
+    {
+      "id": "melodie_vl30",
+      "quote": "Idol mode, on.",
+      "translation": "アイドルモード、オン。",
+      "explanation": "<strong>解説:</strong><br><ul><li>仕事モードに切り替えるスイッチ。</li><li>ここからは完璧なアイドル「メロディー」を演じきります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl30.mp3"
+    },
+    {
+      "id": "melodie_vl31",
+      "quote": "Melodians! Are you ready to rock?",
+      "translation": "メロディアンズ！盛り上がる準備はできてる？",
+      "explanation": "<strong>解説:</strong><br><ul><li>ライブ開幕の定番MC。「イェーイ！」と返事したくなります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl31.mp3"
+    },
+    {
+      "id": "melodie_vl32",
+      "quote": "I'm glitter, I'm gold, I'm a legend to behold.",
+      "translation": "私はグリッター、私はゴールド、私は見るべき伝説よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>キラキラ輝く自分を詩的に表現。</li><li>自分を「伝説」と言い切る自信がすごいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl32.mp3"
+    },
+    {
+      "id": "melodie_vl33",
+      "quote": "미쳤어?",
+      "translation": "おかしいんじゃないの？",
+      "explanation": "<strong>解説:</strong><br><ul><li>韓国語で「頭おかしいの？（ミチョッソ？）」。</li><li>ありえない行動をした味方や敵に対して、辛辣なツッコミを入れます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl33.mp3"
+    },
+    {
+      "id": "melodie_vl34",
+      "quote": "Want to play? That's okay. Get in my way, then you'll pay.",
+      "translation": "遊びたいの？いいわよ。邪魔するなら、代償を払ってもらうわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「遊んであげるけど、怪我しても知らないわよ？」というお姉さんぶった警告。</li><li>韻を踏んでるのが心地よいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl34.mp3"
+    },
+    {
+      "id": "melodie_vl35",
+      "quote": "Melodians 탈덕안돼...아!",
+      "translation": "メロディアンズ、ファン卒はダメ…あぁ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた瞬間に「ファン辞めないでー！（タルドクアンデ）」と叫ぶ執念。</li><li>自分の命よりフォロワー数が心配みたいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl35.mp3"
+    },
+    {
+      "id": "melodie_vl36",
+      "quote": "음색깡패 나가신다!",
+      "translation": "音色の支配者がお通りよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「音色ヤクザ（ウムセクカンペ）」と呼ばれるほど歌が上手い、という意味の韓国スラング。</li><li>歌声でみんなをねじ伏せる気満々です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl36.mp3"
+    },
+    {
+      "id": "melodie_vl37",
+      "quote": "Big shoutout to all my Melodie minions.",
+      "translation": "私の全てのメロディーミニオンたちに、大きな感謝を。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ファンを「ミニオン（手下）」扱いする女王様気質。</li><li>それでも感謝は忘れないあたり、ツンデレなのかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl37.mp3"
+    },
+    {
+      "id": "melodie_vl38",
+      "quote": "Straight to the top.",
+      "translation": "まっすぐトップへ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルトで一直線に移動する時のセリフ。</li><li>物理的にもキャリア的にも、トップ目指して突き進みます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl38.mp3"
+    },
+    {
+      "id": "melodie_vl39",
+      "quote": "Humph, that was unexpected! 칭찬해?",
+      "translation": "フン、予想外だったわ！…褒めてるの？",
+      "explanation": "<strong>解説:</strong><br><ul><li>不意打ちを食らった時の反応。「チンチャネ？（褒めてほしいの？）」と余裕ぶっていますが、実は動揺してるかも。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl39.mp3"
+    },
+    {
+      "id": "melodie_vl40",
+      "quote": "See you when you grow up.",
+      "translation": "あなたが大人になったら、また会いましょう。",
+      "explanation": "<strong>解説:</strong><br><ul><li>子供扱いして見下す別れの挨拶。</li><li>「出直してきな」を上品に言うとこうなります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl40.mp3"
+    },
+    {
+      "id": "melodie_vl41",
+      "quote": "너 누구니? 신인이니?",
+      "translation": "あなた誰？新人？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「誰あんた？新人（シニニニ）？」と、知らない相手を格下扱いするマウント。</li><li>芸能界の上下関係の厳しさを感じさせます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl41.mp3"
+    },
+    {
+      "id": "melodie_vl42",
+      "quote": "도망쳐!",
+      "translation": "逃げて！",
+      "explanation": "<strong>解説:</strong><br><ul><li>韓国語で「トマンチョ（逃げろ）！」。</li><li>ガチでヤバい状況になった時の素の叫び声です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl42.mp3"
+    },
+    {
+      "id": "melodie_vl43",
+      "quote": "Mic check, 하나, 둘, 셋!",
+      "translation": "マイクチェック、ワン、ツー、スリー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ハナ、トゥル、セッ（1, 2, 3）」と韓国語でカウント。</li><li>バイリンガルな一面が見えるクールなマイクテストです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl43.mp3"
+    },
+    {
+      "id": "melodie_vl44",
+      "quote": "내가 엔딩요정. 짜잔~",
+      "translation": "私がエンディング妖精よ。チャジャン～",
+      "explanation": "<strong>解説:</strong><br><ul><li>K-POP用語「エンディング妖精（番組の最後にアップで抜かれる人）」を自称。</li><li>「チャジャン（ジャジャーン）」という効果音が可愛すぎます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl44.mp3"
+    },
+    {
+      "id": "melodie_vl45",
+      "quote": "선 넘네!",
+      "translation": "一線越えてるわね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ソン ノムネ（ライン越えだわ）！」。</li><li>冗談では済まされないことをされた時の、ガチギレの一言。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl45.mp3"
+    },
+    {
+      "id": "melodie_vl46",
+      "quote": "우아! 대박!",
+      "translation": "うわ！最高！",
+      "explanation": "<strong>解説:</strong><br><ul><li>韓国語で「テバク（やばい、最高）！」。</li><li>素直に感動している時のリアクションです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl46.mp3"
+    },
+    {
+      "id": "melodie_vl47",
+      "quote": "It's 눈 정화 time!",
+      "translation": "目の保養タイムね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ヌンジョンファ（目の浄化）タイムよ！」。</li><li>「美しい私を見て癒やされなさい」という、究極のナルシシズムです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl47.mp3"
+    },
+    {
+      "id": "melodie_vl48",
+      "quote": "멜며들 준비 됐어?",
+      "translation": "メロディーに染まる準備はできた？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「スメドゥル（染み込む）」と自分の名前をかけた造語。</li><li>「私の沼にハマる覚悟はいい？」という誘い文句です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl48.mp3"
+    },
+    {
+      "id": "melodie_vl49",
+      "quote": "우우! 찢었다!",
+      "translation": "うう！最高だった！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「チジョッタ（引き裂いた＝ステージを掌握した）」というK-POPスラング。</li><li>自分のパフォーマンスに大満足しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl49.mp3"
+    },
+    {
+      "id": "melodie_vl50",
+      "quote": "급발진 뭐야?",
+      "translation": "いきなりキレて、何なの？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「クッパルジン（急発進）」。急に怒り出した相手に対する「何コイツ？」という冷ややかな視線。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl50.mp3"
+    },
+    {
+      "id": "melodie_vl51",
+      "quote": "어우, 폼 미쳤다!",
+      "translation": "うわ、フォームがヤバい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ポム ミチョッタ（調子良すぎて狂ってる）！」。</li><li>自分（または味方）の神プレイに対する最上級の賛辞です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl51.mp3"
+    },
+    {
+      "id": "melodie_vl52",
+      "quote": "Catch my 역조공!",
+      "translation": "私の逆朝貢、受け取って！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ヨクチョゴン（アイドルからファンへのプレゼント）」を受け取れ！</li><li>愛（という名の攻撃）の押し売りです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl52.mp3"
+    },
+    {
+      "id": "melodie_vl53",
+      "quote": "가보자고!",
+      "translation": "行ってみよう！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「カボジャゴ（行こうぜ）！」。</li><li>韓国の若者がよく使う、気合を入れる掛け声です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl53.mp3"
+    },
+    {
+      "id": "melodie_vl54",
+      "quote": "오늘 멜로디가 쏜다!",
+      "translation": "今日はメロディーがおごるよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ソンダ（撃つ＝おごる）」。</li><li>「今日は私の奢りよ！」という太っ腹な発言。攻撃を奢ってくれるという意味でしょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl54.mp3"
+    },
+    {
+      "id": "melodie_vl55",
+      "quote": "너 T야?",
+      "translation": "あなた、Tでしょ？",
+      "explanation": "<strong>解説:</strong><br><ul><li>MBTI診断の「T（思考型）」を引き合いに出して、「冷たい人ね」「空気読めないの？」とディスる流行語。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl55.mp3"
+    },
+    {
+      "id": "melodie_vl56",
+      "quote": "까불지마!",
+      "translation": "ふざけないで！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「カブルジマ（調子乗んな）！」。</li><li>ナメた態度の相手を威嚇する、強気な言葉です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl56.mp3"
+    },
+    {
+      "id": "melodie_vl57",
+      "quote": "많관부!",
+      "translation": "たくさんの関心、よろしく！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「マンクァンブ（多くの関心をお願いします）」の略語。</li><li>新曲宣伝などで使われる、アイドルの定型句です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl57.mp3"
+    },
+    {
+      "id": "melodie_vl58",
+      "quote": "너 좀 친다?",
+      "translation": "あなた、なかなかやるわね？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ノ チョム チンダ（お前やるじゃん）」。</li><li>ゲームなどで上手い相手を認める時のスラング。上から目線なのがポイント。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl58.mp3"
+    },
+    {
+      "id": "melodie_vl59",
+      "quote": "어우~ 덕통사고!",
+      "translation": "あう～、沼にハマっちゃった！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「トクトンサゴ（オタク＋交通事故）」。</li><li>事故みたいに突然ファンになってしまった、という意味。自分の魅力にハマった相手を見て言ってるのかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl59.mp3"
+    },
+    {
+      "id": "melodie_vl60",
+      "quote": "올킬! 우우!",
+      "translation": "オールキル！うう！",
+      "explanation": "<strong>解説:</strong><br><ul><li>K-POP用語「オールキル（チャート総なめ）」。</li><li>敵を全滅させた時（Ace）にぴったりの勝利宣言です！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/melodie_vl60.mp3"
+    }
+  ]
+}

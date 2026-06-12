@@ -1,0 +1,262 @@
+{
+  "name": "アッシュ",
+  "nameEn": "Ash",
+  "rarity": "hyper-rare",
+  "role": "damage-dealer",
+  "quote": "Time to take out the rubbish.",
+  "iconUrl": "https://i.imgur.com/Ircl73m.png",
+  "voicelines": [
+    {
+      "id": "ash_vl1",
+      "quote": "Time to take out the rubbish.",
+      "translation": "ゴミを出しに行く時間だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"take out the rubbish\" は「ゴミを出す」という一般的な英語表現です。</li><li>清掃員であるアッシュが、敵を「ゴミ」とみなし、「これからお前らを片付けてやる」と宣言する、キャラクター性を象徴するセリフです。</li></ul><strong>英文法:</strong><br>\"Time to + 動詞の原形\" で「～する時間だ」という、行動の開始を示す定番の表現です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl1.mp3"
+    },
+    {
+      "id": "ash_vl2",
+      "quote": "Bins for the wins.",
+      "translation": "勝利のためのゴミ箱だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Bins\"（ゴミ箱）と \"wins\"（勝利）で韻を踏んだ、リズミカルなスローガンです。</li><li>ゴミ箱（を使って戦うこと）が勝利につながる、という彼の戦闘スタイルを表しています。</li></ul><strong>英文法:</strong><br>「名詞 + for + 名詞」の形で、目的（勝利のため）を表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl2.mp3"
+    },
+    {
+      "id": "ash_vl3",
+      "quote": "You're off your heid!",
+      "translation": "お前、アタマおかしいんちゃうか！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは非常に典型的なスコットランドの表現で、「お前は頭がおかしい！」「正気じゃない！」という意味の侮辱です。</li><li>\"heid\" は、スコットランド英語（Scots）で「頭（head）」を意味する単語です。</li></ul><strong>英文法:</strong><br>標準英語の \"You're off your head.\" というイディオムの、スコットランド方言バージョンです。文法構造は同じですが、語彙が地域特有のものになっています。<br><br><strong>🧠豆知識:</strong><br>アッシュのセリフには、このようなスコットランド特有のスラングや発音がふんだんに盛り込まれており、それが彼の「短気で口の悪い城の清掃員」というキャラクターを確立する上で非常に重要な要素となっています。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl3.mp3"
+    },
+    {
+      "id": "ash_vl4",
+      "quote": "Get in ma bin.",
+      "translation": "ワシのゴミ箱に入れや。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>敵に対して「お前はゴミ箱に入るのがお似合いだ」と、ゴミ同然の存在だと見下しています。</li></ul><strong>英文法:</strong><br>\"ma\" は、スコットランド英語で \"my\" を意味する所有格です。\"Get in...\" で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl4.mp3"
+    },
+    {
+      "id": "ash_vl5",
+      "quote": "Nah I'm done.",
+      "translation": "いや、もう終わりだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Nah\" は \"No\" の非常にカジュアルな言い方。</li><li>\"I'm done\" は「もう終わりだ」「もうやめた」という意味で、敗北した際の諦めや、うんざりした気持ちを表します。</li></ul><strong>英文法:</strong><br>シンプルな肯定文ですが、文脈によっては強い否定や諦観を示します。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl5.mp3"
+    },
+    {
+      "id": "ash_vl6",
+      "quote": "Rat attack!",
+      "translation": "ネズミのアタックだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身の怒りが頂点に達した時に召喚する、ロボットネズミによる攻撃を宣言する掛け声です。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」の組み合わせによる、技名のようなフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl6.mp3"
+    },
+    {
+      "id": "ash_vl7",
+      "quote": "I smell rubbish!",
+      "translation": "ゴミの匂いがするぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>近くに敵がいることを、彼らにとっては不名誉な「ゴミの匂い」で察知した、というセリフです。</li></ul><strong>英文法:</strong><br>シンプルな現在形の肯定文です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl7.mp3"
+    },
+    {
+      "id": "ash_vl8",
+      "quote": "Who's rubbish now?",
+      "translation": "今、ゴミなのはどっちだ？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を倒した後などに、「さっきまで俺をゴミ扱いしてたが、今ゴミになったのはお前の方じゃないか」と、状況の逆転を突きつける、皮肉な問いかけです。</li></ul><strong>英文法:</strong><br>Whoで始まる疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl8.mp3"
+    },
+    {
+      "id": "ash_vl9",
+      "quote": "Get off me ya wee rascal.",
+      "translation": "離れろや、この小僧が。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Get off me\" は「私から離れろ」。</li><li>\"ya\" は \"you\"、\"wee\" はスコットランド英語で「小さい」、\"rascal\" は「わんぱく小僧、悪ガキ」。全体で「このクソガキ、まとわりつくな」というニュアンスです。</li></ul><strong>英文法:</strong><br>命令文と、スコットランド方言の呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl9.mp3"
+    },
+    {
+      "id": "ash_vl10",
+      "quote": "Up ye.",
+      "translation": "くたばれ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは \"Up yours!\"（くそくらえ、くたばれ）という、非常に強い侮辱表現のスコットランド（特にグラスゴー）バージョンです。</li></ul><strong>英文法:</strong><br>非常に短いですが、強い侮辱の意味を持つ定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl10.mp3"
+    },
+    {
+      "id": "ash_vl11",
+      "quote": "I'm boggin'.",
+      "translation": "ワシはドロドロだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"boggin'\" は、スコットランドや北イングランドで使われるスラングで、「とても汚い、不潔だ、臭い」といった意味です。</li><li>清掃員として、ゴミまみれになっている自分自身を表現しています。</li></ul><strong>英文法:</strong><br>\"I'm + 形容詞（スラング）\" の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl11.mp3"
+    },
+    {
+      "id": "ash_vl12",
+      "quote": "Welcome to the rat race!",
+      "translation": "ネズミのレースへようこそ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"the rat race\" は、富や地位を求めて人々が繰り広げる、激しく無意味な生存競争を指すイディオムです。</li><li>戦場をこの「ラットレース」に例え、相手を皮肉たっぷりに歓迎しています。</li></ul><strong>英文法:</strong><br>定型化された歓迎の挨拶です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl12.mp3"
+    },
+    {
+      "id": "ash_vl13",
+      "quote": "I'm so manky!",
+      "translation": "ワシは超汚い！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"manky\" は、イギリスやスコットランドのスラングで、「汚い、質の悪い、不快な」という意味です。</li></ul><strong>英文法:</strong><br>\"so\" で形容詞 \"manky\" を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl13.mp3"
+    },
+    {
+      "id": "ash_vl14",
+      "quote": "Just bin, taking out the trash.",
+      "translation": "ただ、ゴミを出してただけだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"I have just been taking out the trash.\"（たった今、ゴミを出していたところだ）を、非常に省略した言い方です。</li><li>\"bin\" は動詞 \"been\" のスコットランド風の発音に、「ゴミ箱（bin）」の意味をかけた言葉遊びです。</li></ul><strong>英文法:</strong><br>現在完了進行形が極端に省略された、口語的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl14.mp3"
+    },
+    {
+      "id": "ash_vl15",
+      "quote": "Get off me ya wee toerag.",
+      "translation": "離れろや、このチンピラが。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"toerag\" は、イギリスやスコットランドで使われる、非常に軽蔑的な侮辱語で、「クズ、チンピラ、ろくでなし」といった意味です。</li></ul><strong>英文法:</strong><br>命令文と、スコットランド方言を含む呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl15.mp3"
+    },
+    {
+      "id": "ash_vl16",
+      "quote": "So rubbish.",
+      "translation": "マジでゴミだな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手や状況を「本当にくだらない、ひどい」と一言で切り捨てています。</li></ul><strong>英文法:</strong><br>\"That is so rubbish.\" が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl16.mp3"
+    },
+    {
+      "id": "ash_vl17",
+      "quote": "Nippin' ma heid man!",
+      "translation": "頭にくるで、しかし！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"nipping my head\" は、スコットランドのスラングで「イライラさせる、頭にくる」という意味です。標準英語の \"doing my head in\" に近いです。</li><li>\"man\" は文末で「おい」「しかし」といった強調のニュアンスで使われます。</li></ul><strong>英文法:</strong><br>スコットランド特有のイディオムです。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl17.mp3"
+    },
+    {
+      "id": "ash_vl18",
+      "quote": "Run free, ma wee beasties!",
+      "translation": "自由に走れ、ワシの小さなケモノたち！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>召喚したロボットネズミたちを「私の小さな獣たち（ma wee beasties）」と呼び、戦場に解き放つセリフです。</li></ul><strong>英文法:</strong><br>命令文と、スコットランド方言を含む呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl18.mp3"
+    },
+    {
+      "id": "ash_vl19",
+      "quote": "Bin-it to win-it!",
+      "translation": "ゴミ箱に入れて勝つ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「勝つためには、その中にいなければならない」という意味の有名なスローガン \"In it to win it!\" をもじった、見事な言葉遊びです。</li><li>\"In it\" を、彼のテーマである「ゴミ箱（Bin）」に置き換えています。</li></ul><strong>英文法:</strong><br>有名なイディオムのパロディです。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl19.mp3"
+    },
+    {
+      "id": "ash_vl20",
+      "quote": "Ash cackles",
+      "translation": "（アッシュが高笑いする）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>\"cackle\" は、魔女がするような、甲高く意地悪な笑い声を指します。アッシュの怒りや狂気が頂点に達した時の笑いです。</li></ul><strong>英文法:</strong><br>動詞 \"cackle\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl20.mp3"
+    },
+    {
+      "id": "ash_vl21",
+      "quote": "Twee!",
+      "translation": "トゥイー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>特に意味のない、気合を入れるための短い叫び声や、攻撃がヒットした時の効果音のようなものです。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl21.mp3"
+    },
+    {
+      "id": "ash_vl22",
+      "quote": "Pure rubbish!",
+      "translation": "まったくのゴミだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Pure\" はスコットランド英語で、「全くの、完全な」という強調の副詞として非常によく使われます。</li><li>相手や状況を、最大限に軽蔑しているセリフです。</li></ul><strong>英文法:</strong><br>スコットランド方言の副詞が名詞を修飾しています。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl22.mp3"
+    },
+    {
+      "id": "ash_vl23",
+      "quote": "Oh! Rats.",
+      "translation": "おぉ！ネズミども。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分のロボットネズミを召喚した時の掛け声。</li><li>または、「しまった！」という意味の間投詞 \"Rats!\" と、文字通りの「ネズミ」をかけたダブルミーニングの可能性もあります。</li></ul><strong>英文法:</strong><br>感嘆詞と名詞の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl23.mp3"
+    },
+    {
+      "id": "ash_vl24",
+      "quote": "Make daddy proud.",
+      "translation": "ダディを誇らしい気持ちにさせてくれ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分のロボットネズミたちを「子供」とみなし、彼らに「お父さん（daddy）を誇らしい気持ちにさせてくれ」と、活躍を期待して送り出しています。</li></ul><strong>英文法:</strong><br>使役動詞 \"Make\" を使った命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl24.mp3"
+    },
+    {
+      "id": "ash_vl25",
+      "quote": "One more win for the bin!",
+      "translation": "ゴミ箱のためにもう一勝！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"win\" と \"bin\" で韻を踏んだ、勝利への意気込みを表すスローガンです。</li></ul><strong>英文法:</strong><br>簡潔な名詞句で、スローガンとして機能しています。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl25.mp3"
+    },
+    {
+      "id": "ash_vl26",
+      "quote": "Away you go!",
+      "translation": "あっちへ行け！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「向こうへ行け」と相手を追い払う際の、少し古風、あるいはスコットランド風の言い方です。</li></ul><strong>英文法:</strong><br>\"Go away\" と同じ意味ですが、語順が倒置されています。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl26.mp3"
+    },
+    {
+      "id": "ash_vl27",
+      "quote": "Numpty!",
+      "translation": "このアホが！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Numpty\" は、スコットランドで非常によく使われる、「愚か者、間抜け、アホ」を意味する侮辱語です。</li></ul><strong>英文法:</strong><br>名詞単独の、侮辱的な呼びかけです。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl27.mp3"
+    },
+    {
+      "id": "ash_vl28",
+      "quote": "Ash groans",
+      "translation": "（アッシュがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。ダメージを受けた時の苦痛や、不満を表すうめき声です。</li></ul><strong>英文法:</strong><br>動詞 \"groan\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl28.mp3"
+    },
+    {
+      "id": "ash_vl29",
+      "quote": "Meet ma pals!",
+      "translation": "ワシのダチに挨拶しな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"pals\" は「仲間、友達」という意味のインフォーマルな言葉。</li><li>ロボットネズミたちを「仲間」として紹介し、彼らによる攻撃を予告しています。</li></ul><strong>英文法:</strong><br>命令文です。\"ma\" は \"my\" のスコットランド方言です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl29.mp3"
+    },
+    {
+      "id": "ash_vl30",
+      "quote": "Lavvy heid!",
+      "translation": "この便所頭が！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Lavvy\" は \"lavatory\"（トイレ、便所）のスコットランドでの短縮形。</li><li>\"heid\" は「頭」。相手を「便所頭」と罵る、非常に汚い侮辱の言葉です。</li></ul><strong>英文法:</strong><br>スコットランドのスラングを組み合わせた、強烈な侮辱表現です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl30.mp3"
+    },
+    {
+      "id": "ash_vl31",
+      "quote": "Ash screams",
+      "translation": "（アッシュが叫ぶ）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。大きなダメージを受けた時などの、苦痛に満ちた叫び声を表します。</li></ul><strong>英文法:</strong><br>動詞 \"scream\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl31.mp3"
+    },
+    {
+      "id": "ash_vl32",
+      "quote": "Look at the weans go!",
+      "translation": "見ろ、あの子らがやっとるぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"weans\" は、スコットランドで「子供たち」を意味する言葉です。</li><li>ロボットネズミたちが活躍している様子を見て、満足げに言っています。</li></ul><strong>英文法:</strong><br>知覚動詞 \"Look at\" を使った第5文型（SVOC）で、「OがCしているのを見る」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl32.mp3"
+    },
+    {
+      "id": "ash_vl33",
+      "quote": "My head is ringin.",
+      "translation": "頭がガンガンするわ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>頭を強く打った時や、大きな音を聞いたりして、頭の中でキーンという音（ringing）が鳴り響いている状態を表します。</li></ul><strong>英文法:</strong><br>\"ringing\" の \"g\" を省略した、口語的な発音です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl33.mp3"
+    },
+    {
+      "id": "ash_vl34",
+      "quote": "Off yee go.",
+      "translation": "さっさと行けや。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Away you go!\" と同じく、「あっちへ行け」と相手を追い払うセリフです。</li><li>\"yee\" は、一部のスコットランドやアイルランドの方言で \"you\" の代わりに使われることがあります。</li></ul><strong>英文法:</strong><br>倒置された命令文で、方言が使われています。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl34.mp3"
+    },
+    {
+      "id": "ash_vl35",
+      "quote": "Pure riddy!",
+      "translation": "マジで恥ずかしいわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Pure\" は「全くの」という強調の副詞。</li><li>\"riddy\" は、スコットランドのスラングで「（赤面するほど）恥ずかしい状況」を意味します。</li><li>自分がミスをして、非常に恥ずかしい思いをしていることを表します。</li></ul><strong>英文法:</strong><br>スコットランドのスラングを組み合わせた感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl35.mp3"
+    },
+    {
+      "id": "ash_vl36",
+      "quote": "Oh yep!",
+      "translation": "おお、いかにも！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Yep\" は \"Yes\" の非常にカジュアルな言い方。強い同意や、何かがうまくいった時の満足感を表します。</li></ul><strong>英文法:</strong><br>感嘆詞と肯定の返事の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/ash_vl36.mp3"
+    }
+  ]
+}

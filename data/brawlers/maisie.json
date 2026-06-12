@@ -1,0 +1,241 @@
+{
+  "name": "メイジー",
+  "nameEn": "Maisie",
+  "rarity": "hyper-rare",
+  "role": "damage-dealer",
+  "quote": "Where there's smoke, there's fire.",
+  "iconUrl": "https://i.imgur.com/us6tzUY.png",
+  "voicelines": [
+    {
+      "id": "maisie_vl1",
+      "quote": "I got your back.",
+      "translation": "援護は任せて。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"I've got your back\" は、「私があなたの背後を守る」という直訳から、「君のことは任せろ」「私がついているから大丈夫」という意味で使われる、非常に一般的なスラングです。</li><li>仲間への信頼と、自身が頼りになる存在であることを示しています。</li></ul><strong>英文法:</strong><br>\"I got\" は \"I have got\" の口語的な省略形です。定型化されたイディオムとして使われます。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl1.mp3"
+    },
+    {
+      "id": "maisie_vl2",
+      "quote": "Now you see how it's done.",
+      "translation": "こうやるのよ、わかった？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"how it's done\" は「物事のやり方、お手本」。</li><li>自分の見事なプレイを見せつけた後、まるで手本を示すかのように「本当のやり方はこうよ」と、自信たっぷりに言うセリフです。</li></ul><strong>英文法:</strong><br>間接疑問文が文の目的語になっています。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl2.mp3"
+    },
+    {
+      "id": "maisie_vl3",
+      "quote": "*grunts* You are about to feel the heat.",
+      "translation": "（うなり声）…これから熱を感じることになるわよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"You are about to...\" は「まさに～するところだ」。</li><li>\"feel the heat\" は、文字通り「熱を感じる」ことと、比喩的に「プレッシャーを感じる、窮地に陥る」ことのダブルミーニングです。</li></ul><strong>英文法:</strong><br>\"be about to + 動詞の原形\" で、直前の未来を表す重要な構文です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl3.mp3"
+    },
+    {
+      "id": "maisie_vl4",
+      "quote": "Boom! That's how it's done!",
+      "translation": "ドカン！こうやるのよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Boom!\" という爆発音に続けて、「これが本当のやり方よ！」と、自分の完璧な一撃を誇示しています。</li></ul><strong>英文法:</strong><br>感嘆詞と、お手本を示す際の決まり文句の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl4.mp3"
+    },
+    {
+      "id": "maisie_vl5",
+      "quote": "Keep on fighting!",
+      "translation": "戦い続けて！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>味方を鼓舞し、諦めずに戦い続けるよう促す、力強い応援の言葉です。</li></ul><strong>英文法:</strong><br>\"keep on + 動詞の-ing形\" は「～し続ける」という、継続を表す重要な句動詞です。ここでは命令文として使われています。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl5.mp3"
+    },
+    {
+      "id": "maisie_vl6",
+      "quote": "Stand back!",
+      "translation": "下がってなさい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>危険な状況で、周囲の人に「下がりなさい」と警告する、安全管理者らしいセリフです。</li></ul><strong>英文法:</strong><br>句動詞を使った、短い命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl6.mp3"
+    },
+    {
+      "id": "maisie_vl7",
+      "quote": "Let's stay calm, but think fast.",
+      "translation": "冷静に、でも頭は早く回転させて。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>緊急時における理想的な心構え、「冷静さ（calm）」と「思考の速さ（think fast）」を、仲間に呼びかけています。</li></ul><strong>英文法:</strong><br>\"Let's...\" で始まる提案の文を、接続詞 \"but\" で対比させています。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl7.mp3"
+    },
+    {
+      "id": "maisie_vl8",
+      "quote": "Fortune favors the brave.",
+      "translation": "幸運は勇者に味方する。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ラテン語由来の有名なことわざで、「幸運は、リスクを恐れず勇敢に行動する者のもとに訪れる」という意味です。</li></ul><strong>英文法:</strong><br>ことわざとして定着している、教訓的な文です。<br><br><strong>🧠豆知識:</strong><br>古代ローマ時代から伝わるこの言葉は、歴史上の多くの軍人や探検家によって引用されてきました。危険な状況に飛び込む前の、自分や仲間を鼓舞するセリフとして完璧です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl8.mp3"
+    },
+    {
+      "id": "maisie_vl9",
+      "quote": "You wanna show? I'll give you one.",
+      "translation": "ショーが見たいの？見せてあげるわ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"wanna\" は \"want to\" の口語的な短縮形。</li><li>相手が「ショー（見世物）」を望んでいるなら、自分がこれから派手な戦い（ショー）を見せてやろう、という自信と挑発が込められています。</li></ul><strong>英文法:</strong><br>相手の願望を問いかけ、それに応える形で未来の行動を宣言しています。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl9.mp3"
+    },
+    {
+      "id": "maisie_vl10",
+      "quote": "That was a blast!",
+      "translation": "最高に楽しかったわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"a blast\" は、文字通り「爆風」という意味ですが、スラングでは「非常に楽しい経験、最高の時間」を意味します。</li><li>爆発を使うメイジーの能力と、「最高の時間だった」という感想をかけた、見事なダブルミーニングです。</li></ul><strong>英文法:</strong><br>定型化されたスラング表現です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl10.mp3"
+    },
+    {
+      "id": "maisie_vl11",
+      "quote": "At least, I went down in a blaze of glory.",
+      "translation": "少なくとも、華々しく散ったわ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"go down in a blaze of glory\" は、「栄光の炎の中で倒れる」、つまり「華々しい最期を遂げる、見事に散る」という意味のイディオムです。</li><li>敗北はしたものの、無様ではなかったと、負け惜しみを言っています。</li></ul><strong>英文法:</strong><br>有名な慣用句を使った、過去形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl11.mp3"
+    },
+    {
+      "id": "maisie_vl12",
+      "quote": "Watch out!",
+      "translation": "危ない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>危険が迫っていることを、自分や味方に警告する、最も一般的な表現です。</li></ul><strong>英文法:</strong><br>句動詞を使った、短い命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl12.mp3"
+    },
+    {
+      "id": "maisie_vl13",
+      "quote": "I might be armless, but I'm in no way harmless.",
+      "translation": "片腕かもしれないけど、決して無害じゃないから。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"armless\"（腕がない）と \"harmless\"（無害な）で韻を踏んだ、非常に clever な言葉遊びです。</li><li>「片腕がないかもしれないけれど、だからといって決して無害なわけではない」と、自身のハンディキャップを逆手にとって、その強さをアピールしています。</li></ul><strong>英文法:</strong><br>\"in no way\" は「決して～ない」という意味の、非常に強い否定を表す副詞句です。接続詞 \"but\" を使って、前半と後半のアイデアを対比させています。<br><br><strong>🧠豆知識:</strong><br>このような、キャラクターの身体的特徴と内面的な強さを対比させるセリフは、キャラクターの背景と決意を一度に示す、効果的な手法です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl13.mp3"
+    },
+    {
+      "id": "maisie_vl14",
+      "quote": "I'm a-Maisie-ing!",
+      "translation": "私、アメイジーング！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「素晴らしい」という意味の \"amazing\" と、自身の名前 \"Maisie\" をかけた、自信満々の言葉遊び（pun）です。</li></ul><strong>英文法:</strong><br>既存の単語をもじった、独創的な造語です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl14.mp3"
+    },
+    {
+      "id": "maisie_vl15",
+      "quote": "Holy smoke!",
+      "translation": "なんてこった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>強い驚きを表す、少し古風な感嘆詞です。</li><li>\"Holy cow!\" や \"Holy crap!\" など、\"Holy ~\" で始まる感嘆表現の一種です。</li><li>火や煙を使うメイジーのテーマに「煙（smoke）」という言葉が合っています。</li></ul><strong>英文法:</strong><br>定型化された間投詞です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl15.mp3"
+    },
+    {
+      "id": "maisie_vl16",
+      "quote": "Where there's smoke, there's fire.",
+      "translation": "煙あるところに、火は立つものよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「火のない所に煙は立たぬ」ということわざで、英語では「煙があるなら、そこには火があるはずだ」という語順になります。</li><li>噂の裏には何かしらの真実がある、という意味ですが、ここでは文字通り、自分の煙幕の先には炎の攻撃があるぞ、と警告しているのかもしれません。</li></ul><strong>英文法:</strong><br>ことわざとして定着している構文です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl16.mp3"
+    },
+    {
+      "id": "maisie_vl17",
+      "quote": "Hmmm! Need a change of plan.",
+      "translation": "ふーむ！作戦変更が必要ね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>状況が思わしくないため、「計画の変更（a change of plan）」が必要だと判断している、冷静なセリフです。</li></ul><strong>英文法:</strong><br>\"I need a change of plan.\" の主語 \"I\" が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl17.mp3"
+    },
+    {
+      "id": "maisie_vl18",
+      "quote": "You better run!",
+      "translation": "逃げた方が身のためよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手に対して「逃げるべきだ」と強い警告を発しています。</li></ul><strong>英文法:</strong><br>\"You better ~\" は \"You had better ~\" の口語的な省略形で、「～した方がよい（さもないと酷い目に遭うぞ）」という忠告・軽い脅しの表現です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl18.mp3"
+    },
+    {
+      "id": "maisie_vl19",
+      "quote": "Armed and ready!",
+      "translation": "武装完了、準備万端！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"armed\" は「武装した」。</li><li>「武装して、準備ができている」と、いつでも戦える状態にあることを示しています。</li></ul><strong>英文法:</strong><br>\"I am armed and ready.\" の主語とbe動詞が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl19.mp3"
+    },
+    {
+      "id": "maisie_vl20",
+      "quote": "Watch out! That's a fire hazard!",
+      "translation": "気をつけて！火災の危険があるわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fire hazard\" は「火災の危険（性）」。</li><li>安全管理の専門家として、自分の攻撃や周囲の状況が危険であることを警告しています。</li></ul><strong>英文法:</strong><br>命令文と、警告を説明する文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl20.mp3"
+    },
+    {
+      "id": "maisie_vl21",
+      "quote": "Maisie to the rescue!",
+      "translation": "メイジーが助けに来たわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"to the rescue\" は「救助に駆けつける」という意味の決まり文句。</li><li>ヒーローが颯爽と登場するシーンで使われるような、頼もしいセリフです。</li></ul><strong>英文法:</strong><br>定型化されたイディオムです。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl21.mp3"
+    },
+    {
+      "id": "maisie_vl22",
+      "quote": "I might be out, but I'm not done!",
+      "translation": "やられたかもしれないけど、まだ終わってない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"be out\" は「脱落する、負ける」。\"be done\" は「終わる」。</li><li>一度は倒されたかもしれないが、まだ完全に負けたわけではない、と不屈の闘志を示しています。</li></ul><strong>英文法:</strong><br>\"but\" を使って、二つの状況を対比させています。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl22.mp3"
+    },
+    {
+      "id": "maisie_vl23",
+      "quote": "Shockwave!",
+      "translation": "衝撃波！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身の必殺技である「衝撃波（Shockwave）」を、技名として叫んでいます。</li></ul><strong>英文法:</strong><br>名詞単独の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl23.mp3"
+    },
+    {
+      "id": "maisie_vl24",
+      "quote": "Ready to face the flames.",
+      "translation": "炎に立ち向かう準備はできてる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"face the flames\" は、文字通り「炎に立ち向かう」ことと、比喩的に「困難な状況に立ち向かう」ことのダブルミーニングです。</li></ul><strong>英文法:</strong><br>\"I am ready to...\" の主語が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl24.mp3"
+    },
+    {
+      "id": "maisie_vl25",
+      "quote": "This arm means harm.",
+      "translation": "この腕は、危害を加えるわよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"arm\"（腕）と \"harm\"（危害）で韻を踏んだ、脅威的なセリフです。</li><li>自身のロケットアームが、ただの義手ではなく、危険な武器であることを示しています。</li></ul><strong>英文法:</strong><br>動詞 \"mean\" は「～を意味する」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl25.mp3"
+    },
+    {
+      "id": "maisie_vl26",
+      "quote": "I went up in smoke!",
+      "translation": "煙となって消えちゃった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"go up in smoke\" は、文字通り「煙となって立ち上る」ことから転じて、「（計画などが）ダメになる、失敗に終わる」「（物が）燃えてなくなる」という意味のイディオムです。</li><li>自分が敗北したことを、煙に例えて表現しています。</li></ul><strong>英文法:</strong><br>定型化された慣用句を使った、過去形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl26.mp3"
+    },
+    {
+      "id": "maisie_vl27",
+      "quote": "Smoking!",
+      "translation": "イケてる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは1994年の映画『マスク』の主人公の決め台詞として非常に有名なスラングです。「最高にクールだ、セクシーだ、イケてる」といった意味です。</li><li>火や煙を使うメイジーのテーマともかかっています。</li></ul><strong>英文法:</strong><br>形容詞として機能する、スラング表現です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl27.mp3"
+    },
+    {
+      "id": "maisie_vl28",
+      "quote": "I'm gonna snuff you out!",
+      "translation": "あんたを揉み消してやる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"snuff out\" は「（ろうそくの火などを）揉み消す」という意味。</li><li>転じて、「（人の命や希望を）消し去る、終わらせる」という、非常に脅威的な意味で使われます。</li></ul><strong>英文法:</strong><br>\"gonna\" を使った、未来の行動への強い意志表明です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl28.mp3"
+    },
+    {
+      "id": "maisie_vl29",
+      "quote": "Ah!",
+      "translation": "あっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>驚きや、軽い痛み、危険を感じた時に発せられる、短い悲鳴です。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl29.mp3"
+    },
+    {
+      "id": "maisie_vl30",
+      "quote": "Ew! Why are you foaming at the mouth?",
+      "translation": "うわっ！なんで口から泡を吹いてるの？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"foam at the mouth\" は、文字通り「口から泡を吹く」ことですが、比喩的に「（狂犬のように）激怒している」状態を指すイディオムです。</li><li>相手が非常に怒っている様子を、少し引いた目線で描写しています。</li></ul><strong>英文法:</strong><br>Whyで始まる、現在進行形の疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl30.mp3"
+    },
+    {
+      "id": "maisie_vl31",
+      "quote": "What am I fighting for?",
+      "translation": "私、何のために戦ってるんだっけ？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>激しい戦いの最中に、ふと我に返り、戦う目的を見失ってしまったかのような、哲学的な問いかけです。</li></ul><strong>英文法:</strong><br>Whatで始まる、現在進行形の疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl31.mp3"
+    },
+    {
+      "id": "maisie_vl32",
+      "quote": "Nooooo!",
+      "translation": "いやぁぁぁ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>強い拒絶や、敗北した際の絶望を表す、感情のこもった叫びです。</li></ul><strong>英文法:</strong><br>感嘆詞 \"No\" を長く伸ばして、感情を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl32.mp3"
+    },
+    {
+      "id": "maisie_vl33",
+      "quote": "No way!",
+      "translation": "ありえない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>信じられない出来事に対する、強い驚きや否定を表す決まり文句です。</li></ul><strong>英文法:</strong><br>感嘆詞的に使われる定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/maisie_vl33.mp3"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "name": "エムズ",
+  "nameEn": "Emz",
+  "rarity": "hyper-rare",
+  "role": "damage-dealer",
+  "quote": "I'm only here for the trophies.",
+  "iconUrl": "https://i.imgur.com/u880AUV.png",
+  "voicelines": [
+    {
+      "id": "emz_vl1",
+      "quote": "They say, 'she's too wrapped up in herself.' Ugh, hashtag haters.",
+      "translation": "『彼女は自分に夢中すぎ』ですって。あーあ、#アンチうざい",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"be wrapped up in oneself\" は「自分のことしか考えていない、自己中心的だ」という少しネガティブな意味のイディオムです。</li><li>\"hashtag haters\" は、SNSの「ハッシュタグ」を口に出して言うことで、「はいはいアンチ乙」のように、自分を批判する人々（haters）を軽蔑的に扱う、非常に現代的な表現です。</li></ul><strong>英文法:</strong><br>\"They say, '...'\" は「世間では～と言われている」と、一般的な評判を引用する際に使われる構文です。\"Ugh\" は嫌悪感を表す間投詞です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl1.mp3"
+    },
+    {
+      "id": "emz_vl2",
+      "quote": "Look at me! Ugh, not from that angle!",
+      "translation": "私を見て！うぅ、その角度からはやめて！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>注目を浴びたい一方で、自分が最高に見える「角度（angle）」に強いこだわりがある、自意識過剰なインフルエンサーらしいセリフです。</li></ul><strong>英文法:</strong><br>\"Look at me!\" はシンプルな命令文。「not from that angle」は \"Do not look at me from that angle\" が極端に省略された、口語的な否定表現です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl2.mp3"
+    },
+    {
+      "id": "emz_vl3",
+      "quote": "And I oop.",
+      "translation": "あ、やっべ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>何かをうっかり落としたり、言い間違えたりした時に「あっ…」と気まずく中断する様子を表す、インターネットミーム由来のスラングです。</li><li>エムズのキャラクターが、当時の流行に敏感な「VSCOガール」をモチーフにしていることを象徴するセリフの一つです。</li></ul><strong>英文法:</strong><br>文法的な構造を持つ文ではなく、間投詞のように機能するフレーズです。\"And I...\" と何かを言いかけて、\"oop\" という音で中断するのが一連の流れです。<br><br><strong>🧠豆知識:</strong><br>このフレーズは、元々ドラァグクイーンのJasmine Mastersの動画が発祥ですが、後にTikTokなどを通じて「VSCOガール」と呼ばれる、特定のファッションや持ち物を好む若者たちの間で大流行しました。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl3.mp3"
+    },
+    {
+      "id": "emz_vl4",
+      "quote": "Hashtag loser.",
+      "translation": "#負け犬",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を「負け犬（loser）」だと見下す際に、SNSの投稿のように「ハッシュタグ」を付けて言う、皮肉のこもったセリフです。</li></ul><strong>英文法:</strong><br>名詞 \"loser\" に、SNS用語である \"hashtag\" を付け加えた、非常に現代的なスラング表現です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl4.mp3"
+    },
+    {
+      "id": "emz_vl5",
+      "quote": "You're like totally not getting a friendship bracelet!",
+      "translation": "あんたにはマジで友情ブレスレットとか絶対あげないから！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"friendship bracelet\"（友情の証のブレスレット）をあげない、と言うことで、相手との絶交を宣言しています。</li><li>\"like\" や \"totally\" は、特に意味なく文中に挿入され、若者言葉の雰囲気を出すためのつなぎ言葉です。</li></ul><strong>英文法:</strong><br>\"like\" と \"totally\" は、ここでは本来の意味を失い、発話のリズムや感情の強調のために使われる間投詞的な副詞です。未来を表す現在進行形 \"are not getting\" で、強い否定の意志を示しています。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl5.mp3"
+    },
+    {
+      "id": "emz_vl6",
+      "quote": "Hah, try my new perfume!",
+      "translation": "ハッ、私の新しい香水、試してみる？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>新しい香水を勧めているように見せかけて、実際には「（あなたの体臭を消すために）これを使いなさいよ」という、強烈な皮肉や嫌味を込めたセリフです。</li></ul><strong>英文法:</strong><br>\"Hah\" は相手を見下したような含み笑い。\"try...\" は動詞の原形で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl6.mp3"
+    },
+    {
+      "id": "emz_vl7",
+      "quote": "Emz giggles",
+      "translation": "（エムズがクスクス笑う）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>\"giggle\" は、楽しそうに、あるいは何かを企んで「クスクス」と笑う様子を表します。</li></ul><strong>英文法:</strong><br>動詞 \"giggle\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl7.mp3"
+    },
+    {
+      "id": "emz_vl8",
+      "quote": "Hashtag I'm so gonna win everything.",
+      "translation": "#私まじで完全勝利するし",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の勝利を確信していることを、SNSの投稿のように宣言するセリフです。</li></ul><strong>英文法:</strong><br>\"gonna\" は \"going to\" の口語的な短縮形です。副詞 \"so\" が \"gonna win\" 全体を強調しており、「絶対に勝つ」という強い意志を表します。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl8.mp3"
+    },
+    {
+      "id": "emz_vl9",
+      "quote": "Hashtag winning!",
+      "translation": "#勝利なう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>今まさに勝利している、あるいは勝利に向かっている状況をSNSで自慢する際の定番フレーズです。</li></ul><strong>英文法:</strong><br>\"winning\" は動詞の現在分詞ですが、ここでは「勝利している状態」そのものを指す名詞のように使われています。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl9.mp3"
+    },
+    {
+      "id": "emz_vl10",
+      "quote": "Sksksksk.",
+      "translation": "スクスクスク。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これも「And I oop」と同様に、VSCOガールが使う特有のスラングです。笑い声、興奮、気まずさなど、文脈によって様々な感情を表す擬音語のような役割を果たします。</li></ul><strong>英文法:</strong><br>特定の文法構造はなく、キーボードを叩く音や笑い声を模したとされる擬音語です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl10.mp3"
+    },
+    {
+      "id": "emz_vl11",
+      "quote": "You are so bad. Oh my God!",
+      "translation": "あなた、ダサすぎ。信じらんない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手のプレイやセンスが「ひどい（bad）」と、呆れたように非難しています。</li><li>\"Oh my God!\" は、強い驚きや呆れ、衝撃を表す最も一般的な感嘆句です。</li></ul><strong>英文法:</strong><br>\"so + 形容詞\" の形で「とても～だ」と感情を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl11.mp3"
+    },
+    {
+      "id": "emz_vl12",
+      "quote": "Are you serious?!",
+      "translation": "本気で言ってる？！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の信じられない言動に対して、「正気か？」と驚きや疑いを表す際の決まり文句です。</li></ul><strong>英文法:</strong><br>be動詞で始まる、基本的なYes/No疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl12.mp3"
+    },
+    {
+      "id": "emz_vl13",
+      "quote": "Gotta get rid of that smell.",
+      "translation": "このニオイ、どうにかしないと。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"get rid of ~\" は「～を取り除く、処分する」という意味の重要な句動詞です。</li><li>相手を「嫌なニオイ」に例えて、排除したいという強い意志を示しています。</li></ul><strong>英文法:</strong><br>\"I've gotta get rid of...\" の主語が省略された形です。\"gotta\" は \"have got to\"（～しなければならない）の口語的な短縮形です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl13.mp3"
+    },
+    {
+      "id": "emz_vl14",
+      "quote": "Emz laughs",
+      "translation": "（エムズが笑う）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。相手を小馬鹿にしたような、あるいは自信に満ちた笑い声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"laugh\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl14.mp3"
+    },
+    {
+      "id": "emz_vl15",
+      "quote": "I'm so overpowered, upvote this.",
+      "translation": "私、強すぎだから『いいね』しといて。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"overpowered\" (OP) は「強すぎる」という意味のゲームスラング。</li><li>\"upvote\" は、海外の掲示板サイトRedditなどで「賛成票を入れる、高く評価する（いいね！）」という意味で使われる動詞です。</li></ul><strong>英文法:</strong><br>前半は自分の状態を述べ、後半は「これをupvoteしろ」という命令文になっています。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl15.mp3"
+    },
+    {
+      "id": "emz_vl16",
+      "quote": "Time to update my blog.",
+      "translation": "ブログ更新の時間だわ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>戦いの後などに、自分の活躍を早速ブログで報告しようとする、SNS世代らしいセリフです。</li></ul><strong>英文法:</strong><br>\"Time to + 動詞の原形\" は「～する時間だ」という行動の開始を示す定番の表現です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl16.mp3"
+    },
+    {
+      "id": "emz_vl17",
+      "quote": "Take a chill pill.",
+      "translation": "落ち着きなよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「落ち着くための錠剤（chill pill）を飲みなさい」というのが直訳。転じて「落ち着いて」「冷静になって」という意味で使われるスラングです。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文の形をとった、口語的な慣用句です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl17.mp3"
+    },
+    {
+      "id": "emz_vl18",
+      "quote": "Hashtag no filter!",
+      "translation": "#加工なし！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>SNSで、写真に「フィルター加工をしていない、ありのままの姿だ」とアピールする際の決まり文句です。</li><li>転じて、自分の実力や発言に「ごまかしがない」ことを主張しているニュアンスもあります。</li></ul><strong>英文法:</strong><br>「hashtag + [フレーズ]」の形で、SNS投稿のキャプションを模倣しています。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl18.mp3"
+    },
+    {
+      "id": "emz_vl19",
+      "quote": "I won't like your next post!",
+      "translation": "あんたの次の投稿、『いいね』しないから！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>SNS上での「いいね」をしないことが、相手への最大の罰だと考えている、エムズらしいユニークな脅し文句です。</li></ul><strong>英文法:</strong><br>\"won't\" は \"will not\" の短縮形で、未来の行動に対する強い否定の意志を表します。動詞 \"like\" は、SNSで「いいね！を押す」という意味で使われています。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl19.mp3"
+    },
+    {
+      "id": "emz_vl20",
+      "quote": "Try some Zom-bie, by me!",
+      "translation": "私の『ゾンビー』、試してみない？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Zom-bie\" は「ゾンビ」と彼女の名前「Emz」をかけた、おそらく彼女プロデュースの香水か何かのブランド名です。</li><li>\"by me\" は「私によって作られた」と、製作者が自分であることを示しています。</li></ul><strong>英文法:</strong><br>命令文と、製作者を示す前置詞句 \"by me\" の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl20.mp3"
+    },
+    {
+      "id": "emz_vl21",
+      "quote": "I'm only here for the trophies.",
+      "translation": "私がここに来たのはトロフィーのためだけ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>友情や楽しむことよりも、勝利の証である「トロフィー（trophies）」の獲得が唯一の目的であると宣言する、クールで自己中心的なセリフです。</li></ul><strong>英文法:</strong><br>\"only for...\" は「～のためだけに」と目的を限定する表現です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl21.mp3"
+    },
+    {
+      "id": "emz_vl22",
+      "quote": "I will destroy you!",
+      "translation": "あんたなんて、再起不能にしてあげる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を「破壊する」という非常に強い言葉で、完全な勝利への自信と敵意を示しています。</li></ul><strong>英文法:</strong><br>未来を表す助動詞 \"will\" を使った、強い意志表明の文です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl22.mp3"
+    },
+    {
+      "id": "emz_vl23",
+      "quote": "You totally deserved that.",
+      "translation": "それ、マジで自業自得だから。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が受けた悪い結果について、「あなたはそれに値した（自業自得だ）」と突き放すセリフです。</li><li>\"totally\" は「完全に、マジで」と意味を強調する副詞です。</li></ul><strong>英文法:</strong><br>\"deserve\" は「～に値する」という意味の動詞。過去形 \"deserved\" を使っています。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl23.mp3"
+    },
+    {
+      "id": "emz_vl24",
+      "quote": "I can finally breathe again!",
+      "translation": "やっと息が吸える！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>困難な状況や息苦しい状態から解放された際の、心からの安堵感を表現しています。</li></ul><strong>英文法:</strong><br>\"finally\" は「ついに、やっと」という意味で、待ち望んだ状況の到来を示す副詞です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl24.mp3"
+    },
+    {
+      "id": "emz_vl25",
+      "quote": "Ugh, did someone here unfollow me?",
+      "translation": "うそ、誰かここで私のフォロー外した？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>戦いの最中でも、SNSのフォロワーが減ったことを気にする、エムズのキャラクター性が凝縮されたセリフです。</li><li>\"unfollow\" は「フォローを解除する」というSNS用語です。</li></ul><strong>英文法:</strong><br>過去形の疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl25.mp3"
+    },
+    {
+      "id": "emz_vl26",
+      "quote": "Emz whimpers",
+      "translation": "（エムズがすすり泣く）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>\"whimper\" は、弱々しくしくしくと泣く様子を表します。</li></ul><strong>英文法:</strong><br>動詞 \"whimper\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl26.mp3"
+    },
+    {
+      "id": "emz_vl27",
+      "quote": "Hashtag boring.",
+      "translation": "#退屈",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>目の前の状況が「退屈だ（boring）」という感想を、SNSの投稿のように表現しています。</li></ul><strong>英文法:</strong><br>形容詞 \"boring\" に、SNS用語である \"hashtag\" を付け加えたスラング表現です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl27.mp3"
+    },
+    {
+      "id": "emz_vl28",
+      "quote": "Time for a detox.",
+      "translation": "デトックスの時間ね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"detox\" は、体内の毒素を排出すること。転じて、SNSやスマホから離れて心身をリフレッシュすることを指す場合もあります。</li><li>戦場のストレスからの解放を望んでいるようです。</li></ul><strong>英文法:</strong><br>「Time for + 名詞」で「～の時間だ」という定番の表現です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl28.mp3"
+    },
+    {
+      "id": "emz_vl29",
+      "quote": "Hashtag stop the hate!",
+      "translation": "#ヘイトはやめて！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>SNS上で見られる誹謗中傷や悪意のあるコメント（hate）をやめるよう呼びかけるスローガンです。</li></ul><strong>英文法:</strong><br>「hashtag + [命令文]」の形で、社会的なメッセージをSNS風に発信しています。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl29.mp3"
+    },
+    {
+      "id": "emz_vl30",
+      "quote": "Eat my scrunchie!",
+      "translation": "私のシュシュでも食らえ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Eat my shorts!\"（アニメ『ザ・シンプソンズ』のバートの決め台詞）のような、相手を侮辱するスラングのパロディです。</li><li>\"scrunchie\"（髪を束ねるアクセサリー）というVSCOガール的なアイテムを使うことで、エムズらしい表現になっています。</li></ul><strong>英文法:</strong><br>命令文の形をとっていますが、文字通りの意味ではなく、相手への拒絶や侮辱を表す慣用句的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl30.mp3"
+    },
+    {
+      "id": "emz_vl31",
+      "quote": "I'm like feeling so attacked right now.",
+      "translation": "ていうか今、超攻撃されてる気分なんだけど。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>実際に物理的な攻撃を受けている時だけでなく、精神的に批判されたり、追い詰められたりした時に「攻撃されてる気分だ」と大げさに訴える、若者言葉です。</li></ul><strong>英文法:</strong><br>\"like\" は文中で特に意味なく使われるつなぎ言葉です。\"feeling attacked\" は「攻撃されていると感じている」という状態を表します。\"right now\" で「まさに今」を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/emz_vl31.mp3"
+    }
+  ]
+}

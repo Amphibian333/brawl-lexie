@@ -1,0 +1,80 @@
+{
+  "name": "ペニー",
+  "nameEn": "Penny",
+  "rarity": "super-rare",
+  "role": "marksman",
+  "quote": "Ha ha!",
+  "iconUrl": "https://i.imgur.com/OgadT6n.png",
+  "voicelines": [
+    {
+      "id": "penny_vl1",
+      "quote": "Let's go!",
+      "translation": "行こうぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>試合開始や突撃の合図として使われる、チームを鼓舞する掛け声です。</li></ul><strong>英文法:</strong><br>\"Let's\" は \"let us\" の短縮形。「Let's + 動詞の原形」で「一緒に～しよう」と仲間を誘う際の定番フレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/penny_vl1.mp3"
+    },
+    {
+      "id": "penny_vl2",
+      "quote": "Number one!",
+      "translation": "ナンバーワン！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>勝利時などに「自分が一番だ！」と誇る、自信に満ちたセリフです。</li></ul><strong>英文法:</strong><br>形容詞句 \"number one\" を単独で使用しています。省略された主語は \"I'm\" などが考えられます。",
+      "audioUrl": "https://Amphibian333.github.io/penny_vl2.mp3"
+    },
+    {
+      "id": "penny_vl3",
+      "quote": "Yeah!",
+      "translation": "よっしゃ！／やった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>テンションが上がった時の喜びをシンプルに表現する感嘆詞です。</li></ul><strong>英文法:</strong><br>\"yeah\" は \"yes\" のカジュアルな言い方で、感嘆詞として使われます。",
+      "audioUrl": "https://Amphibian333.github.io/penny_vl3.mp3"
+    },
+    {
+      "id": "penny_vl4",
+      "quote": "Noooo...",
+      "translation": "うそぉぉぉ…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>がっかりしたり、やられたりした時の悔しさを表す声です。</li></ul><strong>英文法:</strong><br>否定の感嘆詞 \"no\" の母音を伸ばすことで、感情の強さや余韻を表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/penny_vl4.mp3"
+    },
+    {
+      "id": "penny_vl5",
+      "quote": "I'm the best!",
+      "translation": "私が一番よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自信満々に自身の優位性を主張するセリフです。</li></ul><strong>英文法:</strong><br>「主語 + be動詞 + a/the + 最上級形容詞」の基本的な最上級の文です。<br><br><strong>🧠豆知識:</strong><br>Brawl Starsのキャラクターには、このような自信家タイプの決め台詞が多く、キャラクターの性格付けに一役買っています。",
+      "audioUrl": "https://Amphibian333.github.io/penny_vl5.mp3"
+    },
+    {
+      "id": "penny_vl6",
+      "quote": "Bye bye.",
+      "translation": "バイバーイ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を倒した後の別れの挨拶。軽い煽りのニュアンスも含まれます。</li></ul><strong>英文法:</strong><br>挨拶表現の一種。単語を繰り返すことで、リズミカルで軽快なトーンを生み出しています。",
+      "audioUrl": "https://Amphibian333.github.io/penny_vl6.mp3"
+    },
+    {
+      "id": "penny_vl7",
+      "quote": "Ha ha!",
+      "translation": "ハハ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>勝利や余裕がある場面で使われる、一般的な笑い声です。</li></ul><strong>英文法:</strong><br>擬音語の一種で、意味よりも感情を表現する役割が強いセリフです。",
+      "audioUrl": "https://Amphibian333.github.io/penny_vl7.mp3"
+    },
+    {
+      "id": "penny_vl8",
+      "quote": "Ow!",
+      "translation": "いたっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>攻撃を受けた際の、とっさの痛みを表す叫び声です。</li></ul><strong>英文法:</strong><br>感嘆詞（interjection）。文の一部ではなく、単独で感情を表現します。<br><br><strong>🧠豆知識:</strong><br>\"Ow!\" は「痛っ！」を表現する最も一般的な単語の一つで、\"Ouch!\" よりも短く、日常会話で頻繁に使われます。",
+      "audioUrl": "https://Amphibian333.github.io/penny_vl8.mp3"
+    },
+    {
+      "id": "penny_vl9",
+      "quote": "Hee hee hee!",
+      "translation": "ひひひ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>イタズラっぽく、含みのある笑い声。ペニーの海賊らしいおてんばな性格を表しています。</li></ul><strong>英文法:</strong><br>擬音語（onomatopoeia）であり、意味よりも音や雰囲気でキャラクター性を示します。",
+      "audioUrl": "https://Amphibian333.github.io/penny_vl9.mp3"
+    },
+    {
+      "id": "penny_vl10",
+      "quote": "Penny groans / laughs / cackles",
+      "translation": "ペニーが唸る／笑う／高笑いする",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li><b>groan</b>: 苦しそうに唸る声。ダメージを受けた時や不満な場面。</li><li><b>laugh</b>: 普通の笑い声。嬉しい時や皮肉を言う時。</li><li><b>cackle</b>: 甲高い笑い声。少し意地悪な、または興奮したニュアンス。</li></ul><strong>英文法:</strong><br>主語 \"Penny\" に続く三人称単数現在の動詞。キャラクターの行動を描写する形式です。<br><br><strong>🧠豆知識:</strong><br>\"cackle\" は、物語に出てくる魔女の笑い声としてもよく使われる単語で、独特の雰囲気があります。",
+      "audioUrl": "https://Amphibian333.github.io/penny_vl10.mp3"
+    }
+  ]
+}

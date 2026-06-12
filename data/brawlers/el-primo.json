@@ -1,0 +1,164 @@
+{
+  "name": "エル・プリモ",
+  "nameEn": "El Primo",
+  "rarity": "rare",
+  "role": "tank",
+  "quote": "El Primo is here!",
+  "iconUrl": "https://i.imgur.com/jBYeNec.png",
+  "voicelines": [
+    {
+      "id": "elprimo_vl1",
+      "quote": "El Primo growls",
+      "translation": "（エル・プリモがうなる）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、キャラクターの行動を描写する「ト書き」です。</li><li>\"growl\" は、動物が発するような低いうなり声で、ここではレスラーとしての威嚇や怒り、気合を表現しています。</li></ul><strong>英文法:</strong><br>動詞 \"growl\" の三人称単数現在形です。主語 \"El Primo\" に合わせて \"-s\" が付いています。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl1.mp3"
+    },
+    {
+      "id": "elprimo_vl2",
+      "quote": "¡El campeón!",
+      "translation": "チャンピオンのお出ましだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これはスペイン語で、「ザ・チャンピオン！」という意味です。</li><li>自身の強さを誇示し、チャンピオンとしての威厳を示す、自信に満ちた自己紹介です。</li></ul><strong>英文法:</strong><br>スペイン語の感嘆文です。スペイン語では文の始めに逆さの感嘆符（¡）を置くルールがあります。「El」は男性名詞につく定冠詞（英語のthe）、「campeón」は「チャンピオン」を意味する名詞です。<br><br><strong>🧠豆知識:</strong><br>エル・プリモのキャラクターはメキシコのプロレス「ルチャリブレ」がモチーフです。ルチャドール（レスラー）がリング上で自分を大々的にアピールする様子が、このセリフによく表れています。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl2.mp3"
+    },
+    {
+      "id": "elprimo_vl3",
+      "quote": "El Primo groans",
+      "translation": "（エル・プリモがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"groan\" は、苦痛、疲労、または深い不満を表す、低く長めのうめき声を指します。</li></ul><strong>英文法:</strong><br>動詞 \"groan\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl3.mp3"
+    },
+    {
+      "id": "elprimo_vl4",
+      "quote": "¡Buenas noches!",
+      "translation": "おやすみなさい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スペイン語で「こんばんは」または「おやすみなさい」を意味する挨拶です。</li><li>相手をノックアウトした際に「もう寝る時間だぜ」という皮肉を込めて使っています。</li></ul><strong>英文法:</strong><br>スペイン語のフレーズです。「Buenas」は「良い」、「noches」は「夜」を意味し、合わせて挨拶となります。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl4.mp3"
+    },
+    {
+      "id": "elprimo_vl5",
+      "quote": "Adiós, amigos.",
+      "translation": "さよなら、友よ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スペイン語で「さようなら、友人たち」という意味の別れの挨拶です。</li><li>\"amigos\" は「友達（複数形）」で、親しみを込めた呼びかけですが、敵を倒した時に言うことで皮肉な響きになります。</li></ul><strong>英文法:</strong><br>「Adiós」はスペイン語の「さようなら」。「amigos」は男性複数形の名詞です。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl5.mp3"
+    },
+    {
+      "id": "elprimo_vl6",
+      "quote": "Fists of fury!",
+      "translation": "怒りの拳だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Fists\" は「拳（複数形）」、\"fury\" は「激怒」を意味します。</li><li>自身の攻撃が、怒りに満ちた強力なものであることを宣言しています。</li></ul><strong>英文法:</strong><br>「[名詞] of [名詞]」の形で、所有や性質を表します。ここでは「激怒の（性質を持つ）拳」という意味です。<br><br><strong>🧠豆知識:</strong><br>ブルース・リー主演の有名なカンフー映画の英題が \"Fist of Fury\"（邦題：ドラゴン怒りの鉄拳）であり、その影響も感じさせる力強いフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl6.mp3"
+    },
+    {
+      "id": "elprimo_vl7",
+      "quote": "El Primo!",
+      "translation": "エル・プリモ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身のリングネームを叫ぶことで、存在を強くアピールし、観客（や対戦相手）を沸かせるプロレスラーらしい自己紹介です。</li></ul><strong>英文法:</strong><br>固有名詞を単独で発する感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl7.mp3"
+    },
+    {
+      "id": "elprimo_vl8",
+      "quote": "Showtime.",
+      "translation": "ショータイムだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ショーの始まりだ」「ここからが見せ場だ」と宣言する、エンターテイナーらしいセリフです。</li></ul><strong>英文法:</strong><br>\"It's showtime.\" の主語と動詞が省略された、口語的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl8.mp3"
+    },
+    {
+      "id": "elprimo_vl9",
+      "quote": "¡Soy el mejor!",
+      "translation": "俺が最強だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スペイン語で「私が一番だ」「私が最高だ」という意味の、非常に強い自己主張のセリフです。</li></ul><strong>英文法:</strong><br>スペイン語の文です。「Soy」は動詞ser（be動詞にあたる）の一人称単数形。「el mejor」は最上級表現で「最高のもの・人」を意味します。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl9.mp3"
+    },
+    {
+      "id": "elprimo_vl10",
+      "quote": "You lose!",
+      "translation": "お前の負けだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の敗北を、シンプルかつ直接的に突きつける勝利宣言です。</li></ul><strong>英文法:</strong><br>「主語(You) + 動詞(lose)」の非常に簡潔な現在形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl10.mp3"
+    },
+    {
+      "id": "elprimo_vl11",
+      "quote": "Me muero.",
+      "translation": "もうダメだ…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スペイン語で「私は死ぬ」というのが直訳ですが、大げさに「もうおしまいだ」「死にそうだ」というニュアンスで使われる表現です。</li></ul><strong>英文法:</strong><br>スペイン語の動詞 \"morir\"（死ぬ）の再帰動詞形 \"morirse\" の一人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl11.mp3"
+    },
+    {
+      "id": "elprimo_vl12",
+      "quote": "Primo punch!",
+      "translation": "プリモ・パンチ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身の名前「プリモ」と得意技「パンチ」を組み合わせた、シンプルで分かりやすい技名です。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」の組み合わせで技名を表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl12.mp3"
+    },
+    {
+      "id": "elprimo_vl13",
+      "quote": "El Primo laughs",
+      "translation": "（エル・プリモが笑う）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>自信にあふれた、あるいは勝利を確信した時の豪快な笑い声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"laugh\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl13.mp3"
+    },
+    {
+      "id": "elprimo_vl14",
+      "quote": "Sin dolor, ¡no hay gloria!",
+      "translation": "痛みなくして、栄光なし！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スペイン語の有名な格言で、英語の \"No pain, no gain.\"（痛みなくして得るものなし）と全く同じ意味です。</li><li>困難を乗り越えてこそ栄光がある、というレスラー魂を示すセリフです。</li></ul><strong>英文法:</strong><br>スペイン語の構文です。「Sin」は「～なしに」、「dolor」は「痛み」、「no hay」は「～がない」、「gloria」は「栄光」を意味します。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl14.mp3"
+    },
+    {
+      "id": "elprimo_vl15",
+      "quote": "Ha ha ha!",
+      "translation": "ハッハッハ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>キャラクターの典型的な笑い声を表す擬音語です。</li></ul><strong>英文法:</strong><br>感情を表現する擬音語であり、文法構造はありません。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl15.mp3"
+    },
+    {
+      "id": "elprimo_vl16",
+      "quote": "Adiós mundo cruel.",
+      "translation": "さらば、残酷な世界よ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スペイン語で「さようなら、残酷な世界」という意味。</li><li>敗北する際に、まるで悲劇のヒーローのように大げさに退場する、ドラマチックなセリフです。</li></ul><strong>英文法:</strong><br>スペイン語のフレーズ。「Adiós」は「さようなら」、「mundo」は「世界」、「cruel」は「残酷な」を意味します。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl16.mp3"
+    },
+    {
+      "id": "elprimo_vl17",
+      "quote": "Puncho punch!",
+      "translation": "パンチョ・パンチ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>特に意味はなく、「パンチ」という単語と響きの良い「パンチョ」を組み合わせた、リズミカルな技名です。</li></ul><strong>英文法:</strong><br>固有名詞と普通名詞を組み合わせた、技名としてのフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl17.mp3"
+    },
+    {
+      "id": "elprimo_vl18",
+      "quote": "The show must go on.",
+      "translation": "ショーは続けなければならない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>エンターテインメントの世界で使われる有名な決まり文句で、「何があってもショーは続けなければならない」というプロ根性を示す言葉です。</li></ul><strong>英文法:</strong><br>「主語 + 助動詞(must) + 動詞の原形」の基本的な構文です。<br><br><strong>🧠豆知識:</strong><br>この言葉は、サーカスの団長が由来とも言われ、困難な状況でも観客のためにパフォーマンスを続けるエンターテイナーの精神を表す言葉として広く知られています。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl18.mp3"
+    },
+    {
+      "id": "elprimo_vl19",
+      "quote": "El Primo grunts",
+      "translation": "（エル・プリモが力む）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"grunt\" は、重いものを持ち上げたり、力を入れたりする時に発する、短く低い「うっ」という力み声やうなり声を指します。</li></ul><strong>英文法:</strong><br>動詞 \"grunt\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl19.mp3"
+    },
+    {
+      "id": "elprimo_vl20",
+      "quote": "For pain and for glory!",
+      "translation": "痛みと栄光のために！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>戦いにおける「痛み（pain）」と、その先にある「栄光（glory）」の両方のために戦う、というレスラーとしての覚悟を示したセリフです。</li></ul><strong>英文法:</strong><br>目的を表す前置詞 \"For\" を使った名詞句を、\"and\" で並列に繋げています。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl20.mp3"
+    },
+    {
+      "id": "elprimo_vl21",
+      "quote": "Ha ha ha ha ha.",
+      "translation": "ハハハハハ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>キャラクターの豪快な笑い声を表現しています。</li></ul><strong>英文法:</strong><br>感情を表現する擬音語です。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl21.mp3"
+    },
+    {
+      "id": "elprimo_vl22",
+      "quote": "¡Vámonos!",
+      "translation": "行くぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スペイン語で「さあ行こう！」と仲間を促す、非常にポピュラーな掛け声です。英語の \"Let's go!\" に相当します。</li></ul><strong>英文法:</strong><br>スペイン語の動詞 \"ir\"（行く）の nosotros（私たち）に対する命令形です。",
+      "audioUrl": "https://Amphibian333.github.io/elprimo_vl22.mp3"
+    }
+  ]
+}

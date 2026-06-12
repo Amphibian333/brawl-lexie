@@ -1,0 +1,220 @@
+{
+  "name": "ブロック",
+  "nameEn": "Brock",
+  "rarity": "rare",
+  "role": "marksman",
+  "quote": "Brock is OP!",
+  "iconUrl": "https://i.imgur.com/b4WwoWY.png",
+  "voicelines": [
+    {
+      "id": "brock_vl1",
+      "quote": "Whew! Let's go.",
+      "translation": "ふぅ！行くぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Whew!\" は、安堵のため息や、一仕事終えた後の「やれやれ」という息遣いを表す感嘆詞です。</li><li>\"Let's go\" は、気分を切り替えて「さあ、始めよう！」と仲間を促す掛け声です。</li></ul><strong>英文法:</strong><br>感嘆詞と、「Let's + 動詞の原形」という提案・誘いの構文が組み合わさっています。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl1.mp3"
+    },
+    {
+      "id": "brock_vl2",
+      "quote": "Brock is OP!",
+      "translation": "ブロックは強すぎ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"OP\" は \"Overpowered\" の略語で、「（ゲームバランスが崩れるほど）強すぎる」という意味を持つ、非常にポピュラーなゲームスラングです。</li></ul><strong>英文法:</strong><br>「主語 + be動詞 + 形容詞」のシンプルな第2文型です。ここではスラングである \"OP\" が形容詞として機能しています。<br><br><strong>🧠豆知識:</strong><br>\"OP\" という言葉は、オンラインゲームのコミュニティでキャラクターや武器のバランスを議論する際に生まれました。キャラクター自身が「自分はOPだ」と宣言するのは、究極の自信と少し傲慢な性格の表れです。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl2.mp3"
+    },
+    {
+      "id": "brock_vl3",
+      "quote": "For real?",
+      "translation": "マジで？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>信じられないことを見聞きした時に、「本当に？」「本気で言ってる？」と驚きや疑いを表す、非常に一般的な口語表現です。</li></ul><strong>英文法:</strong><br>\"Is this for real?\" が省略された形。前置詞句だけで感嘆・疑問を表します。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl3.mp3"
+    },
+    {
+      "id": "brock_vl4",
+      "quote": "Whew! Take the L.",
+      "translation": "ふぅ！負けを認めな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Take the L\" は「敗北（Loss）を受け入れる」という意味のスラング。相手に敗北を認めろ、と促す挑発的なセリフです。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文です。「L を受け取れ」が直訳になります。<br><br><strong>🧠豆知識:</strong><br>この表現は、特に人気バトルロイヤルゲーム「フォートナイト」で広まり、若者の間で一般的なスラングとなりました。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl4.mp3"
+    },
+    {
+      "id": "brock_vl5",
+      "quote": "Ooh, I was laggin'.",
+      "translation": "うわ、ラグってたわ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"lag\" は、オンラインゲームでインターネット接続の遅延により動作がカクカクになる現象を指す動詞です。</li><li>\"laggin'\" は \"lagging\" の \"g\" を省略した、非常にカジュアルな発音です。</li></ul><strong>英文法:</strong><br>過去進行形 \"I was lagging.\" で「（その時）ラグが発生していた」と、敗北の言い訳をしています。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl5.mp3"
+    },
+    {
+      "id": "brock_vl6",
+      "quote": "The box goes boom!",
+      "translation": "ボックスがドカンだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"boombox\"（ブロックのガジェット）とかけて、「箱（box）が爆発する（goes boom）」と表現しています。</li></ul><strong>英文法:</strong><br>\"go + [擬音語]\" は「～という音が鳴る、～な状態になる」という口語的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl6.mp3"
+    },
+    {
+      "id": "brock_vl7",
+      "quote": "Gotta get that loot.",
+      "translation": "あの戦利品、ゲットしなきゃな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Gotta\" は \"have got to\" の口語的な短縮形。「～しなければならない」という意味です。</li><li>\"loot\" は、ゲームで敵を倒した時などに手に入る「戦利品、アイテム」を指すスラングです。</li></ul><strong>英文法:</strong><br>\"I've gotta get that loot.\" の主語 \"I've\" が省略されています。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl7.mp3"
+    },
+    {
+      "id": "brock_vl8",
+      "quote": "Brock don't stop.",
+      "translation": "ブロックは止まらねぇ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>文法的には間違いですが（正しくは Brock doesn't stop）、ヒップホップやラップの歌詞で、リズムや語感を優先して意図的に使われる表現です。</li></ul><strong>英文法:</strong><br>三人称単数の主語に対して \"don't\" を使うのは、非標準的な用法ですが、特定の音楽ジャンルや口語では「クールな」言い方として定着しています。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl8.mp3"
+    },
+    {
+      "id": "brock_vl9",
+      "quote": "Don't do that.",
+      "translation": "そいつはやめとけ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の行動を制止する際の、短く直接的な否定の命令文です。</li></ul><strong>英文法:</strong><br>\"Don't + 動詞の原形\" の基本的な否定命令形です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl9.mp3"
+    },
+    {
+      "id": "brock_vl10",
+      "quote": "Ooh, you got destroyed.",
+      "translation": "うわ、完膚なきまでにやられたな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"get destroyed\" は、ただ負けるだけでなく「完全に破壊される」「ボコボコにされる」という、完敗を表すスラング表現です。</li></ul><strong>英文法:</strong><br>\"get + 過去分詞\" は、受動態をより口語的に表現する際によく使われる形です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl10.mp3"
+    },
+    {
+      "id": "brock_vl11",
+      "quote": "Ooh, you're so lucky!",
+      "translation": "おぉ、超ラッキーだな、お前！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の幸運を指摘するセリフ。文脈によっては「運が良かっただけだろ」という皮肉なニュアンスにもなります。</li></ul><strong>英文法:</strong><br>\"so\" は形容詞 \"lucky\" を強調する副詞です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl11.mp3"
+    },
+    {
+      "id": "brock_vl12",
+      "quote": "Boombox, baby!",
+      "translation": "ブームボックスだぜ、ベイビー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身のガジェット「ブームボックス」の名前を叫び、\"baby\" という呼びかけを加えてテンションの高さを表現しています。</li></ul><strong>英文法:</strong><br>「名詞 + 呼びかけ」のシンプルな感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl12.mp3"
+    },
+    {
+      "id": "brock_vl13",
+      "quote": "Let's do this.",
+      "translation": "やってやろうぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>何かを始める前に、自分や味方を鼓舞する定番の決め台詞です。</li></ul><strong>英文法:</strong><br>「Let's + 動詞の原形」の構文で、強い意志と行動の開始を示します。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl13.mp3"
+    },
+    {
+      "id": "brock_vl14",
+      "quote": "I'm ballin'.",
+      "translation": "オレ、イケてるぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"ballin'\" はスラングで、「（スポーツ選手のように）大金持ちで、華やかな生活を送っている」「絶好調だ」といった意味です。</li></ul><strong>英文法:</strong><br>\"balling\" の \"g\" が省略された口語発音。現在進行形で、その状態にあることを示します。<br><br><strong>🧠豆知識:</strong><br>元々はバスケットボール選手が由来ですが、ヒップホップ文化で「成功している」という意味で広く使われるようになりました。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl14.mp3"
+    },
+    {
+      "id": "brock_vl15",
+      "quote": "Woah woah woah!",
+      "translation": "おっとっと！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Woah\" は驚きや、相手を制止する際に使われる感嘆詞。繰り返すことで、より強い驚きや緊急性を表現しています。</li></ul><strong>英文法:</strong><br>感嘆詞の繰り返しです。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl15.mp3"
+    },
+    {
+      "id": "brock_vl16",
+      "quote": "Easy.",
+      "translation": "楽勝だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「簡単だ」と一言で片付けることで、自身の圧倒的な優位性や余裕を示しています。</li></ul><strong>英文法:</strong><br>\"This is easy.\" などの文が省略された、形容詞単独の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl16.mp3"
+    },
+    {
+      "id": "brock_vl17",
+      "quote": "Okay, okay, you got skills.",
+      "translation": "はいはい、お前うまいな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"you got skills\" は「君は技術を持っているね」というのが直訳で、「やるじゃん」「うまいな」と相手の能力を認める際のカジュアルな表現です。</li><li>\"Okay, okay\" と繰り返すことで、少し感心しながらも、どこか上から目線のニュアンスが含まれます。</li></ul><strong>英文法:</strong><br>\"you got\" は \"you have got\" の口語的な省略形です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl17.mp3"
+    },
+    {
+      "id": "brock_vl18",
+      "quote": "Ah yeah, turning up the boombox!",
+      "translation": "よっしゃ、ブームボックスの音量上げてくぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"turn up\" は「音量を上げる」という意味ですが、スラングでは「盛り上げる」「パーティーを始める」といったニュアンスでも使われます。</li></ul><strong>英文法:</strong><br>現在進行形 \"turning up\" で、今まさに行動している最中であることを示します。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl18.mp3"
+    },
+    {
+      "id": "brock_vl19",
+      "quote": "Time to move to the boombox groove.",
+      "translation": "ブームボックスのグルーヴに乗る時間だぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"groove\" は「音楽のノリ、リズム」のこと。これからノリノリで戦うことを宣言しています。</li></ul><strong>英文法:</strong><br>「Time to + 動詞」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl19.mp3"
+    },
+    {
+      "id": "brock_vl20",
+      "quote": "Gotta flex.",
+      "translation": "見せつけねぇとな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"flex\" は、元々「筋肉を曲げて見せる」ことから転じて、「自分の富や能力を見せびらかす、ドヤる」という意味で使われるスラングです。</li></ul><strong>英文法:</strong><br>\"I've gotta flex.\" の主語が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl20.mp3"
+    },
+    {
+      "id": "brock_vl21",
+      "quote": "You gotta be kidding.",
+      "translation": "冗談だろ、おい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>信じられないような状況に対する、強い驚きや呆れを表す決まり文句です。「本気で言ってるのか？」というニュアンスです。</li></ul><strong>英文法:</strong><br>\"You have got to be kidding.\" が元の形で、\"must be kidding\" とほぼ同じ意味です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl21.mp3"
+    },
+    {
+      "id": "brock_vl22",
+      "quote": "You, got wrecked.",
+      "translation": "お前、ぶっ壊されたな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"get wrecked\" は「大破する」「ボコボコにされる」という意味の非常に強い敗北を表すスラングです。</li></ul><strong>英文法:</strong><br>\"You\" を最初に言うことで、相手を指さして強調するようなニュアンスを加えています。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl22.mp3"
+    },
+    {
+      "id": "brock_vl23",
+      "quote": "Man, Brock got nerfed.",
+      "translation": "マジか、ブロック弱体化されたわ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Man\" は文頭で「うわ」「マジか」といった驚きや落胆を表す間投詞。</li><li>\"nerf\" は、ゲームのアップデートでキャラクターや武器の性能が意図的に弱くされることを指す、非常に有名なゲーム用語です。</li></ul><strong>英文法:</strong><br>\"get + 過去分詞\" の受動態で、「弱体化される」という状態の変化を表しています。<br><br><strong>🧠豆知識:</strong><br>\"nerf\" の語源は、柔らかい素材でできた安全な玩具のブランド名「Nerf」から来ています。「本物の武器が、おもちゃのように弱くなった」という比喩が元になっています。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl23.mp3"
+    },
+    {
+      "id": "brock_vl24",
+      "quote": "Rocket rain!",
+      "translation": "ロケットの雨だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身の必殺技である、空から降り注ぐロケット攻撃を表現した、技名のようなセリフです。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」の組み合わせで、力強いイメージを作り出しています。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl24.mp3"
+    },
+    {
+      "id": "brock_vl25",
+      "quote": "It's go time.",
+      "translation": "さあ、本番だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"go time\" は「勝負の時」「本番の時間」を意味する口語表現です。準備が終わり、いよいよ行動を開始するぞという合図です。</li></ul><strong>英文法:</strong><br>「It's + 名詞」のシンプルな構文です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl25.mp3"
+    },
+    {
+      "id": "brock_vl26",
+      "quote": "I'm on top of my game.",
+      "translation": "オレ、絶好調だぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"be on top of one's game\" は「最高のパフォーマンスを発揮している」「絶好調である」という意味のイディオムです。</li></ul><strong>英文法:</strong><br>スポーツ選手やビジネスの場面でも使われる、調子の良さを表す一般的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl26.mp3"
+    },
+    {
+      "id": "brock_vl27",
+      "quote": "Oh no you didn't.",
+      "translation": "おいおい、やらかしたな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が信じられないような行動（特に失礼なことや大胆なこと）をした時に、「よくもそんなことを！」という驚きや非難を込めて使われる決まり文句です。</li></ul><strong>英文法:</strong><br>\"Oh no, you did not do that.\" が省略された形で、独特のイントネーションで発話されます。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl27.mp3"
+    },
+    {
+      "id": "brock_vl28",
+      "quote": "Move those feet to the boombox beat!",
+      "translation": "ブームボックスのビートに合わせて踊りな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"feet\"（足）と \"beat\"（ビート）で韻を踏んだ、リズミカルで楽しいセリフです。</li></ul><strong>英文法:</strong><br>\"Move those feet\" は「その足を動かせ」という命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl28.mp3"
+    },
+    {
+      "id": "brock_vl29",
+      "quote": "It's time to level up.",
+      "translation": "レベルアップの時間だぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"level up\" は、ゲームでキャラクターが次のレベルに上がることを指す言葉。転じて「次の段階へ進む」「成長する」といった意味でも使われます。</li></ul><strong>英文法:</strong><br>「It's time to + 動詞」の定番の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl29.mp3"
+    },
+    {
+      "id": "brock_vl30",
+      "quote": "High score.",
+      "translation": "ハイスコアだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アーケードゲームなどで「最高得点」を意味する言葉。自分の素晴らしいプレイの結果を自慢しています。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/brock_vl30.mp3"
+    }
+  ]
+}

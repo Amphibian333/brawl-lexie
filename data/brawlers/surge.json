@@ -1,0 +1,227 @@
+{
+  "name": "サージ",
+  "nameEn": "Surge",
+  "rarity": "legend-rare",
+  "role": "assassin",
+  "quote": "To protect and Surge!",
+  "iconUrl": "https://i.imgur.com/fDU7dv1.png",
+  "voicelines": [
+    {
+      "id": "surge_vl1",
+      "quote": "Let's party!",
+      "translation": "パーティーしようぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦いを「パーティー」と呼ぶ陽気なヒーロー。</li><li>テンション高めで乱入してきます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl1.mp3"
+    },
+    {
+      "id": "surge_vl2",
+      "quote": "Surge for the win!",
+      "translation": "サージで勝利！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「For the win（勝利のために）」という決まり文句。</li><li>俺がいれば勝てるぜ、という自信の表れです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl2.mp3"
+    },
+    {
+      "id": "surge_vl3",
+      "quote": "Hey!",
+      "translation": "ヘイ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>シンプルな呼びかけ。</li><li>ちょっとチャラい感じが彼らしいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl3.mp3"
+    },
+    {
+      "id": "surge_vl4",
+      "quote": "Ha ha!",
+      "translation": "ハハ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>爽やかな笑い声。</li><li>バトルを楽しんでいる余裕が見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl4.mp3"
+    },
+    {
+      "id": "surge_vl5",
+      "quote": "Surge protector...",
+      "translation": "サージプロテクター…",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時のセリフ。「サージプロテクター（過電流防止装置）」が作動してショートしたみたいです。</li><li>自分の名前とかけた上手いジョーク。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl5.mp3"
+    },
+    {
+      "id": "surge_vl6",
+      "quote": "Feel the Surge!",
+      "translation": "このサージを感じろ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Surge（急上昇／自分の名前）」を感じろ！</li><li>パワーがみなぎっている状態をアピールしています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl6.mp3"
+    },
+    {
+      "id": "surge_vl7",
+      "quote": "It's party time.",
+      "translation": "パーティータイムだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦闘開始の合図。</li><li>彼にとって戦場はダンスフロアのようなものなのでしょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl7.mp3"
+    },
+    {
+      "id": "surge_vl8",
+      "quote": "To protect and Surge.",
+      "translation": "護り、そしてサージする！",
+      "explanation": "<strong>解説:</strong><br><ul><li>警察の標語「To protect and serve（市民を守り奉仕する）」のパロディ。</li><li>ヒーローとしての使命感と、自己主張が混ざっています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl8.mp3"
+    },
+    {
+      "id": "surge_vl9",
+      "quote": "Ow!",
+      "translation": "痛っ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ダメージボイス。</li><li>ロボットでも痛みは感じるみたいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl9.mp3"
+    },
+    {
+      "id": "surge_vl10",
+      "quote": "I'm so awesome!",
+      "translation": "俺って、超最高！",
+      "explanation": "<strong>解説:</strong><br><ul><li>隠さないナルシズム。</li><li>ここまで堂々と言われると清々しいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl10.mp3"
+    },
+    {
+      "id": "surge_vl11",
+      "quote": "Surge? Surge! SURGE!",
+      "translation": "サージ？サージ！サァージ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>だんだんテンションが上がっていく三段活用。</li><li>レベルアップするたびに強くなる彼の能力そのものです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl11.mp3"
+    },
+    {
+      "id": "surge_vl12",
+      "quote": "Hiyah!",
+      "translation": "ハイヤー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>カンフー映画のような掛け声。</li><li>ノリノリで攻撃しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl12.mp3"
+    },
+    {
+      "id": "surge_vl13",
+      "quote": "Upgrading.",
+      "translation": "アップグレード中。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルト使用時のセリフ。</li><li>システム音声っぽく言うのがこだわりポイント。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl13.mp3"
+    },
+    {
+      "id": "surge_vl14",
+      "quote": "Woo!",
+      "translation": "うー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>短い歓声。</li><li>調子がいい時のリアクションです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl14.mp3"
+    },
+    {
+      "id": "surge_vl15",
+      "quote": "Surge! Surge! Surge! Surge!",
+      "translation": "サージ！サージ！サージ！サージ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の名前を連呼するサージ・コール。</li><li>会場の一体感を求めています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl15.mp3"
+    },
+    {
+      "id": "surge_vl16",
+      "quote": "Surging rage!",
+      "translation": "サージング・レイジ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「押し寄せる怒り」という意味。</li><li>必殺技の名前みたいに叫んでます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl16.mp3"
+    },
+    {
+      "id": "surge_vl17",
+      "quote": "You got juiced.",
+      "translation": "ジュースされちまったな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Juiced（やっつけられた）」というスラング。</li><li>エナジードリンク（Juice）の使い手らしい言い回しです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl17.mp3"
+    },
+    {
+      "id": "surge_vl18",
+      "quote": "De-hy-dra-tion.",
+      "translation": "脱・水・症・状。",
+      "explanation": "<strong>解説:</strong><br><ul><li>エネルギー切れでダウンした時のセリフ。</li><li>ロボット風に区切って言うのが面白いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl18.mp3"
+    },
+    {
+      "id": "surge_vl19",
+      "quote": "Power Surge!",
+      "translation": "パワーサージ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「電圧急上昇」という意味。</li><li>力がみなぎっている状態を表しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl19.mp3"
+    },
+    {
+      "id": "surge_vl20",
+      "quote": "Go go go go!",
+      "translation": "ゴーゴーゴーゴー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>味方を急かす時のセリフ。</li><li>勢いだけで突っ込んでいきそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl20.mp3"
+    },
+    {
+      "id": "surge_vl21",
+      "quote": "I got the juice.",
+      "translation": "俺はジュースを持ってるぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Juice」はスラングで「力、権力、リスペクト」のこと。</li><li>「俺には力があるぜ（エナドリもあるけどな）」というダブルミーニング。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl21.mp3"
+    },
+    {
+      "id": "surge_vl22",
+      "quote": "Take it easy bro.",
+      "translation": "気楽にいこうぜ、ブラザー。",
+      "explanation": "<strong>解説:</strong><br><ul><li>焦ってる仲間や敵へのアドバイス。</li><li>パーティーを楽しむような余裕が大事です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl22.mp3"
+    },
+    {
+      "id": "surge_vl23",
+      "quote": "Juicy!",
+      "translation": "ジューシー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「最高！」「魅力的！」という意味のスラング。</li><li>良いアイテムをゲットした時などに使います。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl23.mp3"
+    },
+    {
+      "id": "surge_vl24",
+      "quote": "I'm all out of juice.",
+      "translation": "ジュースを全部使い果たしちまった。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「力尽きた」という意味と「飲み物がなくなった」という意味。</li><li>エネルギー切れです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl24.mp3"
+    },
+    {
+      "id": "surge_vl25",
+      "quote": "Surge!",
+      "translation": "サージ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>とりあえず自分の名前を叫んでおけばOK！</li><li>ポジティブな自己肯定感の塊です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl25.mp3"
+    },
+    {
+      "id": "surge_vl26",
+      "quote": "Super Surge!",
+      "translation": "スーパーサージ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>レベルアップしたサージ。</li><li>さらに強く、さらにカッコよくなりました。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl26.mp3"
+    },
+    {
+      "id": "surge_vl27",
+      "quote": "Yo dude!",
+      "translation": "よぉ、デュード！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Dude（お前、あいつ）」は親しい男友達への呼びかけ。</li><li>フランクな性格がよく出ています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl27.mp3"
+    },
+    {
+      "id": "surge_vl28",
+      "quote": "You got served.",
+      "translation": "お見舞いされたな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Served」は「やっつけられた」というスラング。</li><li>「俺のスペシャルサービス（攻撃）はどうだった？」という皮肉です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl28.mp3"
+    },
+    {
+      "id": "surge_vl29",
+      "quote": "Drink up!",
+      "translation": "飲み干せ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>攻撃を食らえ！という意味。</li><li>エナジードリンクを無理やり飲ませるような勢いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl29.mp3"
+    },
+    {
+      "id": "surge_vl30",
+      "quote": "Somebody call for Surge?",
+      "translation": "誰か、サージを呼んだかい？",
+      "explanation": "<strong>解説:</strong><br><ul><li>ヒーロー登場のお約束。</li><li>誰も呼んでなくても駆けつけます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl30.mp3"
+    },
+    {
+      "id": "surge_vl31",
+      "quote": "Surge and destroy.",
+      "translation": "サージして、破壊する。",
+      "explanation": "<strong>解説:</strong><br><ul><li>軍事用語「Search and Destroy（索敵して殲滅せよ）」のパロディ。</li><li>見つけたら即座に倒す、というアサシンの本能です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/surge_vl31.mp3"
+    }
+  ]
+}

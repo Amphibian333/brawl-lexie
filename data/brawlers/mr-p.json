@@ -1,0 +1,87 @@
+{
+  "name": "ミスターP",
+  "nameEn": "Mr. P",
+  "rarity": "ultra-rare",
+  "role": "damage-dealer",
+  "quote": "Aggressive!",
+  "iconUrl": "https://i.imgur.com/W4vUWVC.png",
+  "voicelines": [
+    {
+      "id": "mrp_vl1",
+      "quote": "Mr. P laughs",
+      "translation": "（ミスターPが笑う）",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ヘヘッ」という感じの、ちょっと意地悪な含み笑い。</li><li>作戦通りに事が運んだ時や、相手を出し抜いた時のドヤ顔が見えてきそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mrp_vl1.mp3"
+    },
+    {
+      "id": "mrp_vl2",
+      "quote": "Mr. P cries",
+      "translation": "（ミスターPが泣く）",
+      "explanation": "<strong>解説:</strong><br><ul><li>プライドの高い彼が、負けた悔しさで子供みたいに癇癪を起こして泣いています。</li><li>ホテルのオーナーも形無しです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mrp_vl2.mp3"
+    },
+    {
+      "id": "mrp_vl3",
+      "quote": "Mr. P gags",
+      "translation": "（ミスターPがむせる）",
+      "explanation": "<strong>解説:</strong><br><ul><li>予想外の一撃を食らって「ぐえっ」とむせている音。</li><li>スーツケースの着ぐるみが苦しいのかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mrp_vl3.mp3"
+    },
+    {
+      "id": "mrp_vl4",
+      "quote": "Mr. P cheers",
+      "translation": "（ミスターPが歓声を上げる）",
+      "explanation": "<strong>解説:</strong><br><ul><li>珍しくテンションMAX！</li><li>勝利した時や、ポーターたちがいい働きをした時に見せる、喜びの雄叫びです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mrp_vl4.mp3"
+    },
+    {
+      "id": "mrp_vl5",
+      "quote": "Mr. P whimpers",
+      "translation": "（ミスターPがすすり泣く）",
+      "explanation": "<strong>解説:</strong><br><ul><li>ダメージを受けて弱気になっている時の「クゥ～ン…」という情けない声。</li><li>普段の偉そうな態度とのギャップがすごいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mrp_vl5.mp3"
+    },
+    {
+      "id": "mrp_vl6",
+      "quote": "Mr. P grumbles",
+      "translation": "（ミスターPが不平を言う）",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ブツブツ…全くどいつもこいつも…」という不満が聞こえてきそうなうなり声。</li><li>常にイライラしている気難しいボス、という性格がよく表れています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mrp_vl6.mp3"
+    },
+    {
+      "id": "mrp_vl7",
+      "quote": "Mr. P yells",
+      "translation": "（ミスターPが叫ぶ）",
+      "explanation": "<strong>解説:</strong><br><ul><li>怒り爆発！ポーターたちに「働けー！」と怒鳴り散らしているのか、敵に対してキレているのか。</li><li>短気な彼らしい叫び声です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mrp_vl7.mp3"
+    },
+    {
+      "id": "mrp_vl8",
+      "quote": "Mr. P groans",
+      "translation": "（ミスターPがうめく）",
+      "explanation": "<strong>解説:</strong><br><ul><li>「うう…」という苦しげなうめき声。</li><li>さすがのミスターPも、大ダメージには耐えられないようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mrp_vl8.mp3"
+    },
+    {
+      "id": "mrp_vl9",
+      "quote": "Mr. P wails",
+      "translation": "（ミスターPが泣き叫ぶ）",
+      "explanation": "<strong>解説:</strong><br><ul><li>この世の終わりかのように絶望して泣き叫ぶ声。</li><li>負けた時のリアクションが誰よりも大げさなのが、憎めないポイントです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mrp_vl9.mp3"
+    },
+    {
+      "id": "mrp_vl10",
+      "quote": "Bell rattles",
+      "translation": "（ベルがガラガラ鳴る）",
+      "explanation": "<strong>解説:</strong><br><ul><li>スーツケースが激しく揺れてベルが鳴り響いています。</li><li>彼自身のパニックや怒りが、そのまま音になって表れているようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mrp_vl10.mp3"
+    },
+    {
+      "id": "mrp_vl11",
+      "quote": "Bell chimes",
+      "translation": "（ベルがチリンと鳴る）",
+      "explanation": "<strong>解説:</strong><br><ul><li>「チリン♪」という軽快な音。</li><li>ポーター出動の合図や、サービス完了のお知らせとして使われる、ホテルのベルらしいサウンドです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mrp_vl11.mp3"
+    }
+  ]
+}

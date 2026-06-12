@@ -1,0 +1,234 @@
+{
+  "name": "ミコ",
+  "nameEn": "Mico",
+  "rarity": "ultra-rare",
+  "role": "assassin",
+  "quote": "Showtime!",
+  "iconUrl": "https://i.imgur.com/Zmg6tFD.png",
+  "voicelines": [
+    {
+      "id": "mico_vl1",
+      "quote": "Countdown to chaos!",
+      "translation": "カオスへのカウントダウン！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ここから大混乱の始まりだ！」という開戦の合図。</li><li>彼自身がカオスを巻き起こす張本人なんですけどね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl1.mp3"
+    },
+    {
+      "id": "mico_vl2",
+      "quote": "Ha ha! I'm the chimp champ, baby!",
+      "translation": "ハハ！俺様がチンパンジーのチャンピオンだ、ベイビー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Chimp（チンパンジー）」と「Champ（チャンプ）」で韻を踏んだリズミカルな自己紹介。</li><li>自分が最強だと信じて疑わない自信家です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl2.mp3"
+    },
+    {
+      "id": "mico_vl3",
+      "quote": "Oh! Easy knucklehead.",
+      "translation": "おっと！落ち着けよ、この石頭が。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「バカ（Knucklehead）」呼ばわりして相手を挑発。</li><li>自分から喧嘩を売っておいて「落ち着けよ」と言う、煽りスキル高めの猿です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl3.mp3"
+    },
+    {
+      "id": "mico_vl4",
+      "quote": "Ka-boom, mic!",
+      "translation": "カブーム、マイク！",
+      "explanation": "<strong>解説:</strong><br><ul><li>爆発音（Ka-boom）とマイク（Mic）をかけたダジャレ。</li><li>商売道具のマイクで相手を殴る、ロックな攻撃スタイルです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl4.mp3"
+    },
+    {
+      "id": "mico_vl5",
+      "quote": "Yeah, go ahead. Just keep laughing.",
+      "translation": "ああ、いいぜ。そのまま笑ってな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「今は笑ってればいいさ、すぐに泣かせてやるから」という負けず嫌いな一面。</li><li>映画の悪役が言いそうな捨て台詞です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl5.mp3"
+    },
+    {
+      "id": "mico_vl6",
+      "quote": "I'm going bananas!",
+      "translation": "俺、もう我慢の限界だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「頭がおかしくなる（Go bananas）」というイディオム。</li><li>猿がバナナで大興奮する様子から来た言葉で、ミコにぴったりの表現です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl6.mp3"
+    },
+    {
+      "id": "mico_vl7",
+      "quote": "Testing, 1, 2, 3. Testing!",
+      "translation": "テスト、ワン、ツー、スリー。テスト中！",
+      "explanation": "<strong>解説:</strong><br><ul><li>音響スタッフらしいマイクテスト。</li><li>これから始まるショー（戦闘）の準備は万端です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl7.mp3"
+    },
+    {
+      "id": "mico_vl8",
+      "quote": "And, the Oscar goes to...",
+      "translation": "そして、オスカー像は…",
+      "explanation": "<strong>解説:</strong><br><ul><li>アカデミー賞の発表シーン。「受賞者は…もちろん俺様！」ということ。</li><li>自分のプレイに酔いしれるナルシストです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl8.mp3"
+    },
+    {
+      "id": "mico_vl9",
+      "quote": "Hey hey hey! Easy fella!",
+      "translation": "おいおいおい！落ち着けって、あんた！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ピンチになった時の「タンマ、タンマ！」みたいな焦り。</li><li>調子に乗って攻めすぎて、返り討ちに遭いそうな時に。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl9.mp3"
+    },
+    {
+      "id": "mico_vl10",
+      "quote": "Woah, I am way too talented for this schmuckerini.",
+      "translation": "おっと、こんなマヌケの相手するには、俺は才能がありすぎるぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺様レベルの天才が相手するような奴じゃないね」という上から目線。</li><li>Schmuckerini（マヌケ）という造語センスが独特です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl10.mp3"
+    },
+    {
+      "id": "mico_vl11",
+      "quote": "What am I, a joke to you? I'm a chimp, I jump around on the monkey bars. Yeah, huh?",
+      "translation": "何だよ、俺がお前にとってジョークだとでも？俺はチンパンジーで、うんていで飛び回るだけ。そうなんだろ、あぁん？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ただの猿だと思ってバカにしてるんだろ？」とキレるシーン。</li><li>コンプレックスを刺激されると早口でまくし立てる、面倒くさいタイプです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl11.mp3"
+    },
+    {
+      "id": "mico_vl12",
+      "quote": "Mic-o drop moment!",
+      "translation": "マイコ・ドロップの瞬間だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「マイクドロップ（パフォーマンスを終えてカッコよくマイクを落とす）」と自分の名前「Mico」をかけたダジャレ。</li><li>キルを決めた瞬間が、彼にとっての最高の見せ場です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl12.mp3"
+    },
+    {
+      "id": "mico_vl13",
+      "quote": "Yeah, this is just a side gig.",
+      "translation": "ああ、こいつはただの副業さ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「本気出してないだけだし」という負け惜しみ。</li><li>本業は音響スタッフ…のはずですが、そっちも怪しいものです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl13.mp3"
+    },
+    {
+      "id": "mico_vl14",
+      "quote": "Ho ho ho! I'm gonna be a star for sure!",
+      "translation": "ホッホッホー！俺は間違いなくスターになるぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>未来のスターを夢見るポジティブシンキング。</li><li>根拠のない自信に満ち溢れています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl14.mp3"
+    },
+    {
+      "id": "mico_vl15",
+      "quote": "Oh! Back off!",
+      "translation": "おっと！下がってろ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵に近づかれた時の威嚇。</li><li>「俺に触ると怪我するぜ」と言いたいところですが、実際はビビってるのかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl15.mp3"
+    },
+    {
+      "id": "mico_vl16",
+      "quote": "Telling ya, I'm always the one sorting out the mess here.",
+      "translation": "言っとくけどな、ここで面倒事を片付けてんのは、いつも俺なんだぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺がいなきゃ回らない」というアピール。</li><li>裏方スタッフの苦労（と恩着せがましさ）が滲み出ています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl16.mp3"
+    },
+    {
+      "id": "mico_vl17",
+      "quote": "I think there's some monkey business going on around here.",
+      "translation": "この辺りで、何かよからぬ企みがありそうだね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Monkey business（インチキ、不正）」という言葉を使ったジョーク。</li><li>猿である自分が言うことで、「俺が何か企んでるぞ」と匂わせています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl17.mp3"
+    },
+    {
+      "id": "mico_vl18",
+      "quote": "Not so tough now, are you, wisenheimers?",
+      "translation": "今となっては、そんなにタフでもないようだな、賢人さんたちよぉ？",
+      "explanation": "<strong>解説:</strong><br><ul><li>倒した相手を「お利口さん」と呼んで見下す煽り。</li><li>勝った途端に強気になる、小物界の大物です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl18.mp3"
+    },
+    {
+      "id": "mico_vl19",
+      "quote": "Hello, my good fellas!",
+      "translation": "やあ、我が良き仲間たち！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ショーの司会者みたいな調子の良い挨拶。</li><li>味方に対しても、どこか他人行儀でエンターテイナーぶってます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl19.mp3"
+    },
+    {
+      "id": "mico_vl20",
+      "quote": "I'm number one, baby! Top of the world!",
+      "translation": "俺がナンバーワンだ、ベイビー！世界の頂点だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>勝利の雄叫び！</li><li>高い所に登るのが好きな猿の本能と、頂点に立ちたい野心がリンクしてます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl20.mp3"
+    },
+    {
+      "id": "mico_vl21",
+      "quote": "Alright, that's it. Enough monkeying around. Yeah!",
+      "translation": "よし、そこまでだ。もうふざけるのは終わりだぜ。ああ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Monkeying around（ふざけ回る）」を使った決意表明。</li><li>「ここからは本気モードだ」と自分を奮い立たせています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl21.mp3"
+    },
+    {
+      "id": "mico_vl22",
+      "quote": "Yeah! Got your guts on take!",
+      "translation": "イェア！お前の根性は撮影させてもらったぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「その度胸、しっかりカメラに収めたぜ！」という業界用語っぽい褒め言葉（？）。</li><li>戦場を撮影現場だと思っているようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl22.mp3"
+    },
+    {
+      "id": "mico_vl23",
+      "quote": "Bye bye! I'm going up to the big jungle gym in the sky.",
+      "translation": "バイバイ！俺は空にある、でっかいジャングルジムに行くよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「天国に行く」を猿流に言うとこうなります。</li><li>死ぬ間際までユーモアを忘れない（あるいは現実逃避している）のが彼らしい。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl23.mp3"
+    },
+    {
+      "id": "mico_vl24",
+      "quote": "Primate power!",
+      "translation": "霊長類の力！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「サルをナメるなよ！」というプライドの叫び。</li><li>人間も霊長類なんですけどね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl24.mp3"
+    },
+    {
+      "id": "mico_vl25",
+      "quote": "Woah, time for some whack-a-noodle.",
+      "translation": "おっと、ワッカヌードルの時間だぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「モグラたたき（Whac-A-Mole）」をもじった謎の言葉。</li><li>意味不明ですが、とにかく暴れるぞ！という勢いは伝わります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl25.mp3"
+    },
+    {
+      "id": "mico_vl26",
+      "quote": "The world and everything in it.",
+      "translation": "この世界と、その中の全て。",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『スカーフェイス』の名台詞の引用。</li><li>チンピラの猿が、世界の王になる夢を語る…ちょっとカッコいいかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl26.mp3"
+    },
+    {
+      "id": "mico_vl27",
+      "quote": "Louder mister, I'm recording your screams.",
+      "translation": "もっと大きな声で、旦那。君の悲鳴を録音してるんだからさ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>音響担当の職業病（？）。</li><li>悲鳴の音量レベルをチェックするサイコパスな一面です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl27.mp3"
+    },
+    {
+      "id": "mico_vl28",
+      "quote": "Boom baboon!",
+      "translation": "ブーム・バブーン！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ブームマイク」と「バブーン（ヒヒ）」をかけた語呂合わせ。</li><li>韻を踏むのが大好きなラッパー気質の猿です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl28.mp3"
+    },
+    {
+      "id": "mico_vl29",
+      "quote": "Ain't no monkeying around over here.",
+      "translation": "こっちでは、おふざけは通用しねぇんだよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺は本気だぜ」という宣言。</li><li>普段ふざけている彼が真顔で言うと、ちょっと迫力があります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl29.mp3"
+    },
+    {
+      "id": "mico_vl30",
+      "quote": "Oh oh oh oh, please with the screaming.",
+      "translation": "オーオーオー、その悲鳴、どうぞ続けて。",
+      "explanation": "<strong>解説:</strong><br><ul><li>悲鳴を聞いて興奮しているのか、それとも「うるさいからやめろ」と言っているのか。</li><li>イントネーション次第で意味が変わる、意地悪なセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl30.mp3"
+    },
+    {
+      "id": "mico_vl31",
+      "quote": "Ooh ooh ooh ooh ooh! Woah, that was primal.",
+      "translation": "ウッウッウッウッウッ！うぉ、今のは原始的だったな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>思わず野生に戻ってウホウホ言っちゃった自分に驚くシーン。</li><li>理性と本能の狭間で生きる猿の葛藤（？）です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl31.mp3"
+    },
+    {
+      "id": "mico_vl32",
+      "quote": "Heh heh, we all knew the risks.",
+      "translation": "ヘヘッ、リスクは皆、覚悟の上だったろ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>倒した相手への冷徹な一言。</li><li>「戦場に来たからには文句言うなよ」という、プロフェッショナルな厳しさを見せます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/mico_vl32.mp3"
+    }
+  ]
+}

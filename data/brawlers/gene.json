@@ -1,0 +1,17 @@
+{
+  "name": "ジーン",
+  "nameEn": "Gene",
+  "rarity": "ultra-rare",
+  "role": "support",
+  "quote": "Hablalalah!",
+  "iconUrl": "https://i.imgur.com/ATnuFB3.png",
+  "voicelines": [
+    {
+      "id": "gene_vl1",
+      "quote": "Gene laughs",
+      "translation": "（ジーンが笑う）",
+      "explanation": "<strong>解説:</strong><br><ul><li>言葉は話せなくても、この陽気な笑い声だけで十分！</li><li>スーパーで敵を引っ張った時や勝利した時に聞ける、イタズラ好きなランプの魔人のご機嫌なサウンドです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/gene_vl1.mp3"
+    }
+  ]
+}

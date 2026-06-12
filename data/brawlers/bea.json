@@ -1,0 +1,192 @@
+{
+  "name": "ビー",
+  "nameEn": "Bea",
+  "rarity": "hyper-rare",
+  "role": "marksman",
+  "quote": "I'm the bee's knees.",
+  "iconUrl": "https://i.imgur.com/ALIGGYf.png",
+  "voicelines": [
+    {
+      "id": "bea_vl1",
+      "quote": "Let's go explore!",
+      "translation": "探検に行きましょう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>昆虫学者であるビーの、探求心にあふれた性格を表すセリフです。</li><li>\"explore\" は「探検する、調査する」という意味の動詞です。</li></ul><strong>英文法:</strong><br>「Let's + 動詞の原形」で「一緒に～しよう」と仲間を誘う、基本的な構文です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl1.mp3"
+    },
+    {
+      "id": "bea_vl2",
+      "quote": "I feel like the queen bee!",
+      "translation": "女王蜂の気分だわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"queen bee\" はミツバチの群れの頂点に立つ「女王蜂」のこと。</li><li>自分がチームの中心であったり、試合を支配している状況で、その優越感を表現しています。</li></ul><strong>英文法:</strong><br>\"feel like ~\" は「～のような気分だ」と、自分の感情や状態を表す際に使う一般的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl2.mp3"
+    },
+    {
+      "id": "bea_vl3",
+      "quote": "Buzz off.",
+      "translation": "あっち行って。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Buzz off\" は「あっちへ行け」「うるさい、消えろ」という意味の、非常にカジュアルで少し失礼なスラングです。</li><li>ハチが「ブンブン（buzz）」飛ぶ音と、追い払う表現をかけた言葉遊びになっています。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文の形をとった、句動詞です。<br><br><strong>🧠豆知識:</strong><br>\"Piss off\" という、より強い侮辱的な「消えろ」という表現を、ハチのテーマで柔らかく（？）言い換えたものと考えることもできます。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl3.mp3"
+    },
+    {
+      "id": "bea_vl4",
+      "quote": "Bee-utiful.",
+      "translation": "ビーューティフル。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「美しい」という意味の \"beautiful\" と、自身のテーマである「ハチ（Bee）」をかけた、非常に clever な言葉遊び（pun）です。</li><li>素晴らしいプレイが決まった時などに使われます。</li></ul><strong>英文法:</strong><br>形容詞を単独で発する感嘆文です。意図的にスペルを変えてダジャレにしています。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl4.mp3"
+    },
+    {
+      "id": "bea_vl5",
+      "quote": "Think of the ecosystem!",
+      "translation": "生態系のことを考えて！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"ecosystem\" は「生態系」のこと。</li><li>相手の破壊的な行動に対して、自然や生態系への影響を憂う、昆虫学者らしいセリフです。</li></ul><strong>英文法:</strong><br>動詞 \"Think\" で始まる命令文で、相手に配慮を求めています。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl5.mp3"
+    },
+    {
+      "id": "bea_vl6",
+      "quote": "Ha!",
+      "translation": "ハッ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>短い笑い声や、気合を入れる掛け声、軽い驚きなど、様々な文脈で使われる感嘆詞です。</li></ul><strong>英文法:</strong><br>感情を表現する間投詞です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl6.mp3"
+    },
+    {
+      "id": "bea_vl7",
+      "quote": "Bee free!",
+      "translation": "自由にビー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「自由になれ」という意味の \"Be free!\" と、「ハチ（Bee）」をかけた言葉遊びです。</li><li>スーパーで放つペットのハチに対して言っているのかもしれません。</li></ul><strong>英文法:</strong><br>動詞 \"Be\" を \"Bee\" に置き換えた、ダジャレの命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl7.mp3"
+    },
+    {
+      "id": "bea_vl8",
+      "quote": "Let's see what's buzzing!",
+      "translation": "何がブンブンしてるか見てみましょ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"what's buzzing\" は、文字通り「何がブンブン音を立てているか」という意味と、スラングで「最近何が流行っているの？」「何か面白いことある？」という意味のダブルミーニングになっています。</li></ul><strong>英文法:</strong><br>\"Let's see...\" に、間接疑問文 \"what's buzzing\" が続いています。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl8.mp3"
+    },
+    {
+      "id": "bea_vl9",
+      "quote": "Hive-five!",
+      "translation": "ハイブ・ファイブ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>喜びや祝福を表す「ハイタッチ（High-five）」と、ハチの「巣（Hive）」をかけた言葉遊びです。</li></ul><strong>英文法:</strong><br>有名な言葉をもじった、独創的な造語です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl9.mp3"
+    },
+    {
+      "id": "bea_vl10",
+      "quote": "Mind your own beeswax!",
+      "translation": "あなた自身のビーズワックスに気を配りなさい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「余計なお世話だ」「自分のことに集中しろ」という意味の \"Mind your own business!\" という有名なイディオムを、ハチのテーマに合わせて \"business\" を \"beeswax\"（蜜蝋）に置き換えたものです。</li></ul><strong>英文法:</strong><br>命令文の形をとった、非常に有名な慣用句のパロディです。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl10.mp3"
+    },
+    {
+      "id": "bea_vl11",
+      "quote": "This is most unfortunate.",
+      "translation": "これは最も不運なことです。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"most unfortunate\" は「非常に残念だ」「きわめて不運だ」という意味の、少しフォーマルで硬い表現です。</li><li>敗北した際などに、冷静に、しかし深く落胆している様子を表します。</li></ul><strong>英文法:</strong><br>最上級の強調として \"most\" を形容詞 \"unfortunate\" の前に置いています。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl11.mp3"
+    },
+    {
+      "id": "bea_vl12",
+      "quote": "Don't call me honey.",
+      "translation": "私のことハニーって呼ばないで。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"honey\" は、恋人などへの愛情のこもった呼びかけですが、同時に「蜂蜜」という意味もあります。</li><li>ハチである自分を安易に「ハニー」と呼ばないで、という、ダブルミーニングの警告です。</li></ul><strong>英文法:</strong><br>\"Don't + 動詞\" の否定命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl12.mp3"
+    },
+    {
+      "id": "bea_vl13",
+      "quote": "What a fascinating biosphere.",
+      "translation": "なんて魅力的な生物圏なんでしょう。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"biosphere\" は「生物圏」という専門用語。</li><li>戦場を、まるで観察対象の生態系のように見ている、科学者らしいセリフです。</li></ul><strong>英文法:</strong><br>\"What a + 形容詞 + 名詞.\" の形で、「なんて～なんだろう」という感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl13.mp3"
+    },
+    {
+      "id": "bea_vl14",
+      "quote": "I'm buzzing!",
+      "translation": "ワクワクするわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"buzzing\" は、文字通りハチが「ブンブン飛んでいる」様子と、スラングで「（興奮や期待で）ワクワクしている」「活気に満ちている」という状態の、ダブルミーニングです。</li></ul><strong>英文法:</strong><br>現在進行形で、今の感情や状態を表しています。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl14.mp3"
+    },
+    {
+      "id": "bea_vl15",
+      "quote": "Can you bee more annoying?",
+      "translation": "これ以上、うっとおしくなれるの、ビー？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「これ以上うっとうしくなれる？（なれないだろ、最高にうっとうしいよ）」という、相手への強烈な皮肉です。</li><li>\"be\" を \"bee\" に置き換えた言葉遊びです。</li></ul><strong>英文法:</strong><br>助動詞 \"Can\" で始まる疑問文ですが、実際には質問ではなく、強い非難を表す修辞疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl15.mp3"
+    },
+    {
+      "id": "bea_vl16",
+      "quote": "Sweet nectar!",
+      "translation": "甘い蜜だこと！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"nectar\" は花の「蜜」。</li><li>何か素晴らしいもの（例えばエメラルドやパワーキューブ）を見つけた時に、それをハチにとっての「蜜」に例えて喜んでいます。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl16.mp3"
+    },
+    {
+      "id": "bea_vl17",
+      "quote": "The hive never forgets!",
+      "translation": "ハイブは決して忘れない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"hive\" は「ハチの巣」であり、ここではハチの「コロニー全体、一族」を指します。</li><li>やられた相手に対して、「我々（ハイブ）はこの恨みを忘れないぞ」という復讐の誓いを立てています。</li></ul><strong>英文法:</strong><br>\"never\" を使った、強い否定の文です。<br><br><strong>🧠豆知識:</strong><br>有名なドラマ『ゲーム・オブ・スローンズ』の「The North remembers.（北部は忘れない）」というセリフを彷彿とさせる、結束の固さと執念深さを示すフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl17.mp3"
+    },
+    {
+      "id": "bea_vl18",
+      "quote": "Hiyah!",
+      "translation": "ハイャ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>空手などの武道で、攻撃を繰り出す時に発せられる気合の掛け声です。</li></ul><strong>英文法:</strong><br>意味を持たない感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl18.mp3"
+    },
+    {
+      "id": "bea_vl19",
+      "quote": "For the colony!",
+      "translation": "コロニーのために！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"colony\" はハチやアリなどの「集団、群れ」のこと。</li><li>自分の戦いが、自分個人ではなく、所属する集団全体のためのものであるという、忠誠心を示す掛け声です。</li></ul><strong>英文法:</strong><br>目的を表す前置詞 \"For\" を使ったスローガンです。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl19.mp3"
+    },
+    {
+      "id": "bea_vl20",
+      "quote": "Bee cool.",
+      "translation": "クールにビー。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「冷静になれ」「落ち着いて」という意味の \"Be cool.\" と、「ハチ（Bee）」をかけた言葉遊びです。</li></ul><strong>英文法:</strong><br>動詞 \"Be\" を \"Bee\" に置き換えた、ダジャレの命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl20.mp3"
+    },
+    {
+      "id": "bea_vl21",
+      "quote": "Bee-lieve in yourself.",
+      "translation": "自分をビーリーブして。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「自分を信じて」という意味の \"Believe in yourself.\" と、「ハチ（Bee）」をかけた言葉遊びです。</li></ul><strong>英文法:</strong><br>動詞 \"Believe\" を \"Bee-lieve\" に置き換えた、ダジャレの命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl21.mp3"
+    },
+    {
+      "id": "bea_vl22",
+      "quote": "Let me bee.",
+      "translation": "好きにさせてビー。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「そっとしておいて」「私の好きにさせて」という意味の \"Let me be.\" と、「ハチ（Bee）」をかけた言葉遊びです。</li></ul><strong>英文法:</strong><br>使役動詞 \"Let\" を使った構文の \"be\" を \"Bee\" に置き換えています。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl22.mp3"
+    },
+    {
+      "id": "bea_vl23",
+      "quote": "Hope you like bees!",
+      "translation": "ハチ、好きだといいけど！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これから大量のハチで攻撃することを予告する、少し不吉で可愛らしい脅し文句です。</li></ul><strong>英文法:</strong><br>\"I hope...\" の主語 \"I\" が省略された、願望を表す口語表現です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl23.mp3"
+    },
+    {
+      "id": "bea_vl24",
+      "quote": "So many specimens to discover!",
+      "translation": "発見すべき標本がたくさん！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"specimen\" は、研究のための「標本」。</li><li>敵キャラクターたちを、まるで研究対象の昆虫かのように見ている、科学者らしいセリフです。</li></ul><strong>英文法:</strong><br>\"to discover\" は、名詞 \"specimens\" を修飾する不定詞の形容詞的用法です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl24.mp3"
+    },
+    {
+      "id": "bea_vl25",
+      "quote": "I'm the bee's knees.",
+      "translation": "私って最高なの。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"the bee's knees\" は、1920年代のアメリカで流行したスラングで、「最高のもの、一級品」を意味するイディオムです。</li><li>自身のテーマである「ハチ（bee）」と、この古いイディオムをかけています。</li></ul><strong>英文法:</strong><br>慣用句として定着している表現です。<br><br><strong>🧠豆知識:</strong><br>なぜ「ハチの膝」が最高を意味するのか語源は不明ですが、当時は \"the cat's pajamas\"（猫のパジャマ）など、動物を使った意味不明な言葉で「最高」を表すのが流行していました。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl25.mp3"
+    },
+    {
+      "id": "bea_vl26",
+      "quote": "That stings!",
+      "translation": "チクッとしたわ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sting\" は、ハチなどが「（針で）刺す」という意味の動詞です。</li><li>文字通りハチに刺されたような「チクッとする痛み」と、相手の言動が心に刺さる「精神的な痛み」の、両方の意味で使われます。</li></ul><strong>英文法:</strong><br>三人称単数現在の \"-s\" が付いた、シンプルな現在形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/bea_vl26.mp3"
+    }
+  ]
+}

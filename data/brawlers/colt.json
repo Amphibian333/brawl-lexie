@@ -1,0 +1,220 @@
+{
+  "name": "コルト",
+  "nameEn": "Colt",
+  "rarity": "rare",
+  "role": "marksman",
+  "quote": "Check out my guns!",
+  "iconUrl": "https://i.imgur.com/NWVslas.png",
+  "voicelines": [
+    {
+      "id": "colt_vl1",
+      "quote": "Brawn and beauty.",
+      "translation": "力もルックスもバッチリだぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"brawn\" は「筋力、たくましさ」、\"beauty\" は「美しさ」を意味します。</li><li>自分は力と美貌の両方を兼ね備えている、と自慢するナルシストなセリフです。</li></ul><strong>英文法:</strong><br>「名詞 and 名詞」というシンプルな構文です。\"I have brawn and beauty.\" のように、主語と動詞が省略された口語表現です。<br><br><strong>🧠豆知識:</strong><br>英語には \"Brains and brawn\"（知性と筋力）という決まり文句があり、このセリフはそれを「知性」から「美貌」にもじった、コルトらしい言葉遊びの可能性があります。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl1.mp3"
+    },
+    {
+      "id": "colt_vl2",
+      "quote": "Selfie time.",
+      "translation": "セルフィータイムだぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"selfie\" は「自撮り」を意味する現代的なスラングです。</li><li>\"time\" を付けることで「～の時間だ」とカジュアルに宣言しています。</li></ul><strong>英文法:</strong><br>「名詞 + time」は「It's (名詞) time!」が省略された形で、口語で頻繁に使われる決まり文句です。<br><br><strong>🧠豆知識:</strong><br>\"Selfie\" は2013年にオックスフォード英語辞典の「Word of the Year（その年を象徴する言葉）」に選ばれ、世界的に定着しました。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl2.mp3"
+    },
+    {
+      "id": "colt_vl3",
+      "quote": "Ow!",
+      "translation": "いてっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>突然の鋭い痛みに対して、とっさに発せられる感嘆詞です。日本語の「アウッ！」に近い感覚です。</li></ul><strong>英文法:</strong><br>文法的な構造を持たない感嘆詞（interjection）であり、感情を直接的に表現します。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl3.mp3"
+    },
+    {
+      "id": "colt_vl4",
+      "quote": "Check out my head shot.",
+      "translation": "オレのヘッドショット、見たか？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Check out\" は「～を見てみろ」「～に注目しろ」という意味のカジュアルなスラングです。</li><li>\"Head shot\" は、シューティングゲームで「頭部への一撃」を意味する用語です。</li></ul><strong>英文法:</strong><br>\"Check out + [名詞]\" の形で、「～を見てくれ」という命令文になります。主語の \"You\" は省略されています。<br><br><strong>🧠豆知識:</strong><br>FPSなどのゲームでは「ヘッドショット」は高い技術の証とされ、大きなダメージを与えます。自分の腕前を自慢する、コルトの性格がよく表れたセリフです。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl4.mp3"
+    },
+    {
+      "id": "colt_vl5",
+      "quote": "I want my mommy!",
+      "translation": "ママに会いたいよぉ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Mommy\" は \"mother\" や \"mom\" よりもさらに子どもっぽい、甘えた言い方です。</li><li>強がっているキャラクターが、窮地に陥った時に思わず本音を漏らす、というコミカルなセリフです。</li></ul><strong>英文法:</strong><br>「I want + [名詞]」で「～が欲しい、～に会いたい」という基本的な表現です。\"mommy\" を使うことで、意図的に幼稚さを演出しています。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl5.mp3"
+    },
+    {
+      "id": "colt_vl6",
+      "quote": "Pew pew pew!",
+      "translation": "ピュー！ピュー！ピュー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Pew pew\" は、銃やレーザーガンの発射音を模した擬音語（オノマトペ）です。</li></ul><strong>英文法:</strong><br>効果音を表現する感嘆詞であり、特定の文法はありません。連射している勢いや楽しんでいる様子を表します。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl6.mp3"
+    },
+    {
+      "id": "colt_vl7",
+      "quote": "Time for trouble.",
+      "translation": "お騒がせの時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「Time for + [名詞]」で「～の時間だ」と宣言する表現です。</li><li>\"trouble\" は「問題」や「厄介事」を意味し、これから自分が大暴れすることを予告しています。</li></ul><strong>英文法:</strong><br>\"It's time for trouble.\" の主語と動詞が省略された、シンプルで力強い構文です。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl7.mp3"
+    },
+    {
+      "id": "colt_vl8",
+      "quote": "Primetime baby!",
+      "translation": "見せ場だぜ、ベイビー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Primetime\" は、元々テレビの「ゴールデンタイム」を指し、転じて「最高の見せ場」「絶好調の時間」を意味します。</li><li>\"baby\" は、親しみを込めた呼びかけや、テンションが上がった時の感嘆詞として使われます。</li></ul><strong>英文法:</strong><br>「名詞 + 呼びかけ」というシンプルな形で、自信満々な気持ちを強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl8.mp3"
+    },
+    {
+      "id": "colt_vl9",
+      "quote": "Not the face!",
+      "translation": "顔はヤメてくれ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ナルシストなキャラクターが「顔だけは勘弁してくれ！」と懇願する際の、コミカルで定番のフレーズです。</li><li>自分のルックスが台無しになることへの恐怖を表しています。</li></ul><strong>英文法:</strong><br>これは \"Do not hit my face!\" や \"Anywhere but the face!\" といった文が、緊急性や口語表現として極端に省略された形です。「Not + [名詞]!」の形で、「～だけはダメだ！」という強い部分否定のニュアンスを持ちます。<br><br><strong>🧠豆知識:</strong><br>このセリフは、アクション映画やコメディで、見た目を気にするキャラクターが発するお決まりの「やられ役」のセリフとして有名です。コルトのナルシストな性格を象徴しています。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl9.mp3"
+    },
+    {
+      "id": "colt_vl10",
+      "quote": "Oh, that's gotta hurt.",
+      "translation": "うわ、そりゃ痛いだろ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手がダメージを受けたのを見て、同情するフリをしながらも、どこか楽しんでいるようなニュアンスのセリフです。</li></ul><strong>英文法:</strong><br>\"gotta\" は \"have got to\" の口語的な短縮形。「～に違いない」という強い推量を表します。\"That has got to hurt.\" が元の形です。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl10.mp3"
+    },
+    {
+      "id": "colt_vl11",
+      "quote": "I'm too pretty!",
+      "translation": "オレはイケメンすぎる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が「美しすぎる」と自画自賛する、コルトのナルシシズムが全開のセリフです。ダメージを受けた際に「こんなイケメンに傷をつけるなんて」というニュアンスで使われます。</li></ul><strong>英文法:</strong><br>\"too + [形容詞]\" は「～すぎる」という過度の状態を表す、基本的な強調表現です。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl11.mp3"
+    },
+    {
+      "id": "colt_vl12",
+      "quote": "Bullet storm!",
+      "translation": "弾丸の嵐だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Bullet\"（弾丸）と \"storm\"（嵐）を組み合わせ、自身の激しい連射攻撃を表現しています。</li></ul><strong>英文法:</strong><br>「名詞 + 名詞」の組み合わせで、技名のように使われる、力強く印象的なフレーズです。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl12.mp3"
+    },
+    {
+      "id": "colt_vl13",
+      "quote": "Too pretty for pain.",
+      "translation": "痛みには美しすぎるぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「痛みを感じるには、自分は美しすぎる」という、独特の理屈で強がるセリフです。</li></ul><strong>英文法:</strong><br>「Too + [形容詞] + for + [名詞]」の形で、「～にとっては～すぎる」という意味になります。「I am too pretty for pain.」の主語と動詞が省略されています。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl13.mp3"
+    },
+    {
+      "id": "colt_vl14",
+      "quote": "Heh, watch and learn.",
+      "translation": "ヘッ、見て学びな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Heh\" は、相手を少し見下したような含み笑いです。</li><li>\"Watch and learn\" は「（俺のやり方を）よく見て学べ」という、自信家や師匠キャラクターの定番セリフです。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文を \"and\" で繋げた形です。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl14.mp3"
+    },
+    {
+      "id": "colt_vl15",
+      "quote": "Hey! Watch it!",
+      "translation": "おい！気をつけろよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Hey!\" は注意を引くための呼びかけ。</li><li>\"Watch it!\" は「気をつけろ！」「危ない！」または「（失礼なことをするなと）やめろ！」という意味で使われるカジュアルな警告です。</li></ul><strong>英文法:</strong><br>動詞 \"Watch\" で始まる短い命令文で、強い警告のニュアンスを持ちます。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl15.mp3"
+    },
+    {
+      "id": "colt_vl16",
+      "quote": "Have mercy!",
+      "translation": "ご勘弁を！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"mercy\" は「慈悲、情け」。直訳は「慈悲をお恵みください！」ですが、転じて「勘弁してくれ！」「お手柔らかに！」といった懇願として使われます。</li></ul><strong>英文法:</strong><br>動詞 \"Have\" で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl16.mp3"
+    },
+    {
+      "id": "colt_vl17",
+      "quote": "This is too easy!",
+      "translation": "こんなの楽勝すぎるぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が弱すぎたり、状況が簡単すぎたりすることを表す、自信過剰なセリフです。</li></ul><strong>英文法:</strong><br>\"too + [形容詞]\" で「～すぎる」と程度を強調する、基本的な構文です。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl17.mp3"
+    },
+    {
+      "id": "colt_vl18",
+      "quote": "Watch out, here I come!",
+      "translation": "気をつけな、オレ様のお出ましだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Watch out\" は「危ない、気をつけろ」という警告。</li><li>\"Here I come!\" は、自分が今から登場したり、行動を開始したりすることを宣言する、ヒーローのような決め台詞です。</li></ul><strong>英文法:</strong><br>命令文と、「Here + [主語] + [動詞]」という倒置構文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl18.mp3"
+    },
+    {
+      "id": "colt_vl19",
+      "quote": "I'm too good!",
+      "translation": "オレは強すぎる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"too good\" は「良すぎる」という意味から、「（相手にするには）強すぎる」「うますぎる」という自信満々の自己評価を表します。</li></ul><strong>英文法:</strong><br>\"too + [形容詞]\" の強調構文です。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl19.mp3"
+    },
+    {
+      "id": "colt_vl20",
+      "quote": "That hurts!",
+      "translation": "痛ぇな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ダメージを受けた際の痛みを、ストレートに表現するセリフです。</li></ul><strong>英文法:</strong><br>「主語(That) + 動詞(hurts)」のシンプルな現在形の文です。三人称単数の \"-s\" が付いています。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl20.mp3"
+    },
+    {
+      "id": "colt_vl21",
+      "quote": "Sorry noob.",
+      "translation": "悪いな、ヘタクソ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Sorry\" と謝りながらも、相手を \"noob\"（初心者、下手な人）と呼ぶことで、見下していることを示す挑発的なセリフです。</li></ul><strong>英文法:</strong><br>謝罪の言葉と呼びかけを組み合わせた形です。<br><br><strong>🧠豆知識:</strong><br>“Noob” は元々 “newbie”（新参者）から派生した言葉ですが、オンラインゲーム文化の中で「ルールを理解しない下手なプレイヤー」を指す、少し軽蔑的なスラングとして広まりました。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl21.mp3"
+    },
+    {
+      "id": "colt_vl22",
+      "quote": "Colt whimpers",
+      "translation": "（コルトがすすり泣く）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>\"whimper\" は、犬がクンクン鳴くような、弱々しいすすり泣きや泣き言を指します。強がっていたコルトが弱っている様子を示します。</li></ul><strong>英文法:</strong><br>動詞 \"whimper\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl22.mp3"
+    },
+    {
+      "id": "colt_vl23",
+      "quote": "Check out my guns, ha ha ha!",
+      "translation": "オレの銃（と筋肉）を見な、ハハハ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"guns\" は文字通り「拳銃」を指しますが、スラングでは力こぶなどの「腕の筋肉」を指すこともあり、両方の意味をかけたダブルミーニングになっています。</li></ul><strong>英文法:</strong><br>命令文に笑い声を加えた形です。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl23.mp3"
+    },
+    {
+      "id": "colt_vl24",
+      "quote": "Number one!",
+      "translation": "一番だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が最高、トップであることを宣言するセリフです。</li></ul><strong>英文法:</strong><br>形容詞句 \"number one\" を単独で感嘆文として使用しています。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl24.mp3"
+    },
+    {
+      "id": "colt_vl25",
+      "quote": "Colt laughs",
+      "translation": "（コルトが笑う）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。自信に満ちた、あるいは相手を小馬鹿にしたような笑い声です。</li></ul><strong>英文法:</strong><br>動詞 \"laugh\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl25.mp3"
+    },
+    {
+      "id": "colt_vl26",
+      "quote": "Cheater!",
+      "translation": "イカサマ師！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が強すぎるあまり、不正行為（cheat）をしていると非難する時の言葉です。「ずるいぞ！」というニュアンスです。</li></ul><strong>英文法:</strong><br>\"cheat\"（不正をする）という動詞に、人を表す接尾辞 \"-er\" が付いて「不正をする人」という名詞になっています。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl26.mp3"
+    },
+    {
+      "id": "colt_vl27",
+      "quote": "Nice head shot.",
+      "translation": "ナイスなヘッドショットだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分で決めた「ヘッドショット」を自画自賛するセリフ。</li><li>\"Nice\" は「素晴らしい」「見事な」という意味の称賛の言葉です。</li></ul><strong>英文法:</strong><br>形容詞 \"Nice\" と名詞句 \"head shot\" の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl27.mp3"
+    },
+    {
+      "id": "colt_vl28",
+      "quote": "No way!",
+      "translation": "ありえない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>信じられない出来事が起こった時の、強い驚きや否定を表す非常によく使われる口語表現です。「まさか！」「とんでもない！」といった意味です。</li></ul><strong>英文法:</strong><br>感嘆詞的に使われる定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl28.mp3"
+    },
+    {
+      "id": "colt_vl29",
+      "quote": "Yes!",
+      "translation": "よっしゃ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>作戦が成功した時や勝利した時の、ストレートな喜びの叫びです。</li></ul><strong>英文法:</strong><br>感嘆詞として単独で使われます。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl29.mp3"
+    },
+    {
+      "id": "colt_vl30",
+      "quote": "Gah!",
+      "translation": "ぐあっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>突然の苦痛や驚き、不満などを表す短い叫び声です。</li></ul><strong>英文法:</strong><br>感情をそのまま音にしたような感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/colt_vl30.mp3"
+    }
+  ]
+}

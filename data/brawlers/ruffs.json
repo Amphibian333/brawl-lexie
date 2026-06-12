@@ -1,0 +1,234 @@
+{
+  "name": "ラフス",
+  "nameEn": "Ruffs",
+  "rarity": "ultra-rare",
+  "role": "support",
+  "quote": "Colonel Ruffs, reporting for duty!",
+  "iconUrl": "https://i.imgur.com/e8tWKQN.png",
+  "voicelines": [
+    {
+      "id": "ruffs_vl1",
+      "quote": "Get ruffed!",
+      "translation": "ラフにされちまえ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「手荒く扱われる（roughed up）」と自分の名前「ラフス（Ruffs）」をかけた、イカした決め台詞。</li><li>「俺様が可愛がってやるぜ！」みたいなニュアンスです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl1.mp3"
+    },
+    {
+      "id": "ruffs_vl2",
+      "quote": "Argh! I got my eye on you!",
+      "translation": "むぅ！お前のことは監視しているぞ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>軍の司令官らしく、敵をロックオンした時の警告。</li><li>「変な動きをしたら許さんぞ」という圧を感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl2.mp3"
+    },
+    {
+      "id": "ruffs_vl3",
+      "quote": "Ruff! Ruff! Ruff!",
+      "translation": "ラフ！ラフ！ラフ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>犬の鳴き声（Ruff）と自分の名前を連呼！</li><li>興奮するとついつい犬の本能が出ちゃうのが可愛いところ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl3.mp3"
+    },
+    {
+      "id": "ruffs_vl4",
+      "quote": "It's an ambush! Ahhh!",
+      "translation": "奇襲だ！あああ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>予想外の場所から攻撃された時のリアクション。</li><li>冷静な司令官も、不意打ちには弱いようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl4.mp3"
+    },
+    {
+      "id": "ruffs_vl5",
+      "quote": "Calling in reinforcements! Ruff!",
+      "translation": "増援を要請する！ラフ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ピンチになったらすぐに援軍を呼ぶ！</li><li>軍人らしい的確な判断（と、ちょっと弱気な一面？）です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl5.mp3"
+    },
+    {
+      "id": "ruffs_vl6",
+      "quote": "Let's go go go!",
+      "translation": "行くぞ、行け、行け！",
+      "explanation": "<strong>解説:</strong><br><ul><li>部隊を鼓舞する時の定番フレーズ！</li><li>ラッシュをかける時や、ゲーム開始時にぴったりの掛け声です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl6.mp3"
+    },
+    {
+      "id": "ruffs_vl7",
+      "quote": "Preparing for counter attack.",
+      "translation": "反撃の準備中だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられてもただでは起きない！</li><li>リスポーン待機中に、次の作戦を練っている冷静な姿が目に浮かびます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl7.mp3"
+    },
+    {
+      "id": "ruffs_vl8",
+      "quote": "Ruff. The enemy is strong.",
+      "translation": "ラフ。敵は手ごわいな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けた時に相手の実力を素直に認める、潔いセリフ。</li><li>負け犬の遠吠え…ではなく、冷静な戦力分析です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl8.mp3"
+    },
+    {
+      "id": "ruffs_vl9",
+      "quote": "Delta team! Requesting backup!",
+      "translation": "デルタチーム！援軍を頼む！",
+      "explanation": "<strong>解説:</strong><br><ul><li>特定の部隊名を出して援護を要請する、本格的なミリタリーボイス。</li><li>緊迫感が伝わってきます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl9.mp3"
+    },
+    {
+      "id": "ruffs_vl10",
+      "quote": "Watch the flanks!",
+      "translation": "側面を警戒しろ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「横からの攻撃に気をつけろ！」という、FPSなどでもよく聞くガチな指示。</li><li>チームメイトへの注意喚起に最適です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl10.mp3"
+    },
+    {
+      "id": "ruffs_vl11",
+      "quote": "Mission successful.",
+      "translation": "任務、完了。",
+      "explanation": "<strong>解説:</strong><br><ul><li>勝利した時の報告。</li><li>感情を表に出さず、淡々と任務完了を告げるのがプロの軍人っぽくて渋い！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl11.mp3"
+    },
+    {
+      "id": "ruffs_vl12",
+      "quote": "Enemy down.",
+      "translation": "敵を撃破。",
+      "explanation": "<strong>解説:</strong><br><ul><li>キルを取った時の冷静な一言。</li><li>「敵、排除完了」って感じで、無駄のない動きを感じさせます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl12.mp3"
+    },
+    {
+      "id": "ruffs_vl13",
+      "quote": "When the going gets rough, Ruff gets tough!",
+      "translation": "状況がタフになれば、ラフスはタフになる！",
+      "explanation": "<strong>解説:</strong><br><ul><li>有名なことわざ「逆境こそが人を強くする」を、自分の名前にアレンジした名言。</li><li>ピンチの時こそ燃える、ラフス大佐の真骨頂です！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl13.mp3"
+    },
+    {
+      "id": "ruffs_vl14",
+      "quote": "Battle stations!",
+      "translation": "戦闘配置につけ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>いよいよ戦闘開始！</li><li>全員所定の位置につけ、という号令。宇宙船のクルーになった気分になれます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl14.mp3"
+    },
+    {
+      "id": "ruffs_vl15",
+      "quote": "Who's a good boy? Ruff ruff!",
+      "translation": "良い子は誰かな？ラフラフ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>飼い主が犬を褒める言葉を、自分で自分に言っちゃうお茶目なシーン。</li><li>「俺ってば超いい子！」と自画自賛してます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl15.mp3"
+    },
+    {
+      "id": "ruffs_vl16",
+      "quote": "Incoming!",
+      "translation": "敵襲！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「なんか飛んでくるぞ！」という緊急警報。</li><li>敵の遠距離攻撃や必殺技が飛んできた時に叫びたい一言です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl16.mp3"
+    },
+    {
+      "id": "ruffs_vl17",
+      "quote": "Ruff! Don't call me doggo.",
+      "translation": "ラフ！俺をドッゴと呼ぶな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ネットスラングの「イヌ（doggo）」呼びは、威厳ある大佐には失礼にあたるようです。</li><li>「ちゃん付けすんな！」みたいな怒り方ですね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl17.mp3"
+    },
+    {
+      "id": "ruffs_vl18",
+      "quote": "Retreat! Retreat!",
+      "translation": "退却！退却！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ヤバい、逃げろ！」という時の軍事用語。</li><li>ただ逃げるんじゃなくて、あくまで戦略的撤退だと言い張りたい時に。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl18.mp3"
+    },
+    {
+      "id": "ruffs_vl19",
+      "quote": "Bird is the word!",
+      "translation": "バードこそが合言葉だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>古いロックンロールの曲の歌詞を引用した、ノリノリな一言。</li><li>特に意味はないけど、テンションが上った時に言いたくなるやつです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl19.mp3"
+    },
+    {
+      "id": "ruffs_vl20",
+      "quote": "Ha ha ha! Every dog has its day.",
+      "translation": "ハハハ！どんな犬にも得意な日はあるものだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「誰にでもチャンスはある」ということわざを、犬キャラとしてカッコよく決めたセリフ。</li><li>勝利した時の誇らしげなドヤ顔が見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl20.mp3"
+    },
+    {
+      "id": "ruffs_vl21",
+      "quote": "Medic!",
+      "translation": "衛生兵！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「回復役（ヒーラー）来てくれー！」という切実な叫び。</li><li>瀕死の状態でポコやパムを探している時の心境そのものです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl21.mp3"
+    },
+    {
+      "id": "ruffs_vl22",
+      "quote": "Bravo Zulu.",
+      "translation": "お見事。",
+      "explanation": "<strong>解説:</strong><br><ul><li>海軍で使われる「よくやった（Good Job）」という意味の信号コード。</li><li>味方のナイスプレイを、プロっぽく褒めたい時に使いましょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl22.mp3"
+    },
+    {
+      "id": "ruffs_vl23",
+      "quote": "Ruff. Bad dog.",
+      "translation": "ラフ。悪い犬だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ミスをした自分に対して、「めっ！悪い子！」と叱っています。</li><li>自分に厳しい性格なのか、それとも誰かに飼われている気分なのか…？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl23.mp3"
+    },
+    {
+      "id": "ruffs_vl24",
+      "quote": "Clear the drop zone!",
+      "translation": "降下地点を確保しろ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>スーパー（補給物資）を落とす時の合図！</li><li>「そこに落とすから退いてろよ！」という味方への連絡です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl24.mp3"
+    },
+    {
+      "id": "ruffs_vl25",
+      "quote": "Ruff! This canine bites back!",
+      "translation": "ラフ！この犬は噛み返すぞ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ただの犬だと思ってナメんなよ！」という反撃の狼煙。</li><li>窮鼠猫を噛む…ではなく、軍用犬は敵を噛む！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl25.mp3"
+    },
+    {
+      "id": "ruffs_vl26",
+      "quote": "Ruff! Don't ruffle my fur!",
+      "translation": "ラフ！俺の毛を逆立てるな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺を怒らせるな」という意味のイディオム。</li><li>文字通り「毛を逆立てて」威嚇している様子が目に浮かびます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl26.mp3"
+    },
+    {
+      "id": "ruffs_vl27",
+      "quote": "Romeo, Uniform. Foxtrot, Foxtrot.",
+      "translation": "ロミオ、ユニフォーム。フォックストロット、フォックストロット。",
+      "explanation": "<strong>解説:</strong><br><ul><li>軍隊式のアルファベットの読み方で、頭文字を繋げると「R.U.F.F.（ラフ）」になります。</li><li>自分の名前すら暗号で名乗る、徹底した軍人っぷり！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl27.mp3"
+    },
+    {
+      "id": "ruffs_vl28",
+      "quote": "My bite is way worse than my bark!",
+      "translation": "俺は、吠えるより噛みつく方がよっぽどヤバいぞ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「口先だけじゃないぞ、実力行使するぞ」という脅し文句。</li><li>ことわざを逆手にとった、カッコいい言い回しです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl28.mp3"
+    },
+    {
+      "id": "ruffs_vl29",
+      "quote": "Enemy contact!",
+      "translation": "敵と接触！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を見つけた瞬間の報告。</li><li>索敵中に草むらで敵とバッタリ会った時なんかにどうぞ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl29.mp3"
+    },
+    {
+      "id": "ruffs_vl30",
+      "quote": "Sit down! Roll over! Now play dead.",
+      "translation": "お座り！ゴロン！さあ、死んだフリをしろ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を完全に犬扱いして見下す、強烈な煽りセリフ。</li><li>自分が犬なのに、相手にしつけをするという皮肉が効いてます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl30.mp3"
+    },
+    {
+      "id": "ruffs_vl31",
+      "quote": "Get to the hopper!",
+      "translation": "ホッパーへ行け！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「早く脱出しろ！」という緊急命令。</li><li>映画『プレデター』の有名なセリフ「Get to the chopper!（ヘリへ行け！）」のパロディかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl31.mp3"
+    },
+    {
+      "id": "ruffs_vl32",
+      "quote": "Requesting evac...",
+      "translation": "撤退を要請する…",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時に、負けを認めず「撤退するだけだ」と言い張るための通信。</li><li>最後まで軍人としてのロールプレイを忘れません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/ruffs_vl32.mp3"
+    }
+  ]
+}

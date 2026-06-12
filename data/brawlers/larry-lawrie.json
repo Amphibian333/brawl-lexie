@@ -1,0 +1,277 @@
+{
+  "name": "ラリー＆ローリー",
+  "nameEn": "Larry & Lawrie",
+  "rarity": "hyper-rare",
+  "role": "thrower",
+  "quote": "Don't be fools, follow the rules!",
+  "iconUrl": "https://i.imgur.com/wIyiR8l.png",
+  "tiktokUrl": "https://www.tiktok.com/@bion329/video/7508677392186019093?is_from_webapp=1&sender_device=pc&web_id=7503159212111349266",
+  "voicelines": [
+    {
+      "id": "larrylawrie_vl1",
+      "quote": "This will be a great day.",
+      "translation": "素晴らしい一日になるでしょう。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これから始まる一日（戦い）が、素晴らしいものになるだろうという、ラリーの楽観的な性格を表すセリフです。</li></ul><strong>英文法:</strong><br>未来を表す助動詞 \"will\" を使った、シンプルな肯定文です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl1.mp3"
+    },
+    {
+      "id": "larrylawrie_vl2",
+      "quote": "Successfully applied my 45,756 rules of success.",
+      "translation": "私の45,756個の成功法則を、無事適用しました。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>勝利した際に、それが自分の持つ膨大な数の「成功法則」に従った結果であると、几帳面に分析しています。</li><li>彼のルールブックへの異常なまでの信頼と、少しズレたキャラクター性を示しています。</li></ul><strong>英文法:</strong><br>過去分詞 \"Applied\" から始まる、\"I have successfully applied...\" のような文が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl2.mp3"
+    },
+    {
+      "id": "larrylawrie_vl3",
+      "quote": "I am still smiling!",
+      "translation": "私はまだ笑っています！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>敗北したり、不利な状況に陥ったりしても、まだ楽観的な笑顔を絶やしていない、と強がるセリフです。</li></ul><strong>英文法:</strong><br>\"still\" は「まだ、依然として」という意味の副詞。現在進行形で、その状態が続いていることを示します。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl3.mp3"
+    },
+    {
+      "id": "larrylawrie_vl4",
+      "quote": "The rule book is my secret weapon.",
+      "translation": "ルールブックが私の秘密兵器です。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>彼の力の源が、物理的な武器ではなく「ルールブック」であるという、ユニークな信条を語っています。</li></ul><strong>英文法:</strong><br>シンプルなSVCの肯定文です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl4.mp3"
+    },
+    {
+      "id": "larrylawrie_vl5",
+      "quote": "This wasn't part of the rule book.",
+      "translation": "これはルールブックにはありませんでした。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>予期せぬ事態（おそらく敗北）に直面し、自分のルールブックでは想定外だったと、戸惑っているセリフです。</li></ul><strong>英文法:</strong><br>be動詞の過去形の否定文です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl5.mp3"
+    },
+    {
+      "id": "larrylawrie_vl6",
+      "quote": "Lawrie: \"Say hello to the bad cop!\"",
+      "translation": "ローリー: 「バッドコップにご挨拶しな！」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>刑事ドラマや映画でよく見られる「グッドコップ／バッドコップ（良い警官／悪い警官）」という役割分担において、自分が「悪い警官（bad cop）」であることを宣言するセリフです。</li><li>相方のラリーが「良い警官」役であるのに対し、自分は容赦ない法の執行者であることを示しています。</li></ul><strong>英文法:</strong><br>動詞の原形 \"Say\" で始まる命令文です。相手への挨拶の形をとりながら、威圧感を与えています。<br><br><strong>🧠豆知識:</strong><br>このセリフはローリーのキャラクター性を一言で表しています。「グッドコップ／バッドコップ」は、二人一組で容疑者を取り調べる際に、一人が厳しく、もう一人が優しく接することで、自白を引き出す尋問テクニックです。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl6.mp3"
+    },
+    {
+      "id": "larrylawrie_vl7",
+      "quote": "Play nice, everyone.",
+      "translation": "皆さん、仲良くプレイしましょう。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Play nice\" は「仲良く遊ぶ、行儀よくする」という意味。</li><li>これから始まる乱闘を前に、「皆さん、ルールを守って正々堂々とやりましょうね」と呼びかける、ラリーの生真面目なセリフです。</li></ul><strong>英文法:</strong><br>命令文と呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl7.mp3"
+    },
+    {
+      "id": "larrylawrie_vl8",
+      "quote": "Optimism is the ticket to success.",
+      "translation": "楽観主義こそが、成功へのチケットです。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"ticket to ~\" は「～への切符」、つまり「～への近道、手段」を意味する比喩表現です。</li><li>彼の信条である「楽観主義（Optimism）」こそが、成功への道だと語っています。</li></ul><strong>英文法:</strong><br>格言のような、シンプルなSVCの文です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl8.mp3"
+    },
+    {
+      "id": "larrylawrie_vl9",
+      "quote": "You did really well!",
+      "translation": "あなたは本当によくやりました！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手（あるいは味方）の健闘を、心から称賛しています。ラリーの人の好さが表れています。</li></ul><strong>英文法:</strong><br>過去形の文です。副詞 \"really\" が \"well\" を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl9.mp3"
+    },
+    {
+      "id": "larrylawrie_vl10",
+      "quote": "Rules rule the world.",
+      "translation": "ルールが世界を支配するのです。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>最初の \"Rules\" は名詞で「ルール」、二番目の \"rule\" は動詞で「支配する」という意味。</li><li>同じ単語を異なる品詞で使う、言葉遊び（pun）です。</li></ul><strong>英文法:</strong><br>SVOのシンプルな文ですが、主語と動詞が同じ単語になっています。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl10.mp3"
+    },
+    {
+      "id": "larrylawrie_vl11",
+      "quote": "But I followed the rules!",
+      "translation": "でも、私はルールに従ったのに！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ルールを遵守したにもかかわらず、負けてしまったことへの、理不尽さや納得のいかない気持ちを訴えています。</li></ul><strong>英文法:</strong><br>\"But\" で始まる、過去形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl11.mp3"
+    },
+    {
+      "id": "larrylawrie_vl12",
+      "quote": "Lawrie: \"I got no time for trouble!\"",
+      "translation": "ローリー: 「厄介事にかまってる時間はない！」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"I got no time for ~\" は \"I don't have time for ~\" の非常に口語的で、強い否定の表現です。「～なんて相手にしている暇はない」というニュアンスです。</li></ul><strong>英文法:</strong><br>口語で頻繁に使われる、\"got no ~\" という否定の形です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl12.mp3"
+    },
+    {
+      "id": "larrylawrie_vl13",
+      "quote": "Don't be fools, follow the rules!",
+      "translation": "愚か者になるな、ルールに従え！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fools\"（愚か者）と \"rules\"（ルール）で韻を踏んだ、非常にキャッチーな標語です。</li><li>ラリーの信条を、人々に呼びかけるスローガンになっています。</li></ul><strong>英文法:</strong><br>二つの命令文をコンマで繋いでいます。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl13.mp3"
+    },
+    {
+      "id": "larrylawrie_vl14",
+      "quote": "One way ticket to victory!",
+      "translation": "勝利への片道切符です！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"one-way ticket\" は「片道切符」。</li><li>この戦いは、もはや引き返すことのない「勝利」へ向かうだけの旅だと、楽観的に宣言しています。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl14.mp3"
+    },
+    {
+      "id": "larrylawrie_vl15",
+      "quote": "You chose me as a victim. I am honored!",
+      "translation": "私を犠牲者に選びましたね。光栄です！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手に狙われた（犠牲者/victimに選ばれた）ことに対して、普通なら怒るところを、「光栄です（I am honored!）」と返す、ラリーの究極のポジティブシンキングを表すセリフです。</li></ul><strong>英文法:</strong><br>二つの文を繋げ、皮肉な、あるいは非常にユニークな反応を示しています。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl15.mp3"
+    },
+    {
+      "id": "larrylawrie_vl16",
+      "quote": "Ruling ruler of Rulington!",
+      "translation": "ルーリングトンの支配者たる支配者！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"rule\"（支配する）という単語を多用した、言葉遊びです。</li><li>「ルーリングトン（架空の地名）の、支配している支配者」と、自分の支配力を大げさに表現しています。</li></ul><strong>英文法:</strong><br>同語源の単語を重ねた、リズミカルな名詞句です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl16.mp3"
+    },
+    {
+      "id": "larrylawrie_vl17",
+      "quote": "My ticket has expired.",
+      "translation": "私のチケットは期限切れです。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が倒されたことを、持っていたチケットの「有効期限が切れた（expired）」ことに例えています。</li></ul><strong>英文法:</strong><br>現在完了形を使って、チケットが既に無効になった状態を表しています。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl17.mp3"
+    },
+    {
+      "id": "larrylawrie_vl18",
+      "quote": "Lawrie: \"Obey!\"",
+      "translation": "ローリー: 「服従しろ！」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Obey\" は「（命令・法律などに）従う、服従する」という意味の動詞。</li><li>ローリーが、相手に対して無条件の服従を要求する、非常に高圧的な一言です。</li></ul><strong>英文法:</strong><br>動詞の原形だけの、最も短い形の命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl18.mp3"
+    },
+    {
+      "id": "larrylawrie_vl19",
+      "quote": "Optimism boost, engaged!",
+      "translation": "楽観主義ブースト、作動！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の信条である「楽観主義（Optimism）」を、まるでロボットのブースト機能のように「作動（engaged）」させています。</li></ul><strong>英文法:</strong><br>名詞句と過去分詞を組み合わせた、機械的な宣言です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl19.mp3"
+    },
+    {
+      "id": "larrylawrie_vl20",
+      "quote": "Ticket to triumph!",
+      "translation": "勝利へのチケット！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"triumph\" は「大勝利、征服」という意味。</li><li>この戦いが、輝かしい勝利へ繋がるチケットだと信じています。</li></ul><strong>英文法:</strong><br>「ticket to + 名詞」の形です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl20.mp3"
+    },
+    {
+      "id": "larrylawrie_vl21",
+      "quote": "Lawrie won't like this.",
+      "translation": "ローリーはこれを良く思わないでしょう。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が敗北したり、不利な状況に陥ったりしたことに対して、相棒のローリーが怒るだろう、と心配しています。</li></ul><strong>英文法:</strong><br>未来の否定を表す \"won't\"（will not）を使っています。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl21.mp3"
+    },
+    {
+      "id": "larrylawrie_vl22",
+      "quote": "Optimism won again!",
+      "translation": "またしても楽観主義が勝ちました！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の勝利を、個人的な手柄ではなく、信条である「楽観主義（Optimism）」そのものが勝利したのだ、と考えています。</li></ul><strong>英文法:</strong><br>過去形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl22.mp3"
+    },
+    {
+      "id": "larrylawrie_vl23",
+      "quote": "Oh, I need to go and get some more tickets.",
+      "translation": "おや、もっとチケットを手に入れに行かないと。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が倒されたことを、まるで「チケットを使い果たしてしまった」かのように表現しています。</li></ul><strong>英文法:</strong><br>\"need to ~\" は「～する必要がある」という、必要性を表す構文です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl23.mp3"
+    },
+    {
+      "id": "larrylawrie_vl24",
+      "quote": "Lawrie: \"The law will find you!\"",
+      "translation": "ローリー: 「法がお前を見つけ出す！」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「法（The law）」を擬人化し、それがまるで追跡者のように相手を追い詰める、と脅しています。</li></ul><strong>英文法:</strong><br>無生物主語を使った、演劇的な脅し文句です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl24.mp3"
+    },
+    {
+      "id": "larrylawrie_vl25",
+      "quote": "Obey, obey, obey!",
+      "translation": "服従、服従、服従！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ローリーのセリフ \"Obey!\" を、ラリーが真似ているのか、あるいは自身の信条として繰り返しているようです。</li></ul><strong>英文法:</strong><br>動詞の原形を繰り返すことで、その行動の重要性を強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl25.mp3"
+    },
+    {
+      "id": "larrylawrie_vl26",
+      "quote": "Optimism fueled, the competitors were schooled.",
+      "translation": "楽観主義に後押しされ、競争相手は教えを受けた。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fueled\"（燃料を供給され）と \"schooled\"（教育された）で韻を踏んだ、詩的な勝利宣言です。</li><li>\"be schooled\" はスラングで「（実力差を見せつけられて）良い教訓を得る、完敗する」という意味です。</li></ul><strong>英文法:</strong><br>分詞構文を使った、文学的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl26.mp3"
+    },
+    {
+      "id": "larrylawrie_vl27",
+      "quote": "What a great effort.",
+      "translation": "なんて素晴らしい努力でしょう。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の健闘を称える、紳士的なセリフです。</li></ul><strong>英文法:</strong><br>\"What a + 形容詞 + 名詞.\" の形の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl27.mp3"
+    },
+    {
+      "id": "larrylawrie_vl28",
+      "quote": "Another twin win!",
+      "translation": "またしても双子の勝利！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"twin\"（双子）と \"win\"（勝利）で韻を踏んだ、キャッチーな勝利報告です。</li></ul><strong>英文法:</strong><br>リズミカルな名詞句です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl28.mp3"
+    },
+    {
+      "id": "larrylawrie_vl29",
+      "quote": "This twin was not meant to win.",
+      "translation": "この双子は勝つ運命ではなかった。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"be meant to ~\" は「～する運命である」。</li><li>敗北した際に、「今回は勝つべきではなかったようだ」と、運命のせいにして諦めているようです。</li></ul><strong>英文法:</strong><br>受動態の過去否定文です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl29.mp3"
+    },
+    {
+      "id": "larrylawrie_vl30",
+      "quote": "Got a ticket to win, and I'm checking in!",
+      "translation": "勝利へのチケットを手に入れて、チェックインだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"win\" と \"checking in\" で韻を踏んでいます。</li><li>「勝利行きのチケットを手に入れたので、今からその旅（戦い）にチェックインする」という、旅行に例えた表現です。</li></ul><strong>英文法:</strong><br>二つの文を \"and\" で繋いでいます。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl30.mp3"
+    },
+    {
+      "id": "larrylawrie_vl31",
+      "quote": "Sing when you're twinning!",
+      "translation": "ツインニングしてる時は歌おう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>有名な歌「Singin' in the Rain」のフレーズをもじり、「winning（勝利している）」を、自分たちの特徴である「twinning（双子であること）」に置き換えた言葉遊びです。</li></ul><strong>英文法:</strong><br>有名なフレーズのパロディです。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl31.mp3"
+    },
+    {
+      "id": "larrylawrie_vl32",
+      "quote": "Your ticket is no longer valid.",
+      "translation": "あなたのチケットはもう無効です。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"no longer valid\" は「もはや有効ではない」。</li><li>相手を倒した際に、「あなたのこの試合への参加資格は失効した」と、チケット係のように冷徹に宣告しています。</li></ul><strong>英文法:</strong><br>\"no longer\" は「もはや～ない」という否定を表す重要な副詞句です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl32.mp3"
+    },
+    {
+      "id": "larrylawrie_vl33",
+      "quote": "Lawrie: \"You will pay for your insubordination.\"",
+      "translation": "ローリー: 「その反抗的な態度の代償は払ってもらうぞ。」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"insubordination\" は、軍隊や組織における「反抗、不服従」という、非常に硬い言葉です。</li><li>ルールに従わない相手に対して、法の執行者として罰を与えることを宣言しています。</li></ul><strong>英文法:</strong><br>\"pay for ~\" は「～の代償を払う、報いを受ける」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl33.mp3"
+    },
+    {
+      "id": "larrylawrie_vl34",
+      "quote": "Obeying rules, like a boss!",
+      "translation": "ルールに従う、ボスのようにね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"like a boss\" は、「堂々と、見事に、プロのように」といった意味で使われる、非常にポピュラーなインターネットスラングです。</li><li>ルールに従うことが、いかにクールで素晴らしいことかをアピールしています。</li></ul><strong>英文法:</strong><br>動名詞句に、スラングの副詞句を付け加えた形です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl34.mp3"
+    },
+    {
+      "id": "larrylawrie_vl35",
+      "quote": "Twin for the win!",
+      "translation": "双子で勝利！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Twin\" と \"win\" で韻を踏んだ、シンプルでキャッチーな勝利宣言です。</li></ul><strong>英文法:</strong><br>名詞句だけでスローガンとして機能しています。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl35.mp3"
+    },
+    {
+      "id": "larrylawrie_vl36",
+      "quote": "Lawrie: \"You have broken the law!\"",
+      "translation": "ローリー: 「お前は法を破った！」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>警官が悪役に対して言う、最も象徴的で典型的なセリフの一つです。</li></ul><strong>英文法:</strong><br>現在完了形を使い、相手が法を破ったという事実が、今も影響を及ぼしていることを示しています。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl36.mp3"
+    },
+    {
+      "id": "larrylawrie_vl37",
+      "quote": "Obeying rules, but breaking records!",
+      "translation": "ルールには従う、でも記録は破る！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ルールは守る」という真面目な面と、「記録は打ち破る」という野心的な面を対比させて、自分たちの優秀さをアピールしています。</li></ul><strong>英文法:</strong><br>二つの動名詞句を \"but\" で繋いでいます。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl37.mp3"
+    },
+    {
+      "id": "larrylawrie_vl38",
+      "quote": "Lawrie: \"Time for some real action!\"",
+      "translation": "ローリー: 「そろそろ本物のアクションの時間だ！」",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これまでの戦いを「お遊び」とみなし、「ここからが本番だ」と、ローリーが本気を出すことを宣言しています。</li></ul><strong>英文法:</strong><br>「Time for + 名詞」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/larrylawrie_vl38.mp3"
+    }
+  ]
+}

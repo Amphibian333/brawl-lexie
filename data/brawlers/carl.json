@@ -1,0 +1,143 @@
+{
+  "name": "カール",
+  "nameEn": "Carl",
+  "rarity": "super-rare",
+  "role": "damage-dealer",
+  "quote": "Carl is my name, geology is my game.",
+  "iconUrl": "https://i.imgur.com/3Fk1sTu.png",
+  "voicelines": [
+    {
+      "id": "carl_vl1",
+      "quote": "Ha ha! Geology rocks.",
+      "translation": "ハハ！地質学サイコー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"rocks\" は、文字通りの「岩」と、スラングの「最高！」「イケてる！」という2つの意味を持つダブルミーニング（かけた言葉）になっています。</li></ul><strong>英文法:</strong><br>「Geology(名詞) + rocks(動詞)」の形。この場合の動詞 \"rocks\" は三人称単数現在形です。<br><br><strong>🧠豆知識:</strong><br>\"rock\" が「最高」という意味で使われるのは、\"rock and roll\"（ロックンロール）が由来とされ、ポジティブで力強いイメージを持つスラングとして定着しています。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl1.mp3"
+    },
+    {
+      "id": "carl_vl2",
+      "quote": "Carl-culating awesomeness level.",
+      "translation": "カール式！カッコよさ測定中！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の名前 \"Carl\" と \"calculating\"（計算中）を掛け合わせた、オタク気質なジョークです。</li><li>\"awesomeness level\" は「カッコよさのレベル」という意味。</li></ul><strong>英文法:</strong><br>動詞の現在分詞形 \"calculating\" を使った表現。主語（I am）が省略されています。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl2.mp3"
+    },
+    {
+      "id": "carl_vl3",
+      "quote": "I'm detecting seismic activity!",
+      "translation": "地震活動を検知中！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"seismic activity\" は「地震活動」を意味する専門用語。地質学オタクらしい、テンションの高いセリフです。</li></ul><strong>英文法:</strong><br>\"I'm detecting\" は「～を検知している」という現在進行形です。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl3.mp3"
+    },
+    {
+      "id": "carl_vl4",
+      "quote": "Ha ha! Winning by a landslide!",
+      "translation": "ハハ！圧勝だな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"landslide\" は、文字通りの「地すべり」と、選挙や試合での「圧勝」という2つの意味を持つダブルミーニングです。</li></ul><strong>英文法:</strong><br>\"win by a landslide\" は「圧勝する」という意味の非常によく使われる慣用句（イディオム）です。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl4.mp3"
+    },
+    {
+      "id": "carl_vl5",
+      "quote": "The rocks speak to me.",
+      "translation": "岩が私に語りかけてくる…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>地質学への深い愛情を持つ、カールの少し変わった性格を表現するセリフです。</li></ul><strong>英文法:</strong><br>「主語(The rocks) + 動詞(speak) + to me(目的語)」のシンプルな現在形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl5.mp3"
+    },
+    {
+      "id": "carl_vl6",
+      "quote": "Truly groundbreaking!",
+      "translation": "まさに画期的だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"groundbreaking\" は「地面を掘ること」と「革新的な・画期的な」という2つの意味を持つダブルミーニングです。</li></ul><strong>英文法:</strong><br>\"Truly\" は「本当に、まさに」という意味の副詞で、形容詞 \"groundbreaking\" を強調しています。<br><br><strong>🧠豆知識:</strong><br>新しい事業や建物の起工式も \"groundbreaking ceremony\" と呼ばれます。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl6.mp3"
+    },
+    {
+      "id": "carl_vl7",
+      "quote": "Carl is my name, geology is my game.",
+      "translation": "名はカール、専門は地質学！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>韻を踏んだリズミカルな自己紹介の決まり文句です。</li></ul><strong>英文法:</strong><br>「X is my name, Y is my game」という形で、「私の名前はXで、Yが得意分野だ」と自己紹介する定型表現です。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl7.mp3"
+    },
+    {
+      "id": "carl_vl8",
+      "quote": "Triangulation rocks the nation.",
+      "translation": "三角測量で天下を取る！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Triangulation\"（三角測量）という専門用語と、\"rocks the nation\"（国を揺るがす、天下を取る）という大げさな表現を組み合わせた理系ジョークです。</li></ul><strong>英文法:</strong><br>\"rocks\" はここでは「～を揺るがす」という意味の動詞として使われています。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl8.mp3"
+    },
+    {
+      "id": "carl_vl9",
+      "quote": "I don't lava this!",
+      "translation": "これは溶岩的にナシだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"love\"（愛する、好き）を、発音が似ている \"lava\"（溶岩）に置き換えたダジャレです。</li></ul><strong>英文法:</strong><br>「I don't love this.（これは好きじゃない）」という否定文をもじっています。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl9.mp3"
+    },
+    {
+      "id": "carl_vl10",
+      "quote": "I guess you plateaued.",
+      "translation": "君、成長が止まったみたいだね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"plateau\" は名詞では「高原」、動詞では「（成長などが）停滞する、横ばいになる」という意味。相手の成長が止まったことを皮肉っぽく指摘しています。</li></ul><strong>英文法:</strong><br>\"I guess\" は「～だと思うよ」という推測を表す口語表現です。<br><br><strong>🧠豆知識:</strong><br>日本語でも、筋トレや勉強の成果が伸び悩むことを「プラトーに陥る」と言います。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl10.mp3"
+    },
+    {
+      "id": "carl_vl11",
+      "quote": "No no no!",
+      "translation": "ダメダメダメ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>焦りや強い否定を表す際に、\"No\" を繰り返して感情を強調しています。</li></ul><strong>英文法:</strong><br>感嘆詞の繰り返しによる強調表現です。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl11.mp3"
+    },
+    {
+      "id": "carl_vl12",
+      "quote": "Incorrect!",
+      "translation": "不正解！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の行動や結果が間違っていると、クイズの不正解のようにバッサリ切り捨てるセリフです。</li></ul><strong>英文法:</strong><br>形容詞 \"incorrect\"（不正解な）を単独で使うことで、断定的な強い響きを持たせています。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl12.mp3"
+    },
+    {
+      "id": "carl_vl13",
+      "quote": "Eureka!",
+      "translation": "ひらめいた！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>何かを発見したり、素晴らしいアイデアを思いついたりした時の喜びを表す感嘆詞です。</li></ul><strong>英文法:</strong><br>ギリシャ語に由来する感嘆詞です。<br><br><strong>🧠豆知識:</strong><br>古代ギリシャの科学者アルキメデスが、お風呂で浮力の原理を発見した際に「Eureka!（わかった！）」と叫んだという伝説が有名です。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl13.mp3"
+    },
+    {
+      "id": "carl_vl14",
+      "quote": "Sub-optimal performance!",
+      "translation": "最適とは言えないパフォーマンスだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sub-optimal\" は「最適（optimal）より下（sub-）」という意味で、「最善ではない」というニュアンスです。</li><li>相手の動きの効率の悪さを、理屈っぽく批判しています。</li></ul><strong>英文法:</strong><br>「形容詞 + 名詞」の組み合わせによる感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl14.mp3"
+    },
+    {
+      "id": "carl_vl15",
+      "quote": "So much ignorance, so little time...",
+      "translation": "無知が多すぎる、なのに時間はあまりに少ない…",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>世の中の無知（ignorance）を嘆きつつ、それらを正す時間がないと相手を見下す、皮肉なセリフです。</li></ul><strong>英文法:</strong><br>「so much X, so little Y」は「Xは非常に多いのに、Yは非常に少ない」という対比を強調する構文です。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl15.mp3"
+    },
+    {
+      "id": "carl_vl16",
+      "quote": "Evolution, it must've passed you by.",
+      "translation": "進化…君は取り残されたんだな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を「進化から取り残された存在」だと見なす、知的な煽り文句です。</li></ul><strong>英文法:</strong><br>\"must've\" は \"must have\" の口語的な短縮形。「～したに違いない」という強い推量を表します。\"pass someone by\" は「（機会などが）素通りする」という意味の句動詞です。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl16.mp3"
+    },
+    {
+      "id": "carl_vl17",
+      "quote": "Will you learn? Highly doubtful.",
+      "translation": "君は学ぶのかい？甚だ疑問だがね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手に問いかけながら、即座に「無理だろう」と自己完結することで、相手の学習能力を完全に見下しています。</li></ul><strong>英文法:</strong><br>前半は未来形の疑問文。後半の \"Highly doubtful\" は「（It is）highly doubtful.」の主語と動詞が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl17.mp3"
+    },
+    {
+      "id": "carl_vl18",
+      "quote": "Ah! Yowza!",
+      "translation": "うわっ！マジかよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Yowza!\" は、強い驚きや衝撃、時には喜びを表す、少し古風でコミカルなスラングの感嘆詞です。</li></ul><strong>英文法:</strong><br>感嘆詞の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl18.mp3"
+    },
+    {
+      "id": "carl_vl19",
+      "quote": "Carl laughs / taunts",
+      "translation": "カールが笑う／挑発する",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li><b>laughs</b>: 喜びや相手を小馬鹿にしたような含み笑い。</li><li><b>taunts</b>: 相手を煽るような挑発的な声やアクション。</li></ul><strong>英文法:</strong><br>主語 \"Carl\" に続く三人称単数現在の動詞。キャラクターの行動を描写する形式です。",
+      "audioUrl": "https://Amphibian333.github.io/carl_vl19.mp3"
+    }
+  ]
+}

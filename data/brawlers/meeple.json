@@ -1,0 +1,514 @@
+{
+  "name": "ミープル",
+  "nameEn": "Meeple",
+  "rarity": "hyper-rare",
+  "role": "support",
+  "quote": "The one with the rules rules.",
+  "iconUrl": "https://i.imgur.com/krrG0ll.png",
+  "voicelines": [
+    {
+      "id": "meeple_vl1",
+      "quote": "Time for a game-changing play!",
+      "translation": "ゲームを変える一手を打つ時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"game-changing\" は「ゲームの流れを大きく変えるような、画期的な」という意味の形容詞です。</li><li>これから放つ一手が、戦況を覆すほど重要であると宣言しています。</li></ul><strong>英文法:</strong><br>「Time for + 名詞句」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl1.mp3"
+    },
+    {
+      "id": "meeple_vl2",
+      "quote": "Intelligence wins!",
+      "translation": "知性の勝利だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>暴力や運ではなく、自分の「知性（Intelligence）」こそが勝利の要因であると、誇らしげに語っています。</li></ul><strong>英文法:</strong><br>シンプルなSVOの文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl2.mp3"
+    },
+    {
+      "id": "meeple_vl3",
+      "quote": "Nerd rage!",
+      "translation": "ナードの怒り！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Nerd\" は「オタク」や「ガリ勉」を指すスラング。</li><li>\"rage\" は「激怒」。普段は大人しいオタクが、何かのきっかけで怒りを爆発させる様子を指す言葉です。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl3.mp3"
+    },
+    {
+      "id": "meeple_vl4",
+      "quote": "If you read the player's handbook, this wouldn't have happened.",
+      "translation": "君がプレイヤーハンドブックを読んでいれば、こんなことにはならなかったのに。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"player's handbook\" は、テーブルトークRPG（TRPG）などの基本的なルールブックのこと。</li><li>相手が負けたのは、基本的なルールを理解していないからだと、上から目線で指摘しています。</li></ul><strong>英文法:</strong><br>「If + 過去形, ...would not have + 過去分詞」の形をとった、過去の事実に反する仮定法です。「もし～だったら、…ではなかっただろうに」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl4.mp3"
+    },
+    {
+      "id": "meeple_vl5",
+      "quote": "RNG is ruining the game!",
+      "translation": "乱数生成がゲームを台無しにしてる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"RNG\" は \"Random Number Generation\"（乱数生成）の略。ゲームにおける運の要素を指します。</li><li>自分が負けたのは実力ではなく、単に運が悪かった（RNGのせいだ）と不満を漏らしています。</li></ul><strong>英文法:</strong><br>現在進行形を使った、不満を訴える文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl5.mp3"
+    },
+    {
+      "id": "meeple_vl6",
+      "quote": "I rolled a NAT21.",
+      "translation": "僕はNAT21を出したぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは \"NAT20\"（ナチュラル20）の誤記か、あるいは意図的な変更の可能性があります。</li><li>テーブルトークRPG（特にD&D）で、20面ダイスで「20」の目（NAT20）を出すことは「クリティカルヒット（大成功）」を意味します。</li></ul><strong>英文法:</strong><br>過去形の文です。<br><br><strong>🧠豆知識:</strong><br>NAT20は、ゲームのルール上、通常ではありえないような奇跡的な成功を引き起こすことがあります。自分のプレイが、それほど完璧だったと自慢しています。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl6.mp3"
+    },
+    {
+      "id": "meeple_vl7",
+      "quote": "Let the dice decide our fate!",
+      "translation": "ダイスに我々の運命を決めさせよう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fate\" は「運命」。</li><li>これから起きることを、ゲームの「ダイス（サイコロ）」の目に委ねる、というゲームマスターのようなセリフです。</li></ul><strong>英文法:</strong><br>使役動詞 \"Let\" を使った命令文で、「～に…させよう」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl7.mp3"
+    },
+    {
+      "id": "meeple_vl8",
+      "quote": "Brains before brawl.",
+      "translation": "乱闘より、まず頭脳だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>有名な格言 \"Beauty before age\"（年長者優先）をもじったもの。</li><li>「乱闘（brawl）」を始める前に、まず「頭脳（brains）」を使うべきだ、という彼の信条を表しています。</li></ul><strong>英文法:</strong><br>ことわざのような、簡潔な名詞句の表現です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl8.mp3"
+    },
+    {
+      "id": "meeple_vl9",
+      "quote": "I demand a reroll.",
+      "translation": "振り直しを要求する。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"reroll\" は、ゲームで振ったダイスの目が気に入らない時に「もう一度振り直すこと」。</li><li>自分に起きた不運な結果を認めず、やり直しを要求しています。</li></ul><strong>英文法:</strong><br>動詞 \"demand\" は「（権利として）強く要求する」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl9.mp3"
+    },
+    {
+      "id": "meeple_vl10",
+      "quote": "Shhh.",
+      "translation": "しーっ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手に静かにするよう促す、ジェスチャーのような音です。</li></ul><strong>英文法:</strong><br>間投詞です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl10.mp3"
+    },
+    {
+      "id": "meeple_vl11",
+      "quote": "Ooh, but-but my calculations, oh!",
+      "translation": "おぉ、で、でも僕の計算では、あぁ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の計算（calculations）が外れて、予期せぬ事態が起きたことへの、動揺とパニックを表しています。</li><li>どもることで、彼の焦りが強調されています。</li></ul><strong>英文法:</strong><br>途中で途切れた、感情的な発話です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl11.mp3"
+    },
+    {
+      "id": "meeple_vl12",
+      "quote": "A critical success!",
+      "translation": "クリティカル・サクセスだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"critical success\" は、テーブルトークRPGなどで、ダイスで最高の目を出した時の「大成功」を意味する用語です。</li></ul><strong>英文法:</strong><br>ゲーム用語を使った、喜びの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl12.mp3"
+    },
+    {
+      "id": "meeple_vl13",
+      "quote": "Roll for initiative, let's go.",
+      "translation": "イニシアチブを振って、さあ行こう。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Roll for initiative\" は、テーブルトークRPGで、戦闘の行動順を決めるためにダイスを振る際の掛け声です。</li><li>「さあ、戦闘開始だ！」という意味で使っています。</li></ul><strong>英文法:</strong><br>命令文と、提案の文を組み合わせたものです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl13.mp3"
+    },
+    {
+      "id": "meeple_vl14",
+      "quote": "The one with the rules rules.",
+      "translation": "ルールを持つ者が、支配するのだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>最初の \"rules\" は名詞で「ルール」、二番目の \"rules\" は動詞で「支配する」という意味。</li><li>「ルールを熟知している者こそが、ゲームを支配する」という、彼の信条を表す見事な言葉遊びです。</li></ul><strong>英文法:</strong><br>関係代名詞 \"the one with...\" を主語にした、SVOの文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl14.mp3"
+    },
+    {
+      "id": "meeple_vl15",
+      "quote": "This violates the player agreement.",
+      "translation": "これはプレイヤー規約に違反している。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"player agreement\" は「プレイヤー同意書」。</li><li>相手の行動が、まるでゲームの利用規約に違反しているかのように、理路整然と非難しています。</li></ul><strong>英文法:</strong><br>動詞 \"violate\" は「（法律・規則などを）破る、違反する」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl15.mp3"
+    },
+    {
+      "id": "meeple_vl16",
+      "quote": "You broke the rules.",
+      "translation": "君はルールを破った。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手がルール違反を犯したと、シンプルに、しかし厳しく指摘しています。</li></ul><strong>英文法:</strong><br>過去形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl16.mp3"
+    },
+    {
+      "id": "meeple_vl17",
+      "quote": "Losing to a noob, perfect.",
+      "translation": "初心者に負けるとは、最高だな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"noob\" は「初心者、下手なプレイヤー」を指すスラング。</li><li>\"perfect\" は、ここでは完全に皮肉として使われており、「最悪だ」という意味です。</li></ul><strong>英文法:</strong><br>動名詞句と、皮肉の感嘆詞の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl17.mp3"
+    },
+    {
+      "id": "meeple_vl18",
+      "quote": "NAT21!",
+      "translation": "ナチュラル21だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>テーブルトークRPGの「NAT20（ナチュラル20）」（20面ダイスで20の目が出て大成功）をもじった、あるいはそれ以上の成功を意味する、独自の表現のようです。</li></ul><strong>英文法:</strong><br>ゲーム用語を使った、喜びの叫びです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl18.mp3"
+    },
+    {
+      "id": "meeple_vl19",
+      "quote": "Tactical positioning is key, everyone!",
+      "translation": "戦術的な位置取りが鍵だよ、みんな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Tactical positioning\" は「戦術的な配置、位置取り」。</li><li>勝利のためには、ただ攻撃するだけでなく、戦略的な位置取りが「鍵（key）」であると、味方に講義しています。</li></ul><strong>英文法:</strong><br>SVCの文と、呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl19.mp3"
+    },
+    {
+      "id": "meeple_vl20",
+      "quote": "Rules rule.",
+      "translation": "ルールが支配する。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"The one with the rules rules.\" をさらに短縮した、彼の信条の要約です。</li></ul><strong>英文法:</strong><br>名詞「Rules」と動詞「rule」をかけた、言葉遊びです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl20.mp3"
+    },
+    {
+      "id": "meeple_vl21",
+      "quote": "That roll was rigged.",
+      "translation": "今のダイスロールは不正だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"roll\" は「ダイスロール」。</li><li>\"rigged\" は「不正に操作された、八百長の」。</li><li>自分に不都合な結果が出たのは、運ではなく、誰かの不正のせいだと主張しています。</li></ul><strong>英文法:</strong><br>受動態の過去形です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl21.mp3"
+    },
+    {
+      "id": "meeple_vl22",
+      "quote": "You should have followed the rules!",
+      "translation": "君はルールに従うべきだったんだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が敗北したのは、ルールに従わなかったからだと、後から非難しています。</li></ul><strong>英文法:</strong><br>\"should have + 過去分詞\" は「～すべきだった（のにしなかった）」という、過去の行動への非難や後悔を表す構文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl22.mp3"
+    },
+    {
+      "id": "meeple_vl23",
+      "quote": "Time to reroll.",
+      "translation": "振り直しの時間だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>敗北した際に、この結果は認められないので「振り直す（reroll）」、つまり「やり直す」と宣言しています。</li></ul><strong>英文法:</strong><br>「Time to + 動詞」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl23.mp3"
+    },
+    {
+      "id": "meeple_vl24",
+      "quote": "Eh, if my calculations are correct.",
+      "translation": "ええ、もし僕の計算が正しければ、ですが。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の予測や行動に、一応「計算が正しければ」という条件を付ける、科学者や理論家らしい慎重な（あるいは気取った）言い回しです。</li></ul><strong>英文法:</strong><br>If節を使った、条件を表す文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl24.mp3"
+    },
+    {
+      "id": "meeple_vl25",
+      "quote": "Time to roll the dice!",
+      "translation": "ダイスを振る時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「運試しをする時間だ」「勝負の時だ」という意味の、行動開始の合図です。</li></ul><strong>英文法:</strong><br>「Time to + 動詞句」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl25.mp3"
+    },
+    {
+      "id": "meeple_vl26",
+      "quote": "Perfectly to plan.",
+      "translation": "完全に計画通り。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>物事が、自分の立てた「計画（plan）」通りに進んだことへの、満足感を表しています。</li></ul><strong>英文法:</strong><br>\"It went perfectly to plan.\" のように、文が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl26.mp3"
+    },
+    {
+      "id": "meeple_vl27",
+      "quote": "That wasn't in the rule book.",
+      "translation": "それはルールブックには載ってなかったぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>予期せぬ攻撃や出来事に対して、自分の知識（ルールブック）の範囲外だったと、驚きや戸惑いを表現しています。</li></ul><strong>英文法:</strong><br>過去形の否定文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl27.mp3"
+    },
+    {
+      "id": "meeple_vl28",
+      "quote": "Unlucky!",
+      "translation": "運が悪かったな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を倒した後、「君は運が悪かっただけだよ」と、慰めるフリをしながら、実力差があったことを暗に示しています。</li></ul><strong>英文法:</strong><br>形容詞単独の感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl28.mp3"
+    },
+    {
+      "id": "meeple_vl29",
+      "quote": "The meta is clearly broken!",
+      "translation": "このメタは明らかに壊れてる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"meta\" は、ゲームで現在流行している強力な戦略やキャラクター構成のこと。</li><li>\"broken\" は「（バランスが）壊れている、強すぎる」という意味のゲームスラング。</li><li>自分が負けたのは、現在のゲーム環境（メタ）が不公平だからだ、と不満を言っています。</li></ul><strong>英文法:</strong><br>ゲーム用語を多用した、不満表明の文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl29.mp3"
+    },
+    {
+      "id": "meeple_vl30",
+      "quote": "Cheat mode enabled!",
+      "translation": "チートモード、起動！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が非常に有利な状況になったことを、まるでゲームの「チートモード」が有効になったかのように表現しています。</li></ul><strong>英文法:</strong><br>「名詞 + 過去分詞」の形で、状態の変化を宣言しています。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl30.mp3"
+    },
+    {
+      "id": "meeple_vl31",
+      "quote": "Always play by the rules, mhmhmhmhm fools.",
+      "translation": "常にルールに従ってプレイするんだ、フフフフ…愚か者め。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>一見するとルール遵守を説いているようですが、最後の「愚か者（fools）」という言葉と含み笑いに、相手を小馬鹿にする意図が隠されています。</li></ul><strong>英文法:</strong><br>命令文と、呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl31.mp3"
+    },
+    {
+      "id": "meeple_vl32",
+      "quote": "I love it when a plan comes together.",
+      "translation": "計画がうまくいくと、最高だね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは、1980年代の人気テレビドラマ『特攻野郎Aチーム』のリーダー、ハンニバル・スミスの有名な決め台詞です。</li><li>自分の立てた計画が見事に成功した時の、最高の満足感を表現しています。</li></ul><strong>英文法:</strong><br>有名なドラマからの引用で、定型句として広く知られています。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl32.mp3"
+    },
+    {
+      "id": "meeple_vl33",
+      "quote": "Getting dicey!",
+      "translation": "ヤバくなってきた！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"dicey\" は「危険な、予測不可能な、やばい」という意味のスラング。</li><li>それを、彼のテーマである「ダイス（dice）」とかけています。</li></ul><strong>英文法:</strong><br>\"It is getting dicey.\" の主語と動詞が省略されています。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl33.mp3"
+    },
+    {
+      "id": "meeple_vl34",
+      "quote": "Them be the rules.",
+      "translation": "それがルールってもんだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>文法的には間違っていますが（正しくは Those are the rules.）、海賊や、少し古風で教養のないキャラクターが使うような、意図的なブロークンイングリッシュです。</li><li>「それが決まりだから、文句を言うな」という、有無を言わせないニュアンスです。</li></ul><strong>英文法:</strong><br>非標準的な文法を用いることで、特定のキャラクター性を演出しています。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl34.mp3"
+    },
+    {
+      "id": "meeple_vl35",
+      "quote": "I... lost? Aaaaah!",
+      "translation": "僕が…負けた？あああぁぁ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が負けたという事実が信じられず、呆然とした後に、絶叫しています。</li></ul><strong>英文法:</strong><br>疑問文と、感情的な叫び声の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl35.mp3"
+    },
+    {
+      "id": "meeple_vl36",
+      "quote": "Time for some dicey hacks!",
+      "translation": "ちょっとヤバいハックの時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"dicey\"（危険な）と \"hacks\"（裏技、チート）を組み合わせ、ルールを少し曲げるような、危険な戦術を使うことを示唆しています。</li></ul><strong>英文法:</strong><br>「Time for + 名詞句」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl36.mp3"
+    },
+    {
+      "id": "meeple_vl37",
+      "quote": "Rules are my secret weapon.",
+      "translation": "ルールこそが僕の秘密兵器だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の強さの源泉が、ルールを熟知していることにある、という彼の信条です。</li></ul><strong>英文法:</strong><br>シンプルなSVCの文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl37.mp3"
+    },
+    {
+      "id": "meeple_vl38",
+      "quote": "The king of the nerds!",
+      "translation": "オタクの王だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分こそが「オタク（nerds）の中の王様だ」と、誇らしげに宣言しています。</li></ul><strong>英文法:</strong><br>名詞句だけの、自己紹介的な感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl38.mp3"
+    },
+    {
+      "id": "meeple_vl39",
+      "quote": "Time to get organized.",
+      "translation": "整理整頓の時間だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>混沌とした戦況を「整理する（get organized）」時間だ、と宣言しています。戦略を立て直し、秩序をもたらそうとしています。</li></ul><strong>英文法:</strong><br>「Time to + 動詞句」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl39.mp3"
+    },
+    {
+      "id": "meeple_vl40",
+      "quote": "You should've listened more in school.",
+      "translation": "君、学校でもっとちゃんと聞いておくべきだったね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の愚かな行動を、「学校の授業を真面目に聞いていなかったからだ」と、先生のように上から目線で指摘しています。</li></ul><strong>英文法:</strong><br>\"should've\" は \"should have\" の短縮形。「～すべきだったのに」という、過去への非難を表します。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl40.mp3"
+    },
+    {
+      "id": "meeple_vl41",
+      "quote": "Rule breaker, play maker!",
+      "translation": "ルールを破る者、チャンスを作る者！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Rule breaker\"（ルールを破る者）と \"play maker\"（試合の流れを作る選手）で韻を踏んでいます。</li><li>普段はルールを重視する彼が、時にはルールを破ってでも、勝利のための決定的なプレイをすることを示唆しています。</li></ul><strong>英文法:</strong><br>二つの名詞句を並べた、スローガンのような表現です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl41.mp3"
+    },
+    {
+      "id": "meeple_vl42",
+      "quote": "Dice to meet you.",
+      "translation": "お会いできてダイスです。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>挨拶の決まり文句 \"Nice to meet you.\"（はじめまして）の \"Nice\" を、彼のテーマである \"Dice\"（サイコロ）に置き換えたダジャレです。</li></ul><strong>英文法:</strong><br>有名な挨拶表現をもじった、言葉遊びです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl42.mp3"
+    },
+    {
+      "id": "meeple_vl43",
+      "quote": "Ruling ruler of all the rules.",
+      "translation": "全てのルールを支配する、支配者の中の支配者。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"rule\" という単語を、動詞（ruling）と名詞（ruler, rules）で繰り返し使うことで、自分がルールに関して絶対的な存在であることを強調しています。</li></ul><strong>英文法:</strong><br>同語源の単語を重ねた、非常にリズミカルな自己紹介です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl43.mp3"
+    },
+    {
+      "id": "meeple_vl44",
+      "quote": "Follow the rules.",
+      "translation": "ルールに従いなさい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>彼の信条を、シンプルかつ直接的に命令しています。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる、基本的な命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl44.mp3"
+    },
+    {
+      "id": "meeple_vl45",
+      "quote": "You appear to have had a critical failure.",
+      "translation": "君はどうやら、クリティカル・フェイラーを経験したようだね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"critical failure\" は、テーブルトークRPGでダイスの目が「1」など最低だった時の「大失敗」を指す言葉です。ファンブルとも言います。</li><li>相手の敗北を、ゲームの用語で冷静に分析し、伝えています。</li></ul><strong>英文法:</strong><br>\"appear to ~\" は「～のように見える、思われる」という、少し丁寧で客観的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl45.mp3"
+    },
+    {
+      "id": "meeple_vl46",
+      "quote": "Skill can't fix bad game design, obviously!",
+      "translation": "下手なゲームデザインは、スキルじゃ修正できないからね、明らかに！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が負けたのは、自分のスキル不足ではなく、そもそもゲームのデザイン（バランス）が悪いせいだと、不満をぶちまけています。</li></ul><strong>英文法:</strong><br>\"obviously\" は「明らかに、言うまでもなく」と、自分の意見が当然の事実であるかのように強調する副詞です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl46.mp3"
+    },
+    {
+      "id": "meeple_vl47",
+      "quote": "My game, my rules.",
+      "translation": "僕のゲーム、僕のルール。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ここは僕の土俵（ゲーム）なのだから、僕の決めたルールに従ってもらう」という、非常に尊大で自己中心的な宣言です。</li></ul><strong>英文法:</strong><br>二つの名詞句を並べた、力強いスローガンです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl47.mp3"
+    },
+    {
+      "id": "meeple_vl48",
+      "quote": "Now see how a master tactician plays.",
+      "translation": "さあ、達人戦術家がどうプレイするか見るがいい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"master tactician\" は「戦術の達人」。</li><li>これから自分が披露する、優れた戦術を見るよう、観客や相手に促しています。</li></ul><strong>英文法:</strong><br>命令文 \"see\" の後に、間接疑問文が続いています。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl48.mp3"
+    },
+    {
+      "id": "meeple_vl49",
+      "quote": "I came in like a rolling dice, mmh.",
+      "translation": "僕は転がるダイスのようにやって来た、うん。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>マイリー・サイラスのヒット曲「Wrecking Ball」の歌詞「I came in like a wrecking ball（私は鉄球のようにやって来た）」のパロディです。</li><li>「鉄球」を「転がるダイス」に置き換えています。</li></ul><strong>英文法:</strong><br>有名な歌詞をもじった、比喩表現です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl49.mp3"
+    },
+    {
+      "id": "meeple_vl50",
+      "quote": "Need to get better at min-maxing.",
+      "translation": "ミンマックスをもっとうまくならないとな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"min-maxing\" は、RPGなどで、キャラクターの特定の能力値を最大化（max）し、不要な能力値を最小化（min）することで、非常に特化し強力なキャラクターを作成するプレイスタイルのことです。</li><li>敗北の原因を、自分のキャラクタービルドが最適ではなかったからだと分析しています。</li></ul><strong>英文法:</strong><br>\"I need to get better at...\" の主語が省略されています。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl50.mp3"
+    },
+    {
+      "id": "meeple_vl51",
+      "quote": "You should seriously read the rules, some time.",
+      "translation": "君、いつか本気でルールを読んだ方がいいよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手のプレイが、ルールを全く理解していない者の動きだと、心底呆れて忠告しています。</li></ul><strong>英文法:</strong><br>\"should\" を使った、強い助言の文です。\"seriously\" が「真剣に」と強調しています。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl51.mp3"
+    },
+    {
+      "id": "meeple_vl52",
+      "quote": "Great, I lost to another broken Brawler.",
+      "translation": "最高だ、また別の壊れキャラに負けたよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"broken\" は「（バランスが）壊れている、強すぎる」という意味のゲームスラング。</li><li>自分の敗北を、相手が強すぎるせいだと、皮肉たっぷりに嘆いています。</li></ul><strong>英文法:</strong><br>皮肉の感嘆詞と、過去形の文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl52.mp3"
+    },
+    {
+      "id": "meeple_vl53",
+      "quote": "Dice of do-o-om!",
+      "translation": "破滅のダイスよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"doom\" は「（悪い）運命、破滅」。</li><li>自分の攻撃を「破滅をもたらすダイス」と称して、技名のように叫んでいます。</li></ul><strong>英文法:</strong><br>「名詞 of 名詞」の形です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl53.mp3"
+    },
+    {
+      "id": "meeple_vl54",
+      "quote": "I'm feeling lucky, time to roll.",
+      "translation": "運が向いてきた、振る時間だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"I'm feeling lucky\" は、ギャンブルなどで「今日はツいてる気がする」という時の決まり文句です。</li><li>運が良いと感じたので、今こそ勝負（ダイスを振る）の時だと判断しています。</li></ul><strong>英文法:</strong><br>二つの文を繋げた形です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl54.mp3"
+    },
+    {
+      "id": "meeple_vl55",
+      "quote": "I kissed a dice and I liked it!",
+      "translation": "ダイスにキスしたら、気に入っちゃった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ケイティ・ペリーのヒット曲「I Kissed a Girl」の歌詞「I kissed a girl and I liked it」のパロディです。</li><li>「女の子」を「ダイス」に置き換えています。</li></ul><strong>英文法:</strong><br>有名な歌詞をもじったものです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl55.mp3"
+    },
+    {
+      "id": "meeple_vl56",
+      "quote": "Rules violation.",
+      "translation": "ルール違反。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の行動が「ルール違反（Rules violation）」であると、審判のように簡潔に、しかし厳しく宣告しています。</li></ul><strong>英文法:</strong><br>名詞句だけの、断定的な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl56.mp3"
+    },
+    {
+      "id": "meeple_vl57",
+      "quote": "Silence is golden.",
+      "translation": "沈黙は金なり。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「雄弁は銀、沈黙は金（Speech is silver, silence is golden.）」ということわざの一部です。</li><li>「黙っていることには価値がある」という意味で、相手に黙るよう促しています。</li></ul><strong>英文法:</strong><br>有名なことわざです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl57.mp3"
+    },
+    {
+      "id": "meeple_vl58",
+      "quote": "Zero skill achievement unlocked, good for you.",
+      "translation": "スキルゼロの実績を解除、おめでとう。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ゲームで特定の条件を達成すると得られる「実績（achievement）」のシステムを皮肉に使っています。</li><li>「君は今、『スキルが全くない』という実績を解除したね、良かったじゃないか」と、相手のスキルのなさを最大限に侮辱しています。</li></ul><strong>英文法:</strong><br>受動態の文と、皮肉な祝福の言葉の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl58.mp3"
+    },
+    {
+      "id": "meeple_vl59",
+      "quote": "I'm bringing dicey back, yeah!",
+      "translation": "ダイシーを取り戻しに来たぜ、イェア！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ジャスティン・ティンバーレイクのヒット曲「SexyBack」の歌詞「I'm bringing sexy back」のパロディです。</li><li>「セクシー」を、彼のテーマである「ダイシー（dicey: 危険な、サイコロの）」に置き換えています。</li></ul><strong>英文法:</strong><br>有名な歌詞をもじったものです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl59.mp3"
+    },
+    {
+      "id": "meeple_vl60",
+      "quote": "Dice, dice, baby! Mhmhmhmhm.",
+      "translation": "ダイス、ダイス、ベイビー！フフフフ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ヴァニラ・アイスの歴史的なヒット曲「Ice Ice Baby」の有名なフレーズのパロディです。</li><li>「アイス」を「ダイス」に置き換えています。</li></ul><strong>英文法:</strong><br>有名な歌詞をもじったものです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl60.mp3"
+    },
+    {
+      "id": "meeple_vl61",
+      "quote": "Who dares defy the mighty Meeple!",
+      "translation": "誰だ、この偉大なるミープルに逆らう愚か者は！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"dare defy ~\" は「あえて～に逆らう」。</li><li>\"mighty\" は「強力な、偉大な」。</li><li>物語の魔王や、尊大な王が言うような、非常に演劇的で古風なセリフです。</li></ul><strong>英文法:</strong><br>Whoで始まる、修辞的な疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl61.mp3"
+    },
+    {
+      "id": "meeple_vl62",
+      "quote": "Meeple wins, hmhm, again, hmhm.",
+      "translation": "ミープルが勝つ、フフン、またしても、フフン。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の勝利が、もはや当たり前のことであると、含み笑いをしながら語っています。</li></ul><strong>英文法:</strong><br>シンプルな現在形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl62.mp3"
+    },
+    {
+      "id": "meeple_vl63",
+      "quote": "Eh eh eh, someone ban this bot!",
+      "translation": "え、え、え、誰かこのボットをBANしてくれ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>オンラインゲームで、相手が強すぎる、あるいは人間離れした動きをする際に、「あいつは人間じゃなくてボット（不正プログラム）だ、BAN（追放）しろ！」と文句を言う、典型的な負け惜しみです。</li></ul><strong>英文法:</strong><br>命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl63.mp3"
+    },
+    {
+      "id": "meeple_vl64",
+      "quote": "Am I the only one around here who gives a damn about the rules?",
+      "translation": "この辺りでルールを気にしてるのが、僕だけだって言うのか？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは、カルト的な人気を誇る映画『ビッグ・リボウスキ』（1998年）の登場人物ウォルターが、ボウリングのルールを巡って激昂する際の非常に有名なセリフのパロディです。</li><li>「この中でルールを気にかけているのが、僕だけだとでも言うのか？」と、周りの無秩序さに対して、強い憤りと孤立感を表明しています。</li></ul><strong>英文法:</strong><br>答えを求めているのではなく、自分の不満を強調するための修辞疑問文です。\"give a damn about ~\" は「～を気にかける、重視する」という意味の、少し強い口語表現です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl64.mp3"
+    },
+    {
+      "id": "meeple_vl65",
+      "quote": "You clearly forgot to read subsection 37 of rule 749, loser.",
+      "translation": "君は明らかに、ルール749のサブセクション37を読み忘れているね、負け犬くん。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>非常に具体的で、存在しないであろうルール番号（749の37）を持ち出すことで、自分の知識量を誇示し、相手を「ルールも知らない無知な負け犬（loser）」だと、最大限に侮辱しています。</li></ul><strong>英文法:</strong><br>過去の行動を指摘する文と、侮辱的な呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl65.mp3"
+    },
+    {
+      "id": "meeple_vl66",
+      "quote": "Oh, my subreddit is gonna love this.",
+      "translation": "おぉ、僕のサブレディットの皆がこれを気に入るだろうな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"subreddit\" は、巨大掲示板サイト「Reddit」内の、特定のトピックに関するコミュニティのこと。</li><li>今起きた面白い出来事や、自分の素晴らしいプレイを、自分のファンが集うコミュニティで共有することを考えています。</li></ul><strong>英文法:</strong><br>未来を表す \"gonna\" を使った文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl66.mp3"
+    },
+    {
+      "id": "meeple_vl67",
+      "quote": "Outlook not so good.",
+      "translation": "見通し、あまり良くない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは、質問に対してランダムな答えを返すおもちゃ「マジック8ボール」に表示される、有名な答えの一つです。</li><li>自分の状況が不利であることを、まるで占いの結果のように述べています。</li></ul><strong>英文法:</strong><br>おもちゃの表示を模した、簡潔な名詞句です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl67.mp3"
+    },
+    {
+      "id": "meeple_vl68",
+      "quote": "Outlook good.",
+      "translation": "見通し、良好。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「マジック8ボール」に表示される、ポジティブな答えの一つ。</li><li>自分の状況が有利であることを示しています。</li></ul><strong>英文法:</strong><br>おもちゃの表示を模した、簡潔な名詞句です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl68.mp3"
+    },
+    {
+      "id": "meeple_vl69",
+      "quote": "Winning by teaming, how original.",
+      "translation": "チーミングで勝つなんて、なんて独創的なんだ（棒読み）。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"teaming\" は、ソロモードのバトルロイヤルゲームで、プレイヤー同士が協力して他のプレイヤーを倒す不正行為のこと。</li><li>相手の勝利が、不正なチーミングによるものだと非難し、「なんて独創的なんだ（how original）」と強烈な皮肉を言っています。</li></ul><strong>英文法:</strong><br>皮肉として使われる感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl69.mp3"
+    },
+    {
+      "id": "meeple_vl70",
+      "quote": "Eh eh, rules violation!",
+      "translation": "え、え、ルール違反だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の行動がルール違反であると、審判のように指摘しています。</li></ul><strong>英文法:</strong><br>間投詞と、断定的な名詞句の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl70.mp3"
+    },
+    {
+      "id": "meeple_vl71",
+      "quote": "You won't get this lucky next time!",
+      "translation": "次はこんなに幸運じゃないからな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の勝利は、実力ではなく、単なる幸運（lucky）のおかげだと主張し、「次はこうはいかないぞ」と、負け惜しみを言っています。</li></ul><strong>英文法:</strong><br>未来の否定を表す \"won't\" を使った文です。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl71.mp3"
+    },
+    {
+      "id": "meeple_vl72",
+      "quote": "I got rigged-rolled!",
+      "translation": "イカサマロールされた！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「不正操作された（rigged）」と「ダイスを振られた（rolled）」を組み合わせた造語です。</li><li>有名なインターネットミーム「リックロール（rick-rolled）」とも響きが似ています。</li><li>自分に不運な結果が出たのは、不正なダイスロールのせいだと主張しています。</li></ul><strong>英文法:</strong><br>\"get + 過去分詞\" の口語的な受動態をもじったものです。",
+      "audioUrl": "https://Amphibian333.github.io/meeple_vl72.mp3"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "name": "チェスター",
+  "nameEn": "Chester",
+  "rarity": "legend-rare",
+  "role": "damage-dealer",
+  "quote": "Surprise!",
+  "iconUrl": "https://i.imgur.com/fEHeyH0.png",
+  "voicelines": [
+    {
+      "id": "chester_vl1",
+      "quote": "Let's run around and do random things! Go team!",
+      "translation": "そこら中を走り回って、ランダムなことをしようぜ！チーム、行けー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>彼の行動原理そのもの。「適当にやろうぜ！」という無責任なリーダーシップ。</li><li>味方にとっては迷惑この上ないです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl1.mp3"
+    },
+    {
+      "id": "chester_vl2",
+      "quote": "Doin' it for the lols!",
+      "translation": "ウケるためにやってるのさ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「LOL（爆笑）」のために戦う男。</li><li>勝つことよりも、面白いことが起きるかどうかが重要みたいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl2.mp3"
+    },
+    {
+      "id": "chester_vl3",
+      "quote": "Hashtag oh my god, hashtag pain. Share, like, and subscribe.",
+      "translation": "ハッシュタグ・オーマイガー、ハッシュタグ・苦痛。シェア、いいね、そしてチャンネル登録よろしく。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた瞬間までYouTuber気取り。</li><li>自分の不幸すらネタにして配信しようとする根っからのエンターテイナーです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl3.mp3"
+    },
+    {
+      "id": "chester_vl4",
+      "quote": "Ripperoni.",
+      "translation": "リッペローニ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「R.I.P（ご愁傷さま）」とピザの「ペパロニ」を混ぜたネットスラング。</li><li>ふざけた言い方で相手の死を悼んでいます（馬鹿にしています）。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl4.mp3"
+    },
+    {
+      "id": "chester_vl5",
+      "quote": "The grind don't stop.",
+      "translation": "努力は止まらねぇ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Grind（地道な努力）」という言葉。</li><li>彼が言うと「いたずらの努力は惜しまないぜ」という意味に聞こえます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl5.mp3"
+    },
+    {
+      "id": "chester_vl6",
+      "quote": "Surprise!",
+      "translation": "サプライズ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>びっくり箱から飛び出すような掛け声。</li><li>彼の攻撃はいつも予測不能な「サプライズ」です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl6.mp3"
+    },
+    {
+      "id": "chester_vl7",
+      "quote": "Teamwork for the win! Yeah! You go first.",
+      "translation": "チームワークで勝利！イェア！…お先どうぞ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「チームワーク大事！」と言いつつ、危険な場所に味方を先に行かせるクズっぷり。</li><li>これぞチェスターです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl7.mp3"
+    },
+    {
+      "id": "chester_vl8",
+      "quote": "Best clown in town!",
+      "translation": "街で一番のクラウンさ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分を「道化師（Clown）」と呼ぶ誇り。</li><li>ただし、映画『ジョーカー』のような危うさも感じさせます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl8.mp3"
+    },
+    {
+      "id": "chester_vl9",
+      "quote": "I'm only joking! Geez.",
+      "translation": "冗談だよ！やれやれ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>本気で怒られた時の言い訳。「冗談通じないなぁ」と逆ギレ気味です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl9.mp3"
+    },
+    {
+      "id": "chester_vl10",
+      "quote": "You want salt with that?",
+      "translation": "それに塩も付けてやるかい？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Salty（イライラする）」というスラングを使った煽り。</li><li>負けて悔しがる相手に「さらに塩塗ってやろうか？」と追い打ちをかけます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl10.mp3"
+    },
+    {
+      "id": "chester_vl11",
+      "quote": "Carry on the salt legacy!",
+      "translation": "塩の遺産を引き継いでいけ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分がやられた後、味方に「お前らもイライラしろよ！」と呪いをかけるようなセリフ。</li><li>負の遺産すぎます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl11.mp3"
+    },
+    {
+      "id": "chester_vl12",
+      "quote": "What will it be?",
+      "translation": "さーて、次は何かな？",
+      "explanation": "<strong>解説:</strong><br><ul><li>ランダムなウルトを楽しむワクワク感。</li><li>本人も何が出るか分かってないのが面白いところです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl12.mp3"
+    },
+    {
+      "id": "chester_vl13",
+      "quote": "Teamwork makes the dream work.",
+      "translation": "チームワークが、夢を叶えるのさ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>有名なスローガン。</li><li>彼が言うと、皮肉たっぷりに聞こえる不思議。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl13.mp3"
+    },
+    {
+      "id": "chester_vl14",
+      "quote": "Keep your friends close and your enemies laughing.",
+      "translation": "友は近くに、そして敵は笑わせておけ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>『ゴッドファーザー』の名言をもじった彼なりの処世術。</li><li>敵を油断させるには「笑わせる」のが一番です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl14.mp3"
+    },
+    {
+      "id": "chester_vl15",
+      "quote": "Ugh, you're so big and strong!",
+      "translation": "うわぁ、あなたってすごく大きくて強いのね！",
+      "explanation": "<strong>解説:</strong><br><ul><li>棒読みの褒め言葉。</li><li>「脳筋だね」と馬鹿にしているニュアンスがたっぷりです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl15.mp3"
+    },
+    {
+      "id": "chester_vl16",
+      "quote": "You got hurted. Aww, the poor baby.",
+      "translation": "ケガしちゃったのね。あらあら、かわいそうな赤ちゃん。",
+      "explanation": "<strong>解説:</strong><br><ul><li>わざと幼児語（hurted）を使って、相手を赤ちゃん扱いする高度な煽り。</li><li>ムカつき度MAXです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl16.mp3"
+    },
+    {
+      "id": "chester_vl17",
+      "quote": "Hold my salt!",
+      "translation": "俺の塩、持っといて！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ネットミーム「Hold my beer（俺のビール持ってて＝今からすごいことやるから見てろ）」のパロディ。</li><li>ビールじゃなくて「塩（イライラ）」を預けるところが彼らしい。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl17.mp3"
+    },
+    {
+      "id": "chester_vl18",
+      "quote": "Don't look!",
+      "translation": "見ないで！",
+      "explanation": "<strong>解説:</strong><br><ul><li>サプライズの準備中なのか、それともやられて無様な姿を見られたくないのか。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl18.mp3"
+    },
+    {
+      "id": "chester_vl19",
+      "quote": "The best Brawlers make the best teams.",
+      "translation": "最高のブロウラーが、最高のチームを作るのさ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「つまり俺がいるチームが最強」という自慢。</li><li>論理的っぽいことを言って煙に巻くのが上手いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl19.mp3"
+    },
+    {
+      "id": "chester_vl20",
+      "quote": "Thank you all for making me look good! I love that.",
+      "translation": "俺をよく見せてくれて、みんなありがとう！そういうの大好きだぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「お前らが弱いおかげで俺が強く見えるよ」という、感謝に見せかけた最強のディスり。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl20.mp3"
+    },
+    {
+      "id": "chester_vl21",
+      "quote": "Ugh, hope that made you feel better.",
+      "translation": "はぁ、それで気分が晴れるといいね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時の負け惜しみ。「俺を倒して満足？よかったね（棒）」という感じ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl21.mp3"
+    },
+    {
+      "id": "chester_vl22",
+      "quote": "Please, leave a review.",
+      "translation": "どうぞ、レビューをお残しください。",
+      "explanation": "<strong>解説:</strong><br><ul><li>倒した相手に「サービスはいかがでしたか？」と聞くユーモア。</li><li>星1つをつけられそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl22.mp3"
+    },
+    {
+      "id": "chester_vl23",
+      "quote": "Where is the love?",
+      "translation": "愛はどこにあるんだ？",
+      "explanation": "<strong>解説:</strong><br><ul><li>Black Eyed Peasの名曲のタイトル。</li><li>ボコボコにされた時に、大げさに愛を求めて嘆きます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl23.mp3"
+    },
+    {
+      "id": "chester_vl24",
+      "quote": "Spoiler alert!",
+      "translation": "ネタバレ注意！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「これからお前は負けるよ」というネタバレ。</li><li>未来を予言する（そして実行する）カッコいいセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl24.mp3"
+    },
+    {
+      "id": "chester_vl25",
+      "quote": "Synergy is the key to victory. I've heard that somewhere.",
+      "translation": "シナジーが勝利の鍵だ。…って、どっかで聞いたな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>もっともらしい格言を言うけど、全部受け売り。</li><li>「誰かが言ってた気がする～」と責任逃れしています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl25.mp3"
+    },
+    {
+      "id": "chester_vl26",
+      "quote": "I'm YouTube famous!",
+      "translation": "俺、YouTubeで有名人なんだぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>現代っ子らしい自慢。</li><li>登録者数が何人かは不明ですが、炎上系YouTuberの素質はあります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl26.mp3"
+    },
+    {
+      "id": "chester_vl27",
+      "quote": "You are worse than Mandy!",
+      "translation": "お前、マンディよりひどいぞ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>いつも怒られている上司のマンディを引き合いに出して批判。</li><li>彼の中では「マンディ＝厳しい」が基準のようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl27.mp3"
+    },
+    {
+      "id": "chester_vl28",
+      "quote": "Another satisfied customer.",
+      "translation": "また一人、ご満足いただけたお客様だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>倒した敵を「お客様」と呼ぶブラックジョーク。</li><li>クレームは受け付けません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl28.mp3"
+    },
+    {
+      "id": "chester_vl29",
+      "quote": "Try passive aggression next time, please.",
+      "translation": "次は、パッシブアグレッシブでお願いね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「直接殴るんじゃなくて、もっと陰湿にやってよ」という無茶振り。</li><li>真正面からの勝負は苦手みたいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl29.mp3"
+    },
+    {
+      "id": "chester_vl30",
+      "quote": "Big reveal!",
+      "translation": "重大発表！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルトを使う時の掛け声。</li><li>「さあ、何が出るかな？」というサプライズ感を演出します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl30.mp3"
+    },
+    {
+      "id": "chester_vl31",
+      "quote": "To brawl or not to brawl. Is that a question?",
+      "translation": "戦うべきか、戦わざるべきか。それが問題だとでも？",
+      "explanation": "<strong>解説:</strong><br><ul><li>『ハムレット』のパロディ。「戦うに決まってるだろ！」というツッコミ。</li><li>悩むフリして即決するタイプです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl31.mp3"
+    },
+    {
+      "id": "chester_vl32",
+      "quote": "Mom, I'm on TV!",
+      "translation": "ママ、僕、テレビに出てるよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>目立ちたがり屋の定番セリフ。</li><li>戦場でもカメラ目線を忘れません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl32.mp3"
+    },
+    {
+      "id": "chester_vl33",
+      "quote": "Oh, so much anger!",
+      "translation": "おぉ、すごい怒りだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>怒っている相手を面白がって観察しています。</li><li>火に油を注ぐ天才です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl33.mp3"
+    },
+    {
+      "id": "chester_vl34",
+      "quote": "Kind regards.",
+      "translation": "敬具。",
+      "explanation": "<strong>解説:</strong><br><ul><li>メールの最後に添える言葉。</li><li>相手を倒して「はい、この件は終了！」と事務的に処理する冷たさがカッコいいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl34.mp3"
+    },
+    {
+      "id": "chester_vl35",
+      "quote": "Didn't we almost have it all?",
+      "translation": "私たち、ほとんど全てを手に入れていたんじゃないか？",
+      "explanation": "<strong>解説:</strong><br><ul><li>ホイットニー・ヒューストンの歌詞の引用。</li><li>負けた時に、ドラマの悲劇のヒロインぶって嘆きます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl35.mp3"
+    },
+    {
+      "id": "chester_vl36",
+      "quote": "Pleasure? Or pain?!",
+      "translation": "快楽か？それとも、苦痛か？！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ランダムなウルトが、自分にとって吉と出るか凶と出るか。</li><li>ギャンブルを楽しむ狂気じみたセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl36.mp3"
+    },
+    {
+      "id": "chester_vl37",
+      "quote": "Watch me as I move in a direction!",
+      "translation": "僕が、とある方向に動くのを見てな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ただ動くだけ」なのに、すごそうに言うシュールなギャグ。</li><li>何もなくても盛り上げるエンターテイナーです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl37.mp3"
+    },
+    {
+      "id": "chester_vl38",
+      "quote": "Time for a pay rise. Hey Mandy, are you watching this?",
+      "translation": "昇給の時間だな。ねえマンディ、これ見てる？",
+      "explanation": "<strong>解説:</strong><br><ul><li>活躍したらすかさず昇給交渉。</li><li>上司（マンディ）へのアピールも忘れません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl38.mp3"
+    },
+    {
+      "id": "chester_vl39",
+      "quote": "Stop the hate. Appreciate.",
+      "translation": "ヘイトはやめて。感謝しなさい。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「アンチコメはやめて、感謝してよね」というインフルエンサー気取り。</li><li>自分勝手な理屈を押し付けます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl39.mp3"
+    },
+    {
+      "id": "chester_vl40",
+      "quote": "Best wishes!",
+      "translation": "ご多幸を！",
+      "explanation": "<strong>解説:</strong><br><ul><li>倒した相手への皮肉な別れの言葉。</li><li>「あの世でお幸せに」というニュアンスです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl40.mp3"
+    },
+    {
+      "id": "chester_vl41",
+      "quote": "Hashtag learnings.",
+      "translation": "ハッシュタグ・学び。",
+      "explanation": "<strong>解説:</strong><br><ul><li>失敗しても「これは学びだから（キリッ）」とSNSで意識高い系アピール。</li><li>反省の色はゼロです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl41.mp3"
+    },
+    {
+      "id": "chester_vl42",
+      "quote": "Ta-da!",
+      "translation": "タダー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ジャジャーン！という効果音。</li><li>何かを披露する時の定番です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl42.mp3"
+    },
+    {
+      "id": "chester_vl43",
+      "quote": "Run, brawl, explode. Hashtag life goals.",
+      "translation": "走って、戦って、爆発する。ハッシュタグ・人生の目標。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ちゃらんぽらんに見えて、実はハードな人生目標（Life goals）を持っています。</li><li>「爆発」が入ってるのが不穏です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl43.mp3"
+    },
+    {
+      "id": "chester_vl44",
+      "quote": "I might be a joker, but I'm nobody's fool.",
+      "translation": "僕はジョーカーかもしれないけど、誰かの言いなりになるようなマヌケじゃないぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「道化（Joker）だけど、馬鹿（Fool）じゃない」というカッコいい決め台詞。</li><li>ただふざけているだけではない、彼の底知れなさを感じさせます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl44.mp3"
+    },
+    {
+      "id": "chester_vl45",
+      "quote": "Let's skedaddle, it's time for battle!",
+      "translation": "ずらかるぜ、バトルの時間だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>韻を踏んだ軽快なラップ。</li><li>「Skedaddle（ずらかる）」というコミカルな単語のチョイスが絶妙です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl45.mp3"
+    },
+    {
+      "id": "chester_vl46",
+      "quote": "You have a strategy! Aww, aren't you special?",
+      "translation": "戦略があるんだ！へー、君って特別だねぇ（棒読み）。",
+      "explanation": "<strong>解説:</strong><br><ul><li>真面目に作戦を立てる相手を小馬鹿にするセリフ。</li><li>「カオスこそが最高」という彼の美学に反するのでしょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl46.mp3"
+    },
+    {
+      "id": "chester_vl47",
+      "quote": "Follow my lead! Hehe, suckers.",
+      "translation": "俺についてこい！ヘヘッ、マヌケども。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ついてきた味方を「マヌケ（Suckers）」と呼んで罠にはめる気満々。</li><li>最悪のリーダーです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl47.mp3"
+    },
+    {
+      "id": "chester_vl48",
+      "quote": "All aboard the pain train! Woo woo!",
+      "translation": "ペイントレインにご乗車ください！ウーウー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「地獄行きの列車が出発するよ！」という掛け声。</li><li>ノリノリで運転手ごっこをしてます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/chester_vl48.mp3"
+    }
+  ]
+}

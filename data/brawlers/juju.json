@@ -1,0 +1,402 @@
+{
+  "name": "ジュジュ",
+  "nameEn": "Juju",
+  "rarity": "ultra-rare",
+  "role": "artillery",
+  "quote": "I smell suffering, and I like it.",
+  "iconUrl": "https://i.imgur.com/z9Po4dw.png",
+  "voicelines": [
+    {
+      "id": "juju_vl1",
+      "quote": "Mmm, Juju is gonna get you.",
+      "translation": "うーん、ジュジュがお前を捕まえに行くよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分を「ジュジュ」と三人称で呼ぶ不気味さ。</li><li>「捕まえたらどうなるか…分かってるわよね？」という含みがあります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl1.mp3"
+    },
+    {
+      "id": "juju_vl2",
+      "quote": "Stitching up that W, y'all!",
+      "translation": "この勝利を縫い上げちゃうよ、みんな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「勝利（Win）」を縫い合わせる、という人形師らしい表現。</li><li>バラバラになった勝利のピースを繋ぎ合わせるようなイメージです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl2.mp3"
+    },
+    {
+      "id": "juju_vl3",
+      "quote": "Well, aren't you special?",
+      "translation": "あら、あなた、自分が特別だとでも思ってるのかしら？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「勘違いしないでね？」という強烈な嫌味。</li><li>相手を見下す時の、冷ややかな視線を感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl3.mp3"
+    },
+    {
+      "id": "juju_vl4",
+      "quote": "Your luck just ran dry, honey.",
+      "translation": "あなたの運も、もう尽きたようね、ハニー。",
+      "explanation": "<strong>解説:</strong><br><ul><li>甘い言葉（ハニー）で油断させておいて、絶望を突きつける手口。</li><li>運の尽きを宣告する、死神のようなセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl4.mp3"
+    },
+    {
+      "id": "juju_vl5",
+      "quote": "Ain't no grave gonna hold me.",
+      "translation": "どんな墓も、私を閉じ込めてはおけないわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私は死んでも蘇るわよ」というゾンビ宣言。</li><li>墓場から這い出してくる執念深さを感じさせます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl5.mp3"
+    },
+    {
+      "id": "juju_vl6",
+      "quote": "Gris-Gris magic.",
+      "translation": "グリグリの魔術よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「グリグリ（Gris-Gris）」はブードゥー教のお守り。</li><li>呪術的な力を使う彼女の、怪しい雰囲気が漂う一言です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl6.mp3"
+    },
+    {
+      "id": "juju_vl7",
+      "quote": "Oh, you better bring it.",
+      "translation": "あら、本気でかかってきなさいよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「かかってきなさい、返り討ちにしてあげるから」という余裕の挑発。</li><li>中途半端な覚悟で挑むと痛い目に遭います。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl7.mp3"
+    },
+    {
+      "id": "juju_vl8",
+      "quote": "I'm built different, y'all, ha. Stay mad.",
+      "translation": "私は作りが違うのよ、みんな、ハッ。そのまま怒ってなさい。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「格が違うのよ」というマウント。</li><li>負けた相手が悔しがってるのを見て、せせら笑っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl8.mp3"
+    },
+    {
+      "id": "juju_vl9",
+      "quote": "Negative aura points.",
+      "translation": "オーラポイント、マイナスね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>相手のオーラを鑑定して「残念賞」を出す占い師ごっこ。</li><li>「アンタ、運勢最悪よ」と言われた気分になります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl9.mp3"
+    },
+    {
+      "id": "juju_vl10",
+      "quote": "Bite the bullet, taste the venom.",
+      "translation": "弾丸を噛みしめて、毒を味わいなさい。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「痛みに耐えて、苦しみを味わえ」という拷問のような宣告。</li><li>サディスティックな性格全開です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl10.mp3"
+    },
+    {
+      "id": "juju_vl11",
+      "quote": "I'll skin you alive.",
+      "translation": "生きたまま皮を剥いでやるわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ガチで怖い脅し文句。</li><li>人形の素材にするつもりでしょうか…？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl11.mp3"
+    },
+    {
+      "id": "juju_vl12",
+      "quote": "Y'all be lagging. Don't hate, appreciate.",
+      "translation": "あんたたち、ラグってるわね。ヘイトするんじゃなくて、感謝しなさい。",
+      "explanation": "<strong>解説:</strong><br><ul><li>相手が弱いのを「ラグのせい？」とからかうゲーマーあるある煽り。</li><li>「私と戦えただけ感謝してよね」という上から目線も忘れません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl12.mp3"
+    },
+    {
+      "id": "juju_vl13",
+      "quote": "Oh! Get stuffed.",
+      "translation": "あら！くたばれ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「剥製になれ（くたばれ）」という意味の強烈な罵倒。</li><li>人形師の彼女が言うと、本当に剥製にされそうで怖いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl13.mp3"
+    },
+    {
+      "id": "juju_vl14",
+      "quote": "A stitch in time saves nine, girl.",
+      "translation": "時を得た一針は九針を省く、ってね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「早めの対処が肝心」ということわざ。</li><li>「傷が浅いうちに始末してあげるわ」という慈悲（？）の言葉かも。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl14.mp3"
+    },
+    {
+      "id": "juju_vl15",
+      "quote": "No more voodoo for Juju.",
+      "translation": "ジュジュは、もうブードゥーは使えないわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時のセリフ。</li><li>魔力が尽きた魔女のように、ドラマチックに嘆きます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl15.mp3"
+    },
+    {
+      "id": "juju_vl16",
+      "quote": "My voodoo is gonna get you.",
+      "translation": "私のブードゥーがお前を捕らえるわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「呪いからは逃げられないわよ」という警告。</li><li>じわじわと追い詰めるプレイスタイルにぴったりです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl16.mp3"
+    },
+    {
+      "id": "juju_vl17",
+      "quote": "Heads up, you're next.",
+      "translation": "気をつけて、次はあなたの番よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>次のターゲットを指名する死の宣告。</li><li>キルした直後に言うと、周りの敵にプレッシャーを与えられます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl17.mp3"
+    },
+    {
+      "id": "juju_vl18",
+      "quote": "Vibe check, straight fire.",
+      "translation": "バイブスチェック、マジで最高。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「今の私、イケてるわ～」という若者言葉。</li><li>古風な呪術と現代スラングのギャップが面白いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl18.mp3"
+    },
+    {
+      "id": "juju_vl19",
+      "quote": "Ow! Oh, you are dying to be displayed.",
+      "translation": "痛っ！あら、あなたは展示されたくてたまらないのね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>攻撃してきた相手を「私のコレクションになりたいのね？」と解釈するポジティブさ（狂気）。</li><li>展示＝剥製にされるってことです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl19.mp3"
+    },
+    {
+      "id": "juju_vl20",
+      "quote": "Hotter than hell, and twice as mean.",
+      "translation": "地獄よりも熱く、そして2倍意地悪よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私を怒らせたら地獄を見るわよ」という自己紹介。</li><li>性格の悪さを自覚しているのがタチが悪いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl20.mp3"
+    },
+    {
+      "id": "juju_vl21",
+      "quote": "Back to my babies I go.",
+      "translation": "私のベイビーたちの元へ帰るわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時に、不気味な人形たち（ベイビー）の元へ帰ると言い残します。</li><li>家に帰っても怖そうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl21.mp3"
+    },
+    {
+      "id": "juju_vl22",
+      "quote": "Oh, Gregory!",
+      "translation": "ああ、グレゴリー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>突然叫ぶ誰かの名前。</li><li>彼女の作った人形の名前か、それとも過去の犠牲者か…謎が深まります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl22.mp3"
+    },
+    {
+      "id": "juju_vl23",
+      "quote": "My magic is thicker than Gumbo.",
+      "translation": "私の魔術は、ガンボよりも濃厚よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ルイジアナ名物「ガンボスープ」を使った比喩。</li><li>ドロドロした濃厚な魔術で相手を飲み込みます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl23.mp3"
+    },
+    {
+      "id": "juju_vl24",
+      "quote": "I'm pulling the strings here.",
+      "translation": "ここで糸を引いているのは、私よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「この場の支配者は私」という宣言。</li><li>文字通り人形を操る彼女ならではのダブルミーニングです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl24.mp3"
+    },
+    {
+      "id": "juju_vl25",
+      "quote": "Ooh, oh-oh-oh. That's gonna need some extra stitches.",
+      "translation": "うー、おやおや。こりゃあ、追加の縫い目が必要になりそうね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ボロボロになった敵を見て、「修理してあげる（縫い合わせてあげる）」と提案するサイコパスな優しさ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl25.mp3"
+    },
+    {
+      "id": "juju_vl26",
+      "quote": "Let's add you to my collection.",
+      "translation": "あなたを私のコレクションに加えましょう。",
+      "explanation": "<strong>解説:</strong><br><ul><li>気に入った敵を「素材」としてスカウト。</li><li>コレクションの棚に並べられるのはご免です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl26.mp3"
+    },
+    {
+      "id": "juju_vl27",
+      "quote": "Mmmm, back to my babies I go-go.",
+      "translation": "うーん、ベイビーたちの元へ、帰るわよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ちょっとリズミカルに退場。</li><li>負けてもマイペースな魔女です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl27.mp3"
+    },
+    {
+      "id": "juju_vl28",
+      "quote": "My needle is on point, hoo!",
+      "translation": "私の針は、完璧よ、ふぅ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「On point（完璧）」と「針の先端（Point）」をかけたダジャレ。</li><li>針仕事も攻撃も、狙いは外しません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl28.mp3"
+    },
+    {
+      "id": "juju_vl29",
+      "quote": "Step up or step out.",
+      "translation": "前に出るか、あるいは、出ていくかよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「やる気がないなら帰れ」という一喝。</li><li>戦場に迷いは禁物です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl29.mp3"
+    },
+    {
+      "id": "juju_vl30",
+      "quote": "Very demure, very mindful.",
+      "translation": "とてもおしとやかで、とても思慮深いわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分のことを「おしとやか」と評する厚かましさ。</li><li>実際は全然そんなことないのが面白いところ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl30.mp3"
+    },
+    {
+      "id": "juju_vl31",
+      "quote": "Oh, it's on, you made my dolls cry.",
+      "translation": "あら、やる気なのね、私の人形たちを泣かせたわね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私の大事な人形を傷つけた罪は重い」というブチ切れモード。</li><li>人形への愛が深すぎて怖いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl31.mp3"
+    },
+    {
+      "id": "juju_vl32",
+      "quote": "You're my new forever friend.",
+      "translation": "あなたが、私の新しい永遠の友達よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「永遠の友達」＝「呪いで縛り付けて一生離さない」。</li><li>ストーカーも真っ青の執着心です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl32.mp3"
+    },
+    {
+      "id": "juju_vl33",
+      "quote": "Dollmaker, soul taker.",
+      "translation": "人形作り、そして魂を奪う者。",
+      "explanation": "<strong>解説:</strong><br><ul><li>韻を踏んだ不気味な自己紹介。</li><li>人形を作ることと、魂を奪うことは、彼女にとって同じ意味なのかもしれません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl33.mp3"
+    },
+    {
+      "id": "juju_vl34",
+      "quote": "Mmm, this hot mess is gonna melt your soul, chile.",
+      "translation": "うーん、この厄介者が、お前の魂を溶かしてやるよ、アンタ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ドロドロの何かで魂ごと溶かしてやる、という恐ろしい攻撃予告。</li><li>「Chile（あんた）」という呼びかけが、魔女っぽさを醸し出しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl34.mp3"
+    },
+    {
+      "id": "juju_vl35",
+      "quote": "Voodoo queen rules the scene, y'all.",
+      "translation": "ブードゥーの女王が、この場を支配するのよ、みんな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>女王様のお通りだ！</li><li>場を支配して、自分の意のままに操る快感に酔っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl35.mp3"
+    },
+    {
+      "id": "juju_vl36",
+      "quote": "Bless my bayonets.",
+      "translation": "我が銃剣に、祝福を。",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の武器に祈りを捧げる儀式的なセリフ。</li><li>呪いと祝福は紙一重です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl36.mp3"
+    },
+    {
+      "id": "juju_vl37",
+      "quote": "Womp womp!",
+      "translation": "ウォンプ・ウォンプ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>失敗した時の効果音（残念でした～！）。</li><li>相手のミスをバカにする時に使います。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl37.mp3"
+    },
+    {
+      "id": "juju_vl38",
+      "quote": "Curse y'all!",
+      "translation": "お前ら全員、呪われろ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵全員に呪いをばら撒く、迷惑極まりない捨て台詞。</li><li>関わるとロクなことがありません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl38.mp3"
+    },
+    {
+      "id": "juju_vl39",
+      "quote": "Freaky fierce and ready to pierce!",
+      "translation": "不気味などう猛さで、貫く準備はできてるわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「不気味（Freaky）でどう猛（Fierce）」という、自分のヤバさをアピールするラップ。</li><li>鋭い針で串刺しにする気満々です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl39.mp3"
+    },
+    {
+      "id": "juju_vl40",
+      "quote": "Ooh, shoot, I felt that voodoo.",
+      "translation": "うっ、しまった、今のブードゥーは効いたわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>相手の攻撃を「ブードゥー（呪い）」と呼ぶ独特の感性。</li><li>呪い返された気分なんでしょうか。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl40.mp3"
+    },
+    {
+      "id": "juju_vl41",
+      "quote": "I'll preserve you.",
+      "translation": "あなたを保存してあげるわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「永久保存版にしてあげる」という、コレクター魂が燃える一言。</li><li>瓶詰めにされそうで寒気がします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl41.mp3"
+    },
+    {
+      "id": "juju_vl42",
+      "quote": "Aaah, pins and potions!",
+      "translation": "あぁ、針とポーションよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>商売道具を愛でる声。</li><li>彼女にとっては、宝石よりも針や怪しい薬の方が魅力的なようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl42.mp3"
+    },
+    {
+      "id": "juju_vl43",
+      "quote": "Y'all about to get stitched up.",
+      "translation": "あんたたち、もうすぐ縫い付けられるわよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「縫い付けてやる（動けなくしてやる）」という物理的な攻撃予告。</li><li>逃げないと体に針を通されます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl43.mp3"
+    },
+    {
+      "id": "juju_vl44",
+      "quote": "Bad voodoo, angry Juju.",
+      "translation": "悪いブードゥー、怒れるジュジュ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「悪いことが起きるわよ、私が怒ってるからね」という因果関係。</li><li>彼女の機嫌を損ねると、呪いが発動します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl44.mp3"
+    },
+    {
+      "id": "juju_vl45",
+      "quote": "Dolly says: 'Lights out.'",
+      "translation": "お人形さんが言うには、『消灯時間よ』。",
+      "explanation": "<strong>解説:</strong><br><ul><li>腹話術みたいに人形に喋らせる演出。</li><li>「お休み（永遠にね）」という殺害予告を、人形のせいにしています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl45.mp3"
+    },
+    {
+      "id": "juju_vl46",
+      "quote": "Looking for my next plaything.",
+      "translation": "次のオモチャを探しているところよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を「オモチャ」としか見ていない非情さ。</li><li>飽きたら捨てられ、壊れたら直され（改造され）ます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl46.mp3"
+    },
+    {
+      "id": "juju_vl47",
+      "quote": "I said, who put a curse on me?",
+      "translation": "言ったでしょ、誰が私に呪いをかけたのって？",
+      "explanation": "<strong>解説:</strong><br><ul><li>思い通りにいかないのは「誰かの呪いのせい」だと思い込む被害妄想。</li><li>自分が呪うのはいいけど、呪われるのは許せないタイプです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl47.mp3"
+    },
+    {
+      "id": "juju_vl48",
+      "quote": "The spirits don't like you.",
+      "translation": "精霊たちが、あなたのことを嫌っているわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私じゃなくて、精霊があなたのこと嫌いだってさ」と、霊的な存在を味方につけたマウント。</li><li>反論できない理由を持ってくるのがズルいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl48.mp3"
+    },
+    {
+      "id": "juju_vl49",
+      "quote": "Bless your heart, I'll curse it.",
+      "translation": "あなたの心に祝福を、そして私が呪ってあげるわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「おめでたい人ね（皮肉）」と言った直後に、「呪ってあげる」と本音を漏らす。</li><li>上げといて落とす、悪魔の所業です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl49.mp3"
+    },
+    {
+      "id": "juju_vl50",
+      "quote": "You hurt my Gris-Gris, you hurt me-me.",
+      "translation": "私のグリグリを傷つけることは、この私を傷つけることよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>お守り（グリグリ）と一心同体。</li><li>Me-me（私、私！）と子供っぽく主張するところに、異常な執着を感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl50.mp3"
+    },
+    {
+      "id": "juju_vl51",
+      "quote": "Ain't no beating Cajun magic.",
+      "translation": "ケイジャンマジックに勝るものなんてないわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>地元の魔法（ケイジャンマジック）への絶対的な信頼。</li><li>「私たちの魔法が最強よ」という郷土愛です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl51.mp3"
+    },
+    {
+      "id": "juju_vl52",
+      "quote": "Walk softly, for the dead, listen closely.",
+      "translation": "静かに歩きなさい、死者のために、そして聞き耳を立てて。",
+      "explanation": "<strong>解説:</strong><br><ul><li>死者の声を聞く、霊媒師のようなセリフ。</li><li>戦場が一気にホラー映画の雰囲気に変わります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl52.mp3"
+    },
+    {
+      "id": "juju_vl53",
+      "quote": "Ah, dang it, that hurt my Gris-Gris.",
+      "translation": "あぁ、ちくしょう、今のグリグリに効いたわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の体よりお守りの心配をする変人っぷり。</li><li>お守りが壊れたらタダじゃ済みません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl53.mp3"
+    },
+    {
+      "id": "juju_vl54",
+      "quote": "Told y'all not to mess.",
+      "translation": "ちょっかいを出すなって言ったでしょ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「だから言わんこっちゃない」と、倒れた相手を見下ろす勝利の言葉。</li><li>警告を無視した報いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl54.mp3"
+    },
+    {
+      "id": "juju_vl55",
+      "quote": "Hexes and curses coming your way!",
+      "translation": "厄災と呪いが、あなたの方へ向かってるわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「呪い爆弾、発射！」みたいなノリ。</li><li>不幸の手紙を送りつけるような、迷惑極まりない攻撃です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl55.mp3"
+    },
+    {
+      "id": "juju_vl56",
+      "quote": "Don't put all your heads in one basket. Ha ha ha.",
+      "translation": "全部の頭を、一つのカゴに入れるんじゃないわよ。ハハハ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ことわざ「卵を一つのカゴに盛るな」の卵を「生首（Head）」に変えたブラックジョーク。</li><li>カゴの中身を想像するとゾッとします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/juju_vl56.mp3"
+    }
+  ]
+}

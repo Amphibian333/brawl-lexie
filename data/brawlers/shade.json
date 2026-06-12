@@ -1,0 +1,136 @@
+{
+  "name": "シェイド",
+  "nameEn": "Shade",
+  "rarity": "hyper-rare",
+  "role": "marksman",
+  "quote": "(Mime sounds)",
+  "iconUrl": "https://i.imgur.com/7TUX7Ai.png",
+  "voicelines": [
+    {
+      "id": "shade_vl1",
+      "quote": "Weeoo!",
+      "translation": "ウィーウー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>言葉ではなく、パントマイムの動きに合わせて発せられる効果音です。</li><li>素早く動いたり、何かを投げたりする際の、ヒューッという風切り音のようなイメージを表しています。</li></ul><strong>英文法:</strong><br>意味を持たない擬音語（onomatopoeia）であり、文法的な構造はありません。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl1.mp3"
+    },
+    {
+      "id": "shade_vl2",
+      "quote": "Wohoheeo!",
+      "translation": "ウォホヒーオ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>喜びや興奮、あるいは何か大きなアクションを起こした時の、独特でコミカルな歓声です。</li></ul><strong>英文法:</strong><br>感情をそのまま音にしたような、感嘆詞の一種です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl2.mp3"
+    },
+    {
+      "id": "shade_vl3",
+      "quote": "Wah!",
+      "translation": "ワァ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>驚きや、努力、あるいは攻撃を受けた時の短い叫び声です。日本の漫画で言う「わっ！」や「うわっ！」に近いニュアンスです。</li></ul><strong>英文法:</strong><br>感嘆詞（interjection）です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl3.mp3"
+    },
+    {
+      "id": "shade_vl4",
+      "quote": "Weeoo!",
+      "translation": "ウィーウー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>言葉ではなく、パントマイムの動きに合わせて発せられる効果音です。</li><li>素早く動いたり、何かを投げたりする際の、ヒューッという風切り音のようなイメージを表しています。</li></ul><strong>英文法:</strong><br>意味を持たない擬音語（onomatopoeia）であり、文法的な構造はありません。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl4.mp3"
+    },
+    {
+      "id": "shade_vl5",
+      "quote": "Ooo!",
+      "translation": "おぉ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>感心したり、何か面白いものを見つけたり、あるいは少し驚いたりした時に発せられる声です。「ほう！」というニュアンスも含まれます。</li></ul><strong>英文法:</strong><br>感情を表す間投詞です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl5.mp3"
+    },
+    {
+      "id": "shade_vl6",
+      "quote": "Hah!",
+      "translation": "ハッ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>気合を入れる掛け声、攻撃を繰り出す時の短い息遣い、あるいは相手を小馬鹿にしたような含み笑いなど、様々な文脈で使われる短い発声です。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl6.mp3"
+    },
+    {
+      "id": "shade_vl7",
+      "quote": "Boo!",
+      "translation": "ばぁ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>誰かを突然驚かせる時に使う「ばあっ！」という掛け声です。</li><li>パントマイマーであるシェイドが、言葉を使わずに相手を驚かせたり、からかったりする様子を表現しています。</li></ul><strong>英文法:</strong><br>文法的な構造を持たない感嘆詞です。<br><br><strong>🧠豆知識:</strong><br>「Boo!」は、お化けが人を脅かす時の決まり文句や、かくれんぼで隠れている人が飛び出す時の掛け声として、英語圏で非常に広く使われる表現です。言葉を話さないシェイドにとって、このような万国共通のサウンドは重要なコミュニケーション手段です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl7.mp3"
+    },
+    {
+      "id": "shade_vl8",
+      "quote": "Hooo!",
+      "translation": "ふぅー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>力をためたり、遠くへ何かを投げたりする際の、息の長い掛け声です。</li></ul><strong>英文法:</strong><br>擬音語の一種です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl8.mp3"
+    },
+    {
+      "id": "shade_vl9",
+      "quote": "Ha ha ha!",
+      "translation": "ハッハッハ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>パントマイマーらしい、少し大げさで演劇的な笑い声です。</li></ul><strong>英文法:</strong><br>笑い声を文字で表現した擬音語です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl9.mp3"
+    },
+    {
+      "id": "shade_vl10",
+      "quote": "Hehehoo!",
+      "translation": "ヘヘッホー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>いたずらっぽい、あるいは何か面白いことを見つけた時の、ユニークでコミカルな笑い声です。</li></ul><strong>英文法:</strong><br>擬音語です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl10.mp3"
+    },
+    {
+      "id": "shade_vl11",
+      "quote": "Ah!",
+      "translation": "アッ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>驚き、痛み、あるいは何かをひらめいた時など、様々な状況で使われる非常に短い感嘆詞です。</li></ul><strong>英文法:</strong><br>間投詞です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl11.mp3"
+    },
+    {
+      "id": "shade_vl12",
+      "quote": "Poh!",
+      "translation": "ポッ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>何かが現れたり、消えたりする際の、コミカルな効果音のような発声です。パントマイムの動きと連動しています。</li></ul><strong>英文法:</strong><br>擬音語です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl12.mp3"
+    },
+    {
+      "id": "shade_vl13",
+      "quote": "Heh-hey!",
+      "translation": "ヘッヘイ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>喜びや、何かうまくいった時の、少し得意げな掛け声です。</li></ul><strong>英文法:</strong><br>感嘆詞の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl13.mp3"
+    },
+    {
+      "id": "shade_vl14",
+      "quote": "Weee!",
+      "translation": "ウィーー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>楽しさや、高速で移動する時のスピード感を表す歓声です。「ヒャッホー！」というニュアンスです。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl14.mp3"
+    },
+    {
+      "id": "shade_vl15",
+      "quote": "Aha!",
+      "translation": "アハ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>何かを発見したり、理解したりした時に「なるほど！」というひらめきの声です。あるいは、相手を出し抜いた時の「してやったり」という含み笑いでもあります。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl15.mp3"
+    },
+    {
+      "id": "shade_vl16",
+      "quote": "Pahee!",
+      "translation": "パヒー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>特に意味のない、キャラクター独自のユニークな掛け声です。攻撃時や気合を入れる際に使われます。</li></ul><strong>英文法:</strong><br>造語的な感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl16.mp3"
+    },
+    {
+      "id": "shade_vl17",
+      "quote": "Hyaa!",
+      "translation": "ヒャー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>攻撃を繰り出す際の、鋭い気合の叫びです。武道などで使われる掛け声に似ています。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl17.mp3"
+    },
+    {
+      "id": "shade_vl18",
+      "quote": "Haye!",
+      "translation": "ハイェ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これも、特に意味を持たない、シェイド独自の掛け声の一つです。</li></ul><strong>英文法:</strong><br>造語的な感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/shade_vl18.mp3"
+    }
+  ]
+}

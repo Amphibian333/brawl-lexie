@@ -1,0 +1,17 @@
+{
+  "name": "リリー",
+  "nameEn": "Lily",
+  "rarity": "ultra-rare",
+  "role": "assassin",
+  "quote": "Nature calls!",
+  "iconUrl": "https://i.imgur.com/g7nIvx3.png",
+  "voicelines": [
+    {
+      "id": "lily_vl1",
+      "quote": "Nature calls!",
+      "translation": "（ウルト攻撃音）",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルトの攻撃音です。</li><li>リリーは喋らないので、ボイスラインはこれだけしかありません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/lily_vl1.mp3"
+    }
+  ]
+}

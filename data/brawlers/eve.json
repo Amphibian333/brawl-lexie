@@ -1,0 +1,262 @@
+{
+  "name": "イヴ",
+  "nameEn": "Eve",
+  "rarity": "ultra-rare",
+  "role": "marksman",
+  "quote": "Mommy knows best!",
+  "iconUrl": "https://i.imgur.com/MWzasBi.png",
+  "voicelines": [
+    {
+      "id": "eve_vl1",
+      "quote": "Kids, follow mommy!",
+      "translation": "子供たち、ママについてきなさい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の子供たち（ハッチリング）を率いる、ママさんブロウラーの号令！</li><li>「みんな行くわよ〜！」という、遠足の引率みたいなノリです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl1.mp3"
+    },
+    {
+      "id": "eve_vl2",
+      "quote": "Wait 'til I tell the kids!",
+      "translation": "子供たちに言いつけるまで待ちなさい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「パパに言いつけるぞ！」の逆バージョン。「うちの子たちに言いつけるわよ！」という脅しです。</li><li>大量のハッチリングに襲われる未来が見えます…。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl2.mp3"
+    },
+    {
+      "id": "eve_vl3",
+      "quote": "Don't make me go there.",
+      "translation": "私にそこまで言わせないでちょうだい。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「本気を出させないで」「言いたくないことを言わせないで」という警告。</li><li>怒らせると怖いお母さんの、静かなるプレッシャーです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl3.mp3"
+    },
+    {
+      "id": "eve_vl4",
+      "quote": "Look at this primitive life form! Huh, pathetic.",
+      "translation": "見てこの原始的な生命体を！はぁ、哀れね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>地球の生物を見下す、エイリアン視点のセリフ。</li><li>「やだ、何この下等生物」みたいな冷ややかな視線を感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl4.mp3"
+    },
+    {
+      "id": "eve_vl5",
+      "quote": "This isn't a place for my babies!",
+      "translation": "ここは私のベイビーたちがいる場所じゃないわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>危険な戦場に子供を連れてきたのは自分なのに、「環境が悪いわ！」と怒る理不尽さ。モンスターペアレント気質かも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl5.mp3"
+    },
+    {
+      "id": "eve_vl6",
+      "quote": "Get them kids!",
+      "translation": "あいつらをやりなさい、子供たち！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「やっちまいな！」のママバージョン。</li><li>ハッチリングをけしかける時の攻撃的な命令です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl6.mp3"
+    },
+    {
+      "id": "eve_vl7",
+      "quote": "Useful and mostly harmless.",
+      "translation": "有益で、ほとんど無害よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の子供たちを「ほとんど無害」と評価。</li><li>「ほとんど」ってところがポイント。実際は噛みつきまくってかなり有害です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl7.mp3"
+    },
+    {
+      "id": "eve_vl8",
+      "quote": "Mother knows best!",
+      "translation": "母が一番よく知っているものよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ママの言うことが一番正しいの！」という、子供を言い負かす時の最強カード。</li><li>ディズニー映画『塔の上のラプンツェル』でも有名な、ちょっと支配的な母親のセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl8.mp3"
+    },
+    {
+      "id": "eve_vl9",
+      "quote": "I don't want to say this twice!",
+      "translation": "同じことを二度言わせないで！",
+      "explanation": "<strong>解説:</strong><br><ul><li>お母さんの怒りゲージが溜まってきた時のセリフ。</li><li>これを聞いたら素直に従わないと、雷が落ちます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl9.mp3"
+    },
+    {
+      "id": "eve_vl10",
+      "quote": "Agh, what a waste of resources!",
+      "translation": "あぁ、なんて資源の無駄遣いなの！",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時のセリフ。</li><li>命を落としたことを悲しむより、「資源の無駄」と嘆くあたり、冷徹なSFエイリアンっぽさが出ています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl10.mp3"
+    },
+    {
+      "id": "eve_vl11",
+      "quote": "I'm not mad, I'm disappointed.",
+      "translation": "怒っているんじゃないの、がっかりしているのよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>一番効くやつ！「怒ってる」と言われるより、数倍ダメージがでかい精神攻撃です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl11.mp3"
+    },
+    {
+      "id": "eve_vl12",
+      "quote": "Aren't they lovely!",
+      "translation": "あの子たち、素敵じゃない！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分の子供たちを見て「あら可愛い！」と自画自賛。</li><li>敵にとっては恐怖の対象でも、ママにとっては目に入れても痛くない可愛さなのです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl12.mp3"
+    },
+    {
+      "id": "eve_vl13",
+      "quote": "Doing it for the children!",
+      "translation": "すべては子供たちのために！",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦う理由は「子供のため」。母は強し！</li><li>…と言いつつ、侵略行為を正当化しているようにも聞こえます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl13.mp3"
+    },
+    {
+      "id": "eve_vl14",
+      "quote": "I wear the pants in this family.",
+      "translation": "この家で主導権を握っているのは、この私よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「一家の大黒柱は私！」という宣言。</li><li>旦那さん（いるのかな？）よりも強い、カカア天下なイヴさんです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl14.mp3"
+    },
+    {
+      "id": "eve_vl15",
+      "quote": "Oh dear, now I have to use force.",
+      "translation": "おやおや、とうとう実力行使をしなくてはなりませんね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「口で言ってもわからないなら…」と、お仕置きモードに入る合図。</li><li>上品な口調からの容赦ない攻撃が怖すぎます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl15.mp3"
+    },
+    {
+      "id": "eve_vl16",
+      "quote": "Mind your language!",
+      "translation": "言葉に気をつけなさい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>汚い言葉を使った相手を叱りつける、教育ママの一言。</li><li>煽りエモートを使った相手に言ってやりましょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl16.mp3"
+    },
+    {
+      "id": "eve_vl17",
+      "quote": "I can't leave my children!",
+      "translation": "子供たちを置いていけないわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時の悲痛な叫び。</li><li>子供への愛は本物なんだな、と感じさせるドラマチックな退場シーンです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl17.mp3"
+    },
+    {
+      "id": "eve_vl18",
+      "quote": "I am your forever friend.",
+      "translation": "私はあなたの永遠の友達よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>一見いい言葉ですが、寄生生物が言うと「一生離れないわよ（寄生するわよ）」という意味に聞こえてゾッとします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl18.mp3"
+    },
+    {
+      "id": "eve_vl19",
+      "quote": "One flea and the place to be!",
+      "translation": "一匹のノミと、最高の場所！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私（ノミ）がいれば、そこが最高の場所になる」というポジティブシンキング。</li><li>ノミ呼ばわりされても気にしないメンタルの強さ！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl19.mp3"
+    },
+    {
+      "id": "eve_vl20",
+      "quote": "Oh my oh my!",
+      "translation": "まあ、まあ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>驚いた時や、呆れた時の「あらあら、まあまあ」。</li><li>おばさんっぽいリアクションが親近感を湧かせます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl20.mp3"
+    },
+    {
+      "id": "eve_vl21",
+      "quote": "Agh, be better, please!",
+      "translation": "あぁ、もっとマシになりなさい、お願いだから！",
+      "explanation": "<strong>解説:</strong><br><ul><li>味方のミスや敵の弱いプレイに対して、「もうちょっとしっかりしてよ」と呆れ返っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl21.mp3"
+    },
+    {
+      "id": "eve_vl22",
+      "quote": "I leave everything to the babies.",
+      "translation": "全てはベイビーたちにお任せします。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルト発動！あとは子供たちがやってくれるわ、という丸投げ戦法。</li><li>数で押し切るハッチリングの強さを信頼しています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl22.mp3"
+    },
+    {
+      "id": "eve_vl23",
+      "quote": "I gave you life, but really, you gave me mine.",
+      "translation": "私があなたに命を与えた、でも本当は、あなたが私に命をくれたのよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「子供のおかげで私の人生も輝いた」という、母親の無償の愛を語る感動的なセリフ。</li><li>戦場で急に深いことを言い出します。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl23.mp3"
+    },
+    {
+      "id": "eve_vl24",
+      "quote": "Mommy needs to find a host.",
+      "translation": "ママは宿主を見つけないと。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「宿主（寄生先）」を探すという、エイリアンの本能丸出しのセリフ。</li><li>ママ、その発言は怖すぎます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl24.mp3"
+    },
+    {
+      "id": "eve_vl25",
+      "quote": "The queen flea, that's me!",
+      "translation": "ノミの女王、それが私！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ノミの女王」を自称する堂々とした自己紹介。</li><li>小さくても最強のママであることを誇りに思っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl25.mp3"
+    },
+    {
+      "id": "eve_vl26",
+      "quote": "Who would hurt a mother?",
+      "translation": "誰が母親を傷つけたりするのかしら？",
+      "explanation": "<strong>解説:</strong><br><ul><li>攻撃された時に「母親を攻撃するなんて信じられない！」と被害者ぶるセリフ。</li><li>戦場ではママも何も関係ないんですけどね…。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl26.mp3"
+    },
+    {
+      "id": "eve_vl27",
+      "quote": "Sorry, but you deserve that!",
+      "translation": "ごめんなさいね、でも自業自得よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ごめんね」と言いつつ、「あなたが悪い」と切り捨てる。</li><li>謝る気ゼロの謝罪です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl27.mp3"
+    },
+    {
+      "id": "eve_vl28",
+      "quote": "Avenge me, children!",
+      "translation": "私の仇を討つのよ、子供たち！",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた瞬間に、子供たちに復讐を命じる執念深さ！</li><li>イヴを倒しても、残ったハッチリングが襲ってくるのはこの命令のせいかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl28.mp3"
+    },
+    {
+      "id": "eve_vl29",
+      "quote": "How adorbs!",
+      "translation": "なんて愛らしいのかしら！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Adorable（可愛い）」を「Adorbs」と略す、若者言葉を使うお母さん。</li><li>「マジかわ！」みたいなノリです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl29.mp3"
+    },
+    {
+      "id": "eve_vl30",
+      "quote": "Time for a field trip!",
+      "translation": "遠足の時間よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>子供たちを引き連れて移動する時の掛け声。</li><li>戦場も彼女たちにとっては楽しい遠足（狩り？）の場所のようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl30.mp3"
+    },
+    {
+      "id": "eve_vl31",
+      "quote": "You're grounded!",
+      "translation": "あなた、外出禁止よ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>子供への罰の定番「外出禁止！」。</li><li>相手を子供扱いして、動きを封じるようなニュアンスです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl31.mp3"
+    },
+    {
+      "id": "eve_vl32",
+      "quote": "Mommy loves you!",
+      "translation": "ママはあなたを愛してるわ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>子供たちへの愛の言葉。</li><li>戦闘中でも愛情表現を忘れない、素敵なママです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl32.mp3"
+    },
+    {
+      "id": "eve_vl33",
+      "quote": "You better start behaving!",
+      "translation": "そろそろ行儀よくし始めた方がいいわよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「いい加減にしなさいよ」という最後通告。</li><li>これ以上ふざけた真似をすると、ママの雷が落ちます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl33.mp3"
+    },
+    {
+      "id": "eve_vl34",
+      "quote": "How do you like your eggs?",
+      "translation": "あなたの卵は、どう調理してほしい？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「卵の焼き方は？」というレストランの決まり文句を、自分の攻撃（卵爆弾）にかけて脅しに使っています。</li><li>「どうやってやられたい？」という意味の怖いジョークです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl34.mp3"
+    },
+    {
+      "id": "eve_vl35",
+      "quote": "Play time, kids!",
+      "translation": "遊びの時間よ、みんな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>子供たちを放つ時の合図。「行ってらっしゃい！」</li><li>子供たちにとっての「遊び」は、敵にとっての「悪夢」ですが。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl35.mp3"
+    },
+    {
+      "id": "eve_vl36",
+      "quote": "Off you pop!",
+      "translation": "さあ、行きなさい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>イギリスっぽい言い回しで「さあ行って！」と送り出す言葉。</li><li>子供たちがポンポン飛び出していく（pop）様子にも合っています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/eve_vl36.mp3"
+    }
+  ]
+}

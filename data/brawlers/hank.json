@@ -1,0 +1,318 @@
+{
+  "name": "ハンク",
+  "nameEn": "Hank",
+  "rarity": "hyper-rare",
+  "role": "tank",
+  "quote": "I might be a shrimp, but I ain't no wimp!",
+  "iconUrl": "https://i.imgur.com/jxKKtjw.png",
+  "voicelines": [
+    {
+      "id": "hank_vl1",
+      "quote": "I might be a shrimp, but I ain't no wimp!",
+      "translation": "俺はエビかもしれんが、泣き虫じゃないぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"shrimp\"（エビ、小さい人）と \"wimp\"（弱虫、泣き虫）で韻を踏んだ、非常にキャッチーな自己紹介です。</li><li>「見た目は小さなエビだが、決して弱虫ではない」と、自身のギャップと強さをアピールしています。</li></ul><strong>英文法:</strong><br>\"might be ~\" は「～かもしれない」という可能性を示します。\"ain't no ~\" は \"am not a ~\" を非常に口語的に、そして強く否定する言い方です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl1.mp3"
+    },
+    {
+      "id": "hank_vl2",
+      "quote": "Haha! I'm in the krill zone!",
+      "translation": "ハハ！クリルゾーンにいるぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>軍事用語で、敵の攻撃が集中する危険地帯を意味する「キルゾーン（kill zone）」と、エビの餌である「オキアミ（krill）」をかけた、見事な言葉遊び（pun）です。</li></ul><strong>英文法:</strong><br>\"in the zone\" は「集中している、ゾーンに入っている」という意味のスラングでもあり、複数の意味が込められています。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl2.mp3"
+    },
+    {
+      "id": "hank_vl3",
+      "quote": "Ah!",
+      "translation": "あぁ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>驚きや、軽い痛み、気合を入れる掛け声など、様々な文脈で使われる短い感嘆詞です。</li></ul><strong>英文法:</strong><br>間投詞です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl3.mp3"
+    },
+    {
+      "id": "hank_vl4",
+      "quote": "You can't handle the crust!",
+      "translation": "お前にこの甲殻は扱いきれん！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>有名な軍法会議の映画『ア・フュー・グッドメン』で、ジャック・ニコルソンが叫ぶ名セリフ「You can't handle the truth!（お前に真実は扱いきれん！）」のパロディです。</li><li>「真実（truth）」を、甲殻類の「殻（crust）」に置き換えています。</li></ul><strong>英文法:</strong><br>有名な映画のセリフをもじった、言葉遊びです。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl4.mp3"
+    },
+    {
+      "id": "hank_vl5",
+      "quote": "Hope you get food poisoning!",
+      "translation": "食中毒になっちまえ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手に対して「食中毒になればいい」と願う、非常にユニークで悪意のこもった呪いの言葉です。</li></ul><strong>英文法:</strong><br>\"I hope...\" の主語が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl5.mp3"
+    },
+    {
+      "id": "hank_vl6",
+      "quote": "Heyeah! Check out my pincer maneuver!",
+      "translation": "ヒャー！俺のハサミ戦法を見ろ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"pincer maneuver\" は、軍事戦術で敵を両側から挟み撃ちにする「挟撃作戦」のこと。</li><li>それを、カニやエビが持つ「ハサミ（pincer）」とかけています。</li></ul><strong>英文法:</strong><br>\"Check out ~\" は「～を見ろ」という、カジュアルな命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl6.mp3"
+    },
+    {
+      "id": "hank_vl7",
+      "quote": "Time to rally the troops!",
+      "translation": "部隊を再結集する時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"rally the troops\" は、散り散りになったり士気が下がったりした「部隊（troops）」を、再び集めて鼓舞することを意味する軍事用語です。</li></ul><strong>英文法:</strong><br>「Time to + 動詞の原形」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl7.mp3"
+    },
+    {
+      "id": "hank_vl8",
+      "quote": "Master of the krilling field!",
+      "translation": "オキアミ場のマスターよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「戦場（killing field）」と「オキアミ（krill）」をかけた言葉遊びです。</li><li>自分がこの戦場の支配者（Master）であると宣言しています。</li></ul><strong>英文法:</strong><br>名詞句だけの感嘆文です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl8.mp3"
+    },
+    {
+      "id": "hank_vl9",
+      "quote": "This means war!",
+      "translation": "これは戦争だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の行動が、もはや許容範囲を超え、全面戦争に値するものであると宣言する、映画などでよく使われる決め台詞です。</li></ul><strong>英文法:</strong><br>シンプルなSVOの肯定文ですが、非常に強い意味を持ちます。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl9.mp3"
+    },
+    {
+      "id": "hank_vl10",
+      "quote": "I've got brains, and prawn!",
+      "translation": "俺には知恵と、エビがある！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「知性と筋力」を意味する有名な決まり文句 \"brains and brawn\" の、「筋力（brawn）」の部分を発音が似ている「エビ（prawn）」に置き換えたダジャレです。</li></ul><strong>英文法:</strong><br>有名なイディオムをもじった、言葉遊びです。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl10.mp3"
+    },
+    {
+      "id": "hank_vl11",
+      "quote": "Oh, crab cake!",
+      "translation": "ちくしょう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"crab cake\"（カニのすり身揚げ）という料理名ですが、これは \"Oh, for crap's sake!\"（ちくしょう、なんてこった）という、いまいましい気持ちを表すスラングを、マイルドに言い換えたものです。</li></ul><strong>英文法:</strong><br>強い言葉を避けるための婉曲表現（minced oath）の一種です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl11.mp3"
+    },
+    {
+      "id": "hank_vl12",
+      "quote": "Full speed! All directions!",
+      "translation": "全速力！全方位へ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身の攻撃が、全速力で、あらゆる方向へ飛んでいくことを示す、威勢の良い掛け声です。</li></ul><strong>英文法:</strong><br>二つの名詞句を並べた、簡潔な命令・宣言です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl12.mp3"
+    },
+    {
+      "id": "hank_vl13",
+      "quote": "I was prawn ready!",
+      "translation": "俺はいつでも準備万端のエビだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「生まれつき準備万端だ」という意味の \"born ready\" と、「エビ（prawn）」をかけた言葉遊びです。</li></ul><strong>英文法:</strong><br>\"born\" を、発音が似ている \"prawn\" に置き換えたダジャレです。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl13.mp3"
+    },
+    {
+      "id": "hank_vl14",
+      "quote": "I'm a prawn star!",
+      "translation": "俺はプローンスターだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ポルノスター（porn star）」と「エビ（prawn）」をかけた、非常に際どいジョークです。</li><li>自分が「スター」級の存在であると、少し下品に、しかし自信満々に宣言しています。</li></ul><strong>英文法:</strong><br>同音異義語を使った、言葉遊びです。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl14.mp3"
+    },
+    {
+      "id": "hank_vl15",
+      "quote": "Ha ha ha! Lobster mobster!",
+      "translation": "ハハハ！ロブスター・モブスターだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Lobster\"（ロブスター）と \"mobster\"（ギャング、マフィア）で韻を踏んだ、リズミカルな自己紹介です。</li><li>自分を、甲殻類界の恐ろしいギャングだと称しています。</li></ul><strong>英文法:</strong><br>笑い声と、韻を踏んだ名詞句の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl15.mp3"
+    },
+    {
+      "id": "hank_vl16",
+      "quote": "Ah! Feeling clammy.",
+      "translation": "あぁ！なんだかジメジメするぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"clammy\" は、汗などで「冷たくてジメジメする」不快な状態を表す形容詞です。</li><li>同時に、二枚貝の「ハマグリ（clam）」ともかかっています。</li></ul><strong>英文法:</strong><br>\"I am feeling clammy.\" の主語が省略された形です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl16.mp3"
+    },
+    {
+      "id": "hank_vl17",
+      "quote": "Go fish!",
+      "translation": "魚でも釣ってな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>同名のカードゲーム「Go Fish」から来ています。このゲームでは、欲しいカードを相手が持っていない時に「Go fish!（山札から一枚引け）」と言います。</li><li>転じて、「他を当たれ」「ここにはないよ」と、相手の要求を拒絶する際の言い方として使われます。</li></ul><strong>英文法:</strong><br>命令文の形をとった、定型句です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl17.mp3"
+    },
+    {
+      "id": "hank_vl18",
+      "quote": "I'll give you shrimp cocktail.",
+      "translation": "シュリンプカクテルをお見舞いしてやる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>火炎瓶を意味する「モロトフ・カクテル（Molotov cocktail）」のような、危険な「カクテル」と、エビを使った料理「シュリンプカクテル」をかけた、脅し文句です。</li></ul><strong>英文法:</strong><br>未来を表す \"I will\" を使った、脅しの文です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl18.mp3"
+    },
+    {
+      "id": "hank_vl19",
+      "quote": "You will not laugh, you will not cry, you will learn by the numbers, and I will teach you.",
+      "translation": "笑うな、泣くな、セオリー通りに覚えろ、俺が叩き込んでやる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは、有名な戦争映画『フルメタル・ジャケット』の鬼教官、ハートマン軍曹が新兵に行う過酷な演説のセリフを、ほぼそのまま引用したものです。</li><li>「お前らに個性は不要だ。ただ命令通りに動くことを覚えろ」という、非常に厳しい命令です。</li></ul><strong>英文法:</strong><br>未来を表す助動詞 \"will\" を命令のように使い、相手に選択の余地を与えない、強い意志を表明しています。<br><br><strong>🧠豆知識:</strong><br>映画『フルメタル・ジャケット』のこのシーンは、その強烈な内容から非常に有名で、多くのパロディが存在します。ハンクがこのセリフを言うことで、彼が単なる兵士ではなく、新兵を鍛え上げる「鬼軍曹」のようなタフなキャラクターであることが強調されます。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl19.mp3"
+    },
+    {
+      "id": "hank_vl20",
+      "quote": "There will be retaliation.",
+      "translation": "報復措置をとる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"retaliation\" は「報復、仕返し」。</li><li>相手の攻撃に対して、必ず仕返しをすることを、軍隊の公式声明のように冷静に、しかし脅威的に宣言しています。</li></ul><strong>英文法:</strong><br>\"There will be ~\" は「～があるだろう」という、未来の出来事を客観的に述べる構文です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl20.mp3"
+    },
+    {
+      "id": "hank_vl21",
+      "quote": "Hiya, check out the muscles on this!",
+      "translation": "よぉ、こいつの筋肉を見ろ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Hiya\" は \"Hi\" の非常にカジュアルな形。</li><li>エビのハサミなどを指して、「この筋肉を見ろ！」と、自分のパワーを誇示しています。</li></ul><strong>英文法:</strong><br>命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl21.mp3"
+    },
+    {
+      "id": "hank_vl22",
+      "quote": "Oh! I got shellshocked!",
+      "translation": "おぉ！シェルショックを受けた！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"shell shock\" は、戦争の衝撃で兵士が患う精神的なトラウマ（戦闘ストレス反応）のこと。</li><li>それを、エビの「殻（shell）」とかけています。大きな精神的（あるいは物理的）ショックを受けたことを示す、ダブルミーニングです。</li></ul><strong>英文法:</strong><br>\"get + 過去分詞\" の口語的な受動態です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl22.mp3"
+    },
+    {
+      "id": "hank_vl23",
+      "quote": "Attack formation: Oscar Papa!",
+      "translation": "攻撃フォーメーション、オスカー・パパ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これもNATOフォネティックコードです。</li><li>\"Oscar Papa\" は、それぞれの頭文字を取ると「O.P.」となります。これは、彼が乗っているメカの名前「One-Prawn\"（One-Manのパロディ）」の略か、あるいは「Overpowered」の略かもしれません。</li></ul><strong>英文法:</strong><br>軍事用語を使った、命令・宣言です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl23.mp3"
+    },
+    {
+      "id": "hank_vl24",
+      "quote": "Hey, who ordered the shrimp?",
+      "translation": "おい、誰だ、エビを注文したのは？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>レストランなどで、注文の品を運んできた店員が言うようなセリフです。</li><li>自分自身（エビ）を指して、「お呼びでないのにしゃしゃり出てきた」と自虐的に言う、あるいは「お前らが俺を呼んだんだろう？」と、登場を宣言するユーモラスなセリフです。</li></ul><strong>英文法:</strong><br>過去形の疑問文です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl24.mp3"
+    },
+    {
+      "id": "hank_vl25",
+      "quote": "♫Left, right, left, right, I'm the one who won the fight!",
+      "translation": "♫左、右、左、右、戦いに勝ったのはこの俺だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>軍隊の行進の掛け声「Left, right, left, right」と、自身の勝利宣言を組み合わせた、歌うようなセリフです。</li><li>\"right\" と \"fight\" で韻を踏んでいます。</li></ul><strong>英文法:</strong><br>関係代名詞 \"who\" を使って、「戦いに勝った者」を説明しています。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl25.mp3"
+    },
+    {
+      "id": "hank_vl26",
+      "quote": "I will rain shellfire upon you!",
+      "translation": "お前の上に、砲弾の雨を降らせてやる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"rain shellfire upon someone\" は「（人）の上に砲弾の雨を降らせる」という、非常に脅威的な表現です。</li><li>\"shellfire\" は「砲撃」ですが、エビの「殻（shell）」ともかかっています。</li></ul><strong>英文法:</strong><br>未来を表す \"will\" を使った、脅し文句です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl26.mp3"
+    },
+    {
+      "id": "hank_vl27",
+      "quote": "Krilling in the name of!",
+      "translation": "大義のためのオキアミだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>有名なロックバンド、レイジ・アゲインスト・ザ・マシーンの楽曲「Killing in the Name」のパロディです。</li><li>「殺戮（Killing）」を「オキアミ（Krilling）」に置き換えています。</li></ul><strong>英文法:</strong><br>有名な曲名をもじった、言葉遊びです。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl27.mp3"
+    },
+    {
+      "id": "hank_vl28",
+      "quote": "I conked out!",
+      "translation": "ぶっ倒れちまった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"conk out\" は、機械が「故障する」ことや、人が「疲れ果てて寝てしまう、気絶する」ことを意味するスラングです。</li><li>自分が敗北したことを表現しています。</li></ul><strong>英文法:</strong><br>句動詞を使った、過去形の文です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl28.mp3"
+    },
+    {
+      "id": "hank_vl29",
+      "quote": "I'm a whale!",
+      "translation": "俺はクジラだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>小さなエビである自分が、海の王者である「クジラ（whale）」だと、大げさに自己紹介しています。</li><li>あるいは、ゲーム用語で「（大金を注ぎ込む）廃課金者」を意味する \"whale\" とかけている可能性もあります。</li></ul><strong>英文法:</strong><br>シンプルな自己紹介文です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl29.mp3"
+    },
+    {
+      "id": "hank_vl30",
+      "quote": "Stop shelling!",
+      "translation": "砲撃やめろ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"shelling\" は「砲撃」。相手の激しい攻撃をやめるよう叫んでいます。</li><li>これもエビの「殻（shell）」とのかけた言葉です。</li></ul><strong>英文法:</strong><br>動詞 \"Stop\" の後に、動名詞 \"shelling\" が続いています。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl30.mp3"
+    },
+    {
+      "id": "hank_vl31",
+      "quote": "Ha ha! Got krills to pay the bills!",
+      "translation": "ハハ！稼ぐためのオキアミを持ってるぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「生計を立てるためのスキルがある」という意味のイディオム \"skills to pay the bills\" の、「スキル（skills）」を「オキアミ（krills）」に置き換えたダジャレです。</li></ul><strong>英文法:</strong><br>有名なイディオムをもじった、言葉遊びです。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl31.mp3"
+    },
+    {
+      "id": "hank_vl32",
+      "quote": "All ready for the seafood buffet.",
+      "translation": "シーフードビュッフェの準備は万端だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これから始まる戦いを「シーフードビュッフェ」に例えています。</li><li>敵キャラクターたちを「食材」とみなし、これから料理してやる、というブラックなユーモアです。</li></ul><strong>英文法:</strong><br>\"I am all ready...\" の主語と動詞が省略されています。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl32.mp3"
+    },
+    {
+      "id": "hank_vl33",
+      "quote": "Something smells fishy.",
+      "translation": "何かうさん臭いな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"smell fishy\" は、文字通り「魚臭い」という意味ですが、転じて「（何かが）うさん臭い、怪しい」という意味で使われる、非常に一般的なイディオムです。</li></ul><strong>英文法:</strong><br>定型化された慣用句です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl33.mp3"
+    },
+    {
+      "id": "hank_vl34",
+      "quote": "Oh, I'm a limp shrimp!",
+      "translation": "ああ、俺はぐにゃぐにゃのエビだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"limp\" は「ぐったりした、元気のない」。</li><li>自分が敗北して、力なくぐったりしている様子を、韻を踏みながら表現しています。</li></ul><strong>英文法:</strong><br>\"limp\" と \"shrimp\" で韻を踏んでいます。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl34.mp3"
+    },
+    {
+      "id": "hank_vl35",
+      "quote": "♫One, two, three, four! I just swept you off the floor!",
+      "translation": "♫１、２、３、４！お前を床から一掃してやったぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>軍隊の訓練のようなカウントに続けて、勝利宣言を歌っています。</li><li>\"sweep someone off the floor\" は「～を床から一掃する」、つまり「～を完全に打ち負かす」という意味です。</li></ul><strong>英文法:</strong><br>\"four\" と \"floor\" で韻を踏んでいます。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl35.mp3"
+    },
+    {
+      "id": "hank_vl36",
+      "quote": "The horror, the horror.",
+      "translation": "恐怖だ、恐怖。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これは、小説『闇の奥』および、それを原作とする映画『地獄の黙示録』の登場人物が死の間際に発する、非常に有名なセリフです。</li><li>戦争の狂気や、人間の心の闇を目の当たりにした際の、深い絶望を表しています。</li></ul><strong>英文法:</strong><br>名詞を繰り返すことで、強い感情を表現しています。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl36.mp3"
+    },
+    {
+      "id": "hank_vl37",
+      "quote": "Time for a shrimpy skirmish!",
+      "translation": "エビの小競り合いの時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"skirmish\" は「小競り合い、小さな戦闘」。</li><li>\"shrimpy\" は「エビのような、ちっぽけな」という意味ですが、ここでは単に「エビの」というニュアンスです。</li></ul><strong>英文法:</strong><br>「Time for + 名詞句」の構文です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl37.mp3"
+    },
+    {
+      "id": "hank_vl38",
+      "quote": "I'm a claw abiding citizen!",
+      "translation": "俺は爪を守る市民だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「法を遵守する市民」を意味する \"law-abiding citizen\" の、「法（law）」を「ハサミ（claw）」に置き換えた言葉遊びです。</li></ul><strong>英文法:</strong><br>有名な言葉をもじった、ダジャレです。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl38.mp3"
+    },
+    {
+      "id": "hank_vl39",
+      "quote": "Time to res-prawn.",
+      "translation": "リスポーンの時間だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ゲームでやられた後に復活することを意味する「リスポーン（respawn）」と、「エビ（prawn）」をかけた、見事な言葉遊びです。</li></ul><strong>英文法:</strong><br>造語を使った、ユーモラスな表現です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl39.mp3"
+    },
+    {
+      "id": "hank_vl40",
+      "quote": "Let me see your war face!",
+      "translation": "貴様の闘争心に満ちた顔を見せてみろ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これも映画『フルメタル・ジャケット』のハートマン軍曹の有名なセリフです。</li><li>新兵に、戦場にふさわしい、気迫のこもった表情（war face）を作るよう命令しています。</li></ul><strong>英文法:</strong><br>使役動詞 \"Let\" を使った命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl40.mp3"
+    },
+    {
+      "id": "hank_vl41",
+      "quote": "♫I don't want to play no more, time to go, I'll find the door!",
+      "translation": "♫もう遊びたくない、行く時間だ、ドアを見つけるぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>敗北した際に、「もう戦いたくない」と、歌うように言って退場していきます。</li><li>\"more\" と \"door\" で韻を踏んでいます。</li></ul><strong>英文法:</strong><br>\"I don't want to play no more\" は、「don't」と「no」が両方使われている二重否定で、文法的には正しくありませんが、口語や歌の歌詞では強調のために使われることがあります。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl41.mp3"
+    },
+    {
+      "id": "hank_vl42",
+      "quote": "I love the smell of seafood in the morning! Smells like victory!",
+      "translation": "朝のシーフードの香りは最高だ！勝利の香りがする！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これも有名な戦争映画『地獄の黙示録』の「I love the smell of napalm in the morning.（朝のナパーム弾の香りは最高だ）」という伝説的なセリフのパロディです。</li><li>「ナパーム弾」を、自身のテーマである「シーフード」に置き換えています。</li></ul><strong>英文法:</strong><br>有名な映画のセリフをもじったものです。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl42.mp3"
+    },
+    {
+      "id": "hank_vl43",
+      "quote": "I'll huff, and I'll puff, and I'll blow your house down!",
+      "translation": "息を吸って、息を吐いて、お前の家を吹き飛ばしてやる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>有名な童話『三びきのこぶた』で、オオカミが子ぶたの家を吹き飛ばす前に言うセリフの完全な引用です。</li><li>これから相手を完全に破壊するという、脅し文句として使っています。</li></ul><strong>英文法:</strong><br>童話からの引用で、リズミカルな文体が特徴です。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl43.mp3"
+    },
+    {
+      "id": "hank_vl44",
+      "quote": "♫Left, right, left, right, I'm so ready for a fight!",
+      "translation": "♫左、右、左、右、戦う準備は万端だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>軍隊の行進の掛け声と、戦いへの意気込みを歌にしています。</li><li>\"right\" と \"fight\" で韻を踏んでいます。</li></ul><strong>英文法:</strong><br>掛け声と、自分の状態を説明する文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/hank_vl44.mp3"
+    }
+  ]
+}

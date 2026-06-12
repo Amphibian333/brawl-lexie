@@ -1,0 +1,360 @@
+{
+  "name": "ダグ",
+  "nameEn": "Doug",
+  "rarity": "ultra-rare",
+  "role": "support",
+  "quote": "Hot dog! We have a wiener!",
+  "iconUrl": "https://i.imgur.com/Eqmjd6J.png",
+  "voicelines": [
+    {
+      "id": "doug_vl1",
+      "quote": "Dude, I'm not a fighter. I'm a floater.",
+      "translation": "なぁ、俺はファイターじゃないんだ。フローターなんだよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「戦うんじゃなくて、プールで浮いてたいだけなんだけど～」という脱力系の自己紹介。</li><li>やる気ゼロなのが逆に大物感あります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl1.mp3"
+    },
+    {
+      "id": "doug_vl2",
+      "quote": "Ay, check it out! I got more moves than the synchronized swim team!",
+      "translation": "おい、見てみろよ！俺、シンクロナイズドスイミングチームより技が多いんだぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>シンクロ選手に対抗意識を燃やす謎の自慢。</li><li>水中でホットドッグを食べながら踊る技でしょうか？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl2.mp3"
+    },
+    {
+      "id": "doug_vl3",
+      "quote": "I'm only here for the sunscreen!",
+      "translation": "俺がここにいるのは、日焼け止めのためだけさ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「戦いに来たんじゃない、日焼けしに来たんだ！」という堂々たるサボり宣言。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl3.mp3"
+    },
+    {
+      "id": "doug_vl4",
+      "quote": "Ay, kiddie pool, other way.",
+      "translation": "おっと、子供用プールはあっちだぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>弱い敵に対する煽り。「ボクちゃんはあっちの浅いプールで遊びな」ってことです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl4.mp3"
+    },
+    {
+      "id": "doug_vl5",
+      "quote": "Uh, I think I left my sunscreen at home.",
+      "translation": "あー、日焼け止め、家に忘れてきたかも。",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦闘中にどうでもいいことを心配し始める天然っぷり。</li><li>「やべっ！」という焦りが伝わってきます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl5.mp3"
+    },
+    {
+      "id": "doug_vl6",
+      "quote": "Hot-Doug!",
+      "translation": "ホットダグ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ホットドッグ」と自分の名前「ダグ」をかけたダジャレ。</li><li>自分で言っちゃうところが可愛いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl6.mp3"
+    },
+    {
+      "id": "doug_vl7",
+      "quote": "Going in at the deep end, my dudes.",
+      "translation": "さあ、深いところへ飛び込むぜ、みんな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ディープな場所（激戦区）に行くぜ！」という掛け声。</li><li>仲間を「dudes（野郎ども）」と呼ぶ軽いノリが特徴です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl7.mp3"
+    },
+    {
+      "id": "doug_vl8",
+      "quote": "Riding the wave of victory, brohemians!",
+      "translation": "勝利の波に乗ってるぜ、ブラザーたち！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「調子いいぜ！」というサーファー用語っぽい表現。</li><li>「Brohemian（兄弟＋ボヘミアン）」という造語センスが光ります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl8.mp3"
+    },
+    {
+      "id": "doug_vl9",
+      "quote": "Stay chill bro.",
+      "translation": "落ち着いていこうぜ、ブラザー。",
+      "explanation": "<strong>解説:</strong><br><ul><li>熱くなってる味方をなだめる一言。</li><li>「まあまあ、リラックスしようよ」というダグらしい余裕。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl9.mp3"
+    },
+    {
+      "id": "doug_vl10",
+      "quote": "Ooh, the tide is turning!",
+      "translation": "おぉ、潮目が変わってきたな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「形勢逆転だ！」という意味。</li><li>海にまつわる言葉で戦況を語るのがお洒落です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl10.mp3"
+    },
+    {
+      "id": "doug_vl11",
+      "quote": "Nope, not feeling it.",
+      "translation": "いや、そんな気分じゃないね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦う気が起きない時の正直な感想。</li><li>「だるいからパス」みたいな現代っ子感。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl11.mp3"
+    },
+    {
+      "id": "doug_vl12",
+      "quote": "Ha ho! Food fight!",
+      "translation": "ハッホー！フードファイトだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>食べ物を投げ合う遊び（フードファイト）のノリで戦闘開始！</li><li>彼にとっては戦争もただの遊び場です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl12.mp3"
+    },
+    {
+      "id": "doug_vl13",
+      "quote": "Let's dive into this splashy showdown.",
+      "translation": "この派手な対決に飛び込もうぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「バシャバシャ派手にやろうぜ！」という誘い文句。</li><li>プールに飛び込むみたいに戦場へダイブ！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl13.mp3"
+    },
+    {
+      "id": "doug_vl14",
+      "quote": "I dived into battle and came out splashing!",
+      "translation": "戦いに飛び込んで、派手にやり遂げたぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ひと暴れしてやったぜ！」という勝利報告。</li><li>水も滴るいい男（恐竜）です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl14.mp3"
+    },
+    {
+      "id": "doug_vl15",
+      "quote": "Ugh, let's just hang.",
+      "translation": "あー、もう、のんびりしようぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>疲れた時の本音。「戦うのやめて、だらだらしようよ～」。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl15.mp3"
+    },
+    {
+      "id": "doug_vl16",
+      "quote": "Just when you thought it was safe, I arrived!",
+      "translation": "もう安全だと思ったその時、俺が登場！",
+      "explanation": "<strong>解説:</strong><br><ul><li>映画『ジョーズ』のキャッチコピーのパロディ。</li><li>水中から忍び寄る恐怖…ではなく、陽気なホットドッグ屋の登場です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl16.mp3"
+    },
+    {
+      "id": "doug_vl17",
+      "quote": "I'm like toast with no jam.",
+      "translation": "俺はジャムのないトーストみたいなもんだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「何か物足りない」「力が出ない」という状態をトーストに例えるユニークさ。</li><li>アンパンマンみたいですね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl17.mp3"
+    },
+    {
+      "id": "doug_vl18",
+      "quote": "Sausage of salvation!",
+      "translation": "救済のソーセージ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「救いの神」ならぬ「救いのソーセージ」。</li><li>ウルトで味方を復活させる時の、ちょっと神々しくて笑えるセリフ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl18.mp3"
+    },
+    {
+      "id": "doug_vl19",
+      "quote": "Yo! Be prepared for some mildly effective life guarding.",
+      "translation": "よぉ！ちょっとだけ効果のあるライフガードに備えとけよな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「まあまあ役に立つから期待してて」という、謙虚なのか適当なのか分からない宣言。</li><li>期待値を上げすぎないのがコツです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl19.mp3"
+    },
+    {
+      "id": "doug_vl20",
+      "quote": "I'm jamming bro!",
+      "translation": "ノッてるぜ、ブラザー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>音楽に合わせて体を揺らすように、戦闘を楽しんでいます。</li><li>「ジャム（音楽）」と「ジャム（食べ物）」をかけてるのかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl20.mp3"
+    },
+    {
+      "id": "doug_vl21",
+      "quote": "Feeling the salt crunch!",
+      "translation": "塩の歯ごたえを感じるぜ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「塩対応（Salty）」な状況を楽しんでるのか、単にポテチを食べてるのか。</li><li>とにかくマイペースです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl21.mp3"
+    },
+    {
+      "id": "doug_vl22",
+      "quote": "Splash damage!",
+      "translation": "スプラッシュダメージ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>範囲攻撃（スプラッシュダメージ）と、水しぶき（スプラッシュ）をかけた技名。</li><li>わかりやすくて良いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl22.mp3"
+    },
+    {
+      "id": "doug_vl23",
+      "quote": "Like a burnt chicken nugget.",
+      "translation": "焦げたチキンナゲットみたいだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられて黒焦げになった自分をチキンナゲットに例える自虐。</li><li>美味しそう…ではないですね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl23.mp3"
+    },
+    {
+      "id": "doug_vl24",
+      "quote": "Protein power!",
+      "translation": "プロテインパワー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「筋肉（プロテイン）の力を見せてやる！」的なノリ。</li><li>ホットドッグはジャンクフードですが、タンパク質は豊富です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl24.mp3"
+    },
+    {
+      "id": "doug_vl25",
+      "quote": "Come with me, little swimmers. Time for an adventure!",
+      "translation": "ついてきな、小さなスイマーたち。冒険の時間だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>味方を「小さなスイマー」と呼んで引率するリーダー気分。</li><li>頼りがいがあるような、ないような…。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl25.mp3"
+    },
+    {
+      "id": "doug_vl26",
+      "quote": "My milkshake brings all the kids to the pool!",
+      "translation": "俺のミルクシェイクが、全ての子供をプールに呼び寄せる！",
+      "explanation": "<strong>解説:</strong><br><ul><li>有名曲「Milkshake」の替え歌。</li><li>「俺の店は大人気だぜ！」という自慢です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl26.mp3"
+    },
+    {
+      "id": "doug_vl27",
+      "quote": "Go easy, keep it cheesy.",
+      "translation": "気楽にいこうぜ、チーズみたいにね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「安っぽく（Cheesy）」と「チーズたっぷりで」をかけた、ダグの人生訓。</li><li>気楽に、コテコテに楽しもうぜ！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl27.mp3"
+    },
+    {
+      "id": "doug_vl28",
+      "quote": "Don't choke on your food bro.",
+      "translation": "食い物、喉に詰まらせるなよ、ブラザー。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵を倒した時の捨て台詞。</li><li>「俺の攻撃、ヘビーすぎただろ？」という皮肉です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl28.mp3"
+    },
+    {
+      "id": "doug_vl29",
+      "quote": "Ay, gotta give credit where due.",
+      "translation": "よぉ、認めるべきは認めないとな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>敵の上手いプレイを素直に褒めるスポーツマンシップ。</li><li>こういう所が憎めない「いい奴」なんです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl29.mp3"
+    },
+    {
+      "id": "doug_vl30",
+      "quote": "You've been served!",
+      "translation": "お待ちどうさま！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「一丁上がり！」料理を提供するように、敵に攻撃をお見舞いします。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl30.mp3"
+    },
+    {
+      "id": "doug_vl31",
+      "quote": "Yo! I got the munchies.",
+      "translation": "よぉ！腹減ったな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>戦闘中なのに「小腹空いたな～」という緊張感のなさ。</li><li>常に何かしら食べてそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl31.mp3"
+    },
+    {
+      "id": "doug_vl32",
+      "quote": "Eh, light work.",
+      "translation": "あー、楽な仕事だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「こんなの朝飯前だぜ」。</li><li>軽いノリで難なく仕事をこなすカッコよさ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl32.mp3"
+    },
+    {
+      "id": "doug_vl33",
+      "quote": "Dude!",
+      "translation": "おい！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「マジかよ！」という驚きや、「やめろよ！」という抗議など、万能な一言。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl33.mp3"
+    },
+    {
+      "id": "doug_vl34",
+      "quote": "Snack attack!",
+      "translation": "スナック・アタック！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「おやつ攻撃！」なのか「おやつが食べたい発作！」なのか。</li><li>とりあえず勢いで叫んでます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl34.mp3"
+    },
+    {
+      "id": "doug_vl35",
+      "quote": "Ahh, snack break.",
+      "translation": "あー、おやつ休憩だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられたら即休憩モード。</li><li>切り替えの早さがプロ級です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl35.mp3"
+    },
+    {
+      "id": "doug_vl36",
+      "quote": "Munch the meaty goodness bro!",
+      "translation": "この肉のうまみをムシャムシャ食えよ、ブラザー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺の自慢のホットドッグを食らいな！」という攻撃ボイス。</li><li>押し売りレベルの熱意です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl36.mp3"
+    },
+    {
+      "id": "doug_vl37",
+      "quote": "Whoa, my dudes!",
+      "translation": "おっと、みんな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>仲間に対する軽い呼びかけ。「よう、お前ら！」みたいな感じ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl37.mp3"
+    },
+    {
+      "id": "doug_vl38",
+      "quote": "Mmm, keeping it crispy.",
+      "translation": "うーん、クリスピーにいくぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「新鮮でイケてる（Crispy）」状態をキープするぜ、という意味。</li><li>揚げたてのフライみたいにアツアツです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl38.mp3"
+    },
+    {
+      "id": "doug_vl39",
+      "quote": "Taking the L.",
+      "translation": "負けを受け入れるぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「はいはい、負け負け」とあっさり認める潔さ。</li><li>変に言い訳しないのがダグの良いところです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl39.mp3"
+    },
+    {
+      "id": "doug_vl40",
+      "quote": "Ha ha! Devour the Doug!",
+      "translation": "ハハ！このダグをむさぼり食え！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺を食ってみろ！」という挑発。</li><li>ホットドッグの着ぐるみを着てるだけに、冗談に聞こえません。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl40.mp3"
+    },
+    {
+      "id": "doug_vl41",
+      "quote": "Yo! Where my peeps at?",
+      "translation": "よぉ！俺の仲間はどこだ？",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺の友達（マブダチ）はどこ～？」と仲間を探す声。</li><li>寂しがり屋な一面も？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl41.mp3"
+    },
+    {
+      "id": "doug_vl42",
+      "quote": "Ay, take it easy bro.",
+      "translation": "おい、気楽にいこうぜ、ブラザー。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「そんなカリカリすんなよ」というアドバイス。</li><li>ダグと一緒にいると、悩み事もどうでもよくなりそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl42.mp3"
+    },
+    {
+      "id": "doug_vl43",
+      "quote": "Eh, easy pickens.",
+      "translation": "あー、楽な相手だな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「カモだな」と敵を見下すセリフ。</li><li>脱力しつつも、実力差はしっかり見極めています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl43.mp3"
+    },
+    {
+      "id": "doug_vl44",
+      "quote": "Daggy dog!",
+      "translation": "ダギー・ドッグ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分のテーマソングのタイトルコールみたい。</li><li>語呂が良くて言いたくなります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl44.mp3"
+    },
+    {
+      "id": "doug_vl45",
+      "quote": "It's not that serious bro!",
+      "translation": "そんなに深刻になるなよ、ブラザー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「たかがゲームじゃん、楽しもうぜ！」というダグの哲学。</li><li>ガチ勢には怒られそうですが、一理あります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl45.mp3"
+    },
+    {
+      "id": "doug_vl46",
+      "quote": "All toppings!",
+      "translation": "全部乗せだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「全力で行くぜ！」をホットドッグ屋風に言うとこうなります。</li><li>カロリーも火力もマシマシです！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl46.mp3"
+    },
+    {
+      "id": "doug_vl47",
+      "quote": "Why me bro?",
+      "translation": "なんで俺なんだよ、ブラザー？",
+      "explanation": "<strong>解説:</strong><br><ul><li>集中的に狙われた時の「なんで俺ばっかり！？」という嘆き。</li><li>タンク役の宿命です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl47.mp3"
+    },
+    {
+      "id": "doug_vl48",
+      "quote": "A wiener is you!",
+      "translation": "勝者はお前だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「勝者（Winner）」と「ウィンナー（Wiener）」をかけたダジャレ。</li><li>昔のファミコンゲームの変な英語「A WINNER IS YOU」のパロディでもあります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl48.mp3"
+    },
+    {
+      "id": "doug_vl49",
+      "quote": "Oh, that was not my moment.",
+      "translation": "ああ、今のは俺の見せ場じゃなかったな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>失敗した時に、「まあ、今回は俺の番じゃなかっただけさ」と軽く流すメンタルの強さ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl49.mp3"
+    },
+    {
+      "id": "doug_vl50",
+      "quote": "Yo! Don't be a whiner, have a wiener!",
+      "translation": "よぉ！泣き言言うな、ウィンナーでも食ってな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「Whiner（泣き言言う人）」と「Wiener（ウィンナー）」で韻を踏んだ名言。</li><li>「ウジウジしてないで飯食って元気出せ！」という、ダグなりの励ましです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/doug_vl50.mp3"
+    }
+  ]
+}

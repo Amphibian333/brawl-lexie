@@ -1,0 +1,136 @@
+{
+  "name": "ダイナマイク",
+  "nameEn": "Dynamike",
+  "rarity": "super-rare",
+  "role": "thrower",
+  "quote": "Who wants some TNT?",
+  "iconUrl": "https://i.imgur.com/ZsiDNHX.png",
+  "voicelines": [
+    {
+      "id": "dynamike_vl1",
+      "quote": "I've got a short fuse.",
+      "translation": "ワシは短気なんじゃ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"have a short fuse\" は「短気である、すぐにカッとなる」という意味の、非常によく使われるイディオム（慣用句）です。</li><li>ダイナマイトの「導火線（fuse）」が短いとすぐに爆発することから、人の性格が「怒りっぽい」ことを例えています。</li></ul><strong>英文法:</strong><br>\"I've got\" は \"I have got\" の口語的な短縮形で、「私は～を持っている」という意味です。<br><br><strong>🧠豆知識:</strong><br>このセリフは、爆弾を扱うダイナマイクのキャラクターと、「短気な老人」という性格を見事に表現したダブルミーニング（二重の意味）になっています。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl1.mp3"
+    },
+    {
+      "id": "dynamike_vl2",
+      "quote": "Birds are singin'.",
+      "translation": "鳥たちが歌っとるわい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>炭鉱で働く鉱夫が、危険を知らせるカナリアを連れていたという歴史的背景を彷彿とさせるセリフです。</li><li>\"singin'\" は \"singing\" の \"g\" を省略した口語的な発音で、のんびりした老人のキャラクターを演出しています。</li></ul><strong>英文法:</strong><br>現在進行形 \"are singing\" の短縮形です。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl2.mp3"
+    },
+    {
+      "id": "dynamike_vl3",
+      "quote": "Dynamike groans",
+      "translation": "（ダイナマイクがうめく）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>セリフではなく、行動を描写する「ト書き」です。</li><li>\"groan\" は、苦痛や不満で発せられる低いうめき声を表します。</li></ul><strong>英文法:</strong><br>動詞 \"groan\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl3.mp3"
+    },
+    {
+      "id": "dynamike_vl4",
+      "quote": "Kapowie.",
+      "translation": "ドカンとな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Kapow!\" は、爆発や強烈な一撃を表す、アメリカンコミックで頻繁に使われる擬音語（オノマトペ）です。</li><li>ダイナマイクの爆弾が炸裂した時の音を表現しています。</li></ul><strong>英文法:</strong><br>感嘆詞として機能する擬音語です。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl4.mp3"
+    },
+    {
+      "id": "dynamike_vl5",
+      "quote": "Yow!",
+      "translation": "いでっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>突然の鋭い痛みに対する、短い叫び声です。\"Ow!\" や \"Ouch!\" と同じような意味で使われます。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl5.mp3"
+    },
+    {
+      "id": "dynamike_vl6",
+      "quote": "Dynamike laughs",
+      "translation": "（ダイナマイクが笑う）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。年寄りらしい、少ししゃがれた特徴的な笑い声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"laugh\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl6.mp3"
+    },
+    {
+      "id": "dynamike_vl7",
+      "quote": "Here, birdie birdie birdie.",
+      "translation": "こっちじゃ、小鳥ちゃん、小鳥ちゃん。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"birdie\" は \"bird\" の愛称で、「小鳥ちゃん」といった親しみを込めた呼び方です。</li><li>自分のペットであるカナリアを呼んでいる、老人らしいセリフです。</li></ul><strong>英文法:</strong><br>場所を示す \"Here\" と、呼びかけの言葉を組み合わせた形です。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl7.mp3"
+    },
+    {
+      "id": "dynamike_vl8",
+      "quote": "Not bad for an old-timer.",
+      "translation": "年寄りの割には、悪くないじゃろ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"old-timer\" は「年長者、古株、老人」を指す口語的な言葉です。</li><li>自分自身の活躍を「年寄りにしちゃ上出来だ」と、少し自虐的に、しかし満足げに評価しているセリフです。</li></ul><strong>英文法:</strong><br>\"It's not bad...\" のように主語と動詞が省略されています。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl8.mp3"
+    },
+    {
+      "id": "dynamike_vl9",
+      "quote": "Don't touch my canary.",
+      "translation": "ワシのカナリアに触るんじゃない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"canary\" は、ダイナマイクが肩に乗せているペットの鳥のこと。</li><li>自分の大切な相棒に手出しをさせない、という強い警告です。</li></ul><strong>英文法:</strong><br>\"Don't + 動詞の原形\" の否定命令文です。<br><br><strong>🧠豆知識:</strong><br>かつて炭鉱では、有毒ガスを検知するために、人間より敏感なカナリアを連れて入る習慣がありました。「炭鉱のカナリア」は危険を知らせるものの比喩として使われます。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl9.mp3"
+    },
+    {
+      "id": "dynamike_vl10",
+      "quote": "Dyno-mite!",
+      "translation": "ダイナマーイト！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>爆薬の「Dynamite」と、自身の名前「Dynamike」をかけた、キャッチーな掛け声です。</li></ul><strong>英文法:</strong><br>感嘆詞として機能する固有名詞です。<br><br><strong>🧠豆知識:</strong><br>1970年代のアメリカのコメディ番組『Good Times』の登場人物の決め台詞としても有名で、ポジティブな意味での「最高！」というニュアンスも持ちます。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl10.mp3"
+    },
+    {
+      "id": "dynamike_vl11",
+      "quote": "Ow!",
+      "translation": "いてっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>痛みを感じた時の、最も一般的な感嘆詞の一つです。</li></ul><strong>英文法:</strong><br>感嘆詞です。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl11.mp3"
+    },
+    {
+      "id": "dynamike_vl12",
+      "quote": "Who wants some TNT?",
+      "translation": "誰かTNTが欲しいやつはいるか？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"TNT\" はダイナマイトと同じく強力な爆薬の一種です。</li><li>「この爆薬を食らいたいヤツは誰だ？」と、相手を挑発しながら攻撃の準備ができたことを示しています。</li></ul><strong>英文法:</strong><br>Whoで始まる疑問文の形をとった、挑発的なセリフです。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl12.mp3"
+    },
+    {
+      "id": "dynamike_vl13",
+      "quote": "I'm gettin' grumpy.",
+      "translation": "だんだん機嫌が悪くなってきたわい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"gettin'\" は \"getting\" の口語的な発音。</li><li>\"grumpy\" は「不機嫌な、気難しい」という意味で、特に老人に対して使われることが多い形容詞です。</li></ul><strong>英文法:</strong><br>\"get + 形容詞\" は「～の状態になる」という変化を表します。現在進行形で、今まさに不機嫌になってきている様子を示します。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl13.mp3"
+    },
+    {
+      "id": "dynamike_vl14",
+      "quote": "Dynamike chuckles",
+      "translation": "（ダイナマイクがククッと笑う）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"chuckle\" は、声を出さずに、あるいは含み笑いのようにククッと笑う様子を指します。何か企んでいたり、面白いものを見つけたりした時の笑いです。</li></ul><strong>英文法:</strong><br>動詞 \"chuckle\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl14.mp3"
+    },
+    {
+      "id": "dynamike_vl15",
+      "quote": "Dynamike whimpers",
+      "translation": "（ダイナマイクがすすり泣く）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>\"whimper\" は、弱々しくしくしくと泣く様子を表します。</li></ul><strong>英文法:</strong><br>動詞 \"whimper\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl15.mp3"
+    },
+    {
+      "id": "dynamike_vl16",
+      "quote": "Down the mine.",
+      "translation": "鉱山の底へ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自身の背景である「鉱山（mine）」に言及したセリフ。相手を鉱山の底へ叩き落とす、というようなニュアンスかもしれません。</li></ul><strong>英文法:</strong><br>方向を示す副詞と名詞の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl16.mp3"
+    },
+    {
+      "id": "dynamike_vl17",
+      "quote": "Dynamike blows",
+      "translation": "（ダイナマイクが爆発する）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。</li><li>ここでは \"blows\" は \"blows up\"（爆発する）の意味で使われており、自身が倒された様子を描写しています。</li></ul><strong>英文法:</strong><br>動詞 \"blow\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl17.mp3"
+    },
+    {
+      "id": "dynamike_vl18",
+      "quote": "Dynamike cries",
+      "translation": "（ダイナマイクが泣く）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ト書き」です。敗北した際の悔し涙や、痛みによる泣き声を示します。</li></ul><strong>英文法:</strong><br>動詞 \"cry\" の三人称単数現在形です。",
+      "audioUrl": "https://Amphibian333.github.io/dynamike_vl18.mp3"
+    }
+  ]
+}

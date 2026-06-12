@@ -1,0 +1,213 @@
+{
+  "name": "ジャッキー",
+  "nameEn": "Jacky",
+  "rarity": "super-rare",
+  "role": "tank",
+  "quote": "What the drill was that?!",
+  "iconUrl": "https://i.imgur.com/UCq9Vq3.png",
+  "voicelines": [
+    {
+      "id": "jacky_vl1",
+      "quote": "Let's go kick some drill!",
+      "translation": "よっしゃ、ドリルかましに行くぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"kick some butt/ass\"（ぶちのめす）という攻撃的なスラングを、彼女のテーマである \"drill\" に置き換えたユニークな表現です。</li></ul><strong>英文法:</strong><br>\"Let's go + 動詞\" は「～しに行こう！」というカジュアルな誘いの形です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl1.mp3"
+    },
+    {
+      "id": "jacky_vl2",
+      "quote": "Ha, I'm wicked good!",
+      "translation": "ハッ、あたし超つえーから！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"wicked\" は、特にアメリカのニューイングランド地方で使われるスラングで、「とても、すごく」という意味の強調語です。</li></ul><strong>英文法:</strong><br>副詞として形容詞 \"good\" を修飾しています。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl2.mp3"
+    },
+    {
+      "id": "jacky_vl3",
+      "quote": "Hey! Leave me alone.",
+      "translation": "ちょっと！ほっといてよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>攻撃されたり、しつこくされたりした時に使う、怒りや苛立ちのこもったセリフです。</li></ul><strong>英文法:</strong><br>動詞 \"Leave\" で始まる命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl3.mp3"
+    },
+    {
+      "id": "jacky_vl4",
+      "quote": "Ha! Got you good.",
+      "translation": "ハッ！うまくやったぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"got you good\" は「うまくやった」「一杯食わせた」「しっかり当てた」といった意味の口語表現です。</li></ul><strong>英文法:</strong><br>\"get someone good\" で「（人）をうまくやっつける」というニュアンスになります。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl4.mp3"
+    },
+    {
+      "id": "jacky_vl5",
+      "quote": "I'll stick a drill in your drill!",
+      "translation": "ドリルをお前のドリルにぶち込むぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>過激な言葉（ナイフなど）を、自身のテーマである \"drill\" に置き換えることで、放送禁止用語を回避しつつ攻撃的な意志を示す、ジャッキー特有の言葉遊びです。</li></ul><strong>英文法:</strong><br>未来形 \"I will\" を使った脅し文句です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl5.mp3"
+    },
+    {
+      "id": "jacky_vl6",
+      "quote": "Drill skills? Yeah!",
+      "translation": "ドリルスキル？あったりまえよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の能力（ドリルスキル）について問われ、自信満々に即答する威勢のいいセリフです。</li></ul><strong>英文法:</strong><br>省略された質問に \"Yeah!\" だけで答える、非常にカジュアルな会話形式です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl6.mp3"
+    },
+    {
+      "id": "jacky_vl7",
+      "quote": "Time to go to work.",
+      "translation": "さーて、お仕事の時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これから始まる戦いを「仕事」と捉えている、プロフェッショナルな一面が垣間見えるセリフです。</li></ul><strong>英文法:</strong><br>\"Time to + 動詞\" で「～する時間だ」という定番の表現です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl7.mp3"
+    },
+    {
+      "id": "jacky_vl8",
+      "quote": "Jacked up Jacky does it again.",
+      "translation": "最強ジャッキー、またやったぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"jacked up\" は「興奮している」「筋肉隆々の」「テンションが高い」といった意味のスラング。自分の名前とかけています。</li></ul><strong>英文法:</strong><br>自分を三人称で語ることで、客観的な事実のように自分の功績をアピールしています。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl8.mp3"
+    },
+    {
+      "id": "jacky_vl9",
+      "quote": "You dirty drill!",
+      "translation": "このクソドリル野郎！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"dirty\" は「汚い」の他に「卑怯な」という意味もあり、相手への罵り言葉として使われます。ここでも不適切な単語の代わりに \"drill\" を使っています。</li></ul><strong>英文法:</strong><br>「You + 形容詞 + 名詞」の形で相手を罵る際の典型的な言い方です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl9.mp3"
+    },
+    {
+      "id": "jacky_vl10",
+      "quote": "That's what you get!",
+      "translation": "当然の報いだね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が悪いことをした結果、罰が当たったというような場面で使う決まり文句。「自業自得だ」というニュアンスです。</li></ul><strong>英文法:</strong><br>関係代名詞 \"what\" を使った構文です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl10.mp3"
+    },
+    {
+      "id": "jacky_vl11",
+      "quote": "drill and drill, and drill, and also drill!",
+      "translation": "ドリル！ドリル！ドリル！そしてまたドリルだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>意味よりもリズムと勢いを重視し、「ドリル」という単語を連呼することで、彼女のキャラクター性（ドリル狂）を強調しています。</li></ul><strong>英文法:</strong><br>単語の羅列による表現です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl11.mp3"
+    },
+    {
+      "id": "jacky_vl12",
+      "quote": "Jacky laughs",
+      "translation": "（ジャッキーの豪快な笑い）",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>感情豊かで、戦いを楽しんでいる様子が伝わる効果音です。</li></ul><strong>英文法:</strong><br>主語 \"Jacky\" に続く三人称単数現在の動詞。行動を描写しています。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl12.mp3"
+    },
+    {
+      "id": "jacky_vl13",
+      "quote": "I'll fix this situation.",
+      "translation": "あたしがこの状況、なんとかしてやるよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>建設作業員らしい \"fix\"（修理する）という単語を、「状況を改善する」「問題を解決する」という意味で使っています。</li></ul><strong>英文法:</strong><br>未来形 \"I will\" を使った、意志の強い発言です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl13.mp3"
+    },
+    {
+      "id": "jacky_vl14",
+      "quote": "This is one wicked rippa!",
+      "translation": "こりゃマジで最高だぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"wicked rippa!\" はオーストラリア英語のスラングで、「すごく良いもの」「最高のもの」を意味します。</li></ul><strong>英文法:</strong><br>\"one\" はここでは \"a\" の強調形のような役割で使われています。<br><br><strong>🧠豆知識:</strong><br>\"ripper\" はオーストラリアで「素晴らしい」を意味する一般的なスラングで、\"rippa\" はそのくだけた発音です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl14.mp3"
+    },
+    {
+      "id": "jacky_vl15",
+      "quote": "Why, I oughta...",
+      "translation": "あぁん？やんのか、コラ…！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"I ought to...\"（私は～すべきだ）と言いかけることで、怒りで次の言葉が出てこない様子を表現する、古風でコミカルな言い回しです。</li></ul><strong>英文法:</strong><br>助動詞 \"ought to\" を使った文の途中で言葉を切っています。<br><br><strong>🧠豆知識:</strong><br>古いアメリカのカートゥーンなどで、キャラクターが怒りを爆発させる直前によく使われるセリフです。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl15.mp3"
+    },
+    {
+      "id": "jacky_vl16",
+      "quote": "Ha! I got plenty more where that came from.",
+      "translation": "ハッ！こんなのまだまだ序の口よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「それが出てきた場所には、まだたくさんある」というのが直訳。自分の攻撃や能力が、まだまだ底をついていないことを見せつける余裕のセリフです。</li></ul><strong>英文法:</strong><br>関係副詞 \"where\" を使ったイディオム（慣用句）です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl16.mp3"
+    },
+    {
+      "id": "jacky_vl17",
+      "quote": "Seriously? drill this!",
+      "translation": "マジで？クソくらえだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"drill this!\" は、怒りや苛立ちを表す \"screw this!\"（もうどうでもいい、クソくらえ）の婉曲表現です。</li></ul><strong>英文法:</strong><br>命令文の形で、強い拒絶や怒りを示します。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl17.mp3"
+    },
+    {
+      "id": "jacky_vl18",
+      "quote": "Drilla!",
+      "translation": "ドリラァーッ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の象徴である「ドリル」を、技名のように、あるいは単なる雄叫びとして叫んでいます。</li></ul><strong>英文法:</strong><br>感嘆詞的な単語です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl18.mp3"
+    },
+    {
+      "id": "jacky_vl19",
+      "quote": "Outta my way, jabroni.",
+      "translation": "どきな、この雑魚が！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Outta\" は \"Out of\" の口語的な短縮形です。</li><li>\"jabroni\" はプロレス由来のスラングで、「やられ役のレスラー」「価値のないやつ」といった意味の侮蔑語です。</li></ul><strong>英文法:</strong><br>命令文と呼びかけの組み合わせです。<br><br><strong>🧠豆知識:</strong><br>\"jabroni\" は、プロレスラーのザ・ロック（俳優ドウェイン・ジョンソン）が広めたことで非常に有名になりました。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl19.mp3"
+    },
+    {
+      "id": "jacky_vl20",
+      "quote": "drill yeah!",
+      "translation": "ドリル最高ー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>強い同意や興奮を表す \"Hell yeah!\" を、彼女らしく \"drill yeah!\" に置き換えた表現です。</li></ul><strong>英文法:</strong><br>感嘆詞の変形です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl20.mp3"
+    },
+    {
+      "id": "jacky_vl21",
+      "quote": "Holy drill!",
+      "translation": "なんてこった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>強い驚きを表す \"Holy cow!\" や \"Holy crap!\" といった表現の \"Holy\" を使い、不適切な単語の代わりに \"drill\" を入れています。</li></ul><strong>英文法:</strong><br>感嘆詞の定型句をもじったものです。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl21.mp3"
+    },
+    {
+      "id": "jacky_vl22",
+      "quote": "How do you like them apples?",
+      "translation": "どうだ、まいったか！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を打ち負かしたり、やり込めたりした時に使う、アメリカ英語の非常に口語的な煽り文句。「この結果をどう思う？（悔しいだろ？）」というニュアンスです。</li></ul><strong>英文法:</strong><br>疑問文の形をとった、挑発的なイディオムです。<br><br><strong>🧠豆知識:</strong><br>映画『グッド・ウィル・ハンティング/旅立ち』の名シーンで使われたことでも知られています。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl22.mp3"
+    },
+    {
+      "id": "jacky_vl23",
+      "quote": "What the drill was that?!",
+      "translation": "今のドリルは何なんだよ！？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"What the hell...?\" という、怒りや混乱を強調する疑問文の \"hell\" の部分を \"drill\" に置き換えた、ジャッキー流の表現です。</li></ul><strong>英文法:</strong><br>強調の \"the + [不適切な単語]\" という形を、彼女のテーマでパロディ化しています。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl23.mp3"
+    },
+    {
+      "id": "jacky_vl24",
+      "quote": "It's drillin' time!",
+      "translation": "ドリルの時間だぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「さあ、やるぞ！」という戦闘開始の合図。「It's morphin' time!」（パワーレンジャーの変身時の掛け声）など、様々なヒーローものの決め台詞のパロディです。</li></ul><strong>英文法:</strong><br>\"drillin'\" は \"drilling\" の口語的な発音です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl24.mp3"
+    },
+    {
+      "id": "jacky_vl25",
+      "quote": "Hey! Watch out, chowderhead.",
+      "translation": "おい！そこのマヌケ、気をつけな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Watch out\" は「危ない、気をつけろ」という警告。</li><li>\"chowderhead\" は「アホ、とんま」といった意味の、少し古風でコミカルな侮辱語です。</li></ul><strong>英文法:</strong><br>命令文と呼びかけの組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl25.mp3"
+    },
+    {
+      "id": "jacky_vl26",
+      "quote": "Ha. You look bored.",
+      "translation": "ハッ、退屈そうなツラしてんな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が自分との戦いにすら値しない、と見下したような挑発セリフです。</li></ul><strong>英文法:</strong><br>\"look + 形容詞\" は「～のように見える」という意味です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl26.mp3"
+    },
+    {
+      "id": "jacky_vl27",
+      "quote": "Come to Jacky and get some smacky!",
+      "translation": "ジャッキーのとこに来たら、お見舞いしちゃうぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>韻を踏んだリズミカルな脅し文句。</li><li>\"smacky\" は \"smack\"（平手打ちする）を幼児語のように可愛らしくした言葉で、脅しながらもどこかコミカルです。</li></ul><strong>英文法:</strong><br>命令文の形をとった挑発です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl27.mp3"
+    },
+    {
+      "id": "jacky_vl28",
+      "quote": "Bore off.",
+      "translation": "うっせーな、消えろ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Bore off\" は、イギリス英語で「うるさい、あっちへ行け」という意味の、かなり失礼な命令です。\"piss off\" の少しだけ丁寧な（しかし依然として失礼な）言い方です。</li></ul><strong>英文法:</strong><br>句動詞を使った命令文です。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl28.mp3"
+    },
+    {
+      "id": "jacky_vl29",
+      "quote": "Hey chucklehead, come over here!",
+      "translation": "おい、マヌケ、こっち来いよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"chucklehead\" は「お馬鹿さん、間抜け」といった意味の、相手を小馬鹿にする呼びかけです。</li></ul><strong>英文法:</strong><br>呼びかけと命令文の組み合わせです。",
+      "audioUrl": "https://Amphibian333.github.io/jacky_vl29.mp3"
+    }
+  ]
+}

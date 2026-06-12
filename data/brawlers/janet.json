@@ -1,0 +1,269 @@
+{
+  "name": "ジャネット",
+  "nameEn": "Janet",
+  "rarity": "ultra-rare",
+  "role": "damage-dealer",
+  "quote": "Let's rock!",
+  "iconUrl": "https://i.imgur.com/Fv4SoVw.png",
+  "voicelines": [
+    {
+      "id": "janet_vl1",
+      "quote": "Rocket-fueled awesomeness!",
+      "translation": "ロケット燃料の素晴らしさよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私のイケてるパワーの源はロケット燃料よ！」という自信満々なセリフ。</li><li>ジェットパックで飛び回る彼女ならではの表現です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl1.mp3"
+    },
+    {
+      "id": "janet_vl2",
+      "quote": "I'm on another level.",
+      "translation": "私は次元が違うの。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「格が違うわよ」という意味と、物理的に「空を飛んでて高い場所にいる」という二つの意味をかけたオシャレな自慢。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl2.mp3"
+    },
+    {
+      "id": "janet_vl3",
+      "quote": "I am dangerous.",
+      "translation": "私は危険よ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>シンプルだけど迫力のある警告。</li><li>空からの爆撃は実際めちゃくちゃ危険なので、説得力があります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl3.mp3"
+    },
+    {
+      "id": "janet_vl4",
+      "quote": "Catch you on the flip side.",
+      "translation": "また裏側で会いましょ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「じゃあね」のカッコいい言い方。元はレコードのB面（裏側）のこと。</li><li>空へ飛び立つ時や、颯爽と去っていく時に使いたいクールな別れの挨拶です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl4.mp3"
+    },
+    {
+      "id": "janet_vl5",
+      "quote": "Up, up and away!",
+      "translation": "上へ、上へ、そして彼方へ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>スーパーマンが飛ぶ時の有名な決め台詞！</li><li>まさにヒーローのように空高く舞い上がるウルト発動時にぴったりです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl5.mp3"
+    },
+    {
+      "id": "janet_vl6",
+      "quote": "Brace for impact.",
+      "translation": "衝撃に備えて。",
+      "explanation": "<strong>解説:</strong><br><ul><li>飛行機の緊急着陸アナウンス。</li><li>ウルトで着地してドーン！とダメージを与える直前の予告です。逃げろ！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl6.mp3"
+    },
+    {
+      "id": "janet_vl7",
+      "quote": "Ice in my veins.",
+      "translation": "私の血管に流れるは氷。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私はいつだって冷静よ（プレッシャーに強いわよ）」という意味のカッコいいイディオム。</li><li>激しい空中戦でもクールさを失わないプロ根性を感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl7.mp3"
+    },
+    {
+      "id": "janet_vl8",
+      "quote": "You clearly aren't a fan.",
+      "translation": "あなた、明らかにファンじゃないわね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>攻撃してきた相手に対して、「私のファンならそんなことしないはずでしょ？」というスター気取りのジョーク。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl8.mp3"
+    },
+    {
+      "id": "janet_vl9",
+      "quote": "Remember peeps, no points for second place.",
+      "translation": "覚えておきなさいみんな、2位に得点はないのよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「勝たなきゃ意味がない！」という厳しいプロの世界の教え。</li><li>仲間に発破をかける姉御肌な一面が見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl9.mp3"
+    },
+    {
+      "id": "janet_vl10",
+      "quote": "People, Janet has left the building.",
+      "translation": "皆さん、ジャネットはもうここにはいませんよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>エルヴィス・プレスリーのコンサート終了アナウンスのパロディ。</li><li>「ショーは終わりよ（私が勝ったからね）」という勝利宣言です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl10.mp3"
+    },
+    {
+      "id": "janet_vl11",
+      "quote": "Rocket Girl!",
+      "translation": "ロケットガール！",
+      "explanation": "<strong>解説:</strong><br><ul><li>自分のヒーローネームを高らかに叫ぶ！シンプルイズベスト。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl11.mp3"
+    },
+    {
+      "id": "janet_vl12",
+      "quote": "Watch the birdie!",
+      "translation": "はい、鳥さんを見て！",
+      "explanation": "<strong>解説:</strong><br><ul><li>写真を撮る時の「はい、チーズ」みたいな言葉。</li><li>上空から爆撃する自分（鳥さん）に注目させておいて、ドカン！という戦法です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl12.mp3"
+    },
+    {
+      "id": "janet_vl13",
+      "quote": "Seems unfair, since I'm rocket-powered!",
+      "translation": "不公平みたいね、だって私はロケットパワーなんだから！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私が強すぎるのはロケットのせいだから、あなたたちが負けるのは仕方ないわね」という余裕の表れ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl13.mp3"
+    },
+    {
+      "id": "janet_vl14",
+      "quote": "What a dork!",
+      "translation": "なんてマヌケなの！",
+      "explanation": "<strong>解説:</strong><br><ul><li>相手のミスを見逃さず、軽くディスる一言。</li><li>イケてるロックスターから見たら、地上の敵はダサく見えるのかも？</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl14.mp3"
+    },
+    {
+      "id": "janet_vl15",
+      "quote": "Sorry can't see you from up here.",
+      "translation": "ごめんなさい、ここからじゃあなたが見えないわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「あんたなんか眼中にない（小さすぎて見えない）」という強烈な見下し発言。</li><li>空を飛んでる彼女にしか言えない煽りです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl15.mp3"
+    },
+    {
+      "id": "janet_vl16",
+      "quote": "Total bummer.",
+      "translation": "マジで最悪。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられた時や、うまくいかなかった時の若者言葉。「マジ萎える～」くらいの軽さです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl16.mp3"
+    },
+    {
+      "id": "janet_vl17",
+      "quote": "Encore!",
+      "translation": "アンコール！",
+      "explanation": "<strong>解説:</strong><br><ul><li>素晴らしいプレイを決めて、自分でアンコールを要求しちゃう！</li><li>観客を盛り上げるスターの鑑です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl17.mp3"
+    },
+    {
+      "id": "janet_vl18",
+      "quote": "Flying high as a kite and ready to fight!",
+      "translation": "凧のように高く飛んで、戦う準備はできてる！",
+      "explanation": "<strong>解説:</strong><br><ul><li>韻を踏んだリズミカルな自己紹介。</li><li>「空高く舞い上がって、やる気満々よ！」というポジティブなエネルギーを感じます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl18.mp3"
+    },
+    {
+      "id": "janet_vl19",
+      "quote": "Let's reach for the stars, baby.",
+      "translation": "星に手を伸ばしましょ、ベイビー。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「高い目標を目指そう」という言葉通りの意味と、ロケットで星まで飛んでいこうという文字通りの意味。</li><li>ロマンチックでカッコいいセリフです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl19.mp3"
+    },
+    {
+      "id": "janet_vl20",
+      "quote": "Not groovy.",
+      "translation": "イケてないわね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ちょっと古い言い回しで「ダサい」「良くない」と評価。</li><li>レトロなロックスター感が出ていて素敵です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl20.mp3"
+    },
+    {
+      "id": "janet_vl21",
+      "quote": "I'm high, you're low.",
+      "translation": "私は高く、あなたは低い。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「私は空（高み）にいて、あなたは地面（低レベル）にいる」という、物理的にも精神的にもマウントを取る発言。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl21.mp3"
+    },
+    {
+      "id": "janet_vl22",
+      "quote": "Peace out.",
+      "translation": "じゃあね。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ヒップホップ的な軽い別れの挨拶。</li><li>ウルトで空に逃げる時や、敵を倒して去っていく時に言うと最高にクール！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl22.mp3"
+    },
+    {
+      "id": "janet_vl23",
+      "quote": "Let's drop some candies.",
+      "translation": "キャンディーを落としましょ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>爆弾のことを「キャンディー」と呼ぶ可愛らしさ（怖さ）。</li><li>「プレゼント（爆撃）をお届けするわよ～」というノリです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl23.mp3"
+    },
+    {
+      "id": "janet_vl24",
+      "quote": "Let's rock this out!",
+      "translation": "派手にやっちゃいましょう！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ライブを始める時のような掛け声。「この場を最高に盛り上げようぜ！」</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl24.mp3"
+    },
+    {
+      "id": "janet_vl25",
+      "quote": "I'm playing among the stars.",
+      "translation": "私は星々の間で遊んでいるの。",
+      "explanation": "<strong>解説:</strong><br><ul><li>空を飛んでいることと、自分がスターであることをかけた詩的な表現。</li><li>凡人には届かない場所にいる、という特別感があります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl25.mp3"
+    },
+    {
+      "id": "janet_vl26",
+      "quote": "Don't be a downer.",
+      "translation": "場をしらけさせないでよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ネガティブな発言をする人や、邪魔をしてくる相手への注意。</li><li>「せっかく盛り上がってるんだから水差さないで！」</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl26.mp3"
+    },
+    {
+      "id": "janet_vl27",
+      "quote": "Yeahhh!",
+      "translation": "イェーイ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>テンションMAXのシャウト！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl27.mp3"
+    },
+    {
+      "id": "janet_vl28",
+      "quote": "♫R.I.P. to me.",
+      "translation": "♫私に、安らかな眠りを。",
+      "explanation": "<strong>解説:</strong><br><ul><li>やられたことを歌にしてしまうエンターテイナーっぷり。</li><li>「私、死んじゃった～♪」とドラマチックに散っていきます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl28.mp3"
+    },
+    {
+      "id": "janet_vl29",
+      "quote": "To the stars!",
+      "translation": "星々へ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>空へ飛び立つ時の合言葉。無限の彼方へ！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl29.mp3"
+    },
+    {
+      "id": "janet_vl30",
+      "quote": "It's gonna be a trip.",
+      "translation": "最高の体験になるわよ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「トリップ（旅／幻覚体験）」しちゃうくらい凄いショーを見せてあげる、という誘い文句。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl30.mp3"
+    },
+    {
+      "id": "janet_vl31",
+      "quote": "♫Yeah, yeah, yeah!",
+      "translation": "♫イェー、イェー、イェー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ビートルズの名曲みたいに、ノリノリで歌っちゃってます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl31.mp3"
+    },
+    {
+      "id": "janet_vl32",
+      "quote": "Pai-i-in.",
+      "translation": "い、た、み…",
+      "explanation": "<strong>解説:</strong><br><ul><li>ダメージを受けた時の「痛い」も、歌うように表現。</li><li>どんな時でもパフォーマンスを忘れないプロ意識（？）です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl32.mp3"
+    },
+    {
+      "id": "janet_vl33",
+      "quote": "♫I'm about to crash and burn.",
+      "translation": "♫もうすぐ墜落して、燃え尽きるわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けそうな状況すら歌詞にして歌う、悲劇のヒロインごっこ。</li><li>「もうダメだ～」とメロディアスに嘆いています。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl33.mp3"
+    },
+    {
+      "id": "janet_vl34",
+      "quote": "Fly me to the moon.",
+      "translation": "私を月に連れてって。",
+      "explanation": "<strong>解説:</strong><br><ul><li>ジャズの名曲のタイトル。</li><li>ロマンチックな雰囲気ですが、物理的に月まで飛んでいきそうな勢いです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl34.mp3"
+    },
+    {
+      "id": "janet_vl35",
+      "quote": "This is your pilot speaking. ♫Heyeaaah!",
+      "translation": "こちらパイロット。♫ヒャー！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「機長よりご案内します」という真面目なアナウンスから、突然の絶叫！</li><li>ロックなパイロットによる、クレイジーなフライトの始まりです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl35.mp3"
+    },
+    {
+      "id": "janet_vl36",
+      "quote": "I feel low.",
+      "translation": "気分が落ち込むわ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「高度が低い」のと「テンションが低い」のをかけたダブルミーニング。</li><li>飛べないと調子が出ないようです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl36.mp3"
+    },
+    {
+      "id": "janet_vl37",
+      "quote": "♫Pa-a-ain.",
+      "translation": "♫い・た・み…",
+      "explanation": "<strong>解説:</strong><br><ul><li>苦しみすらも芸術（歌）にしてしまうジャネット。</li><li>最後までエンターテイナーです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/janet_vl37.mp3"
+    }
+  ]
+}

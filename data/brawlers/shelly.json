@@ -1,0 +1,108 @@
+{
+  "name": "シェリー",
+  "nameEn": "Shelly",
+  "rarity": "starting",
+  "role": "damage-dealer",
+  "quote": "Let's go get 'em!",
+  "iconUrl": "https://i.imgur.com/TgOjtzu.png",
+  "voicelines": [
+    {
+      "id": "shelly_vl1",
+      "quote": "Let's go!",
+      "translation": "行くぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ゲームやスポーツで士気を高めるためによく使われる「行くぞ！」という気合の入った掛け声です。</li><li>仲間を誘い、一緒に行動を開始する際の定番フレーズです。</li></ul><strong>英文法:</strong><br>\"Let's\" は \"let us\" の短縮形です。「Let's + 動詞の原形」の形で、「（一緒に）～しよう」と提案や誘いかけを表す、非常に基本的な命令文の一種です。<br><br><strong>🧠豆知識:</strong><br>映画、スポーツ、ゲームなど、チームで何かを始めるあらゆる場面で聞くことができる、最も代表的な英語の掛け声の一つと言えます。",
+      "audioUrl": "https://Amphibian333.github.io/shelly_vl1.mp3"
+    },
+    {
+      "id": "shelly_vl2",
+      "quote": "Winning.",
+      "translation": "勝ちだね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>勝利を確信した時や、まさに勝利している瞬間に発せられるセリフです。</li><li>\"I am winning.\" や \"This is winning.\" のように、文の他の部分が省略されています。</li></ul><strong>英文法:</strong><br>動詞 \"win\" の現在分詞形 \"winning\" が単独で使われています。口語では、このように単語だけで状況や感情を表現することが日常的に行われます。",
+      "audioUrl": "https://Amphibian333.github.io/shelly_vl2.mp3"
+    },
+    {
+      "id": "shelly_vl3",
+      "quote": "Let's go get 'em.",
+      "translation": "あいつらをやっつけに行こう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"go get 'em\" は「彼らをやっつけに行く」「捕まえに行く」という意味の非常に活気ある口語表現です。</li><li>\" 'em \" は \"them\" の口語的な短縮形で、「エム」のように発音されます。</li></ul><strong>英文法:</strong><br>\"Let's go get 'em\" は \"Let us go and get them\" の形が、口語として非常にカジュアルに省略されたものです。このように `and` が省略されることは話し言葉では頻繁に起こります。<br><br><strong>🧠豆知識:</strong><br>\"Go get 'em!\" は単独でも「頑張れ！」「やっちまえ！」という意味の応援の言葉として非常によく使われます。",
+      "audioUrl": "https://Amphibian333.github.io/shelly_vl3.mp3"
+    },
+    {
+      "id": "shelly_vl4",
+      "quote": "Let's do this.",
+      "translation": "さあ、やろう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>何かを始める前に、自分自身やチームメイトを鼓舞するための決め台詞です。</li><li>「これをやろう！」と意気込み、行動に移る合図として使われます。</li></ul><strong>英文法:</strong><br>\"Let's go!\" と同じく、「Let's + 動詞の原形」の構文です。\"this\" は、これから行う特定の行動や挑戦を指します。",
+      "audioUrl": "https://Amphibian333.github.io/shelly_vl4.mp3"
+    },
+    {
+      "id": "shelly_vl5",
+      "quote": "Boom!",
+      "translation": "ドカン！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>爆発音や、ショットガンが放たれた時の大きなインパクトを表す擬音語（オノマトペ）です。</li></ul><strong>英文法:</strong><br>感嘆詞の一種で、文法的な構造はありません。アクションゲームやアメリカンコミックで、効果音として頻繁に使われる表現です。",
+      "audioUrl": "https://Amphibian333.github.io/shelly_vl5.mp3"
+    },
+    {
+      "id": "shelly_vl6",
+      "quote": "¡Así me gusta!",
+      "translation": "そうこなくっちゃ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スペイン語で、何かが思い通りに進んだ時や、良い状況になった時に使われる満足感のこもった表現です。</li><li>直訳は「私はそのように好きだ」で、日本語の「いいぞ！」「その調子！」といったニュアンスに近いです。</li></ul><strong>英文法:</strong><br>スペイン語の構文です。「Así」は「そのように」、「me」は「私に」、「gusta」は「好む」を意味する動詞です。",
+      "audioUrl": "https://Amphibian333.github.io/shelly_vl6.mp3"
+    },
+    {
+      "id": "shelly_vl7",
+      "quote": "No!",
+      "translation": "だめだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>怒り、焦り、拒絶など、様々なネガティブな感情を一声で表現できる万能な否定の感嘆詞です。</li></ul><strong>英文法:</strong><br>感嘆詞として単独で使われます。イントネーションの強さで感情の度合いが変わります。",
+      "audioUrl": "https://Amphibian333.github.io/shelly_vl7.mp3"
+    },
+    {
+      "id": "shelly_vl8",
+      "quote": "Bling bling.",
+      "translation": "キラッキラ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>金や宝石、あるいは戦利品などが豪華で派手に輝いている様子を表す擬音語（オノマトペ）です。</li></ul><strong>英文法:</strong><br>名詞や感嘆詞として使われます。同じ単語を繰り返すことで、リズミカルな響きと強調の効果があります。<br><br><strong>🧠豆知識:</strong><br>元々は1990年代のヒップホップ文化から広まったスラングで、富やステータスの象徴として使われるようになりました。",
+      "audioUrl": "https://Amphibian333.github.io/shelly_vl8.mp3"
+    },
+    {
+      "id": "shelly_vl9",
+      "quote": "Yes!",
+      "translation": "よし！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>勝利や成功、作戦がうまくいった時など、ポジティブな結果に対する喜びを表す最も基本的な感嘆詞です。「やった！」というニュアンスです。</li></ul><strong>英文法:</strong><br>感嘆詞として単独で使われます。「No!」と対をなす基本的な感情表現です。",
+      "audioUrl": "https://Amphibian333.github.io/shelly_vl9.mp3"
+    },
+    {
+      "id": "shelly_vl10",
+      "quote": "¡Increíble!",
+      "translation": "信じられない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スペイン語で、英語の \"incredible\" にあたる言葉です。</li><li>信じがたいほど素晴らしいプレイが決まった時など、嬉しい驚きや強い感動を表します。</li></ul><strong>英文法:</strong><br>スペイン語の形容詞で、感嘆文として単独で使われています。",
+      "audioUrl": "https://Amphibian333.github.io/shelly_vl10.mp3"
+    },
+    {
+      "id": "shelly_vl11",
+      "quote": "Yippee!",
+      "translation": "やったー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>喜びや興奮が最高潮に達した時に、子供のように無邪気に発せられる歓声です。「わーい！」といったニュアンスです。</li></ul><strong>英文法:</strong><br>感嘆詞の一種です。<br><br><strong>🧠豆知識:</strong><br>西部劇などでカウボーイが使うイメージもありますが、現代では主に子供が使うか、大人がふざけて使うことが多い、陽気な表現です。",
+      "audioUrl": "https://Amphibian333.github.io/shelly_vl11.mp3"
+    },
+    {
+      "id": "shelly_vl12",
+      "quote": "Bang.",
+      "translation": "バーン。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>銃声や何かが破裂する音を表す、シンプルで直接的な擬音語です。</li></ul><strong>英文法:</strong><br>感嘆詞として使われる擬音語です。\"Boom!\" よりも少し乾いた、単発の音のイメージがあります。",
+      "audioUrl": "https://Amphibian333.github.io/shelly_vl12.mp3"
+    },
+    {
+      "id": "shelly_vl13",
+      "quote": "¡Fantástico!",
+      "translation": "素晴らしい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スペイン語で、英語の \"fantastic\" にあたる言葉です。</li><li>何かをテンション高く称賛する際に使い、「最高！」「素晴らしい！」といったポジティブな意味を持ちます。</li></ul><strong>英文法:</strong><br>スペイン語の形容詞で、感嘆文として単独で使われています。",
+      "audioUrl": "https://Amphibian333.github.io/shelly_vl13.mp3"
+    },
+    {
+      "id": "shelly_vl14",
+      "quote": "Woo-hoo!",
+      "translation": "イェーイ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>興奮や喜びがピークに達した時の、理屈抜きの歓声です。日本語の「やったー！」や「いえーい！」に非常に近いニュアンスです。</li></ul><strong>英文法:</strong><br>感嘆詞の一種で、感情をそのまま音にしたような表現です。",
+      "audioUrl": "https://Amphibian333.github.io/shelly_vl14.mp3"
+    }
+  ]
+}

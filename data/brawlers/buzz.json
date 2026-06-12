@@ -1,0 +1,283 @@
+{
+  "name": "バズ",
+  "nameEn": "Buzz",
+  "rarity": "ultra-rare",
+  "role": "assassin",
+  "quote": "Director Buzz, on set!",
+  "iconUrl": "https://i.imgur.com/OZVzFCH.png",
+  "voicelines": [
+    {
+      "id": "buzz_vl1",
+      "quote": "No one drowns when I'm around!",
+      "translation": "俺がいる限り、誰も溺れさせない！",
+      "explanation": "<strong>解説:</strong><br><ul><li>頼れるライフガードの鑑！「俺の目の届く範囲では、誰一人として脱落（溺死）させないぞ」という、タンクキャラらしい頼もしい宣言です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl1.mp3"
+    },
+    {
+      "id": "buzz_vl2",
+      "quote": "I rule this pool!",
+      "translation": "このプールは俺が支配する！",
+      "explanation": "<strong>解説:</strong><br><ul><li>プール（戦場）の支配者は俺だ！韻を踏んでてリズムが良いですね。エリアコントロールが得意なバズにぴったり。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl2.mp3"
+    },
+    {
+      "id": "buzz_vl3",
+      "quote": "That's my whistle!",
+      "translation": "それは俺のホイッスルだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>商売道具のホイッスルへの愛が強すぎる！触ろうとするとガチで怒られそうです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl3.mp3"
+    },
+    {
+      "id": "buzz_vl4",
+      "quote": "Don't mess with the whistle!",
+      "translation": "そのホイッスルに手を出すな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺のホイッスルをナメるなよ！」という警告。スタン攻撃を当てた時に言いたいですね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl4.mp3"
+    },
+    {
+      "id": "buzz_vl5",
+      "quote": "I just wanted to help!",
+      "translation": "ただ助けたかっただけなのに！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルトで突っ込んだら返り討ちに遭った時の言い訳。「助けようとしただけなのに～！」って、余計なお世話感が出てて笑えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl5.mp3"
+    },
+    {
+      "id": "buzz_vl6",
+      "quote": "To the rescue!",
+      "translation": "救助に向かう！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルト発射！味方のピンチ（あるいは敵を倒すチャンス）に一直線に飛んでいく時の掛け声です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl6.mp3"
+    },
+    {
+      "id": "buzz_vl7",
+      "quote": "Only a fool messes with my pool!",
+      "translation": "俺のプールに手を出すのは愚か者だけだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺のシマを荒らす奴はバカだ」ってこと。プールとフールで韻を踏んだ、軽快な煽り文句です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl7.mp3"
+    },
+    {
+      "id": "buzz_vl8",
+      "quote": "Eat my bubbles!",
+      "translation": "俺の泡を食らいな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺の出した泡でも食らってろ！」という挑発。車やバイクで追い抜く時の「排気ガスでも吸ってろ」の水泳版ですね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl8.mp3"
+    },
+    {
+      "id": "buzz_vl9",
+      "quote": "That's a warning!",
+      "translation": "これは警告だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>通常攻撃を当てた時のセリフ。「次はないぞ」という警告射撃みたいなニュアンスです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl9.mp3"
+    },
+    {
+      "id": "buzz_vl10",
+      "quote": "Don't be salty! Take a shower.",
+      "translation": "イライラするなよ！シャワーでも浴びてこい。",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けてイライラしてる（Salty）相手に、「シャワーでも浴びて頭冷やしてこいよ」という極上の煽り。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl10.mp3"
+    },
+    {
+      "id": "buzz_vl11",
+      "quote": "Why does nobody like me?",
+      "translation": "なんで誰も俺を好きじゃないんだ？",
+      "explanation": "<strong>解説:</strong><br><ul><li>厳しいことばかり言うから嫌われちゃってる？ちょっと寂しそうなバズの一面が垣間見えます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl11.mp3"
+    },
+    {
+      "id": "buzz_vl12",
+      "quote": "Certified life-saver!",
+      "translation": "公認ライフセーバーだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「俺は免許持ちのプロだぞ！」というアピール。実力を見せつけた時にドヤ顔で言いましょう。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl12.mp3"
+    },
+    {
+      "id": "buzz_vl13",
+      "quote": "Time to make a splash!",
+      "translation": "派手にやらかす時間だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「派手に暴れる時間だ！」という意味と、水しぶき（splash）をかけた上手い表現。ウルトで飛び込む直前のワクワク感が伝わります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl13.mp3"
+    },
+    {
+      "id": "buzz_vl14",
+      "quote": "Not to blow my own whistle, but I'm awesome.",
+      "translation": "自分でホイッスルを吹くわけじゃないが、俺は最高だぜ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「自慢するわけじゃないけど（ホラを吹くわけじゃないけど）」という慣用句を、ホイッスルに変えたジョーク。その直後に「俺最高！」って言っちゃうのがバズらしい。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl14.mp3"
+    },
+    {
+      "id": "buzz_vl15",
+      "quote": "Stupid suit!",
+      "translation": "このマヌケなスーツめ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>恐竜の着ぐるみのせいで失敗した！という言い訳。中の人が見え隠れするメタな発言です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl15.mp3"
+    },
+    {
+      "id": "buzz_vl16",
+      "quote": "Obey the rules!",
+      "translation": "ルールに従え！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ルール絶対遵守！チーミングや不正行為は許さない、正義のライフガードです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl16.mp3"
+    },
+    {
+      "id": "buzz_vl17",
+      "quote": "Floatie!",
+      "translation": "浮き輪！",
+      "explanation": "<strong>解説:</strong><br><ul><li>浮き輪（ブイ）を投げる時の掛け声。可愛い響きですが、当たるとスタンするので凶悪です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl17.mp3"
+    },
+    {
+      "id": "buzz_vl18",
+      "quote": "Divin' dinomite!",
+      "translation": "ダイビング・ダイノマイト！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「ダイビング」と「恐竜」と「ダイナマイト（最高）」を全部混ぜた造語。勢いだけで押し切る感じが好きです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl18.mp3"
+    },
+    {
+      "id": "buzz_vl19",
+      "quote": "I dive, people stay alive.",
+      "translation": "俺が飛び込めば、人々は助かる。",
+      "explanation": "<strong>解説:</strong><br><ul><li>スタンで敵を止めて味方を守る、タンクの鑑のようなセリフ。韻も踏んでてリズミカル！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl19.mp3"
+    },
+    {
+      "id": "buzz_vl20",
+      "quote": "Daring diving dino defeats delinquents.",
+      "translation": "大胆にダイブする恐竜が、不良を打ち負かす。",
+      "explanation": "<strong>解説:</strong><br><ul><li>Dから始まる単語を並べた早口言葉みたいなセリフ。「大胆に飛び込む恐竜が、不良どもを成敗する！」という意味。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl20.mp3"
+    },
+    {
+      "id": "buzz_vl21",
+      "quote": "That's a felony!",
+      "translation": "それは重罪だぞ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>相手の攻撃に対して「それは重罪だぞ！」と大げさに非難してます。大ダメージを受けた時に。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl21.mp3"
+    },
+    {
+      "id": "buzz_vl22",
+      "quote": "You just wouldn't listen!",
+      "translation": "お前はどうしても聞こうとしなかった！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「警告したのに聞かないからだ！」と、倒した相手を見下ろすセリフ。注意を聞かない悪い子はお仕置きです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl22.mp3"
+    },
+    {
+      "id": "buzz_vl23",
+      "quote": "I was a trombone player!",
+      "translation": "俺はトロンボーン奏者だったんだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>突然の自分語り。昔はトロンボーン奏者だったらしいです。肺活量がすごそうだから、ホイッスルも大音量なんでしょうね。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl23.mp3"
+    },
+    {
+      "id": "buzz_vl24",
+      "quote": "Feel the floatie!",
+      "translation": "この浮き輪を感じな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「この浮き輪の威力を味わえ！」必殺のブイを投げつける時の決め台詞。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl24.mp3"
+    },
+    {
+      "id": "buzz_vl25",
+      "quote": "Another day, another life saved.",
+      "translation": "また一日、また一つの命を救った。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「今日もまた命を救っちまったな」。仕事を淡々とこなすプロの仕事人って感じでカッコいいです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl25.mp3"
+    },
+    {
+      "id": "buzz_vl26",
+      "quote": "I'm gonna have to write you up.",
+      "translation": "違反切符を切らないといけないな。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「違反報告書書くからな」という、地味に嫌な脅し。事務的な手続きで攻めてくるタイプです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl26.mp3"
+    },
+    {
+      "id": "buzz_vl27",
+      "quote": "Read. The. Sign.",
+      "translation": "看・板・を・読・め。",
+      "explanation": "<strong>解説:</strong><br><ul><li>プールサイドのルールを守らない相手に、一言ずつ区切ってキレ気味に注意してます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl27.mp3"
+    },
+    {
+      "id": "buzz_vl28",
+      "quote": "I blame the suit!",
+      "translation": "このスーツのせいだ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けた時の言い訳その2。「この着ぐるみが動きにくいのが悪いんだ！」</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl28.mp3"
+    },
+    {
+      "id": "buzz_vl29",
+      "quote": "Splash-down!",
+      "translation": "スプラッシュダウン！",
+      "explanation": "<strong>解説:</strong><br><ul><li>ウルトで着地した瞬間の「着水（着陸）！」という掛け声。決まると気持ちいい！</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl29.mp3"
+    },
+    {
+      "id": "buzz_vl30",
+      "quote": "Rule violation!",
+      "translation": "ルール違反だ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>相手の行動を「ルール違反」と判定！レッドカードを突きつける審判のような厳しさです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl30.mp3"
+    },
+    {
+      "id": "buzz_vl31",
+      "quote": "Don't touch my floatie!",
+      "translation": "俺の浮き輪に触るな！",
+      "explanation": "<strong>解説:</strong><br><ul><li>大事な商売道具である浮き輪に触るな！と怒っています。子供が宝物を取られた時みたい。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl31.mp3"
+    },
+    {
+      "id": "buzz_vl32",
+      "quote": "And remember to stay hydrated!",
+      "translation": "それと、水分補給を忘れるなよ！",
+      "explanation": "<strong>解説:</strong><br><ul><li>試合終了時や別れ際に、ライフガードらしく健康を気遣ってくれます。根は優しい人なんです。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl32.mp3"
+    },
+    {
+      "id": "buzz_vl33",
+      "quote": "First aid fury!",
+      "translation": "救急の怒り！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「救急処置の怒り！」癒やすのか怒るのかどっちなんだ、という勢い任せの技名。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl33.mp3"
+    },
+    {
+      "id": "buzz_vl34",
+      "quote": "Ready for duty!",
+      "translation": "任務の準備よし！",
+      "explanation": "<strong>解説:</strong><br><ul><li>リスポーン時などの「準備完了！」。いつでも出動できるプロの姿勢です。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl34.mp3"
+    },
+    {
+      "id": "buzz_vl35",
+      "quote": "You can't save everyone.",
+      "translation": "全員を救えるわけじゃない。",
+      "explanation": "<strong>解説:</strong><br><ul><li>負けた時の哀愁漂うセリフ。「全員を救うことはできないんだ…」。急にシリアスにならないで。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl35.mp3"
+    },
+    {
+      "id": "buzz_vl36",
+      "quote": "Let the savin' begin!",
+      "translation": "救助を開始する！",
+      "explanation": "<strong>解説:</strong><br><ul><li>「さあ、救助の時間だ！」。戦闘開始を救助活動の開始と言い換える、彼なりの正義感。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl36.mp3"
+    },
+    {
+      "id": "buzz_vl37",
+      "quote": "Stand back! Trained professional here.",
+      "translation": "下がってろ！訓練されたプロがここにいるんだ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「下がってろ！ここは訓練されたプロ（俺）に任せるんだ」。野良の味方を守る時に言いたいカッコいいセリフ。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl37.mp3"
+    },
+    {
+      "id": "buzz_vl38",
+      "quote": "Resuscitation is my vocation.",
+      "translation": "蘇生が俺の天職だ。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「蘇生こそが俺の天職」。韻を踏んでて詩的です。倒れた味方を救うことに命をかけてます。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl38.mp3"
+    },
+    {
+      "id": "buzz_vl39",
+      "quote": "I thirst for aid.",
+      "translation": "俺は救助に飢えている。",
+      "explanation": "<strong>解説:</strong><br><ul><li>「人助けをしたくてたまらない！」。ヒーロー願望が強すぎて、逆に危険な雰囲気すらあります。</li></ul>",
+      "audioUrl": "https://Amphibian333.github.io/buzz_vl39.mp3"
+    }
+  ]
+}
