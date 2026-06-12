@@ -10,6 +10,7 @@
       let isJpHidden = localStorage.getItem('lexie_jp_hidden') === 'true';
       let playbackRate = parseFloat(localStorage.getItem('lexie_playback_rate') || '1');
       let fontSize = localStorage.getItem('lexie_font_size') || 'md';
+      let brawlerObserver = null;
 
       async function loadBrawlersIndex() {
         try {
@@ -17,6 +18,40 @@
           brawlers = await response.json();
         } catch (err) {
           console.error("Failed to load brawlers-index.json", err);
+        }
+      }
+
+      function initBrawlerObserver() {
+        if (!('IntersectionObserver' in window)) return;
+        brawlerObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const card = entry.target;
+              const brawlerId = card.dataset.brawlerId;
+              const b = brawlers.find(x => x.fileId === brawlerId);
+              if (b) prefetchBrawlerData(b);
+              observer.unobserve(card);
+            }
+          });
+        }, {
+          rootMargin: "200px 0px"
+        });
+      }
+
+      function prefetchBrawlerData(b) {
+        if (!b.voicelines && !b.isFetching) {
+          b.isFetching = true;
+          b.fetchPromise = fetch(`data/brawlers/${b.fileId}.json`)
+            .then(res => res.json())
+            .then(detail => {
+              b.voicelines = detail.voicelines;
+              b.tiktokEmbed = detail.tiktokEmbed;
+              b.isFetching = false;
+            })
+            .catch(err => {
+              console.error("Prefetch failed:", err);
+              b.isFetching = false;
+            });
         }
       }
 
@@ -772,6 +807,7 @@
       function createBrawlerCard(b) {
         const card = document.createElement("div");
         card.className = "brawler-card";
+        card.dataset.brawlerId = b.fileId;
         const favs = getFavorites();
         const isFav = favs.includes(b.name);
         const img = b.iconUrl || `https://placehold.co/80x80?text=${b.name}`;
@@ -787,23 +823,11 @@
           <div class="quote">"${b.quote}"</div>
         `;
 
-        const prefetch = () => {
-          if (!b.voicelines && !b.isFetching) {
-            b.isFetching = true;
-            b.fetchPromise = fetch(`data/brawlers/${b.fileId}.json`)
-              .then(res => res.json())
-              .then(detail => {
-                b.voicelines = detail.voicelines;
-                b.tiktokEmbed = detail.tiktokEmbed;
-                b.isFetching = false;
-              })
-              .catch(err => {
-                console.error("Prefetch failed:", err);
-                b.isFetching = false;
-              });
-          }
-        };
+        if (brawlerObserver) {
+          brawlerObserver.observe(card);
+        }
 
+        const prefetch = () => prefetchBrawlerData(b);
         card.addEventListener("mouseenter", prefetch);
         card.addEventListener("touchstart", prefetch, { passive: true });
 
@@ -1288,6 +1312,7 @@
           window.scrollTo({ top: 0, behavior: "smooth" });
 
         migrateMemorizeHard();
+        initBrawlerObserver();
         loadBrawlersIndex().then(() => {
           filterBrawlers();
           const currentActiveLink = document.querySelector('.nav-link.active');
