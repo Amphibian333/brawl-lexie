@@ -849,6 +849,10 @@
             }
             card.classList.remove("loading-card");
           }
+          // GA4 カスタムイベント：どのキャラが見られたか記録
+          if (typeof gtag === "function") {
+            gtag("event", "view_brawler", { brawler: b.name });
+          }
           displayBrawlerDetail(b);
         };
         const favBtn = card.querySelector(".fav-btn");
@@ -1182,10 +1186,24 @@
         );
       }
 
+      // GA4 検索イベントを 500ms debounce で発火（途中経過ノイズを除去）
+      let searchAnalyticsTimer;
+      function trackSearchDebounced(query) {
+        clearTimeout(searchAnalyticsTimer);
+        if (!query) return;
+        searchAnalyticsTimer = setTimeout(() => {
+          if (typeof gtag === "function") {
+            gtag("event", "translate_search", { query: query });
+          }
+        }, 500);
+      }
+
       function filterBrawlers() {
-        const s = toKatakana(searchInput.value.toLowerCase().trim());
+        const rawQuery = searchInput.value.trim();
+        const s = toKatakana(rawQuery.toLowerCase());
         const r = rarityFilter.value;
         const ro = roleFilter.value;
+        trackSearchDebounced(rawQuery);
         const source = typeof brawlers !== "undefined" ? brawlers : [];
         filteredBrawlers = source.filter(
           (b) =>
