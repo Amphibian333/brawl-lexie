@@ -1959,6 +1959,14 @@
           difficulty: quizState.config.difficulty,
         });
         const { isNewBest, previousBest } = updateQuizModeStats(quizState.mode, total, correct);
+        if (typeof gtag === "function") {
+          gtag("event", "quiz_complete", {
+            mode: quizState.mode,
+            difficulty: quizState.config.difficulty,
+            score: correct,
+            total: total,
+          });
+        }
         showQuizResult({ correct, total, timeSec, isNewBest, previousBest });
       }
       function showQuizResult({ correct, total, timeSec, isNewBest, previousBest }) {
