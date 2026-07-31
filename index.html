@@ -85,6 +85,7 @@
               >
             </li>
             <li><a class="nav-link" data-target="decks">📚 単語帳</a></li>
+            <li><a class="nav-link" data-target="quiz" style="color: #ffc107">🎯 クイズ</a></li>
             <li><a class="nav-link" data-target="changelog">📋 履歴</a></li>
             <li><a class="nav-link" data-target="lessons">翻訳動画</a></li>
           </ul>
@@ -300,6 +301,127 @@
           <div id="deck-detail-view" style="display:none;">
             <!-- Phase 3 で実装 -->
           </div>
+        </div>
+      </section>
+
+      <section id="quiz" class="page-section hidden">
+        <div class="container">
+          <!-- ===== Quiz Home View ===== -->
+          <div id="quiz-home-view">
+            <h2 class="section-title">🎯 クイズ</h2>
+            <div id="quiz-stats-summary" class="quiz-stats-summary"></div>
+            <div class="quiz-mode-grid">
+              <div class="quiz-mode-card" data-mode="listening">
+                <div class="quiz-mode-icon">🎧</div>
+                <div class="quiz-mode-name">リスニングクイズ</div>
+                <div class="quiz-mode-desc">音声を聞いて英文を当てる</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
+              </div>
+              <div class="quiz-mode-card" data-mode="translation_jp">
+                <div class="quiz-mode-icon">🇯🇵→🇬🇧</div>
+                <div class="quiz-mode-name">和訳クイズ</div>
+                <div class="quiz-mode-desc">英文を見て和訳を選ぶ</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
+              </div>
+              <div class="quiz-mode-card" data-mode="translation_en">
+                <div class="quiz-mode-icon">🇬🇧→🇯🇵</div>
+                <div class="quiz-mode-name">英訳クイズ</div>
+                <div class="quiz-mode-desc">和訳を見て英文を選ぶ</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
+              </div>
+              <div class="quiz-mode-card" data-mode="character">
+                <div class="quiz-mode-icon">🎮</div>
+                <div class="quiz-mode-name">キャラ当てクイズ</div>
+                <div class="quiz-mode-desc">音声を聞いて誰のセリフか当てる</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
+              </div>
+              <div class="quiz-mode-card" data-mode="arrange">
+                <div class="quiz-mode-icon">🔤</div>
+                <div class="quiz-mode-name">並び替えクイズ</div>
+                <div class="quiz-mode-desc">単語を並べて英文を作る</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
+              </div>
+            </div>
+            <div id="quiz-mode-bests-section" class="quiz-home-sub-section" style="display:none;"></div>
+          </div>
+
+          <!-- ===== Quiz Settings View ===== -->
+          <div id="quiz-settings-view" style="display:none;">
+            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:24px; gap:12px; flex-wrap:wrap;">
+              <button class="btn btn-secondary" id="quiz-settings-back" style="padding:8px 16px; font-size:0.9em;">← 戻る</button>
+              <h2 style="font-size:1.3em; color:var(--accent-primary); margin:0; text-align:center; flex:1;" id="quiz-settings-mode-title"></h2>
+              <div style="width:60px;"></div>
+            </div>
+
+            <div class="quiz-settings-section">
+              <h3 class="quiz-settings-label">出題範囲</h3>
+              <label class="quiz-radio"><input type="radio" name="quiz-scope" value="all" checked> 全91キャラ</label>
+              <label class="quiz-radio"><input type="radio" name="quiz-scope" value="favorites"> ❤️ お気に入りセリフから</label>
+              <label class="quiz-radio"><input type="radio" name="quiz-scope" value="deck"> 📚 単語帳から</label>
+              <div id="quiz-scope-deck-select" style="display:none; margin-left:24px; margin-top:8px;">
+                <select id="quiz-scope-deck-id" style="padding:8px 12px; border-radius:8px; background:var(--surface-color); border:1px solid var(--border-color); color:var(--text-primary); max-width:100%;"></select>
+              </div>
+            </div>
+
+            <div class="quiz-settings-section">
+              <h3 class="quiz-settings-label">問題数</h3>
+              <div class="quiz-pill-group" id="quiz-question-count">
+                <button class="quiz-pill" data-value="5">5問</button>
+                <button class="quiz-pill active" data-value="10">10問</button>
+                <button class="quiz-pill" data-value="20">20問</button>
+                <button class="quiz-pill" data-value="50">50問</button>
+              </div>
+            </div>
+
+            <div class="quiz-settings-section">
+              <h3 class="quiz-settings-label">タイマー</h3>
+              <div class="quiz-pill-group" id="quiz-timer">
+                <button class="quiz-pill active" data-value="0">なし</button>
+                <button class="quiz-pill" data-value="15">15秒</button>
+                <button class="quiz-pill" data-value="30">30秒</button>
+              </div>
+            </div>
+
+            <div class="quiz-settings-section">
+              <h3 class="quiz-settings-label">難易度</h3>
+              <div class="quiz-pill-group" id="quiz-difficulty">
+                <button class="quiz-pill active" data-value="normal">通常</button>
+                <button class="quiz-pill" data-value="hard">ハード🔥</button>
+              </div>
+              <p style="margin-top:8px; font-size:0.8em; color:var(--text-tertiary);">ハード: 不正解の選択肢が同じキャラの他セリフから出題されます（並び替えは通常と同じ）</p>
+            </div>
+
+            <div style="margin-top:32px; text-align:center;">
+              <button class="btn" id="quiz-start-btn" style="font-size:1.15em; padding:14px 40px;">▶ クイズ開始</button>
+            </div>
+          </div>
+
+          <!-- ===== Quiz Play View ===== -->
+          <div id="quiz-play-view" style="display:none;">
+            <div class="quiz-play-header">
+              <button class="btn btn-secondary" id="quiz-play-quit" style="padding:6px 14px; font-size:0.85em;">中断</button>
+              <div class="quiz-progress-text" id="quiz-progress-text">1 / 10</div>
+              <div class="quiz-timer-display" id="quiz-timer-display"></div>
+            </div>
+            <div class="quiz-progress-bar"><div id="quiz-progress-bar-fill" class="quiz-progress-bar-fill"></div></div>
+            <div id="quiz-question-content" class="quiz-question-content"></div>
+            <div id="quiz-choices" class="quiz-choices"></div>
+            <div id="quiz-arrange-area" style="display:none;">
+              <div id="quiz-arrange-answer" class="quiz-arrange-answer"></div>
+              <div id="quiz-arrange-pool" class="quiz-arrange-pool"></div>
+              <div style="text-align:center; margin-top:16px;">
+                <button id="quiz-arrange-submit" class="btn" disabled>✓ 確認</button>
+                <button id="quiz-arrange-reset" class="btn btn-secondary" style="margin-left:8px;">リセット</button>
+              </div>
+            </div>
+            <div id="quiz-feedback" class="quiz-feedback" style="display:none;"></div>
+            <div id="quiz-next-btn-wrap" style="display:none; text-align:center; margin-top:24px;">
+              <button class="btn" id="quiz-next-btn" style="font-size:1.1em; padding:12px 30px;">次の問題 →</button>
+            </div>
+          </div>
+
+          <!-- ===== Quiz Result View ===== -->
+          <div id="quiz-result-view" style="display:none;"></div>
         </div>
       </section>
 
