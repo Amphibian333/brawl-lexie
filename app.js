@@ -74,6 +74,31 @@
         await Promise.all(fetchPromises);
       }
 
+      // クイズ用：全キャラの voicelines を一括ロード（未ロード分だけ）
+      async function ensureAllBrawlersLoaded() {
+        const fetchPromises = [];
+        brawlers.forEach(b => {
+          if (!b.voicelines && !b.isFetching) {
+            b.isFetching = true;
+            const p = fetch(`data/brawlers/${b.fileId}.json`)
+              .then(res => res.json())
+              .then(detail => {
+                b.voicelines = detail.voicelines;
+                b.tiktokEmbed = detail.tiktokEmbed;
+                b.isFetching = false;
+              })
+              .catch(err => {
+                console.error(`Failed to load brawler ${b.nameEn}:`, err);
+                b.isFetching = false;
+              });
+            fetchPromises.push(p);
+          } else if (b.isFetching && b.fetchPromise) {
+            fetchPromises.push(b.fetchPromise);
+          }
+        });
+        await Promise.all(fetchPromises);
+      }
+
       // ■ 要素の取得
       const searchInput = document.getElementById("brawler-search");
       const rarityFilter = document.getElementById("rarity-filter");
@@ -108,6 +133,7 @@
           "about",
           "favorites",
           "decks",
+          "quiz",
           "changelog",
         ];
         sections.forEach((id) => {
@@ -148,6 +174,13 @@
           document.getElementById("decks").classList.remove("hidden");
           document.querySelector('[data-target="decks"]').classList.add("active");
           renderDecksPage();
+        } else if (pageName === "quiz") {
+          document.getElementById("quiz").classList.remove("hidden");
+          document.querySelector('[data-target="quiz"]').classList.add("active");
+          // 全キャラの voicelines を先読み（クイズは全データが必要）
+          ensureAllBrawlersLoaded().then(() => {
+            if (typeof showQuizHome === "function") showQuizHome();
+          });
         } else if (pageName === "changelog") {
           document.getElementById("changelog").classList.remove("hidden");
           document.querySelector('[data-target="changelog"]').classList.add("active");
@@ -1339,6 +1372,7 @@
           }
         });
         embedTikTokVideo("7507203728039070996", "tiktok-video-1");
+        initQuizEvents();
 
         // デッキ選択ドロワー：オーバーレイ外クリックで閉じる
         document.getElementById('deck-picker-overlay').addEventListener('click', (e) => {
@@ -1353,4 +1387,827 @@
           targetElement.style.backgroundColor = "#1f1f1f";
           targetElement.innerHTML = `<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@bion329/video/${videoId}" data-video-id="${videoId}" style="max-width: 605px;min-width: 325px;"><section><a target="_blank" title="@bion329" href="https://www.tiktok.com/@bion329?refer=embed">@bion329</a></section></blockquote>`;
         }
+      }
+      // ============================================================
+      // 🎯 Quiz feature (v3.0 Phase 1: Mode 2 only)
+      // ============================================================
+      const QUIZ_MODES = {
+        translation_jp: { name: '和訳クイズ', icon: '🇯🇵→🇬🇧' },
+        translation_en: { name: '英訳クイズ', icon: '🇬🇧→🇯🇵' },
+        listening: { name: 'リスニングクイズ', icon: '🎧' },
+        character: { name: 'キャラ当てクイズ', icon: '🎮' },
+        arrange: { name: '並び替えクイズ', icon: '🔤' },
+      };
+
+      const quizState = {
+        mode: null,
+        config: null,
+        questions: [],
+        currentIndex: 0,
+        correctCount: 0,
+        currentCombo: 0,
+        maxCombo: 0,
+        startTime: 0,
+        wrongAnswers: [],
+        timerInterval: null,
+        timeLeft: 0,
+        answered: false,
+      };
+
+      // --- localStorage helpers ---
+      function getQuizStats() {
+        return JSON.parse(localStorage.getItem('lexie_quiz_stats') || '{"totalQuizzes":0,"totalQuestions":0,"totalCorrect":0,"longestStreak":0,"dailyStreak":0,"lastPlayedAt":null}');
+      }
+      function saveQuizStats(s) { localStorage.setItem('lexie_quiz_stats', JSON.stringify(s)); }
+      function getQuizHistory() { return JSON.parse(localStorage.getItem('lexie_quiz_history') || '[]'); }
+      function pushQuizHistory(entry) {
+        const h = getQuizHistory();
+        h.unshift(entry);
+        if (h.length > 50) h.length = 50;
+        localStorage.setItem('lexie_quiz_history', JSON.stringify(h));
+      }
+      function getQuizWeak() { return JSON.parse(localStorage.getItem('lexie_quiz_weak') || '{}'); }
+      function bumpQuizWeak(voicelineId) {
+        const w = getQuizWeak();
+        if (!w[voicelineId]) w[voicelineId] = { count: 0, addedToReview: false };
+        w[voicelineId].count++;
+        let justAdded = false;
+        if (w[voicelineId].count >= 2 && !w[voicelineId].addedToReview) {
+          let decks = getDecks();
+          let reviewDeck = decks.find(d => d.name === '要復習');
+          if (!reviewDeck) {
+            reviewDeck = createDeck('要復習');
+            decks = getDecks();
+            reviewDeck = decks.find(d => d.name === '要復習');
+          }
+          if (reviewDeck && !reviewDeck.voicelineIds.includes(voicelineId)) {
+            reviewDeck.voicelineIds.push(voicelineId);
+            saveDecks(decks);
+            justAdded = true;
+          }
+          w[voicelineId].addedToReview = true;
+        }
+        localStorage.setItem('lexie_quiz_weak', JSON.stringify(w));
+        return justAdded;
+      }
+      function getQuizLastConfig() { return JSON.parse(localStorage.getItem('lexie_quiz_last_config') || 'null'); }
+      function saveQuizLastConfig(c) { localStorage.setItem('lexie_quiz_last_config', JSON.stringify(c)); }
+      function getQuizModeStats() { return JSON.parse(localStorage.getItem('lexie_quiz_mode_stats') || '{}'); }
+      function updateQuizModeStats(mode, questionCount, correctCount) {
+        const stats = getQuizModeStats();
+        const key = `${mode}_${questionCount}`;
+        const ratio = correctCount / questionCount;
+        if (!stats[key]) stats[key] = { best: 0, played: 0, totalCorrect: 0 };
+        const prevBest = stats[key].best;
+        stats[key].played++;
+        stats[key].totalCorrect += correctCount;
+        const isNewBest = ratio > prevBest;
+        if (isNewBest) stats[key].best = ratio;
+        localStorage.setItem('lexie_quiz_mode_stats', JSON.stringify(stats));
+        return { isNewBest, previousBest: prevBest };
+      }
+      function updateDailyStreak() {
+        const stats = getQuizStats();
+        const today = new Date().toISOString().slice(0, 10);
+        if (stats.lastPlayedAt !== today) {
+          const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+          stats.dailyStreak = (stats.lastPlayedAt === yesterday) ? stats.dailyStreak + 1 : 1;
+          stats.lastPlayedAt = today;
+          saveQuizStats(stats);
+        }
+      }
+
+      // --- Toast ---
+      let _quizToastTimer = null;
+      function showQuizToast(msg) {
+        let t = document.getElementById('quiz-toast');
+        if (!t) {
+          t = document.createElement('div');
+          t.id = 'quiz-toast';
+          document.body.appendChild(t);
+        }
+        t.textContent = msg;
+        t.classList.add('visible');
+        if (_quizToastTimer) clearTimeout(_quizToastTimer);
+        _quizToastTimer = setTimeout(() => t.classList.remove('visible'), 2400);
+      }
+
+      // --- Voiceline pool ---
+      function getAllVoicelinesForQuiz() {
+        const out = [];
+        if (typeof brawlers === 'undefined') return out;
+        brawlers.forEach(b => {
+          if (!b.voicelines) return;
+          b.voicelines.forEach(l => out.push({
+            voiceline: l,
+            brawlerName: b.name,
+            brawlerRarity: b.rarity,
+            brawlerRole: b.role,
+          }));
+        });
+        return out;
+      }
+      function isInterjectionOnly(quote) {
+        const cleaned = quote.replace(/[!.,?\-…¡¿]/g, '').trim();
+        const words = cleaned.split(/\s+/).filter(w => w.length > 0);
+        if (words.length === 0) return true;
+        if (words.length === 1 && cleaned.length <= 6) return true;
+        return false;
+      }
+      function getScopedVoicelines(scope, scopeIds) {
+        const all = getAllVoicelinesForQuiz();
+        if (scope === 'all') return all;
+        if (scope === 'favorites') {
+          const favs = getVoicelineFavorites();
+          return all.filter(item => favs.includes(item.voiceline.id));
+        }
+        if (scope === 'deck') {
+          const deck = getDecks().find(d => d.id === scopeIds);
+          if (!deck) return [];
+          return all.filter(item => deck.voicelineIds.includes(item.voiceline.id));
+        }
+        return all;
+      }
+      function filterForMode(pool, mode) {
+        let filtered = pool.filter(item => !isInterjectionOnly(item.voiceline.quote));
+        if (mode === 'translation_jp' || mode === 'translation_en') {
+          filtered = filtered.filter(item => item.voiceline.translation && item.voiceline.translation.trim().length > 0);
+        }
+        if (mode === 'listening' || mode === 'character') {
+          filtered = filtered.filter(item => item.voiceline.audioUrl);
+        }
+        if (mode === 'arrange') {
+          filtered = filtered.filter(item => item.voiceline.quote.split(/\s+/).filter(w => w.length > 0).length >= 3);
+        }
+        return filtered;
+      }
+      function pickRandom(arr, n) {
+        return shuffleArray(arr).slice(0, n);
+      }
+
+      // --- Hard distractor helpers (Phase 3) ---
+      // 同キャラの他セリフから distractor を取る。揃わなければ null（呼び出し側が通常生成にフォールバック）
+      function getHardTextDistractors(mode, correctItem, count) {
+        if (typeof brawlers === 'undefined') return null;
+        const brawler = brawlers.find(b => b.name === correctItem.brawlerName);
+        if (!brawler || !brawler.voicelines) return null;
+        const others = brawler.voicelines.filter(vl => vl.id !== correctItem.voiceline.id);
+        let texts;
+        if (mode === 'translation_jp') {
+          texts = others.map(vl => vl.translation).filter(t => t && t !== correctItem.voiceline.translation);
+        } else {
+          // translation_en または listening
+          texts = others.map(vl => vl.quote).filter(t => t && t !== correctItem.voiceline.quote);
+        }
+        const unique = [...new Set(texts)];
+        if (unique.length < count) return null;
+        return pickRandom(unique, count);
+      }
+      // Mode 4: C案(同レア度 AND 同役割) → A案(同レア度) → null
+      function getHardBrawlerDistractors(correctItem, count) {
+        if (typeof brawlers === 'undefined') return null;
+        const r = correctItem.brawlerRarity;
+        const ro = correctItem.brawlerRole;
+        const cPool = brawlers.filter(b => b.name !== correctItem.brawlerName && b.rarity === r && b.role === ro);
+        if (cPool.length >= count) return pickRandom(cPool, count);
+        const aPool = brawlers.filter(b => b.name !== correctItem.brawlerName && b.rarity === r);
+        if (aPool.length >= count) return pickRandom(aPool, count);
+        return null;
+      }
+
+      // --- Question generation ---
+      function generateQuestions(mode, config) {
+        const pool = filterForMode(getScopedVoicelines(config.scope, config.scopeIds), mode);
+        if (pool.length < 4) {
+          return { error: '出題できるセリフが少なすぎます（最低4件必要）。出題範囲を広げてください。' };
+        }
+        const targetCount = Math.min(config.questionCount, pool.length);
+        const selected = shuffleArray(pool).slice(0, targetCount);
+        const isHard = config.difficulty === 'hard';
+
+        const questions = selected.map(item => {
+          const correctVl = item.voiceline;
+          let choices, correctText, choiceMeta = null;
+          if (mode === 'translation_jp') {
+            correctText = correctVl.translation;
+            let distractors = isHard ? getHardTextDistractors('translation_jp', item, 3) : null;
+            if (!distractors) {
+              const distractorPool = pool
+                .filter(p => p.voiceline.id !== correctVl.id && p.voiceline.translation !== correctText)
+                .map(p => p.voiceline.translation);
+              distractors = pickRandom([...new Set(distractorPool)], 3);
+            }
+            choices = shuffleArray([correctText, ...distractors]);
+          } else if (mode === 'translation_en' || mode === 'listening') {
+            correctText = correctVl.quote;
+            let distractors = isHard ? getHardTextDistractors(mode, item, 3) : null;
+            if (!distractors) {
+              const distractorPool = pool
+                .filter(p => p.voiceline.id !== correctVl.id && p.voiceline.quote !== correctText)
+                .map(p => p.voiceline.quote);
+              distractors = pickRandom([...new Set(distractorPool)], 3);
+            }
+            choices = shuffleArray([correctText, ...distractors]);
+          } else if (mode === 'character') {
+            correctText = item.brawlerName;
+            let distractorBrawlers = isHard ? getHardBrawlerDistractors(item, 3) : null;
+            if (!distractorBrawlers) {
+              const otherBrawlers = (typeof brawlers !== 'undefined')
+                ? brawlers.filter(b => b.name !== item.brawlerName)
+                : [];
+              distractorBrawlers = pickRandom(otherBrawlers, 3);
+            }
+            const correctBrawlerObj = (typeof brawlers !== 'undefined')
+              ? brawlers.find(b => b.name === item.brawlerName)
+              : { name: item.brawlerName, iconUrl: '' };
+            const choiceObjects = shuffleArray([correctBrawlerObj, ...distractorBrawlers]);
+            choices = choiceObjects.map(b => b.name);
+            choiceMeta = choiceObjects.map(b => ({ iconUrl: b.iconUrl || '' }));
+          } else if (mode === 'arrange') {
+            // Phase 3 では並び替えのハード難易度は通常と同じ（dummy単語追加はv3.1で検討）
+            correctText = correctVl.quote;
+            choices = [];
+          } else {
+            choices = [];
+            correctText = '';
+          }
+          return {
+            voiceline: correctVl,
+            brawlerName: item.brawlerName,
+            choices,
+            choiceMeta,
+            correctText,
+            correctIndex: choices.indexOf(correctText),
+          };
+        });
+        return { questions };
+      }
+
+      // --- View routing within #quiz ---
+      function showQuizView(viewName) {
+        ['quiz-home-view', 'quiz-settings-view', 'quiz-play-view', 'quiz-result-view'].forEach(id => {
+          const el = document.getElementById(id);
+          if (el) el.style.display = (id === viewName) ? 'block' : 'none';
+        });
+      }
+      function showQuizHome() {
+        showQuizView('quiz-home-view');
+        renderQuizHomeStats();
+        renderQuizModeBests();
+      }
+      function renderQuizModeBests() {
+        const container = document.getElementById('quiz-mode-bests-section');
+        if (!container) return;
+        const modeStats = getQuizModeStats();
+        const entries = Object.entries(modeStats);
+        if (entries.length === 0) {
+          container.style.display = 'none';
+          return;
+        }
+        // mode別にグループ化: key = "<mode>_<count>"
+        const byMode = {};
+        entries.forEach(([key, data]) => {
+          const m = key.match(/^(.+)_(\d+)$/);
+          if (!m) return;
+          const mode = m[1];
+          const count = m[2];
+          if (!byMode[mode]) byMode[mode] = {};
+          byMode[mode][count] = Math.round(data.best * 100);
+        });
+        const modeOrder = ['translation_jp', 'translation_en', 'listening', 'character', 'arrange'];
+        const playedModes = modeOrder.filter(m => byMode[m]);
+        if (playedModes.length === 0) {
+          container.style.display = 'none';
+          return;
+        }
+        container.style.display = 'block';
+        const rows = playedModes.map(m => {
+          const counts = byMode[m];
+          const cells = [5, 10, 20, 50].map(c => {
+            const hasRecord = counts[c] !== undefined;
+            return '<span class="quiz-best-cell' + (hasRecord ? ' has-record' : '') + '">' +
+              c + '問: ' + (hasRecord ? counts[c] + '%' : '―') +
+            '</span>';
+          }).join('');
+          const info = QUIZ_MODES[m] || { name: m, icon: '' };
+          return '<div class="quiz-best-row">' +
+            '<div class="quiz-best-mode">' + info.icon + ' ' + info.name + '</div>' +
+            '<div class="quiz-best-cells">' + cells + '</div>' +
+          '</div>';
+        }).join('');
+        container.innerHTML = '<h3 class="quiz-section-subtitle">🏆 モード別ベスト記録</h3>' + rows;
+      }
+      function renderQuizHomeStats() {
+        const stats = getQuizStats();
+        const summary = document.getElementById('quiz-stats-summary');
+        if (!summary) return;
+        if (stats.totalQuizzes === 0) {
+          summary.innerHTML = '<div style="color:var(--text-tertiary); text-align:center; width:100%; padding:8px 0;">まだクイズを受けていません。下から好きなモードを選んでスタート！</div>';
+          return;
+        }
+        const accuracy = Math.round((stats.totalCorrect / stats.totalQuestions) * 100);
+        summary.innerHTML =
+          '<div class="quiz-stat-item"><div class="quiz-stat-value">' + stats.totalQuizzes + '</div><div class="quiz-stat-label">受験回数</div></div>' +
+          '<div class="quiz-stat-item"><div class="quiz-stat-value">' + accuracy + '%</div><div class="quiz-stat-label">累計正答率</div></div>' +
+          '<div class="quiz-stat-item"><div class="quiz-stat-value">🔥' + stats.dailyStreak + '</div><div class="quiz-stat-label">連続学習日数</div></div>' +
+          '<div class="quiz-stat-item"><div class="quiz-stat-value">' + stats.longestStreak + '</div><div class="quiz-stat-label">最長コンボ</div></div>';
+      }
+
+      // --- Settings ---
+      function showQuizSettings(mode) {
+        showQuizView('quiz-settings-view');
+        document.getElementById('quiz-settings-mode-title').textContent = QUIZ_MODES[mode].icon + ' ' + QUIZ_MODES[mode].name;
+        quizState.mode = mode;
+        const deckSelect = document.getElementById('quiz-scope-deck-id');
+        const decks = getDecks();
+        deckSelect.innerHTML = decks.length === 0
+          ? '<option value="">単語帳がありません</option>'
+          : decks.map(d => '<option value="' + d.id + '">' + escapeHtml(d.name) + ' (' + d.voicelineIds.length + '件)</option>').join('');
+        // 直近設定の反映
+        const last = getQuizLastConfig();
+        if (last && last.mode === mode) {
+          const scopeRadio = document.querySelector('input[name="quiz-scope"][value="' + last.scope + '"]');
+          if (scopeRadio) {
+            scopeRadio.checked = true;
+            document.getElementById('quiz-scope-deck-select').style.display = (last.scope === 'deck') ? 'block' : 'none';
+            if (last.scope === 'deck' && last.scopeIds) deckSelect.value = last.scopeIds;
+          }
+          setPillActive('quiz-question-count', last.questionCount);
+          setPillActive('quiz-timer', last.timer);
+          if (last.difficulty) setPillActive('quiz-difficulty', last.difficulty);
+        }
+      }
+      function setPillActive(groupId, value) {
+        const group = document.getElementById(groupId);
+        if (!group) return;
+        group.querySelectorAll('.quiz-pill').forEach(b => {
+          b.classList.toggle('active', String(b.dataset.value) === String(value));
+        });
+      }
+      function readQuizSettings() {
+        const scope = document.querySelector('input[name="quiz-scope"]:checked').value;
+        const scopeIds = (scope === 'deck') ? document.getElementById('quiz-scope-deck-id').value : null;
+        const questionCount = parseInt(document.querySelector('#quiz-question-count .quiz-pill.active').dataset.value);
+        const timer = parseInt(document.querySelector('#quiz-timer .quiz-pill.active').dataset.value);
+        const difficulty = document.querySelector('#quiz-difficulty .quiz-pill.active').dataset.value;
+        return { scope, scopeIds, questionCount, timer, difficulty };
+      }
+
+      // --- Quiz play ---
+      function startQuiz() {
+        const config = readQuizSettings();
+        if (config.scope === 'deck' && !config.scopeIds) {
+          alert('単語帳を選んでください。');
+          return;
+        }
+        const result = generateQuestions(quizState.mode, config);
+        if (result.error) {
+          alert(result.error);
+          return;
+        }
+        quizState.config = config;
+        quizState.questions = result.questions;
+        quizState.currentIndex = 0;
+        quizState.correctCount = 0;
+        quizState.currentCombo = 0;
+        quizState.maxCombo = 0;
+        quizState.startTime = Date.now();
+        quizState.wrongAnswers = [];
+        saveQuizLastConfig({ ...config, mode: quizState.mode });
+        showQuizView('quiz-play-view');
+        showQuestion(0);
+      }
+      function showQuestion(idx) {
+        const q = quizState.questions[idx];
+        quizState.currentIndex = idx;
+        quizState.answered = false;
+        stopQuizQuestionAudio();
+        const total = quizState.questions.length;
+        document.getElementById('quiz-progress-text').textContent = (idx + 1) + ' / ' + total;
+        document.getElementById('quiz-progress-bar-fill').style.width = ((idx) / total) * 100 + '%';
+        const qc = document.getElementById('quiz-question-content');
+        const m = quizState.mode;
+        const hintAudioBtn = q.voiceline.audioUrl
+          ? '<button class="quiz-hint-audio-btn" id="quiz-hint-audio-btn">🔊 音声を聞く</button>'
+          : '';
+        if (m === 'translation_jp') {
+          qc.innerHTML =
+            '<div class="quiz-question-prompt">この英文の和訳は？</div>' +
+            '<div class="quiz-question-text">"' + escapeHtml(q.voiceline.quote) + '"</div>' +
+            '<div class="quiz-question-brawler">— ' + escapeHtml(q.brawlerName) + '</div>' +
+            hintAudioBtn;
+        } else if (m === 'translation_en') {
+          qc.innerHTML =
+            '<div class="quiz-question-prompt">この和訳の英文は？</div>' +
+            '<div class="quiz-question-text">' + escapeHtml(q.voiceline.translation) + '</div>' +
+            '<div class="quiz-question-brawler">— ' + escapeHtml(q.brawlerName) + '</div>' +
+            hintAudioBtn;
+        } else if (m === 'listening') {
+          qc.innerHTML =
+            '<div class="quiz-question-prompt">音声を聞いて、正しい英文を選ぼう</div>' +
+            '<button id="quiz-audio-play-btn" class="quiz-audio-btn">🔊 もう一度聞く (3/3)</button>' +
+            '<div class="quiz-question-brawler">— ???</div>';
+          setupQuizQuestionAudio(q.voiceline.audioUrl);
+        } else if (m === 'character') {
+          qc.innerHTML =
+            '<div class="quiz-question-prompt">このセリフは誰が言ってる？</div>' +
+            '<button id="quiz-audio-play-btn" class="quiz-audio-btn">🔊 もう一度聞く (3/3)</button>';
+          setupQuizQuestionAudio(q.voiceline.audioUrl);
+        } else if (m === 'arrange') {
+          // 並び替えは音声が答えになるので事前ヒントは出さない（正解後にだけ feedback で表示）
+          qc.innerHTML =
+            '<div class="quiz-question-prompt">この和訳の英文を、単語をタップして並び替えよう</div>' +
+            '<div class="quiz-question-text" style="font-size:1.2em;">' + escapeHtml(q.voiceline.translation) + '</div>' +
+            '<div class="quiz-question-brawler">— ' + escapeHtml(q.brawlerName) + '</div>';
+        }
+        // テキスト系モードの音声ヒントボタンを配線
+        const hintBtn = document.getElementById('quiz-hint-audio-btn');
+        if (hintBtn) {
+          hintBtn.onclick = () => playQuizQuestionAudio(q.voiceline.audioUrl);
+        }
+        // 並び替えは別UI、それ以外は4択UI
+        const choicesEl = document.getElementById('quiz-choices');
+        const arrangeEl = document.getElementById('quiz-arrange-area');
+        if (m === 'arrange') {
+          choicesEl.style.display = 'none';
+          arrangeEl.style.display = 'block';
+          setupArrangeQuestion(q);
+        } else {
+          choicesEl.style.display = 'grid';
+          arrangeEl.style.display = 'none';
+          if (m === 'character') {
+            choicesEl.classList.add('quiz-choices-char');
+            choicesEl.innerHTML = q.choices.map((name, i) => {
+              const icon = (q.choiceMeta && q.choiceMeta[i] && q.choiceMeta[i].iconUrl) || '';
+              return '<button class="quiz-choice quiz-choice-char" data-idx="' + i + '">' +
+                (icon ? '<img src="' + icon + '" alt="" class="quiz-choice-char-icon">' : '') +
+                '<span class="quiz-choice-char-name">' + escapeHtml(name) + '</span>' +
+              '</button>';
+            }).join('');
+          } else {
+            choicesEl.classList.remove('quiz-choices-char');
+            choicesEl.innerHTML = q.choices.map((c, i) =>
+              '<button class="quiz-choice" data-idx="' + i + '">' + escapeHtml(c) + '</button>'
+            ).join('');
+          }
+          choicesEl.querySelectorAll('.quiz-choice').forEach(btn => {
+            btn.onclick = () => answerQuestion(parseInt(btn.dataset.idx));
+          });
+        }
+        document.getElementById('quiz-feedback').style.display = 'none';
+        document.getElementById('quiz-next-btn-wrap').style.display = 'none';
+        stopQuizTimer();
+        if (quizState.config.timer > 0) startQuizTimer(quizState.config.timer);
+        else document.getElementById('quiz-timer-display').textContent = '';
+      }
+      function startQuizTimer(seconds) {
+        quizState.timeLeft = seconds;
+        const disp = document.getElementById('quiz-timer-display');
+        disp.textContent = '⏱ ' + seconds + '秒';
+        disp.classList.remove('warning');
+        quizState.timerInterval = setInterval(() => {
+          quizState.timeLeft--;
+          disp.textContent = '⏱ ' + quizState.timeLeft + '秒';
+          if (quizState.timeLeft <= 5) disp.classList.add('warning');
+          if (quizState.timeLeft <= 0) {
+            stopQuizTimer();
+            answerQuestion(-1);
+          }
+        }, 1000);
+      }
+      function stopQuizTimer() {
+        if (quizState.timerInterval) { clearInterval(quizState.timerInterval); quizState.timerInterval = null; }
+        const disp = document.getElementById('quiz-timer-display');
+        if (disp) disp.classList.remove('warning');
+      }
+      function answerQuestion(chosenIdx, isCorrectOverride) {
+        if (quizState.answered) return;
+        quizState.answered = true;
+        stopQuizTimer();
+        stopQuizQuestionAudio();
+        const q = quizState.questions[quizState.currentIndex];
+        const correctIdx = q.correctIndex;
+        const isCorrect = (typeof isCorrectOverride === 'boolean')
+          ? isCorrectOverride
+          : (chosenIdx === correctIdx);
+        if (quizState.mode !== 'arrange') {
+          document.querySelectorAll('#quiz-choices .quiz-choice').forEach((btn, i) => {
+            btn.disabled = true;
+            if (i === correctIdx) btn.classList.add(isCorrect && i === chosenIdx ? 'correct' : 'correct-revealed');
+            else if (i === chosenIdx) btn.classList.add('incorrect');
+          });
+        }
+        playQuizSound(isCorrect);
+        if (isCorrect) {
+          quizState.correctCount++;
+          quizState.currentCombo++;
+          if (quizState.currentCombo > quizState.maxCombo) quizState.maxCombo = quizState.currentCombo;
+        } else {
+          quizState.currentCombo = 0;
+          quizState.wrongAnswers.push({ voiceline: q.voiceline, brawlerName: q.brawlerName });
+          const justAdded = bumpQuizWeak(q.voiceline.id);
+          if (justAdded) showQuizToast('「' + q.voiceline.quote.slice(0, 24) + '」を要復習に追加しました');
+        }
+        const fb = document.getElementById('quiz-feedback');
+        const isTimeOut = chosenIdx === -1;
+        // 並び替え正解後のご褒美音声ボタン
+        const arrangeRewardBtn = (quizState.mode === 'arrange' && isCorrect && q.voiceline.audioUrl)
+          ? '<div style="margin-top:12px; text-align:center;"><button class="quiz-hint-audio-btn" id="quiz-arrange-reward-btn">🔊 音声を聞いてみる</button></div>'
+          : '';
+        fb.innerHTML =
+          '<div class="quiz-feedback-title ' + (isCorrect ? 'correct' : 'incorrect') + '">' +
+            (isCorrect ? '✅ 正解！' : (isTimeOut ? '⏰ 時間切れ' : '❌ 不正解')) +
+          '</div>' +
+          '<div class="quiz-feedback-detail">' +
+            '<strong style="color:var(--accent-primary);">"' + escapeHtml(q.voiceline.quote) + '"</strong><br>' +
+            escapeHtml(q.voiceline.translation) + '<br>' +
+            '<span style="color:var(--text-tertiary); font-size:0.85em;">— ' + escapeHtml(q.brawlerName) + '</span>' +
+          '</div>' +
+          arrangeRewardBtn;
+        fb.style.display = 'block';
+        const rewardBtn = document.getElementById('quiz-arrange-reward-btn');
+        if (rewardBtn) {
+          rewardBtn.onclick = () => playQuizQuestionAudio(q.voiceline.audioUrl);
+        }
+        document.getElementById('quiz-next-btn-wrap').style.display = 'block';
+      }
+      function nextQuestion() {
+        const nextIdx = quizState.currentIndex + 1;
+        if (nextIdx >= quizState.questions.length) endQuiz();
+        else showQuestion(nextIdx);
+      }
+      function endQuiz() {
+        stopQuizTimer();
+        stopQuizQuestionAudio();
+        const timeSec = Math.round((Date.now() - quizState.startTime) / 1000);
+        const total = quizState.questions.length;
+        const correct = quizState.correctCount;
+        const stats = getQuizStats();
+        stats.totalQuizzes++;
+        stats.totalQuestions += total;
+        stats.totalCorrect += correct;
+        if (quizState.maxCombo > stats.longestStreak) stats.longestStreak = quizState.maxCombo;
+        saveQuizStats(stats);
+        updateDailyStreak();
+        pushQuizHistory({
+          ts: Date.now(),
+          mode: quizState.mode,
+          score: correct,
+          total,
+          timeSec,
+          scope: quizState.config.scope,
+          difficulty: quizState.config.difficulty,
+        });
+        const { isNewBest, previousBest } = updateQuizModeStats(quizState.mode, total, correct);
+        showQuizResult({ correct, total, timeSec, isNewBest, previousBest });
+      }
+      function showQuizResult({ correct, total, timeSec, isNewBest, previousBest }) {
+        showQuizView('quiz-result-view');
+        const pct = Math.round((correct / total) * 100);
+        const minutes = Math.floor(timeSec / 60);
+        const secs = timeSec % 60;
+        const timeStr = minutes > 0 ? (minutes + '分' + secs + '秒') : (secs + '秒');
+        const prevBestPct = Math.round(previousBest * 100);
+        const wrongHtml = quizState.wrongAnswers.length === 0
+          ? '<div style="text-align:center; color:#4caf50; padding:20px;">🎉 全問正解！素晴らしい！</div>'
+          : quizState.wrongAnswers.map(w =>
+              '<div class="quiz-result-wrong-item">' +
+                '<div class="quiz-result-wrong-text">' +
+                  '<div class="quote-en">"' + escapeHtml(w.voiceline.quote) + '"</div>' +
+                  '<div class="quote-jp">' + escapeHtml(w.voiceline.translation) + ' — ' + escapeHtml(w.brawlerName) + '</div>' +
+                '</div>' +
+                '<button class="add-to-deck-btn" data-id="' + w.voiceline.id + '" title="単語帳に追加">＋</button>' +
+              '</div>'
+            ).join('');
+        const bestBanner = (isNewBest && previousBest > 0)
+          ? '<div class="quiz-result-best-tag">✨ ベスト更新！（前回 ' + prevBestPct + '%）</div>'
+          : (isNewBest && previousBest === 0)
+          ? '<div class="quiz-result-best-tag">🏆 初回ベスト記録！</div>'
+          : '';
+        document.getElementById('quiz-result-view').innerHTML =
+          '<div class="quiz-result-card">' +
+            '<div class="quiz-result-score">' + correct + ' / ' + total + '</div>' +
+            '<div class="quiz-result-percent">' + pct + '% 正解</div>' +
+            bestBanner +
+            '<div class="quiz-result-stats">' +
+              '<span>⏱ ' + timeStr + '</span>' +
+              '<span>🔥 最大コンボ ' + quizState.maxCombo + '</span>' +
+            '</div>' +
+          '</div>' +
+          '<div class="quiz-result-wrong-list">' +
+            '<div class="quiz-result-wrong-title">' + (quizState.wrongAnswers.length === 0 ? '結果' : '間違えたセリフ (' + quizState.wrongAnswers.length + '件)') + '</div>' +
+            wrongHtml +
+          '</div>' +
+          '<div class="quiz-result-actions">' +
+            '<button class="btn" id="quiz-result-retry">🔁 もう一度</button>' +
+            '<button class="btn btn-secondary" id="quiz-result-resettings">⚙️ 設定を変える</button>' +
+            '<button class="btn btn-secondary" id="quiz-result-home">🏠 ホームに戻る</button>' +
+          '</div>';
+        document.querySelectorAll('#quiz-result-view .add-to-deck-btn').forEach(btn => {
+          btn.onclick = (e) => {
+            e.stopPropagation();
+            showDeckPicker(btn.dataset.id);
+          };
+        });
+        document.getElementById('quiz-result-retry').onclick = () => startQuiz();
+        document.getElementById('quiz-result-resettings').onclick = () => showQuizSettings(quizState.mode);
+        document.getElementById('quiz-result-home').onclick = () => showQuizHome();
+      }
+
+      // --- Sound effects (Web Audio API) ---
+      let _quizAudioCtx = null;
+      function getQuizAudioCtx() {
+        if (!_quizAudioCtx) {
+          const AC = window.AudioContext || window.webkitAudioContext;
+          if (AC) _quizAudioCtx = new AC();
+        }
+        return _quizAudioCtx;
+      }
+      function playQuizSound(isCorrect) {
+        try {
+          const ctx = getQuizAudioCtx();
+          if (!ctx) return;
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          osc.connect(gain);
+          gain.connect(ctx.destination);
+          if (isCorrect) {
+            osc.frequency.setValueAtTime(880, ctx.currentTime);
+            osc.frequency.setValueAtTime(1320, ctx.currentTime + 0.08);
+          } else {
+            osc.frequency.setValueAtTime(220, ctx.currentTime);
+            osc.frequency.setValueAtTime(165, ctx.currentTime + 0.12);
+          }
+          gain.gain.setValueAtTime(0.3, ctx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.25);
+          osc.start(ctx.currentTime);
+          osc.stop(ctx.currentTime + 0.3);
+        } catch (e) { /* ignore */ }
+      }
+
+      // --- Quiz question audio (Mode 1/4) ---
+      let _quizQuestionAudio = null;
+      let _quizReplaysLeft = 0;
+      function playQuizQuestionAudio(url) {
+        if (!url) return;
+        try {
+          if (_quizQuestionAudio) { _quizQuestionAudio.pause(); _quizQuestionAudio = null; }
+          _quizQuestionAudio = new Audio(url);
+          _quizQuestionAudio.play().catch(() => { /* autoplay ブロック等は無視 */ });
+        } catch (e) { /* ignore */ }
+      }
+      function stopQuizQuestionAudio() {
+        if (_quizQuestionAudio) {
+          try { _quizQuestionAudio.pause(); } catch (e) {}
+          _quizQuestionAudio = null;
+        }
+      }
+      function setupQuizQuestionAudio(url) {
+        _quizReplaysLeft = 3;
+        // 出題時に1回自動再生（カウント外）
+        playQuizQuestionAudio(url);
+        // ボタンはDOM挿入後に紐付け（同じTickでOK、innerHTMLは同期）
+        setTimeout(() => {
+          const btn = document.getElementById('quiz-audio-play-btn');
+          if (!btn) return;
+          updateReplayBtnLabel();
+          btn.onclick = () => {
+            if (_quizReplaysLeft <= 0 || quizState.answered) return;
+            _quizReplaysLeft--;
+            playQuizQuestionAudio(url);
+            updateReplayBtnLabel();
+          };
+        }, 0);
+      }
+      function updateReplayBtnLabel() {
+        const btn = document.getElementById('quiz-audio-play-btn');
+        if (!btn) return;
+        btn.textContent = '🔊 もう一度聞く (' + _quizReplaysLeft + '/3)';
+        btn.disabled = _quizReplaysLeft <= 0;
+      }
+
+      // --- Quiz arrange (Mode 5) ---
+      let _arrangeState = null;
+      function setupArrangeQuestion(q) {
+        const words = q.voiceline.quote.split(/\s+/).filter(w => w.length > 0);
+        const tokens = words.map((w, i) => ({ id: i, text: w }));
+        // 並び替え順とぴったり同じ並びは避ける
+        let poolOrder;
+        let attempts = 0;
+        do {
+          poolOrder = shuffleArray(tokens.map(t => t.id));
+          attempts++;
+        } while (
+          attempts < 8 &&
+          tokens.length > 1 &&
+          poolOrder.every((id, i) => id === i)
+        );
+        _arrangeState = {
+          correctOrder: tokens.map(t => t.id),
+          tokens,
+          pool: poolOrder,
+          answer: [],
+        };
+        renderArrangeUI();
+      }
+      function renderArrangeUI() {
+        const answerEl = document.getElementById('quiz-arrange-answer');
+        const poolEl = document.getElementById('quiz-arrange-pool');
+        const submitBtn = document.getElementById('quiz-arrange-submit');
+        if (!answerEl || !poolEl || !submitBtn) return;
+
+        if (_arrangeState.answer.length === 0) {
+          answerEl.innerHTML = '<span class="quiz-arrange-placeholder">↓ タップした単語がここに並びます ↓</span>';
+        } else {
+          answerEl.innerHTML = _arrangeState.answer.map(id => {
+            const tok = _arrangeState.tokens.find(t => t.id === id);
+            return '<button class="quiz-arrange-token quiz-arrange-token-answer" data-id="' + id + '" data-source="answer">' + escapeHtml(tok.text) + '</button>';
+          }).join('');
+        }
+        poolEl.innerHTML = _arrangeState.pool.length === 0
+          ? '<span class="quiz-arrange-placeholder" style="opacity:0.5;">（プールは空）</span>'
+          : _arrangeState.pool.map(id => {
+              const tok = _arrangeState.tokens.find(t => t.id === id);
+              return '<button class="quiz-arrange-token quiz-arrange-token-pool" data-id="' + id + '" data-source="pool">' + escapeHtml(tok.text) + '</button>';
+            }).join('');
+
+        const ready = _arrangeState.pool.length === 0 && _arrangeState.answer.length === _arrangeState.tokens.length;
+        submitBtn.disabled = !ready;
+
+        document.querySelectorAll('#quiz-arrange-area .quiz-arrange-token').forEach(btn => {
+          btn.onclick = () => {
+            if (quizState.answered) return;
+            const id = parseInt(btn.dataset.id);
+            const source = btn.dataset.source;
+            if (source === 'pool') {
+              _arrangeState.pool = _arrangeState.pool.filter(x => x !== id);
+              _arrangeState.answer.push(id);
+            } else {
+              _arrangeState.answer = _arrangeState.answer.filter(x => x !== id);
+              _arrangeState.pool.push(id);
+            }
+            renderArrangeUI();
+          };
+        });
+      }
+      function submitArrangeAnswer() {
+        if (quizState.answered || !_arrangeState) return;
+        const correct = _arrangeState.correctOrder;
+        const user = _arrangeState.answer;
+        const isCorrect = user.length === correct.length && user.every((id, i) => id === correct[i]);
+        document.querySelectorAll('#quiz-arrange-answer .quiz-arrange-token').forEach((btn, i) => {
+          btn.disabled = true;
+          if (user[i] === correct[i]) btn.classList.add('correct');
+          else btn.classList.add('incorrect');
+        });
+        document.querySelectorAll('#quiz-arrange-pool .quiz-arrange-token').forEach(btn => { btn.disabled = true; });
+        document.getElementById('quiz-arrange-submit').disabled = true;
+        document.getElementById('quiz-arrange-reset').disabled = true;
+        answerQuestion(null, isCorrect);
+      }
+      function resetArrangeAnswer() {
+        if (quizState.answered || !_arrangeState) return;
+        _arrangeState.pool = shuffleArray(_arrangeState.tokens.map(t => t.id));
+        _arrangeState.answer = [];
+        renderArrangeUI();
+      }
+
+      // --- Wire up event listeners ---
+      function initQuizEvents() {
+        document.querySelectorAll('.quiz-mode-card').forEach(card => {
+          card.addEventListener('click', () => {
+            if (card.dataset.status === 'coming-soon') {
+              showQuizToast('このモードは近日公開です。お楽しみに！');
+              return;
+            }
+            showQuizSettings(card.dataset.mode);
+          });
+        });
+        document.querySelectorAll('input[name="quiz-scope"]').forEach(r => {
+          r.addEventListener('change', () => {
+            document.getElementById('quiz-scope-deck-select').style.display =
+              (r.value === 'deck' && r.checked) ? 'block' : 'none';
+          });
+        });
+        ['quiz-question-count', 'quiz-timer', 'quiz-difficulty'].forEach(groupId => {
+          document.querySelectorAll('#' + groupId + ' .quiz-pill').forEach(b => {
+            b.addEventListener('click', () => {
+              if (b.disabled) return;
+              document.querySelectorAll('#' + groupId + ' .quiz-pill').forEach(x => x.classList.remove('active'));
+              b.classList.add('active');
+            });
+          });
+        });
+        document.getElementById('quiz-settings-back').onclick = () => showQuizHome();
+        document.getElementById('quiz-start-btn').onclick = () => startQuiz();
+        document.getElementById('quiz-next-btn').onclick = () => nextQuestion();
+        document.getElementById('quiz-arrange-submit').onclick = () => submitArrangeAnswer();
+        document.getElementById('quiz-arrange-reset').onclick = () => resetArrangeAnswer();
+        document.getElementById('quiz-play-quit').onclick = () => {
+          if (confirm('クイズを中断しますか？スコアは保存されません。')) {
+            stopQuizTimer();
+            stopQuizQuestionAudio();
+            showQuizHome();
+          }
+        };
       }
