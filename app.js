@@ -1910,8 +1910,8 @@
         }
         const fb = document.getElementById('quiz-feedback');
         const isTimeOut = chosenIdx === -1;
-        // 並び替え正解後のご褒美音声ボタン
-        const arrangeRewardBtn = (quizState.mode === 'arrange' && isCorrect && q.voiceline.audioUrl)
+        // 並び替えクイズ回答後の音声ボタン（正解・不正解どちらでも表示）
+        const arrangeRewardBtn = (quizState.mode === 'arrange' && q.voiceline.audioUrl)
           ? '<div style="margin-top:12px; text-align:center;"><button class="quiz-hint-audio-btn" id="quiz-arrange-reward-btn">🔊 音声を聞いてみる</button></div>'
           : '';
         fb.innerHTML =
