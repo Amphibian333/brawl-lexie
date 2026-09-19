@@ -14,9 +14,11 @@
 <link rel="icon" href="/favicon.ico">
 <link rel="stylesheet" href="/style.css">
 <style>
-  body { max-width: 820px; margin: 0 auto; padding: 0 16px 60px; background: var(--bg-color); color: var(--text-primary); line-height: 1.7; }
-  header { padding: 16px 0; border-bottom: 2px solid var(--accent-primary); margin-bottom: 28px; }
-  header a { color: var(--accent-primary); font-weight: 700; text-decoration: none; font-size: 1.1em; }
+  body { margin: 0; background: var(--bg-color); color: var(--text-primary); line-height: 1.7; }
+  main, footer { max-width: 820px; margin: 0 auto; padding: 0 16px; }
+  main { padding-top: 28px; padding-bottom: 60px; }
+  header .site-logo { margin: 0; cursor: pointer; }
+  header .site-logo a { color: inherit; text-decoration: none; }
   h1 { font-size: 1.7em; line-height: 1.4; margin: 0 0 16px; }
   h2 { font-size: 1.3em; margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border-color); }
   .voiceline { background: var(--hero-search-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 18px 20px; margin-bottom: 18px; }
@@ -35,7 +37,24 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ブロスタのチャックのセリフ「Back on track!」の意味は？","acceptedAnswer":{"@type":"Answer","text":"軌道に戻ったぞ！という意味です。解説: 「計画通りに進んでいる」という意味と、文字通り「線路（トラック）に戻った」という意味をかけたセリフ。 脱線してもすぐに復帰する、タフな車掌さんです。"}},{"@type":"Question","name":"ブロスタのチャックのセリフ「My magnum opus!」の意味は？","acceptedAnswer":{"@type":"Answer","text":"我が最高傑作だ！という意味です。解説: 芸術家が生涯で一番の作品に対して使う言葉。 自分のプレイを「芸術」だと思っている、ナルシストな一面が見えます。"}},{"@type":"Question","name":"ブロスタのチャックのセリフ「Ugh, lost my train of thought!」の意味は？","acceptedAnswer":{"@type":"Answer","text":"うぅ、思考の列車を見失った！という意味です。解説: 「何を考えてたか忘れちゃった」という意味のイディオム「lose one's train of thought」を使ったダジャレ。 電車男のチャックにはぴったりの言い回しです。"}},{"@type":"Question","name":"ブロスタのチャックのセリフ「What a trill!」の意味は？","acceptedAnswer":{"@type":"Answer","text":"なんてトリルだ！という意味です。解説: 「トリル（音楽の装飾音）」と「スリル（Thrill）」をかけているのかも？ 音楽用語を使って興奮を表現する、マエストロらしい感嘆です。"}},{"@type":"Question","name":"ブロスタのチャックのセリフ「A symphony of suffering!」の意味は？","acceptedAnswer":{"@type":"Answer","text":"苦しみの交響曲だ！という意味です。解説: 敵の悲鳴を「交響曲（シンフォニー）」に例える狂気。 戦場を指揮するコンダクター気取りです。"}},{"@type":"Question","name":"ブロスタのチャックのセリフ「Choo-choo!」の意味は？","acceptedAnswer":{"@type":"Answer","text":"シュッシュッポッポ！という意味です。解説: 子供みたいな擬音語ですが、チャックが言うと重量感のある蒸気機関車の音に聞こえます。突撃の合図！"}},{"@type":"Question","name":"ブロスタのチャックのセリフ「Next stop, Creepyville!」の意味は？","acceptedAnswer":{"@type":"Answer","text":"次の停車駅は、不気味村！という意味です。解説: 「次は～、地獄～、地獄でございます～」みたいな車内アナウンス。 乗ったら二度と帰ってこれなそうです。"}},{"@type":"Question","name":"ブロスタのチャックのセリフ「Il mio momento!」の意味は？","acceptedAnswer":{"@type":"Answer","text":"私の瞬間だ！という意味です。解説: イタリア語で「俺の見せ場だ！」。 ウルトで華麗に突っ込む時に叫びたい、カッコいい決め台詞です。"}},{"@type":"Question","name":"ブロスタのチャックのセリフ「Steamy staccato!」の意味は？","acceptedAnswer":{"@type":"Answer","text":"湯気のスタッカートよ！という意味です。解説: 蒸気の音を、短く切る演奏法「スタッカート」に例えています。 リズム良く蒸気を吹き出しながら攻撃する様子が目に浮かびます。"}},{"@type":"Question","name":"ブロスタのチャックのセリフ「Brawlissimo!」の意味は？","acceptedAnswer":{"@type":"Answer","text":"ブロリッシモ！という意味です。解説: 「ブラボー（Bravo）」の最上級「ブラヴィッシモ」と「ブロー（Brawl）」を合体させた造語。 「最高の戦いだ！」と絶賛しています。"}}]}</script>
 </head>
 <body>
-  <header><a href="/">Lexie ブロスタセリフ集</a></header>
+  <header>
+    <div class="header-nav-container">
+      <p class="site-logo">
+        <a href="/">Lexie</a>
+        <span class="header-seo-text">【ボイス再生】ブロスタセリフ集｜全91キャラ対応（順次更新中）</span>
+      </p>
+      <nav>
+        <ul>
+          <li><a href="/">ホーム</a></li>
+          <li><a href="/" style="color: #ff4d4d">❤️ お気に入り</a></li>
+          <li><a href="/">📚 単語帳</a></li>
+          <li><a href="/" style="color: #ffc107">🎯 クイズ</a></li>
+          <li><a href="/">📋 履歴</a></li>
+          <li><a href="/">翻訳動画</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <main>
     <h1>チャック（Chuck）の英語セリフ一覧・和訳つき</h1>
     <p>ブロスタのキャラクター<strong>チャック</strong>（英語名: Chuck）の英語ボイスセリフ全32個を、音声・日本語訳・英語表現の解説つきでまとめています。レアリティはultra-rare、ロールはassassinです。代表的なセリフは「Choo choo!」です。</p>

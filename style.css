@@ -186,7 +186,7 @@
         align-items: center;
         flex-wrap: wrap;
       }
-      header h1 {
+      header h1, header .site-logo {
         font-size: 2.2em;
         color: var(--accent-primary);
         text-transform: uppercase;
@@ -940,13 +940,13 @@
       }
 
       /* 3. タイトル（LEXIE）のアニメーション */
-      header h1 {
+      header h1, header .site-logo {
         transition: font-size 0.3s ease, margin 0.3s ease;
         line-height: 1; /* 行間を詰める */
       }
 
       /* スクロール時：文字サイズを「2.2em」から「1.5em」にギュッと小さくする */
-      header.scrolled h1 {
+      header.scrolled h1, header.scrolled .site-logo {
         font-size: 1.5em !important;
         margin-bottom: 0 !important;
       }
@@ -954,7 +954,7 @@
       /* ▼▼▼ [スマホ完全対応版] コンパクトヘッダーCSS（ここから上書き） ▼▼▼ */
 
       /* 3. タイトル（LEXIE）のアニメーション */
-      header h1 {
+      header h1, header .site-logo {
         transition: font-size 0.3s ease, margin 0.3s ease;
         line-height: 1.2; /* 行間を確保して被りを防ぐ */
 
@@ -965,7 +965,7 @@
       }
 
       /* スクロール時：文字サイズを「2.2em」から「1.5em」にギュッと小さくする */
-      header.scrolled h1 {
+      header.scrolled h1, header.scrolled .site-logo {
         font-size: 1.5em !important;
         margin-bottom: 0 !important;
       }
@@ -999,7 +999,7 @@
 
       /* スマホ対応：縦並びにしてバランスを取る */
       @media (max-width: 768px) {
-        header h1 {
+        header h1, header .site-logo {
           flex-direction: column; /* 縦積みに変更 */
           align-items: flex-start; /* 左寄せ */
         }
