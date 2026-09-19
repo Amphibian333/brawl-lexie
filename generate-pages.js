@@ -89,6 +89,24 @@ function buildPage({ id, data }) {
 <meta property="og:image" content="${SITE}/ogp.png">
 <link rel="icon" href="/favicon.ico">
 <link rel="stylesheet" href="/style.css">
+<style>
+  body { max-width: 820px; margin: 0 auto; padding: 0 16px 60px; background: var(--bg-color); color: var(--text-primary); line-height: 1.7; }
+  header { padding: 16px 0; border-bottom: 2px solid var(--accent-primary); margin-bottom: 28px; }
+  header a { color: var(--accent-primary); font-weight: 700; text-decoration: none; font-size: 1.1em; }
+  h1 { font-size: 1.7em; line-height: 1.4; margin: 0 0 16px; }
+  h2 { font-size: 1.3em; margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border-color); }
+  .voiceline { background: var(--hero-search-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 18px 20px; margin-bottom: 18px; }
+  .voiceline h3 { margin: 0 0 10px; font-size: 1.15em; color: var(--accent-primary); }
+  .translation { margin: 0 0 10px; font-weight: 700; }
+  .explanation { color: var(--text-secondary); font-size: 0.95em; }
+  .explanation ul { padding-left: 1.2em; }
+  audio { width: 100%; margin-top: 14px; }
+  nav ul { list-style: none; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 20px; }
+  nav a { color: var(--accent-primary); text-decoration: none; font-size: 0.9em; }
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color); }
+  footer a { color: var(--accent-primary); }
+  @media (max-width: 560px) { nav ul { grid-template-columns: 1fr; } h1 { font-size: 1.4em; } }
+</style>
 <script type="application/ld+json">${JSON.stringify(jsonld)}</script>
 <script type="application/ld+json">${JSON.stringify(faq)}</script>
 </head>
