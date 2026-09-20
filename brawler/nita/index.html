@@ -431,7 +431,7 @@
         </div>
       </section>
 
-      <section id="about" class="page-section container">
+      <section id="about" class="page-section container hidden">
         <h2 class="section-title">Lexieについて</h2>
         <p style="text-align: center; max-width: 700px; margin: 0 auto">
           Lexieはブロスタファンプロジェクトです。学習がゲーム体験の一部となることを願っています。
@@ -621,15 +621,25 @@
         var data;
         try { data = JSON.parse(el.textContent); } catch (e) { return; }
         var tries = 0;
-        function open() {
-          if (typeof displayBrawlerDetail === "function") {
-            try { displayBrawlerDetail(data); } catch (e) { console.error("詳細表示に失敗:", e); }
-          } else if (tries++ < 100) {
-            setTimeout(open, 50);
+        function boot() {
+          if (typeof displayBrawlerDetail !== "function") {
+            if (tries++ < 200) setTimeout(boot, 20);
+            return;
           }
+          try { displayBrawlerDetail(data); } catch (e) { console.error("詳細表示に失敗:", e); }
+          // 「一覧へ戻る」を本物のページ遷移にする（URLを残さないため）
+          try {
+            document.querySelectorAll(".back-to-list-button, #back-to-list-btn").forEach(function (btn) {
+              btn.onclick = function (e) { e.preventDefault(); location.href = "/"; };
+            });
+          } catch (e) {}
         }
-        if (document.readyState === "complete") open();
-        else window.addEventListener("load", open);
+        // 画像や音声の読み込みは待たない。DOMが組み上がった直後に差し替える
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", function () { setTimeout(boot, 0); });
+        } else {
+          setTimeout(boot, 0);
+        }
       })();
     </script>
   </body>

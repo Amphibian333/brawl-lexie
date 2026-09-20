@@ -175,12 +175,18 @@ function buildPage({ id, data }) {
 
   // (5) 開いた瞬間に詳細ページが見えている状態にする
   //     hero（キャラ一覧）は隠し、詳細セクションの hidden を外す
-  html = replaceOnce(
-    html,
-    /<section id="hero" class="page-section">/,
-    '<section id="hero" class="page-section hidden">',
-    "hero を隠す"
+  //     まず全セクションを隠す（hero だけでなく about なども対象。隠し漏れがあると
+  //     ページを開いた瞬間にトップの中身がちらつく）
+  let hiddenCount = 0;
+  html = html.replace(
+    /(<section id="[^"]*" class="page-section)([^"]*)">/g,
+    (m, head, rest) => {
+      if (rest.includes("hidden")) return m;
+      hiddenCount++;
+      return `${head}${rest} hidden">`;
+    }
   );
+  //     そのうえで詳細ページだけを表示状態にする
   html = replaceOnce(
     html,
     /<section id="brawler-detail-page" class="page-section hidden">/,
@@ -211,15 +217,25 @@ function buildPage({ id, data }) {
         var data;
         try { data = JSON.parse(el.textContent); } catch (e) { return; }
         var tries = 0;
-        function open() {
-          if (typeof displayBrawlerDetail === "function") {
-            try { displayBrawlerDetail(data); } catch (e) { console.error("詳細表示に失敗:", e); }
-          } else if (tries++ < 100) {
-            setTimeout(open, 50);
+        function boot() {
+          if (typeof displayBrawlerDetail !== "function") {
+            if (tries++ < 200) setTimeout(boot, 20);
+            return;
           }
+          try { displayBrawlerDetail(data); } catch (e) { console.error("詳細表示に失敗:", e); }
+          // 「一覧へ戻る」を本物のページ遷移にする（URLを残さないため）
+          try {
+            document.querySelectorAll(".back-to-list-button, #back-to-list-btn").forEach(function (btn) {
+              btn.onclick = function (e) { e.preventDefault(); location.href = "/"; };
+            });
+          } catch (e) {}
         }
-        if (document.readyState === "complete") open();
-        else window.addEventListener("load", open);
+        // 画像や音声の読み込みは待たない。DOMが組み上がった直後に差し替える
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", function () { setTimeout(boot, 0); });
+        } else {
+          setTimeout(boot, 0);
+        }
       })();
     </script>
   </body>`;
