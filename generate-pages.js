@@ -16,8 +16,20 @@ const DATA_DIR = path.join(ROOT, "data", "brawlers");
 const OUT_DIR = path.join(ROOT, "brawler");
 const TEMPLATE_PATH = path.join(ROOT, "index.html");
 
+// 自動生成したリンク集を index.html に差し込む目印。
+// この目印の間だけを毎回作り直すので、何度実行しても結果は同じになる（＝安全）。
+const LINKS_START = "<!-- AUTO_BRAWLER_LINKS:START -->";
+const LINKS_END = "<!-- AUTO_BRAWLER_LINKS:END -->";
+const LINKS_RE = new RegExp(
+  LINKS_START.replace(/[-[\]{}()*+?.,\\^$|#]/g, "\\$&") +
+    "[\\s\\S]*?" +
+    LINKS_END.replace(/[-[\]{}()*+?.,\\^$|#]/g, "\\$&")
+);
+
 // ---- 読み込み ----
-const template = fs.readFileSync(TEMPLATE_PATH, "utf8");
+const rawIndex = fs.readFileSync(TEMPLATE_PATH, "utf8");
+// キャラページの型紙からは自動生成リンク集を外す（各ページに二重で入らないように）
+const template = rawIndex.replace(LINKS_RE, "");
 const files = fs.readdirSync(DATA_DIR).filter((f) => f.endsWith(".json"));
 const all = files.map((f) => ({
   id: f.replace(/\.json$/, ""),
@@ -285,6 +297,74 @@ for (const b of all) {
   count++;
 }
 console.log(`生成完了: ${count} ページ -> /brawler/<id>/index.html`);
+
+// ---- トップページに、クローラーが辿れる静的リンク集を埋め込む ----
+// キャラカードは JavaScript が作るため、クローラーには1本もリンクが見えない。
+// そこで HTML に直接書かれたリンク集を置き、トップから92ページへの道を作る。
+const linkItems = all
+  .map(
+    (b) =>
+      `<li><a href="/brawler/${b.id}/" style="color:var(--accent-primary);text-decoration:none;font-size:0.85em">${esc(
+        b.data.name
+      )}（${esc(b.data.nameEn)}）のセリフ一覧</a></li>`
+  )
+  .join("\n          ");
+
+const linkIndex = `${LINKS_START}
+    <nav class="brawler-link-index" aria-label="全キャラクター一覧" style="max-width:1200px;margin:40px auto 0;padding:24px 16px 40px;border-top:1px solid var(--border-color)">
+      <h2 style="font-size:1.1em;margin-bottom:14px">キャラクター別セリフ集（全${all.length}キャラ）</h2>
+      <ul style="list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:6px 16px">
+          ${linkItems}
+      </ul>
+    </nav>
+    ${LINKS_END}`;
+
+let newIndex;
+if (LINKS_RE.test(rawIndex)) {
+  newIndex = rawIndex.replace(LINKS_RE, linkIndex); // 2回目以降：中身だけ更新
+} else {
+  newIndex = rawIndex.replace(/<\/body>/, `${linkIndex}\n  </body>`); // 初回：末尾に追加
+}
+if (newIndex !== rawIndex) {
+  fs.writeFileSync(TEMPLATE_PATH, newIndex, "utf8");
+  console.log(`index.html にリンク集を埋め込みました（${all.length}件）`);
+}
+
+// ---- sitemap.xml ----
+// 「このサイトにはこのURLがあります」という一覧表。検索エンジンに直接渡せる。
+const today = new Date().toISOString().slice(0, 10);
+const urls = [
+  { loc: `${SITE}/`, priority: "1.0", changefreq: "daily" },
+  ...all.map((b) => ({
+    loc: `${SITE}/brawler/${b.id}/`,
+    priority: "0.8",
+    changefreq: "weekly",
+  })),
+  { loc: `${SITE}/privacy.html`, priority: "0.3", changefreq: "yearly" },
+];
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls
+  .map(
+    (u) =>
+      `  <url>\n    <loc>${u.loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${u.changefreq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`
+  )
+  .join("\n")}
+</urlset>
+`;
+fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemap, "utf8");
+console.log(`sitemap.xml を生成しました（${urls.length} URL）`);
+
+// ---- robots.txt ----
+// クローラーへの案内板。どこを見ていいか、地図(sitemap)はどこかを伝える。
+const robots = `User-agent: *
+Allow: /
+
+Sitemap: ${SITE}/sitemap.xml
+`;
+fs.writeFileSync(path.join(ROOT, "robots.txt"), robots, "utf8");
+console.log("robots.txt を生成しました");
+
 if (warned.size > 0) {
   console.warn(`⚠ ${warned.size} 種類の置換が見つかりませんでした。index.html の構造が変わった可能性があります。`);
 }
