@@ -14,7 +14,7 @@
 
       async function loadBrawlersIndex() {
         try {
-          const response = await fetch('data/brawlers-index.json');
+          const response = await fetch('/data/brawlers-index.json');
           brawlers = await response.json();
         } catch (err) {
           console.error("Failed to load brawlers-index.json", err);
@@ -41,7 +41,7 @@
       function prefetchBrawlerData(b) {
         if (!b.voicelines && !b.isFetching) {
           b.isFetching = true;
-          b.fetchPromise = fetch(`data/brawlers/${b.fileId}.json`)
+          b.fetchPromise = fetch(`/data/brawlers/${b.fileId}.json`)
             .then(res => res.json())
             .then(detail => {
               b.voicelines = detail.voicelines;
@@ -61,7 +61,7 @@
         brawlers.forEach(b => {
           const needsLoad = voicelineIds.some(vid => b.voicelineIds && b.voicelineIds.includes(vid));
           if (needsLoad && !b.voicelines) {
-            const p = fetch(`data/brawlers/${b.fileId}.json`)
+            const p = fetch(`/data/brawlers/${b.fileId}.json`)
               .then(res => res.json())
               .then(detail => {
                 b.voicelines = detail.voicelines;
@@ -80,7 +80,7 @@
         brawlers.forEach(b => {
           if (!b.voicelines && !b.isFetching) {
             b.isFetching = true;
-            const p = fetch(`data/brawlers/${b.fileId}.json`)
+            const p = fetch(`/data/brawlers/${b.fileId}.json`)
               .then(res => res.json())
               .then(detail => {
                 b.voicelines = detail.voicelines;
@@ -873,7 +873,7 @@
           } else if (!b.voicelines) {
             card.classList.add("loading-card");
             try {
-              const response = await fetch(`data/brawlers/${b.fileId}.json`);
+              const response = await fetch(`/data/brawlers/${b.fileId}.json`);
               const detail = await response.json();
               b.voicelines = detail.voicelines;
               b.tiktokEmbed = detail.tiktokEmbed;

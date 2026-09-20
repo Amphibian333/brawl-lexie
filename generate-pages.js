@@ -1,13 +1,30 @@
-// キャラ別の静的HTMLページを生成するスクリプト
+// キャラ別の静的HTMLページを生成するスクリプト（index.html を型紙として使う）
 // 実行: node generate-pages.js
+//
+// 仕組み:
+//   index.html（骨格・全機能）＋ data/brawlers/*.json（中身）→ brawler/<id>/index.html
+//   生成されたページは index.html と同じ骨格を持つので、app.js がそのまま動く。
+//   セリフ本文はHTMLに焼き込まれるので、JavaScriptを待たないクローラーにも読める。
+//   ※ index.html 自体は一切変更しない（本体を壊さないため）
 
 const fs = require("fs");
 const path = require("path");
 
 const SITE = "https://brawl-lexie.vercel.app";
-const DATA_DIR = path.join(__dirname, "data", "brawlers");
-const OUT_DIR = path.join(__dirname, "brawler");
+const ROOT = __dirname;
+const DATA_DIR = path.join(ROOT, "data", "brawlers");
+const OUT_DIR = path.join(ROOT, "brawler");
+const TEMPLATE_PATH = path.join(ROOT, "index.html");
 
+// ---- 読み込み ----
+const template = fs.readFileSync(TEMPLATE_PATH, "utf8");
+const files = fs.readdirSync(DATA_DIR).filter((f) => f.endsWith(".json"));
+const all = files.map((f) => ({
+  id: f.replace(/\.json$/, ""),
+  data: JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), "utf8")),
+}));
+
+// ---- 小道具 ----
 // HTMLとして危険な文字を無害化する（" や < をそのまま書くと壊れるため）
 const esc = (s) =>
   String(s == null ? "" : s)
@@ -16,24 +33,79 @@ const esc = (s) =>
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
 
-// explanation は元データが既にHTMLタグ入りなので、タグだけ残して整える
-const stripTags = (s) => String(s || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+// HTMLタグを取り除いて素のテキストにする（meta説明文などに使う）
+const stripTags = (s) =>
+  String(s || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 
-const files = fs.readdirSync(DATA_DIR).filter((f) => f.endsWith(".json"));
-const all = files.map((f) => ({
-  id: f.replace(/\.json$/, ""),
-  data: JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), "utf8")),
-}));
+// 置換に失敗したら気づけるようにする（黙って壊れるのを防ぐ）
+let warned = new Set();
+function replaceOnce(html, pattern, replacement, label) {
+  if (!pattern.test(html)) {
+    if (!warned.has(label)) {
+      console.warn(`  ⚠ 置換対象が見つかりません: ${label}`);
+      warned.add(label);
+    }
+    return html;
+  }
+  return html.replace(pattern, replacement);
+}
 
-fs.mkdirSync(OUT_DIR, { recursive: true });
-
+// ---- 1ページ分を組み立てる ----
 function buildPage({ id, data }) {
   const vls = Array.isArray(data.voicelines) ? data.voicelines : [];
   const title = `【ボイス付き】${data.name}（${data.nameEn}）の英語セリフ全${vls.length}個｜和訳・解説｜Lexie`;
   const desc = `ブロスタの${data.name}（${data.nameEn}）の英語ボイス全${vls.length}セリフを、音声・日本語訳・英語解説つきで掲載。代表セリフ「${stripTags(data.quote)}」の意味も解説。`;
   const url = `${SITE}/brawler/${id}/`;
 
-  // 検索エンジン・AIに「このページは何か」を伝える構造化データ
+  let html = template;
+
+  // (1) 相対パスを絶対パスに直す
+  //     /brawler/shelly/ から "app.js" を探すと /brawler/shelly/app.js になって失敗するため
+  html = html
+    .replace(/href="style\.css"/g, 'href="/style.css"')
+    .replace(/src="app\.js"/g, 'src="/app.js"')
+    .replace(/src="data\/changelog\.js"/g, 'src="/data/changelog.js"');
+
+  // (2) タイトル・説明文をこのキャラ用に差し替える
+  html = replaceOnce(html, /<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`, "title");
+  html = replaceOnce(
+    html,
+    /<meta\s+name="description"[\s\S]*?\/>/,
+    `<meta name="description" content="${esc(desc)}" />`,
+    "meta description"
+  );
+  html = replaceOnce(
+    html,
+    /<meta property="og:title"[^>]*>/,
+    `<meta property="og:title" content="${esc(title)}" />`,
+    "og:title"
+  );
+  html = replaceOnce(
+    html,
+    /<meta property="og:description"[^>]*>/,
+    `<meta property="og:description" content="${esc(desc)}" />`,
+    "og:description"
+  );
+  html = replaceOnce(
+    html,
+    /<meta property="og:url"[^>]*>/,
+    `<meta property="og:url" content="${url}" />`,
+    "og:url"
+  );
+  html = replaceOnce(
+    html,
+    /<meta name="twitter:title"[^>]*>/,
+    `<meta name="twitter:title" content="${esc(title)}" />`,
+    "twitter:title"
+  );
+  html = replaceOnce(
+    html,
+    /<meta name="twitter:description"[^>]*>/,
+    `<meta name="twitter:description" content="${esc(desc)}" />`,
+    "twitter:description"
+  );
+
+  // (3) canonical と構造化データ（JSON-LD）を head に足す
   const jsonld = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -45,111 +117,119 @@ function buildPage({ id, data }) {
     about: { "@type": "Thing", name: `${data.name} (${data.nameEn}) - ブロスタ` },
     author: { "@type": "Person", name: "あんふぃ" },
   };
-
-  // FAQ形式：AIが引用しやすい「質問→答え」の形
   const faq = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: vls.slice(0, 10).map((v) => ({
       "@type": "Question",
       name: `ブロスタの${data.name}のセリフ「${stripTags(v.quote)}」の意味は？`,
-      acceptedAnswer: { "@type": "Answer", text: `${stripTags(v.translation)}という意味です。${stripTags(v.explanation).slice(0, 300)}` },
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: `${stripTags(v.translation)}という意味です。${stripTags(v.explanation).slice(0, 300)}`,
+      },
     })),
   };
+  const headExtra = `
+    <link rel="canonical" href="${url}" />
+    <script type="application/ld+json">${JSON.stringify(jsonld)}</script>
+    <script type="application/ld+json">${JSON.stringify(faq)}</script>
+  </head>`;
+  html = replaceOnce(html, /<\/head>/, headExtra, "</head>");
 
-  const lines = vls
+  // (4) クローラー用の本文を器に焼き込む
+  //     JavaScript が動くとここは本体のリッチUIで上書きされる
+  const staticLines = vls
     .map(
       (v, i) => `
-      <article class="voiceline" id="${esc(v.id)}">
-        <h3>${i + 1}. ${esc(stripTags(v.quote))}</h3>
-        <p class="translation"><strong>和訳:</strong> ${esc(stripTags(v.translation))}</p>
-        <div class="explanation">${v.explanation || ""}</div>
-        ${v.audioUrl ? `<audio controls preload="none" src="${esc(v.audioUrl)}"></audio>` : ""}
-      </article>`
+          <article class="prerender-voiceline">
+            <h3>${i + 1}. ${esc(stripTags(v.quote))}</h3>
+            <p><strong>和訳:</strong> ${esc(stripTags(v.translation))}</p>
+            <div>${v.explanation || ""}</div>
+          </article>`
     )
-    .join("\n");
+    .join("");
 
-  const others = all
-    .filter((b) => b.id !== id)
-    .map((b) => `<li><a href="/brawler/${b.id}/">${esc(b.data.name)}（${esc(b.data.nameEn)}）のセリフ</a></li>`)
-    .join("\n        ");
+  const staticContent = `<div id="brawler-detail-content">
+        <div class="prerender-body">
+          <h1>${esc(data.name)}（${esc(data.nameEn)}）の英語セリフ一覧・和訳つき</h1>
+          <p>ブロスタのキャラクター<strong>${esc(data.name)}</strong>（英語名: ${esc(data.nameEn)}）の英語ボイスセリフ全${vls.length}個を、音声・日本語訳・英語表現の解説つきでまとめています。代表的なセリフは「${esc(stripTags(data.quote))}」です。</p>
+          <h2>${esc(data.name)}のセリフ全${vls.length}個</h2>${staticLines}
+          <nav class="prerender-nav">
+            <h2>他のキャラクターのセリフ</h2>
+            <ul>${all
+              .filter((b) => b.id !== id)
+              .map(
+                (b) =>
+                  `<li><a href="/brawler/${b.id}/">${esc(b.data.name)}（${esc(b.data.nameEn)}）のセリフ</a></li>`
+              )
+              .join("")}</ul>
+          </nav>
+        </div>
+      </div>`;
+  html = replaceOnce(
+    html,
+    /<div id="brawler-detail-content"><\/div>/,
+    staticContent,
+    "brawler-detail-content"
+  );
 
-  return `<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>${esc(title)}</title>
-<meta name="description" content="${esc(desc)}">
-<link rel="canonical" href="${url}">
-<meta property="og:title" content="${esc(title)}">
-<meta property="og:description" content="${esc(desc)}">
-<meta property="og:url" content="${url}">
-<meta property="og:type" content="article">
-<meta property="og:image" content="${SITE}/ogp.png">
-<link rel="icon" href="/favicon.ico">
-<link rel="stylesheet" href="/style.css">
-<style>
-  body { margin: 0; background: var(--bg-color); color: var(--text-primary); line-height: 1.7; }
-  main, footer { max-width: 820px; margin: 0 auto; padding: 0 16px; }
-  main { padding-top: 28px; padding-bottom: 60px; }
-  header .site-logo { margin: 0; cursor: pointer; }
-  header .site-logo a { color: inherit; text-decoration: none; }
-  h1 { font-size: 1.7em; line-height: 1.4; margin: 0 0 16px; }
-  h2 { font-size: 1.3em; margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border-color); }
-  .voiceline { background: var(--hero-search-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 18px 20px; margin-bottom: 18px; }
-  .voiceline h3 { margin: 0 0 10px; font-size: 1.15em; color: var(--accent-primary); }
-  .translation { margin: 0 0 10px; font-weight: 700; }
-  .explanation { color: var(--text-secondary); font-size: 0.95em; }
-  .explanation ul { padding-left: 1.2em; }
-  audio { width: 100%; margin-top: 14px; }
-  nav ul { list-style: none; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 20px; }
-  nav a { color: var(--accent-primary); text-decoration: none; font-size: 0.9em; }
-  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color); }
-  footer a { color: var(--accent-primary); }
-  @media (max-width: 560px) { nav ul { grid-template-columns: 1fr; } h1 { font-size: 1.4em; } }
-</style>
-<script type="application/ld+json">${JSON.stringify(jsonld)}</script>
-<script type="application/ld+json">${JSON.stringify(faq)}</script>
-</head>
-<body>
-  <header>
-    <div class="header-nav-container">
-      <p class="site-logo">
-        <a href="/">Lexie</a>
-        <span class="header-seo-text">【ボイス再生】ブロスタセリフ集｜全91キャラ対応（順次更新中）</span>
-      </p>
-      <nav>
-        <ul>
-          <li><a href="/">ホーム</a></li>
-          <li><a href="/" style="color: #ff4d4d">❤️ お気に入り</a></li>
-          <li><a href="/">📚 単語帳</a></li>
-          <li><a href="/" style="color: #ffc107">🎯 クイズ</a></li>
-          <li><a href="/">📋 履歴</a></li>
-          <li><a href="/">翻訳動画</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <h1>${esc(data.name)}（${esc(data.nameEn)}）の英語セリフ一覧・和訳つき</h1>
-    <p>ブロスタのキャラクター<strong>${esc(data.name)}</strong>（英語名: ${esc(data.nameEn)}）の英語ボイスセリフ全${vls.length}個を、音声・日本語訳・英語表現の解説つきでまとめています。レアリティは${esc(data.rarity)}、ロールは${esc(data.role)}です。代表的なセリフは「${esc(stripTags(data.quote))}」です。</p>
-    <section>
-      <h2>${esc(data.name)}のセリフ全${vls.length}個</h2>
-${lines}
-    </section>
-    <nav>
-      <h2>他のキャラクターのセリフ</h2>
-      <ul>
-        ${others}
-      </ul>
-    </nav>
-  </main>
-  <footer><p><a href="/">Lexie トップページへ</a></p></footer>
-</body>
-</html>`;
+  // (5) 開いた瞬間に詳細ページが見えている状態にする
+  //     hero（キャラ一覧）は隠し、詳細セクションの hidden を外す
+  html = replaceOnce(
+    html,
+    /<section id="hero" class="page-section">/,
+    '<section id="hero" class="page-section hidden">',
+    "hero を隠す"
+  );
+  html = replaceOnce(
+    html,
+    /<section id="brawler-detail-page" class="page-section hidden">/,
+    '<section id="brawler-detail-page" class="page-section">',
+    "詳細ページを表示"
+  );
+
+  // (6) 焼き込み本文の最低限の見た目 ＋ 起動スクリプト
+  //     JSが動かない環境でも読めるように、prerender-* に簡単なスタイルを当てる
+  const boot = `
+    <style>
+      .prerender-body { max-width: 900px; margin: 0 auto; padding: 20px 16px 60px; }
+      .prerender-body h1 { font-size: 1.8em; line-height: 1.4; margin-bottom: 16px; }
+      .prerender-body h2 { font-size: 1.3em; margin: 32px 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--border-color); }
+      .prerender-voiceline { border: 1px solid var(--border-color); border-radius: 12px; padding: 16px 18px; margin-bottom: 16px; }
+      .prerender-voiceline h3 { color: var(--accent-primary); margin: 0 0 8px; font-size: 1.1em; }
+      .prerender-nav ul { list-style: none; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 4px 16px; }
+      .prerender-nav a { color: var(--accent-primary); text-decoration: none; font-size: 0.9em; }
+      @media (max-width: 560px) { .prerender-nav ul { grid-template-columns: 1fr; } }
+    </style>
+    <script type="application/json" id="brawler-prerender-data">${JSON.stringify(data).replace(/</g, "\\u003c")}</script>
+    <script>
+      // このページのキャラを、本体と同じUIで開き直す。
+      // 失敗しても焼き込み済みの本文がそのまま残るので、ページが壊れることはない。
+      (function () {
+        var el = document.getElementById("brawler-prerender-data");
+        if (!el) return;
+        var data;
+        try { data = JSON.parse(el.textContent); } catch (e) { return; }
+        var tries = 0;
+        function open() {
+          if (typeof displayBrawlerDetail === "function") {
+            try { displayBrawlerDetail(data); } catch (e) { console.error("詳細表示に失敗:", e); }
+          } else if (tries++ < 100) {
+            setTimeout(open, 50);
+          }
+        }
+        if (document.readyState === "complete") open();
+        else window.addEventListener("load", open);
+      })();
+    </script>
+  </body>`;
+  html = replaceOnce(html, /<\/body>/, boot, "</body>");
+
+  return html;
 }
 
+// ---- 書き出し ----
+fs.mkdirSync(OUT_DIR, { recursive: true });
 let count = 0;
 for (const b of all) {
   const dir = path.join(OUT_DIR, b.id);
@@ -158,3 +238,6 @@ for (const b of all) {
   count++;
 }
 console.log(`生成完了: ${count} ページ -> /brawler/<id>/index.html`);
+if (warned.size > 0) {
+  console.warn(`⚠ ${warned.size} 種類の置換が見つかりませんでした。index.html の構造が変わった可能性があります。`);
+}
