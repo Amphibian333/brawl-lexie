@@ -1,0 +1,3300 @@
+{
+  "crawler": {
+    "command": "siteone-crawler --url=https://brawl-lexie.vercel.app/",
+    "executedAt": "2026-09-20 14:24:24",
+    "finalUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/26.0.0.0 Safari/537.36 SiteOne-Crawler/2.5.1.20260627",
+    "hostname": "Mac",
+    "name": "SiteOne Crawler",
+    "version": "2.5.1.20260627"
+  },
+  "extraColumnsFromAnalysis": [
+    {
+      "customGroup": null,
+      "customMethod": null,
+      "customPattern": null,
+      "length": 8,
+      "name": "Access.",
+      "truncate": false
+    },
+    {
+      "customGroup": null,
+      "customMethod": null,
+      "customPattern": null,
+      "length": 8,
+      "name": "Best pr.",
+      "truncate": false
+    }
+  ],
+  "options": {
+    "acceptEncoding": "gzip, deflate, br",
+    "acceptInvalidCerts": false,
+    "addHostToOutputFile": false,
+    "addRandomQueryParams": false,
+    "addTimestampToOutputFile": false,
+    "aiActions": [
+      "seo",
+      "typos",
+      "summary"
+    ],
+    "aiApiKey": null,
+    "aiApiKeyEnv": null,
+    "aiApiKeyFile": null,
+    "aiCacheDir": "/Users/successfullife/brawl-lexie/tmp/ai-cache",
+    "aiDryRun": false,
+    "aiEndpoint": null,
+    "aiExclude": [],
+    "aiExtraBody": null,
+    "aiInclude": [],
+    "aiLanguage": null,
+    "aiMaxConcurrency": 4,
+    "aiMaxPages": 100,
+    "aiMaxReqsPerSec": null,
+    "aiMaxTokens": 32000,
+    "aiModel": null,
+    "aiPrompt": null,
+    "aiPromptFile": null,
+    "aiProvider": "openai-compatible",
+    "aiSeoAffectsScore": false,
+    "aiSynthesisExtraBody": null,
+    "aiTemperature": 0.0,
+    "aiTimeout": 180,
+    "aiUseMaxCompletionTokens": false,
+    "allowedDomainsForCrawling": [],
+    "allowedDomainsForExternalFiles": [],
+    "analyzerFilterRegex": null,
+    "browserAutoDownload": false,
+    "browserHeadful": false,
+    "browserNoSandbox": false,
+    "browserPath": null,
+    "browserRenderAll": false,
+    "browserTimeout": 30,
+    "browserWait": "networkidle",
+    "browserWaitExtraMs": 0,
+    "browserWorkers": 3,
+    "ci": false,
+    "ciBaseline": null,
+    "ciFailOnCode": [],
+    "ciGithubAnnotations": false,
+    "ciIgnoreCode": [],
+    "ciJunitFile": null,
+    "ciMax404": 0,
+    "ciMax5xx": 0,
+    "ciMaxAvgResponse": null,
+    "ciMaxCriticals": 0,
+    "ciMaxScoreDrop": null,
+    "ciMaxWarnings": null,
+    "ciMinAccessibility": 3.0,
+    "ciMinAssets": 10,
+    "ciMinBestPractices": 5.0,
+    "ciMinDocuments": 0,
+    "ciMinPages": 10,
+    "ciMinPerformance": 5.0,
+    "ciMinScore": 5.0,
+    "ciMinSecurity": 5.0,
+    "ciMinSeo": 5.0,
+    "consoleMaxMessages": 100,
+    "consoleMsgMaxChars": 200,
+    "consoleTotalMaxKb": 128,
+    "consoleWidth": null,
+    "debug": false,
+    "debugLogFile": null,
+    "debugUrlRegex": [],
+    "device": "desktop",
+    "disableAllAssets": false,
+    "disableAstroInlineModules": false,
+    "disableFiles": false,
+    "disableFonts": false,
+    "disableImages": false,
+    "disableJavascript": false,
+    "disableStyles": false,
+    "doNotTruncateUrl": false,
+    "extraColumns": [],
+    "extraColumnsNamesOnly": [],
+    "fastestMaxTime": 1.0,
+    "fastestTopLimit": 20,
+    "forceColor": false,
+    "forceRelativeUrls": false,
+    "hideColumns": [],
+    "hideProgressBar": false,
+    "htmlReportOptions": null,
+    "htmlToMarkdownFile": null,
+    "htmlToMarkdownOutput": null,
+    "httpAuth": null,
+    "httpCacheCompression": false,
+    "httpCacheDir": "/Users/successfullife/Library/Caches/siteone-crawler/http-cache",
+    "httpCacheTtl": 86400,
+    "ignoreHtmlComments": false,
+    "ignoreRegex": [],
+    "ignoreRobotsTxt": false,
+    "ignoreStoreFileError": false,
+    "includeRegex": [],
+    "keepQueryParams": [],
+    "mailFrom": "siteone-crawler@your-hostname.com",
+    "mailFromName": "SiteOne Crawler",
+    "mailSmtpHost": "localhost",
+    "mailSmtpPass": null,
+    "mailSmtpPort": 25,
+    "mailSmtpUser": null,
+    "mailSubjectTemplate": "Crawler Report for %domain% (%date%)",
+    "mailTo": [],
+    "markdownDisableFiles": false,
+    "markdownDisableImages": false,
+    "markdownExcludeSelector": [],
+    "markdownExportDir": null,
+    "markdownExportSingleFile": null,
+    "markdownExportStoreOnlyUrlRegex": [],
+    "markdownIgnoreStoreFileError": false,
+    "markdownMoveContentBeforeH1ToEnd": false,
+    "markdownRemoveLinksAndImagesFromSingleFile": false,
+    "markdownReplaceContent": [],
+    "markdownReplaceQueryString": [],
+    "maxDepth": 0,
+    "maxHeadingLevel": 3,
+    "maxNon200ResponsesPerBasename": 5,
+    "maxQueueLength": 9000,
+    "maxReqsPerSec": 10.0,
+    "maxSkippedUrls": 10000,
+    "maxUrlLength": 2083,
+    "maxVisitedUrls": 10000,
+    "memoryLimit": "2048M",
+    "noColor": false,
+    "offlineExportDir": null,
+    "offlineExportLowercase": false,
+    "offlineExportNoAutoRedirectHtml": false,
+    "offlineExportNoUrlRewriting": false,
+    "offlineExportPreserveUrlStructure": false,
+    "offlineExportPreserveUrls": false,
+    "offlineExportRemoveUnwantedCode": true,
+    "offlineExportStoreOnlyUrlRegex": [],
+    "outputHtmlReport": "/Users/successfullife/brawl-lexie/tmp/brawl-lexie.vercel.app.report.20260920-232424.html",
+    "outputJsonFile": "/Users/successfullife/brawl-lexie/tmp/brawl-lexie.vercel.app.output.20260920-232424.json",
+    "outputTextFile": "/Users/successfullife/brawl-lexie/tmp/brawl-lexie.vercel.app.output.20260920-232424.txt",
+    "outputType": "text",
+    "proxy": null,
+    "regexFilteringOnlyForPages": false,
+    "removeAllAnchorListeners": false,
+    "removeQueryParams": false,
+    "replaceContent": [],
+    "replaceQueryString": [],
+    "resolve": [],
+    "resultStorage": "memory",
+    "resultStorageCompression": false,
+    "resultStorageDir": "/Users/successfullife/brawl-lexie/tmp/result-storage",
+    "rowsLimit": 200,
+    "screenshotFormat": "png",
+    "screenshotMode": "viewport",
+    "screenshotQuality": 80,
+    "screenshotViewport": "1920x1080",
+    "screenshots": false,
+    "screenshotsDir": null,
+    "serveBindAddress": "127.0.0.1",
+    "serveMarkdownDir": null,
+    "serveOfflineDir": null,
+    "servePort": 8321,
+    "showHelpOnly": false,
+    "showInlineCriticals": false,
+    "showInlineWarnings": false,
+    "showSchemeAndHost": false,
+    "showVersionOnly": false,
+    "singleForeignPage": false,
+    "singlePage": false,
+    "sitemapBasePriority": 0.5,
+    "sitemapPriorityIncrease": 0.1,
+    "sitemapTxtFile": null,
+    "sitemapXmlFile": null,
+    "slowestMaxTime": 3.0,
+    "slowestMinTime": 0.01,
+    "slowestTopLimit": 20,
+    "timeout": 5,
+    "timezone": null,
+    "transformUrl": [],
+    "uploadEnabled": false,
+    "uploadPassword": null,
+    "uploadRetention": "30d",
+    "uploadTimeout": 3600,
+    "uploadTo": "https://crawler.siteone.io/up",
+    "url": "https://brawl-lexie.vercel.app/",
+    "urlColumnSize": null,
+    "urlList": null,
+    "urlListUrls": [],
+    "userAgent": null,
+    "websocketServer": null,
+    "workers": 3
+  },
+  "qualityScores": {
+    "categories": [
+      {
+        "code": "performance",
+        "deductions": [],
+        "label": "Excellent",
+        "name": "Performance",
+        "score": 10.0,
+        "weight": 0.2
+      },
+      {
+        "code": "seo",
+        "deductions": [],
+        "label": "Excellent",
+        "name": "SEO",
+        "score": 10.0,
+        "weight": 0.2
+      },
+      {
+        "code": "security",
+        "deductions": [
+          {
+            "fix": "Add the missing security headers (CSP, HSTS, X-Content-Type-Options) and harden cookies (Secure/HttpOnly/SameSite).",
+            "points": 1.0,
+            "reason": "1 page(s) with critical security findings"
+          }
+        ],
+        "label": "Excellent",
+        "name": "Security",
+        "score": 9.0,
+        "weight": 0.25
+      },
+      {
+        "code": "accessibility",
+        "deductions": [
+          {
+            "fix": "Associate every form control with a <label> (for=id or wrapping) or an aria-label.",
+            "points": 0.5,
+            "reason": "1 page(s) without form labels"
+          }
+        ],
+        "label": "Excellent",
+        "name": "Accessibility",
+        "score": 9.5,
+        "weight": 0.2
+      },
+      {
+        "code": "best-practices",
+        "deductions": [
+          {
+            "fix": "Enable Brotli (or at least gzip) compression for text assets on the server/CDN.",
+            "points": 0.5,
+            "reason": "No Brotli compression support"
+          },
+          {
+            "fix": "Serve images in a modern format (WebP or AVIF) for better compression.",
+            "points": 0.3,
+            "reason": "No WebP image support"
+          },
+          {
+            "fix": "Consider AVIF for the best image compression (alongside or instead of WebP).",
+            "points": 0.1,
+            "reason": "No AVIF image support"
+          }
+        ],
+        "label": "Excellent",
+        "name": "Best Practices",
+        "score": 9.1,
+        "weight": 0.15
+      }
+    ],
+    "overall": {
+      "code": "overall",
+      "deductions": [],
+      "label": "Excellent",
+      "name": "Overall",
+      "score": 9.5,
+      "weight": 1.0
+    }
+  },
+  "results": [
+    {
+      "cacheLifetime": 0,
+      "cacheTypeFlags": 4381,
+      "elapsedTime": 0.023,
+      "extras": [],
+      "size": 23583,
+      "status": "200",
+      "type": 1,
+      "url": "https://brawl-lexie.vercel.app/"
+    },
+    {
+      "cacheLifetime": 0,
+      "cacheTypeFlags": 4381,
+      "elapsedTime": 0.035,
+      "extras": [],
+      "size": 15086,
+      "status": "200",
+      "type": 4,
+      "url": "https://brawl-lexie.vercel.app/favicon.ico"
+    },
+    {
+      "cacheLifetime": 0,
+      "cacheTypeFlags": 4381,
+      "elapsedTime": 0.146,
+      "extras": [],
+      "size": 2079,
+      "status": "200",
+      "type": 2,
+      "url": "https://brawl-lexie.vercel.app/data/changelog.js"
+    },
+    {
+      "cacheLifetime": 0,
+      "cacheTypeFlags": 4381,
+      "elapsedTime": 0.306,
+      "extras": [],
+      "size": 17042,
+      "status": "200",
+      "type": 4,
+      "url": "https://brawl-lexie.vercel.app/favicon-96x96.png"
+    },
+    {
+      "cacheLifetime": 0,
+      "cacheTypeFlags": 4381,
+      "elapsedTime": 0.608,
+      "extras": [],
+      "size": 1210186,
+      "status": "200",
+      "type": 4,
+      "url": "https://brawl-lexie.vercel.app/favicon.svg"
+    },
+    {
+      "cacheLifetime": 0,
+      "cacheTypeFlags": 4381,
+      "elapsedTime": 0.232,
+      "extras": [],
+      "size": 44478,
+      "status": "200",
+      "type": 4,
+      "url": "https://brawl-lexie.vercel.app/apple-touch-icon.png"
+    },
+    {
+      "cacheLifetime": 0,
+      "cacheTypeFlags": 4381,
+      "elapsedTime": 0.031,
+      "extras": [],
+      "size": 100318,
+      "status": "200",
+      "type": 2,
+      "url": "https://brawl-lexie.vercel.app/app.js"
+    },
+    {
+      "cacheLifetime": 0,
+      "cacheTypeFlags": 4381,
+      "elapsedTime": 0.104,
+      "extras": [],
+      "size": 58311,
+      "status": "200",
+      "type": 3,
+      "url": "https://brawl-lexie.vercel.app/style.css"
+    }
+  ],
+  "stats": {
+    "countByStatus": {
+      "200": 8
+    },
+    "totalExecutionTime": 3.621,
+    "totalRequestsTimes": 1.485,
+    "totalRequestsTimesAvg": 0.186,
+    "totalRequestsTimesMax": 0.608,
+    "totalRequestsTimesMin": 0.023,
+    "totalRequestsTimesP90": 0.023,
+    "totalSize": 1471083,
+    "totalSizeFormatted": "1 MB",
+    "totalUrls": 8
+  },
+  "summary": {
+    "items": [
+      {
+        "aplCode": "security",
+        "status": "CRITICAL",
+        "text": "Security - 1 pages(s) with critical finding(s)."
+      },
+      {
+        "aplCode": "skipped",
+        "status": "WARNING",
+        "text": "Skipped URLs - 7 skipped URLs found"
+      },
+      {
+        "aplCode": "brotli-support",
+        "status": "WARNING",
+        "text": "1 page(s) do not support Brotli compression."
+      },
+      {
+        "aplCode": "webp-support",
+        "status": "WARNING",
+        "text": "No WebP image found on the website."
+      },
+      {
+        "aplCode": "avif-support",
+        "status": "WARNING",
+        "text": "No AVIF image found on the website."
+      },
+      {
+        "aplCode": "pages-without-form-labels",
+        "status": "WARNING",
+        "text": "1 page(s) without form labels"
+      },
+      {
+        "aplCode": "robots-txt-brawl-lexie.vercel.app",
+        "status": "NOTICE",
+        "text": "Loaded robots.txt for domain 'brawl-lexie.vercel.app': status code 404, size 7 kB and took 209 ms."
+      },
+      {
+        "aplCode": "external-urls",
+        "status": "NOTICE",
+        "text": "External URLs - 7 external URL(s) found"
+      },
+      {
+        "aplCode": "seo-canonical-missing",
+        "status": "NOTICE",
+        "text": "1 page(s) without a rel=canonical link"
+      },
+      {
+        "aplCode": "static-assets-short-cache",
+        "status": "NOTICE",
+        "text": "7 static asset(s) use a short or revalidate-only cache policy (< 1 day)"
+      },
+      {
+        "aplCode": "dns-ipv6",
+        "status": "NOTICE",
+        "text": "DNS IPv6: domain brawl-lexie.vercel.app does not support IPv6 (DNS server: 2001:f72:6200:2e10:3a97:a4ff:fe3c:d02c)"
+      },
+      {
+        "aplCode": "redirects",
+        "status": "OK",
+        "text": "Redirects - no redirects found"
+      },
+      {
+        "aplCode": "404",
+        "status": "OK",
+        "text": "404 OK - all pages exists, no non-existent pages found"
+      },
+      {
+        "aplCode": "ssl-signature-strong",
+        "status": "OK",
+        "text": "SSL/TLS certificate uses a strong signature algorithm (sha256WithRSAEncryption)."
+      },
+      {
+        "aplCode": "ssl-key-strong",
+        "status": "OK",
+        "text": "SSL/TLS certificate uses a strong public key (RSA 2048 bits)."
+      },
+      {
+        "aplCode": "ssl-certificate-trusted",
+        "status": "OK",
+        "text": "SSL/TLS certificate chain is trusted by the system CA store."
+      },
+      {
+        "aplCode": "ssl-protocols-modern",
+        "status": "OK",
+        "text": "Only modern TLS protocols are supported (no SSLv3 / TLS 1.0 / TLS 1.1)."
+      },
+      {
+        "aplCode": "ssl-protocol-tls13",
+        "status": "OK",
+        "text": "Modern TLS 1.3 is supported."
+      },
+      {
+        "aplCode": "ssl-certificate-valid",
+        "status": "OK",
+        "text": "SSL/TLS certificate is valid until Nov 27 19:48:08 2026 GMT. Issued by C = US, O = Google Trust Services, CN = WR1. Subject is CN = *.vercel.app."
+      },
+      {
+        "aplCode": "certificate-info",
+        "status": "OK",
+        "text": "SSL/TLS certificate issued by 'C = US, O = Google Trust Services, CN = WR1'."
+      },
+      {
+        "aplCode": "slowUrls",
+        "status": "OK",
+        "text": "Performance OK - all non-media URLs are faster than 3 seconds"
+      },
+      {
+        "aplCode": "seo-title-missing",
+        "status": "OK",
+        "text": "All indexable pages have a <title>"
+      },
+      {
+        "aplCode": "seo-meta-description-missing",
+        "status": "OK",
+        "text": "All indexable pages have a meta description"
+      },
+      {
+        "aplCode": "unique-headers",
+        "status": "OK",
+        "text": "HTTP headers - found 14 unique headers"
+      },
+      {
+        "aplCode": "static-assets-uncacheable",
+        "status": "OK",
+        "text": "All static assets are cacheable"
+      },
+      {
+        "aplCode": "title-uniqueness",
+        "status": "OK",
+        "text": "Only one title provided for uniqueness check."
+      },
+      {
+        "aplCode": "meta-description-uniqueness",
+        "status": "OK",
+        "text": "Only one meta description provided for uniqueness check."
+      },
+      {
+        "aplCode": "pages-with-missing-quotes",
+        "status": "OK",
+        "text": "All pages have quoted attributes"
+      },
+      {
+        "aplCode": "pages-with-large-svgs",
+        "status": "OK",
+        "text": "All pages have inline SVGs smaller than 5120 bytes"
+      },
+      {
+        "aplCode": "pages-with-duplicated-svgs",
+        "status": "OK",
+        "text": "All pages have inline SVGs with less than 5 duplicates"
+      },
+      {
+        "aplCode": "pages-with-invalid-svgs",
+        "status": "OK",
+        "text": "All pages have valid or none inline SVGs"
+      },
+      {
+        "aplCode": "pages-with-multiple-h1",
+        "status": "OK",
+        "text": "All pages without multiple <h1> headings"
+      },
+      {
+        "aplCode": "pages-without-h1",
+        "status": "OK",
+        "text": "All pages have <h1> heading"
+      },
+      {
+        "aplCode": "pages-with-skipped-heading-levels",
+        "status": "OK",
+        "text": "All pages have heading structure without skipped levels"
+      },
+      {
+        "aplCode": "pages-with-deep-dom",
+        "status": "OK",
+        "text": "All pages have DOM depth less than 30"
+      },
+      {
+        "aplCode": "pages-with-non-clickable-phone-numbers",
+        "status": "OK",
+        "text": "All pages have clickable (interactive) phone numbers"
+      },
+      {
+        "aplCode": "pages-with-invalid-html",
+        "status": "OK",
+        "text": "No HTML structural issues found"
+      },
+      {
+        "aplCode": "pages-without-image-alt-attributes",
+        "status": "OK",
+        "text": "All pages have image alt attributes"
+      },
+      {
+        "aplCode": "pages-without-aria-labels",
+        "status": "OK",
+        "text": "All links/buttons have an accessible name"
+      },
+      {
+        "aplCode": "pages-without-main-landmark",
+        "status": "OK",
+        "text": "All pages expose a main landmark"
+      },
+      {
+        "aplCode": "pages-without-lang",
+        "status": "OK",
+        "text": "All pages have lang attribute"
+      },
+      {
+        "aplCode": "pages-weight-exceeded",
+        "status": "OK",
+        "text": "All pages are within the page-weight budget"
+      },
+      {
+        "aplCode": "dns-ipv4",
+        "status": "OK",
+        "text": "DNS IPv4 OK: domain brawl-lexie.vercel.app resolved to 216.198.79.195, 64.29.17.195 (DNS server: 2001:f72:6200:2e10:3a97:a4ff:fe3c:d02c)"
+      },
+      {
+        "aplCode": "export-to-html",
+        "status": "INFO",
+        "text": "HTML report saved to '/Users/successfullife/brawl-lexie/tmp/brawl-lexie.vercel.app.report.20260920-232424.html' and took 0 ms"
+      }
+    ]
+  },
+  "tables": {
+    "404": {
+      "aplCode": "404",
+      "columns": {
+        "sourceUqId": {
+          "aplCode": "sourceUqId",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Found at URL",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 42
+        },
+        "statusCode": {
+          "aplCode": "statusCode",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Status",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 6
+        },
+        "url": {
+          "aplCode": "url",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "URL 404",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 42
+        }
+      },
+      "position": "before-url-table",
+      "rows": [],
+      "title": "404 URLs"
+    },
+    "accessibility": {
+      "aplCode": "accessibility",
+      "columns": {
+        "analysisName": {
+          "aplCode": "analysisName",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Analysis name",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "critical": {
+          "aplCode": "critical",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Critical",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 8
+        },
+        "notice": {
+          "aplCode": "notice",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Notice",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 6
+        },
+        "ok": {
+          "aplCode": "ok",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "OK",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 5
+        },
+        "warning": {
+          "aplCode": "warning",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Warning",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 7
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "analysisName": "Unnamed links/buttons",
+          "critical": "0",
+          "notice": "0",
+          "ok": "9",
+          "warning": "0"
+        },
+        {
+          "analysisName": "Missing html lang attribute",
+          "critical": "0",
+          "notice": "0",
+          "ok": "1",
+          "warning": "0"
+        },
+        {
+          "analysisName": "HTML structural issues",
+          "critical": "0",
+          "notice": "0",
+          "ok": "1",
+          "warning": "0"
+        },
+        {
+          "analysisName": "Missing form labels",
+          "critical": "0",
+          "notice": "0",
+          "ok": "4",
+          "warning": "4"
+        },
+        {
+          "analysisName": "Missing main landmark",
+          "critical": "0",
+          "notice": "0",
+          "ok": "1",
+          "warning": "0"
+        }
+      ],
+      "title": "Accessibility"
+    },
+    "analysis-stats": {
+      "aplCode": "analysis-stats",
+      "columns": {
+        "classAndMethod": {
+          "aplCode": "classAndMethod",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Class::method",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "execCount": {
+          "aplCode": "execCount",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Exec count",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "execTime": {
+          "aplCode": "execTime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Exec time",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 9
+        }
+      },
+      "position": "after-url-table",
+      "rows": [
+        {
+          "classAndMethod": "SslTlsAnalyzer::getTLSandSSLCertificateInfo",
+          "execCount": "1",
+          "execTime": "0.589548",
+          "execTimeFormatted": "589 ms"
+        },
+        {
+          "classAndMethod": "BestPracticeAnalyzer::checkNonClickablePhoneNumbers",
+          "execCount": "1",
+          "execTime": "0.0019255",
+          "execTimeFormatted": "1 ms"
+        },
+        {
+          "classAndMethod": "BestPracticeAnalyzer::checkHeadingStructure",
+          "execCount": "1",
+          "execTime": "0.000987042",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "SecurityAnalyzer::checkHtmlSecurity",
+          "execCount": "1",
+          "execTime": "0.000956917",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "BestPracticeAnalyzer::checkMaxDOMDepth",
+          "execCount": "1",
+          "execTime": "0.000824791",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "SeoAndOpenGraphAnalyzer::analyzeHeadings",
+          "execCount": "1",
+          "execTime": "0.0003615",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "BestPracticeAnalyzer::checkMissingQuotesOnAttributes",
+          "execCount": "1",
+          "execTime": "0.000295625",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "SecurityAnalyzer::checkHeaders",
+          "execCount": "1",
+          "execTime": "0.000276375",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "AccessibilityAnalyzer::checkMissingLabels",
+          "execCount": "1",
+          "execTime": "0.000157041",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "BestPracticeAnalyzer::checkInlineSvg",
+          "execCount": "1",
+          "execTime": "0.00013575",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "SeoAndOpenGraphAnalyzer::analyzeSeo",
+          "execCount": "1",
+          "execTime": "0.000122458",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "AccessibilityAnalyzer::checkHtmlStructure",
+          "execCount": "1",
+          "execTime": "0.000092584",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "AccessibilityAnalyzer::checkImageAltAttributes",
+          "execCount": "1",
+          "execTime": "0.000088042",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "AccessibilityAnalyzer::checkMissingAriaLabels",
+          "execCount": "1",
+          "execTime": "0.000085291",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "SeoAndOpenGraphAnalyzer::analyzeOpenGraph",
+          "execCount": "1",
+          "execTime": "0.000076333",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "BestPracticeAnalyzer::checkTitleUniqueness",
+          "execCount": "1",
+          "execTime": "0.000005917",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "SeoAndOpenGraphAnalyzer::emitSeoQualityFindings",
+          "execCount": "1",
+          "execTime": "0.000004083",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "AccessibilityAnalyzer::checkMissingRoles",
+          "execCount": "1",
+          "execTime": "0.000004083",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "AccessibilityAnalyzer::checkMissingLang",
+          "execCount": "1",
+          "execTime": "0.000003291",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "BestPracticeAnalyzer::checkMetaDescriptionUniqueness",
+          "execCount": "1",
+          "execTime": "0.000002625",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "BestPracticeAnalyzer::checkBrotliSupport",
+          "execCount": "1",
+          "execTime": "0.000002625",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "BestPracticeAnalyzer::checkAvifSupport",
+          "execCount": "1",
+          "execTime": "0.000001084",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "BestPracticeAnalyzer::checkWebpSupport",
+          "execCount": "1",
+          "execTime": "0.000001084",
+          "execTimeFormatted": "0 ms"
+        }
+      ],
+      "title": "Analysis stats"
+    },
+    "best-practices": {
+      "aplCode": "best-practices",
+      "columns": {
+        "analysisName": {
+          "aplCode": "analysisName",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Analysis name",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "critical": {
+          "aplCode": "critical",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Critical",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 8
+        },
+        "notice": {
+          "aplCode": "notice",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Notice",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 6
+        },
+        "ok": {
+          "aplCode": "ok",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "OK",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 5
+        },
+        "warning": {
+          "aplCode": "warning",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Warning",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 7
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "analysisName": "DOM depth",
+          "critical": "0",
+          "notice": "0",
+          "ok": "1",
+          "warning": "0"
+        },
+        {
+          "analysisName": "Heading structure",
+          "critical": "0",
+          "notice": "0",
+          "ok": "2",
+          "warning": "0"
+        },
+        {
+          "analysisName": "Title uniqueness",
+          "critical": "0",
+          "notice": "0",
+          "ok": "1",
+          "warning": "0"
+        },
+        {
+          "analysisName": "Description uniqueness",
+          "critical": "0",
+          "notice": "0",
+          "ok": "1",
+          "warning": "0"
+        },
+        {
+          "analysisName": "Brotli support",
+          "critical": "0",
+          "notice": "0",
+          "ok": "0",
+          "warning": "1"
+        },
+        {
+          "analysisName": "WebP support",
+          "critical": "0",
+          "notice": "0",
+          "ok": "0",
+          "warning": "1"
+        },
+        {
+          "analysisName": "AVIF support",
+          "critical": "0",
+          "notice": "0",
+          "ok": "0",
+          "warning": "1"
+        }
+      ],
+      "title": "Best practices"
+    },
+    "caching-per-content-type": {
+      "aplCode": "caching-per-content-type",
+      "columns": {
+        "avgLifetime": {
+          "aplCode": "avgLifetime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "AVG lifetime",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        },
+        "cacheType": {
+          "aplCode": "cacheType",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Cache type",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 12
+        },
+        "contentType": {
+          "aplCode": "contentType",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Content type",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 12
+        },
+        "count": {
+          "aplCode": "count",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "URLs",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 5
+        },
+        "maxLifetime": {
+          "aplCode": "maxLifetime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "MAX lifetime",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        },
+        "minLifetime": {
+          "aplCode": "minLifetime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "MIN lifetime",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "avgLifetime": "0",
+          "cacheType": "Cache-Control + ETag + Last-Modified",
+          "contentType": "Image",
+          "count": "4",
+          "maxLifetime": "0",
+          "minLifetime": "0"
+        },
+        {
+          "avgLifetime": "0",
+          "cacheType": "Cache-Control + ETag + Last-Modified",
+          "contentType": "JS",
+          "count": "2",
+          "maxLifetime": "0",
+          "minLifetime": "0"
+        },
+        {
+          "avgLifetime": "0",
+          "cacheType": "Cache-Control + ETag + Last-Modified",
+          "contentType": "HTML",
+          "count": "1",
+          "maxLifetime": "0",
+          "minLifetime": "0"
+        },
+        {
+          "avgLifetime": "0",
+          "cacheType": "Cache-Control + ETag + Last-Modified",
+          "contentType": "CSS",
+          "count": "1",
+          "maxLifetime": "0",
+          "minLifetime": "0"
+        }
+      ],
+      "title": "HTTP Caching by content type (only from crawlable domains)"
+    },
+    "caching-per-domain": {
+      "aplCode": "caching-per-domain",
+      "columns": {
+        "avgLifetime": {
+          "aplCode": "avgLifetime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "AVG lifetime",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        },
+        "cacheType": {
+          "aplCode": "cacheType",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Cache type",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 12
+        },
+        "count": {
+          "aplCode": "count",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "URLs",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 5
+        },
+        "domain": {
+          "aplCode": "domain",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Domain",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 20
+        },
+        "maxLifetime": {
+          "aplCode": "maxLifetime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "MAX lifetime",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        },
+        "minLifetime": {
+          "aplCode": "minLifetime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "MIN lifetime",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "avgLifetime": "0",
+          "cacheType": "Cache-Control + ETag + Last-Modified",
+          "count": "8",
+          "domain": "brawl-lexie.vercel.app",
+          "maxLifetime": "0",
+          "minLifetime": "0"
+        }
+      ],
+      "title": "HTTP Caching by domain"
+    },
+    "caching-per-domain-and-content-type": {
+      "aplCode": "caching-per-domain-and-content-type",
+      "columns": {
+        "avgLifetime": {
+          "aplCode": "avgLifetime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "AVG lifetime",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        },
+        "cacheType": {
+          "aplCode": "cacheType",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Cache type",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 12
+        },
+        "contentType": {
+          "aplCode": "contentType",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Content type",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 12
+        },
+        "count": {
+          "aplCode": "count",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "URLs",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 5
+        },
+        "domain": {
+          "aplCode": "domain",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Domain",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 20
+        },
+        "maxLifetime": {
+          "aplCode": "maxLifetime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "MAX lifetime",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        },
+        "minLifetime": {
+          "aplCode": "minLifetime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "MIN lifetime",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "avgLifetime": "0",
+          "cacheType": "Cache-Control + ETag + Last-Modified",
+          "contentType": "Image",
+          "count": "4",
+          "domain": "brawl-lexie.vercel.app",
+          "maxLifetime": "0",
+          "minLifetime": "0"
+        },
+        {
+          "avgLifetime": "0",
+          "cacheType": "Cache-Control + ETag + Last-Modified",
+          "contentType": "JS",
+          "count": "2",
+          "domain": "brawl-lexie.vercel.app",
+          "maxLifetime": "0",
+          "minLifetime": "0"
+        },
+        {
+          "avgLifetime": "0",
+          "cacheType": "Cache-Control + ETag + Last-Modified",
+          "contentType": "HTML",
+          "count": "1",
+          "domain": "brawl-lexie.vercel.app",
+          "maxLifetime": "0",
+          "minLifetime": "0"
+        },
+        {
+          "avgLifetime": "0",
+          "cacheType": "Cache-Control + ETag + Last-Modified",
+          "contentType": "CSS",
+          "count": "1",
+          "domain": "brawl-lexie.vercel.app",
+          "maxLifetime": "0",
+          "minLifetime": "0"
+        }
+      ],
+      "title": "HTTP Caching by domain and content type"
+    },
+    "certificate-info": {
+      "aplCode": "certificate-info",
+      "columns": {
+        "info": {
+          "aplCode": "info",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Info",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "value": {
+          "aplCode": "value",
+          "escapeOutputHtml": false,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Text",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 70
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "info": "Issuer",
+          "value": "C = US, O = Google Trust Services, CN = WR1"
+        },
+        {
+          "info": "Subject",
+          "value": "CN = *.vercel.app"
+        },
+        {
+          "info": "Subject Alternative Names",
+          "value": "*.vercel.app"
+        },
+        {
+          "info": "Valid from",
+          "value": "Aug 29 19:48:09 2026 GMT (VALID already 21.8 day(s))"
+        },
+        {
+          "info": "Valid to",
+          "value": "Nov 27 19:48:08 2026 GMT (VALID still for 68.2 day(s))"
+        },
+        {
+          "info": "Serial number",
+          "value": "00:f7:91:11:68:ff:a7:d0:f4:13:5e:24:79:2e:7a:52:a8"
+        },
+        {
+          "info": "Signature algorithm",
+          "value": "sha256WithRSAEncryption"
+        },
+        {
+          "info": "Public key",
+          "value": "RSA 2048 bits"
+        },
+        {
+          "info": "SHA-256 fingerprint",
+          "value": "8F:46:C4:A0:A2:89:BF:DE:40:60:D0:69:86:F2:AF:76:1E:E6:2D:66:8D:DE:97:2E:6B:EF:46:87:EE:4F:60:93"
+        },
+        {
+          "info": "Supported protocols",
+          "value": "TLSv1.2, TLSv1.3"
+        },
+        {
+          "info": "Trust",
+          "value": "Trusted by system CA store"
+        }
+      ],
+      "title": "SSL/TLS info"
+    },
+    "content-processors-stats": {
+      "aplCode": "content-processors-stats",
+      "columns": {
+        "classAndMethod": {
+          "aplCode": "classAndMethod",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Class::method",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "execCount": {
+          "aplCode": "execCount",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Exec count",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "execTime": {
+          "aplCode": "execTime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Exec time",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 9
+        }
+      },
+      "position": "after-url-table",
+      "rows": [
+        {
+          "classAndMethod": "HtmlProcessor::findUrls",
+          "execCount": "1",
+          "execTime": "0.007941334",
+          "execTimeFormatted": "7 ms"
+        },
+        {
+          "classAndMethod": "JavaScriptProcessor::findUrls",
+          "execCount": "3",
+          "execTime": "0.002718417",
+          "execTimeFormatted": "2 ms"
+        },
+        {
+          "classAndMethod": "CssProcessor::findUrls",
+          "execCount": "2",
+          "execTime": "0.0017715419999999999",
+          "execTimeFormatted": "1 ms"
+        },
+        {
+          "classAndMethod": "NextJsProcessor::applyContentChangesBeforeUrlParsing",
+          "execCount": "4",
+          "execTime": "0.001589666",
+          "execTimeFormatted": "1 ms"
+        },
+        {
+          "classAndMethod": "AstroProcessor::findUrls",
+          "execCount": "3",
+          "execTime": "0.000068667",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "NextJsProcessor::findUrls",
+          "execCount": "4",
+          "execTime": "0.000028791999999999998",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "AstroProcessor::applyContentChangesBeforeUrlParsing",
+          "execCount": "3",
+          "execTime": "0.000003042",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "JavaScriptProcessor::applyContentChangesBeforeUrlParsing",
+          "execCount": "3",
+          "execTime": "0.000001166",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "CssProcessor::applyContentChangesBeforeUrlParsing",
+          "execCount": "2",
+          "execTime": "0.000000666",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "HtmlProcessor::applyContentChangesBeforeUrlParsing",
+          "execCount": "1",
+          "execTime": "0.000000125",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "SvelteProcessor::applyContentChangesBeforeUrlParsing",
+          "execCount": "1",
+          "execTime": "0.000000084",
+          "execTimeFormatted": "0 ms"
+        },
+        {
+          "classAndMethod": "SvelteProcessor::findUrls",
+          "execCount": "1",
+          "execTime": "0.000000042",
+          "execTimeFormatted": "0 ms"
+        }
+      ],
+      "title": "Content processor stats"
+    },
+    "content-types": {
+      "aplCode": "content-types",
+      "columns": {
+        "avgTime": {
+          "aplCode": "avgTime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Avg time",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 8
+        },
+        "contentType": {
+          "aplCode": "contentType",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Content type",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 12
+        },
+        "count": {
+          "aplCode": "count",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "URLs",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 5
+        },
+        "status20x": {
+          "aplCode": "status20x",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Status 20x",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        },
+        "totalSize": {
+          "aplCode": "totalSize",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Total size",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        },
+        "totalTime": {
+          "aplCode": "totalTime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Total time",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "avgTime": "0.2953",
+          "contentType": "Image",
+          "count": "4",
+          "status20x": "4",
+          "totalSize": "1286792",
+          "totalTime": "1.1814"
+        },
+        {
+          "avgTime": "0.0884",
+          "contentType": "JS",
+          "count": "2",
+          "status20x": "2",
+          "totalSize": "102397",
+          "totalTime": "0.1769"
+        },
+        {
+          "avgTime": "0.1038",
+          "contentType": "CSS",
+          "count": "1",
+          "status20x": "1",
+          "totalSize": "58311",
+          "totalTime": "0.1038"
+        },
+        {
+          "avgTime": "0.0233",
+          "contentType": "HTML",
+          "count": "1",
+          "status20x": "1",
+          "totalSize": "23583",
+          "totalTime": "0.0233"
+        }
+      ],
+      "title": "Content types"
+    },
+    "content-types-raw": {
+      "aplCode": "content-types-raw",
+      "columns": {
+        "avgTime": {
+          "aplCode": "avgTime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Avg time",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 8
+        },
+        "contentType": {
+          "aplCode": "contentType",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Content type",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 26
+        },
+        "count": {
+          "aplCode": "count",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "URLs",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 5
+        },
+        "status20x": {
+          "aplCode": "status20x",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Status 20x",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        },
+        "totalSize": {
+          "aplCode": "totalSize",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Total size",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        },
+        "totalTime": {
+          "aplCode": "totalTime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Total time",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "avgTime": "0.2690",
+          "contentType": "image/png",
+          "count": "2",
+          "status20x": "2",
+          "totalSize": "61520",
+          "totalTime": "0.5379"
+        },
+        {
+          "avgTime": "0.0884",
+          "contentType": "application/javascript; charset=utf-8",
+          "count": "2",
+          "status20x": "2",
+          "totalSize": "102397",
+          "totalTime": "0.1769"
+        },
+        {
+          "avgTime": "0.0233",
+          "contentType": "text/html; charset=utf-8",
+          "count": "1",
+          "status20x": "1",
+          "totalSize": "23583",
+          "totalTime": "0.0233"
+        },
+        {
+          "avgTime": "0.0351",
+          "contentType": "image/vnd.microsoft.icon",
+          "count": "1",
+          "status20x": "1",
+          "totalSize": "15086",
+          "totalTime": "0.0351"
+        },
+        {
+          "avgTime": "0.6084",
+          "contentType": "image/svg+xml",
+          "count": "1",
+          "status20x": "1",
+          "totalSize": "1210186",
+          "totalTime": "0.6084"
+        },
+        {
+          "avgTime": "0.1038",
+          "contentType": "text/css; charset=utf-8",
+          "count": "1",
+          "status20x": "1",
+          "totalSize": "58311",
+          "totalTime": "0.1038"
+        }
+      ],
+      "title": "Content types (MIME types)"
+    },
+    "dns": {
+      "aplCode": "dns",
+      "columns": {
+        "info": {
+          "aplCode": "info",
+          "escapeOutputHtml": false,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "DNS resolving tree",
+          "nonBreakingSpaces": true,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 70
+        }
+      },
+      "position": "after-url-table",
+      "rows": [
+        {
+          "info": "brawl-lexie.vercel.app"
+        },
+        {
+          "info": "  IPv4: 216.198.79.195"
+        },
+        {
+          "info": "  IPv4: 64.29.17.195"
+        },
+        {
+          "info": ""
+        },
+        {
+          "info": "DNS server: 2001:f72:6200:2e10:3a97:a4ff:fe3c:d02c"
+        }
+      ],
+      "title": "DNS info"
+    },
+    "external-urls": {
+      "aplCode": "external-urls",
+      "columns": {
+        "count": {
+          "aplCode": "count",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Pages",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 5
+        },
+        "foundOn": {
+          "aplCode": "foundOn",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Found on URL (max 5)",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 60
+        },
+        "url": {
+          "aplCode": "url",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "External URL",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 60
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "count": "1",
+          "foundOn": "https://brawl-lexie.vercel.app/style.css",
+          "url": "https://amphibian333.github.io/web%E3%82%B5%E3%82%A4%E3%83%88%E7%94%A8%E5%A3%81%E7%B4%99.png"
+        },
+        {
+          "count": "1",
+          "foundOn": "https://brawl-lexie.vercel.app/",
+          "url": "https://brawlstars.fandom.com/wiki/Brawl_Stars_Wiki"
+        },
+        {
+          "count": "1",
+          "foundOn": "https://brawl-lexie.vercel.app/",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSd4jicnyFLtY7ydADYmBi7TpVp64VKlC24Ty1voCgiwHGJihg/viewform?usp=dialog"
+        },
+        {
+          "count": "1",
+          "foundOn": "https://brawl-lexie.vercel.app/",
+          "url": "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap"
+        },
+        {
+          "count": "1",
+          "foundOn": "https://brawl-lexie.vercel.app/",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-G58S8NL2BQ"
+        },
+        {
+          "count": "1",
+          "foundOn": "https://brawl-lexie.vercel.app/",
+          "url": "https://www.supercell.com/fan-content-policy"
+        },
+        {
+          "count": "1",
+          "foundOn": "https://brawl-lexie.vercel.app/",
+          "url": "https://www.tiktok.com/embed.js"
+        }
+      ],
+      "title": "External URLs"
+    },
+    "fastest-urls": {
+      "aplCode": "fastest-urls",
+      "columns": {
+        "requestTime": {
+          "aplCode": "requestTime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Time",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 6
+        },
+        "statusCode": {
+          "aplCode": "statusCode",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Status",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 6
+        },
+        "url": {
+          "aplCode": "url",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Fast URL",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 80
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "requestTime": "0.0233",
+          "statusCode": "200",
+          "url": "https://brawl-lexie.vercel.app/"
+        }
+      ],
+      "title": "TOP fastest URLs"
+    },
+    "headers": {
+      "aplCode": "headers",
+      "columns": {
+        "header": {
+          "aplCode": "header",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Header",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "maxValue": {
+          "aplCode": "maxValue",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Max value",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        },
+        "minValue": {
+          "aplCode": "minValue",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Min value",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 10
+        },
+        "occurrences": {
+          "aplCode": "occurrences",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Occurs",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 6
+        },
+        "uniqueValues": {
+          "aplCode": "uniqueValues",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Unique",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 6
+        },
+        "valuesPreview": {
+          "aplCode": "valuesPreview",
+          "escapeOutputHtml": false,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Values preview",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 20
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "header": "Accept-Ranges",
+          "maxValue": "",
+          "minValue": "",
+          "occurrences": "2",
+          "uniqueValues": "1",
+          "valuesPreview": "bytes"
+        },
+        {
+          "header": "Access-Control-Allow-Origin",
+          "maxValue": "",
+          "minValue": "",
+          "occurrences": "8",
+          "uniqueValues": "1",
+          "valuesPreview": "*"
+        },
+        {
+          "header": "Age",
+          "maxValue": "5.2 min(s)",
+          "minValue": "0 sec(s)",
+          "occurrences": "8",
+          "uniqueValues": "-",
+          "valuesPreview": "[ignored generic values]"
+        },
+        {
+          "header": "Cache-Control",
+          "maxValue": "",
+          "minValue": "",
+          "occurrences": "8",
+          "uniqueValues": "1",
+          "valuesPreview": "public, max-age=0, must-revalidate"
+        },
+        {
+          "header": "Content-Disposition",
+          "maxValue": "",
+          "minValue": "",
+          "occurrences": "8",
+          "uniqueValues": "-",
+          "valuesPreview": "[ignored generic values]"
+        },
+        {
+          "header": "Content-Length",
+          "maxValue": "43 kB",
+          "minValue": "17 kB",
+          "occurrences": "2",
+          "uniqueValues": "-",
+          "valuesPreview": "[ignored generic values]"
+        },
+        {
+          "header": "Content-Type",
+          "maxValue": "",
+          "minValue": "",
+          "occurrences": "8",
+          "uniqueValues": "6",
+          "valuesPreview": "[see values below]"
+        },
+        {
+          "header": "Date",
+          "maxValue": "2026-09-20",
+          "minValue": "2026-09-20",
+          "occurrences": "8",
+          "uniqueValues": "-",
+          "valuesPreview": "[ignored generic values]"
+        },
+        {
+          "header": "Etag",
+          "maxValue": "",
+          "minValue": "",
+          "occurrences": "8",
+          "uniqueValues": "-",
+          "valuesPreview": "[ignored generic values]"
+        },
+        {
+          "header": "Last-Modified",
+          "maxValue": "2026-09-20",
+          "minValue": "2026-09-20",
+          "occurrences": "8",
+          "uniqueValues": "-",
+          "valuesPreview": "[ignored generic values]"
+        },
+        {
+          "header": "Server",
+          "maxValue": "",
+          "minValue": "",
+          "occurrences": "8",
+          "uniqueValues": "1",
+          "valuesPreview": "Vercel"
+        },
+        {
+          "header": "Strict-Transport-Security",
+          "maxValue": "",
+          "minValue": "",
+          "occurrences": "8",
+          "uniqueValues": "1",
+          "valuesPreview": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "header": "X-Vercel-Cache",
+          "maxValue": "",
+          "minValue": "",
+          "occurrences": "8",
+          "uniqueValues": "2",
+          "valuesPreview": "HIT (5) / MISS (3)"
+        },
+        {
+          "header": "X-Vercel-Id",
+          "maxValue": "",
+          "minValue": "",
+          "occurrences": "8",
+          "uniqueValues": "8",
+          "valuesPreview": "[see values below]"
+        }
+      ],
+      "title": "HTTP headers"
+    },
+    "headers-values": {
+      "aplCode": "headers-values",
+      "columns": {
+        "header": {
+          "aplCode": "header",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Header",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "occurrences": {
+          "aplCode": "occurrences",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Occurs",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 6
+        },
+        "value": {
+          "aplCode": "value",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Value",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 44
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "header": "Accept-Ranges",
+          "occurrences": "2",
+          "value": "bytes"
+        },
+        {
+          "header": "Access-Control-Allow-Origin",
+          "occurrences": "8",
+          "value": "*"
+        },
+        {
+          "header": "Cache-Control",
+          "occurrences": "8",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "header": "Content-Type",
+          "occurrences": "2",
+          "value": "image/png"
+        },
+        {
+          "header": "Content-Type",
+          "occurrences": "2",
+          "value": "application/javascript; charset=utf-8"
+        },
+        {
+          "header": "Content-Type",
+          "occurrences": "1",
+          "value": "image/vnd.microsoft.icon"
+        },
+        {
+          "header": "Content-Type",
+          "occurrences": "1",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "header": "Content-Type",
+          "occurrences": "1",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "header": "Content-Type",
+          "occurrences": "1",
+          "value": "image/svg+xml"
+        },
+        {
+          "header": "Server",
+          "occurrences": "8",
+          "value": "Vercel"
+        },
+        {
+          "header": "Strict-Transport-Security",
+          "occurrences": "8",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "header": "X-Vercel-Cache",
+          "occurrences": "5",
+          "value": "HIT"
+        },
+        {
+          "header": "X-Vercel-Cache",
+          "occurrences": "3",
+          "value": "MISS"
+        },
+        {
+          "header": "X-Vercel-Id",
+          "occurrences": "1",
+          "value": "hnd1::224k2-1789914266618-347a574575e2"
+        },
+        {
+          "header": "X-Vercel-Id",
+          "occurrences": "1",
+          "value": "hnd1::b25m2-1789914266415-f2ee1de78385"
+        },
+        {
+          "header": "X-Vercel-Id",
+          "occurrences": "1",
+          "value": "hnd1::xf9cw-1789914267133-a265c50dde10"
+        },
+        {
+          "header": "X-Vercel-Id",
+          "occurrences": "1",
+          "value": "hnd1::sxcgr-1789914266517-368e29d06fb8"
+        },
+        {
+          "header": "X-Vercel-Id",
+          "occurrences": "1",
+          "value": "hnd1::224k2-1789914266808-d212a3f51b89"
+        },
+        {
+          "header": "X-Vercel-Id",
+          "occurrences": "1",
+          "value": "hnd1::fb9pf-1789914266816-ded9e90ff614"
+        },
+        {
+          "header": "X-Vercel-Id",
+          "occurrences": "1",
+          "value": "hnd1::xf9cw-1789914266920-0a9024831b82"
+        },
+        {
+          "header": "X-Vercel-Id",
+          "occurrences": "1",
+          "value": "hnd1::xf9cw-1789914267229-6bc2bf3145f6"
+        }
+      ],
+      "title": "HTTP header values"
+    },
+    "open-graph": {
+      "aplCode": "open-graph",
+      "columns": {
+        "ogDescription": {
+          "aplCode": "ogDescription",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "OG Description",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 10
+        },
+        "ogImage": {
+          "aplCode": "ogImage",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "OG Image",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 18
+        },
+        "ogTitle": {
+          "aplCode": "ogTitle",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "OG Title",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 10
+        },
+        "twitterDescription": {
+          "aplCode": "twitterDescription",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Twitter Description",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 10
+        },
+        "twitterImage": {
+          "aplCode": "twitterImage",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Twitter Image",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 18
+        },
+        "twitterTitle": {
+          "aplCode": "twitterTitle",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Twitter Title",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 10
+        },
+        "urlPathAndQuery": {
+          "aplCode": "urlPathAndQuery",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "URL",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 50
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "ogDescription": "ブロスタ全91キャラの英語ボイス再生&日本語訳。単語帳・暗記モード機能で英語学習もできる。",
+          "ogImage": "https://brawl-lexie.vercel.app/ogp.png",
+          "ogTitle": "LEXIE - ブロスタ翻訳サイト",
+          "twitterDescription": "ブロスタ全91キャラの英語ボイス再生&日本語訳。単語帳・暗記モード機能で英語学習もできる。",
+          "twitterImage": "https://brawl-lexie.vercel.app/ogp.png",
+          "twitterTitle": "LEXIE - ブロスタ翻訳サイト",
+          "urlPathAndQuery": "/"
+        }
+      ],
+      "title": "OpenGraph metadata"
+    },
+    "redirects": {
+      "aplCode": "redirects",
+      "columns": {
+        "sourceUqId": {
+          "aplCode": "sourceUqId",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Found at URL",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 26
+        },
+        "statusCode": {
+          "aplCode": "statusCode",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Status",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 6
+        },
+        "targetUrl": {
+          "aplCode": "targetUrl",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Target URL",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 26
+        },
+        "url": {
+          "aplCode": "url",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Redirected URL",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 26
+        }
+      },
+      "position": "before-url-table",
+      "rows": [],
+      "title": "Redirected URLs"
+    },
+    "security": {
+      "aplCode": "security",
+      "columns": {
+        "critical": {
+          "aplCode": "critical",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Critical",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 8
+        },
+        "header": {
+          "aplCode": "header",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Header",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 26
+        },
+        "notice": {
+          "aplCode": "notice",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Notice",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 6
+        },
+        "ok": {
+          "aplCode": "ok",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "OK",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 5
+        },
+        "recommendation": {
+          "aplCode": "recommendation",
+          "escapeOutputHtml": false,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Recommendation",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 30
+        },
+        "warning": {
+          "aplCode": "warning",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Warning",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 7
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "critical": "1",
+          "header": "Content-Security-Policy",
+          "highestSeverity": "4",
+          "notice": "0",
+          "ok": "0",
+          "recommendation": "Content-Security-Policy header is not set. It restricts resources the page can load and prevents XSS attacks.",
+          "warning": "0"
+        },
+        {
+          "critical": "0",
+          "header": "Access-Control-Allow-Origin",
+          "highestSeverity": "3",
+          "notice": "0",
+          "ok": "0",
+          "recommendation": "Access-Control-Allow-Origin is set to '*' which allows any origin to access the resource. This can be a security risk.",
+          "warning": "1"
+        },
+        {
+          "critical": "0",
+          "header": "X-Frame-Options",
+          "highestSeverity": "3",
+          "notice": "0",
+          "ok": "0",
+          "recommendation": "X-Frame-Options header is not set. It prevents clickjacking attacks when set to 'deny' or 'sameorigin.",
+          "warning": "1"
+        },
+        {
+          "critical": "0",
+          "header": "X-Content-Type-Options",
+          "highestSeverity": "3",
+          "notice": "0",
+          "ok": "0",
+          "recommendation": "X-Content-Type-Options header is not set. It stops MIME type sniffing and mitigates content type attacks.",
+          "warning": "1"
+        },
+        {
+          "critical": "0",
+          "header": "Referrer-Policy",
+          "highestSeverity": "3",
+          "notice": "0",
+          "ok": "0",
+          "recommendation": "Referrer-Policy header is not set. It controls referrer header sharing and enhances privacy and security.",
+          "warning": "1"
+        },
+        {
+          "critical": "0",
+          "header": "Feature-Policy",
+          "highestSeverity": "3",
+          "notice": "0",
+          "ok": "0",
+          "recommendation": "Feature-Policy header is not set. It allows enabling/disabling browser APIs and features for security. Not important if Permissions-Policy is set.",
+          "warning": "1"
+        },
+        {
+          "critical": "0",
+          "header": "Permissions-Policy",
+          "highestSeverity": "3",
+          "notice": "0",
+          "ok": "0",
+          "recommendation": "Permissions-Policy header is not set. It allows enabling/disabling browser APIs and features for security.",
+          "warning": "1"
+        },
+        {
+          "critical": "0",
+          "header": "Server",
+          "highestSeverity": "2",
+          "notice": "1",
+          "ok": "0",
+          "recommendation": "Server header is set to 'Vercel'. It is better not to reveal used technologies.",
+          "warning": "0"
+        },
+        {
+          "critical": "0",
+          "header": "Cross-Origin-Opener-Policy",
+          "highestSeverity": "2",
+          "notice": "1",
+          "ok": "0",
+          "recommendation": "Cross-Origin-Opener-Policy is not set. 'same-origin' isolates your browsing context from cross-origin popups (mitigates Spectre/XS-Leaks).",
+          "warning": "0"
+        },
+        {
+          "critical": "0",
+          "header": "Cross-Origin-Embedder-Policy",
+          "highestSeverity": "2",
+          "notice": "1",
+          "ok": "0",
+          "recommendation": "Cross-Origin-Embedder-Policy is not set. 'require-corp' enables cross-origin isolation for powerful features.",
+          "warning": "0"
+        },
+        {
+          "critical": "0",
+          "header": "Cross-Origin-Resource-Policy",
+          "highestSeverity": "2",
+          "notice": "1",
+          "ok": "0",
+          "recommendation": "Cross-Origin-Resource-Policy is not set. 'same-origin' or 'same-site' blocks other sites from embedding this resource.",
+          "warning": "0"
+        },
+        {
+          "critical": "0",
+          "header": "Strict-Transport-Security",
+          "highestSeverity": "1",
+          "notice": "0",
+          "ok": "1",
+          "recommendation": "",
+          "warning": "0"
+        },
+        {
+          "critical": "0",
+          "header": "X-XSS-Protection",
+          "highestSeverity": "1",
+          "notice": "0",
+          "ok": "1",
+          "recommendation": "",
+          "warning": "0"
+        }
+      ],
+      "title": "Security"
+    },
+    "seo": {
+      "aplCode": "seo",
+      "columns": {
+        "description": {
+          "aplCode": "description",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Description",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 10
+        },
+        "h1": {
+          "aplCode": "h1",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "H1",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 10
+        },
+        "indexing": {
+          "aplCode": "indexing",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Indexing",
+          "nonBreakingSpaces": false,
+          "renderer": {},
+          "truncateIfLonger": false,
+          "width": 20
+        },
+        "keywords": {
+          "aplCode": "keywords",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Keywords",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 10
+        },
+        "title": {
+          "aplCode": "title",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Title",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 10
+        },
+        "urlPathAndQuery": {
+          "aplCode": "urlPathAndQuery",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "URL",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 50
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "deniedByRobotsTxt": "false",
+          "description": "【聴けるセリフ集】ブロスタキャラの英語ボイスを和訳・解説！ダリルなど人気キャラから最新キャラまで、音声付きで楽しく英語学習。セリフデータは随時追加・更新中！",
+          "h1": "Lexie\n          【ボイス再生】ブロスタセリフ集｜全91キャラ対応（順次更新中）",
+          "indexing": "",
+          "keywords": "",
+          "robotsIndex": "1",
+          "title": "【ボイス再生】ブロスタセリフ集｜全91キャラ対応（順次更新中）｜Lexie",
+          "urlPathAndQuery": "/"
+        }
+      ],
+      "title": "SEO metadata"
+    },
+    "seo-headings": {
+      "aplCode": "seo-headings",
+      "columns": {
+        "headings": {
+          "aplCode": "headings",
+          "escapeOutputHtml": false,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Heading structure",
+          "nonBreakingSpaces": false,
+          "renderer": {},
+          "truncateIfLonger": true,
+          "width": 46
+        },
+        "headingsCount": {
+          "aplCode": "headingsCount",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Count",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 5
+        },
+        "headingsErrorsCount": {
+          "aplCode": "headingsErrorsCount",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Errors",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 6
+        },
+        "urlPathAndQuery": {
+          "aplCode": "urlPathAndQuery",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "URL",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 30
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "headings": "<h1> Lexie 【ボイス再生】ブロスタセリフ集｜全91キャラ対応（順次更新中） <h2> あのキャラは何を喋ってるの？！ 🔊 音声再生＆和訳でブロスタ英語を攻略 <h2> ❤️ お気に入り一覧 <h3> キャラクター <h3> セリフ <h2> 📚 単語帳 <h2> 🎯 クイズ <h2> [#quiz-settings-mode-title] <h3> 出題範囲 <h3> 問題数 <h3> タイマー <h3> 難易度 <h2> 翻訳動画 <h2> Lexieについて <h2> 📋 アップデート履歴",
+          "headingsCount": "15",
+          "headingsErrorsCount": "0",
+          "headingsHtml": "<ul><li>&lt;h1&gt; Lexie 【ボイス再生】ブロスタセリフ集｜全91キャラ対応（順次更新中）<ul><li>&lt;h2&gt; あのキャラは何を喋ってるの？！ 🔊 音声再生＆和訳でブロスタ英語を攻略</li><li>&lt;h2&gt; ❤️ お気に入り一覧<ul><li>&lt;h3&gt; キャラクター</li><li>&lt;h3&gt; セリフ</li></ul></li><li>&lt;h2&gt; 📚 単語帳</li><li>&lt;h2&gt; 🎯 クイズ</li><li>&lt;h2&gt;  [#quiz-settings-mode-title]<ul><li>&lt;h3&gt; 出題範囲</li><li>&lt;h3&gt; 問題数</li><li>&lt;h3&gt; タイマー</li><li>&lt;h3&gt; 難易度</li></ul></li><li>&lt;h2&gt; 翻訳動画</li><li>&lt;h2&gt; Lexieについて</li><li>&lt;h2&gt; 📋 アップデート履歴</li></ul></li></ul>",
+          "urlPathAndQuery": "/"
+        }
+      ],
+      "title": "Heading structure"
+    },
+    "skipped": {
+      "aplCode": "skipped",
+      "columns": {
+        "reason": {
+          "aplCode": "reason",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Reason",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 18
+        },
+        "sourceAttr": {
+          "aplCode": "sourceAttr",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Source",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 19
+        },
+        "sourceUqId": {
+          "aplCode": "sourceUqId",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Found at URL",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 60
+        },
+        "url": {
+          "aplCode": "url",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Skipped URL",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 60
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "reason": "Not allowed host",
+          "sourceAttr": "css url()",
+          "sourceUqId": "/style.css",
+          "url": "https://amphibian333.github.io/web%E3%82%B5%E3%82%A4%E3%83%88%E7%94%A8%E5%A3%81%E7%B4%99.png"
+        },
+        {
+          "reason": "Not allowed host",
+          "sourceAttr": "<a href>",
+          "sourceUqId": "/",
+          "url": "https://brawlstars.fandom.com/wiki/Brawl_Stars_Wiki"
+        },
+        {
+          "reason": "Not allowed host",
+          "sourceAttr": "<a href>",
+          "sourceUqId": "/",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSd4jicnyFLtY7ydADYmBi7TpVp64VKlC24Ty1voCgiwHGJihg/viewform?usp=dialog"
+        },
+        {
+          "reason": "Not allowed host",
+          "sourceAttr": "<link href>",
+          "sourceUqId": "/",
+          "url": "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap"
+        },
+        {
+          "reason": "Not allowed host",
+          "sourceAttr": "<script src>",
+          "sourceUqId": "/",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-G58S8NL2BQ"
+        },
+        {
+          "reason": "Not allowed host",
+          "sourceAttr": "<a href>",
+          "sourceUqId": "/",
+          "url": "https://www.supercell.com/fan-content-policy"
+        },
+        {
+          "reason": "Not allowed host",
+          "sourceAttr": "<script src>",
+          "sourceUqId": "/",
+          "url": "https://www.tiktok.com/embed.js"
+        }
+      ],
+      "title": "Skipped URLs"
+    },
+    "skipped-summary": {
+      "aplCode": "skipped-summary",
+      "columns": {
+        "count": {
+          "aplCode": "count",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Unique URLs",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 11
+        },
+        "domain": {
+          "aplCode": "domain",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Domain",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "reason": {
+          "aplCode": "reason",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Reason",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 18
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "count": "1",
+          "domain": "www.tiktok.com",
+          "reason": "Not allowed host"
+        },
+        {
+          "count": "1",
+          "domain": "docs.google.com",
+          "reason": "Not allowed host"
+        },
+        {
+          "count": "1",
+          "domain": "www.googletagmanager.com",
+          "reason": "Not allowed host"
+        },
+        {
+          "count": "1",
+          "domain": "www.supercell.com",
+          "reason": "Not allowed host"
+        },
+        {
+          "count": "1",
+          "domain": "brawlstars.fandom.com",
+          "reason": "Not allowed host"
+        },
+        {
+          "count": "1",
+          "domain": "amphibian333.github.io",
+          "reason": "Not allowed host"
+        },
+        {
+          "count": "1",
+          "domain": "fonts.googleapis.com",
+          "reason": "Not allowed host"
+        }
+      ],
+      "title": "Skipped URLs Summary"
+    },
+    "slowest-urls": {
+      "aplCode": "slowest-urls",
+      "columns": {
+        "requestTime": {
+          "aplCode": "requestTime",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Time",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 6
+        },
+        "statusCode": {
+          "aplCode": "statusCode",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Status",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": 6
+        },
+        "url": {
+          "aplCode": "url",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": true,
+          "getDataValueCallback": null,
+          "name": "Slow URL",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": true,
+          "width": 75
+        }
+      },
+      "position": "before-url-table",
+      "rows": [
+        {
+          "requestTime": "0.0233",
+          "statusCode": "200",
+          "url": "https://brawl-lexie.vercel.app/"
+        }
+      ],
+      "title": "TOP slowest URLs"
+    },
+    "source-domains": {
+      "aplCode": "source-domains",
+      "columns": {
+        "CSS": {
+          "aplCode": "CSS",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "CSS",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "HTML": {
+          "aplCode": "HTML",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "HTML",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "Image": {
+          "aplCode": "Image",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Image",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "JS": {
+          "aplCode": "JS",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "JS",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "domain": {
+          "aplCode": "domain",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": null,
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Domain",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        },
+        "totals": {
+          "aplCode": "totals",
+          "escapeOutputHtml": true,
+          "forcedDataType": null,
+          "formatter": {},
+          "formatterWillChangeValueLength": false,
+          "getDataValueCallback": null,
+          "name": "Totals",
+          "nonBreakingSpaces": false,
+          "renderer": null,
+          "truncateIfLonger": false,
+          "width": -1
+        }
+      },
+      "position": "after-url-table",
+      "rows": [
+        {
+          "Audio": "",
+          "CSS": "1/57kB/103ms",
+          "Document": "",
+          "Font": "",
+          "HTML": "1/23kB/23ms",
+          "Image": "4/1MB/1.2s",
+          "JS": "2/100kB/176ms",
+          "JSON": "",
+          "Other": "",
+          "Redirect": "",
+          "Video": "",
+          "XML": "",
+          "domain": "brawl-lexie.vercel.app",
+          "totalCount": "8",
+          "totals": "8/1MB/1.5s"
+        }
+      ],
+      "title": "Source domains"
+    }
+  }
+}

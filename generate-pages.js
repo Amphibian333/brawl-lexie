@@ -76,6 +76,17 @@ function buildPage({ id, data }) {
     "<head>"
   );
 
+  // (1-3) ヘッダーのロゴ <h1> を <p> に変える
+  //       <h1>は「このページの主題」を示すタグで1ページ1個が原則。
+  //       キャラページの主題はキャラ名なので、ロゴ側を降格させる。
+  //       見た目は style.css の「header h1, header .site-logo」が担保する。
+  html = replaceOnce(
+    html,
+    /<h1>([\s\S]*?)<\/h1>/,
+    '<p class="site-logo">$1</p>',
+    "ヘッダーのh1をpに降格"
+  );
+
   // (2) タイトル・説明文をこのキャラ用に差し替える
   html = replaceOnce(html, /<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`, "title");
   html = replaceOnce(
@@ -208,6 +219,8 @@ function buildPage({ id, data }) {
   //     JSが動かない環境でも読めるように、prerender-* に簡単なスタイルを当てる
   const boot = `
     <style>
+      /* h1 から p に降格したロゴの余白を、元の h1 と同じに戻す */
+      header .site-logo { margin: 0 0 10px; }
       /* JSが動く環境では焼き込み本文を隠す。JSなし（クローラー含む）では表示される */
       .js-on .prerender-body { display: none; }
       .prerender-body { max-width: 900px; margin: 0 auto; padding: 20px 16px 60px; }

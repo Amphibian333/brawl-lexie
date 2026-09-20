@@ -70,12 +70,12 @@
         <button class="update-banner-close" id="update-banner-close" aria-label="バナーを閉じる">✕</button>
       </div>
       <div class="header-nav-container">
-        <h1>
+        <p class="site-logo">
           Lexie
           <span class="header-seo-text"
             >【ボイス再生】ブロスタセリフ集｜全91キャラ対応（順次更新中）</span
           >
-        </h1>
+        </p>
         <nav>
           <ul>
             <li><a class="nav-link active" data-target="home">ホーム</a></li>
@@ -723,6 +723,8 @@
     </div>
   
     <style>
+      /* h1 から p に降格したロゴの余白を、元の h1 と同じに戻す */
+      header .site-logo { margin: 0 0 10px; }
       /* JSが動く環境では焼き込み本文を隠す。JSなし（クローラー含む）では表示される */
       .js-on .prerender-body { display: none; }
       .prerender-body { max-width: 900px; margin: 0 auto; padding: 20px 16px 60px; }
