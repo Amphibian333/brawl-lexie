@@ -94,351 +94,6 @@
     </header>
 
     <main>
-      <section id="hero" class="page-section hidden">
-        <div class="container">
-          <h2
-            style="
-              font-size: 2.2em;
-              line-height: 1.3;
-              margin-bottom: 20px;
-              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-            "
-          >
-            あのキャラは何を喋ってるの？！<br />
-            <span style="font-size: 0.7em; color: var(--accent-primary)"
-              >🔊 音声再生＆和訳でブロスタ英語を攻略</span
-            >
-          </h2>
-          <div class="search-container">
-            <input
-              type="text"
-              id="brawler-search"
-              placeholder="キャラクター名を入力（例：シェリー、コルト）"
-              style="
-                max-width: 600px;
-                width: 100%;
-                height: 60px;
-                font-size: 1.3em;
-              "
-            />
-            <div class="search-filters">
-              <select id="rarity-filter">
-                <option value="">全てのレア度</option>
-                <option value="starting">初期</option>
-                <option value="rare">レア</option>
-                <option value="super-rare">スーパーレア</option>
-                <option value="hyper-rare">ハイパーレア</option>
-                <option value="ultra-rare">ウルトラレア</option>
-                <option value="legend-rare">レジェンドレア</option>
-                <option value="ultra-legend-rare">
-                  ウルトラレジェンドレア
-                </option>
-              </select>
-              <select id="role-filter">
-                <option value="">全ての役割</option>
-                <option value="damage-dealer">ダメージディーラー</option>
-                <option value="tank">タンク</option>
-                <option value="support">サポート</option>
-                <option value="assassin">アサシン</option>
-                <option value="thrower">スロワー</option>
-                <option value="marksman">マークスマン</option>
-                <option value="unknown">不明</option>
-              </select>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        id="brawler-spotlight"
-        class="page-section container"
-        style="min-height: auto; padding-top: 0"
-      >
-        <div id="brawler-grid" class="brawler-grid"></div>
-        <div id="no-results" class="no-results">
-          <p>該当するキャラクターが見つかりませんでした。</p>
-        </div>
-      </section>
-
-      <section id="favorites" class="page-section hidden">
-        <div class="container">
-          <h2 class="section-title">❤️ お気に入り一覧</h2>
-
-          <div
-            class="favorites-controls"
-            style="
-              text-align: center;
-              margin-bottom: 30px;
-              background: var(--surface-color);
-              padding: 20px;
-              border-radius: 15px;
-              border: 1px solid var(--border-color);
-            "
-          >
-            <input
-              type="text"
-              id="fav-search"
-              placeholder="お気に入り内を検索..."
-              style="
-                width: 100%;
-                max-width: 400px;
-                padding: 10px;
-                border-radius: 20px;
-                border: 1px solid var(--border-color);
-                background: var(--bg-color);
-                color: var(--text-primary);
-                margin-bottom: 15px;
-              "
-            />
-            <div
-              style="
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 10px;
-              "
-            >
-              <label
-                for="show-voicelines-only"
-                style="
-                  cursor: pointer;
-                  font-weight: bold;
-                  display: flex;
-                  align-items: center;
-                  gap: 8px;
-                "
-              >
-                <input
-                  type="checkbox"
-                  id="show-voicelines-only"
-                  style="transform: scale(1.5)"
-                />
-                💬 セリフのみ表示する
-              </label>
-            </div>
-          </div>
-
-          <div id="fav-brawlers-section">
-            <h3
-              style="
-                color: var(--accent-primary);
-                border-bottom: 2px solid var(--border-color);
-                padding-bottom: 10px;
-                margin-bottom: 20px;
-              "
-            >
-              キャラクター
-            </h3>
-            <div id="fav-brawlers-grid" class="brawler-grid"></div>
-            <p
-              id="no-fav-brawlers-msg"
-              style="
-                text-align: center;
-                color: var(--text-tertiary);
-                display: none;
-              "
-            >
-              登録されたキャラクターはいません。
-            </p>
-          </div>
-
-          <div id="fav-voicelines-section" style="margin-top: 40px">
-            <h3
-              style="
-                color: var(--accent-secondary);
-                border-bottom: 2px solid var(--border-color);
-                padding-bottom: 10px;
-                margin-bottom: 20px;
-              "
-            >
-              セリフ
-            </h3>
-            <div id="fav-voicelines-list"></div>
-            <p
-              id="no-fav-voicelines-msg"
-              style="
-                text-align: center;
-                color: var(--text-tertiary);
-                display: none;
-              "
-            >
-              登録されたセリフはありません。
-            </p>
-          </div>
-
-          <div
-            id="empty-favorites-state"
-            style="text-align: center; padding: 50px; display: none"
-          >
-            <p style="font-size: 1.5em; color: var(--text-tertiary)">
-              まだ登録されていません 😿
-            </p>
-            <button
-              onclick="switchPage('home')"
-              class="btn"
-              style="margin-top: 20px"
-            >
-              キャラクターを探しに行く
-            </button>
-          </div>
-        </div>
-      </section>
-
-      <section id="decks" class="page-section hidden">
-        <div class="container">
-          <div id="deck-list-view">
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px; flex-wrap:wrap; gap:12px;">
-              <h2 class="section-title" style="border:none; padding:0; margin:0;">📚 単語帳</h2>
-              <button id="create-deck-btn" class="btn">＋ 新規作成</button>
-            </div>
-            <div id="deck-grid" class="deck-grid"></div>
-            <div id="empty-decks-state" style="display:none; text-align:center; padding:60px 20px;">
-              <p style="font-size:2em; margin-bottom:12px;">📚</p>
-              <p style="color:var(--text-secondary); font-size:1.05em;">単語帳がまだありません</p>
-              <p style="color:var(--text-tertiary); margin-top:8px; font-size:0.9em;">「＋ 新規作成」から作ってみよう！</p>
-            </div>
-          </div>
-          <div id="deck-detail-view" style="display:none;">
-            <!-- Phase 3 で実装 -->
-          </div>
-        </div>
-      </section>
-
-      <section id="quiz" class="page-section hidden">
-        <div class="container">
-          <!-- ===== Quiz Home View ===== -->
-          <div id="quiz-home-view">
-            <h2 class="section-title">🎯 クイズ</h2>
-            <div id="quiz-stats-summary" class="quiz-stats-summary"></div>
-            <div class="quiz-mode-grid">
-              <div class="quiz-mode-card" data-mode="listening">
-                <div class="quiz-mode-icon">🎧</div>
-                <div class="quiz-mode-name">リスニングクイズ</div>
-                <div class="quiz-mode-desc">音声を聞いて英文を当てる</div>
-                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
-              </div>
-              <div class="quiz-mode-card" data-mode="translation_jp">
-                <div class="quiz-mode-icon">🇯🇵→🇬🇧</div>
-                <div class="quiz-mode-name">和訳クイズ</div>
-                <div class="quiz-mode-desc">英文を見て和訳を選ぶ</div>
-                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
-              </div>
-              <div class="quiz-mode-card" data-mode="translation_en">
-                <div class="quiz-mode-icon">🇬🇧→🇯🇵</div>
-                <div class="quiz-mode-name">英訳クイズ</div>
-                <div class="quiz-mode-desc">和訳を見て英文を選ぶ</div>
-                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
-              </div>
-              <div class="quiz-mode-card" data-mode="character">
-                <div class="quiz-mode-icon">🎮</div>
-                <div class="quiz-mode-name">キャラ当てクイズ</div>
-                <div class="quiz-mode-desc">音声を聞いて誰のセリフか当てる</div>
-                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
-              </div>
-              <div class="quiz-mode-card" data-mode="arrange">
-                <div class="quiz-mode-icon">🔤</div>
-                <div class="quiz-mode-name">並び替えクイズ</div>
-                <div class="quiz-mode-desc">単語を並べて英文を作る</div>
-                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
-              </div>
-            </div>
-            <div id="quiz-mode-bests-section" class="quiz-home-sub-section" style="display:none;"></div>
-          </div>
-
-          <!-- ===== Quiz Settings View ===== -->
-          <div id="quiz-settings-view" style="display:none;">
-            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:24px; gap:12px; flex-wrap:wrap;">
-              <button class="btn btn-secondary" id="quiz-settings-back" style="padding:8px 16px; font-size:0.9em;">← 戻る</button>
-              <h2 style="font-size:1.3em; color:var(--accent-primary); margin:0; text-align:center; flex:1;" id="quiz-settings-mode-title"></h2>
-              <div style="width:60px;"></div>
-            </div>
-
-            <div class="quiz-settings-section">
-              <h3 class="quiz-settings-label">出題範囲</h3>
-              <label class="quiz-radio"><input type="radio" name="quiz-scope" value="all" checked> 全91キャラ</label>
-              <label class="quiz-radio"><input type="radio" name="quiz-scope" value="favorites"> ❤️ お気に入りセリフから</label>
-              <label class="quiz-radio"><input type="radio" name="quiz-scope" value="deck"> 📚 単語帳から</label>
-              <div id="quiz-scope-deck-select" style="display:none; margin-left:24px; margin-top:8px;">
-                <select id="quiz-scope-deck-id" style="padding:8px 12px; border-radius:8px; background:var(--surface-color); border:1px solid var(--border-color); color:var(--text-primary); max-width:100%;"></select>
-              </div>
-            </div>
-
-            <div class="quiz-settings-section">
-              <h3 class="quiz-settings-label">問題数</h3>
-              <div class="quiz-pill-group" id="quiz-question-count">
-                <button class="quiz-pill" data-value="5">5問</button>
-                <button class="quiz-pill active" data-value="10">10問</button>
-                <button class="quiz-pill" data-value="20">20問</button>
-                <button class="quiz-pill" data-value="50">50問</button>
-              </div>
-            </div>
-
-            <div class="quiz-settings-section">
-              <h3 class="quiz-settings-label">タイマー</h3>
-              <div class="quiz-pill-group" id="quiz-timer">
-                <button class="quiz-pill active" data-value="0">なし</button>
-                <button class="quiz-pill" data-value="15">15秒</button>
-                <button class="quiz-pill" data-value="30">30秒</button>
-              </div>
-            </div>
-
-            <div class="quiz-settings-section">
-              <h3 class="quiz-settings-label">難易度</h3>
-              <div class="quiz-pill-group" id="quiz-difficulty">
-                <button class="quiz-pill active" data-value="normal">通常</button>
-                <button class="quiz-pill" data-value="hard">ハード🔥</button>
-              </div>
-              <p style="margin-top:8px; font-size:0.8em; color:var(--text-tertiary);">ハード: 不正解の選択肢が同じキャラの他セリフから出題されます（並び替えは通常と同じ）</p>
-            </div>
-
-            <div style="margin-top:32px; text-align:center;">
-              <button class="btn" id="quiz-start-btn" style="font-size:1.15em; padding:14px 40px;">▶ クイズ開始</button>
-            </div>
-          </div>
-
-          <!-- ===== Quiz Play View ===== -->
-          <div id="quiz-play-view" style="display:none;">
-            <div class="quiz-play-header">
-              <button class="btn btn-secondary" id="quiz-play-quit" style="padding:6px 14px; font-size:0.85em;">中断</button>
-              <div class="quiz-progress-text" id="quiz-progress-text">1 / 10</div>
-              <div class="quiz-timer-display" id="quiz-timer-display"></div>
-            </div>
-            <div class="quiz-progress-bar"><div id="quiz-progress-bar-fill" class="quiz-progress-bar-fill"></div></div>
-            <div id="quiz-question-content" class="quiz-question-content"></div>
-            <div id="quiz-choices" class="quiz-choices"></div>
-            <div id="quiz-arrange-area" style="display:none;">
-              <div id="quiz-arrange-answer" class="quiz-arrange-answer"></div>
-              <div id="quiz-arrange-pool" class="quiz-arrange-pool"></div>
-              <div style="text-align:center; margin-top:16px;">
-                <button id="quiz-arrange-submit" class="btn" disabled>✓ 確認</button>
-                <button id="quiz-arrange-reset" class="btn btn-secondary" style="margin-left:8px;">リセット</button>
-              </div>
-            </div>
-            <div id="quiz-feedback" class="quiz-feedback" style="display:none;"></div>
-            <div id="quiz-next-btn-wrap" style="display:none; text-align:center; margin-top:24px;">
-              <button class="btn" id="quiz-next-btn" style="font-size:1.1em; padding:12px 30px;">次の問題 →</button>
-            </div>
-          </div>
-
-          <!-- ===== Quiz Result View ===== -->
-          <div id="quiz-result-view" style="display:none;"></div>
-        </div>
-      </section>
-
-      <section id="lessons" class="page-section container hidden">
-        <h2 class="section-title">翻訳動画</h2>
-        <div class="tiktok-video-container">
-          <div class="tiktok-video-item" id="tiktok-video-1"></div>
-        </div>
-      </section>
-
-      <section id="about" class="page-section container hidden">
-        <h2 class="section-title">Lexieについて</h2>
-        <p style="text-align: center; max-width: 700px; margin: 0 auto">
-          Lexieはブロスタファンプロジェクトです。学習がゲーム体験の一部となることを願っています。
-        </p>
-      </section>
-
       <section id="brawler-detail-page" class="page-section">
         <div class="container">
           <div id="brawler-detail-content">
@@ -822,6 +477,353 @@
           </div>
         </div>
       </section>
+
+      <section id="hero" class="page-section hidden">
+        <div class="container">
+          <h2
+            style="
+              font-size: 2.2em;
+              line-height: 1.3;
+              margin-bottom: 20px;
+              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            "
+          >
+            あのキャラは何を喋ってるの？！<br />
+            <span style="font-size: 0.7em; color: var(--accent-primary)"
+              >🔊 音声再生＆和訳でブロスタ英語を攻略</span
+            >
+          </h2>
+          <div class="search-container">
+            <input
+              type="text"
+              id="brawler-search"
+              placeholder="キャラクター名を入力（例：シェリー、コルト）"
+              style="
+                max-width: 600px;
+                width: 100%;
+                height: 60px;
+                font-size: 1.3em;
+              "
+            />
+            <div class="search-filters">
+              <select id="rarity-filter">
+                <option value="">全てのレア度</option>
+                <option value="starting">初期</option>
+                <option value="rare">レア</option>
+                <option value="super-rare">スーパーレア</option>
+                <option value="hyper-rare">ハイパーレア</option>
+                <option value="ultra-rare">ウルトラレア</option>
+                <option value="legend-rare">レジェンドレア</option>
+                <option value="ultra-legend-rare">
+                  ウルトラレジェンドレア
+                </option>
+              </select>
+              <select id="role-filter">
+                <option value="">全ての役割</option>
+                <option value="damage-dealer">ダメージディーラー</option>
+                <option value="tank">タンク</option>
+                <option value="support">サポート</option>
+                <option value="assassin">アサシン</option>
+                <option value="thrower">スロワー</option>
+                <option value="marksman">マークスマン</option>
+                <option value="unknown">不明</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="brawler-spotlight"
+        class="page-section container"
+        style="min-height: auto; padding-top: 0"
+      >
+        <div id="brawler-grid" class="brawler-grid"></div>
+        <div id="no-results" class="no-results">
+          <p>該当するキャラクターが見つかりませんでした。</p>
+        </div>
+      </section>
+
+      <section id="favorites" class="page-section hidden">
+        <div class="container">
+          <h2 class="section-title">❤️ お気に入り一覧</h2>
+
+          <div
+            class="favorites-controls"
+            style="
+              text-align: center;
+              margin-bottom: 30px;
+              background: var(--surface-color);
+              padding: 20px;
+              border-radius: 15px;
+              border: 1px solid var(--border-color);
+            "
+          >
+            <input
+              type="text"
+              id="fav-search"
+              placeholder="お気に入り内を検索..."
+              style="
+                width: 100%;
+                max-width: 400px;
+                padding: 10px;
+                border-radius: 20px;
+                border: 1px solid var(--border-color);
+                background: var(--bg-color);
+                color: var(--text-primary);
+                margin-bottom: 15px;
+              "
+            />
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+              "
+            >
+              <label
+                for="show-voicelines-only"
+                style="
+                  cursor: pointer;
+                  font-weight: bold;
+                  display: flex;
+                  align-items: center;
+                  gap: 8px;
+                "
+              >
+                <input
+                  type="checkbox"
+                  id="show-voicelines-only"
+                  style="transform: scale(1.5)"
+                />
+                💬 セリフのみ表示する
+              </label>
+            </div>
+          </div>
+
+          <div id="fav-brawlers-section">
+            <h3
+              style="
+                color: var(--accent-primary);
+                border-bottom: 2px solid var(--border-color);
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+              "
+            >
+              キャラクター
+            </h3>
+            <div id="fav-brawlers-grid" class="brawler-grid"></div>
+            <p
+              id="no-fav-brawlers-msg"
+              style="
+                text-align: center;
+                color: var(--text-tertiary);
+                display: none;
+              "
+            >
+              登録されたキャラクターはいません。
+            </p>
+          </div>
+
+          <div id="fav-voicelines-section" style="margin-top: 40px">
+            <h3
+              style="
+                color: var(--accent-secondary);
+                border-bottom: 2px solid var(--border-color);
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+              "
+            >
+              セリフ
+            </h3>
+            <div id="fav-voicelines-list"></div>
+            <p
+              id="no-fav-voicelines-msg"
+              style="
+                text-align: center;
+                color: var(--text-tertiary);
+                display: none;
+              "
+            >
+              登録されたセリフはありません。
+            </p>
+          </div>
+
+          <div
+            id="empty-favorites-state"
+            style="text-align: center; padding: 50px; display: none"
+          >
+            <p style="font-size: 1.5em; color: var(--text-tertiary)">
+              まだ登録されていません 😿
+            </p>
+            <button
+              onclick="switchPage('home')"
+              class="btn"
+              style="margin-top: 20px"
+            >
+              キャラクターを探しに行く
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="decks" class="page-section hidden">
+        <div class="container">
+          <div id="deck-list-view">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px; flex-wrap:wrap; gap:12px;">
+              <h2 class="section-title" style="border:none; padding:0; margin:0;">📚 単語帳</h2>
+              <button id="create-deck-btn" class="btn">＋ 新規作成</button>
+            </div>
+            <div id="deck-grid" class="deck-grid"></div>
+            <div id="empty-decks-state" style="display:none; text-align:center; padding:60px 20px;">
+              <p style="font-size:2em; margin-bottom:12px;">📚</p>
+              <p style="color:var(--text-secondary); font-size:1.05em;">単語帳がまだありません</p>
+              <p style="color:var(--text-tertiary); margin-top:8px; font-size:0.9em;">「＋ 新規作成」から作ってみよう！</p>
+            </div>
+          </div>
+          <div id="deck-detail-view" style="display:none;">
+            <!-- Phase 3 で実装 -->
+          </div>
+        </div>
+      </section>
+
+      <section id="quiz" class="page-section hidden">
+        <div class="container">
+          <!-- ===== Quiz Home View ===== -->
+          <div id="quiz-home-view">
+            <h2 class="section-title">🎯 クイズ</h2>
+            <div id="quiz-stats-summary" class="quiz-stats-summary"></div>
+            <div class="quiz-mode-grid">
+              <div class="quiz-mode-card" data-mode="listening">
+                <div class="quiz-mode-icon">🎧</div>
+                <div class="quiz-mode-name">リスニングクイズ</div>
+                <div class="quiz-mode-desc">音声を聞いて英文を当てる</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
+              </div>
+              <div class="quiz-mode-card" data-mode="translation_jp">
+                <div class="quiz-mode-icon">🇯🇵→🇬🇧</div>
+                <div class="quiz-mode-name">和訳クイズ</div>
+                <div class="quiz-mode-desc">英文を見て和訳を選ぶ</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
+              </div>
+              <div class="quiz-mode-card" data-mode="translation_en">
+                <div class="quiz-mode-icon">🇬🇧→🇯🇵</div>
+                <div class="quiz-mode-name">英訳クイズ</div>
+                <div class="quiz-mode-desc">和訳を見て英文を選ぶ</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
+              </div>
+              <div class="quiz-mode-card" data-mode="character">
+                <div class="quiz-mode-icon">🎮</div>
+                <div class="quiz-mode-name">キャラ当てクイズ</div>
+                <div class="quiz-mode-desc">音声を聞いて誰のセリフか当てる</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
+              </div>
+              <div class="quiz-mode-card" data-mode="arrange">
+                <div class="quiz-mode-icon">🔤</div>
+                <div class="quiz-mode-name">並び替えクイズ</div>
+                <div class="quiz-mode-desc">単語を並べて英文を作る</div>
+                <div class="quiz-mode-tag" style="background:var(--accent-primary); color:var(--btn-text);">挑戦できる</div>
+              </div>
+            </div>
+            <div id="quiz-mode-bests-section" class="quiz-home-sub-section" style="display:none;"></div>
+          </div>
+
+          <!-- ===== Quiz Settings View ===== -->
+          <div id="quiz-settings-view" style="display:none;">
+            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:24px; gap:12px; flex-wrap:wrap;">
+              <button class="btn btn-secondary" id="quiz-settings-back" style="padding:8px 16px; font-size:0.9em;">← 戻る</button>
+              <h2 style="font-size:1.3em; color:var(--accent-primary); margin:0; text-align:center; flex:1;" id="quiz-settings-mode-title"></h2>
+              <div style="width:60px;"></div>
+            </div>
+
+            <div class="quiz-settings-section">
+              <h3 class="quiz-settings-label">出題範囲</h3>
+              <label class="quiz-radio"><input type="radio" name="quiz-scope" value="all" checked> 全91キャラ</label>
+              <label class="quiz-radio"><input type="radio" name="quiz-scope" value="favorites"> ❤️ お気に入りセリフから</label>
+              <label class="quiz-radio"><input type="radio" name="quiz-scope" value="deck"> 📚 単語帳から</label>
+              <div id="quiz-scope-deck-select" style="display:none; margin-left:24px; margin-top:8px;">
+                <select id="quiz-scope-deck-id" style="padding:8px 12px; border-radius:8px; background:var(--surface-color); border:1px solid var(--border-color); color:var(--text-primary); max-width:100%;"></select>
+              </div>
+            </div>
+
+            <div class="quiz-settings-section">
+              <h3 class="quiz-settings-label">問題数</h3>
+              <div class="quiz-pill-group" id="quiz-question-count">
+                <button class="quiz-pill" data-value="5">5問</button>
+                <button class="quiz-pill active" data-value="10">10問</button>
+                <button class="quiz-pill" data-value="20">20問</button>
+                <button class="quiz-pill" data-value="50">50問</button>
+              </div>
+            </div>
+
+            <div class="quiz-settings-section">
+              <h3 class="quiz-settings-label">タイマー</h3>
+              <div class="quiz-pill-group" id="quiz-timer">
+                <button class="quiz-pill active" data-value="0">なし</button>
+                <button class="quiz-pill" data-value="15">15秒</button>
+                <button class="quiz-pill" data-value="30">30秒</button>
+              </div>
+            </div>
+
+            <div class="quiz-settings-section">
+              <h3 class="quiz-settings-label">難易度</h3>
+              <div class="quiz-pill-group" id="quiz-difficulty">
+                <button class="quiz-pill active" data-value="normal">通常</button>
+                <button class="quiz-pill" data-value="hard">ハード🔥</button>
+              </div>
+              <p style="margin-top:8px; font-size:0.8em; color:var(--text-tertiary);">ハード: 不正解の選択肢が同じキャラの他セリフから出題されます（並び替えは通常と同じ）</p>
+            </div>
+
+            <div style="margin-top:32px; text-align:center;">
+              <button class="btn" id="quiz-start-btn" style="font-size:1.15em; padding:14px 40px;">▶ クイズ開始</button>
+            </div>
+          </div>
+
+          <!-- ===== Quiz Play View ===== -->
+          <div id="quiz-play-view" style="display:none;">
+            <div class="quiz-play-header">
+              <button class="btn btn-secondary" id="quiz-play-quit" style="padding:6px 14px; font-size:0.85em;">中断</button>
+              <div class="quiz-progress-text" id="quiz-progress-text">1 / 10</div>
+              <div class="quiz-timer-display" id="quiz-timer-display"></div>
+            </div>
+            <div class="quiz-progress-bar"><div id="quiz-progress-bar-fill" class="quiz-progress-bar-fill"></div></div>
+            <div id="quiz-question-content" class="quiz-question-content"></div>
+            <div id="quiz-choices" class="quiz-choices"></div>
+            <div id="quiz-arrange-area" style="display:none;">
+              <div id="quiz-arrange-answer" class="quiz-arrange-answer"></div>
+              <div id="quiz-arrange-pool" class="quiz-arrange-pool"></div>
+              <div style="text-align:center; margin-top:16px;">
+                <button id="quiz-arrange-submit" class="btn" disabled>✓ 確認</button>
+                <button id="quiz-arrange-reset" class="btn btn-secondary" style="margin-left:8px;">リセット</button>
+              </div>
+            </div>
+            <div id="quiz-feedback" class="quiz-feedback" style="display:none;"></div>
+            <div id="quiz-next-btn-wrap" style="display:none; text-align:center; margin-top:24px;">
+              <button class="btn" id="quiz-next-btn" style="font-size:1.1em; padding:12px 30px;">次の問題 →</button>
+            </div>
+          </div>
+
+          <!-- ===== Quiz Result View ===== -->
+          <div id="quiz-result-view" style="display:none;"></div>
+        </div>
+      </section>
+
+      <section id="lessons" class="page-section container hidden">
+        <h2 class="section-title">翻訳動画</h2>
+        <div class="tiktok-video-container">
+          <div class="tiktok-video-item" id="tiktok-video-1"></div>
+        </div>
+      </section>
+
+      <section id="about" class="page-section container hidden">
+        <h2 class="section-title">Lexieについて</h2>
+        <p style="text-align: center; max-width: 700px; margin: 0 auto">
+          Lexieはブロスタファンプロジェクトです。学習がゲーム体験の一部となることを願っています。
+        </p>
+      </section>
+
+
       <!-- アップデート履歴ページ -->
       <section id="changelog" class="page-section hidden">
         <div class="container">

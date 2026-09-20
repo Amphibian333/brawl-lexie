@@ -227,6 +227,29 @@ function buildPage({ id, data }) {
     "詳細ページを表示"
   );
 
+  // (5-2) 詳細セクションを <main> の先頭へ移動する
+  //       移動しないと、このページの主題である <h1> の前に、非表示セクション
+  //       （お気に入り・単語帳・クイズなど）の見出しが10個並ぶ。
+  //       クローラーやAIはHTMLの並び順で文書構造を読むので、
+  //       アプリのUIラベルが主題より先に来ると内容の把握が弱くなる。
+  //       app.js は "main > .page-section" をまとめて処理するだけで
+  //       並び順に依存していないため、動作・見た目への影響はない。
+  //       ※ index.html（トップページ）はこの処理の対象外
+  const DETAIL_RE = /[ \t]*<section id="brawler-detail-page"[\s\S]*?<\/section>\n?/;
+  const detail = html.match(DETAIL_RE);
+  if (detail) {
+    html = html.replace(DETAIL_RE, "");
+    html = replaceOnce(
+      html,
+      /<main>/,
+      `<main>\n      ${detail[0].trim()}\n`,
+      "詳細セクションを<main>先頭へ移動"
+    );
+  } else if (!warned.has("詳細セクションの抽出")) {
+    console.warn("  ⚠ 置換対象が見つかりません: 詳細セクションの抽出");
+    warned.add("詳細セクションの抽出");
+  }
+
   // (6) 焼き込み本文の最低限の見た目 ＋ 起動スクリプト
   //     JSが動かない環境でも読めるように、prerender-* に簡単なスタイルを当てる
   const boot = `

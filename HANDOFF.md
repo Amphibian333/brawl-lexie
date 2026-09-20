@@ -1,6 +1,6 @@
 # Lexie 引き継ぎメモ
 
-最終更新: 2026-09-21 / 作業環境: Mac → Windows へ移行
+最終更新: 2026-09-21（sitemap提出・見出し構造・セキュリティヘッダー） / 作業環境: Mac → Windows へ移行
 
 ---
 
@@ -90,12 +90,31 @@ git push
 
 ## 5. 残タスク（優先順）
 
-1. **Google Search Console に sitemap.xml を提出** ← 最優先。ここで初めてインデックス数が実測できる
-   - https://search.google.com/search-console
-   - サイト登録 → サイトマップ → `sitemap.xml` を送信
-2. 見出しレベルの飛び（h1→h3など）の整理。SiteOne Crawler で92ページ指摘あり。軽微
-3. セキュリティヘッダー追加（`vercel.json` に Content-Security-Policy など）。軽微
-4. AI検索での可視性を定期チェック（ミエルカGEO / AIOGeoScan など）
+1. **【2026-09-21 完了】Google Search Console に sitemap.xml を提出**
+   - プロパティは登録・所有権確認ともに済みだった（URL prefix 方式）
+   - サイトマップ送信ステータス「成功しました」を確認
+2. **3〜7日後にインデックス数を確認** ← 次にやること
+   - Search Console → インデックス作成 → ページ
+   - 「インデックス登録済み」が93前後に向かって増えていれば成功
+   - 増えない場合は、除外理由（「クロール済み - インデックス未登録」など）を見る
+3. AI検索での可視性を定期チェック（ミエルカGEO / AIOGeoScan など）
+4. CSP（Content-Security-Policy）の追加。**保留中**
+   - 理由: サイトがインラインscript・インラインstyle・Google Tag Manager を多用しており、
+     `'unsafe-inline'` を許可しないと動かない。許可すると防御効果がほぼ無くなる
+   - やるならブランチを切って、Vercelプレビューではなく本番相当で要検証
+
+### 2026-09-21 に完了した分
+
+- **見出し構造**（旧タスク2）
+  - SiteOne の実際の指摘は「見出しレベルの飛び」ではなく **`<h1>` が1ページに2個**だった。
+    HANDOFF の記述が誤り。ヘッダーロゴの h1→p 降格で解決済み（本番確認済み）
+  - 追加で、`generate-pages.js` に **(5-2) 詳細セクションを `<main>` 先頭へ移動**する処理を追加。
+    これをしないと、ページの主題である h1 の前に、非表示セクション
+    （お気に入り・単語帳・クイズ等）の見出しが10個並ぶ。
+    移動後は h1 が文書内の1番目の見出しになる
+- **セキュリティヘッダー**（旧タスク3）
+  - `vercel.json` を新規作成。nosniff / Referrer-Policy / X-Frame-Options /
+    Permissions-Policy / HSTS の5つ。CSPは上記の理由で見送り
 
 ---
 
@@ -140,3 +159,8 @@ node generate-pages.js   # 動作確認
 必要なもの: `git`, `node`
 
 Cowork（Claude）で再開する場合は、このフォルダを連携してから「HANDOFF.md を読んで」と伝えれば文脈が復元される。
+
+※ 2026-09-21 時点の制約: 9/8 の Windows 更新の影響で、Cowork のシェルが連携フォルダを
+マウントできない（`no Plan9 drive shares mounted` エラー）。Claude はファイルの読み書きは
+できるが、**このPC上でコマンドを実行できない**。`node generate-pages.js` や git 操作は
+自分のターミナルで行うこと。Claude Code は影響を受けない。
