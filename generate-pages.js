@@ -66,6 +66,16 @@ function buildPage({ id, data }) {
     .replace(/src="app\.js"/g, 'src="/app.js"')
     .replace(/src="data\/changelog\.js"/g, 'src="/data/changelog.js"');
 
+  // (1-2) JavaScript が使える環境かどうかの印を、一番最初に付ける
+  //       クローラー（JSを実行しない）には印が付かないので、焼き込み本文は見えたまま。
+  //       人間のブラウザでは印が付くので、焼き込み本文を隠してチラつきを防げる。
+  html = replaceOnce(
+    html,
+    /<head>/,
+    '<head>\n    <script>document.documentElement.className += " js-on";</script>',
+    "<head>"
+  );
+
   // (2) タイトル・説明文をこのキャラ用に差し替える
   html = replaceOnce(html, /<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`, "title");
   html = replaceOnce(
@@ -198,6 +208,8 @@ function buildPage({ id, data }) {
   //     JSが動かない環境でも読めるように、prerender-* に簡単なスタイルを当てる
   const boot = `
     <style>
+      /* JSが動く環境では焼き込み本文を隠す。JSなし（クローラー含む）では表示される */
+      .js-on .prerender-body { display: none; }
       .prerender-body { max-width: 900px; margin: 0 auto; padding: 20px 16px 60px; }
       .prerender-body h1 { font-size: 1.8em; line-height: 1.4; margin-bottom: 16px; }
       .prerender-body h2 { font-size: 1.3em; margin: 32px 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--border-color); }
@@ -217,12 +229,18 @@ function buildPage({ id, data }) {
         var data;
         try { data = JSON.parse(el.textContent); } catch (e) { return; }
         var tries = 0;
+        // 差し替えに失敗したときは、隠していた焼き込み本文を出して読めるようにする
+        function showFallback() {
+          document.documentElement.className =
+            document.documentElement.className.replace(/\\s*js-on/, "");
+        }
         function boot() {
           if (typeof displayBrawlerDetail !== "function") {
             if (tries++ < 200) setTimeout(boot, 20);
+            else showFallback();
             return;
           }
-          try { displayBrawlerDetail(data); } catch (e) { console.error("詳細表示に失敗:", e); }
+          try { displayBrawlerDetail(data); } catch (e) { console.error("詳細表示に失敗:", e); showFallback(); return; }
           // 「一覧へ戻る」を本物のページ遷移にする（URLを残さないため）
           try {
             document.querySelectorAll(".back-to-list-button, #back-to-list-btn").forEach(function (btn) {
