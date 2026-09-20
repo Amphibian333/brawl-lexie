@@ -838,8 +838,12 @@
       }
 
       function createBrawlerCard(b) {
-        const card = document.createElement("div");
+        const card = document.createElement("a");
         card.className = "brawler-card";
+        card.href = "/brawler/" + b.fileId + "/";
+        card.style.display = "block";
+        card.style.textDecoration = "none";
+        card.style.color = "inherit";
         card.dataset.brawlerId = b.fileId;
         const favs = getFavorites();
         const isFav = favs.includes(b.name);
@@ -864,32 +868,15 @@
         card.addEventListener("mouseenter", prefetch);
         card.addEventListener("touchstart", prefetch, { passive: true });
 
-        card.onclick = async () => {
-          lastScrollPosition = window.scrollY;
-          if (b.isFetching && b.fetchPromise) {
-            card.classList.add("loading-card");
-            await b.fetchPromise;
-            card.classList.remove("loading-card");
-          } else if (!b.voicelines) {
-            card.classList.add("loading-card");
-            try {
-              const response = await fetch(`/data/brawlers/${b.fileId}.json`);
-              const detail = await response.json();
-              b.voicelines = detail.voicelines;
-              b.tiktokEmbed = detail.tiktokEmbed;
-            } catch (err) {
-              console.error("Failed to load brawler details:", err);
-            }
-            card.classList.remove("loading-card");
-          }
+        card.addEventListener("click", () => {
           // GA4 カスタムイベント：どのキャラが見られたか記録
           if (typeof gtag === "function") {
             gtag("event", "view_brawler", { brawler: b.name });
           }
-          displayBrawlerDetail(b);
-        };
+        });
         const favBtn = card.querySelector(".fav-btn");
         favBtn.onclick = (e) => {
+          e.preventDefault();
           e.stopPropagation();
           toggleFavorite(b.name);
           favBtn.classList.toggle("active");
