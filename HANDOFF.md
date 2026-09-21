@@ -71,16 +71,22 @@ git push
   - JSON では `"audioUrl": "/audio/sirius_vl1.mp3"`、`"iconUrl": "/icons/sirius.png"` のように **`/` 始まり**で書く（キャラページは `/brawler/<id>/` の深さにあるため）
   - アイコンは表示が正方形・円形切り抜きなので、**正方形に切り抜いてから**置く（元画像が横長だと詳細ページで潰れる）
 
-#### lexie_factory（Desktop）からの追加手順
+#### 新キャラ追加の自動化（2026-09-22〜）
 
-1. `lexie_factory/run.py <キャラ名>` で Whisper 判定 → `output_mp3/<キャラ>_vl<n>.mp3`
-2. 聞き取れなかった番号は**欠番のまま**（JSON にも入れない。Kit の vl19 と同じ扱い）
-3. Cowork に「lexie_factory の <キャラ> を追加して」と頼めば、音声・アイコン配置、和訳・解説つき JSON、index 追加まで行う
-4. 自分で `node generate-pages.js` → commit → push
+1. デスクトップの `lexie_inbox/<英語名小文字>/` に3つ入れる
+   - `voicelines.txt`（Fandom のセリフ欄をそのままコピペ）
+   - `icon.png`（アイコン。横長でもOK）
+   - `audio/`（Supercell Fan Kit の音声。zip のままでもOK）
+   - 任意で `info.txt`（`日本語名: シリウス`）
+2. Cowork で「lexie_inbox のキャラを追加して」と頼む（スキル **lexie-factory**）
+3. Claude が test/<キャラ> ブランチに `git add` まで済ませるので、自分で commit → push → プレビュー確認 → main へ merge
 
-### 見た目や機能を変えたとき
-
-`style.css` または `app.js` を編集 → `node generate-pages.js` → commit → push
+仕組み:
+- 音声の聞き取りは `lexie_factory/tools/lexie_match.py`（sherpa-onnx + Whisper base.en。PyTorch 不要で Cowork の中で動く。モデルは `lexie_factory/models/`）
+  - シリウスで検証: 旧 run.py（Whisper small）と 55件中53件一致。旧版が取りこぼした vl10・vl36 も拾えた
+- サイトへの組み込みは `lexie_factory/tools/lexie_publish.py`（音声コピー・アイコン切り抜き・JSON・index・お知らせバナー・ページ再生成）
+- 元データは `lexie_factory/mp3_files/<キャラ>/`、名前付け後は `mp3_files/<キャラ>/<キャラ>_edited/`
+- 旧 `run.py`（Windows の venv）は予備として残してある
 
 ---
 
