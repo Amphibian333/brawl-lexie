@@ -1260,9 +1260,15 @@
         // バナー初期化・イベント設定
         initBanner();
         document.getElementById('update-banner-close').addEventListener('click', closeBanner);
-        document.getElementById('update-banner-link').addEventListener('click', () => {
-          switchPage('changelog');
+        document.getElementById('update-banner-link').addEventListener('click', (e) => {
           closeBanner();
+          // data-href があればそのページへ（新キャラ告知など）。なければ更新履歴を開く
+          const href = e.currentTarget.dataset.href;
+          if (href) {
+            location.href = href;
+            return;
+          }
+          switchPage('changelog');
         });
 
         // お気に入りページのイベント
