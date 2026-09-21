@@ -1,6 +1,6 @@
 # Lexie 引き継ぎメモ
 
-最終更新: 2026-09-22（キャラ数自動化・トップcanonical・favicon軽量化） / 作業環境: Mac → Windows へ移行
+最終更新: 2026-09-22（キャラ数自動化・トップcanonical・favicon軽量化・シリウス追加） / 作業環境: Mac → Windows へ移行
 
 ---
 
@@ -14,12 +14,12 @@
 
 | 項目 | 作業前 | 現在 |
 |---|---|---|
-| クローラーが読めるページ | 1 | 93 |
+| クローラーが読めるページ | 1 | 94 |
 | 読めるテキスト量 | 約5,400字 | 約150万字 |
-| sitemap.xml | なし | 94URL |
+| sitemap.xml | なし | 95URL |
 | robots.txt | なし | あり |
-| 構造化データ | 0 | 184個（Article + FAQ × 92） |
-| canonical | なし | 全93ページ |
+| 構造化データ | 0 | 186個（Article + FAQ × 93） |
+| canonical | なし | 全94ページ |
 
 検証済み（SiteOne Crawler、localhost）: トップページ起点で93ページ全部に到達可能。
 
@@ -64,6 +64,20 @@ git push
 
 これだけ。HTMLは一切触らない。
 
+#### 素材の置き場所（シリウス以降）
+
+- 既存92キャラ: 音声は `https://Amphibian333.github.io/<id>.mp3`、アイコンは imgur
+- **シリウス以降: 音声は `audio/<id>.mp3`、アイコンは `icons/<fileId>.png` としてこのリポジトリに置く**
+  - JSON では `"audioUrl": "/audio/sirius_vl1.mp3"`、`"iconUrl": "/icons/sirius.png"` のように **`/` 始まり**で書く（キャラページは `/brawler/<id>/` の深さにあるため）
+  - アイコンは表示が正方形・円形切り抜きなので、**正方形に切り抜いてから**置く（元画像が横長だと詳細ページで潰れる）
+
+#### lexie_factory（Desktop）からの追加手順
+
+1. `lexie_factory/run.py <キャラ名>` で Whisper 判定 → `output_mp3/<キャラ>_vl<n>.mp3`
+2. 聞き取れなかった番号は**欠番のまま**（JSON にも入れない。Kit の vl19 と同じ扱い）
+3. Cowork に「lexie_factory の <キャラ> を追加して」と頼めば、音声・アイコン配置、和訳・解説つき JSON、index 追加まで行う
+4. 自分で `node generate-pages.js` → commit → push
+
 ### 見た目や機能を変えたとき
 
 `style.css` または `app.js` を編集 → `node generate-pages.js` → commit → push
@@ -95,15 +109,26 @@ git push
    - 「インデックス登録済み」が93前後に向かって増えていれば成功
    - 増えない場合は、除外理由（「クロール済み - インデックス未登録」など）を見る
 2. AI検索での可視性を定期チェック（ミエルカGEO / AIOGeoScan など）
-3. フォームのラベル欠落（93ページ）
+3. **サイトと TikTok のアイコンを統一する**
+   - 現状: Lexie はオオカミ、TikTok はコルト（ブロスタ公式キャラ）。TikTok から来た人が同じ運営者だと気づけない
+   - ⚠ 統一先は**オリジナルのアイコン**にすること。公式キャラをサイトの顔にすると、
+     Supercell ファンコンテンツポリシーの「公認の印象を与えてはいけない」「ロゴ・商標に似たものを作ってはいけない」に抵触しうる
+   - 方向性: 「セリフを聴いて訳すサイト」を表すもの（吹き出し・音の波形・翻訳記号など）
+4. フォームのラベル欠落（94ページ）
    - クイズ・検索の入力欄に `<label>` がない。アクセシビリティの指摘で、SEOには直接効かない
-4. CSP（Content-Security-Policy）の追加。**保留中**
+5. CSP（Content-Security-Policy）の追加。**保留中**
    - 理由: サイトがインラインscript・インラインstyle・Google Tag Manager を多用しており、
      `'unsafe-inline'` を許可しないと動かない。許可すると防御効果がほぼ無くなる
    - SiteOne はこれを critical と出すが、承知のうえで見送っている判断
    - やるならブランチを切って、Vercelプレビューではなく本番相当で要検証
 
 ### 2026-09-22 に完了した分
+
+- **シリウス（Sirius）を追加** — 93体目。ユーザー投票1位（24.1%）
+  - ウルトラレジェンダリー / コントローラー。セリフ57個中55個（vl10・vl36 は音声が聞き取れず欠番）
+  - 和訳・解説は Claude が作成。ダジャレ（serious/Sirius、Brawl Star）やフランス語（ma petite étincelle）も解説済み
+  - `app.js` の役職名に `controller`（コントローラー）と `artillery`（アーティラリー）を追加。
+    それまでジュジュ・フィンクス・ボウは英語のまま表示されていた
 
 - **キャラ数表記の自動化**
   - `index.html` に手書きの「全91キャラ」が5箇所残っていた（実際は92）
@@ -117,7 +142,7 @@ git push
     「正式URLはトップ」という canonical が複製される → Googleがキャラページを
     トップの複製と判断して検索結果から外す恐れがあった。
     `generate-pages.js` で**型紙を作るときに canonical を取り除く**処理を入れて回避
-- **`favicon.svg` を 1.2MB → 9.5KB に軽量化**
+- **`favicon.svg` を 1.2MB → 約17KB に軽量化**
   - 中身はベクターではなく、1080×1080 のPNG（443KB）を base64 で**2回**埋め込んだだけのファイルだった
     （ライト/ダークモード用に同じ画像が2つ）
   - 128×128・256色に縮小したPNGを1回だけ埋め込み、`<use>` で2箇所から参照する形に作り直した
@@ -141,7 +166,7 @@ git push
 Total of 100 visited URLs  = HTML 93（トップ1 + キャラ92）+ CSS 1 + JS 2 + 画像 4
 SEO 10.0/10 ／ Performance 10.0/10 ／ Best Practices 9.1/10
 ✅ multiple <h1> なし ／ 見出しの飛びなし ／ title・description 93件すべて一意
-⛔ Security 6.5/10 ← 中身はほぼ全部 CSP 未設定（上記4の判断どおり、想定内）
+⛔ Security 6.5/10 ← 中身はほぼ全部 CSP 未設定（上記5の判断どおり、想定内）
 ```
 
 **注意**: クロールは必ず本番URL `https://brawl-lexie.vercel.app/` で行うこと。

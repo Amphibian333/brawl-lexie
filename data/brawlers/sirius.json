@@ -1,0 +1,395 @@
+{
+  "name": "シリウス",
+  "nameEn": "Sirius",
+  "rarity": "ultra-legend-rare",
+  "role": "controller",
+  "quote": "I am the shiniest star!",
+  "iconUrl": "/icons/sirius.png",
+  "voicelines": [
+    {
+      "id": "sirius_vl1",
+      "quote": "My circus has plenty of space for everyone.",
+      "translation": "私のサーカスには、誰の席だってたっぷりあるさ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>歓迎しているように聞こえますが、「誰でも（無理やり）私のサーカスに引き込んでやる」という不気味な含みがあります。</li><li>\"plenty of ～\" は「たっぷりの～」「十分すぎるほどの～」という意味です。</li></ul><strong>英文法:</strong><br>\"has plenty of space for everyone\" は「have + 名詞 + for 人」で「（人）のための～がある」という形です。\"plenty of\" は数えられる名詞にも数えられない名詞（space）にも使えます。",
+      "audioUrl": "/audio/sirius_vl1.mp3"
+    },
+    {
+      "id": "sirius_vl2",
+      "quote": "Ahahaha, I am the only real Brawl Star!",
+      "translation": "アハハハ、本物の“ブロウル・スター”は私だけだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ゲーム名「Brawl Stars」を「Brawl Star（乱闘のスター）」と単数形にして、「スターは私一人」と言い放っています。</li><li>\"the only real ～\" は「唯一の本物の～」。他のキャラは偽物だと見下しています。</li></ul><strong>英文法:</strong><br>\"the only\" は「唯一の」という意味で、後ろの名詞が1つしかないことを強調します。\"only\" の前には必ず \"the\" が付くのが基本です。<br><br><strong>🧠豆知識:</strong><br>シリウスはブロスタの100体目のキャラクターとして登場しました。その記念すべきキャラに「本物のBrawl Starは私だけ」と言わせているのは、なかなか大胆な演出です。",
+      "audioUrl": "/audio/sirius_vl2.mp3"
+    },
+    {
+      "id": "sirius_vl3",
+      "quote": "Don't worry, I will make you join me.",
+      "translation": "心配するな、お前も必ず仲間に入れてやる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Don't worry\" と安心させるような言葉から始まりますが、中身は「逃がさない」という脅しです。</li><li>倒した相手を自分のサーカス（影）に取り込む、シリウスらしい言い回しです。</li></ul><strong>英文法:</strong><br>\"make + 人 + 動詞の原形\" は「（人）に無理やり～させる」という使役の形です。\"make you join me\" で「お前を無理やり仲間にさせる」となります。",
+      "audioUrl": "/audio/sirius_vl3.mp3"
+    },
+    {
+      "id": "sirius_vl4",
+      "quote": "This is for you, Charlie, ma petite étincelle.",
+      "translation": "これはお前のためだ、チャーリー。私の小さな火花よ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"ma petite étincelle\" はフランス語で「私の小さな火花」という意味です。</li><li>サーカスをテーマにしたキャラ、チャーリーに向けた特別なセリフです。</li></ul><strong>英文法:</strong><br>\"This is for you\" は「これはあなたのためのものです」。プレゼントを渡すときの定番表現ですが、ここでは攻撃やキルを「捧げる」皮肉な使い方です。<br><br><strong>🧠豆知識:</strong><br>フランス語の \"ma\" は「私の」（女性名詞につく形）、\"petite\" は「小さな」、\"étincelle\" は「火花・きらめき」です。英語のセリフに突然フランス語が混ざることで、芝居がかった気取った雰囲気が出ています。",
+      "audioUrl": "/audio/sirius_vl4.mp3"
+    },
+    {
+      "id": "sirius_vl5",
+      "quote": "Ugh, the show's not over, clowns!",
+      "translation": "うっ、ショーはまだ終わってないぞ、道化どもめ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒されたときのセリフです。負けを認めず「まだ終わっていない」と強がっています。</li><li>\"clowns\" は「ピエロ」ですが、ここでは相手を「間抜けども」とバカにする呼び方です。</li></ul><strong>英文法:</strong><br>\"The show's not over\" は \"The show is not over\" の短縮形です。\"over\" は形容詞で「終わった」という意味になります。<br><br><strong>🧠豆知識:</strong><br>英語の決まり文句に \"It ain't over till it's over.\"（終わるまでは終わりじゃない）や \"The show must go on.\"（ショーは続けなければならない）があります。シリウスのセリフはそれらをサーカス風にアレンジしたような響きです。",
+      "audioUrl": "/audio/sirius_vl5.mp3"
+    },
+    {
+      "id": "sirius_vl6",
+      "quote": "Behold my grandest illusion!",
+      "translation": "見よ、我が最大のイリュージョンを！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Behold\" は「見よ！」という古風で大げさな言葉です。舞台の口上そのものの言い方です。</li><li>\"illusion\" は手品や幻影のこと。影を操るシリウスの能力を「イリュージョン」と表現しています。</li></ul><strong>英文法:</strong><br>\"grandest\" は \"grand\"（壮大な）の最上級です。「my + 最上級 + 名詞」で「私の最も～な…」となります。",
+      "audioUrl": "/audio/sirius_vl6.mp3"
+    },
+    {
+      "id": "sirius_vl7",
+      "quote": "Here comes the sun and the moon.",
+      "translation": "さあ、太陽と月のお出ましだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>シリウスの攻撃は太陽と月をモチーフにしています。その攻撃を放つ場面のセリフです。</li><li>\"Here comes ～\" は「ほら～が来るぞ」と、何かの登場を告げる表現です。</li></ul><strong>英文法:</strong><br>\"Here comes the sun\" は倒置の形です。普通の語順は \"The sun comes here\" ですが、\"Here\" を文頭に出すと主語と動詞が入れ替わります。<br><br><strong>🧠豆知識:</strong><br>\"Here Comes the Sun\" はビートルズの有名な曲名でもあります。英語圏の人にはすぐにピンと来るフレーズです。",
+      "audioUrl": "/audio/sirius_vl7.mp3"
+    },
+    {
+      "id": "sirius_vl8",
+      "quote": "Another arena, another conquest!",
+      "translation": "また新たな舞台、また新たな征服だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"arena\" はバトルの会場、\"conquest\" は「征服」。どこへ行っても勝ち続けるという自信の表れです。</li><li>同じ形を2回繰り返すリズムで、口上らしい勢いを出しています。</li></ul><strong>英文法:</strong><br>\"Another A, another B\" は「またAがあって、またBがある」という決まった言い方で、次々と同じことが続く様子を表します。<br><br><strong>🧠豆知識:</strong><br>\"Another day, another dollar.\"（今日もまた一日働いて稼ぐ）という英語の決まり文句と同じ形です。",
+      "audioUrl": "/audio/sirius_vl8.mp3"
+    },
+    {
+      "id": "sirius_vl9",
+      "quote": "The difference between us is night and day.",
+      "translation": "私とお前の違いは、まさに昼と夜ほどだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"night and day\" は「昼と夜ほど違う」＝「正反対」「雲泥の差」という意味の慣用句です。</li><li>太陽と月を操るシリウスならではの言葉選びになっています。</li></ul><strong>英文法:</strong><br>\"The difference between A and B\" で「AとBの違い」。\"between us\" は「私たちの間の」です。<br><br><strong>🧠豆知識:</strong><br>英語では \"day and night\" より \"night and day\" の語順で「正反対」を表すことが多いです。\"They are like night and day.\"（あの2人は正反対だ）のように使います。",
+      "audioUrl": "/audio/sirius_vl9.mp3"
+    },
+    {
+      "id": "sirius_vl11",
+      "quote": "You'll see, the star always returns.",
+      "translation": "見ているがいい、星は必ず戻ってくる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒されたときのセリフです。「星（＝自分）」は何度でも戻ってくると宣言しています。</li><li>\"You'll see\" は「今に見ていろ」「そのうちわかるさ」という意味です。</li></ul><strong>英文法:</strong><br>\"always returns\" は現在形で「いつも・必ず戻る」という習慣や不変の事実を表しています。<br><br><strong>🧠豆知識:</strong><br>シリウスという名前は、夜空で最も明るく輝く恒星「シリウス」から来ています。沈んでもまた必ず昇ってくる星に、自分を重ねているわけです。",
+      "audioUrl": "/audio/sirius_vl11.mp3"
+    },
+    {
+      "id": "sirius_vl12",
+      "quote": "Let the Shadows take the stage!",
+      "translation": "影たちよ、舞台に上がれ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>シリウスは倒した相手の「影（シャドウ）」を集め、スーパースキルで呼び出して戦わせます。その場面のセリフです。</li><li>\"take the stage\" は「舞台に上がる」「主役として登場する」という意味の表現です。</li></ul><strong>英文法:</strong><br>\"Let + 目的語 + 動詞の原形\" は「～に…させよ」。\"Let the Shadows take the stage\" で「影たちに舞台を取らせよ」となります。",
+      "audioUrl": "/audio/sirius_vl12.mp3"
+    },
+    {
+      "id": "sirius_vl13",
+      "quote": "Ah, the cycle of pain begins.",
+      "translation": "ああ、苦しみの循環が始まる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"cycle\" は「くり返し・循環」。やられては復活し、また痛みが始まる、という芝居がかった嘆きです。</li><li>\"Ah\" のため息から始まり、悲劇の役者のような言い回しになっています。</li></ul><strong>英文法:</strong><br>\"the cycle of pain\" は「of」で名詞をつなぎ「痛みの循環」。\"begins\" は3人称単数現在の形です。",
+      "audioUrl": "/audio/sirius_vl13.mp3"
+    },
+    {
+      "id": "sirius_vl14",
+      "quote": "Such weakness.",
+      "translation": "なんと弱いことか。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を見下す短いひと言です。</li><li>文になっていない、感嘆だけのセリフです。</li></ul><strong>英文法:</strong><br>\"Such + 名詞\" だけで「なんという～だ」という感嘆を表せます。\"Such a pity!\"（なんと残念な！）なども同じ形です。",
+      "audioUrl": "/audio/sirius_vl14.mp3"
+    },
+    {
+      "id": "sirius_vl15",
+      "quote": "You are in serious trouble.",
+      "translation": "お前は深刻（シリアス）な事態に陥っているぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"serious trouble\" は「深刻なトラブル」。ここで \"serious\" と \"Sirius\" の音がほぼ同じであることを利用したダジャレです。</li><li>「本当にヤバいぞ」と「シリウスにやられるぞ」の二重の意味になっています。</li></ul><strong>英文法:</strong><br>\"be in trouble\" で「困ったことになっている」。\"serious\" を加えると「深刻な状態だ」と強調できます。<br><br><strong>🧠豆知識:</strong><br>Sirius と serious は、英語ではどちらも「スィリアス」に近い発音です。英語の名前ネタのダジャレは、こうした音の近さでできていることが多いです。",
+      "audioUrl": "/audio/sirius_vl15.mp3"
+    },
+    {
+      "id": "sirius_vl16",
+      "quote": "Ha, I prefer the Shadow you.",
+      "translation": "ハッ、影のお前のほうが好きだな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒した相手の影（コピー）を手に入れたときのセリフと考えられます。</li><li>「本物より、私に従う影のほうがいい」という皮肉です。</li></ul><strong>英文法:</strong><br>\"prefer A\" は「Aのほうを好む」。比較の相手を示すときは \"prefer A to B\" となりますが、ここでは省略されています。",
+      "audioUrl": "/audio/sirius_vl16.mp3"
+    },
+    {
+      "id": "sirius_vl17",
+      "quote": "What? I am mortal?",
+      "translation": "何？私が死ぬだと？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒されたときのセリフです。自分が倒されるとは思っていなかった驚きを表しています。</li><li>\"mortal\" は「いつか死ぬ運命にある」という意味で、反対は \"immortal\"（不死の）です。</li></ul><strong>英文法:</strong><br>\"I am mortal?\" は平叙文の語順のまま語尾を上げて疑問にしています。会話では、驚きや信じられない気持ちを表すときによくこの形を使います。",
+      "audioUrl": "/audio/sirius_vl17.mp3"
+    },
+    {
+      "id": "sirius_vl18",
+      "quote": "The circus of Shadows begins!",
+      "translation": "影のサーカスの開演だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スーパースキルで影を呼び出すときのセリフです。</li><li>\"begins\" で「始まる」。ショーの開幕宣言です。</li></ul><strong>英文法:</strong><br>\"The circus of Shadows\" は「of」で「影のサーカス」。\"Shadows\" が大文字なのは、ゲーム内の固有の呼び名として扱っているからです。",
+      "audioUrl": "/audio/sirius_vl18.mp3"
+    },
+    {
+      "id": "sirius_vl19",
+      "quote": "A star is born.",
+      "translation": "スターの誕生だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>バトル開始時のセリフです。自分の登場を「スター誕生」と表現しています。</li><li>\"star\" は「星」と「スター（人気者）」の両方の意味を掛けています。</li></ul><strong>英文法:</strong><br>\"A star is born.\" は受動態（be + 過去分詞）です。\"born\" は \"bear\"（産む）の過去分詞で、「生まれる」は英語では受け身で表します。<br><br><strong>🧠豆知識:</strong><br>\"A Star Is Born\"（スター誕生）は、何度もリメイクされている有名な映画のタイトルでもあります。",
+      "audioUrl": "/audio/sirius_vl19.mp3"
+    },
+    {
+      "id": "sirius_vl20",
+      "quote": "This is my circus!",
+      "translation": "ここは私のサーカスだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「ここでは私がルールだ」という支配宣言です。</li><li>短く強い、シリウスの決めゼリフの一つです。</li></ul><strong>英文法:</strong><br>\"This is my ～!\" は「ここは私の～だ」と縄張りや所有を主張する基本の形です。",
+      "audioUrl": "/audio/sirius_vl20.mp3"
+    },
+    {
+      "id": "sirius_vl21",
+      "quote": "Ha, was that your best?",
+      "translation": "ハッ、それが精一杯か？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の攻撃を受けたときの挑発です。</li><li>\"your best\" は「あなたの最善・全力」。「それで全力？弱すぎる」とあざ笑っています。</li></ul><strong>英文法:</strong><br>\"Was that your best?\" は過去形の疑問文で、「今のが全力だったのか？」と、たった今起きたことを指しています。",
+      "audioUrl": "/audio/sirius_vl21.mp3"
+    },
+    {
+      "id": "sirius_vl22",
+      "quote": "Your defeat fuels my power!",
+      "translation": "お前の敗北が、私の力の糧となる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を倒したときのセリフです。倒した相手の影を集めて強くなるシリウスの能力を表しています。</li><li>\"fuel\" は名詞で「燃料」ですが、ここでは動詞で「燃料を与える・勢いづける」という意味です。</li></ul><strong>英文法:</strong><br>\"A fuels B\" で「AがBに燃料を注ぐ」＝「AがBを強める」。英語では名詞をそのまま動詞として使うことがよくあります。",
+      "audioUrl": "/audio/sirius_vl22.mp3"
+    },
+    {
+      "id": "sirius_vl23",
+      "quote": "Just... a dramatic pause!",
+      "translation": "これは…ただの演出上の間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒されたときのセリフです。やられたことを「わざと取った劇的な間（ま）」だと言い訳しています。</li><li>\"dramatic pause\" は、話の途中で効果を狙ってわざと黙る「間」のことです。</li></ul><strong>英文法:</strong><br>\"Just...\" で一度言葉が途切れているのは、実際に「間」を演じているからです。セリフ自体がジョークになっています。",
+      "audioUrl": "/audio/sirius_vl23.mp3"
+    },
+    {
+      "id": "sirius_vl24",
+      "quote": "Now, starring: your worst nightmare!",
+      "translation": "さあ主演は…お前の最悪の悪夢だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"starring\" は映画やショーの宣伝で「主演：～」と紹介するときの言葉です。</li><li>スーパースキルを放つときに、自分を「お前の悪夢」として紹介しています。</li></ul><strong>英文法:</strong><br>\"Now, starring: ～\" は宣伝文句の決まった形で、完全な文ではありません。コロン（:）の後ろに主役の名前が入ります。",
+      "audioUrl": "/audio/sirius_vl24.mp3"
+    },
+    {
+      "id": "sirius_vl25",
+      "quote": "Fear, hahaha, is my finest weapon.",
+      "translation": "恐怖…ハハハ、それこそが私の最高の武器だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>恐怖で相手を支配するという、悪役らしいセリフです。</li><li>\"finest\" は \"fine\" の最上級で「最高の」「最も優れた」という意味です。</li></ul><strong>英文法:</strong><br>\"Fear is my finest weapon.\" の間に笑い声が挟まっています。主語 \"Fear\" と動詞 \"is\" が離れていても、文の骨組みは変わりません。",
+      "audioUrl": "/audio/sirius_vl25.mp3"
+    },
+    {
+      "id": "sirius_vl26",
+      "quote": "I am the shiniest star!",
+      "translation": "私こそが最も輝く星だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"shiniest\" は \"shiny\"（輝く）の最上級です。</li><li>夜空で最も明るい恒星シリウスにちなんだ、キャラクターの核となるセリフです。</li></ul><strong>英文法:</strong><br>\"shiny\" のように「子音 + y」で終わる形容詞は、y を i に変えて \"-est\" をつけ、\"shiniest\" となります。<br><br><strong>🧠豆知識:</strong><br>恒星シリウスは地球から見える恒星の中で一番明るい星です。「一番輝く星」という自己紹介は、名前そのままの意味になっています。",
+      "audioUrl": "/audio/sirius_vl26.mp3"
+    },
+    {
+      "id": "sirius_vl27",
+      "quote": "You'll pay for that with your life!",
+      "translation": "その代償は命で払ってもらうぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>攻撃を受けたときの報復宣言です。</li><li>\"pay for ～\" は「～の代償を払う」「～の報いを受ける」という意味です。</li></ul><strong>英文法:</strong><br>\"pay for that with your life\" は「with + 手段」で「命をもって代償を払う」。\"You'll pay for that!\"（覚えてろよ！）は単独でもよく使われる脅し文句です。",
+      "audioUrl": "/audio/sirius_vl27.mp3"
+    },
+    {
+      "id": "sirius_vl28",
+      "quote": "Let the weak be crushed!",
+      "translation": "弱き者は踏みつぶされるがいい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"the weak\" は「弱い人々」という意味です。</li><li>相手を倒したときの、冷酷な悪役らしいセリフです。</li></ul><strong>英文法:</strong><br>「the + 形容詞」で「～な人々」を表します。\"the weak\"（弱者）、\"the rich\"（金持ち）、\"the young\"（若者）のように使います。",
+      "audioUrl": "/audio/sirius_vl28.mp3"
+    },
+    {
+      "id": "sirius_vl29",
+      "quote": "Fools, I am inevitable!",
+      "translation": "愚か者め、私は不可避の存在だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"inevitable\" は「避けられない」「必ず起こる」という意味です。</li><li>倒されてもなお、自分は必ず戻ってくると言い張っています。</li></ul><strong>英文法:</strong><br>\"I am inevitable\" はSVCの文で、主語の性質を形容詞で表しています。人に対して \"inevitable\" を使うのは珍しく、それだけ尊大な言い方です。<br><br><strong>🧠豆知識:</strong><br>\"I am inevitable.\" は映画『アベンジャーズ／エンドゲーム』で悪役サノスが言う有名なセリフでもあります。",
+      "audioUrl": "/audio/sirius_vl29.mp3"
+    },
+    {
+      "id": "sirius_vl30",
+      "quote": "Welcome to the Shadow show!",
+      "translation": "影のショーへようこそ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スーパースキルで影を呼び出すときのセリフです。</li><li>\"Welcome to ～\" は「～へようこそ」。観客を迎える司会者の口調です。</li></ul><strong>英文法:</strong><br>\"Welcome to + 場所・イベント\" は、歓迎の決まり文句です。後ろに名詞を置くだけで使えます。",
+      "audioUrl": "/audio/sirius_vl30.mp3"
+    },
+    {
+      "id": "sirius_vl31",
+      "quote": "Who ordered the boss battle?",
+      "translation": "ボス戦をご注文なのはどなたかな？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"boss battle\" はゲームの「ボス戦」のことです。自分をボスキャラだと宣言しています。</li><li>レストランで \"Who ordered ～?\"（～を注文したのはどなた？）と言う言い方を使ったジョークです。</li></ul><strong>英文法:</strong><br>\"Who ordered ～?\" は疑問詞 \"Who\" が主語になっている疑問文です。主語を尋ねるときは \"did\" を使わず、そのまま過去形の動詞を続けます。<br><br><strong>🧠豆知識:</strong><br>シリウスはブロスタで初めての本格的な「悪役」として登場したキャラクターです。自らを「ボス」と呼ぶのはその立ち位置を意識したセリフと言えます。",
+      "audioUrl": "/audio/sirius_vl31.mp3"
+    },
+    {
+      "id": "sirius_vl32",
+      "quote": "Clowns, try to keep up.",
+      "translation": "道化ども、ついて来られるかな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"keep up\" は「（遅れずに）ついていく」という意味です。</li><li>自分のスピードに相手がついて来られないとバカにしています。</li></ul><strong>英文法:</strong><br>\"try to + 動詞の原形\" は「～しようと努める」。命令文なので「ついて来ようと頑張ってみろ」となります。",
+      "audioUrl": "/audio/sirius_vl32.mp3"
+    },
+    {
+      "id": "sirius_vl33",
+      "quote": "Your pain will be my pleasure.",
+      "translation": "お前の苦痛が、私の悦びだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"pain\" と \"pleasure\" という反対の言葉を並べた、悪役らしい対比のセリフです。</li><li>どちらも p で始まる、音の響きを意識した言い回しです。</li></ul><strong>英文法:</strong><br>\"will be\" は未来を表します。「お前の痛みはこれから私の喜びになる」＝これから痛めつけてやる、という予告になっています。<br><br><strong>🧠豆知識:</strong><br>\"No pain, no gain.\"（痛みなくして得るものなし）のように、英語では似た音の言葉を並べる表現がよく好まれます。",
+      "audioUrl": "/audio/sirius_vl33.mp3"
+    },
+    {
+      "id": "sirius_vl34",
+      "quote": "Ha, you are but a clown in my circus.",
+      "translation": "ハッ、お前など私のサーカスの一介の道化にすぎん。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"but\" はここでは「しかし」ではなく「ただの～にすぎない」という意味です。</li><li>相手をサーカスの端役扱いして見下しています。</li></ul><strong>英文法:</strong><br>\"but\" = \"only\" の用法です。\"You are but a clown\" は \"You are only a clown\" と同じ意味で、古風で芝居がかった響きがあります。",
+      "audioUrl": "/audio/sirius_vl34.mp3"
+    },
+    {
+      "id": "sirius_vl35",
+      "quote": "My spotlight never fades.",
+      "translation": "私のスポットライトは決して消えない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"spotlight\" は舞台で主役を照らす照明のこと。「私はいつまでも主役だ」という意味です。</li><li>\"fade\" は「（光や色が）薄れる、消えていく」という意味です。</li></ul><strong>英文法:</strong><br>\"never + 動詞\" で「決して～しない」。現在形で使うと「いつでも変わらない事実」として強く言い切れます。",
+      "audioUrl": "/audio/sirius_vl35.mp3"
+    },
+    {
+      "id": "sirius_vl37",
+      "quote": "Such audacity from a mere clown!",
+      "translation": "ただの道化の分際で、なんと生意気な！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"audacity\" は「ずうずうしさ」「大胆さ」。格下の相手が逆らってきたことへの怒りです。</li><li>\"mere\" は「ただの」「ほんの」という意味で、相手を小さく見せる言葉です。</li></ul><strong>英文法:</strong><br>\"Such + 名詞 + from ～!\" で「～からなんという…だ！」という感嘆になります。\"The audacity!\"（なんて図々しい！）は単独でもネットスラングとしてよく使われます。",
+      "audioUrl": "/audio/sirius_vl37.mp3"
+    },
+    {
+      "id": "sirius_vl38",
+      "quote": "Ooo-hoo, even my Shadow's impressed!",
+      "translation": "オーホー、私の影すら感心しているぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の活躍に、自分の影まで驚いているという自画自賛のセリフです。</li><li>\"impressed\" は「感心した」「感銘を受けた」という意味です。</li></ul><strong>英文法:</strong><br>\"even\" は「～でさえ」。\"even my Shadow\" で「私の影でさえ」となり、驚きを強調します。\"Shadow's\" は \"Shadow is\" の短縮です。",
+      "audioUrl": "/audio/sirius_vl38.mp3"
+    },
+    {
+      "id": "sirius_vl39",
+      "quote": "Your existence is pointless.",
+      "translation": "お前の存在に意味などない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手の存在そのものを否定する、かなり辛辣なセリフです。</li><li>\"pointless\" は「無意味な」「無駄な」という意味です。</li></ul><strong>英文法:</strong><br>\"point\"（要点・意味）+ \"-less\"（～がない）で \"pointless\"（意味がない）。\"-less\" は \"useless\"（役に立たない）、\"endless\"（終わりがない）など多くの単語を作ります。",
+      "audioUrl": "/audio/sirius_vl39.mp3"
+    },
+    {
+      "id": "sirius_vl40",
+      "quote": "Ha, that was part of the show.",
+      "translation": "ハッ、今のもショーのうちだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒されたときの強がりのセリフです。やられたのも演出だと言い張っています。</li><li>\"part of the show\" は「ショーの一部」。</li></ul><strong>英文法:</strong><br>\"that was part of ～\" は「あれは～の一部だった」。\"part\" の前に \"a\" をつけないことが多い点に注意しましょう（part of the plan など）。<br><br><strong>🧠豆知識:</strong><br>英語では失敗をごまかすときに \"That was part of the plan.\"（計画通りだ）とよく言います。シリウスはそれをショー風に言い換えています。",
+      "audioUrl": "/audio/sirius_vl40.mp3"
+    },
+    {
+      "id": "sirius_vl41",
+      "quote": "Every clown gets a free copy!",
+      "translation": "道化には漏れなくコピーを一つ差し上げよう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"free copy\" は宣伝でよく聞く「無料の1部」「プレゼント」という言い方です。</li><li>ここでの \"copy\" は、相手をコピーした「影」のこと。サービスのふりをした脅しになっています。</li></ul><strong>英文法:</strong><br>\"Every + 単数名詞\" は「すべての～」ですが、動詞は単数扱い（gets）になる点に注意です。",
+      "audioUrl": "/audio/sirius_vl41.mp3"
+    },
+    {
+      "id": "sirius_vl42",
+      "quote": "Step right up to your doom!",
+      "translation": "さあさあ寄ってらっしゃい、破滅はこちら！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Step right up!\" はサーカスや縁日の呼び込みの決まり文句で、「さあ寄ってらっしゃい！」という意味です。</li><li>\"doom\" は「破滅」「悲惨な運命」。楽しい呼び込みの形で、恐ろしい誘いをかけています。</li></ul><strong>英文法:</strong><br>\"Step right up to ～\" で「～の方へ進み出て」。\"right\" は「すぐに」「まっすぐ」と動作を強める副詞です。",
+      "audioUrl": "/audio/sirius_vl42.mp3"
+    },
+    {
+      "id": "sirius_vl43",
+      "quote": "Try harder, clowns! I'm bored.",
+      "translation": "もっと頑張れ、道化ども！退屈だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手が弱すぎて退屈だとあおっています。</li><li>\"bored\" は「退屈している」。</li></ul><strong>英文法:</strong><br>\"bored\" と \"boring\" の違いに注意。\"I'm bored\" は「私は退屈している」、\"I'm boring\" だと「私はつまらない人間だ」になってしまいます。<br><br><strong>🧠豆知識:</strong><br>感情を表す形容詞は、-ed が「（人が）そう感じている」、-ing が「（物事が）そう感じさせる」です。excited / exciting、tired / tiring なども同じです。",
+      "audioUrl": "/audio/sirius_vl43.mp3"
+    },
+    {
+      "id": "sirius_vl44",
+      "quote": "You'll regret that, foolish clown!",
+      "translation": "その報いを受けることになるぞ、愚かな道化め！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>攻撃を受けたときの怒りのセリフです。</li><li>\"regret\" は「後悔する」。「後悔させてやる」という脅しです。</li></ul><strong>英文法:</strong><br>\"You'll regret that\" は \"You will regret that\" の短縮形。未来の \"will\" で「（そのうち）後悔することになる」と予告しています。",
+      "audioUrl": "/audio/sirius_vl44.mp3"
+    },
+    {
+      "id": "sirius_vl45",
+      "quote": "Cry, waa, like a tiny, little baby.",
+      "translation": "泣けよ、ほらエーンエーンって、ちっちゃな赤ちゃんみたいにな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を倒したときの、かなり意地悪なあおりです。</li><li>\"waa\" は英語の赤ちゃんの泣き声（日本語の「エーン」）です。</li></ul><strong>英文法:</strong><br>\"like + 名詞\" で「～のように」。\"tiny, little\" と「小さい」を重ねて、相手をとことん子ども扱いしています。<br><br><strong>🧠豆知識:</strong><br>英語の擬音で、赤ちゃんの泣き声は \"waa\" や \"wah\" と書きます。",
+      "audioUrl": "/audio/sirius_vl45.mp3"
+    },
+    {
+      "id": "sirius_vl46",
+      "quote": "Hahahaha. Applause for my resurrection.",
+      "translation": "ハハハハ。我が復活に拍手を。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>復活したときのセリフです。自分の復活を、観客に拍手を求めるショーのように演出しています。</li><li>\"resurrection\" は「復活」「よみがえり」という意味です。</li></ul><strong>英文法:</strong><br>\"Applause for ～\" は「～に拍手を」という決まった言い方です。司会者が \"A big round of applause for ～!\"（～に盛大な拍手を！）と言う形の短縮版です。",
+      "audioUrl": "/audio/sirius_vl46.mp3"
+    },
+    {
+      "id": "sirius_vl47",
+      "quote": "Release the Shadows!",
+      "translation": "影たちを解き放て！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スーパースキルで影を放つときのセリフです。</li><li>\"release\" は「解放する」「放つ」という意味です。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文です。自分自身に向けた「号令」として使われています。",
+      "audioUrl": "/audio/sirius_vl47.mp3"
+    },
+    {
+      "id": "sirius_vl48",
+      "quote": "Light, Shadows, and total domination!",
+      "translation": "光、影、そして完全なる支配！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の力の要素を3つ並べたスローガンのようなセリフです。</li><li>\"domination\" は「支配」。\"total\" をつけて「完全な支配」と強めています。</li></ul><strong>英文法:</strong><br>\"A, B, and C\" と3つ並べる形です。最後の \"and\" の前のカンマは「オックスフォード・カンマ」と呼ばれます。",
+      "audioUrl": "/audio/sirius_vl48.mp3"
+    },
+    {
+      "id": "sirius_vl49",
+      "quote": "Too fast, too fabulous, hahaha, I'm both!",
+      "translation": "速すぎ、素敵すぎ、ハハハ、両方さ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fabulous\" は「素晴らしい」「最高にイケてる」という意味です。</li><li>自分のスピードと魅力の両方を自慢しています。</li></ul><strong>英文法:</strong><br>\"too + 形容詞\" は「～すぎる」。\"I'm both!\" は「私はその両方だ」で、\"both\" は代名詞として使われています。<br><br><strong>🧠豆知識:</strong><br>\"fast\" と \"fabulous\" はどちらも f で始まります。頭の音をそろえる「頭韻（とういん）」は、英語のキャッチコピーでよく使われる技法です。",
+      "audioUrl": "/audio/sirius_vl49.mp3"
+    },
+    {
+      "id": "sirius_vl50",
+      "quote": "This isn't your act, fool!",
+      "translation": "これはお前の出番じゃないぞ、愚か者！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"act\" はここでは「演目」「出し物」のことです。</li><li>「ここは私の舞台だ、お前の出る幕ではない」と言っています。</li></ul><strong>英文法:</strong><br>\"isn't\" は \"is not\" の短縮形。\"your act\" で「お前の演目」です。",
+      "audioUrl": "/audio/sirius_vl50.mp3"
+    },
+    {
+      "id": "sirius_vl51",
+      "quote": "Join my circus of souls!",
+      "translation": "我が魂のサーカスに加わるがいい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を倒したときのセリフです。倒した相手の魂（影）を自分のサーカスに取り込むという意味です。</li><li>\"soul\" は「魂」。</li></ul><strong>英文法:</strong><br>\"Join ～\" は「～に加わる」。\"join\" は他動詞なので、\"join to\" や \"join in\" とせずに直接目的語をとります。",
+      "audioUrl": "/audio/sirius_vl51.mp3"
+    },
+    {
+      "id": "sirius_vl52",
+      "quote": "Shadow army, assemble!",
+      "translation": "影の軍勢よ、集え！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>スーパースキルで影を呼び出すときのセリフです。</li><li>\"assemble\" は「集まる」「集結する」という意味です。</li></ul><strong>英文法:</strong><br>呼びかけ（Shadow army）+ 命令（assemble）の形です。<br><br><strong>🧠豆知識:</strong><br>\"Avengers, assemble!\"（アベンジャーズ、集結せよ！）という映画の有名な号令と同じ形です。",
+      "audioUrl": "/audio/sirius_vl52.mp3"
+    },
+    {
+      "id": "sirius_vl53",
+      "quote": "Time to steal the spotlight, ha, and some souls.",
+      "translation": "主役を奪う時間だ、ハッ、ついでに魂もいくつかな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"steal the spotlight\" は「注目をかっさらう」「主役の座を奪う」という慣用句です。</li><li>\"steal\"（盗む）を「注目」と「魂」の両方にかけた言葉遊びになっています。</li></ul><strong>英文法:</strong><br>\"Time to + 動詞の原形\" は \"It's time to ～\" の省略で「～する時間だ」です。\"and some souls\" は \"steal\" の目的語を後から付け足しています。<br><br><strong>🧠豆知識:</strong><br>似た慣用句に \"steal the show\"（ショーの主役をさらう、一番目立つ）もあります。",
+      "audioUrl": "/audio/sirius_vl53.mp3"
+    },
+    {
+      "id": "sirius_vl54",
+      "quote": "Oh, look! I'm amazing, again!",
+      "translation": "おお、見ろ！私はまたしても素晴らしい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の活躍に、自分で感動している自画自賛のセリフです。</li><li>\"amazing\" は「驚くほど素晴らしい」。</li></ul><strong>英文法:</strong><br>\"again\" を最後に置いて「またしても」と強調しています。前にも素晴らしかったことが前提になっている、ナルシストらしい言い方です。",
+      "audioUrl": "/audio/sirius_vl54.mp3"
+    },
+    {
+      "id": "sirius_vl55",
+      "quote": "Hahahahaha, another Brawler joins my circus.",
+      "translation": "ハハハハハ、またブロウラーが一人、我がサーカスに仲間入りだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>相手を倒したときのセリフです。倒した相手を「サーカスの新入り」扱いしています。</li><li>\"Brawler\" はブロスタのキャラクターの呼び名です。</li></ul><strong>英文法:</strong><br>\"another + 単数名詞\" で「もう一つ（一人）の～」。\"joins\" は3人称単数現在の形です。",
+      "audioUrl": "/audio/sirius_vl55.mp3"
+    },
+    {
+      "id": "sirius_vl56",
+      "quote": "Has anyone seen my little sparkle?",
+      "translation": "誰か、私の小さなきらめきを見なかったか？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sparkle\" は「きらめき」「火花」という意味です。</li><li>チャーリーに向けた \"ma petite étincelle\"（私の小さな火花）の英語版とも読める、意味深なセリフです。</li></ul><strong>英文法:</strong><br>\"Has anyone seen ～?\" は現在完了の疑問文で、「（今までに）誰か～を見たか？」と、探し物をするときの定番表現です。",
+      "audioUrl": "/audio/sirius_vl56.mp3"
+    },
+    {
+      "id": "sirius_vl57",
+      "quote": "Clones, chaos, carnage, and... confetti.",
+      "translation": "クローン、混沌、殺戮、そして…紙吹雪。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Clones, chaos, carnage\" と c で始まる恐ろしい言葉を3つ並べた後に、急に \"confetti\"（紙吹雪）と楽しい言葉で落としています。</li><li>悪役でありながらショーマンでもある、シリウスの二面性を表したセリフです。</li></ul><strong>英文法:</strong><br>\"A, B, C, and... D\" と並べて最後に間を置き、意外な言葉で締めるのは、英語のジョークでよく使われる形です。<br><br><strong>🧠豆知識:</strong><br>同じ音で始まる言葉を並べる技法を「頭韻（アリタレーション）」と言います。confetti はイタリア語由来の言葉です。",
+      "audioUrl": "/audio/sirius_vl57.mp3"
+    }
+  ]
+}

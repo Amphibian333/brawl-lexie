@@ -832,6 +832,8 @@
           assassin: "アサシン",
           thrower: "スロワー",
           marksman: "マークスマン",
+          controller: "コントローラー",
+          artillery: "アーティラリー",
           unknown: "不明",
         };
         return m[k.toLowerCase().replace(/\s+/g, "-")] || k;
