@@ -27,10 +27,16 @@ const LINKS_RE = new RegExp(
 );
 
 // ---- 読み込み ----
-const rawIndex = fs.readFileSync(TEMPLATE_PATH, "utf8");
-// キャラページの型紙からは自動生成リンク集を外す（各ページに二重で入らないように）
-const template = rawIndex.replace(LINKS_RE, "");
+const original = fs.readFileSync(TEMPLATE_PATH, "utf8");
 const files = fs.readdirSync(DATA_DIR).filter((f) => f.endsWith(".json"));
+// 「全〇〇キャラ」の表記を、実際のキャラ数（＝JSONファイルの数）に置き換える
+const rawIndex = original.replace(/全\d+キャラ/g, `全${files.length}キャラ`);
+// キャラページの型紙からは自動生成リンク集を外す（各ページに二重で入らないように）
+// キャラページの型紙からは、トップページ用の canonical を外す
+// （残すと「このページの正式URLはトップです」と92ページ全部が宣言してしまう）
+const template = rawIndex
+  .replace(LINKS_RE, "")
+  .replace(/\s*<link rel="canonical"[^>]*>/, "");
 const all = files.map((f) => ({
   id: f.replace(/\.json$/, ""),
   data: JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), "utf8")),
@@ -348,7 +354,7 @@ if (LINKS_RE.test(rawIndex)) {
 } else {
   newIndex = rawIndex.replace(/<\/body>/, `${linkIndex}\n  </body>`); // 初回：末尾に追加
 }
-if (newIndex !== rawIndex) {
+if (newIndex !== original) {
   fs.writeFileSync(TEMPLATE_PATH, newIndex, "utf8");
   console.log(`index.html にリンク集を埋め込みました（${all.length}件）`);
 }
