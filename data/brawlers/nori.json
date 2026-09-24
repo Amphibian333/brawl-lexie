@@ -1,0 +1,297 @@
+{
+  "name": "ノリ",
+  "nameEn": "Nori",
+  "rarity": "legend-rare",
+  "role": "assassin",
+  "quote": "I might be a baby, but I know how to brawl!",
+  "iconUrl": "/icons/nori.png",
+  "voicelines": [
+    {
+      "id": "nori_vl1",
+      "quote": "Gonna catch some Brawlers, for real!",
+      "translation": "ブロウラーたち、マジで釣り上げちゃうよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"catch\" は「捕まえる」ですが、釣り好きのノリが言うと「釣り上げる」のニュアンスになります。</li><li>\"for real\" は「マジで」「本気だよ」という若者言葉です。</li></ul><strong>英文法:</strong><br>\"Gonna\" は \"going to\" がくだけた形です。本来は \"I'm gonna catch...\" ですが、会話では先頭の \"I'm\" がまるごと落ちることがよくあります。",
+      "audioUrl": "/audio/nori_vl1.mp3"
+    },
+    {
+      "id": "nori_vl2",
+      "quote": "ママ パパ I got a big one!",
+      "translation": "ママ、パパ、大物釣れたよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"a big one\" は「大きいやつ」。釣りでは「大物」を指しますが、ここでは倒した相手のことです。</li><li>両親を日本語で「ママ」「パパ」と呼ぶところに、ノリの家庭の雰囲気が出ています。</li></ul><strong>英文法:</strong><br>\"one\" は前に出た名詞のかわりに使う代名詞です。ここでは \"a big fish\" の \"fish\" が \"one\" に置きかわっています。<br><br><strong>🧠豆知識:</strong><br>ノリの父は寿司職人のケンジ、母は忍者のカゼです。二人ともブロスタに登場しているキャラで、ノリはその息子という設定です。",
+      "audioUrl": "/audio/nori_vl2.mp3"
+    },
+    {
+      "id": "nori_vl3",
+      "quote": "Ah! I'm gonna get my parents!",
+      "translation": "うわっ！パパとママ呼んでくるからね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>けんかで負けそうな子どもが言う定番のセリフ、いわゆる「親に言いつけてやる」です。</li><li>ノリの場合、呼ばれて来るのが忍者と寿司職人なので、かなりの脅し文句になっています。</li></ul><strong>英文法:</strong><br>\"get\" は「手に入れる」以外に「（人を）呼んでくる・連れてくる」という意味でも使います。\"I'll get the doctor.\"（医者を呼んでくる）と同じ使い方です。",
+      "audioUrl": "/audio/nori_vl3.mp3"
+    },
+    {
+      "id": "nori_vl4",
+      "quote": "Taught a kid how to fish, now I'm feeding Brawlers for a lifetime!",
+      "translation": "子どもに釣りを教えたら、一生ブロウラーを食べさせてもらえるようになったよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>有名なことわざのもじりです。本来は「人を助けるなら、魚を与えるより釣り方を教えよ」という教訓です。</li><li>ノリはそれをひっくり返して、「釣られる側がブロウラー」という物騒な意味にしています。</li></ul><strong>英文法:</strong><br>\"how to + 動詞の原形\" で「～のしかた」。\"teach 人 how to ～\"（人に～のしかたを教える）はセットで覚えると便利です。<br><br><strong>🧠豆知識:</strong><br>元になったことわざは \"Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.\"（魚を与えれば一日食べられる、釣りを教えれば一生食べられる）です。",
+      "audioUrl": "/audio/nori_vl4.mp3"
+    },
+    {
+      "id": "nori_vl5",
+      "quote": "Okay, I'll go back to the kitchen.",
+      "translation": "はーい、キッチンに戻りまーす。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒されたときのセリフ。「遊びは終わり、実家の厨房に帰る」という意味です。</li><li>あっさり引き下がる言い方が、叱られて素直に従う子どもらしさを出しています。</li></ul><strong>英文法:</strong><br>\"go back to ～\" は「～に戻る」。\"the kitchen\" と \"the\" が付くのは、お互いに分かっている特定の場所（家の厨房）だからです。",
+      "audioUrl": "/audio/nori_vl5.mp3"
+    },
+    {
+      "id": "nori_vl6",
+      "quote": "Diving in!",
+      "translation": "飛び込むよー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"dive in\" は「飛び込む」。プールや水に飛び込む動きと、戦いに飛び込む気持ちの両方を表します。</li><li>食事に勢いよく取りかかるときにも \"Dive in!\"（さあ食べよう）と言います。</li></ul><strong>英文法:</strong><br>本来は \"I'm diving in!\" ですが、掛け声では主語と be動詞が省略されます。実況や掛け声でよくある形です。",
+      "audioUrl": "/audio/nori_vl6.mp3"
+    },
+    {
+      "id": "nori_vl7",
+      "quote": "Time to fish and dish.",
+      "translation": "釣って、盛りつけの時間だよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fish\"（釣る）と \"dish\"（皿に盛る／料理）で韻を踏んでいます。</li><li>\"dish\" には口語で「（噂や悪口を）言いふらす」という意味もあり、二重に効いています。</li></ul><strong>英文法:</strong><br>\"Time to + 動詞の原形\" で「～する時間だ」。\"It's time to ～\" の \"It's\" が落ちた形です。",
+      "audioUrl": "/audio/nori_vl7.mp3"
+    },
+    {
+      "id": "nori_vl8",
+      "quote": "Reel them in, for the win!",
+      "translation": "巻き上げて、勝ちをいただき！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"reel in\" は釣りのリールを巻いて魚を引き寄せること。人を「引き込む」という意味でも使います。</li><li>\"in\" と \"win\" で韻を踏んでいます。</li></ul><strong>英文法:</strong><br>\"reel in\" のような句動詞は、目的語が代名詞（them, it, him）のときは必ず間にはさみます。\"reel them in\" は正しく、\"reel in them\" とは言いません。",
+      "audioUrl": "/audio/nori_vl8.mp3"
+    },
+    {
+      "id": "nori_vl9",
+      "quote": "You don't want to make my parents angry!",
+      "translation": "ママとパパを怒らせないほうがいいよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>直訳は「あなたは私の親を怒らせたくないはずだ」ですが、実際は強めの忠告です。</li><li>自分では勝てないので親を持ち出すあたりが、やっぱり子どもです。</li></ul><strong>英文法:</strong><br>\"You don't want to ～\" は「～しないほうがいいよ」という警告の決まり文句です。\"make + 人 + 形容詞\" は「（人）を～の状態にする」。",
+      "audioUrl": "/audio/nori_vl9.mp3"
+    },
+    {
+      "id": "nori_vl10",
+      "quote": "I might be a baby, but I know how to brawl!",
+      "translation": "赤ちゃんかもしれないけど、戦い方はちゃんと知ってるよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ノリを一言で表すセリフ。見た目の幼さと戦闘力のギャップが売りです。</li><li>\"brawl\" は「（殴り合いの）けんかをする」。ゲーム名 Brawl Stars の \"Brawl\" です。</li></ul><strong>英文法:</strong><br>\"might be ～, but ...\" は「～かもしれないが、しかし…」という譲歩の形。先に相手の言い分を認めてから反論する、便利な言い回しです。",
+      "audioUrl": "/audio/nori_vl10.mp3"
+    },
+    {
+      "id": "nori_vl11",
+      "quote": "Hooked and cooked!",
+      "translation": "針にかかって、火も通っちゃった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"hook\"（釣り針にかける）と \"cook\"（調理する）で韻を踏み、釣り＋料理というノリらしい組み合わせになっています。</li><li>\"I'm cooked.\" は口語で「もうダメだ、終わった」という意味のスラングです。倒されたときのセリフとしてぴったりです。</li></ul><strong>英文法:</strong><br>主語と be動詞が省略された形で、元は \"I'm hooked and cooked.\" です。過去分詞が2つ並んで「～された状態」を表しています。",
+      "audioUrl": "/audio/nori_vl11.mp3"
+    },
+    {
+      "id": "nori_vl12",
+      "quote": "Time to splash and dash!",
+      "translation": "水しぶきあげて、ダッシュだよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"splash\"（バシャッと水しぶきをあげる）と \"dash\"（勢いよく走る）で韻を踏んでいます。</li><li>ノリの必殺技が「水に飛び込んで移動する」動きなので、そのまま技の説明になっています。</li></ul><strong>英文法:</strong><br>\"Time to ～\" の後ろには動詞の原形が2つ \"and\" でつながっています。同じ形をそろえて並べるのが英語の基本です。",
+      "audioUrl": "/audio/nori_vl12.mp3"
+    },
+    {
+      "id": "nori_vl13",
+      "quote": "I'm not in the kitchen, dad! Time to play!",
+      "translation": "もう厨房にはいないよ、パパ！遊ぶ時間！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>寿司職人の父ケンジに、厨房の手伝いをさぼって遊びに来たことを宣言しています。</li><li>\"Time to play!\" と言い切ることで、戦いすら遊びだと思っている幼さが出ます。</li></ul><strong>英文法:</strong><br>\"in the kitchen\" のように場所を表す前置詞 \"in\" は「その空間の中に」というイメージです。",
+      "audioUrl": "/audio/nori_vl13.mp3"
+    },
+    {
+      "id": "nori_vl14",
+      "quote": "Lure is pure, and I got many fish to cure!",
+      "translation": "ルアーはピカピカ、締める魚はたっぷりだよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"lure\"（ルアー＝疑似餌）\"pure\"（きれい）\"cure\"（塩や酢で下処理する）と、3つも韻を踏んでいます。</li><li>\"cure\" は料理では「塩漬け・酢締めにして保存する」という意味。〆さばの「〆る」に近い言葉です。</li></ul><strong>英文法:</strong><br>\"many fish to cure\" の \"to cure\" は名詞を後ろから説明する形（不定詞の形容詞的用法）で、「締めるべき魚」となります。",
+      "audioUrl": "/audio/nori_vl14.mp3"
+    },
+    {
+      "id": "nori_vl15",
+      "quote": "Is that even legal!",
+      "translation": "それって反則じゃないの！？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>強すぎる相手や理不尽な攻撃に対して使う決まり文句です。ネット上でもよく見かけます。</li><li>本当に法律の話をしているわけではなく、「ずるい！」という抗議です。</li></ul><strong>英文法:</strong><br>\"even\" は「～でさえ」と強調する副詞。\"Is that legal?\" に \"even\" を足すことで、驚きや不満が強まります。",
+      "audioUrl": "/audio/nori_vl15.mp3"
+    },
+    {
+      "id": "nori_vl16",
+      "quote": "いらっしゃいませ. Today's special: freshly cut Brawler!",
+      "translation": "いらっしゃいませ。本日のおすすめは、切りたてブロウラーです！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Today's special\" は飲食店の「本日のおすすめ」「日替わり」を指す定番表現です。</li><li>\"freshly cut\" は「切りたての」。魚の柵を切るように相手を扱っていて、なかなか怖いセリフです。</li></ul><strong>英文法:</strong><br>\"freshly\" は副詞で、後ろの過去分詞 \"cut\" を説明しています。\"freshly baked\"（焼きたて）、\"freshly brewed\"（淹れたて）など、食べ物の宣伝でよく使う形です。<br><br><strong>🧠豆知識:</strong><br>父ケンジの寿司屋がノリの実家です。日本語の接客あいさつをそのまま英語音声に混ぜているのは、ブロスタの日本モチーフキャラならではの演出です。",
+      "audioUrl": "/audio/nori_vl16.mp3"
+    },
+    {
+      "id": "nori_vl17",
+      "quote": "Eugh! Crab cake!",
+      "translation": "うえっ！カニ団子ー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"crab cake\" はカニの身を固めて焼いた料理の名前ですが、ここでは悪態の代わりに使われています。</li><li>英語では \"Crap!\"（ちくしょう）を子ども向けに言い換えるとき \"Crab!\" とすることがあります。そのひねりです。</li></ul><strong>英文法:</strong><br>\"Eugh\" は「うえっ」といういやがる声を文字にしたもの。英語の漫画やチャットでよく使われるつづりです。",
+      "audioUrl": "/audio/nori_vl17.mp3"
+    },
+    {
+      "id": "nori_vl18",
+      "quote": "う、やった！",
+      "translation": "うー、やった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>英語音声の中で、日本語がそのまま出てくる珍しい一言です。</li><li>喜びの掛け声なので、英語なら \"Yes!\" や \"I did it!\" にあたります。</li></ul><strong>英文法:</strong><br>英語圏のプレイヤーにとっては意味の分からない音ですが、感情は伝わります。掛け声は文法より「音の勢い」で通じる好例です。",
+      "audioUrl": "/audio/nori_vl18.mp3"
+    },
+    {
+      "id": "nori_vl19",
+      "quote": "Let's throw out some rage bait!",
+      "translation": "怒らせる餌でも撒いてみようかな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"rage bait\" はネット用語で「わざと人を怒らせて反応を引き出す投稿」のこと。</li><li>\"bait\" はもともと釣りの「餌」なので、釣りキャラのノリが言うと言葉遊びになります。</li></ul><strong>英文法:</strong><br>\"throw out\" は「投げ出す・放り出す」。ここでは「餌を撒く」という意味で使われています。\"Let's + 動詞の原形\" は「～しよう」。",
+      "audioUrl": "/audio/nori_vl19.mp3"
+    },
+    {
+      "id": "nori_vl20",
+      "quote": "I am the real deal!",
+      "translation": "ボクは本物だからね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"the real deal\" は「本物」「実力者」を表す決まり文句です。</li><li>まだ5歳なのに「本物」と言い切るところが、このキャラの面白さです。</li></ul><strong>英文法:</strong><br>\"deal\" は本来「取引」ですが、\"the real deal\" という形になると「まがい物ではない本物」という固定表現になります。",
+      "audioUrl": "/audio/nori_vl20.mp3"
+    },
+    {
+      "id": "nori_vl21",
+      "quote": "Hurting the child! People these days!",
+      "translation": "子どもを傷つけるなんて！まったく最近の人ときたら！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"People these days!\" は「近ごろの人間ときたら…」と嘆く言い方。ふつうはお年寄りが使います。</li><li>それを赤ちゃんが言うところに笑いがあります。</li></ul><strong>英文法:</strong><br>\"these days\" は「近ごろ」。過去と比べて今を嘆くときによく使い、現在形とセットで使うのが基本です。",
+      "audioUrl": "/audio/nori_vl21.mp3"
+    },
+    {
+      "id": "nori_vl22",
+      "quote": "Beaten by a チビコ. Must hurt!",
+      "translation": "チビっこにやられちゃった。くやしいでしょ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"chibiko（チビコ）\" は日本語の「ちびっこ」。自分のことをそう呼んで相手を煽っています。</li><li>\"Must hurt!\" は「さぞ痛いでしょ＝さぞ悔しいでしょ」という煽り文句です。</li></ul><strong>英文法:</strong><br>\"must\" は「～しなければならない」だけでなく「～に違いない」という推量でも使います。\"That must hurt.\" の主語 That が省略された形です。",
+      "audioUrl": "/audio/nori_vl22.mp3"
+    },
+    {
+      "id": "nori_vl23",
+      "quote": "ママ と パパ are gonna love this... not.",
+      "translation": "ママとパパ、これを見たら大喜び…なわけないか。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒されてしまい、親に見せられない結果になったことを自分で茶化しています。</li><li>\"love this\" は「これを気に入る」。皮肉として使われています。</li></ul><strong>英文法:</strong><br>文末の \"... not.\" は、直前の文をまるごと否定にひっくり返す言い方です。1990年代に流行した冗談の型で、今でもふざけた場面で使われます。",
+      "audioUrl": "/audio/nori_vl23.mp3"
+    },
+    {
+      "id": "nori_vl24",
+      "quote": "Whee, puddle play time!",
+      "translation": "わーい、水たまり遊びの時間！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"puddle\" は雨上がりにできる「水たまり」。子どもが長靴で入って遊ぶあれです。</li><li>必殺技の水を「水たまり」と呼ぶあたりが、ノリの目線の低さを表しています。</li></ul><strong>英文法:</strong><br>\"puddle play time\" のように名詞を3つ並べて1つのまとまりにできるのが英語の特徴です。前の名詞が後ろの名詞を説明します。",
+      "audioUrl": "/audio/nori_vl24.mp3"
+    },
+    {
+      "id": "nori_vl25",
+      "quote": "One rod, many rascals!",
+      "translation": "竿は一本、わんぱくはいっぱい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"rod\" は釣り竿、\"rascal\" は「いたずらっ子・やんちゃ坊主」。</li><li>\"one ～, many ～\" と数を対比させ、r の音をそろえたリズムのいいセリフです。</li></ul><strong>英文法:</strong><br>動詞のない名詞だけの文です。標語やキャッチコピーでよく使われ、短くリズムよく決まります。",
+      "audioUrl": "/audio/nori_vl25.mp3"
+    },
+    {
+      "id": "nori_vl26",
+      "quote": "I'll take that salt to cure my fish!",
+      "translation": "その塩、もらっとくね。魚を締めるのに使うから！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"salt\" はゲーム用語で「負けて悔しがること・八つ当たり」を指すスラングです。</li><li>その \"salt\" を本物の塩として受け取り、魚の下処理に使うという言葉遊びになっています。</li></ul><strong>英文法:</strong><br>\"to cure\" は「～するために」という目的を表す不定詞です。\"take A to do B\"（B するために A をもらう）の形。",
+      "audioUrl": "/audio/nori_vl26.mp3"
+    },
+    {
+      "id": "nori_vl27",
+      "quote": "Ew! Broccoli breath!",
+      "translation": "うえっ！ブロッコリー臭い息！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ブロッコリーは英語圏で「子どもが嫌いな野菜」の代表格です。</li><li>\"○○ breath\" で「○○くさい息」。相手をけなすときの子どもらしい言い方です。</li></ul><strong>英文法:</strong><br>\"Ew!\" は「うえっ、気持ち悪い」という感嘆詞。強い嫌悪を一語で表します。",
+      "audioUrl": "/audio/nori_vl27.mp3"
+    },
+    {
+      "id": "nori_vl28",
+      "quote": "I'm 5 and a half!",
+      "translation": "ボク、5歳半だよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒したあとに年齢を自慢するセリフ。「こんな小さい子に負けたの？」という煽りです。</li><li>英語圏の子どもは、少しでも大きく見せたくて \"and a half\"（半分）まで数えます。</li></ul><strong>英文法:</strong><br>年齢を言うときは \"I'm + 数字\"。\"years old\" は省略できます。\"and a half\" を足すと「～歳半」になります。",
+      "audioUrl": "/audio/nori_vl28.mp3"
+    },
+    {
+      "id": "nori_vl29",
+      "quote": "I won't give up!",
+      "translation": "ボク、あきらめないからね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒されたときのセリフ。負けても前向きなところが子どもらしいです。</li><li>\"give up\" は「あきらめる・降参する」。</li></ul><strong>英文法:</strong><br>\"won't\" は \"will not\" の短縮形。単なる未来ではなく「絶対に～しない」という強い意志を表します。",
+      "audioUrl": "/audio/nori_vl29.mp3"
+    },
+    {
+      "id": "nori_vl30",
+      "quote": "Diving in to catch a big one!",
+      "translation": "大物を釣りに、飛び込むよー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"a big one\" はやはり「大物」。狙われているのは相手ブロウラーです。</li><li>飛び込む動作と釣り上げる目的が1文にまとまっています。</li></ul><strong>英文法:</strong><br>\"to catch\" は「～するために」という目的の不定詞です。\"Diving in\"（飛び込む）＋ \"to catch\"（捕まえるために）という組み立てになっています。",
+      "audioUrl": "/audio/nori_vl30.mp3"
+    },
+    {
+      "id": "nori_vl31",
+      "quote": "Pacifier, locked in. Let's cook!",
+      "translation": "おしゃぶり、装着完了。さあ料理の時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"pacifier\" は赤ちゃんの「おしゃぶり」。それを装備品のように扱っています。</li><li>\"locked in\" は「がっちり固定した」から転じて、ネット上では「集中モードに入った」という意味で使われます。</li><li>\"Let's cook!\" も「料理しよう」と「やってやるぞ」の両方の意味があり、寿司屋の子であるノリにぴったりです。</li></ul><strong>英文法:</strong><br>\"Pacifier, locked in.\" は \"The pacifier is locked in.\" の主語と be動詞を省いた形。装備を確認するときの軍隊風の言い方をまねています。",
+      "audioUrl": "/audio/nori_vl31.mp3"
+    },
+    {
+      "id": "nori_vl32",
+      "quote": "Poo-poo hat!",
+      "translation": "うんちハット！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"poo-poo\" は幼児語で「うんち」。子どもが使う最上級の悪口です。</li><li>大人が聞けばかわいいだけですが、本人はかなり本気で罵っています。</li></ul><strong>英文法:</strong><br>英語の幼児語は同じ音をくり返す形が多く、\"poo-poo\"、\"wee-wee\"、\"boo-boo\"（けが）などがあります。",
+      "audioUrl": "/audio/nori_vl32.mp3"
+    },
+    {
+      "id": "nori_vl33",
+      "quote": "Dad would never let me do this!",
+      "translation": "パパなら絶対やらせてくれないのに！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「怒られるようなことをしている」という自覚がある、いたずらっ子の本音です。</li><li>それでもやめないので、余計に悪い子らしさが出ます。</li></ul><strong>英文法:</strong><br>\"let + 人 + 動詞の原形\" で「（人）に～させてあげる」。\"would never\" は「（もしいたら）絶対に～しないだろう」という想像を表します。",
+      "audioUrl": "/audio/nori_vl33.mp3"
+    },
+    {
+      "id": "nori_vl34",
+      "quote": "Rod is ready to rule the roost!",
+      "translation": "この竿で、ここは全部ボクが仕切るよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"rule the roost\" は「（家や集団を）牛耳る・仕切る」という慣用句です。</li><li>\"rod, ready, rule, roost\" と r の音を4つ重ねた頭韻になっています。</li></ul><strong>英文法:</strong><br>\"be ready to + 動詞の原形\" で「～する準備ができている」。\"roost\" はもともと「鶏のとまり木」で、そこから群れのボスを表す表現になりました。",
+      "audioUrl": "/audio/nori_vl34.mp3"
+    },
+    {
+      "id": "nori_vl35",
+      "quote": "Fish breath!",
+      "translation": "魚くさい息！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"○○ breath\" の悪口シリーズです。魚を扱う家の子が言うと、ブーメランのようで面白いです。</li><li>英語では \"fish breath\"、\"dog breath\" などが定番のからかい文句です。</li></ul><strong>英文法:</strong><br>名詞を2つ並べて「～くさい息」を作る形です。前の名詞（fish）がにおいの元を説明しています。",
+      "audioUrl": "/audio/nori_vl35.mp3"
+    },
+    {
+      "id": "nori_vl36",
+      "quote": "Where did you learn how to fight? Ask for a refund!",
+      "translation": "どこで戦い方を習ったの？返金してもらいなよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「習ったところがひどいから金を返してもらえ」という、なかなか痛烈な煽りです。</li><li>\"refund\" は「返金」。買い物で使う日常語です。</li></ul><strong>英文法:</strong><br>\"ask for ～\" は「～を求める・～をくださいと頼む」。\"ask ～\"（～を尋ねる）との違いに注意です。",
+      "audioUrl": "/audio/nori_vl36.mp3"
+    },
+    {
+      "id": "nori_vl37",
+      "quote": "Oh, don't tell mom I'm brawling!",
+      "translation": "あっ、ママには内緒だよ、戦ってること！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>母カゼには戦っていることを隠しているようです。ばれたら怒られる、という子どもの感覚です。</li><li>忍者の母に隠しごとをするのは、なかなか難しそうです。</li></ul><strong>英文法:</strong><br>\"tell + 人 + 内容\" で「（人）に～と伝える」。ここでは \"tell mom (that) I'm brawling\" の \"that\" が省略されています。",
+      "audioUrl": "/audio/nori_vl37.mp3"
+    },
+    {
+      "id": "nori_vl38",
+      "quote": "やだやだ Stinky Stars!",
+      "translation": "やだやだ、くさいスターめ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"stinky\" は「くさい」。子どもが使う軽い悪口です。</li><li>\"Stinky Stars\" はゲーム名 \"Brawl Stars\" のもじりになっています。</li></ul><strong>英文法:</strong><br>\"stink\"（くさい匂いがする）に \"-y\" が付いて形容詞になった形です。\"smell\" → \"smelly\" も同じ作り方です。",
+      "audioUrl": "/audio/nori_vl38.mp3"
+    },
+    {
+      "id": "nori_vl39",
+      "quote": "Been a bit boring!",
+      "translation": "ちょっと退屈だったなあ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒した相手に「物足りなかった」と言う、上から目線の一言です。</li><li>\"a bit\" は「ちょっと」。はっきり言わずに和らげる、イギリス英語でよく使う表現です。</li></ul><strong>英文法:</strong><br>元は \"It's been a bit boring.\" で、主語と be動詞が落ちています。\"boring\" は「（物事が）退屈させる」、\"bored\" は「（人が）退屈している」で、使い分けに注意です。",
+      "audioUrl": "/audio/nori_vl39.mp3"
+    },
+    {
+      "id": "nori_vl40",
+      "quote": "Starr Park, born and raised.",
+      "translation": "スターパーク生まれ、スターパーク育ち。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"born and raised\" は「生まれも育ちも」。出身地を語るときの決まり文句です。</li><li>\"New York, born and raised.\" のように、地名を先に置いて名乗るのが定番の形です。</li></ul><strong>英文法:</strong><br>\"I was born and raised in Starr Park.\" を短くした形です。受け身の過去分詞 \"born\"（生まれた）と \"raised\"（育てられた）が並んでいます。<br><br><strong>🧠豆知識:</strong><br>ノリはスターパークで生まれた初めてのブロウラーとされています。ほかのキャラが外から集められてきたのに対し、ノリだけは「地元っ子」というわけです。",
+      "audioUrl": "/audio/nori_vl40.mp3"
+    },
+    {
+      "id": "nori_vl41",
+      "quote": "Have you seen my pet tuna?",
+      "translation": "ボクのペットのマグロ、見なかった？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ペットが犬や猫ではなくマグロ、というのが寿司屋の子らしいところです。</li><li>寿司ネタをペットにしている時点で、かなり不穏な冗談でもあります。</li></ul><strong>英文法:</strong><br>\"Have you seen ～?\" は現在完了形で、「（今までに）～を見かけた？」と近い過去の経験をたずねる形です。\"Did you see ～?\" より「今も探している」感じが出ます。",
+      "audioUrl": "/audio/nori_vl41.mp3"
+    }
+  ]
+}
