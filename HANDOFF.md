@@ -128,6 +128,15 @@ git push
    - SiteOne はこれを critical と出すが、承知のうえで見送っている判断
    - やるならブランチを切って、Vercelプレビューではなく本番相当で要検証
 
+### 2026-09-25 に完了した分（2件目）
+
+- **ピアス（Pierce）を追加** — 95体目。lexie-factory スキルで処理
+  - レジェンダリー / マークスマン。セリフ56個すべてに音声あり（欠番なし）
+  - Fan Kit は旧命名（pierce_<場面>_vo_NN）。zip に mp3 と wav の両方が入っていたので wav は `_wav/` に退避して mp3 だけ照合
+  - アイコンも zip 同梱（BS_Portrait_PIERCE_Export_V1.png）
+  - 自動で53個一致。vl2 / vl11 / vl36 は未使用ファイルの聞き取りから手動で割り当て
+  - Fandom のセリフ欄で「Ha, looks like crime is out of business.」が2回出ていたので1つにまとめた（音声は2ファイルあり、片方は未使用）
+
 ### 2026-09-25 に完了した分
 
 - **ノリ（Nori）を追加** — 94体目。lexie-factory スキルで処理

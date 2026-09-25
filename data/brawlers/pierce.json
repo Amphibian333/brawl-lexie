@@ -1,0 +1,402 @@
+{
+  "name": "ピアス",
+  "nameEn": "Pierce",
+  "rarity": "legend-rare",
+  "role": "marksman",
+  "quote": "I smell sunscreen and bad choices.",
+  "iconUrl": "/icons/pierce.png",
+  "voicelines": [
+    {
+      "id": "pierce_vl1",
+      "quote": "I smell sunscreen and bad choices.",
+      "translation": "日焼け止めと、バカな判断のにおいがするぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>刑事ドラマの決めゼリフ調です。ピアスは「プール監視員なのに人を撃つ」というハードボイルド刑事のパロディです。</li><li>\"bad choices\" は「まずい選択」。においを嗅げるはずのない抽象的なものを日焼け止めと並べているのが笑いどころです。</li></ul><strong>英文法:</strong><br>\"smell + 名詞\" で「～のにおいがする」。種類のまったく違うものを and でつなぐこの言い回しは、英語のジョークの定番の形です。",
+      "audioUrl": "/audio/pierce_vl1.mp3"
+    },
+    {
+      "id": "pierce_vl2",
+      "quote": "Pool's clean, punks!",
+      "translation": "プールは片づいたぜ、小僧ども！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"clean\" は「きれいになった」と「（犯罪者を）一掃した」の両方に効いています。</li><li>\"punk\" は「チンピラ、小僧」。映画『ダーティハリー』以来、刑事が悪者に投げつける定番の言葉です。</li></ul><strong>英文法:</strong><br>\"Pool's\" は \"Pool is\" の短縮形です。看板や掛け声では冠詞の \"The\" が落ちることがよくあります。",
+      "audioUrl": "/audio/pierce_vl2.mp3"
+    },
+    {
+      "id": "pierce_vl3",
+      "quote": "Hey, let's keep it above water line.",
+      "translation": "おい、水面より上でやろうぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"above the water line\" は「喫水線より上」。船が沈まない状態を指し、そこから「なんとか持ちこたえている」という意味になります。</li><li>ダメージを受けた場面なので、「まだ沈んでないぞ」という強がりです。</li></ul><strong>英文法:</strong><br>\"keep + 目的語 + 場所\" で「（目的語）を～に保つ」。\"Let's keep it ～\" は「～のままでいこう」という誘いかけです。",
+      "audioUrl": "/audio/pierce_vl3.mp3"
+    },
+    {
+      "id": "pierce_vl4",
+      "quote": "Who's a bad boy?",
+      "translation": "悪い子はだーれだ？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>犬をほめるときの \"Who's a good boy?\"（いい子はだーれだ？）をひっくり返した言い方です。</li><li>倒した相手を犬扱いしていることになり、かなり見下したセリフです。</li></ul><strong>英文法:</strong><br>疑問詞 who が主語なので、語順は \"Who is ～?\" のまま。疑問文でも主語と動詞をひっくり返さない形です。<br><br><strong>🧠豆知識:</strong><br>\"Who's a good boy?\" は英語圏で犬に話しかける決まり文句。赤ちゃん言葉に近い甘い声で言うのがお約束なので、それを敵に向けて言うギャップが笑いになっています。",
+      "audioUrl": "/audio/pierce_vl4.mp3"
+    },
+    {
+      "id": "pierce_vl5",
+      "quote": "Oh, you win this round, punk.",
+      "translation": "ちっ、今回はお前の勝ちだ、小僧。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>負けを認めつつ「今回は」と言い残す、悪役や刑事の捨てゼリフの形です。</li><li>\"this round\" は「今回の勝負は」。次があるぞ、という含みが残ります。</li></ul><strong>英文法:</strong><br>\"round\" はボクシングの「ラウンド」から来た数え方で、勝負の1回分を表します。",
+      "audioUrl": "/audio/pierce_vl5.mp3"
+    },
+    {
+      "id": "pierce_vl6",
+      "quote": "You're about to get shellshocked!",
+      "translation": "弾でぶっ飛ばしてやるぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"shell\" は「砲弾・薬莢」と「貝殻」の両方。プールがテーマのピアスにぴったりの二重の意味です。</li><li>\"shell-shocked\" はもともと「砲弾ショックを受けた（戦場で心をやられた）」という意味の言葉です。</li></ul><strong>英文法:</strong><br>\"be about to + 動詞の原形\" で「まさに～しようとしている」。直前に迫っていることを表します。",
+      "audioUrl": "/audio/pierce_vl6.mp3"
+    },
+    {
+      "id": "pierce_vl7",
+      "quote": "Pool patrol, locked and loaded.",
+      "translation": "プール警備隊、装填完了。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"locked and loaded\" は「銃に弾を込めて安全装置を外した＝臨戦態勢」という軍隊の決まり文句です。</li><li>プールの監視員が完全武装しているという設定がここに凝縮されています。</li></ul><strong>英文法:</strong><br>動詞のない名詞＋過去分詞の短い形。無線連絡や点呼のような、そっけない軍隊調を作れます。",
+      "audioUrl": "/audio/pierce_vl7.mp3"
+    },
+    {
+      "id": "pierce_vl8",
+      "quote": "Ha, justice made a splash today!",
+      "translation": "ハッ、今日も正義が大暴れだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"make a splash\" は「水しぶきを上げる」と「世間をあっと言わせる」の二重の意味です。</li><li>プールが舞台なので、文字どおりの意味も生きています。</li></ul><strong>英文法:</strong><br>\"make\" は「作る」以外にも、決まった名詞とセットで1つの動作を表します（make a splash / make a noise / make a mistake）。<br><br><strong>🧠豆知識:</strong><br>\"splash\" を使ったダジャレはピアスのセリフに何度も出てきます。制作側がこのキャラを「水しぶきの人」として作り込んでいるのが分かります。",
+      "audioUrl": "/audio/pierce_vl8.mp3"
+    },
+    {
+      "id": "pierce_vl9",
+      "quote": "Ah, I eat bullets for breakfast.",
+      "translation": "へっ、弾なんざ朝メシ代わりだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"eat ～ for breakfast\" は「～など朝飯前だ」「～を軽くひねってやる」という決まり文句です。</li><li>撃たれた直後に言っているので、強がりとして効いています。</li></ul><strong>英文法:</strong><br>現在形を使うと「いつもそうしている」という習慣の意味になります。だから「日常的に弾を食っている」というおおげさな響きになります。",
+      "audioUrl": "/audio/pierce_vl9.mp3"
+    },
+    {
+      "id": "pierce_vl10",
+      "quote": "You pee, you pay.",
+      "translation": "おしっこしたら、その分は払ってもらう。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>プールでの放尿は世界共通の禁止事項。それを取り締まる監視員としての一言です。</li><li>\"pee\" と \"pay\" で頭の音をそろえ、標語のような響きにしています。</li></ul><strong>英文法:</strong><br>\"You A, you B.\" は「A すれば B になる」という条件を表す口語の型です。\"You break it, you buy it.\"（壊したら買い取り）が有名な例です。",
+      "audioUrl": "/audio/pierce_vl10.mp3"
+    },
+    {
+      "id": "pierce_vl11",
+      "quote": "Oh, guess I'm all washed up.",
+      "translation": "ちぇっ、オレもここまでか。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"washed up\" は「波に打ち上げられた」と「落ちぶれてもう使い物にならない」の二重の意味です。</li><li>水辺で倒れる場面なので、両方の意味が同時に成立しています。</li></ul><strong>英文法:</strong><br>先頭の \"I\" が落ちた形で、元は \"I guess I'm all washed up.\" です。会話では主語の \"I\" がよく省略されます。",
+      "audioUrl": "/audio/pierce_vl11.mp3"
+    },
+    {
+      "id": "pierce_vl12",
+      "quote": "Perimeter secured!",
+      "translation": "周辺、確保！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"perimeter\" は「周囲・外周」。警察や軍が現場を囲うときに使う言葉です。</li><li>無線で報告しているような言い方で、プールをまるで事件現場のように扱っています。</li></ul><strong>英文法:</strong><br>\"The perimeter is secured.\" から冠詞と be動詞を落とした形。報告や見出しでよく使われる省略です。",
+      "audioUrl": "/audio/pierce_vl12.mp3"
+    },
+    {
+      "id": "pierce_vl13",
+      "quote": "Justice makes a splash.",
+      "translation": "正義ってのは、派手にいくもんだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>戦闘開始のセリフ。ここでも \"make a splash\"（水しぶきを上げる／世間を騒がせる）を使っています。</li><li>短く言い切ることで、標語のような重みが出ます。</li></ul><strong>英文法:</strong><br>\"Justice\" のような抽象名詞が主語になると「正義というものは～だ」という一般論になります。冠詞は付けません。",
+      "audioUrl": "/audio/pierce_vl13.mp3"
+    },
+    {
+      "id": "pierce_vl14",
+      "quote": "Crime called, wrong number, buddy!",
+      "translation": "犯罪さんからお電話だ。番号違いだとよ、相棒！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"○○ called, and ...\" は「○○から電話があって、～と言ってたぞ」という英語のジョークの型です。</li><li>ここでは「犯罪」を人に見立て、「お前は犯罪者ですらない」とバカにしています。</li></ul><strong>英文法:</strong><br>\"wrong number\" は電話の「番号違い・かけ間違い」。そのまま名詞句で会話に投げ込めます。",
+      "audioUrl": "/audio/pierce_vl14.mp3"
+    },
+    {
+      "id": "pierce_vl15",
+      "quote": "Ah, right in the floaties!",
+      "translation": "ぐっ、浮き輪に直撃だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"floaties\" は子どもが腕につける浮き輪（アームヘルパー）のこと。</li><li>強面の監視員が実は浮き輪を着けている、というオチになっています。</li></ul><strong>英文法:</strong><br>\"right in ～\" の \"right\" は「まさに・ちょうど」と強める副詞です。\"right here\"（まさにここ）と同じ使い方です。",
+      "audioUrl": "/audio/pierce_vl15.mp3"
+    },
+    {
+      "id": "pierce_vl16",
+      "quote": "Ha ha ha, you're in over your head.",
+      "translation": "ハハハ、完全に手に負えてないな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"in over one's head\" は「背の立たない深さにいる」から転じて「自分の手には負えない状況にいる」という意味です。</li><li>プールが舞台なので、文字どおり「頭まで水に浸かっている」とも読めます。</li></ul><strong>英文法:</strong><br>\"over your head\" の \"over\" は「～を越えて」。水位が頭を越えているイメージがそのまま慣用句になっています。<br><br><strong>🧠豆知識:</strong><br>この慣用句は仕事や勉強で「荷が重すぎる」ときにも使えます。\"I'm in over my head with this project.\" のように言います。",
+      "audioUrl": "/audio/pierce_vl16.mp3"
+    },
+    {
+      "id": "pierce_vl17",
+      "quote": "No, looks like I'm off duty.",
+      "translation": "くそ、どうやら勤務終了みたいだな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"off duty\" は「非番・勤務外」。倒されたことを「シフトが終わった」と言い換えています。</li><li>最後まで職務として語るところがピアスらしいです。</li></ul><strong>英文法:</strong><br>\"looks like ～\" は「～のようだ」。先頭の \"It\" が省略された会話形です。反対語は \"on duty\"（勤務中）。",
+      "audioUrl": "/audio/pierce_vl17.mp3"
+    },
+    {
+      "id": "pierce_vl18",
+      "quote": "Oh, yeah! Welcome to the danger splash zone.",
+      "translation": "よぉし！危険なびしょ濡れゾーンへようこそ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"splash zone\" は水族館やウォーターパークで「水しぶきがかかる席」を指す実在の言い方です。</li><li>そこに \"danger\" を足して、ただ濡れるだけでは済まない場所にしています。</li></ul><strong>英文法:</strong><br>\"Welcome to + 場所\" で「～へようこそ」。場所の前には the が付くことも付かないこともあり、ここでは特定の区域なので the が入っています。",
+      "audioUrl": "/audio/pierce_vl18.mp3"
+    },
+    {
+      "id": "pierce_vl19",
+      "quote": "Pool justice never sleeps.",
+      "translation": "プールの正義に休みはない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"The city never sleeps\"（眠らない街＝ニューヨーク）という有名な言い回しのもじりです。</li><li>「正義」を眠らない存在に見立てることで、24時間監視しているぞという凄みが出ます。</li></ul><strong>英文法:</strong><br>\"never\" は現在形とセットで「けっして～しない」という性質を表します。",
+      "audioUrl": "/audio/pierce_vl19.mp3"
+    },
+    {
+      "id": "pierce_vl20",
+      "quote": "Ha, looks like crime is out of business.",
+      "translation": "ハッ、犯罪稼業も廃業のようだな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"out of business\" は「廃業した・倒産した」。犯罪を会社に見立てています。</li><li>刑事が事件を締めくくるときの言い回しとして、皮肉が効いています。</li></ul><strong>英文法:</strong><br>\"out of ～\" は「～の外に出て＝～がなくなって」。\"out of order\"（故障中）、\"out of time\"（時間切れ）も同じ形です。",
+      "audioUrl": "/audio/pierce_vl20.mp3"
+    },
+    {
+      "id": "pierce_vl21",
+      "quote": "Ah, don't test me!",
+      "translation": "ぐっ、オレを試すんじゃねえ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"test\" は「テストする」から転じて「（我慢の限界を）試す＝挑発する」という意味で使われます。</li><li>\"Don't test me.\" は映画などで、キレる寸前の人物がよく言うセリフです。</li></ul><strong>英文法:</strong><br>\"Don't + 動詞の原形\" の否定命令文。相手に強く警告するときの形です。",
+      "audioUrl": "/audio/pierce_vl21.mp3"
+    },
+    {
+      "id": "pierce_vl22",
+      "quote": "Ugh, so much paperwork.",
+      "translation": "あーあ、書類仕事が山ほど増えるな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒したあとに喜ぶのではなく、事後処理を嘆くという刑事ドラマあるあるです。</li><li>\"paperwork\" は「書類仕事・事務処理」。数えられない名詞です。</li></ul><strong>英文法:</strong><br>\"so much ～\" は数えられない名詞に付けて「とても多くの～」。数えられる名詞には \"so many\" を使います。",
+      "audioUrl": "/audio/pierce_vl22.mp3"
+    },
+    {
+      "id": "pierce_vl23",
+      "quote": "I was one day away from retirement.",
+      "translation": "退職まであと一日だったってのによ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>刑事映画のお約束です。「定年間近の警官」は最後の事件で殉職する、という型をそのまま使っています。</li><li>ピアスのセリフはこうした映画的な決まり文句の寄せ集めで出来ています。</li></ul><strong>英文法:</strong><br>\"be + 距離や時間 + away from ～\" で「～まであと～のところ」。\"two blocks away from the station\"（駅から2ブロック）と同じ形です。<br><br><strong>🧠豆知識:</strong><br>英語圏では \"one day away from retirement\" と聞いた時点で「あ、この人死ぬな」と分かるほど有名な型で、パロディの定番になっています。",
+      "audioUrl": "/audio/pierce_vl23.mp3"
+    },
+    {
+      "id": "pierce_vl24",
+      "quote": "Step aside, or step into a world of trouble.",
+      "translation": "どけ。さもないと、面倒の世界に足を踏み入れることになるぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"step aside\"（脇にどく）と \"step into\"（踏み込む）で、同じ動詞を対比させています。</li><li>\"a world of ～\" は「とんでもない量の～」。\"a world of trouble\" で「大変な面倒」です。</li></ul><strong>英文法:</strong><br>\"命令文 + or ～\" で「～しろ、さもないと～」。\"命令文 + and ～\" なら「～しろ、そうすれば～」になります。",
+      "audioUrl": "/audio/pierce_vl24.mp3"
+    },
+    {
+      "id": "pierce_vl25",
+      "quote": "Just another day at the Velocirapids.",
+      "translation": "ヴェロシラピッズじゃ、いつものことさ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"just another day\" は「いつもと変わらない一日」。とんでもない状況をさらっと流す言い方です。</li><li>Velocirapids はブロスタのウォータースライダー施設の名前で、恐竜の velociraptor と激流の rapids を合わせた造語です。</li></ul><strong>英文法:</strong><br>\"another\" は「もう1つの」。\"just another ～\" とすると「ありふれた～にすぎない」というそっけない響きになります。<br><br><strong>🧠豆知識:</strong><br>ヴェロシラピッズはバズの職場でもあります。プール監視員という点でピアスとバズは同業。ピアスの紹介文でも「プールが汚れたらバズがピアスを呼ぶ」と説明されています。",
+      "audioUrl": "/audio/pierce_vl25.mp3"
+    },
+    {
+      "id": "pierce_vl26",
+      "quote": "Oh, you're swimming in trouble.",
+      "translation": "おっと、面倒の中を泳いでるな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"be in trouble\"（まずいことになっている）に \"swimming\" を足して、プールらしく言い換えています。</li><li>\"be swimming in ～\" 自体にも「～にどっぷり浸かっている」という言い方があります。</li></ul><strong>英文法:</strong><br>現在進行形は「今まさに～している最中」。危ない状況が続いていることを強調します。",
+      "audioUrl": "/audio/pierce_vl26.mp3"
+    },
+    {
+      "id": "pierce_vl27",
+      "quote": "Ha ha ha, case closed.",
+      "translation": "ハハハ、一件落着だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"case closed\" は「事件解決」。刑事ドラマの締めの決まり文句です。</li><li>議論の場では「この話は終わり」という意味でも使われます。</li></ul><strong>英文法:</strong><br>\"The case is closed.\" から冠詞と be動詞を落とした形です。短く言い切ることで決めゼリフらしくなります。",
+      "audioUrl": "/audio/pierce_vl27.mp3"
+    },
+    {
+      "id": "pierce_vl28",
+      "quote": "Someone, please, file an incident report.",
+      "translation": "誰か、事故報告書を出しといてくれ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒れる間際まで書類のことを気にしている、というオチです。</li><li>\"incident report\" は職場で事故やトラブルが起きたときに提出する報告書のことです。</li></ul><strong>英文法:</strong><br>\"file\" は名詞なら「ファイル」ですが、動詞では「（書類を）正式に提出する」という意味になります。\"file a complaint\"（苦情を申し立てる）も同じ使い方です。",
+      "audioUrl": "/audio/pierce_vl28.mp3"
+    },
+    {
+      "id": "pierce_vl29",
+      "quote": "Ha, justice never misses.",
+      "translation": "ハッ、正義は外さねえ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"miss\" は「的を外す」。狙撃手（マークスマン）のピアスにぴったりの言葉です。</li><li>「正義」を自分自身に重ねることで、外さないのはオレだ、と言っています。</li></ul><strong>英文法:</strong><br>\"miss\" は「～を逃す・外す」。ここでは目的語のない自動詞として「（射撃を）外す」という意味で使われています。",
+      "audioUrl": "/audio/pierce_vl29.mp3"
+    },
+    {
+      "id": "pierce_vl30",
+      "quote": "Crime doesn't float on my watch.",
+      "translation": "オレの監視中に、犯罪は浮かばせねえ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"on my watch\" は「オレが見張っている間は」という決まり文句です。</li><li>\"watch\" は「腕時計」ではなく「見張り・当直」。プール監視員の仕事そのものです。</li><li>\"float\"（浮く）を入れて、水辺らしい言い回しにしています。</li></ul><strong>英文法:</strong><br>\"Not on my watch!\" だけで「オレの目の黒いうちはさせない！」という決まり文句になります。",
+      "audioUrl": "/audio/pierce_vl30.mp3"
+    },
+    {
+      "id": "pierce_vl31",
+      "quote": "Yeah, I came to make waves.",
+      "translation": "そうさ、波風立てに来たんだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"make waves\" は「波を立てる」と「波風を立てる＝騒ぎを起こす」の二重の意味です。</li><li>\"make a splash\" が「注目される」なのに対し、\"make waves\" は「もめごとを起こす」寄りです。</li></ul><strong>英文法:</strong><br>\"come to + 動詞の原形\" で「～しに来る」。目的を表す不定詞です。",
+      "audioUrl": "/audio/pierce_vl31.mp3"
+    },
+    {
+      "id": "pierce_vl32",
+      "quote": "Ah, don't make me shoot you!",
+      "translation": "うっ、撃たせるような真似をするな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「撃ちたくないのに、お前のせいで撃つことになる」という言い方で、責任を相手に押しつけています。</li><li>撃つのが前提になっている時点で、監視員としてはかなり問題があります。</li></ul><strong>英文法:</strong><br>\"make + 人 + 動詞の原形\" で「（人）に無理やり～させる」。\"Don't make me ～\" は「～させるなよ」という警告の決まり文句です。",
+      "audioUrl": "/audio/pierce_vl32.mp3"
+    },
+    {
+      "id": "pierce_vl33",
+      "quote": "Boom, headshot!",
+      "translation": "ドン、ヘッドショット！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"headshot\" はFPSゲームで「頭を撃ち抜く」こと。ゲーマー言葉をそのまま使っています。</li><li>\"Boom\" は爆発音や銃声を表す擬音で、日本語の「ドン」「バン」にあたります。</li></ul><strong>英文法:</strong><br>擬音＋名詞だけの文。動詞がなくても、勢いのある実況として成立します。",
+      "audioUrl": "/audio/pierce_vl33.mp3"
+    },
+    {
+      "id": "pierce_vl34",
+      "quote": "Velocirapids safety rating just dropped.",
+      "translation": "ヴェロシラピッズの安全評価、ただいま下落。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が倒れたことを「施設の安全評価が下がった」とニュース風に言っています。</li><li>\"safety rating\" は施設や車の「安全評価」。第三者が付ける点数のことです。</li></ul><strong>英文法:</strong><br>\"just + 過去形\" で「たった今～した」。現在完了（has just dropped）でも同じ意味ですが、アメリカ英語では過去形で済ませることが多いです。",
+      "audioUrl": "/audio/pierce_vl34.mp3"
+    },
+    {
+      "id": "pierce_vl35",
+      "quote": "Ha ha. Welcome to splash country, population zero.",
+      "translation": "ハハッ。びしょ濡れ村へようこそ。人口ゼロ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Welcome to ○○, population ～\" はアメリカの町の入口にある看板の書き方です。町名と人口が並んで書かれています。</li><li>その人口が「ゼロ」ということは、住民を全部片づけたという意味になります。</li></ul><strong>英文法:</strong><br>\"population zero\" のように名詞＋数字を並べるのは、看板や表示で使う省略形です。<br><br><strong>🧠豆知識:</strong><br>この看板ネタは映画やゲームのパロディでよく使われ、\"population: 1\" と書いて孤独を表すなどの応用もあります。",
+      "audioUrl": "/audio/pierce_vl35.mp3"
+    },
+    {
+      "id": "pierce_vl36",
+      "quote": "Freeze, dirtbag!",
+      "translation": "動くな、クズ野郎！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Freeze!\" は「凍れ」ではなく「動くな！」。アメリカの警官が銃を構えて言う定番の一言です。</li><li>\"dirtbag\" は「ごみ袋」から転じて「クズ野郎」。かなり強い罵り言葉です。</li></ul><strong>英文法:</strong><br>動詞1語だけの命令文。緊急時ほど英語は短くなります。",
+      "audioUrl": "/audio/pierce_vl36.mp3"
+    },
+    {
+      "id": "pierce_vl37",
+      "quote": "Get out my way, punk.",
+      "translation": "どけよ、小僧。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>正しくは \"Get out of my way\" ですが、話し言葉では \"of\" が落ちて \"outta my way\" のように発音されます。</li><li>その崩れた言い方をそのまま文字にしているので、荒っぽさが出ます。</li></ul><strong>英文法:</strong><br>\"get out of ～\" で「～から出る・どく」。速く話すと \"out of\" が \"outta\" とくっつくのが英語の自然な変化です。",
+      "audioUrl": "/audio/pierce_vl37.mp3"
+    },
+    {
+      "id": "pierce_vl38",
+      "quote": "Welcome to pool town, clown.",
+      "translation": "プールタウンへようこそ、ピエロさん。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"town\" と \"clown\" で韻を踏んでいます。音をそろえるためだけに「ピエロ」を持ち出しています。</li><li>\"clown\" は「道化師」から「バカ・お調子者」という悪口になります。</li></ul><strong>英文法:</strong><br>文末に相手の呼び名を置くのは英語の basic な形です。\"punk\"、\"buddy\"、\"clown\" と、ピアスはこの位置をいろいろ入れ替えて使っています。",
+      "audioUrl": "/audio/pierce_vl38.mp3"
+    },
+    {
+      "id": "pierce_vl39",
+      "quote": "Where crime swims, I dive in.",
+      "translation": "犯罪が泳ぐところへ、オレは飛び込む。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"swim\" と \"dive in\" を対にして、犯罪と自分を同じ水の中に置いています。</li><li>ヒーローの決意表明としてきれいにまとまった一文です。</li></ul><strong>英文法:</strong><br>\"Where ～, ...\" は「～する場所ならどこでも…」という意味の副詞節です。文頭に置くと格言らしい響きになります。",
+      "audioUrl": "/audio/pierce_vl39.mp3"
+    },
+    {
+      "id": "pierce_vl40",
+      "quote": "Pool's closed, punk.",
+      "translation": "プールは閉鎖だ、小僧。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「お前はもう泳げない＝終わりだ」という宣告です。</li><li>閉店・閉鎖を告げる言い方をとどめの一言に使っています。</li></ul><strong>英文法:</strong><br>\"closed\" は「閉まっている」という状態を表す形容詞的な使い方。動作としての「閉める」は \"close\" です。<br><br><strong>🧠豆知識:</strong><br>\"Pool's closed\" は英語圏のネットで古くから知られるミームでもあります。ピアスのセリフはこうしたネット文化からの引用も多く混ざっています。",
+      "audioUrl": "/audio/pierce_vl40.mp3"
+    },
+    {
+      "id": "pierce_vl41",
+      "quote": "Meet your brawling bullet buddies.",
+      "translation": "紹介しよう、乱闘仕様の弾丸くんたちだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"brawling\"、\"bullet\"、\"buddies\" と b の音を3つ重ねた頭韻です。</li><li>弾丸を「仲間」と呼ぶことで、軽い調子と物騒さが同居しています。</li></ul><strong>英文法:</strong><br>\"Meet ～\" は「～に会いなさい」から転じて「～を紹介します」という意味になります。人を紹介するときの定番表現です。",
+      "audioUrl": "/audio/pierce_vl41.mp3"
+    },
+    {
+      "id": "pierce_vl42",
+      "quote": "Justice is poolproof.",
+      "translation": "正義はプール対応済みだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"foolproof\"（誰がやっても失敗しない、バカでも使える）の fool を pool に置き換えた造語です。</li><li>\"waterproof\"（防水）とも音が近く、二重に効いています。</li></ul><strong>英文法:</strong><br>\"-proof\" は「～に耐える」という語尾です。\"waterproof\"（防水）、\"fireproof\"（耐火）、\"bulletproof\"（防弾）のように使います。<br><br><strong>🧠豆知識:</strong><br>\"bulletproof\"（防弾）はピアスの職業柄ぴったりの単語。狙って fool → pool にしているあたり、翻訳者泣かせのセリフです。",
+      "audioUrl": "/audio/pierce_vl42.mp3"
+    },
+    {
+      "id": "pierce_vl43",
+      "quote": "Lights out, punk.",
+      "translation": "消灯の時間だ、小僧。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"lights out\" は「消灯」。寮や軍隊の就寝時間を指す言葉です。</li><li>そこから「意識を失う・のされる」という意味でも使われます。</li></ul><strong>英文法:</strong><br>\"The lights are out.\" を短くした形。掲示や号令のような、命令に近い響きになります。",
+      "audioUrl": "/audio/pierce_vl43.mp3"
+    },
+    {
+      "id": "pierce_vl44",
+      "quote": "No life vest is gonna save you.",
+      "translation": "ライフジャケットぐらいじゃ助からねえぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"life vest\" は救命胴衣。人を助ける道具を「助けにならない」と言うのがひねりです。</li><li>本来は人を救うはずの監視員が言っているので、さらに皮肉が効いています。</li></ul><strong>英文法:</strong><br>\"No + 名詞\" が主語になると「どんな～も…ない」という全否定になります。\"No one knows.\"（誰も知らない）と同じ形です。",
+      "audioUrl": "/audio/pierce_vl44.mp3"
+    },
+    {
+      "id": "pierce_vl45",
+      "quote": "Mercy's on vacation, I'm taking over.",
+      "translation": "慈悲の心は休暇中だ。ここからはオレが代わる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"mercy\"（慈悲）を同僚に見立てて、「今日はあいつ休みだ」と言っています。</li><li>つまり「手加減はしない」という宣言です。</li></ul><strong>英文法:</strong><br>\"take over\" は「引き継ぐ・交代する」。仕事のシフトを交代するときによく使う表現です。",
+      "audioUrl": "/audio/pierce_vl45.mp3"
+    },
+    {
+      "id": "pierce_vl46",
+      "quote": "Tagged and bagged!",
+      "translation": "札つけて、袋詰め完了！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"tag and bag\" は現場で遺体に番号札を付けて袋に納めることを指す、警察・軍の言い回しです。</li><li>\"tagged\" と \"bagged\" で韻を踏み、事務的な響きにしています。</li></ul><strong>英文法:</strong><br>過去分詞を2つ並べて「～された状態」を表す形。主語も be動詞も省いてあり、無線報告のような短さになっています。<br><br><strong>🧠豆知識:</strong><br>同じ型の言い回しに \"tried and tested\"（実証済み）、\"tried and true\"（確実な）などがあります。2語で韻を踏むと英語では決まり文句になりやすいです。",
+      "audioUrl": "/audio/pierce_vl46.mp3"
+    },
+    {
+      "id": "pierce_vl47",
+      "quote": "You can run, but you can't hide, punk!",
+      "translation": "逃げてもいいが、隠れられはしないぜ、小僧！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"You can run, but you can't hide.\" は英語圏で非常に有名な決まり文句です。</li><li>\"run\" と \"hide\" を対にして、逃げ場がないことを伝えています。</li></ul><strong>英文法:</strong><br>\"can\" と \"can't\" を並べて対比させる形。同じ助動詞で肯定と否定を並べると、強い対比になります。<br><br><strong>🧠豆知識:</strong><br>元はボクサーのジョー・ルイスが、逃げ回る相手について言った言葉とされています。そこから映画やドラマの決めゼリフとして定着しました。",
+      "audioUrl": "/audio/pierce_vl47.mp3"
+    },
+    {
+      "id": "pierce_vl48",
+      "quote": "I floss with police tape.",
+      "translation": "オレは規制線テープで歯の掃除をするんだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"floss\" はデンタルフロスで歯の間を掃除すること。動詞としても使います。</li><li>\"police tape\" は現場に張る黄色い立入禁止テープ。それで歯を掃除するという、おおげさな強さ自慢です。</li></ul><strong>英文法:</strong><br>現在形なので「いつもそうしている」という習慣の意味。だからこそ冗談としておかしくなります。",
+      "audioUrl": "/audio/pierce_vl48.mp3"
+    },
+    {
+      "id": "pierce_vl49",
+      "quote": "You're cancelled, punk!",
+      "translation": "お前は終わりだ、小僧！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"cancelled\" はSNS用語で「炎上して表舞台から追放された」という意味で使われます。</li><li>予定の「キャンセル」という元の意味とかけて、「お前の存在自体が取り消しだ」と言っています。</li></ul><strong>英文法:</strong><br>\"cancelled\" はイギリス式の綴りで、アメリカ式は \"canceled\" と l が1つです。どちらも使われます。",
+      "audioUrl": "/audio/pierce_vl49.mp3"
+    },
+    {
+      "id": "pierce_vl50",
+      "quote": "Target locked, justice incoming.",
+      "translation": "目標捕捉。正義、着弾します。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"target locked\" は照準が相手に固定された状態。\"incoming\" は「（砲弾などが）飛んでくるぞ」という警告です。</li><li>どちらも軍事用語で、そこに「正義」を混ぜているのがピアス流です。</li></ul><strong>英文法:</strong><br>be動詞を省いた2つの短い節をカンマでつないだ形。無線の通信文らしい硬さが出ます。",
+      "audioUrl": "/audio/pierce_vl50.mp3"
+    },
+    {
+      "id": "pierce_vl51",
+      "quote": "Case closed, casket open.",
+      "translation": "事件は閉じ、棺は開く。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"closed\" と \"open\" を対にし、\"case\" と \"casket\" で音もそろえた、かなり凝ったセリフです。</li><li>\"casket\" は「棺」。事件が解決すると同時に葬式の準備、という物騒なオチです。</li></ul><strong>英文法:</strong><br>同じ構造（名詞＋過去分詞/形容詞）を2回くり返す並列。英語のキャッチコピーで多用される形です。",
+      "audioUrl": "/audio/pierce_vl51.mp3"
+    },
+    {
+      "id": "pierce_vl52",
+      "quote": "If you stop, you drop.",
+      "translation": "止まったら、そこで終わりだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"stop\" と \"drop\" で韻を踏んだ標語調の一文です。</li><li>\"drop\" は「落ちる」から「倒れる・くたばる」という意味になります。</li></ul><strong>英文法:</strong><br>\"If + 主語 + 現在形, 主語 + 現在形\" は、いつでも成り立つ法則を表す形です。未来のことでも if の中は現在形にします。<br><br><strong>🧠豆知識:</strong><br>英語圏の防災標語に \"Stop, drop and roll\"（服に火がついたら、止まって伏せて転がれ）があります。stop と drop の組み合わせは、そこから耳になじんでいる言い方です。",
+      "audioUrl": "/audio/pierce_vl52.mp3"
+    },
+    {
+      "id": "pierce_vl53",
+      "quote": "Hooked, booked, and totally cooked!",
+      "translation": "引っかけて、しょっぴいて、きっちり料理完了！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"hooked\"（釣り上げた）\"booked\"（逮捕して調書を取った）\"cooked\"（片づけた）と、3つとも同じ音で韻を踏んでいます。</li><li>\"book\" は動詞で「（容疑者を）立件する・調書を取る」という警察用語です。</li></ul><strong>英文法:</strong><br>\"A, B, and C\" と3つ並べるときは、最後の前に and を置きます。語尾をそろえると決めゼリフらしくなります。",
+      "audioUrl": "/audio/pierce_vl53.mp3"
+    },
+    {
+      "id": "pierce_vl54",
+      "quote": "Freeze! Heh, just kidding!",
+      "translation": "動くな！……なんてな、冗談だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>警官の決まり文句 \"Freeze!\" を言っておいて、すぐ撤回しています。つまり止まる必要はない＝どうせ撃つ、ということです。</li><li>\"just kidding\" は「冗談だよ」。会話でよく使う言い回しです。</li></ul><strong>英文法:</strong><br>\"just kidding\" は \"I'm just kidding\" の主語と be動詞が落ちた形。チャットでは JK と略されることもあります。",
+      "audioUrl": "/audio/pierce_vl54.mp3"
+    },
+    {
+      "id": "pierce_vl55",
+      "quote": "Sunscreen won't save you now.",
+      "translation": "日焼け止めじゃ、もう助からねえぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>日焼け止めが守ってくれるのは日差しだけ。それを「助けにならない」と言うのがジョークです。</li><li>ピアスの最初のセリフ（日焼け止めのにおい）と対になっています。</li></ul><strong>英文法:</strong><br>\"won't\" は \"will not\" の短縮形で、「絶対に～しないだろう」という強い断定を表します。",
+      "audioUrl": "/audio/pierce_vl55.mp3"
+    },
+    {
+      "id": "pierce_vl56",
+      "quote": "Oh yeah! Call the cleanup crew!",
+      "translation": "よぉし！清掃班を呼べ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"cleanup crew\" は「後片づけ担当のチーム」。プールの清掃員と、事件現場の後始末の両方に読めます。</li><li>自分は撃つだけで片づけは他人任せ、という無責任さも効いています。</li></ul><strong>英文法:</strong><br>\"Call + 人\" は「（人）を呼ぶ・電話する」。\"Call the police.\"（警察を呼べ）と同じ形です。",
+      "audioUrl": "/audio/pierce_vl56.mp3"
+    }
+  ]
+}
