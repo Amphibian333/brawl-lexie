@@ -1,0 +1,549 @@
+{
+  "name": "アリー",
+  "nameEn": "Alli",
+  "rarity": "ultra-rare",
+  "role": "assassin",
+  "quote": "You're in croc country now!",
+  "iconUrl": "/icons/alli.png",
+  "voicelines": [
+    {
+      "id": "alli_vl1",
+      "quote": "Ha! Hold me hissy stick, I'm going in!",
+      "translation": "ハッ！このシューシュー棒持っといて、突っ込むよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Hold my beer\"（オレのビール持ってて＝今から無茶するぞ）というネットの決まり文句のもじりです。</li><li>\"hissy stick\" はアリーの蛇（ヘビのシューという音 hiss）の武器を、子どもっぽく言った造語です。</li></ul><strong>英文法:</strong><br>\"go in\" は「中に入る」から「突入する・勝負に出る」。\"I'm going in!\" は現在進行形で、今すぐの行動を表します。",
+      "audioUrl": "/audio/alli_vl1.mp3"
+    },
+    {
+      "id": "alli_vl2",
+      "quote": "Ha, you move like a headless chook!",
+      "translation": "ハッ、首なしニワトリみたいな動きだね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"chook\" はオーストラリア英語で「ニワトリ」。標準英語の chicken にあたります。</li><li>\"run around like a headless chook\" は「あわてふためいて無駄に走り回る」という決まり文句です。</li></ul><strong>英文法:</strong><br>\"move like ～\" で「～のように動く」。like のあとは名詞が来ます。",
+      "audioUrl": "/audio/alli_vl2.mp3"
+    },
+    {
+      "id": "alli_vl3",
+      "quote": "Ugh, careful, mate! You'll bruise the tomatoes!",
+      "translation": "うっ、気をつけなよ、相棒！トマトが傷むだろ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"mate\" はオーストラリアで最も使われる呼びかけ。「相棒・なあ」くらいの軽さで、敵にも使います。</li><li>\"bruise\" は果物が「傷む・打ち身になる」。自分の体をトマト扱いしているのが笑いどころです。</li></ul><strong>英文法:</strong><br>\"You'll\" は \"You will\" の短縮。ここでは「このままだと～してしまうぞ」という予測です。",
+      "audioUrl": "/audio/alli_vl3.mp3"
+    },
+    {
+      "id": "alli_vl4",
+      "quote": "Haha, you'll be 'right!",
+      "translation": "ハハッ、まあ大丈夫だって！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"You'll be right.\" はオーストラリアの決まり文句で「大丈夫だよ・何とかなるよ」。</li><li>相手を倒した直後に言っているので、まったく大丈夫ではありません。</li></ul><strong>英文法:</strong><br>\"all right\" の all が落ちて \"'right\" と書かれています。話し言葉の発音をそのまま文字にした形です。",
+      "audioUrl": "/audio/alli_vl4.mp3"
+    },
+    {
+      "id": "alli_vl5",
+      "quote": "Pesky bin chicken!",
+      "translation": "うっとうしいゴミ箱チキンめ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"bin chicken\" はオーストラリアでトキ（アイビス）につけられたあだ名。ゴミ箱をあさるので有名です。</li><li>\"pesky\" は「うっとうしい・厄介な」。</li></ul><strong>英文法:</strong><br>名詞＋名詞で新しい呼び名を作る形。\"bin\"（ゴミ箱）が \"chicken\" を説明しています。<br><br><strong>🧠豆知識:</strong><br>bin chicken はオーストラリアではネットミーム級の人気者で、Tシャツやぬいぐるみにまでなっています。",
+      "audioUrl": "/audio/alli_vl5.mp3"
+    },
+    {
+      "id": "alli_vl6",
+      "quote": "You're in croc country now! Ah!",
+      "translation": "ここからはワニの縄張りだよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"croc\" は crocodile（ワニ）の略。アリー自身がワニです。</li><li>\"croc country\" はオーストラリア北部の「ワニ出没注意」地域を指す実際の言い方です。</li></ul><strong>英文法:</strong><br>\"be in ～ country\" で「～の生息域・～の本場にいる」。\"wine country\"（ワイン産地）と同じ作りです。",
+      "audioUrl": "/audio/alli_vl6.mp3"
+    },
+    {
+      "id": "alli_vl7",
+      "quote": "Let's get snapping! Ah ah!",
+      "translation": "さあ、バクバクいくよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"snap\" はワニが口をパクンと閉じる音・動作です。「写真を撮る」の意味もあります。</li><li>\"Let's get ～ing\" は「さあ～を始めよう」という勢いのある言い方です。</li></ul><strong>英文法:</strong><br>\"get + -ing\" で「～し始める」。\"Let's get going!\"（さあ行こう）が同じ形の定番です。",
+      "audioUrl": "/audio/alli_vl7.mp3"
+    },
+    {
+      "id": "alli_vl8",
+      "quote": "Bloody ripper, mate!",
+      "translation": "めちゃくちゃ最高だね、相棒！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"ripper\" はオーストラリア英語で「最高のもの」。\"bloody\" は強調で「めちゃくちゃ」。</li><li>\"Bloody ripper!\" はオージー英語の代表格として有名なほめ言葉です。</li></ul><strong>英文法:</strong><br>\"bloody\" はイギリス・オーストラリアでよく使う強調語。上品な場では避けますが、日常会話では普通に出てきます。",
+      "audioUrl": "/audio/alli_vl8.mp3"
+    },
+    {
+      "id": "alli_vl9",
+      "quote": "Ugh, now I'm mad as a cut snake! Hiss!",
+      "translation": "うっ、もう完全にブチギレだよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"mad as a cut snake\" はオーストラリアの慣用句で「めちゃくちゃ怒っている」。切られたヘビの暴れようが由来です。</li><li>\"mad\" はイギリス系では「怒っている」、アメリカ系では「気が狂った」寄りの意味になります。</li></ul><strong>英文法:</strong><br>\"as + 形容詞 + as + 名詞\" で「～と同じくらい…」。決まり文句の比喩によく使われる形です。",
+      "audioUrl": "/audio/alli_vl9.mp3"
+    },
+    {
+      "id": "alli_vl10",
+      "quote": "Take a bite out of that! Ah!",
+      "translation": "これでも食らいな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Take that!\"（これでも食らえ）に \"a bite out of\" を足して、ワニらしくしています。</li><li>\"take a bite out of ～\" は「～に一口かじりつく」。</li></ul><strong>英文法:</strong><br>\"take a bite\" のように \"take + 名詞\" で1つの動作を表す形。\"take a look\"（見る）、\"take a rest\"（休む）も同じです。",
+      "audioUrl": "/audio/alli_vl10.mp3"
+    },
+    {
+      "id": "alli_vl11",
+      "quote": "Ow! I stacked it!",
+      "translation": "いてっ！こけた！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"stack it\" はオーストラリア英語で「派手に転ぶ・こける」。</li><li>自転車やスケボーで転んだときによく使います。</li></ul><strong>英文法:</strong><br>\"it\" に特に意味はなく、句動詞の形を整えるために置かれています。\"make it\"、\"nail it\" と同じ感覚です。",
+      "audioUrl": "/audio/alli_vl11.mp3"
+    },
+    {
+      "id": "alli_vl12",
+      "quote": "Straight from the billabong!",
+      "translation": "ビラボン直送だよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"billabong\" はオーストラリア先住民の言葉が由来で、川が枯れてできた「三日月湖・水たまり」のことです。</li><li>ワニがひそんでいる場所の代表格で、アリーの出身地でもあります。</li></ul><strong>英文法:</strong><br>\"straight from ～\" で「～から直送で・～そのまま」。料理や商品の宣伝でよく使われます。",
+      "audioUrl": "/audio/alli_vl12.mp3"
+    },
+    {
+      "id": "alli_vl13",
+      "quote": "Show me your scars, ya flaming galah!",
+      "translation": "傷跡を見せてみな、このアホウドリが！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"galah\" はオーストラリアのピンクのオウム。そこから「バカ・まぬけ」という悪口になりました。</li><li>\"ya\" は \"you\" のくだけた形、\"flaming\" は \"bloody\" と同じく強調です。</li></ul><strong>英文法:</strong><br>\"Show me ～\" は「～を見せて」。show は \"show + 人 + もの\" の語順を取ります。",
+      "audioUrl": "/audio/alli_vl13.mp3"
+    },
+    {
+      "id": "alli_vl14",
+      "quote": "No drama, mate!",
+      "translation": "問題なし、相棒！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"No drama\" はオーストラリアで \"No worries\" と同じく「気にしないで・余裕だよ」という意味です。</li><li>\"drama\" は「もめごと・大騒ぎ」。</li></ul><strong>英文法:</strong><br>\"No + 名詞\" だけで「～はない」と言い切る形。看板や会話でよく使う省略です。",
+      "audioUrl": "/audio/alli_vl14.mp3"
+    },
+    {
+      "id": "alli_vl15",
+      "quote": "Ah, nice try, drongo!",
+      "translation": "おっと、惜しかったね、まぬけ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"drongo\" はオーストラリア英語で「まぬけ・のろま」。もとは勝てなかった競走馬の名前です。</li><li>\"Nice try\" は「いい線いってたね」という、半分ほめて半分バカにする言い方です。</li></ul><strong>英文法:</strong><br>\"Nice try.\" は \"That was a nice try.\" を短くした形。相手が失敗したときの定番の一言です。<br><br><strong>🧠豆知識:</strong><br>Drongo は1920年代のオーストラリアの競走馬で、37回走って一度も勝てませんでした。そこから「ダメなやつ」の代名詞になりました。",
+      "audioUrl": "/audio/alli_vl15.mp3"
+    },
+    {
+      "id": "alli_vl16",
+      "quote": "In a while, crocodile!",
+      "translation": "またあとでね、ワニさん！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"See you later, alligator!\" への返事として使う決まり文句が \"After a while, crocodile!\" です。</li><li>while と crocodile で韻を踏んでいます。ワニのアリーが言うのがオチです。</li></ul><strong>英文法:</strong><br>\"in a while\" は「しばらくしたら」。\"after a while\" とほぼ同じ意味です。",
+      "audioUrl": "/audio/alli_vl16.mp3"
+    },
+    {
+      "id": "alli_vl17",
+      "quote": "Gah! I stacked it!",
+      "translation": "うわっ！こけた！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>vl11 と同じ \"stack it\"（派手に転ぶ）ですが、こちらは別テイクで感嘆詞が違います。</li><li>\"Gah!\" は「うわっ」「ちくしょう」に近い、いらだちの声です。</li></ul><strong>英文法:</strong><br>感嘆詞は文法規則がなく、音をそのまま文字にしたものです。英語圏の漫画やチャットで多用されます。",
+      "audioUrl": "/audio/alli_vl17.mp3"
+    },
+    {
+      "id": "alli_vl18",
+      "quote": "Cop this, ya mongrel!",
+      "translation": "これでも食らえ、この駄犬が！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Cop this!\" はオーストラリアで「これを食らえ」。cop は「受け取る・食らう」という動詞です。</li><li>\"mongrel\" は「雑種犬」から転じた悪口で、「ろくでなし」にあたります。</li></ul><strong>英文法:</strong><br>\"cop\" は名詞では「警官」ですが、動詞では「（罰などを）受ける」。品詞で意味が大きく変わる単語です。",
+      "audioUrl": "/audio/alli_vl18.mp3"
+    },
+    {
+      "id": "alli_vl19",
+      "quote": "Kiss a croc! It brings good luck.",
+      "translation": "ワニにキスしなよ！幸運が来るからさ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>そんな言い伝えはありません。アリーが自分にキスさせたいだけです。</li><li>\"bring good luck\" は「幸運をもたらす」という決まった言い方です。</li></ul><strong>英文法:</strong><br>\"bring\" は \"bring + もの\" で「～をもたらす」。主語が物や行為のときによく使われます。",
+      "audioUrl": "/audio/alli_vl19.mp3"
+    },
+    {
+      "id": "alli_vl20",
+      "quote": "Haha, sweet as!",
+      "translation": "ハハッ、サイコー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"sweet as\" はオーストラリア・ニュージーランドの言い方で「最高・バッチリ」。</li><li>本来は \"sweet as sugar\"（砂糖のように甘い）のように続くはずが、後半を言わずに切ります。</li></ul><strong>英文法:</strong><br>\"as\" のあとを省略するのがこの地域の特徴的な言い方で、\"cheap as\"、\"easy as\" なども同じ形で使われます。",
+      "audioUrl": "/audio/alli_vl20.mp3"
+    },
+    {
+      "id": "alli_vl21",
+      "quote": "Oi!",
+      "translation": "おい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Oi!\" はイギリス・オーストラリアで「おい！」と相手の注意を引く掛け声です。</li><li>アメリカ英語では \"Hey!\" が同じ役割をします。</li></ul><strong>英文法:</strong><br>一語だけの感嘆詞。文法的な構造はなく、声のトーンで意味が決まります。",
+      "audioUrl": "/audio/alli_vl21.mp3"
+    },
+    {
+      "id": "alli_vl22",
+      "quote": "See you later, alligator!",
+      "translation": "またね、アリゲーター！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>英語圏の子どもが必ず知っている別れのあいさつで、later と alligator で韻を踏みます。</li><li>返事は \"After a while, crocodile!\"（vl16）です。</li></ul><strong>英文法:</strong><br>\"See you later.\" は \"I will see you later.\" の主語と助動詞が落ちた形です。<br><br><strong>🧠豆知識:</strong><br>1950年代のロック曲 \"See You Later, Alligator\" で一気に広まりました。alligator と crocodile は別の動物で、アリーはワニ（crocodile）のほうです。",
+      "audioUrl": "/audio/alli_vl22.mp3"
+    },
+    {
+      "id": "alli_vl23",
+      "quote": "Ow! Strewth that stings!",
+      "translation": "いてっ！うわ、しみる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Strewth!\" はオーストラリアの感嘆詞で「なんてこった！」。\"God's truth\" が縮まった古い言い方です。</li><li>\"sting\" は「ちくっと刺すように痛む」。虫刺されや消毒液の痛みに使います。</li></ul><strong>英文法:</strong><br>\"that stings\" は現在形で「（今）痛む」。痛みや感覚は進行形にせず現在形で表します。",
+      "audioUrl": "/audio/alli_vl23.mp3"
+    },
+    {
+      "id": "alli_vl24",
+      "quote": "♫La la lala la.",
+      "translation": "♫ラ・ラ・ララ・ラ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>技を出しながら鼻歌を歌っています。戦闘中とは思えない気楽さです。</li><li>英語でも鼻歌は \"la la la\" と書きます。日本語の「ふんふん」にあたります。</li></ul><strong>英文法:</strong><br>意味を持たない音の連なりなので文法はありません。歌詞の空白を埋める音としても使われます。",
+      "audioUrl": "/audio/alli_vl24.mp3"
+    },
+    {
+      "id": "alli_vl25",
+      "quote": "G'day, ya bogan beauties!",
+      "translation": "やあ、田舎者の美人さんたち！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"G'day\" は \"Good day\" が縮まったオーストラリア式のあいさつ。「グダイ」と発音します。</li><li>\"bogan\" は「野暮ったい田舎者」。悪口ですが、親しみを込めて使うこともあります。</li></ul><strong>英文法:</strong><br>\"ya\" は \"you\" ではなく \"your\" の口語形。ここでは「お前らボーガン美人たち」と呼びかけています。",
+      "audioUrl": "/audio/alli_vl25.mp3"
+    },
+    {
+      "id": "alli_vl26",
+      "quote": "Deadset legend!",
+      "translation": "マジで伝説級だね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"deadset\" はオーストラリア英語で「本気で・マジで」。</li><li>\"legend\" は「伝説」から転じて「すごいやつ・いいやつ」というほめ言葉です。</li></ul><strong>英文法:</strong><br>\"You're a deadset legend!\" の主語と be動詞が落ちた形。ほめ言葉は短く言い切るほど勢いが出ます。",
+      "audioUrl": "/audio/alli_vl26.mp3"
+    },
+    {
+      "id": "alli_vl27",
+      "quote": "Ah, time to leg it!",
+      "translation": "うっ、逃げる時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"leg it\" はイギリス・オーストラリアで「全力で逃げる・走る」。脚（leg）を動詞にした言い方です。</li><li>ダメージを受けた場面なので、いったん引くという判断です。</li></ul><strong>英文法:</strong><br>\"time to + 動詞の原形\" で「～する時間だ」。名詞を動詞として使う英語の柔軟さがよく出ている例です。",
+      "audioUrl": "/audio/alli_vl27.mp3"
+    },
+    {
+      "id": "alli_vl28",
+      "quote": "Too easy, mate!",
+      "translation": "楽勝だよ、相棒！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Too easy!\" はオーストラリアで「楽勝・お安いご用」。頼まれごとへの返事にも使います。</li><li>直訳の「簡単すぎる」から、余裕を見せる言い方になりました。</li></ul><strong>英文法:</strong><br>\"too + 形容詞\" は本来「～すぎる」という否定的な意味ですが、ここでは良い意味で使われています。",
+      "audioUrl": "/audio/alli_vl28.mp3"
+    },
+    {
+      "id": "alli_vl29",
+      "quote": "Aw, strewth! That stings!",
+      "translation": "ああもう、うわ！しみるって！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>vl23 と同じ内容の別テイクです。感嘆詞と区切り方が少し違います。</li><li>\"Aw\" は「ああ、もう」という残念さや痛みを表す声です。</li></ul><strong>英文法:</strong><br>\"That stings!\" の \"that\" は直前の出来事全体を指します。具体的な名詞がなくても成り立ちます。",
+      "audioUrl": "/audio/alli_vl29.mp3"
+    },
+    {
+      "id": "alli_vl30",
+      "quote": "This is going straight to the pool room.",
+      "translation": "これはプールルーム直行だね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>オーストラリア映画『The Castle』（1997）の有名なセリフです。もらった物をほめるときに使います。</li><li>\"pool room\" はビリヤード台を置いた部屋。家の自慢の品を飾る場所という設定です。</li></ul><strong>英文法:</strong><br>\"be going to + 場所\" で「～へ行くことになっている」。近い未来の予定を表します。<br><br><strong>🧠豆知識:</strong><br>この映画はオーストラリアで国民的な人気があり、このセリフは日常会話の決まり文句として完全に定着しています。",
+      "audioUrl": "/audio/alli_vl30.mp3"
+    },
+    {
+      "id": "alli_vl31",
+      "quote": "Ah, go back to the bush, ya bogan!",
+      "translation": "うっ、森へ帰りな、この田舎者！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"the bush\" はオーストラリアで「内陸の未開の土地・森林地帯」。都市部の反対を指します。</li><li>自分が沼育ちなのに相手を田舎者呼ばわりしているのが面白いところです。</li></ul><strong>英文法:</strong><br>\"go back to ～\" で「～へ帰れ」。命令文なので動詞の原形から始まります。",
+      "audioUrl": "/audio/alli_vl31.mp3"
+    },
+    {
+      "id": "alli_vl32",
+      "quote": "Flattened like roadkill in the Outback!",
+      "translation": "アウトバックの轢死体みたいにペチャンコだね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Outback\" はオーストラリア内陸の乾いた広大な土地。\"roadkill\" は車に轢かれた動物の死骸です。</li><li>道が長く車が少ないアウトバックでは roadkill が日常風景で、かなり生々しい比喩になっています。</li></ul><strong>英文法:</strong><br>\"flattened\" は過去分詞で「ぺしゃんこにされた」。主語と be動詞を省いて言い切っています。",
+      "audioUrl": "/audio/alli_vl32.mp3"
+    },
+    {
+      "id": "alli_vl33",
+      "quote": "Willow!",
+      "translation": "ウィロー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ウィローは同じブロスタのキャラクター。アリーが一方的に強い思いを寄せている相手です。</li><li>倒れる場面で相手の名前を叫ぶという、なかなか重い演出です。</li></ul><strong>英文法:</strong><br>名前だけの呼びかけ（呼格）。英語では文の頭でも終わりでも、単独でも使えます。",
+      "audioUrl": "/audio/alli_vl33.mp3"
+    },
+    {
+      "id": "alli_vl34",
+      "quote": "Willow?",
+      "translation": "ウィロー…？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>同じ名前でも、上がり調子の疑問形にすると「そこにいるの？」という探す響きになります。</li><li>vl33 の叫びと対になっていて、感情の違いが音だけで表されています。</li></ul><strong>英文法:</strong><br>単語1つでも語尾を上げれば疑問文になります。英語では語順よりイントネーションが優先されることがあります。",
+      "audioUrl": "/audio/alli_vl34.mp3"
+    },
+    {
+      "id": "alli_vl35",
+      "quote": "What's the goss, kangaroo boss?",
+      "translation": "なんか噂ある？カンガルー親分！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"goss\" は gossip（噂話）の略で、オーストラリアやイギリスの口語です。</li><li>\"goss\" と \"boss\" で韻を踏み、そこにオーストラリアの象徴カンガルーを混ぜています。</li></ul><strong>英文法:</strong><br>\"What's the ～?\" は「～はどうなってる？」。\"What's the plan?\"（どういう作戦？）と同じ形です。",
+      "audioUrl": "/audio/alli_vl35.mp3"
+    },
+    {
+      "id": "alli_vl36",
+      "quote": "Bonza!",
+      "translation": "最高！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Bonza!\" はオーストラリアの古めの言葉で「すばらしい・イカす」。</li><li>今では少し古風な響きがあり、あえて使うと「いかにもオージー」という感じが出ます。</li></ul><strong>英文法:</strong><br>一語で完結する感嘆詞。\"Beauty!\"、\"Ripper!\" と同じグループの言葉です。",
+      "audioUrl": "/audio/alli_vl36.mp3"
+    },
+    {
+      "id": "alli_vl37",
+      "quote": "You call that a bite? That's a nibble, mate.",
+      "translation": "それを噛みつきって呼ぶの？そんなの甘噛みだよ、相棒。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"You call that a ～?\" は「それが～だって？」と相手をバカにする決まり文句です。</li><li>\"nibble\" は「ちょこっとかじる」。bite（がぶり）との差を強調しています。</li></ul><strong>英文法:</strong><br>\"call A B\" で「A を B と呼ぶ」。目的語のあとに名詞がもう1つ来る形です。",
+      "audioUrl": "/audio/alli_vl37.mp3"
+    },
+    {
+      "id": "alli_vl38",
+      "quote": "That's not a knife! This is a knife!",
+      "translation": "そんなのナイフじゃない！これがナイフだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>映画『クロコダイル・ダンディー』（1986）の超有名なセリフをそのまま引用しています。</li><li>ワニ狩りのオーストラリア人が主人公という点でも、アリーにぴったりです。</li></ul><strong>英文法:</strong><br>\"That\" は離れたもの、\"This\" は手元のものを指します。対比を作るときの基本の使い分けです。<br><br><strong>🧠豆知識:</strong><br>この映画はオーストラリアのイメージを世界に広めた作品で、このセリフは各国のパロディで使われ続けています。",
+      "audioUrl": "/audio/alli_vl38.mp3"
+    },
+    {
+      "id": "alli_vl39",
+      "quote": "Bested by a bunch of brawling bush-bogans.",
+      "translation": "乱闘好きの森の田舎者どもに負けちゃった。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"bested\" は「打ち負かされた」。best を動詞として使う、やや古風な言い方です。</li><li>b の音を4つ重ねた頭韻（bunch, brawling, bush, bogans）になっています。</li></ul><strong>英文法:</strong><br>\"a bunch of ～\" は「たくさんの～・～の一団」。くだけた会話でよく使います。",
+      "audioUrl": "/audio/alli_vl39.mp3"
+    },
+    {
+      "id": "alli_vl40",
+      "quote": "Ha! I see you.",
+      "translation": "ハッ、見つけた。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>短い一言ですが、隠れている相手を見つけたという宣告で、じわりと怖さがあります。</li><li>アリーは物陰から他のブロウラーを観察している設定なので、このセリフが特に効きます。</li></ul><strong>英文法:</strong><br>\"see\" は状態を表す動詞なので、ふつう進行形にしません。\"I'm seeing you\" とすると別の意味（交際している）になります。",
+      "audioUrl": "/audio/alli_vl40.mp3"
+    },
+    {
+      "id": "alli_vl41",
+      "quote": "Love bites! Ah ah! And so do I!",
+      "translation": "愛は噛みつくもの！あたしもね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Love bites\" は「恋はつらいもの」という意味の言い回しですが、ここでは文字どおり「噛む」にかけています。</li><li>\"And so do I\" で「あたしも噛むよ」とつなげるのがオチです。</li></ul><strong>英文法:</strong><br>\"So do I.\" は「私もそうです」。前の文が一般動詞なら do、be動詞なら \"So am I.\" になります。",
+      "audioUrl": "/audio/alli_vl41.mp3"
+    },
+    {
+      "id": "alli_vl42",
+      "quote": "Love hurts. You will, too.",
+      "translation": "恋は痛いもの。あんたも痛い目みるよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Love hurts.\" は「恋は傷つくもの」という有名な言い回しで、曲名にもなっています。</li><li>そこに \"You will, too\"（あんたもそうなる）を足して脅し文句にしています。</li></ul><strong>英文法:</strong><br>\"You will, too.\" のあとには \"hurt\" が省略されています。同じ動詞をくり返さないのが英語の基本です。",
+      "audioUrl": "/audio/alli_vl42.mp3"
+    },
+    {
+      "id": "alli_vl43",
+      "quote": "Dingo bingo!",
+      "translation": "ディンゴでビンゴ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"dingo\" はオーストラリアの野犬。\"bingo\" は「当たり！」という掛け声です。</li><li>意味よりも dingo と bingo の韻を楽しむセリフです。</li></ul><strong>英文法:</strong><br>\"Bingo!\" は本来ゲーム名ですが、「ズバリ当たり」という感嘆詞として日常的に使われます。",
+      "audioUrl": "/audio/alli_vl43.mp3"
+    },
+    {
+      "id": "alli_vl44",
+      "quote": "These are real crocodile's tears!",
+      "translation": "これは本物のワニの涙だからね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"crocodile tears\" は「うそ泣き・そら涙」という慣用句です。</li><li>本物のワニが泣いているので「これは本当の涙だ」と言い張っています。</li></ul><strong>英文法:</strong><br>慣用句をわざと文字どおりの意味で使い直すのは、英語のジョークの王道パターンです。<br><br><strong>🧠豆知識:</strong><br>ワニは獲物を食べるとき涙のような分泌液を出します。そこから「同情するふりをして泣く」という意味になりました。",
+      "audioUrl": "/audio/alli_vl44.mp3"
+    },
+    {
+      "id": "alli_vl45",
+      "quote": "Channeling pure swamp ninja energy!",
+      "translation": "純度100%の沼忍者エネルギー、いくよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"channel ～ energy\" は「～のような雰囲気・空気をまとう」というSNS発の言い回しです。</li><li>\"main character energy\"（主人公オーラ）などの形でよく使われます。</li></ul><strong>英文法:</strong><br>\"channel\" は名詞なら「水路・チャンネル」、動詞では「（力を）引き込む・注ぎ込む」という意味になります。",
+      "audioUrl": "/audio/alli_vl45.mp3"
+    },
+    {
+      "id": "alli_vl46",
+      "quote": "Swamp croc is ready to rock!",
+      "translation": "沼ワニ、暴れる準備オッケー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"croc\" と \"rock\" で韻を踏んでいます。</li><li>\"ready to rock\" は「準備万端でノリノリ」という意味の決まり文句です。</li></ul><strong>英文法:</strong><br>\"be ready to + 動詞の原形\" で「～する準備ができている」。",
+      "audioUrl": "/audio/alli_vl46.mp3"
+    },
+    {
+      "id": "alli_vl47",
+      "quote": "I mainly watch, but sometimes I learn.",
+      "translation": "基本は見てるだけ。でもたまに学ぶんだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アリーは物陰から他のブロウラーをずっと観察している設定です。そのことを本人が認めています。</li><li>\"but sometimes I learn\" の一言で、ただの観察者ではないという不気味さが出ます。</li></ul><strong>英文法:</strong><br>\"mainly\"（主に）と \"sometimes\"（時々）はどちらも頻度を表す副詞で、一般動詞の前に置きます。",
+      "audioUrl": "/audio/alli_vl47.mp3"
+    },
+    {
+      "id": "alli_vl48",
+      "quote": "Ah, crikey!",
+      "translation": "うわ、なんてこった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Crikey!\" はオーストラリアの驚きの声で「うわっ！」「なんてこった！」。</li><li>ワニ使いとして有名だったスティーブ・アーウィンの口癖として世界に知られました。</li></ul><strong>英文法:</strong><br>\"Christ\" を直接言うのを避けた言い換え語です。英語にはこの手の遠回し表現がたくさんあります。",
+      "audioUrl": "/audio/alli_vl48.mp3"
+    },
+    {
+      "id": "alli_vl49",
+      "quote": "Ha ha, didn't mean to follow you... much.",
+      "translation": "ハハッ、つけるつもりはなかったんだ…そんなには。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>言い訳しておきながら、最後の \"much\" で台無しにしています。</li><li>\"not much\" を後から足すと「まったくないわけじゃない」という意味になり、否定が弱まります。</li></ul><strong>英文法:</strong><br>\"mean to + 動詞の原形\" で「～するつもり」。主語の \"I\" が落ちた会話形です。",
+      "audioUrl": "/audio/alli_vl49.mp3"
+    },
+    {
+      "id": "alli_vl50",
+      "quote": "So, this isn't a date?",
+      "translation": "で、これってデートじゃないの…？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒されながらこれを言うので、戦いをデートだと思っていたことになります。</li><li>\"So, ～?\" で始めると「つまり～ということ？」と確認する響きになります。</li></ul><strong>英文法:</strong><br>否定疑問文 \"isn't it ～?\" は「～じゃないの？」と、自分の思い込みが外れた驚きを表します。",
+      "audioUrl": "/audio/alli_vl50.mp3"
+    },
+    {
+      "id": "alli_vl51",
+      "quote": "Oh, one with the mulch, mate!",
+      "translation": "ほら、腐葉土と一体化だよ、相棒！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"be one with ～\" は「～と一体になる」という、瞑想や自然崇拝でよく使う言い方です。</li><li>\"mulch\" は落ち葉や木くずを混ぜた土のこと。ここでは「土に還る」という意味になります。</li></ul><strong>英文法:</strong><br>\"one\" を「一体となった存在」として使う用法。\"be at one with nature\" という形も同じ意味です。",
+      "audioUrl": "/audio/alli_vl51.mp3"
+    },
+    {
+      "id": "alli_vl52",
+      "quote": "Ha ha, watching Brawlers from the bush!",
+      "translation": "ハハッ、茂みからブロウラー観察中！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"from the bush\" は「茂みの中から」。バードウォッチングのような言い方をしているのが不気味です。</li><li>アリーの「見ている側」というキャラクター性がそのまま出たセリフです。</li></ul><strong>英文法:</strong><br>\"I'm\" が省略された現在進行形。実況風の言い方でよく落とされます。",
+      "audioUrl": "/audio/alli_vl52.mp3"
+    },
+    {
+      "id": "alli_vl53",
+      "quote": "Willow! You watching? 'cause I'm watching you!",
+      "translation": "ウィロー！見てる？あたしは見てるからね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"watching\" をくり返して、見る側と見られる側を入れ替えています。</li><li>好意のつもりでも、言われた側にはかなり怖い一言です。</li></ul><strong>英文法:</strong><br>\"You watching?\" は \"Are you watching?\" の be動詞が落ちた形。\"'cause\" は \"because\" の口語形です。",
+      "audioUrl": "/audio/alli_vl53.mp3"
+    },
+    {
+      "id": "alli_vl54",
+      "quote": "Crikey!",
+      "translation": "うわっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>vl48 と同じ感嘆詞の短いバージョンです。</li><li>短く鋭く言うと、驚きよりも痛みのリアクションとして響きます。</li></ul><strong>英文法:</strong><br>感嘆詞は同じ語でも長さや強さで伝わる感情が変わります。",
+      "audioUrl": "/audio/alli_vl54.mp3"
+    },
+    {
+      "id": "alli_vl55",
+      "quote": "Ha ha, I know your every move!",
+      "translation": "ハハッ、あんたの動きは全部お見通し！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"know one's every move\" は「相手の一挙手一投足を把握している」。</li><li>戦い方の話に聞こえますが、ずっと観察している設定を思い出すと意味が変わります。</li></ul><strong>英文法:</strong><br>\"every\" は単数名詞に付きます。\"every move\" であって \"every moves\" とは言いません。",
+      "audioUrl": "/audio/alli_vl55.mp3"
+    },
+    {
+      "id": "alli_vl56",
+      "quote": "Pain must be your love language.",
+      "translation": "痛みがあんたのラブランゲージなんだね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"love language\" は「愛情の伝え方のタイプ」という心理学の考え方で、SNSで大流行しました。</li><li>本来は「言葉」「贈り物」「触れ合い」などですが、そこに「痛み」を入れています。</li></ul><strong>英文法:</strong><br>\"must be\" は「～に違いない」という推量。\"must\"（～ねばならない）との違いに注意です。",
+      "audioUrl": "/audio/alli_vl56.mp3"
+    },
+    {
+      "id": "alli_vl57",
+      "quote": "Silent like a gecko fart.",
+      "translation": "ヤモリのおならくらい静かにね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ふつうは \"silent as the night\" のように詩的なものを持ってくるところを、あえて下品に外しています。</li><li>\"gecko\" はヤモリ。オーストラリアの家によくいる小動物です。</li></ul><strong>英文法:</strong><br>\"like + 名詞\" で「～のように」。\"as + 形容詞 + as\" より軽い口語的な比喩です。",
+      "audioUrl": "/audio/alli_vl57.mp3"
+    },
+    {
+      "id": "alli_vl58",
+      "quote": "You can't hide from me, mate!",
+      "translation": "あたしからは隠れられないよ、相棒！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>戦闘の宣言に聞こえますが、アリーが言うとストーカー的な響きになります。</li><li>\"hide from ～\" で「～から隠れる」。</li></ul><strong>英文法:</strong><br>\"can't\" は能力の否定ですが、ここでは「どうやっても無理だ」という断定として使われています。",
+      "audioUrl": "/audio/alli_vl58.mp3"
+    },
+    {
+      "id": "alli_vl59",
+      "quote": "Ha! That was mad as, bro!",
+      "translation": "ハッ！今の超ヤバかったね、兄弟！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"mad as\" は vl20 の \"sweet as\" と同じで、as のあとを省略する言い方。「めちゃくちゃすごい」。</li><li>\"bro\" は \"brother\" の略で、性別を問わず親しい相手への呼びかけに使います。</li></ul><strong>英文法:</strong><br>\"That was ～\" は直前の出来事への感想。会話では「今の、～だったね」という感覚で使います。",
+      "audioUrl": "/audio/alli_vl59.mp3"
+    },
+    {
+      "id": "alli_vl60",
+      "quote": "That's it! No more Mr. Nice Sheila!",
+      "translation": "もう限界！優しいお姉さんはここまでだよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"No more Mr. Nice Guy!\"（もう優しくしない）という有名な決まり文句の \"Guy\" を \"Sheila\" に変えています。</li><li>\"sheila\" はオーストラリア英語で「女性」。日本語の「姉ちゃん」に近い古めの言い方です。</li></ul><strong>英文法:</strong><br>\"That's it!\" は文脈によって「それだ！」「もう限界だ！」の両方になります。ここでは怒りの合図です。",
+      "audioUrl": "/audio/alli_vl60.mp3"
+    },
+    {
+      "id": "alli_vl61",
+      "quote": "No worries, mate.",
+      "translation": "気にしないで、相棒。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"No worries\" はオーストラリアを代表する言い回しで、「どういたしまして」「大丈夫だよ」の両方に使えます。</li><li>倒した相手にかける言葉としては、かなり無神経です。</li></ul><strong>英文法:</strong><br>\"There are no worries.\" を短くした形。複数形の worries になるのが決まりです。",
+      "audioUrl": "/audio/alli_vl61.mp3"
+    },
+    {
+      "id": "alli_vl62",
+      "quote": "Time to haunt your dreams!",
+      "translation": "あんたの夢に出てあげる時間だね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"haunt\" は幽霊が「取り憑く・出没する」。\"haunt your dreams\" で「夢に出てうなされさせる」です。</li><li>倒されながら言うので、負けても諦めていないことになります。</li></ul><strong>英文法:</strong><br>\"Time to + 動詞の原形\" で「～する時間だ」。\"It's\" が省略されています。",
+      "audioUrl": "/audio/alli_vl62.mp3"
+    },
+    {
+      "id": "alli_vl63",
+      "quote": "Quiet as a dunny in the desert.",
+      "translation": "砂漠のトイレくらい静かにね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"dunny\" はオーストラリア英語で「屋外トイレ」。かなりくだけた言葉です。</li><li>人が来ない砂漠のトイレ＝誰にも気づかれない、という比喩です。</li></ul><strong>英文法:</strong><br>\"as + 形容詞 + as + 名詞\" の比喩。英語ではこの型で独自のたとえを作るのが定番の遊びです。",
+      "audioUrl": "/audio/alli_vl63.mp3"
+    },
+    {
+      "id": "alli_vl64",
+      "quote": "Outback rules, city fools!",
+      "translation": "アウトバックが一番、都会のバカども！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"rules\" は「～が最高だ」という口語。\"Pizza rules!\"（ピザ最高）のように使います。</li><li>\"rules\" と \"fools\" で韻を踏んでいます。</li></ul><strong>英文法:</strong><br>\"rule\" が動詞で「支配する」から「最高である」という意味に広がった例です。",
+      "audioUrl": "/audio/alli_vl64.mp3"
+    },
+    {
+      "id": "alli_vl65",
+      "quote": "What a beauty!",
+      "translation": "いやー、見事だね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>オーストラリアでは \"Beauty!\" だけで「よし！最高！」という掛け声になります。</li><li>人だけでなく、うまくいった出来事にも使います。</li></ul><strong>英文法:</strong><br>\"What a + 名詞!\" は感嘆文の形。\"What a day!\"（なんて日だ）と同じ作りです。",
+      "audioUrl": "/audio/alli_vl65.mp3"
+    },
+    {
+      "id": "alli_vl66",
+      "quote": "Oi! Watch it, ya drongo!",
+      "translation": "おい！気をつけなよ、このまぬけ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Watch it!\" は「気をつけろ！」という警告。ぶつかられたときなどに使います。</li><li>\"Oi!\" + \"drongo\" と、オーストラリア語がぎゅっと詰まった一言です。</li></ul><strong>英文法:</strong><br>\"Watch it.\" の \"it\" は特定の何かではなく、状況全体を指しています。",
+      "audioUrl": "/audio/alli_vl66.mp3"
+    },
+    {
+      "id": "alli_vl67",
+      "quote": "Tail whip to the face!",
+      "translation": "顔面に尻尾の一撃！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ワニの尻尾は実際の武器で、獲物を薙ぎ払うのに使われます。</li><li>\"to the face\" は格闘技の実況で「顔面へ」と言うときの言い方です。</li></ul><strong>英文法:</strong><br>動詞のない名詞句だけの文。実況やスポーツ中継でよく使われるテンポの良い形です。",
+      "audioUrl": "/audio/alli_vl67.mp3"
+    },
+    {
+      "id": "alli_vl68",
+      "quote": "Ugh! I'm devo, mate!",
+      "translation": "うぐっ！ショックだよ、相棒！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"devo\" は devastated（打ちのめされた）の略。オーストラリアは長い単語を縮めるのが大好きです。</li><li>同じ作りに \"arvo\"（afternoon）、\"servo\"（service station）などがあります。</li></ul><strong>英文法:</strong><br>語尾を \"-o\" にして短くするのはオーストラリア英語の大きな特徴です。<br><br><strong>🧠豆知識:</strong><br>この省略癖は言語学で「hypocorism（愛称形）」と呼ばれ、オーストラリア英語ではとくに発達しています。",
+      "audioUrl": "/audio/alli_vl68.mp3"
+    },
+    {
+      "id": "alli_vl69",
+      "quote": "Bush mode activated!",
+      "translation": "ブッシュモード、起動！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"the bush\" はオーストラリアの原野。そこに機械っぽい \"mode activated\" を組み合わせています。</li><li>アリーは整備士でもあるので、機械の言い回しが自然に出てきます。</li></ul><strong>英文法:</strong><br>\"activated\" は過去分詞。\"is\" が省略され、システム表示のような響きになっています。",
+      "audioUrl": "/audio/alli_vl69.mp3"
+    },
+    {
+      "id": "alli_vl70",
+      "quote": "Bite me? Oh, I'll bite back! Ah!",
+      "translation": "噛みつく気？へえ、噛み返してあげる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Bite me!\" はアメリカ英語で「ほっとけ・うるさい」という悪態です。</li><li>アリーは本物のワニなので、それを文字どおり受け取って噛み返します。</li></ul><strong>英文法:</strong><br>\"bite back\" の \"back\" は「やり返す」。\"fight back\"（反撃する）、\"talk back\"（口答えする）と同じ使い方です。",
+      "audioUrl": "/audio/alli_vl70.mp3"
+    },
+    {
+      "id": "alli_vl71",
+      "quote": "Ya dodgy wombat!",
+      "translation": "この怪しいウォンバットめ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"dodgy\" はイギリス・オーストラリアで「うさんくさい・信用できない」。</li><li>\"wombat\" はオーストラリア固有の動物。悪口に地元の動物を使うのがアリーらしいところです。</li></ul><strong>英文法:</strong><br>\"ya\" は \"you\" のくだけた形で、悪口の前に付けて勢いを出します。",
+      "audioUrl": "/audio/alli_vl71.mp3"
+    },
+    {
+      "id": "alli_vl72",
+      "quote": "Camo croc, ready to rock!",
+      "translation": "迷彩ワニ、暴れる準備完了！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"camo\" は camouflage（迷彩・保護色）の略。姿を隠す技を指しています。</li><li>croc と rock で韻を踏む、vl46 と同じパターンです。</li></ul><strong>英文法:</strong><br>長い単語を短くして使うのは英語でもよくあり、\"camo\"、\"info\"、\"demo\" などが定着しています。",
+      "audioUrl": "/audio/alli_vl72.mp3"
+    },
+    {
+      "id": "alli_vl73",
+      "quote": "Ugh, kiss my crusty croc, sweetie!",
+      "translation": "うっ、あたしのゴツゴツワニ肌にでもキスしてな、おチビちゃん！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Kiss my ～\" は英語のかなり乱暴な悪態の型です。ここではワニの皮膚に置き換えて和らげています。</li><li>\"crusty\" は「ゴツゴツした・かさぶただらけの」。ワニの皮膚の質感です。</li></ul><strong>英文法:</strong><br>\"sweetie\" は本来やさしい呼びかけですが、皮肉として使うと逆に見下した響きになります。",
+      "audioUrl": "/audio/alli_vl73.mp3"
+    },
+    {
+      "id": "alli_vl74",
+      "quote": "Out of my swamp, ya pelican!",
+      "translation": "あたしの沼から出てけ、このペリカン！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>映画『シュレック』の \"Get out of my swamp!\" を思わせる言い方です。</li><li>\"pelican\" はペリカン。くちばしが大きいことから「おしゃべり」の意味でも使われます。</li></ul><strong>英文法:</strong><br>\"Get\" が省略された命令文。\"Out of my way!\"（どけ）も同じ省略の形です。",
+      "audioUrl": "/audio/alli_vl74.mp3"
+    },
+    {
+      "id": "alli_vl75",
+      "quote": "I know your blood type!",
+      "translation": "あんたの血液型、知ってるよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ふつうは知りようのない情報を知っていると言うことで、どこまで調べているんだという怖さが出ます。</li><li>アリーの「観察している」キャラクター性が一番わかりやすく出たセリフです。</li></ul><strong>英文法:</strong><br>\"blood type\" は「血液型」。イギリスでは \"blood group\" とも言います。",
+      "audioUrl": "/audio/alli_vl75.mp3"
+    },
+    {
+      "id": "alli_vl76",
+      "quote": "You left your scent! *sniffs* Delicious!",
+      "translation": "におい、残ってたよ。…おいしそう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"scent\" は「（動物の）残り香・におい跡」。猟犬が追跡するときの言葉です。</li><li>それを嗅いで \"Delicious\"（おいしそう）と言うので、恋愛か捕食か分からなくなります。</li></ul><strong>英文法:</strong><br>\"leave\" の過去形 \"left\" で「残した」。\"leave a message\"（伝言を残す）と同じ使い方です。",
+      "audioUrl": "/audio/alli_vl76.mp3"
+    },
+    {
+      "id": "alli_vl77",
+      "quote": "Oh, your scream is cute. Do it again.",
+      "translation": "へえ、あんたの悲鳴かわいいね。もう一回やって。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ほめ言葉と命令を並べることで、一気に不気味さが立ち上がります。</li><li>アリーのセリフの中でもとくにホラー寄りの一言です。</li></ul><strong>英文法:</strong><br>\"Do it again.\" の \"it\" は直前の \"scream\" を指します。動詞を繰り返さずに済む便利な使い方です。",
+      "audioUrl": "/audio/alli_vl77.mp3"
+    }
+  ]
+}
