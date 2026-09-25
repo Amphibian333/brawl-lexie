@@ -96,7 +96,7 @@ main          ← 本番。merge = Vercel 即デプロイ
 
 新キャラのボイス追加リクエストや機能のご要望はこちらから：
 
-- 📢 **リクエストフォーム（Google Forms）**: [フォームを開く](https://docs.google.com/forms/d/e/1FAIpQLSd4jicnyFLtY7ydADYmBi7TpVp64VKlC24Ty1voCgiwHGJihg/viewform?usp=dialog)
+- 📢 **リクエストフォーム（Google Forms）**: [フォームを開く](https://docs.google.com/forms/d/e/1FAIpQLSeEZvqo1kGxSl3Oan6io0lLisgmC7NgPcEpKDptRr9Ab8JM6w/viewform)
 - 📱 **TikTok**: [@bion329](https://www.tiktok.com/@bion329)
 
 ---
