@@ -1,0 +1,479 @@
+{
+  "name": "コスモ",
+  "nameEn": "Cosmo",
+  "rarity": "ultra-rare",
+  "role": "controller",
+  "quote": "Stand back, I'm about to apply physics!",
+  "iconUrl": "/icons/cosmo.png",
+  "voicelines": [
+    {
+      "id": "cosmo_vl1",
+      "quote": "Let's investigate this crazy cosmic conundrum.",
+      "translation": "さあ、このイカれた宇宙の難問を調べようじゃないか。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>conundrum は「難問」「なぞなぞ」。problem より学者っぽく、少し遊び心のある単語です。</li><li>crazy cosmic conundrum は c の音を3つ重ねた頭韻で、早口言葉のような響きを作っています。</li><li>investigate は「（科学的に）調査する」。研究者であるコスモらしい動詞選びです。</li></ul><strong>英文法:</strong><br>\"Let's + 動詞の原形\" で「～しよう」と相手を誘う形です。Let's は Let us の短縮形で、もとは「私たちに～させて」という使役の形でした。",
+      "audioUrl": "/audio/cosmo_vl1.mp3"
+    },
+    {
+      "id": "cosmo_vl2",
+      "quote": "So far, so improbable!",
+      "translation": "ここまでは順調…いや、ありえないほどだな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"So far, so good.\"（ここまでは順調）という決まり文句を、improbable に差し替えたもじりです。</li><li>improbable は「ありそうにない」。自分がリードしている状況を「確率的にありえない」と言っています。</li></ul><strong>英文法:</strong><br>\"so far\" は「今のところ」「ここまでは」。現在完了とよく一緒に使われる副詞句です。",
+      "audioUrl": "/audio/cosmo_vl2.mp3"
+    },
+    {
+      "id": "cosmo_vl3",
+      "quote": "Ow! I was mid-equation.",
+      "translation": "いたっ！ 計算の途中だったのに。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>mid- は「～の最中」を表す接頭辞。mid-sentence（話の途中）、mid-air（空中）のように使います。</li><li>mid-equation は「方程式を解いている最中」。殴られたことより計算を中断されたことを惜しんでいます。</li></ul><strong>英文法:</strong><br>\"I was mid-equation.\" は be動詞 + mid-名詞 で「～の最中だった」。進行形を使わず名詞ひとつで状況を表す、口語的で軽快な言い方です。",
+      "audioUrl": "/audio/cosmo_vl3.mp3"
+    },
+    {
+      "id": "cosmo_vl4",
+      "quote": "Result is within expected parameters.",
+      "translation": "結果は想定の範囲内だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>within expected parameters は「想定した範囲内」という、実験レポートでよく使う硬い言い回しです。</li><li>敵を倒したのに感情を出さず、実験結果の報告のように言うのがコスモらしさです。</li></ul><strong>英文法:</strong><br>\"within\" は「～の範囲内で」。in が「中に」なのに対し、within は「境界の内側に収まっている」という限界を意識した語です。",
+      "audioUrl": "/audio/cosmo_vl4.mp3"
+    },
+    {
+      "id": "cosmo_vl5",
+      "quote": "Oh, stars are born, stars perish.",
+      "translation": "ああ…星は生まれ、星は滅びる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>perish は「滅びる」「息絶える」。die より硬く、文学的な響きがあります。</li><li>自分がやられたことを、星の一生になぞらえて受け入れています。</li></ul><strong>英文法:</strong><br>\"stars are born\" は受動態（be + 過去分詞）。be born は「生まれる」という決まった形で、生まれるのは自分の意思ではないので英語では受動態になります。",
+      "audioUrl": "/audio/cosmo_vl5.mp3"
+    },
+    {
+      "id": "cosmo_vl6",
+      "quote": "Nebula, are you watching?",
+      "translation": "ネビュラ、見ていてくれてるかい？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>nebula は「星雲」という天文用語ですが、ここでは呼びかけている相手の名前です。</li><li>ウルトラを撃つ瞬間に誰かに呼びかける——コスモの背景を一番よく表すセリフです。</li></ul><strong>英文法:</strong><br>\"are you watching?\" は現在進行形の疑問文。「（今この瞬間）見ている？」と、まさに今の動作をたずねる形です。<br><br><strong>🧠豆知識:</strong><br>コスモはスターパークの天文台の主任天文学者で、来場者に宇宙を教えるかたわら、星空を眺めて何かを探し続けている、という設定です。ネビュラはその「探しているもの」の名前だと読めます。",
+      "audioUrl": "/audio/cosmo_vl6.mp3"
+    },
+    {
+      "id": "cosmo_vl7",
+      "quote": "Alright, let the data collecting begin.",
+      "translation": "よし、データ収集を始めるとしよう。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Let the games begin!\"（さあ試合開始だ）という決まり文句の games を data collecting に置き換えたもじりです。</li><li>戦闘開始を「データ集め」と呼んでいるのがコスモ流です。</li></ul><strong>英文法:</strong><br>\"let + 名詞 + 動詞の原形\" で「（名詞）に～させる」。let the data collecting begin は直訳すると「データ収集を始まらせよ」で、宣言らしい重みが出ます。",
+      "audioUrl": "/audio/cosmo_vl7.mp3"
+    },
+    {
+      "id": "cosmo_vl8",
+      "quote": "Leading? Mmm... uh... small sample size.",
+      "translation": "リードしてる？ うーん…いや、サンプル数が少なすぎるな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>small sample size は統計の用語で「標本数が少ない＝まだ当てにならない」という意味です。</li><li>勝っていても素直に喜ばず、統計的に水を差すのがコスモらしい反応です。</li></ul><strong>英文法:</strong><br>\"Leading?\" は \"Am I leading?\" の主語と be動詞を省いた形。会話では最初の語が落ちることがよくあります。",
+      "audioUrl": "/audio/cosmo_vl8.mp3"
+    },
+    {
+      "id": "cosmo_vl9",
+      "quote": "Ow! That hurt worse than losing planet status!",
+      "translation": "いたっ！ 惑星の座を失うより痛いぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>planet status は「惑星としての地位」。冥王星が準惑星に格下げされた出来事を踏まえた比喩です。</li><li>痛みのたとえに天文学のニュースを持ち出すところが、天文学者コスモらしい冗談です。</li></ul><strong>英文法:</strong><br>\"worse than\" は bad の比較級 + than で「～より悪い／ひどい」。hurt worse で「もっと痛む」となります。<br><br><strong>🧠豆知識:</strong><br>冥王星は2006年に国際天文学連合の定義変更で「準惑星」に分類し直され、太陽系の惑星は9個から8個になりました。天文学の世界では有名な「降格」事件です。",
+      "audioUrl": "/audio/cosmo_vl9.mp3"
+    },
+    {
+      "id": "cosmo_vl10",
+      "quote": "One step closer to a working theory.",
+      "translation": "使える仮説に、また一歩近づいたな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>working theory は「とりあえず機能している仮説」。まだ確定ではないが作業を進められる理論のことです。</li><li>敵を倒すことを「研究の前進」として数えています。</li></ul><strong>英文法:</strong><br>\"one step closer to ～\" で「～に一歩近い」。close（近い）の比較級 closer に to を続けて、近づく対象を示します。",
+      "audioUrl": "/audio/cosmo_vl10.mp3"
+    },
+    {
+      "id": "cosmo_vl11",
+      "quote": "Ugh, back to the star chart.",
+      "translation": "うう…また星図とにらめっこか。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>star chart は「星図」。夜空の星の位置を書き込んだ図です。</li><li>\"back to the drawing board\"（一からやり直し）という決まり文句を、天文学者らしく星図に置き換えています。</li></ul><strong>英文法:</strong><br>\"back to ～\" は動詞なしで「～に逆戻り」を表す省略表現。ため息まじりの一言によく使われます。",
+      "audioUrl": "/audio/cosmo_vl11.mp3"
+    },
+    {
+      "id": "cosmo_vl12",
+      "quote": "Big Bang? No, that was just my Super!",
+      "translation": "ビッグバン？ いや、ただのオレのウルトラさ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>Big Bang は宇宙の始まりとされる大爆発。自分の攻撃の派手さをそれに例えられた、という設定の冗談です。</li><li>just は「ほんの」「ただの」。大げさな誤解をさらりと訂正するニュアンスです。</li></ul><strong>英文法:</strong><br>\"that was\" は直前に起きた出来事を指す言い方。目の前で起きたことを「あれは～だった」と受ける、会話でとても多い形です。",
+      "audioUrl": "/audio/cosmo_vl12.mp3"
+    },
+    {
+      "id": "cosmo_vl13",
+      "quote": "Mmm, observe, calculate, survive!",
+      "translation": "ふむ——観察、計算、そして生存！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>動詞を3つ並べて自分の行動指針を唱えています。標語のようなリズムです。</li><li>observe（観察する）→ calculate（計算する）ときて最後が survive（生き延びる）なのが、戦場にいる学者のおかしみです。</li></ul><strong>英文法:</strong><br>動詞の原形を並べた形で、自分に言い聞かせる命令文として働いています。英語では3つ並べる（三つ組）と語調が整うとされ、標語でよく使われます。",
+      "audioUrl": "/audio/cosmo_vl13.mp3"
+    },
+    {
+      "id": "cosmo_vl14",
+      "quote": "Don't get confident, Cosmo!",
+      "translation": "調子に乗るなよ、コスモ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の名前を呼んで自分を戒めています。コスモは自分に話しかける癖があります。</li><li>get confident は「自信満々になる」。ここでは「油断する」に近い意味です。</li></ul><strong>英文法:</strong><br>\"Don't + 動詞の原形\" で否定の命令文。\"get + 形容詞\" は「（その状態）になる」という変化を表し、be confident（自信がある状態）との違いがポイントです。",
+      "audioUrl": "/audio/cosmo_vl14.mp3"
+    },
+    {
+      "id": "cosmo_vl15",
+      "quote": "Note to self: revise my assumptions.",
+      "translation": "自分用メモ——前提を見直すこと。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Note to self\" は「自分へのメモ」という決まり文句。うっかりを反省するときによく使います。</li><li>assumption は「仮定」「前提」。revise my assumptions で「思い込みを修正する」ことです。</li></ul><strong>英文法:</strong><br>コロン（:）の後ろにメモの中身が原形で続きます。手帳に書きつけるような、主語を省いた書き言葉の形です。",
+      "audioUrl": "/audio/cosmo_vl15.mp3"
+    },
+    {
+      "id": "cosmo_vl16",
+      "quote": "Pop quiz. Surprise! You failed.",
+      "translation": "抜き打ちテストだ。サプライズ！ ——はい、不合格。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>pop quiz は「抜き打ちの小テスト」。アメリカの学校でおなじみの、予告なしのテストです。</li><li>倒した相手を「テストに落ちた生徒」に見立てています。先生キャラならではの決め台詞です。</li></ul><strong>英文法:</strong><br>\"You failed.\" の fail は「落第する」という自動詞。fail the test（テストに落ちる）のように目的語をとることもできます。",
+      "audioUrl": "/audio/cosmo_vl16.mp3"
+    },
+    {
+      "id": "cosmo_vl17",
+      "quote": "Back to the observatory.",
+      "translation": "天文台に戻るとするか。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>observatory は「天文台」。コスモの職場そのものです。</li><li>やられたことを「勤務先に帰るだけ」と軽く流しています。</li></ul><strong>英文法:</strong><br>動詞を省いた \"Back to ～\" の形で「～に戻る」。I'm going back to ～ を短く言い切った、独り言らしい響きになります。",
+      "audioUrl": "/audio/cosmo_vl17.mp3"
+    },
+    {
+      "id": "cosmo_vl18",
+      "quote": "Let me show you my work!",
+      "translation": "オレの“途中式”を見せてやろう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>show your work は算数・数学の授業で「答えだけでなく途中式も書きなさい」という意味の決まり文句です。</li><li>「自分の仕事ぶりを見せる」と「計算の過程を見せる」の二重の意味になっています。</li></ul><strong>英文法:</strong><br>\"let me + 動詞の原形\" で「私に～させて」。show は \"show 人 もの\" の語順をとり、ここでは you が人、my work がものです。",
+      "audioUrl": "/audio/cosmo_vl18.mp3"
+    },
+    {
+      "id": "cosmo_vl19",
+      "quote": "*inhales* Deep breath, Cosmo. First, we study the variables.",
+      "translation": "（すぅ…）落ち着け、コスモ。まずは変数を調べるんだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>息を吸い込む音から始まり、自分に「深呼吸」と言い聞かせています。戦いに向いていない学者の緊張が伝わります。</li><li>variable は「変数」。状況を数式の変数として捉えるのがコスモの思考回路です。</li></ul><strong>英文法:</strong><br>\"we study\" の we は、先生が生徒に向かって使う we です。実際に動くのは自分一人でも、授業口調が出てしまっています。",
+      "audioUrl": "/audio/cosmo_vl19.mp3"
+    },
+    {
+      "id": "cosmo_vl20",
+      "quote": "The stars might actually be on our side!",
+      "translation": "星々は本当にこっちの味方なのかもしれない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>be on one's side は「～の味方である」。占いの「星回りがいい」に重ねた表現です。</li><li>actually は「実は」「本当に」。半信半疑だったことが当たっていた驚きを表します。</li></ul><strong>英文法:</strong><br>\"might\" は「～かもしれない」という推量。may より自信の度合いが低く、控えめな言い方になります。",
+      "audioUrl": "/audio/cosmo_vl20.mp3"
+    },
+    {
+      "id": "cosmo_vl21",
+      "quote": "I did not account for that variable.",
+      "translation": "その変数は計算に入れていなかったな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>account for は「～を考慮に入れる」「～を説明する」。研究や会計でよく使う句動詞です。</li><li>ダメージを受けたことを「予測モデルの不備」として処理しています。</li></ul><strong>英文法:</strong><br>\"did not\" と短縮せずに言い切ることで、落ち着いた・改まった響きになります。会話では didn't が普通です。",
+      "audioUrl": "/audio/cosmo_vl21.mp3"
+    },
+    {
+      "id": "cosmo_vl22",
+      "quote": "You collapsed faster than a poorly supported hypothesis.",
+      "translation": "根拠の薄い仮説より早く崩れたな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>collapse は「崩れる」。学説が「崩れる」のにも、星が「重力崩壊する」のにも使う語です。</li><li>poorly supported は「裏付けが乏しい」。証拠の足りない仮説はすぐ否定される、という学界のあるあるを敵に重ねています。</li></ul><strong>英文法:</strong><br>\"比較級 + than\" の形。faster than の後ろに人ではなく「仮説」という抽象的なものを置くことで、理屈っぽい皮肉になっています。",
+      "audioUrl": "/audio/cosmo_vl22.mp3"
+    },
+    {
+      "id": "cosmo_vl23",
+      "quote": "I knew I should've stayed indoors.",
+      "translation": "やっぱり、家にこもってるべきだったよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>should have + 過去分詞で「～すべきだったのに（しなかった）」という後悔を表します。</li><li>should've は should have の短縮。会話ではほぼこの形で発音されます。</li><li>indoors は「屋内で」。天文台にこもっていればよかった、という研究者らしい後悔です。</li></ul><strong>英文法:</strong><br>\"I knew ～\" を頭に付けると「やっぱり（そうなると分かっていた）」というニュアンスが出ます。",
+      "audioUrl": "/audio/cosmo_vl23.mp3"
+    },
+    {
+      "id": "cosmo_vl24",
+      "quote": "Gravity, please cooperate!",
+      "translation": "重力さん、頼むから協力してくれ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>重力に「お願い」しています。物理法則を相手に交渉するという、科学者ならではのボケです。</li><li>cooperate は「協力する」。co-（共に）+ operate（働く）が語源です。</li></ul><strong>英文法:</strong><br>呼びかけ（Gravity,）+ please + 動詞の原形で、相手に頼む命令文になっています。please があることで懇願の響きが強まります。",
+      "audioUrl": "/audio/cosmo_vl24.mp3"
+    },
+    {
+      "id": "cosmo_vl25",
+      "quote": "Students, please stay behind the safety line!",
+      "translation": "生徒諸君、安全線の内側に下がっていなさい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>戦場を「見学コース」扱いして、来場者に注意する学芸員のような口ぶりです。</li><li>safety line は博物館や工場で「ここから先は危険」を示す線のことです。</li></ul><strong>英文法:</strong><br>\"stay behind ～\" は「～の後ろにとどまる」。go や move ではなく stay を使うことで「動かずそのまま」という指示になります。",
+      "audioUrl": "/audio/cosmo_vl25.mp3"
+    },
+    {
+      "id": "cosmo_vl26",
+      "quote": "A promising trajectory, if it holds.",
+      "translation": "有望な軌道だ——このまま持てばの話だが。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>trajectory は「軌道」。天体の動きにも、物事の推移にも使う語です。</li><li>promising は「有望な」。promise（約束）から「先が期待できる」という意味になりました。</li><li>if it holds（持ちこたえれば）と最後に条件を足して、手放しで喜ばないのがコスモです。</li></ul><strong>英文法:</strong><br>\"hold\" は「持ちこたえる」「（状態が）続く」という自動詞の使い方。天気や状況について The weather holds. のように使います。",
+      "audioUrl": "/audio/cosmo_vl26.mp3"
+    },
+    {
+      "id": "cosmo_vl27",
+      "quote": "You, unpleasant physical anomaly detected.",
+      "translation": "うっ…不快な物理的異常を検知。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>anomaly は「異常」「例外的な現象」。観測データの外れ値を指す専門語です。</li><li>痛みを「検知した異常」として報告する、機械のような言い回しが笑いどころです。</li></ul><strong>英文法:</strong><br>\"detected\" は過去分詞だけを置いた形で、\"(An) unpleasant physical anomaly (has been) detected.\" の省略。計器の表示や報告文でよく使われます。",
+      "audioUrl": "/audio/cosmo_vl27.mp3"
+    },
+    {
+      "id": "cosmo_vl28",
+      "quote": "That was a chain reaction! I warned you in the syllabus.",
+      "translation": "今のは連鎖反応だ！ シラバスで警告しておいたはずだぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>chain reaction は「連鎖反応」。核分裂などで使う物理・化学の用語です。</li><li>syllabus は大学の「講義要項」。履修者に注意事項を書いておく書類です。</li><li>攻撃の説明を「授業の予習範囲」として片づけるのが、教師キャラの皮肉です。</li></ul><strong>英文法:</strong><br>\"warn 人 in ～\" で「～の中で（人）に警告する」。warn は warn you about ～（～について警告する）の形もよく使われます。",
+      "audioUrl": "/audio/cosmo_vl28.mp3"
+    },
+    {
+      "id": "cosmo_vl29",
+      "quote": "The equation doesn't balance!",
+      "translation": "方程式の左右が合わない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>balance は「（式の左右が）釣り合う」。化学反応式や会計でも使う言い方です。</li><li>自分が負けた事実を「計算が合わない」＝ありえない、と言って認めたくない様子です。</li></ul><strong>英文法:</strong><br>\"doesn't balance\" の balance は自動詞で「釣り合う」。他動詞なら balance the equation（式の辻褄を合わせる）となります。",
+      "audioUrl": "/audio/cosmo_vl29.mp3"
+    },
+    {
+      "id": "cosmo_vl30",
+      "quote": "*laughs* This is why we study physics!",
+      "translation": "（ハハッ）これだから物理はやめられない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"This is why ～\" は「だから～なんだ」と理由を指し示す形です。</li><li>自分の技の威力に、研究者としてうれしくなってしまっています。</li></ul><strong>英文法:</strong><br>\"This is why ～\"（だから～だ／結果を示す）と \"This is because ～\"（なぜなら～だから／原因を示す）は向きが逆です。why の後ろには結果が来ます。",
+      "audioUrl": "/audio/cosmo_vl30.mp3"
+    },
+    {
+      "id": "cosmo_vl31",
+      "quote": "I'm not built for this, but the data calls my name.",
+      "translation": "オレはこういうのに向いてないんだ。でもデータが呼んでいる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>be built for ～ は「～に向いた作りである」。体格や性格が合っているかを言う表現です。</li><li>the data calls my name（データが自分の名を呼ぶ）は、抗いがたい使命感を擬人化した言い方です。</li></ul><strong>英文法:</strong><br>\"but\" が前後をはっきり対比させています。向いていない、しかし行く——コスモという人物を一文で言い切った構造です。",
+      "audioUrl": "/audio/cosmo_vl31.mp3"
+    },
+    {
+      "id": "cosmo_vl32",
+      "quote": "I should enjoy this, before it collapses.",
+      "translation": "今のうちに楽しんでおこう。崩れる前にね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>collapse は「崩壊する」。リードという状況も星と同じくいずれ崩れる、という前提で話しています。</li><li>リードしていても長続きしないと思っている、悲観的な学者らしい一言です。</li></ul><strong>英文法:</strong><br>\"before it collapses\" は時を表す副詞節。未来のことでも、before や when の節の中では未来形を使わず現在形にします。",
+      "audioUrl": "/audio/cosmo_vl32.mp3"
+    },
+    {
+      "id": "cosmo_vl33",
+      "quote": "Mmm, perhaps I overthought the wrong thing.",
+      "translation": "ふむ…考えすぎる相手を間違えたかな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>overthink は「考えすぎる」。over-（過度に）+ think です。</li><li>the wrong thing は「見当違いのもの」。考える方向そのものを間違えた、という自己分析です。</li></ul><strong>英文法:</strong><br>\"perhaps\" は「ひょっとすると」。maybe よりやや硬く、書き言葉や落ち着いた話し方でよく使われます。",
+      "audioUrl": "/audio/cosmo_vl33.mp3"
+    },
+    {
+      "id": "cosmo_vl34",
+      "quote": "Ooh! That worked! Interesting.",
+      "translation": "おお！ 効いた！ 興味深い。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分の攻撃が効いたことに自分で驚いています。実験がうまくいったときの反応そのものです。</li><li>Interesting. の一言で締めるのが、感情より観察を優先する学者らしさです。</li></ul><strong>英文法:</strong><br>\"That worked.\" の work は「（機械や方法が）うまくいく」という自動詞。It works! は「効くぞ！」の決まり文句です。",
+      "audioUrl": "/audio/cosmo_vl34.mp3"
+    },
+    {
+      "id": "cosmo_vl35",
+      "quote": "More research required.",
+      "translation": "さらなる研究が必要だな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>論文の結論によく書かれる \"More research is required.\" という決まり文句そのものです。</li><li>やられたことを「研究不足」の一言で片づけています。</li></ul><strong>英文法:</strong><br>be動詞（is）が省かれた形で、掲示や見出しのような簡潔さが出ています。省略しない形は More research is required. です。",
+      "audioUrl": "/audio/cosmo_vl35.mp3"
+    },
+    {
+      "id": "cosmo_vl36",
+      "quote": "Magnificent, ha ha! And slightly terrifying.",
+      "translation": "壮大だ、ハハッ！ ——そしてちょっと恐ろしい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>magnificent は「壮大な」「見事な」。宇宙規模のものを讃えるときにぴったりの語です。</li><li>自分の技に感動したあと、slightly terrifying（少し恐ろしい）と付け足すズレが笑いどころです。</li></ul><strong>英文法:</strong><br>\"slightly\" は「わずかに」。a little よりも控えめで、書き言葉寄りの副詞です。ここでは「怖い」と認めきらない照れが出ています。",
+      "audioUrl": "/audio/cosmo_vl36.mp3"
+    },
+    {
+      "id": "cosmo_vl37",
+      "quote": "Nebula would have loved this mess.",
+      "translation": "ネビュラなら、この大騒ぎを気に入っただろうな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>would have + 過去分詞で「（もしここにいたら）～しただろう」という、実現しなかった想像を表します。</li><li>この一文だけで、ネビュラが今ここにいないことが分かります。</li></ul><strong>英文法:</strong><br>仮定法過去完了の帰結節の形です。If Nebula were here という条件が言わずに省かれていて、それがかえって寂しさを際立たせています。",
+      "audioUrl": "/audio/cosmo_vl37.mp3"
+    },
+    {
+      "id": "cosmo_vl38",
+      "quote": "Nebula, are you seeing this?",
+      "translation": "ネビュラ、これ見てるかい？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>いい流れになった瞬間に、その場にいない相手へ呼びかけています。</li><li>\"Are you seeing this?\" は「（信じられない光景だけど）見てる？」と驚きを共有する決まり文句です。</li></ul><strong>英文法:</strong><br>see は本来ずっと進行形にしない動詞ですが、\"Are you seeing this?\" のように「今まさに目撃している」ことを強調するときは進行形になります。",
+      "audioUrl": "/audio/cosmo_vl38.mp3"
+    },
+    {
+      "id": "cosmo_vl39",
+      "quote": "You're not toxic, you're just... reactive!",
+      "translation": "キミは有毒なんじゃない、ただ…反応性が高いだけだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>toxic は「有毒な」で、人に使うと「害をなす」という悪口になります。</li><li>reactive は化学で「反応性が高い」。悪口を言いかけて、科学用語に言い換えて中和しています。</li><li>怒りきれず、途中で学問の言葉に逃げてしまうのがコスモの人柄です。</li></ul><strong>英文法:</strong><br>\"not A, just B\" で「AではなくただBなだけ」。not ～, but ～ の but を just に替えると、Bを軽く見せる響きになります。",
+      "audioUrl": "/audio/cosmo_vl39.mp3"
+    },
+    {
+      "id": "cosmo_vl40",
+      "quote": "You're not the center of the universe! I checked.",
+      "translation": "キミは宇宙の中心じゃない！ ちゃんと確かめた。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"the center of the universe\" は「自分が世界の中心だと思っている人」への定番の皮肉です。</li><li>I checked.（確認済みだ）と付け足すことで、比喩を本気で観測したことにしてしまう二段構えの冗談になっています。</li></ul><strong>英文法:</strong><br>\"I checked.\" と過去形で短く言い切ることで、「もう済んだ話だ」という断定の強さが出ます。",
+      "audioUrl": "/audio/cosmo_vl40.mp3"
+    },
+    {
+      "id": "cosmo_vl41",
+      "quote": "I'll... recalculate later.",
+      "translation": "あとで…計算し直すよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>recalculate は re-（再び）+ calculate（計算する）で「計算し直す」。</li><li>倒れながら「後日やり直す」と言うことで、負けを認めていません。</li></ul><strong>英文法:</strong><br>\"I'll\" は I will の短縮で、その場で決めた未来を表します。途中の「…」が、息も絶え絶えな様子を示しています。",
+      "audioUrl": "/audio/cosmo_vl41.mp3"
+    },
+    {
+      "id": "cosmo_vl42",
+      "quote": "Magnetic mayhem!",
+      "translation": "磁気の大混乱だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>mayhem は「大混乱」「大暴れ」。事件や騒ぎを指す強い語です。</li><li>magnetic mayhem は m の音を重ねた頭韻で、技名のような語呂の良さがあります。</li></ul><strong>英文法:</strong><br>名詞だけを叫ぶ形の感嘆文です。英語では技や状況を名詞ひとつで言い切ると、掛け声らしい勢いが出ます。",
+      "audioUrl": "/audio/cosmo_vl42.mp3"
+    },
+    {
+      "id": "cosmo_vl43",
+      "quote": "I'd explain relativity, but we don't have time!",
+      "translation": "相対性理論を説明したいところだが、そんな時間はない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>relativity は「相対性理論」。アインシュタインの理論です。</li><li>時間がないと言いながら、話題が「時間」を扱う理論なのが効いた冗談になっています。</li></ul><strong>英文法:</strong><br>\"I'd\" は I would の短縮。\"I'd 〜, but ...\" で「～したいのはやまやまだが、しかし」という、丁寧に断る定番の形です。",
+      "audioUrl": "/audio/cosmo_vl43.mp3"
+    },
+    {
+      "id": "cosmo_vl44",
+      "quote": "Every answer just opens a bigger question.",
+      "translation": "答えが出るたび、もっと大きな問いが開くんだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>open a question は「疑問を生じさせる」。answer（答え）と question（問い）を対にした言い回しです。</li><li>リードしていても満足しない、研究者としての姿勢が表れています。</li></ul><strong>英文法:</strong><br>\"Every + 単数名詞\" は全体を指しますが、動詞は三人称単数（opens）になります。Every answer open ～ とはならない点に注意です。",
+      "audioUrl": "/audio/cosmo_vl44.mp3"
+    },
+    {
+      "id": "cosmo_vl45",
+      "quote": "I'm fine. I'm... processing being fine. Ha ha!",
+      "translation": "大丈夫だ。いや…“大丈夫である”ことを処理中だ。ハハッ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>process は「処理する」。コンピュータやデータに使う語を、自分の気持ちに当てはめています。</li><li>I'm fine. と言い直すことで、まったく大丈夫でないことが伝わる作りになっています。</li></ul><strong>英文法:</strong><br>\"processing being fine\" は動名詞が二重になった形です。process の目的語が being fine（大丈夫であるということ）という動名詞句になっています。",
+      "audioUrl": "/audio/cosmo_vl45.mp3"
+    },
+    {
+      "id": "cosmo_vl46",
+      "quote": "An unexpected result, ha ha. Marvelous.",
+      "translation": "予想外の結果だ、ハハッ。素晴らしい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>unexpected result は「予想外の結果」。実験で想定外のことが起きたときの言い方です。</li><li>marvelous は「驚くほど素晴らしい」。marvel（驚嘆する）から来ています。</li><li>敵を倒した実感より、「想定外が起きた」ことのほうを喜んでいます。</li></ul><strong>英文法:</strong><br>文が動詞なしの名詞句で始まっています。感想を名詞だけで言い切る形で、独り言やメモに近い響きになります。",
+      "audioUrl": "/audio/cosmo_vl46.mp3"
+    },
+    {
+      "id": "cosmo_vl47",
+      "quote": "Do my chalkboard. I tried!",
+      "translation": "黒板に伝えてくれ——やるだけはやった、と！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>chalkboard は「黒板」。天文台の講義室にある、コスモの相棒のような存在です。</li><li>遺言のように黒板へ言づてを頼む、というおかしみのあるセリフです。</li></ul><strong>英文法:</strong><br>\"I tried.\" は「やってみた（が及ばなかった）」という含みを持つ言い方。結果が出なかったときの定番表現です。<br><br><strong>🧠豆知識:</strong><br>この一行は Fandom の聞き取り表記が \"Do my chalkboard.\" となっていますが、音声を聞くと \"Tell my chalkboard, I tried!\"（黒板に「やるだけはやった」と伝えてくれ）に近く聞こえます。和訳はそちらの読みに寄せています。",
+      "audioUrl": "/audio/cosmo_vl47.mp3"
+    },
+    {
+      "id": "cosmo_vl48",
+      "quote": "Polarize!",
+      "translation": "偏光せよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>polarize は「偏光させる」「分極させる」。光や磁場の向きをそろえる物理用語です。</li><li>比喩では「意見を真っ二つに分ける」という意味にもなります。</li></ul><strong>英文法:</strong><br>動詞の原形ひとつだけの命令文です。呪文や技名のように、目的語を省いて言い切っています。",
+      "audioUrl": "/audio/cosmo_vl48.mp3"
+    },
+    {
+      "id": "cosmo_vl49",
+      "quote": "Not enough data! Never enough data!",
+      "translation": "データが足りない！ 足りたためしがない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>同じ形を2回、enough → never enough と強めて繰り返すことで焦りを表しています。</li><li>研究者が一生言い続けるセリフでもあり、コスモの口癖のような一言です。</li></ul><strong>英文法:</strong><br>\"Not enough data!\" は There is not enough data! の主語と動詞を省いた形。叫び声では文頭がよく落ちます。",
+      "audioUrl": "/audio/cosmo_vl49.mp3"
+    },
+    {
+      "id": "cosmo_vl50",
+      "quote": "Mind over muscle!",
+      "translation": "力より頭脳だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"mind over matter\"（精神は物質に勝る）という決まり文句の matter を muscle に替えたもじりです。</li><li>mind と muscle で m の音を重ねた頭韻になっています。</li><li>腕力自慢のキャラが多いブロスタで、頭脳派を名乗る宣言です。</li></ul><strong>英文法:</strong><br>\"A over B\" は「BよりAが上」という優劣を表す形。前置詞 over が「上に立つ」イメージを持つことから来ています。",
+      "audioUrl": "/audio/cosmo_vl50.mp3"
+    },
+    {
+      "id": "cosmo_vl51",
+      "quote": "Oh! Just too many variables! Need a bigger calculator!",
+      "translation": "うわっ！ 変数が多すぎる！ もっと大きい電卓がいる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>variable は「変数」。処理しきれない状況を変数の多さで表しています。</li><li>「電卓を大きくすれば解決する」という、あえてズレた結論が笑いどころです。</li></ul><strong>英文法:</strong><br>\"Need a bigger calculator!\" は I need ～ の主語が省かれた形。慌てているときほど主語は落ちます。<br><br><strong>🧠豆知識:</strong><br>実際には、変数が多すぎる問題は電卓を大きくしても解けません。必要なのは変数の数と同じだけの方程式です。コスモも慌てていて、そこは口をついて出てしまったようです。",
+      "audioUrl": "/audio/cosmo_vl51.mp3"
+    },
+    {
+      "id": "cosmo_vl52",
+      "quote": "You thought well, but the math disagreed!",
+      "translation": "考えは悪くなかった。だが数学が同意しなかった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>disagree は「意見が合わない」。人ではなく the math（数学）を主語にして擬人化しています。</li><li>相手の努力を認めたうえで「計算上は無理だった」と突き放す、丁寧な皮肉です。</li></ul><strong>英文法:</strong><br>\"the math disagreed\" のように、人以外のものを主語にして人間の動作をさせる書き方を無生物主語と言います。英語ではごく普通で、こなれた響きになります。",
+      "audioUrl": "/audio/cosmo_vl52.mp3"
+    },
+    {
+      "id": "cosmo_vl53",
+      "quote": "The stars can wait, I cannot.",
+      "translation": "星は待てる。だがオレは待てない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>星の寿命は何十億年——待てる側の代表として置かれています。</li><li>それと対比して「自分にはもう時間がない」と言う、静かで重たい一言です。</li></ul><strong>英文法:</strong><br>\"I cannot\" は I cannot wait の wait が省略された形。前に出た動詞を繰り返さず助動詞だけを残すことで、対比が際立ちます。",
+      "audioUrl": "/audio/cosmo_vl53.mp3"
+    },
+    {
+      "id": "cosmo_vl54",
+      "quote": "Induction sequence initiated!",
+      "translation": "誘導シーケンス、開始！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>induction は「（電磁）誘導」。磁場によって電流を生じさせる現象です。</li><li>initiate は「開始する」。start より硬く、装置の起動や手続きの開始に使います。</li><li>実験装置を起動するときのアナウンスそのものの言い回しです。</li></ul><strong>英文法:</strong><br>\"(The) induction sequence (has been) initiated!\" の省略形。過去分詞だけを残す形は、計器の表示やアナウンスの定番です。",
+      "audioUrl": "/audio/cosmo_vl54.mp3"
+    },
+    {
+      "id": "cosmo_vl55",
+      "quote": "Ah, a puzzle! My favorite kind of trouble!",
+      "translation": "おお、謎だ！ オレの大好物のトラブルだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>puzzle は「謎」「難問」。危機を「解きがいのある謎」として歓迎しています。</li><li>\"my favorite kind of ～\" は「私のいちばん好きな種類の～」。trouble に付けるとひねりが効きます。</li></ul><strong>英文法:</strong><br>\"a puzzle!\" のように名詞ひとつを感嘆符付きで置くと、感嘆文として働きます。What a puzzle! の What a が省かれた形と考えると分かりやすいです。",
+      "audioUrl": "/audio/cosmo_vl55.mp3"
+    },
+    {
+      "id": "cosmo_vl56",
+      "quote": "How does the Solar System hold a meeting? They plan-et!",
+      "translation": "太陽系はどうやって会議を開く？ ——「プラン・エット（計画するんだ）」！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ダジャレです。planet（惑星）を plan it（それを計画する）と重ねています。</li><li>\"hold a meeting\" は「会議を開く」。hold は「催す」という意味で使われています。</li><li>リード中にわざわざ小噺を披露するあたりが、先生らしさ全開です。</li></ul><strong>英文法:</strong><br>\"How does ～ ...?\" は一般動詞の疑問文。主語 the Solar System が三人称単数なので does を使い、後ろの動詞 hold は原形に戻ります。<br><br><strong>🧠豆知識:</strong><br>英語のダジャレ（pun）は、音が同じで意味が違う語を重ねて作ります。planet と plan it は発音がほぼ同じなので成立します。日本語に直すと音が崩れてしまうため、訳では音と意味を並べて示しています。",
+      "audioUrl": "/audio/cosmo_vl56.mp3"
+    },
+    {
+      "id": "cosmo_vl57",
+      "quote": "Ooh! I should write this down before I forget.",
+      "translation": "おお！ 忘れないうちに書き留めておかないと。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>write down は「書き留める」。思いついたことをメモする、という句動詞です。</li><li>敵を倒した直後に感想ではなく「記録」を優先するのがコスモです。</li></ul><strong>英文法:</strong><br>\"before I forget\" は時を表す副詞節。中身は未来のことですが、before の節では will を使わず現在形にします。",
+      "audioUrl": "/audio/cosmo_vl57.mp3"
+    },
+    {
+      "id": "cosmo_vl58",
+      "quote": "Nebula, I'm still looking.",
+      "translation": "ネビュラ…まだ探しているよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>look for ～（～を探す）の for 以下が省かれ、「探し続けている」ことだけが残っています。</li><li>still（まだ）の一語が、長い年月を感じさせます。</li></ul><strong>英文法:</strong><br>現在進行形 + still で「今もずっと～し続けている」。動作が続いていることを強調する形です。<br><br><strong>🧠豆知識:</strong><br>コスモは星空を眺めながら何かを探し続けている天文学者として描かれています。やられた瞬間にまでこの一言が出るところに、その探しものの重さが表れています。",
+      "audioUrl": "/audio/cosmo_vl58.mp3"
+    },
+    {
+      "id": "cosmo_vl59",
+      "quote": "Electromagnetic field online!",
+      "translation": "電磁場、オンライン！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>electromagnetic field は「電磁場」。電気と磁気が作る場のことです。</li><li>online は「（装置が）稼働状態になった」。SF作品の起動シーンでおなじみの言い方です。</li></ul><strong>英文法:</strong><br>be動詞を省いた \"A online!\" の形。\"(The) electromagnetic field (is) online!\" で、装置の起動報告らしい歯切れの良さを出しています。",
+      "audioUrl": "/audio/cosmo_vl59.mp3"
+    },
+    {
+      "id": "cosmo_vl60",
+      "quote": "Did I leave the dome projector running?",
+      "translation": "ドームのプロジェクター、つけっぱなしにしてきたか？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>dome projector はプラネタリウムのドームに星空を映す投影機のことです。</li><li>戦闘が始まる場面で職場の消し忘れを気にしている、ズレた緊張感が笑いどころです。</li></ul><strong>英文法:</strong><br>\"leave + 目的語 + -ing\" で「（目的語）を～しっぱなしにする」。leave the water running（水を出しっぱなしにする）と同じ形です。",
+      "audioUrl": "/audio/cosmo_vl60.mp3"
+    },
+    {
+      "id": "cosmo_vl61",
+      "quote": "Why did the Sun go to school? To get a little brighter!",
+      "translation": "太陽はなぜ学校へ行った？ ——もう少し「明るく」なるためさ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ダジャレです。bright には「明るい」と「賢い」の二つの意味があります。</li><li>\"Why did ～? To 動詞～\" は、英語の子ども向けなぞなぞの定番の型です。</li><li>リード中にまたも小噺——コスモのジョークは全部この調子です。</li></ul><strong>英文法:</strong><br>\"To get a little brighter!\" は目的を表す不定詞（to + 動詞の原形）。Why ～? への答えとして、Because ではなく To ～ で返す形です。",
+      "audioUrl": "/audio/cosmo_vl61.mp3"
+    },
+    {
+      "id": "cosmo_vl62",
+      "quote": "Even I'm impressed! Uh, don't tell anyone.",
+      "translation": "さすがのオレも感心したよ！ …あ、誰にも言うなよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Even I ～\" は「このオレでさえ～」。自分を基準の高い側に置いた言い方です。</li><li>感心したことを恥ずかしがって口止めする、照れ屋な一面が出ています。</li></ul><strong>英文法:</strong><br>be impressed は「感銘を受ける」。impress（感動させる）の受動態で、感じる側が主語になります。",
+      "audioUrl": "/audio/cosmo_vl62.mp3"
+    },
+    {
+      "id": "cosmo_vl63",
+      "quote": "Alright, class, field trip. Try not to explode!",
+      "translation": "よし諸君、校外学習だ。爆発しないように気をつけて！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>field trip は「校外学習」「遠足」。戦場を社会科見学扱いしています。</li><li>\"Try not to ～\" は「～しないようにね」。軽い注意を促す言い方です。</li></ul><strong>英文法:</strong><br>\"try not to + 動詞の原形\" の not の位置がポイントです。\"try to not ～\" ではなく、not は to の前に置きます。",
+      "audioUrl": "/audio/cosmo_vl63.mp3"
+    },
+    {
+      "id": "cosmo_vl64",
+      "quote": "Take notes, everyone!",
+      "translation": "みんな、ノートを取って！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>take notes は「メモを取る」「ノートを取る」。授業でおなじみの表現です。</li><li>リードしている自分の戦い方を「教材」として見せようとしています。</li></ul><strong>英文法:</strong><br>\"Take notes, everyone!\" は命令文 + 呼びかけ。everyone を後ろに置くことで、教室全体に声をかける響きになります。",
+      "audioUrl": "/audio/cosmo_vl64.mp3"
+    },
+    {
+      "id": "cosmo_vl65",
+      "quote": "Everyone! This counts as lab credit!",
+      "translation": "諸君！ これは実験の単位に数えるからな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>count as ～ は「～として認められる」「～に数えられる」。</li><li>lab credit は「実験科目の単位」。戦闘への参加を単位で釣ろうとしています。</li></ul><strong>英文法:</strong><br>\"count as ～\" の count は「みなされる」という自動詞。他動詞の count（数える）とは意味が変わるので、セットで覚えるのがおすすめです。",
+      "audioUrl": "/audio/cosmo_vl65.mp3"
+    },
+    {
+      "id": "cosmo_vl66",
+      "quote": "Remember, observe first, panic second!",
+      "translation": "いいか、まず観察、慌てるのはその次だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"～ first, ～ second\" で優先順位を示しています。</li><li>「慌てる」を段取りの2番目として正式に組み込んでしまっているのが面白いところです。</li></ul><strong>英文法:</strong><br>Remember, の後ろに命令文を続けると「いいか、～するんだぞ」と念を押す形になります。授業や指示でよく使われます。",
+      "audioUrl": "/audio/cosmo_vl66.mp3"
+    },
+    {
+      "id": "cosmo_vl67",
+      "quote": "Stand back, I'm about to apply physics!",
+      "translation": "下がっていろ、今から物理を適用する！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>stand back は「後ろに下がる」「離れる」。危険なものを扱う前の決まり文句です。</li><li>apply physics は「物理（学）を適用する」。攻撃を「物理法則の実演」と言い換えています。</li></ul><strong>英文法:</strong><br>\"be about to + 動詞の原形\" は「まさに～しようとしている」。今すぐ起こる直前の行動を表し、will よりも差し迫った感じが出ます。",
+      "audioUrl": "/audio/cosmo_vl67.mp3"
+    }
+  ]
+}

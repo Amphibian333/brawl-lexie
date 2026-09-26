@@ -128,6 +128,48 @@ git push
    - SiteOne はこれを critical と出すが、承知のうえで見送っている判断
    - やるならブランチを切って、Vercelプレビューではなく本番相当で要検証
 
+### 2026-09-26 に完了した分（2件目）
+
+- **コスモ（Cosmo / コントローラー / ウルトラレア）を追加** — 100体目。67セリフ・**欠番なし**
+  - 依頼は「Cosmos」だったが Fandom に該当ページなし。実在するのは **Cosmo**（2026年9月実装）。日本語名はGameWith表記の「コスモ」
+  - **Fan Kit の新命名がまた変わっていた**: `bs_cosmo_dies_007_003.wav`。数字の区切りがハイフンから `_` に、
+    場面名も `GetsHurt` → `gettinghurt`、`IsInLead` → `inlead` に変化。旧来の正規表現は数字区切りが
+    ハイフン前提だったため `lexie_match.py` が 1件もマッチせず、`lexie_wikimap.py` も 0/67 だった。
+    **lexie_factory/tools 側を恒久対応済み**（下の「工場ツールの修正」参照）。当日の作業は
+    `_norm/` にリネームしたコピーを作って回避したが、**その回避はもう不要**
+  - 聞き取りは66/67一致。残る vl24「Gravity, please cooperate!」は base.en が「R-E-V-E-E-E-」と誤認したため、
+    多言語モデル（`models/sherpa-onnx-whisper-base` + `tools/_pt.py`）で聞き直して
+    `bs_cosmo_specialpower_005_001.wav` と確定し、ffmpeg で手動書き出し
+  - **Wiki に無いボイスが1件**: `BS_Cosmo_KillsSomeone_012-002.wav` =「Case closed! Lab notes updated!」。未使用のまま
+  - アイコン: 音声 zip 同梱の `portrait_brawler_cosmo.png`（＝Game Assets の `Portrait_Cosmo` と同一、1759×1110）を使用。
+    コスモは**望遠鏡が頭**なので、このレンズのクローズアップが顔にあたる。crop は `780,60,900`。
+    全身が要るときは Game Assets の `BS_Portrait_COSMO_FULL_V2`（5000×5000）
+  - vl47 は Fandom 表記が "Do my chalkboard. I tried!" だが、音声は "Tell my chalkboard, I tried!" に近い。
+    quote は原文どおり、和訳は後者の読みに寄せた
+  - **`git add` は未実行**: `.git/index.lock`（0バイト）が残り、Cowork 側で削除許可が下りず消せなかった。
+    手元で `del .git\index.lock` してから `git add -A` → commit すること
+
+- **工場ツールの修正**（`~/Desktop/lexie_factory/tools/`、このリポジトリの外）
+  - `lexie_match.py`: `BS_RE` の数字区切りを `[-_]` 許容に。`BS_SCENE` に `gettinghurt` を追加
+  - `lexie_wikimap.py`: 同じく `BS_RE` を `[-_]` 許容に。`SCENE_ALIAS` に `gettinghurt` と `inlead` を追加。
+    さらに `key_of` を**フォールバック方式**に変更（未知の場面名を `None` で捨てず、綴りをそのまま場面として使う。
+    `lexie_match.py` の `scene_of` と同じ方針）。次に場面名が変わっても丸ごと落ちない
+  - `lexie_wikimap.py` に**欠番チェック**を追加（下記）
+
+- **⚠️ 次回の自分へ: wikimap の数字を信用しすぎないこと**
+  - 新命名（`bs_<id>_<場面>_NNN_MMM`）では、wiki 側と Fan Kit 側の番号は**別々に振られていて、
+    たまたま揃っているだけ**。Fan Kit 側に欠番があると、その番号から先が丸ごと1つずつずれる
+  - コスモで実測: 素朴に照合すると 60/67 が「割り当て成功」と出たが、**そのうち21本は別のセリフの音声**だった。
+    0/67 で失敗するより、60/67 で成功したように見えるほうが危ない
+  - 対策として `lexie_wikimap.py` に欠番チェックを入れた。場面ごとに Fan Kit の番号が 1 から連番かを見て、
+    欠番があればその場面を**丸ごと missing に落とし**、レポートの `unreliable_scenes` に欠番の番号と理由を出す
+  - **運用**: `unreliable_scenes` に出た場面は wikimap の結果を使わず、`lexie_match.py` の聞き取りで割り当てる。
+    出なかった場面だけ確定として扱ってよい
+  - コスモでの実績: 欠番なしの intobattle 15 + killssomeone 11 = **26本を確定**（聞き取り結果と26/26一致）。
+    欠番のあった lead / die / hurt / ulti の41本は missing に落ち、聞き取りに回った
+  - 旧命名（`<id>_<場面>_vo_NN`）は wiki と Fan Kit が**同じファイル名**で突き合わせるのでずれない。
+    欠番チェックの対象外にしてある（グローウィーの6件のような「本当に音声が無い」欠番はそのまま missing に出る）
+
 ### 2026-09-26 に完了した分
 
 - **アリー・ミナ・ジジ・グローウィーの4体を一括追加** — 96〜99体目。全員ウルトラレア（Mythic）
