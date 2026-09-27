@@ -3,7 +3,156 @@
   "nameEn": "Bo",
   "rarity": "hyper-rare",
   "role": "controller",
-  "quote": "Live strong as the mountains.",
-  "iconUrl": "https://i.imgur.com/cadkrXu.png",
+  "quote": "Live strong, as the mountains.",
+  "iconUrl": "/icons/bo.png",
+  "voicelines": [
+    {
+      "id": "bo_vl1",
+      "quote": "Live strong, as the mountains.",
+      "translation": "山のように、強く生きろ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>strong は形容詞ですが、ここでは live を修飾する副詞として使われています。live strong で「強く生きる」。</li><li>\"as the mountains\" は「山々のように」。動じない・揺るがないものの代表として山を持ち出しています。</li></ul><strong>英文法:</strong><br>\"as + 名詞\" は「〜のように」と比べる言い方です。同じ意味の like よりも硬く、格言や標語で好まれます。",
+      "audioUrl": "/audio/bo_vl1.mp3"
+    },
+    {
+      "id": "bo_vl2",
+      "quote": "Patience is the key.",
+      "translation": "忍耐こそが鍵だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>the key は「鍵」から転じて「決め手」「いちばん大事なもの」。a key ではなく the key にすると「これ1つが決め手」という断定になります。</li><li>patience は「我慢する力」。動詞は wait ではなく be patient（形容詞）を使います。</li></ul><strong>英文法:</strong><br>\"A is the key.\" は「Aこそが決め手だ」と言い切る型です。うしろに \"to 〜\" を付けると \"Patience is the key to victory.\"（忍耐が勝利の鍵）のように対象を示せます。",
+      "audioUrl": "/audio/bo_vl2.mp3"
+    },
+    {
+      "id": "bo_vl3",
+      "quote": "May you find peace.",
+      "translation": "安らかに眠れ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒した相手に向ける言葉で、「どうか安らぎを見つけられますように」という弔いの一言です。</li><li>find peace は「心の平安を得る」。亡くなった人に対して使うと「安らかに眠る」という意味になります。</li></ul><strong>英文法:</strong><br>\"May + 主語 + 動詞の原形\" で「どうか〜でありますように」という祈りを表します。May the force be with you.（フォースと共にあらんことを）と同じ形です。",
+      "audioUrl": "/audio/bo_vl3.mp3"
+    },
+    {
+      "id": "bo_vl4",
+      "quote": "The spirits are calling my name.",
+      "translation": "精霊たちが、私の名を呼んでいる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒された場面のセリフ。「迎えが来た」という意味で、死を精霊の呼び声にたとえています。</li><li>call one's name は「名前を呼ぶ」。my name と所有格を付けるのが自然で、call me とはニュアンスが違います。</li></ul><strong>英文法:</strong><br>現在進行形 \"are calling\" は、いま呼ばれている最中だという臨場感を出します。",
+      "audioUrl": "/audio/bo_vl4.mp3"
+    },
+    {
+      "id": "bo_vl5",
+      "quote": "Fly, like an eagle!",
+      "translation": "鷲のように、飛べ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ボウの頭の飾りはワシ。自分の象徴である鳥にたとえて味方を鼓舞しています。</li><li>eagle は「ワシ」。アメリカでは自由と力の象徴として特別な鳥です。</li></ul><strong>英文法:</strong><br>\"like + 名詞\" は「〜のように」。前置詞なので後ろには名詞（an eagle）が来ます。接続詞の as とは使い分けが必要です。<br><br><strong>🧠豆知識:</strong><br>Fly Like an Eagle はスティーヴ・ミラー・バンドの1976年の代表曲としても知られています。",
+      "audioUrl": "/audio/bo_vl5.mp3"
+    },
+    {
+      "id": "bo_vl6",
+      "quote": "I fight for my ancestors.",
+      "translation": "我が祖先のために戦う。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ancestor は「先祖」。祖先の名誉を背負って戦う、という部族の戦士らしい名乗りです。</li><li>fight for 〜 は「〜のために戦う」。fight with 〜 だと「〜と一緒に戦う」にも「〜と戦う」にもなり、あいまいになります。</li></ul><strong>英文法:</strong><br>前置詞 for は「〜のために」と目的・利益を示します。for my ancestors で「祖先に捧げるために」という意味になります。",
+      "audioUrl": "/audio/bo_vl6.mp3"
+    },
+    {
+      "id": "bo_vl7",
+      "quote": "The weakness of the enemy makes our strength.",
+      "translation": "敵の弱さが、我らの強さとなる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>weakness（弱さ）と strength（強さ）を並べた対句。相手の隙がこちらの力になる、という戦いの心得です。</li><li>\"the enemy\" は単数形ですが、集団としての「敵」全体を指します。</li></ul><strong>英文法:</strong><br>make はここでは「作る・生み出す」。\"A makes B\" で「AがBを生む」。無生物が主語になるのは英語ではごく普通の言い方です。",
+      "audioUrl": "/audio/bo_vl7.mp3"
+    },
+    {
+      "id": "bo_vl8",
+      "quote": "Let your spirit soar.",
+      "translation": "魂を、高く舞い上がらせろ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>soar は「舞い上がる」「高く飛翔する」。fly より高さと優雅さの含みが強い語です。</li><li>ここでも「飛ぶ」イメージが出てくるのは、ワシを象徴に持つボウらしいところです。</li></ul><strong>英文法:</strong><br>\"let + 目的語 + 動詞の原形\" で「〜に…させる」。to は付きません。Let it go.（そのままにしておけ）と同じ形です。",
+      "audioUrl": "/audio/bo_vl8.mp3"
+    },
+    {
+      "id": "bo_vl9",
+      "quote": "I am one with nature.",
+      "translation": "私は自然と一つだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>be one with 〜 は「〜と一体である」。宗教や武道の文脈でよく使われる言い方です。</li><li>nature は「自然」の意味では冠詞を付けません。the nature とすると「本質」という別の意味になります。</li></ul><strong>英文法:</strong><br>この one は数字ではなく「一体のもの」を指す代名詞です。with が「〜と」をつないでいます。",
+      "audioUrl": "/audio/bo_vl9.mp3"
+    },
+    {
+      "id": "bo_vl10",
+      "quote": "My aim is true.",
+      "translation": "私の狙いは、外れない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>aim は「狙い」。archer（射手）のボウにふさわしい、弓と矢の言い回しです。</li><li>ここでの true は「本当の」ではなく「正確な」「狙いどおりの」という古い意味です。</li></ul><strong>英文法:</strong><br>\"A is true.\" の true は形容詞。矢や刃物について使うと「まっすぐで狂いがない」という意味になります。<br><br><strong>🧠豆知識:</strong><br>エルヴィス・コステロのデビューアルバム名も My Aim Is True（1977年）で、この言い回しの有名な例です。",
+      "audioUrl": "/audio/bo_vl10.mp3"
+    },
+    {
+      "id": "bo_vl11",
+      "quote": "I am guided by the spirits.",
+      "translation": "私は、精霊に導かれている。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>guide は「導く」。道案内だけでなく、人生や判断を導くという意味でも使います。</li><li>the spirits と複数形なので、特定の一柱ではなく祖先や自然の霊たち全体を指しています。</li></ul><strong>英文法:</strong><br>\"be + 過去分詞 + by 〜\" の受動態です。「誰に導かれているか」を by で示しています。",
+      "audioUrl": "/audio/bo_vl11.mp3"
+    },
+    {
+      "id": "bo_vl12",
+      "quote": "I have been blessed by the spirits.",
+      "translation": "私は、精霊に祝福されてきた。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>bless は「祝福する」。神や霊から恵みを授けられる、という宗教的な語です。</li><li>優勢な場面のセリフで、「この強さは自分の手柄ではなく授かりもの」という謙虚さがにじみます。</li></ul><strong>英文法:</strong><br>\"have been + 過去分詞\" は現在完了の受動態。「過去のある時に祝福され、その状態が今も続いている」ことを表します。",
+      "audioUrl": "/audio/bo_vl12.mp3"
+    },
+    {
+      "id": "bo_vl13",
+      "quote": "Argh.",
+      "translation": "ぐあっ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ダメージを受けたときのうめき声です。つづりは argh / aargh / arrgh などゆれがあります。</li><li>痛みのほかに、いらだちや「もう最悪」という気持ちを表すときにも使われます。</li></ul><strong>英文法:</strong><br>品詞は間投詞（interjection）。文の中で主語や動詞の役割を持たず、声そのものを文字にしたものです。",
+      "audioUrl": "/audio/bo_vl13.mp3"
+    },
+    {
+      "id": "bo_vl14",
+      "quote": "There is no death, only a change of worlds.",
+      "translation": "死など無い。あるのは、世界が移り変わることだけだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>death（死）を否定して、a change of worlds（世界の移り変わり）と言い換えています。死を終わりではなく移動だと捉える考え方です。</li><li>\"a change of worlds\" は worlds と複数形。この世とあの世、2つ以上の世界を行き来する含みがあります。</li></ul><strong>英文法:</strong><br>\"There is no A, only B.\" は「Aは無い、あるのはBだけだ」という対比の型です。only の前で一度切ると、言い直しの効果が強まります。<br><br><strong>🧠豆知識:</strong><br>ネイティブアメリカンのスクアミッシュ族の首長シアトルの言葉として伝わっている一節です。",
+      "audioUrl": "/audio/bo_vl14.mp3"
+    },
+    {
+      "id": "bo_vl15",
+      "quote": "There is no end, only new beginnings.",
+      "translation": "終わりなど無い。あるのは、新たな始まりだけだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>end（終わり）を否定して new beginnings（新しい始まり）に置き換えています。倒されても終わりではない、という締めくくりです。</li><li>beginnings と複数形にすることで、始まりが何度でも訪れることを示しています。</li></ul><strong>英文法:</strong><br>\"There is no A, only B.\" の型です。ボウは \"There is no death, only a change of worlds.\"（死など無い、あるのは世界が移り変わることだけだ）でも同じ型を使っていて、この言い回しが彼の口ぐせになっています。",
+      "audioUrl": "/audio/bo_vl15.mp3"
+    },
+    {
+      "id": "bo_vl16",
+      "quote": "My mind is clear.",
+      "translation": "心は、澄んでいる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>clear は「澄んだ」「迷いのない」。曇りガラスの反対で、雑念が無い状態を表します。</li><li>狙いを定める直前の一言で、集中しきっていることを示しています。</li></ul><strong>英文法:</strong><br>\"My mind is 〜\" は心の状態を言う定番の形です。clear のほかに blank（真っ白）、made up（決まった）などが入ります。",
+      "audioUrl": "/audio/bo_vl16.mp3"
+    },
+    {
+      "id": "bo_vl17",
+      "quote": "We must fight for peace!",
+      "translation": "平和のために、戦わねばならない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「平和のために戦う」という矛盾をあえて口にしています。守るための戦いだ、というボウの立場が出ています。</li><li>I ではなく We と言うことで、部族や仲間を背負っていることが分かります。</li></ul><strong>英文法:</strong><br>must は「〜しなければならない」。have to が外からの事情を表すのに対し、must は話し手自身の強い意志や信念を表します。",
+      "audioUrl": "/audio/bo_vl17.mp3"
+    },
+    {
+      "id": "bo_vl18",
+      "quote": "The wind speaks to me.",
+      "translation": "風が、私に語りかける。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>風という自然物を、話しかけてくる相手として描いています。自然と通じ合っているという自負です。</li><li>speak to 〜 は「〜に話しかける」。talk to より一方向で、改まった響きがあります。</li></ul><strong>英文法:</strong><br>人ではないものを人のように書く表現を擬人法（personification）といいます。主語 The wind に人間の動作 speaks を取らせているのがその例です。",
+      "audioUrl": "/audio/bo_vl18.mp3"
+    },
+    {
+      "id": "bo_vl19",
+      "quote": "Day and night cannot dwell together.",
+      "translation": "昼と夜は、共には住めぬ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>dwell は「住む」「とどまる」。live より古風で、詩や格言で使われる語です。</li><li>昼と夜のように、自分と敵は決して同じ場所には居られない、という決別の言葉です。</li></ul><strong>英文法:</strong><br>cannot は「〜できない」。ここでは能力ではなく「そういうことは起こりえない」という道理を表しています。<br><br><strong>🧠豆知識:</strong><br>これも首長シアトルの演説として伝わる一節をもとにした言い回しです。",
+      "audioUrl": "/audio/bo_vl19.mp3"
+    },
+    {
+      "id": "bo_vl20",
+      "quote": "There is much, to learn.",
+      "translation": "学ぶべきことは、まだ多い。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>負けた場面のセリフ。敗北を「まだ学びが足りなかった」と受け止める姿勢が出ています。</li><li>この much は「多くのこと」という意味の代名詞で、単独で主語や目的語になれます。</li></ul><strong>英文法:</strong><br>\"to learn\" は直前の much を説明する不定詞（形容詞的用法）で、「学ぶべき多くのこと」となります。\"something to eat\"（食べるもの）と同じ形です。",
+      "audioUrl": "/audio/bo_vl20.mp3"
+    },
+    {
+      "id": "bo_vl21",
+      "quote": "One breath, one shot.",
+      "translation": "一息に、一矢。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>息を一つ整えて、矢を一本。弓の射手が集中を作る手順をそのまま言葉にしています。</li><li>One 〜, one 〜 と同じ形を2回並べることで、静かな儀式のような響きになっています。</li></ul><strong>英文法:</strong><br>動詞が無く名詞だけを並べた文です。標語や心得はこの形にすると短く強くなります。",
+      "audioUrl": "/audio/bo_vl21.mp3"
+    }
+  ],
   "tiktokEmbed": "\n      <blockquote class=\"tiktok-embed\" cite=\"https://www.tiktok.com/@bion329/video/7512403083163356437\" data-video-id=\"7512403083163356437\" style=\"max-width: 605px;min-width: 325px;\" > <section> <a target=\"_blank\" title=\"@bion329\" href=\"https://www.tiktok.com/@bion329?refer=embed\">@bion329</a> ボウ和訳集【ブロスタ和訳】 #ブロスタ <a title=\"brawlstars\" target=\"_blank\" href=\"https://www.tiktok.com/tag/brawlstars?refer=embed\">#BrawlStars</a> #ボウ <a title=\"bo\" target=\"_blank\" href=\"https://www.tiktok.com/tag/bo?refer=embed\">#Bo</a> <a target=\"_blank\" title=\"♬ original sound - ビオン&#47;BION - ビオン&#47;BION【ブロスタ翻訳】\" href=\"https://www.tiktok.com/music/original-sound-ビオンBION-7512403150356155153?refer=embed\">♬ original sound - ビオン&#47;BION - ビオン&#47;BION【ブロスタ翻訳】</a> </section> </blockquote>\n    "
 }
