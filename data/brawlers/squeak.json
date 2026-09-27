@@ -4,6 +4,29 @@
   "rarity": "ultra-rare",
   "role": "damage-dealer",
   "quote": "*Happy gurgling*",
-  "iconUrl": "https://i.imgur.com/kQUZFWn.png",
+  "iconUrl": "/icons/squeak.png",
+  "voicelines": [
+    {
+      "id": "squeak_vl1",
+      "quote": "Squeak giggles",
+      "translation": "（スクウィークがクスクス笑う）",
+      "explanation": "<strong>解説:</strong><br><ul><li>スクウィークは言葉を話さず、この笑い声だけで気持ちを伝えます。登場したとき・優勢なとき・敵を倒したときに聞けます。</li><li>giggle は「クスクス笑う」。laugh より小さく高い、子どもがうれしそうに漏らす笑いを指す語です。</li><li>粘土のかたまりが楽しそうに笑っていると思うと、かわいさと不気味さが同居しています。</li></ul>",
+      "audioUrl": "/audio/squeak_vl1.mp3"
+    },
+    {
+      "id": "squeak_vl2",
+      "quote": "Squeak whimpers",
+      "translation": "（スクウィークがめそめそ鳴く）",
+      "explanation": "<strong>解説:</strong><br><ul><li>ダメージを受けたときと、倒されたときに聞ける弱々しい声です。</li><li>whimper は「めそめそ泣く」「クンクン鳴く」。子犬が甘えたり怖がったりするときの鳴き声にも使う語です。</li><li>T.S.エリオットの詩の一節 \"not with a bang but a whimper\"（ドカンとではなく、めそめそと）でも知られる単語です。</li></ul>",
+      "audioUrl": "/audio/squeak_vl2.mp3"
+    },
+    {
+      "id": "squeak_vl3",
+      "quote": "Squeak screams",
+      "translation": "（スクウィークが悲鳴を上げる）",
+      "explanation": "<strong>解説:</strong><br><ul><li>大きなダメージを受けたときの、ひときわ甲高い一声です。</li><li>scream は「金切り声を上げる」。同じ「叫ぶ」でも shout（大声で呼ぶ）より、恐怖や痛みで思わず出る高い声を指します。</li><li>いつものクスクス笑いとの落差で、よほど痛かったのが伝わってきます。</li></ul>",
+      "audioUrl": "/audio/squeak_vl3.mp3"
+    }
+  ],
   "tiktokEmbed": "\n      <blockquote class=\"tiktok-embed\" cite=\"https://www.tiktok.com/@bion329/video/7516088823596453140\" data-video-id=\"7516088823596453140\" style=\"max-width: 605px;min-width: 325px;\" > <section> <a target=\"_blank\" title=\"@bion329\" href=\"https://www.tiktok.com/@bion329?refer=embed\">@bion329</a> スクウィーク和訳集【ブロスタ和訳】 心臓が弱い方は控えることお勧めします。（そんなガチのびっくりって感じじゃないです） #ブロスタ #BrawlStars <a title=\"squeak\" target=\"_blank\" href=\"https://www.tiktok.com/tag/squeak?refer=embed\">#Squeak</a> <a target=\"_blank\" title=\"♬ original sound  - ビオン&#47;BION【ブロスタ翻訳】\" href=\"https://www.tiktok.com/music/original-sound-ビオンBIONブロスタ翻訳-7516088881336355601?refer=embed\">♬ original sound  - ビオン&#47;BION【ブロスタ翻訳】</a> </section> </blockquote>\n    "
 }
