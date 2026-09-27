@@ -130,6 +130,27 @@ git push
 
 ### 2026-09-27 に完了した分
 
+- **ボルト（Bolt / タンク / ハイパーレア）を追加** — 104体目。36セリフ・**欠番なし**（ブランチ `test/bolt`）
+  - 日本語名「ボルト」は `info.txt` 指定。GameWith・ゲームラインとも一致。2026年実装の Epic タンク。
+    設定は Battle Bumperz というおもちゃシリーズの一体で、レースカーになりたがっている（Brawlify）
+  - Fandom・Fan Kit とも**旧命名**（`bolt start vo 01.ogg` / `bolt_start_vo_01.wav`）で 1:1 対応。
+    `unreliable_scenes` は空、`missing` 0 で**一発完全一致**
+  - Fandom の Ogg は37件。うち `hurt06` と `ulti03` が同じ "Road rage!" で wikimap が統合して **36本**。
+    採用したのは `ulti03`（ページ上の出現が先）、`hurt06` は `kit_files_unused` に落ちた
+  - 内訳は start7 / lead4 / hurt7(→6) / kill6 / die5 / ulti8。Fandom の Attacking 列は空で Fan Kit にも攻撃ボイスなし
+  - **zip に別ブロウラーのファイルが1件混入**: `max lightning bolt spawn 01mix.wav`（MAXの音声が "bolt" 検索に引っかかったもの）。
+    `key_of()` がファイル名の形（`_vo_` が無い）で弾くため `skipped_other_brawler` には計上されず**0件表示**になるが、
+    実際には候補に入っていないことを確認済み。**名前フィルタではなく命名規則フィルタで落ちている**点に注意
+  - **半角スペース区切りのファイルが1件**: `bolt theme load 01.wav`（BGM）。同じく命名規則フィルタで除外され、処理は落ちなかった
+  - スキン音声は0件。`brawler_names_seen` は `{bolt: 37}` のみ
+  - アイコンは inbox の `icon.png`（2400×1602）。crop は `250,400,1200`
+  - 検証: 音声36本を元wavと**尺で全数照合**（全件一致）、さらに**全36本を whisper で書き起こして期待セリフと突き合わせ**、
+    34本が音韻的に一致。残り2本（`Engine failure!` / `Road rage!`）は加工が強く認識自体が失敗しただけで、
+    他のセリフとの取り違えではないことを多言語モデルでも再確認。元wav・出力mp3とも md5 重複0。
+    公開後の mp3 は工場側と **md5 一致**。既存103ページの差分は「全103→全104」「バナー ジギー→ボルト」
+    「リンク一覧に bolt 1行」のみで**退行なし**。audio/ icons/ の既存ファイルは1件も変化なし
+  - ⚠️ **今回も削除許可が下りなかった**（`rm` が `Operation not permitted`）。`mv` は通る
+
 - **ジギー（Ziggy / コントローラー / ウルトラレア）を追加** — 103体目。50セリフ・**欠番なし**（ブランチ `test/ziggy`）
   - 日本語名「ジギー」は GameWith系サイトで一致。表記揺れなし。2025/10/17 実装（10/18 早期解禁）
   - Fandom・Fan Kit とも**旧命名**（`Ziggy start vo 01.ogg` / `ziggy_start_vo_01.ogg`）で 1:1 対応。

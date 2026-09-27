@@ -1,0 +1,262 @@
+{
+  "name": "ボルト",
+  "nameEn": "Bolt",
+  "rarity": "hyper-rare",
+  "role": "tank",
+  "quote": "Vroom vroom, meet your doom.",
+  "iconUrl": "/icons/bolt.png",
+  "voicelines": [
+    {
+      "id": "bolt_vl1",
+      "quote": "Buckle up, it's gonna be a bumpy ride.",
+      "translation": "シートベルト締めとけよ、揺れるぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>buckle up はシートベルトを締めること。そこから「覚悟しておけ」という前振りにもなります。</li><li>a bumpy ride はでこぼこ道の乗り心地のことで、「荒れた展開」「波乱」という比喩でもよく使われます。</li></ul><strong>英文法:</strong><br>\"it's gonna be\" は \"it is going to be\" の口語形。gonna は going to のくずれた発音をそのまま書いたものです。",
+      "audioUrl": "/audio/bolt_vl1.mp3"
+    },
+    {
+      "id": "bolt_vl2",
+      "quote": "P1 as usual.",
+      "translation": "いつも通り、P1だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>P1 は position 1 の略で、モータースポーツで「1位」を指す表記です。順位は P2、P3 と続きます。</li><li>as usual は「いつも通り」。1位が当たり前だと言い切る自信家ぶりが出ています。</li></ul><strong>英文法:</strong><br>動詞がない2語の省略文です。実況や結果表示のように、短く言い切る場面で使われます。",
+      "audioUrl": "/audio/bolt_vl2.mp3"
+    },
+    {
+      "id": "bolt_vl3",
+      "quote": "Fumes of fury!",
+      "translation": "怒りの排気ガス！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>fumes は車の排気や化学物質のような、体に悪い煙・ガスを指す語です。smoke とは違い、においや有害さの含みがあります。</li><li>fumes と fury で f の音を重ねた言葉遊びになっています。</li></ul><strong>英文法:</strong><br>\"A of B\" は「BのA」。ここでは fury（激怒）が fumes を修飾し、「怒りから出た排気ガス」という意味になります。",
+      "audioUrl": "/audio/bolt_vl3.mp3"
+    },
+    {
+      "id": "bolt_vl4",
+      "quote": "End of the road for you.",
+      "translation": "お前はここで行き止まりだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>the end of the road は「道の終わり」から転じて「もうこれ以上先はない」「終わり」という決まった言い方です。</li><li>車のキャラが言うと、比喩と文字通りの道の両方に掛かって効きます。</li></ul><strong>英文法:</strong><br>動詞のない名詞句だけの文。最後の \"for you\" が「お前にとっての」と限定を加えています。",
+      "audioUrl": "/audio/bolt_vl4.mp3"
+    },
+    {
+      "id": "bolt_vl5",
+      "quote": "Call the tow truck.",
+      "translation": "レッカー車を呼んどけ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>tow truck は動かなくなった車を引っ張っていくレッカー車。tow は「牽引する」という動詞です。</li><li>倒された自分を「自走できなくなった車」に見立てた、車キャラらしい負けぜりふです。</li></ul><strong>英文法:</strong><br>主語を省いた命令文。the が付いているのは「（この状況で当然呼ぶべき）あのレッカー車」という感覚です。",
+      "audioUrl": "/audio/bolt_vl5.mp3"
+    },
+    {
+      "id": "bolt_vl6",
+      "quote": "Engaging power core.",
+      "translation": "パワーコア、始動。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>engage は歯車をかみ合わせる、装置を作動させるという意味。ギアを入れるときにも使います。</li><li>core は中心部・炉心。power core で動力源そのものを指しています。</li></ul><strong>英文法:</strong><br>主語を省いて -ing だけで始める形は、機械のアナウンスや操作ログでよく使われます（「〜しています」の実況調）。",
+      "audioUrl": "/audio/bolt_vl6.mp3"
+    },
+    {
+      "id": "bolt_vl7",
+      "quote": "Full throttle, zero mercy.",
+      "translation": "アクセル全開、情け容赦なし。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>throttle はエンジンへの燃料・空気を調整する装置。full throttle で「全開」、つまり全力です。</li><li>full（満）と zero（ゼロ）を並べた対比が効いています。mercy は慈悲・情け。</li></ul><strong>英文法:</strong><br>動詞を使わず名詞句を2つコンマで並べた形。標語やキャッチコピーによくあるリズムです。",
+      "audioUrl": "/audio/bolt_vl7.mp3"
+    },
+    {
+      "id": "bolt_vl8",
+      "quote": "Pole position.",
+      "translation": "ポールポジション。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>pole position は予選最速の車がもらえる、最前列いちばん内側のスタート位置です。</li><li>レース以外でも「いちばん有利な立場」という意味で使われます。</li></ul><strong>英文法:</strong><br>名詞2語だけの言い切り。冠詞すら付けずに状態を宣言する、実況的な言い方です。",
+      "audioUrl": "/audio/bolt_vl8.mp3"
+    },
+    {
+      "id": "bolt_vl9",
+      "quote": "You boil my oil!",
+      "translation": "オイルが煮えくり返るぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「頭に来る」を表す \"You make my blood boil\"（血が沸く）という言い方を、blood → oil に置き換えた言葉遊びです。</li><li>血ではなくオイルが沸く、というのが機械キャラの怒り方になっています。</li></ul><strong>英文法:</strong><br>boil は「沸く」だけでなく「〜を沸かす」という他動詞にもなります。ここは You が主語なので「お前が俺のオイルを沸かす」という形です。",
+      "audioUrl": "/audio/bolt_vl9.mp3"
+    },
+    {
+      "id": "bolt_vl10",
+      "quote": "You ran out of gas.",
+      "translation": "ガス欠だな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>run out of ～ は「～を使い切る」。gas はアメリカ英語でガソリンのこと（イギリスでは petrol）。</li><li>倒した相手を「燃料切れで止まった車」として扱っています。</li></ul><strong>英文法:</strong><br>ran は run の過去形（run - ran - run）。すでに切れてしまった状態なので過去形になっています。",
+      "audioUrl": "/audio/bolt_vl10.mp3"
+    },
+    {
+      "id": "bolt_vl11",
+      "quote": "Engine failure!",
+      "translation": "エンジン故障！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>failure は「失敗」だけでなく、機械の「故障・不具合」も指します。engine failure はレースでのリタイア理由の定番表現です。</li><li>自分の敗北を「壊れた」と機械的に言うのがボルトらしいところです。</li></ul><strong>英文法:</strong><br>名詞2語だけの感嘆文。engine が failure を修飾する複合名詞の形です。",
+      "audioUrl": "/audio/bolt_vl11.mp3"
+    },
+    {
+      "id": "bolt_vl12",
+      "quote": "Maximum speed vortex!",
+      "translation": "最大速度の渦！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>vortex は水や空気の渦。高速で回りながら突っ込むボルトの動きを表しています。</li><li>maximum は「最大の」。max はこの語の略です。</li></ul><strong>英文法:</strong><br>名詞が3つ連なった複合名詞です。英語では前の名詞が後ろの名詞を説明していくので、中心は最後の vortex になります。",
+      "audioUrl": "/audio/bolt_vl12.mp3"
+    },
+    {
+      "id": "bolt_vl13",
+      "quote": "Honk if you like pain. Beep beep!",
+      "translation": "痛いのが好きならクラクション鳴らせ。ビービー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>honk はクラクションを鳴らすこと。ガチョウの鳴き声にも使う語です。</li><li>アメリカの車には \"Honk if you love ～\"（～が好きならクラクションを鳴らして）と書いたステッカーを貼る文化があり、その型をそのままなぞっています。</li></ul><strong>英文法:</strong><br>命令文＋if節。「もし～なら…しろ」という形で、if節は後ろに置いてもコンマは不要です。",
+      "audioUrl": "/audio/bolt_vl13.mp3"
+    },
+    {
+      "id": "bolt_vl14",
+      "quote": "Pine scented perfection.",
+      "translation": "パインの香り、完璧。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>scented は「～の香りのついた」。pine scented で「松の香り付き」です。</li><li>車のミラーに吊り下げる松の木の形の芳香剤を指しています。車の「いい状態」を香りで自慢しているわけです。</li></ul><strong>英文法:</strong><br>\"pine scented\" は名詞＋過去分詞で1つの形容詞として働く形です（sugar coated、hand made なども同じ作りです）。",
+      "audioUrl": "/audio/bolt_vl14.mp3"
+    },
+    {
+      "id": "bolt_vl15",
+      "quote": "Stay in your lane!",
+      "translation": "自分のレーンから出るな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>lane は車線。文字通りは「車線を守れ」ですが、日常では「余計な口を出すな」「身の丈をわきまえろ」という意味で使われます。</li><li>車のキャラが言うことで、その二重の意味がそのまま生きています。</li></ul><strong>英文法:</strong><br>stay in ～ は「～の中にとどまる」。stay は「その状態のままでいる」ことを表す動詞です。",
+      "audioUrl": "/audio/bolt_vl15.mp3"
+    },
+    {
+      "id": "bolt_vl16",
+      "quote": "You got lapped!",
+      "translation": "周回遅れだぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>lap は名詞で「1周」、動詞で「～を周回遅れにする」。lapped されるのはレースで最も屈辱的な状況です。</li><li>ただ倒すのではなく「速さで一周分の差をつけた」と煽っています。</li></ul><strong>英文法:</strong><br>\"get + 過去分詞\" で受け身を表します。be 動詞より口語的で、「～されてしまった」という被害の感じが出ます。",
+      "audioUrl": "/audio/bolt_vl16.mp3"
+    },
+    {
+      "id": "bolt_vl17",
+      "quote": "Time for the safety car.",
+      "translation": "セーフティカーの出番だな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>safety car は事故が起きたときにコースの先頭を走り、全車を減速させる車のことです。</li><li>つまり「自分がコース上の事故になった」＝倒された、という言い方になっています。</li></ul><strong>英文法:</strong><br>\"It's time for ～\" の It's が省略された形。会話では冒頭の It's を落として Time for ～ と言うことがよくあります。",
+      "audioUrl": "/audio/bolt_vl17.mp3"
+    },
+    {
+      "id": "bolt_vl18",
+      "quote": "Road rage!",
+      "translation": "ロードレイジ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>road rage は運転中に怒りが爆発すること。あおり運転や car をめぐるトラブルを指す、実際に使われている言葉です。</li><li>rage は「激怒」。ボルトの怒りがそのまま走りの勢いになっています。</li></ul><strong>英文法:</strong><br>road が rage を説明する複合名詞です。air rage（機内での激昂）のように、場所＋rage の形で他にも作られます。",
+      "audioUrl": "/audio/bolt_vl18.mp3"
+    },
+    {
+      "id": "bolt_vl19",
+      "quote": "Brake pedal? What's that?",
+      "translation": "ブレーキペダル？何それ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>brake は「ブレーキ（をかける）」。break（壊す）と発音が同じなので、つづりを取り違えやすい語です。</li><li>ブレーキを知らない、つまり「絶対に止まらない」という宣言になっています。</li></ul><strong>英文法:</strong><br>\"What's that?\" は「それ何？」。知らないふりをしてとぼける言い方で、相手の言葉をあえて聞き返す形です。",
+      "audioUrl": "/audio/bolt_vl19.mp3"
+    },
+    {
+      "id": "bolt_vl20",
+      "quote": "Be-be-be-beep-be-beep!",
+      "translation": "ビビビビーッ、ビビーッ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>beep は短く高い電子音やクラクションの音を表す語です。</li><li>最初の音を be- be- be- と刻んでから beep とつなげ、クラクションを連打しているリズムを作っています。</li></ul><strong>英文法:</strong><br>擬音語をハイフンでつないで繰り返す書き方です。つづりの区切りがそのまま音の区切りになります。",
+      "audioUrl": "/audio/bolt_vl20.mp3"
+    },
+    {
+      "id": "bolt_vl21",
+      "quote": "Ah, time for a pit stop.",
+      "translation": "ああ、ピットインの時間か。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>pit stop はレース中にピットへ入って給油やタイヤ交換をする停止のこと。日常では「ちょっと休憩・寄り道」の意味でも使います。</li><li>ダメージを受けて一旦引く場面に、レース用語をそのまま当てています。</li></ul><strong>英文法:</strong><br>a pit stop と冠詞が付くのは、pit stop が数えられる名詞（1回の停止）だからです。",
+      "audioUrl": "/audio/bolt_vl21.mp3"
+    },
+    {
+      "id": "bolt_vl22",
+      "quote": "No pit crew is gonna save you.",
+      "translation": "どんなピットクルーでもお前は救えないぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>pit crew はピットでタイヤ交換や給油を担当する作業班。F1では数秒で全部終える集団です。</li><li>その最速の助けでも間に合わない、という煽りになっています。</li></ul><strong>英文法:</strong><br>\"No + 名詞\" を主語にすると「どんな～も…しない」という全否定になります。動詞は肯定形のままで、no が否定を担います。",
+      "audioUrl": "/audio/bolt_vl22.mp3"
+    },
+    {
+      "id": "bolt_vl23",
+      "quote": "Fatal fusion.",
+      "translation": "致命の融合。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>fatal は「命にかかわる」「致命的な」。fate（運命）と同じ語源で、避けられない結末の感じがあります。</li><li>fusion は融合。fatal と fusion で f の音をそろえています。</li></ul><strong>英文法:</strong><br>形容詞＋名詞の2語だけで言い切る形。倒された場面なので「自分が溶けて終わった」と読める言い方です。",
+      "audioUrl": "/audio/bolt_vl23.mp3"
+    },
+    {
+      "id": "bolt_vl24",
+      "quote": "Crash and brawl!",
+      "translation": "ぶつかって、暴れろ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"rock and roll\"（さあ始めるぞ）の型に crash（衝突する）と brawl（乱闘する）を当てはめた言葉遊びです。</li><li>brawl はゲーム名 Brawl Stars の brawl でもあります。</li></ul><strong>英文法:</strong><br>動詞2つを and でつないだ命令文。英語では \"A and B\" の形で勢いのある決めぜりふを作ることがよくあります。",
+      "audioUrl": "/audio/bolt_vl24.mp3"
+    },
+    {
+      "id": "bolt_vl25",
+      "quote": "Vroom vroom, meet your doom.",
+      "translation": "ブロロン、お前の最期だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>vroom はエンジンがうなる音を表す擬音語です。</li><li>vroom と doom で韻を踏んでいて、口に出したときのリズムが良くなっています。</li></ul><strong>英文法:</strong><br>\"meet one's doom\" は「破滅を迎える」という決まった言い方。doom は避けようのない悲惨な運命を指します。",
+      "audioUrl": "/audio/bolt_vl25.mp3"
+    },
+    {
+      "id": "bolt_vl26",
+      "quote": "Just a small bump in the road.",
+      "translation": "ちょっとした段差にすぎないさ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"a bump in the road\" は道の小さな段差から転じて「ちょっとした障害・つまずき」という言い方です。</li><li>ダメージを受けても「大したことない」と流している場面。bump はボルトの体当たり攻撃そのものでもあります。</li></ul><strong>英文法:</strong><br>\"just a ～\" で「ほんの～にすぎない」。just が「たかが」という軽い扱いを加えています。",
+      "audioUrl": "/audio/bolt_vl26.mp3"
+    },
+    {
+      "id": "bolt_vl27",
+      "quote": "Box, box, you done.",
+      "translation": "ボックス、ボックス、お前は終わりだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>F1では無線で「ピットに入れ」を box box と伝えます。ここではその指示を相手に向けて「お前は交代だ」と言い放っています。</li><li>you done は you're done（お前はもう終わり）の be動詞を落とした形です。</li></ul><strong>英文法:</strong><br>会話では be動詞が落ちることがあります。\"You done?\"（終わった？）のように、崩した口語でよく見られます。<br><br><strong>🧠豆知識:</strong><br>box はドイツ語の Boxenstopp（ピットストップ）から来た言葉です。走行中の無線では pit より box のほうが聞き分けやすいため定着し、今ではどのチームも box box と繰り返して緊急度を伝えています。",
+      "audioUrl": "/audio/bolt_vl27.mp3"
+    },
+    {
+      "id": "bolt_vl28",
+      "quote": "I spun out!",
+      "translation": "スピンした！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>spin out は車がグリップを失ってコマのように回ってしまうこと。レースでよく起きるミスです。</li><li>回転して突っ込むボルトにとっては、制御を失った回転が敗因になるのが皮肉です。</li></ul><strong>英文法:</strong><br>spun は spin の過去形（spin - spun - spun）。原形と過去形でつづりが変わるので注意が必要な動詞です。",
+      "audioUrl": "/audio/bolt_vl28.mp3"
+    },
+    {
+      "id": "bolt_vl29",
+      "quote": "Time to wreck and roll.",
+      "translation": "壊して転がる時間だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>これも \"rock and roll\" のもじりで、rock を wreck（大破させる）に替えています。</li><li>roll は「転がる」。転がって体当たりするボルトの動きそのままです。</li></ul><strong>英文法:</strong><br>\"time to + 動詞の原形\" で「～する時間だ」。to のあとは必ず原形になります。",
+      "audioUrl": "/audio/bolt_vl29.mp3"
+    },
+    {
+      "id": "bolt_vl30",
+      "quote": "3, 2, 1, go!",
+      "translation": "3、2、1、ゴー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>レースのスタートを切るカウントダウンです。英語では数を下げていって最後に go! と号令をかけます。</li><li>試合開始の合図を自分で出してしまうのが、レース好きのボルトらしいところです。</li></ul><strong>英文法:</strong><br>数字の羅列の最後に来る go! は命令文。Ready, set, go! も同じ型の号令です。",
+      "audioUrl": "/audio/bolt_vl30.mp3"
+    },
+    {
+      "id": "bolt_vl31",
+      "quote": "Bolt and jolt.",
+      "translation": "ボルトでビリッと。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>bolt は自分の名前ですが、「稲妻」「勢いよく飛び出す」という意味も持ちます。</li><li>jolt は急な衝撃やガタンとくる揺れ。bolt と jolt で韻を踏んだ決めぜりふです。</li></ul><strong>英文法:</strong><br>名詞（または動詞）を and でつないだ2語の対句。音をそろえることで、意味よりリズムで決める言い方になっています。",
+      "audioUrl": "/audio/bolt_vl31.mp3"
+    },
+    {
+      "id": "bolt_vl32",
+      "quote": "Total carnage!",
+      "translation": "完全な破壊だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>carnage は大勢が死ぬような惨状を指す強い語です。事故現場の描写にも使われます。</li><li>total はここでは「完全な」「徹底した」という強調です。</li></ul><strong>英文法:</strong><br>形容詞＋名詞の2語の感嘆文。動詞を入れずに状況だけを叫ぶことで勢いが出ています。",
+      "audioUrl": "/audio/bolt_vl32.mp3"
+    },
+    {
+      "id": "bolt_vl33",
+      "quote": "Let's put the pedal to the metal.",
+      "translation": "アクセルを床まで踏み込むぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>put the pedal to the metal は「全力で飛ばす」という決まった言い方。アクセルペダルを床の金属板まで踏み込む様子から来ています。</li><li>pedal と metal で韻を踏んでいるので、言い回しとして覚えやすくなっています。</li></ul><strong>英文法:</strong><br>\"Let's + 動詞の原形\" で「～しよう」。put A to B は「AをBまで持っていく」という形です。",
+      "audioUrl": "/audio/bolt_vl33.mp3"
+    },
+    {
+      "id": "bolt_vl34",
+      "quote": "Eat my skid marks.",
+      "translation": "俺のタイヤ痕でも食ってろ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>skid mark は急ブレーキやスピンで路面に残る黒いタイヤ痕です。</li><li>\"Eat my dust\"（俺の巻き上げた砂埃を食らえ＝置き去りにしてやる）という煽り文句を、タイヤ痕に替えた言い方です。</li></ul><strong>英文法:</strong><br>命令文。\"Eat my ～\" は「～を食らえ」という挑発の型で、実際に食べさせるわけではありません。",
+      "audioUrl": "/audio/bolt_vl34.mp3"
+    },
+    {
+      "id": "bolt_vl35",
+      "quote": "Cruise and crash!",
+      "translation": "流して、ぶつける！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>cruise は一定の速度で気持ちよく走ること。クルーズコントロールの cruise です。</li><li>穏やかな cruise と激しい crash を並べ、さらに c の音をそろえています。</li></ul><strong>英文法:</strong><br>動詞2つを and でつないだ命令文。意味の落差がある語を並べると、決めぜりふとして印象に残ります。",
+      "audioUrl": "/audio/bolt_vl35.mp3"
+    },
+    {
+      "id": "bolt_vl36",
+      "quote": "Brawler burnout!",
+      "translation": "ブロウラー・バーンアウト！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>burnout はブレーキをかけたままタイヤを空転させ、煙を上げる走り屋の技のことです。</li><li>同じ語で「（人が）燃え尽きる」という意味もあり、相手を燃え尽きさせるという読みも重なります。</li></ul><strong>英文法:</strong><br>名詞2つの複合名詞。burn out（燃え尽きる）という動詞句が1語の名詞になったもので、名詞のときは離して書きません。",
+      "audioUrl": "/audio/bolt_vl36.mp3"
+    }
+  ]
+}
