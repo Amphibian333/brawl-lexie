@@ -12,6 +12,141 @@
       let fontSize = localStorage.getItem('lexie_font_size') || 'md';
       let brawlerObserver = null;
 
+      // ■ 音声の有無を実行時に確かめる仕組み
+      // 公式（Supercell Fan Kit）にまだ音声が無いセリフがある。該当するセリフのファイルは
+      // サーバーに置かれていないので、再生ボタンを押しても無反応になってしまう。
+      // そこで実際に HTTP で存在を確かめて、無いものは「音声準備中」と表示する。
+      // キャラ名やセリフ番号をコードに書かないので、音声が後から追加されたら
+      // 次にそのページを開いた時点で自動的に通常の再生ボタンに戻る。
+      const audioStatus = new Map(); // audioUrl -> "ok" | "missing"
+
+      async function probeAudio(url) {
+        if (!url) return "missing";
+        if (audioStatus.has(url)) return audioStatus.get(url);
+        let state = "ok";
+        try {
+          const res = await fetch(url, { method: "HEAD" });
+          state = res.ok ? "ok" : "missing";
+        } catch (e) {
+          // 通信エラー（オフラインなど）は「音声が無い」と決めつけない
+          return "ok";
+        }
+        audioStatus.set(url, state);
+        return state;
+      }
+
+      // 再生ボタンを「音声準備中」の見た目にする
+      function applyAudioPending(btn) {
+        if (!btn || btn.classList.contains("audio-pending")) return;
+        btn.classList.add("audio-pending");
+        btn.disabled = true;
+        btn.textContent = "音声準備中";
+        btn.title = "公式の音声がまだ公開されていません";
+        const item = btn.closest(".voiceline-item");
+        if (item) item.classList.add("audio-pending-item");
+      }
+
+      // 指定した URL の再生ボタンをすべて「音声準備中」にする
+      function markAudioMissing(url) {
+        if (!url) return;
+        audioStatus.set(url, "missing");
+        document
+          .querySelectorAll(".voiceline-play-btn")
+          .forEach((b) => {
+            if (b.dataset.audioSrc === url) applyAudioPending(b);
+          });
+        // 連続再生は playTrackByIndex 側で読み飛ばす（ここで playlist を削ると
+        // 再生中の currentIndex がずれるため、配列そのものは触らない）
+        updateAllPendingNotice();
+      }
+
+      // そのキャラの音声が1つも無いときだけ、一覧の上にお知らせを出す
+      function updateAllPendingNotice() {
+        const container = document.getElementById("voiceline-list-container");
+        if (!container) return;
+        const btns = [...container.querySelectorAll(".voiceline-play-btn")];
+        const notice = document.getElementById("audio-pending-notice");
+        // まだ調べていないセリフは判定に入れない（先頭から順に調べていくため）
+        const known = btns.filter((b) => audioStatus.has(b.dataset.audioSrc));
+        const allPending =
+          known.length >= Math.min(3, btns.length) &&
+          known.length > 0 &&
+          known.every((b) => b.classList.contains("audio-pending"));
+        if (notice) notice.style.display = allPending ? "block" : "none";
+      }
+
+      // 画面に出ているセリフの音声を一通り確かめる（同時6件まで）
+      async function refreshAudioAvailability() {
+        const btns = [
+          ...document.querySelectorAll(".voiceline-play-btn[data-audio-src]"),
+        ].filter((b) => b.dataset.audioSrc);
+        if (!btns.length) return;
+        const urls = [...new Set(btns.map((b) => b.dataset.audioSrc))];
+        const CONCURRENCY = 6;
+        for (let i = 0; i < urls.length; i += CONCURRENCY) {
+          const part = urls.slice(i, i + CONCURRENCY);
+          const states = await Promise.all(part.map(probeAudio));
+          part.forEach((url, k) => {
+            if (states[k] === "missing") {
+              btns.forEach((b) => {
+                if (b.dataset.audioSrc === url) applyAudioPending(b);
+              });
+            }
+          });
+        }
+        updateAllPendingNotice();
+      }
+
+      // 表示されたセリフだけを確かめる（全部まとめて問い合わせると
+      // セリフの多いキャラで通信が増えるため、画面に入ったものから順に調べる）
+      let audioProbeObserver = null;
+      function watchAudioAvailability() {
+        if (audioProbeObserver) {
+          audioProbeObserver.disconnect();
+          audioProbeObserver = null;
+        }
+        const container = document.getElementById("voiceline-list-container");
+        if (!container) return;
+        if (typeof IntersectionObserver !== "function") {
+          refreshAudioAvailability();
+          return;
+        }
+        audioProbeObserver = new IntersectionObserver(
+          (entries, obs) => {
+            entries.forEach(async (en) => {
+              if (!en.isIntersecting) return;
+              obs.unobserve(en.target);
+              const btn = en.target.querySelector(".voiceline-play-btn[data-audio-src]");
+              const url = btn && btn.dataset.audioSrc;
+              if (!url) return;
+              if ((await probeAudio(url)) === "missing") applyAudioPending(btn);
+              updateAllPendingNotice();
+            });
+          },
+          { rootMargin: "300px 0px" }
+        );
+        const items = [...container.querySelectorAll(".voiceline-item")];
+        items.forEach((el) => audioProbeObserver.observe(el));
+        // 冒頭3件だけは先に調べる（音声が1つも無いキャラで、
+        // スクロールしなくてもお知らせが出るようにするため）
+        (async () => {
+          for (const el of items.slice(0, 3)) {
+            const btn = el.querySelector(".voiceline-play-btn[data-audio-src]");
+            const url = btn && btn.dataset.audioSrc;
+            if (!url) continue;
+            if ((await probeAudio(url)) === "missing") applyAudioPending(btn);
+          }
+          updateAllPendingNotice();
+        })();
+      }
+
+      // 再生できる（＝音声が無いと分かっていない）セリフだけに絞る
+      function playableLines(lines) {
+        return lines.filter(
+          (l) => l.audioUrl && audioStatus.get(l.audioUrl) !== "missing"
+        );
+      }
+
       async function loadBrawlersIndex() {
         try {
           const response = await fetch('/data/brawlers-index.json');
@@ -930,6 +1065,7 @@
                 ${renderFontSizeButtons()}
               </div>
             </div>
+            <p id="audio-pending-notice" class="audio-pending-notice" style="display:none;">🔇 このキャラクターの音声は公式にまだ公開されていません。セリフと和訳・解説はご覧いただけます。</p>
             <div id="voiceline-list-container" class="font-size-target">
               ${lines
                 .map((l) => {
@@ -973,6 +1109,8 @@
         window.scrollTo({ top: 0, behavior: "instant" });
 
         setupDetailEvents(valid);
+        // 音声の実体があるか確かめて、無いものを「音声準備中」にする（非同期・表示はブロックしない）
+        watchAudioAvailability();
       }
 
       function setupDetailEvents(valid) {
@@ -981,7 +1119,8 @@
           playBtn.onclick = () => {
             if (isSequentialPlaying) stopAllPlayback();
             else {
-              playlist = isShuffle ? shuffleArray(valid) : [...valid];
+              const src = playableLines(valid);
+              playlist = isShuffle ? shuffleArray(src) : [...src];
               if (playlist.length > 0) playTrackByIndex(0);
             }
           };
@@ -1000,7 +1139,8 @@
         if (shufBtn)
           shufBtn.onclick = () => {
             isShuffle = !isShuffle;
-            playlist = isShuffle ? shuffleArray(valid) : [...valid];
+            const src = playableLines(valid);
+            playlist = isShuffle ? shuffleArray(src) : [...src];
             updatePlayerUI();
           };
 
@@ -1029,11 +1169,17 @@
           btn.onclick = (e) => {
             const url = e.target.dataset.audioSrc;
             if (!url) return;
+            if (audioStatus.get(url) === "missing") {
+              applyAudioPending(e.target);
+              return;
+            }
             isSequentialPlaying = false;
             if (currentAudio) currentAudio.pause();
             currentAudio = new Audio(url);
             currentAudio.playbackRate = playbackRate;
-            currentAudio.play();
+            // 読み込みに失敗したら（ファイルが無い等）その場で「音声準備中」に切り替える
+            currentAudio.onerror = () => markAudioMissing(url);
+            currentAudio.play().catch(() => markAudioMissing(url));
           };
         });
 
@@ -1156,6 +1302,12 @@
         currentIndex = index;
         const track = playlist[currentIndex];
         if (!track || !track.audioUrl) return;
+        // 音声が無いと分かっているセリフは飛ばして次へ
+        if (audioStatus.get(track.audioUrl) === "missing") {
+          if (currentIndex + 1 < playlist.length) playTrackByIndex(currentIndex + 1);
+          else stopAllPlayback();
+          return;
+        }
         if (currentAudio) {
           currentAudio.pause();
           currentAudio.currentTime = 0;
@@ -1172,6 +1324,11 @@
         document.getElementById("sticky-audio-player").classList.add("visible");
         isSequentialPlaying = true;
         updatePlayerUI();
+        // 読み込みに失敗したら「音声準備中」にして次のセリフへ進む
+        currentAudio.onerror = () => {
+          markAudioMissing(track.audioUrl);
+          if (isSequentialPlaying) playNextTrack();
+        };
         currentAudio.play().catch((e) => console.error(e));
         currentAudio.onended = () => {
           if (isSequentialPlaying) playNextTrack();

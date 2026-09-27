@@ -649,6 +649,32 @@
         color: var(--accent-secondary);
       }
 
+      /* 音声がまだ公開されていないセリフ：押せないことが見て分かるようにする */
+      .voiceline-play-btn.audio-pending {
+        border: 2px dashed var(--border-color-light);
+        color: var(--text-tertiary);
+        background: none;
+        cursor: not-allowed;
+        opacity: 0.85;
+      }
+      .voiceline-play-btn.audio-pending:hover {
+        background: none;
+        color: var(--text-tertiary);
+      }
+      .voiceline-item.audio-pending-item .quote-en {
+        opacity: 0.9;
+      }
+      .audio-pending-notice {
+        margin: 0 0 14px;
+        padding: 10px 14px;
+        border: 1px dashed var(--border-color-light);
+        border-radius: 10px;
+        background: var(--surface-color-light);
+        color: var(--text-secondary);
+        font-size: 0.9em;
+        line-height: 1.6;
+      }
+
       @media (hover: hover) {
         .voiceline-toggle:hover {
           background-color: var(--accent-primary);
