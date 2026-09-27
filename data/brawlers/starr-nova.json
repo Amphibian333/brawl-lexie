@@ -1,0 +1,584 @@
+{
+  "name": "スターノヴァ",
+  "nameEn": "Starr Nova",
+  "rarity": "ultra-rare",
+  "role": "assassin",
+  "quote": "By the power of the star!",
+  "iconUrl": "/icons/starr-nova.png",
+  "voicelines": [
+    {
+      "id": "starr-nova_vl1",
+      "quote": "By the power of the star!",
+      "translation": "星の力にかけて！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"By the power of 〜!\" は「〜の力にかけて！」という、変身や必殺技の定番の叫びです。</li><li>the star は彼女の力の源。定冠詞 the を付けることで「あの特別な星」を指しています。</li></ul><strong>英文法:</strong><br>前置詞 by は「〜によって」と手段を表します。動詞のない掛け声なので、勢いだけで成立する形です。",
+      "audioUrl": "/audio/starr-nova_vl1.mp3"
+    },
+    {
+      "id": "starr-nova_vl2",
+      "quote": "I'm totally winning, just like Starr Nova!",
+      "translation": "完全に勝ってる、スターノヴァみたいに！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>totally は「完全に」。若者言葉では「マジで」くらいの強調としてよく使われます。</li><li>自分をアニメの主人公スターノヴァになぞらえていますが、本人はコスプレイヤーです。</li></ul><strong>英文法:</strong><br>\"just like + 名詞\" は「まさに〜のように」。like は前置詞なので、後ろには名詞が来ます。",
+      "audioUrl": "/audio/starr-nova_vl2.mp3"
+    },
+    {
+      "id": "starr-nova_vl3",
+      "quote": "Ah!",
+      "translation": "あっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ダメージを受けたときの短い声です。驚きにも痛みにも使えます。</li><li>英語の ah は日本語の「あっ」とほぼ同じ働きをします。</li></ul><strong>英文法:</strong><br>間投詞なので主語も動詞もありません。文の外に置かれる感情表現です。",
+      "audioUrl": "/audio/starr-nova_vl3.mp3"
+    },
+    {
+      "id": "starr-nova_vl4",
+      "quote": "This is for my おたく fam!",
+      "translation": "これはあたしのオタク仲間に捧げる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"This is for 〜!\" は「これは〜のためだ」。相手に一撃入れながら誰かに捧げる決まり文句です。</li><li>fam は family が縮んだネットスラングで、「仲間」「身内」を指します。</li></ul><strong>英文法:</strong><br>英語圏でも otaku はそのまま通じる外来語になっています。ここでは日本語表記のまま使われています。",
+      "audioUrl": "/audio/starr-nova_vl4.mp3"
+    },
+    {
+      "id": "starr-nova_vl5",
+      "quote": "No! Not like this!",
+      "translation": "やだ！こんなのって無いよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Not like this!\" は「こんな形でなんて（嫌だ）」。物語で主人公が倒れる場面の定番です。</li><li>倒されたときのセリフで、納得のいかない最期をなげいています。</li></ul><strong>英文法:</strong><br>\"Not like this.\" は \"I don't want to lose like this.\" の省略形。not と like this だけを残して感情を強めています。",
+      "audioUrl": "/audio/starr-nova_vl5.mp3"
+    },
+    {
+      "id": "starr-nova_vl6",
+      "quote": "Ha!",
+      "translation": "ハッ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>攻撃のときの気合いの声です。剣を振るときのかけ声にあたります。</li><li>笑い声の ha ha とは違い、1回だけの Ha! は力をこめる声になります。</li></ul><strong>英文法:</strong><br>間投詞です。文法上の役割はなく、声そのものを文字にしています。",
+      "audioUrl": "/audio/starr-nova_vl6.mp3"
+    },
+    {
+      "id": "starr-nova_vl7",
+      "quote": "Star power, go!",
+      "translation": "スターパワー、発動！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"〜, go!\" は「〜いけ！」と技を放つときの定番。魔法少女ものの決まり文句です。</li><li>star power は彼女の必殺技の名前でもあります。</li></ul><strong>英文法:</strong><br>名詞で呼びかけ、そのあとに命令形の go を置く形です。カンマで一拍置くのがポイントです。",
+      "audioUrl": "/audio/starr-nova_vl7.mp3"
+    },
+    {
+      "id": "starr-nova_vl8",
+      "quote": "Starr Patrol reporting for duty.",
+      "translation": "スターパトロール、任務に着きます。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>report for duty は「出頭する」「任務に就く」という軍隊の決まり文句です。</li><li>Starr Patrol は彼女が名乗るヒーローチームの名前です。</li></ul><strong>英文法:</strong><br>主語 Starr Patrol のあとに現在分詞 reporting が続く形で、be動詞を省いた報告調の言い方です。",
+      "audioUrl": "/audio/starr-nova_vl8.mp3"
+    },
+    {
+      "id": "starr-nova_vl9",
+      "quote": "Justice is on my side.",
+      "translation": "正義はあたしの味方だよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"be on one's side\" は「〜の味方だ」という決まった言い方です。</li><li>justice（正義）を主語にして、正義そのものが味方についていると言い切っています。</li></ul><strong>英文法:</strong><br>前置詞 on が「〜の側に」を表します。side の前には必ず所有格（my / your / his）が入ります。",
+      "audioUrl": "/audio/starr-nova_vl9.mp3"
+    },
+    {
+      "id": "starr-nova_vl10",
+      "quote": "Justice prevails!",
+      "translation": "正義は勝つ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>prevail は「打ち勝つ」「行き渡る」という硬い語で、正義や真実を主語にしてよく使われます。</li><li>Justice prevails. は物語の締めくくりの定番の一言です。</li></ul><strong>英文法:</strong><br>自動詞なので目的語はいりません。三人称単数の主語に合わせて prevails と s が付いています。",
+      "audioUrl": "/audio/starr-nova_vl10.mp3"
+    },
+    {
+      "id": "starr-nova_vl11",
+      "quote": "The show isn't over yet!",
+      "translation": "ショーはまだ終わってないよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>the show は「番組」「見せ場」。自分の物語をアニメ番組に見立てています。</li><li>まだ逆転できる、という負けず嫌いの一言です。</li></ul><strong>英文法:</strong><br>\"not 〜 yet\" で「まだ〜ない」。yet は否定文の文末に置くのが基本です。",
+      "audioUrl": "/audio/starr-nova_vl11.mp3"
+    },
+    {
+      "id": "starr-nova_vl12",
+      "quote": "Yah!",
+      "translation": "ヤーッ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>武器を振るときの気合いの声です。日本語の「ヤーッ！」にあたります。</li><li>つづりは yah / ya / yaa など一定ではありません。</li></ul><strong>英文法:</strong><br>間投詞で、文の要素にはなりません。",
+      "audioUrl": "/audio/starr-nova_vl12.mp3"
+    },
+    {
+      "id": "starr-nova_vl13",
+      "quote": "Star burst!",
+      "translation": "スターバースト！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>burst は「破裂」「爆発」。star burst で「星がはじける」技名になります。</li><li>技名は名詞を2つ並べるだけで作れるのが英語の便利なところです。</li></ul><strong>英文法:</strong><br>名詞 star が後ろの burst を説明する複合名詞です。冠詞を付けずに叫ぶと技名らしくなります。",
+      "audioUrl": "/audio/starr-nova_vl13.mp3"
+    },
+    {
+      "id": "starr-nova_vl14",
+      "quote": "Justice time!",
+      "translation": "正義の時間だよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"〜 time!\" は「〜の時間だ！」。Party time!（パーティーの時間だ）と同じ作りです。</li><li>戦いの始まりを宣言しています。</li></ul><strong>英文法:</strong><br>\"It's 〜 time!\" の It's が省かれた形です。名詞2語だけで文として成立しています。",
+      "audioUrl": "/audio/starr-nova_vl14.mp3"
+    },
+    {
+      "id": "starr-nova_vl15",
+      "quote": "Best heroine ever!",
+      "translation": "史上最高のヒロインだよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"best 〜 ever\" は「今までで最高の〜」。ネットの感想でよく使われる言い方です。</li><li>heroine は「女性主人公」。男性なら hero です。</li></ul><strong>英文法:</strong><br>最上級 best のあとに ever を付けると「これまでのすべての中で」という範囲を示せます。冠詞 the は口語では省かれがちです。",
+      "audioUrl": "/audio/starr-nova_vl15.mp3"
+    },
+    {
+      "id": "starr-nova_vl16",
+      "quote": "Eee!",
+      "translation": "キャーッ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>高い声で上げる悲鳴です。痛みや驚きのときに出ます。</li><li>英語では eee / eek / yikes など、驚きの声にもいろいろな書き方があります。</li></ul><strong>英文法:</strong><br>間投詞です。母音を伸ばして書くことで、声の長さを表しています。",
+      "audioUrl": "/audio/starr-nova_vl16.mp3"
+    },
+    {
+      "id": "starr-nova_vl17",
+      "quote": "Evil defeated!",
+      "translation": "悪は倒した！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>evil は「悪」という名詞。抽象的な概念をそのまま主語にできます。</li><li>defeat は「打ち負かす」。その過去分詞 defeated で「倒された」状態を表しています。</li></ul><strong>英文法:</strong><br>\"Evil is defeated!\" の be動詞が省かれた形です。見出しや掛け声では be動詞を落とすことがよくあります。",
+      "audioUrl": "/audio/starr-nova_vl17.mp3"
+    },
+    {
+      "id": "starr-nova_vl18",
+      "quote": "I'll be back for justice.",
+      "translation": "正義のために、また戻ってくるからね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>I'll be back. は「また戻ってくる」。負けてもあきらめていないという宣言です。</li><li>for justice を足すことで、私怨ではなく正義のためだと強調しています。</li></ul><strong>英文法:</strong><br>\"will be back\" は未来を表す表現。be back は「戻ってくる」という決まった言い方で、come back とほぼ同じです。<br><br><strong>🧠豆知識:</strong><br>I'll be back. は映画『ターミネーター』（1984年）で有名になった一言で、今では戻ってくる宣言の定番になっています。",
+      "audioUrl": "/audio/starr-nova_vl18.mp3"
+    },
+    {
+      "id": "starr-nova_vl19",
+      "quote": "Hi-yah!",
+      "translation": "ハイヤーッ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>空手やカンフーの技を出すときのかけ声です。映画の影響で英語圏でもおなじみです。</li><li>ハイフンを入れて Hi-yah と書き、2拍で発音します。</li></ul><strong>英文法:</strong><br>間投詞です。文法的な役割はなく、動作に合わせて発せられます。",
+      "audioUrl": "/audio/starr-nova_vl19.mp3"
+    },
+    {
+      "id": "starr-nova_vl20",
+      "quote": "Maximum star!",
+      "translation": "マキシマム・スター！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>maximum は「最大の」。技名に付けると「最大出力」という響きになります。</li><li>ラテン語由来の語で、最小は minimum です。</li></ul><strong>英文法:</strong><br>形容詞 maximum が名詞 star を修飾しています。技名なので冠詞は付けません。",
+      "audioUrl": "/audio/starr-nova_vl20.mp3"
+    },
+    {
+      "id": "starr-nova_vl21",
+      "quote": "Let's go save the day! Just like episode 6 7!",
+      "translation": "世界を救いに行こう！6話と7話みたいにね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>save the day は「窮地を救う」「その場を丸くおさめる」という決まった言い方です。</li><li>自分の行動をアニメの何話かにたとえているのが、彼女らしいところです。</li></ul><strong>英文法:</strong><br>\"go + 動詞の原形\" は「〜しに行く」という口語表現。本来の go and save から and が落ちた形です。",
+      "audioUrl": "/audio/starr-nova_vl21.mp3"
+    },
+    {
+      "id": "starr-nova_vl22",
+      "quote": "Peak weeb moment.",
+      "translation": "オタクの極みって感じ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>weeb は日本のアニメに強くはまった人を指すネットスラングです。自分で名乗るときは親しみをこめた言い方になります。</li><li>peak 〜 は「〜の極み」。ネットで「これぞまさに〜」という意味で使われます。</li></ul><strong>英文法:</strong><br>動詞のない名詞句だけの文です。SNSのコメントではこの形がよく使われます。",
+      "audioUrl": "/audio/starr-nova_vl22.mp3"
+    },
+    {
+      "id": "starr-nova_vl23",
+      "quote": "So かわいい! I mean, so cool!",
+      "translation": "超かわいい！いや、超クールだった！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>つい「かわいい」と言ってから、ヒーローらしく「クール」に言い直しています。</li><li>I mean は言い直すときの「いや、その」。会話でとてもよく使われます。</li></ul><strong>英文法:</strong><br>\"so + 形容詞\" は「とても〜」。very よりくだけていて、気持ちがこもった言い方になります。",
+      "audioUrl": "/audio/starr-nova_vl23.mp3"
+    },
+    {
+      "id": "starr-nova_vl24",
+      "quote": "This can't be the end!",
+      "translation": "こんなところで終わるはずないよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>can't be は「〜のはずがない」。可能性を強く否定する言い方です。</li><li>倒された場面で、物語の終わりを認めたくない気持ちを表しています。</li></ul><strong>英文法:</strong><br>助動詞 can の否定は「できない」だけでなく「〜のはずがない」という推量の否定にもなります。反対は must be（〜に違いない）です。",
+      "audioUrl": "/audio/starr-nova_vl24.mp3"
+    },
+    {
+      "id": "starr-nova_vl25",
+      "quote": "Shining justice.",
+      "translation": "輝く正義。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>shining は「輝いている」。現在分詞が形容詞として名詞を飾っています。</li><li>魔法少女らしい、きらきらした言葉選びです。</li></ul><strong>英文法:</strong><br>\"shining + 名詞\" のように、-ing 形は「〜している」という意味で名詞を修飾できます。",
+      "audioUrl": "/audio/starr-nova_vl25.mp3"
+    },
+    {
+      "id": "starr-nova_vl26",
+      "quote": "Evil doesn't stand a chance.",
+      "translation": "悪に勝ち目なんて無いよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"not stand a chance\" は「勝ち目がない」「まったく歯が立たない」という決まった言い方です。</li><li>stand は「立つ」ですが、この言い回しでは「見込みがある」という意味になります。</li></ul><strong>英文法:</strong><br>否定文でも a chance の冠詞 a は残ります。stand a chance はこの形のまま覚えます。",
+      "audioUrl": "/audio/starr-nova_vl26.mp3"
+    },
+    {
+      "id": "starr-nova_vl27",
+      "quote": "The power of the star is real.",
+      "translation": "星の力は本物なんだから。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>real は「本物の」。コスプレだと思われがちな自分の力が本物だと主張しています。</li><li>\"A of B\" の形で「BのA」。the power of the star で「星の力」です。</li></ul><strong>英文法:</strong><br>主語が The power（単数）なので、be動詞は is になります。of the star が長くても主語の中心は power です。",
+      "audioUrl": "/audio/starr-nova_vl27.mp3"
+    },
+    {
+      "id": "starr-nova_vl28",
+      "quote": "You'll pay for that!",
+      "translation": "その仕返しはしてもらうからね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"You'll pay for that!\" は「その報いを受けさせてやる」という決まった脅し文句です。</li><li>pay はお金を払うだけでなく、「代償を払う」という意味でも使われます。</li></ul><strong>英文法:</strong><br>\"pay for 〜\" で「〜の代償を払う」。for が原因・理由を示しています。",
+      "audioUrl": "/audio/starr-nova_vl28.mp3"
+    },
+    {
+      "id": "starr-nova_vl29",
+      "quote": "Just like in the show.",
+      "translation": "アニメの中とおんなじ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>the show は「あのアニメ番組」。彼女がなりきっている作品を指しています。</li><li>in the show で「作中で」。現実と作品を重ねる、彼女らしい一言です。</li></ul><strong>英文法:</strong><br>\"just like + 前置詞句\" の形です。like のあとに名詞ではなく in the show という句が来ても成り立ちます。",
+      "audioUrl": "/audio/starr-nova_vl29.mp3"
+    },
+    {
+      "id": "starr-nova_vl30",
+      "quote": "Starr Nova will return.",
+      "translation": "スターノヴァは必ず戻ってくる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"〜 will return.\" は映画やドラマの最後に出る「またお会いしましょう」の決まり文句です。</li><li>自分の名前を三人称で言うことで、作品の予告編のような響きになっています。</li></ul><strong>英文法:</strong><br>will は未来の予定や意志を表します。return は「戻る」という自動詞で、ここでは目的語をとりません。",
+      "audioUrl": "/audio/starr-nova_vl30.mp3"
+    },
+    {
+      "id": "starr-nova_vl31",
+      "quote": "Star sword strike!",
+      "translation": "スターソード・ストライク！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>strike は「一撃」「打撃」。技名の締めによく使われる語です。</li><li>star + sword + strike と名詞を3つ重ねた技名で、s の音がそろっています。</li></ul><strong>英文法:</strong><br>名詞を並べて複合名詞を作る英語の特徴が出ています。前の語が後ろの語を説明していきます。",
+      "audioUrl": "/audio/starr-nova_vl31.mp3"
+    },
+    {
+      "id": "starr-nova_vl32",
+      "quote": "Starr Nova mode, activate.",
+      "translation": "スターノヴァ・モード、起動。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"〜 mode, activate.\" はロボットや変身ヒーローが形態を切り替えるときの定番です。</li><li>mode は「形態」「モード」。ゲームでもおなじみの語です。</li></ul><strong>英文法:</strong><br>名詞で呼びかけたあとに動詞の原形 activate を置く命令文です。カンマで区切ると機械への指示らしくなります。",
+      "audioUrl": "/audio/starr-nova_vl32.mp3"
+    },
+    {
+      "id": "starr-nova_vl33",
+      "quote": "Nobody can stop Starr Patrol.",
+      "translation": "スターパトロールは誰にも止められない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Nobody can 〜\" は「誰も〜できない」。強気な宣言の型です。</li><li>stop は「止める」。人やチームを目的語にとれます。</li></ul><strong>英文法:</strong><br>nobody 自体が否定の意味を持つので、can に not は付けません。not anybody と二重に否定しないよう注意します。",
+      "audioUrl": "/audio/starr-nova_vl33.mp3"
+    },
+    {
+      "id": "starr-nova_vl34",
+      "quote": "Ow! So not fair!",
+      "translation": "いたっ！ぜんぜん不公平だよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>Ow! は「いたっ！」という痛みの声です。</li><li>\"so not 〜\" は「ぜんぜん〜じゃない」という若者言葉の強い否定です。</li></ul><strong>英文法:</strong><br>本来 so は「とても」と肯定を強めますが、\"so not + 形容詞\" の形では否定のほうを強める使い方になります。",
+      "audioUrl": "/audio/starr-nova_vl34.mp3"
+    },
+    {
+      "id": "starr-nova_vl35",
+      "quote": "Another villain down!",
+      "translation": "悪党、また1人ダウン！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>villain は「悪役」。ヒーローものに欠かせない語です。</li><li>\"〜 down!\" は「〜を倒した！」。スポーツや戦いの実況で使われます。</li></ul><strong>英文法:</strong><br>another は「もう1つの」。すでに1つ以上あることが前提の語で、もう何人も倒してきたことが伝わります。",
+      "audioUrl": "/audio/starr-nova_vl35.mp3"
+    },
+    {
+      "id": "starr-nova_vl36",
+      "quote": "Wait! Sequel hook.",
+      "translation": "待って！これは続編フラグだから。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>sequel hook は「続編につなげるための仕掛け」。主人公が完全には倒れない展開のことです。</li><li>倒されたのに「これは続編への伏線」と言い張るところが笑いどころです。</li></ul><strong>英文法:</strong><br>名詞2語だけの言い切りです。sequel（続編）が hook（引っかけ）を説明する複合名詞になっています。",
+      "audioUrl": "/audio/starr-nova_vl36.mp3"
+    },
+    {
+      "id": "starr-nova_vl37",
+      "quote": "Feel the power of the star!",
+      "translation": "星の力を思い知れ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Feel the power of 〜!\" は「〜の力を味わえ」という技を放つときの定番です。</li><li>feel は「感じる」ですが、この形では「思い知る」という強い意味になります。</li></ul><strong>英文法:</strong><br>動詞の原形で始まる命令文です。目的語 the power に of the star が続き、どんな力かを説明しています。",
+      "audioUrl": "/audio/starr-nova_vl37.mp3"
+    },
+    {
+      "id": "starr-nova_vl38",
+      "quote": "For justice, and sparkles.",
+      "translation": "正義のために。そしてキラキラのために。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>sparkle は「きらめき」。魔法少女ものの演出に欠かせない言葉です。</li><li>重々しい justice のあとに sparkles を並べる落差が笑いどころになっています。</li></ul><strong>英文法:</strong><br>\"For A, and B.\" は目的を並べる形。and の前にカンマを置くと、一拍置いて付け足す感じが出ます。",
+      "audioUrl": "/audio/starr-nova_vl38.mp3"
+    },
+    {
+      "id": "starr-nova_vl39",
+      "quote": "Victory sparkles!",
+      "translation": "勝利のキラキラ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>victory は「勝利」。ここでは後ろの sparkles を説明する名詞として使われています。</li><li>勝ったときに舞うきらめきを、そのまま技名のように叫んでいます。</li></ul><strong>英文法:</strong><br>名詞 + 名詞の複合名詞です。前の名詞が形容詞のように働きます。",
+      "audioUrl": "/audio/starr-nova_vl39.mp3"
+    },
+    {
+      "id": "starr-nova_vl40",
+      "quote": "Starr Nova would never-ow!",
+      "translation": "スターノヴァだったら絶対こんな…いたっ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"〜 would never\" は「〜なら絶対そんなことしない」。言い終わる前にダメージを受けて途切れています。</li><li>最後の -ow は痛みの声。ハイフンで言葉が切れたことを表しています。</li></ul><strong>英文法:</strong><br>would は「もし〜なら…だろう」という仮定の意味。never のあとに続くはずの動詞が途切れた形です。",
+      "audioUrl": "/audio/starr-nova_vl40.mp3"
+    },
+    {
+      "id": "starr-nova_vl41",
+      "quote": "Starr Nova never loses!",
+      "translation": "スターノヴァは負けないんだから！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>never は「決して〜ない」。always の反対で、頻度を全否定します。</li><li>自分を三人称で呼ぶことで、アニメのキャラとしての設定を守っています。</li></ul><strong>英文法:</strong><br>never 自体が否定なので does not は不要です。主語が三人称単数なので loses と s が付きます。",
+      "audioUrl": "/audio/starr-nova_vl41.mp3"
+    },
+    {
+      "id": "starr-nova_vl42",
+      "quote": "Just wait for season two!",
+      "translation": "シーズン2を待ってなよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>season two は「第2期」。海外ドラマやアニメの区切りの言い方です。</li><li>負けても次回があると言い張る、彼女らしい強がりです。</li></ul><strong>英文法:</strong><br>\"wait for 〜\" は「〜を待つ」。wait は自動詞なので、目的語の前に for が必要です。",
+      "audioUrl": "/audio/starr-nova_vl42.mp3"
+    },
+    {
+      "id": "starr-nova_vl43",
+      "quote": "Signature move.",
+      "translation": "必殺技だよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>signature は「署名」から転じて「その人ならではの」。signature move で「代名詞的な決め技」です。</li><li>料理人の signature dish（看板料理）のようにも使います。</li></ul><strong>英文法:</strong><br>名詞2語だけの文です。signature が move を説明しています。",
+      "audioUrl": "/audio/starr-nova_vl43.mp3"
+    },
+    {
+      "id": "starr-nova_vl44",
+      "quote": "Main character energy.",
+      "translation": "主人公オーラ全開。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>main character energy は「主人公みたいな自信がにじみ出ている感じ」を指すネットスラングです。</li><li>\"〜 energy\" は「〜っぽい雰囲気」という意味でSNSで広く使われます。</li></ul><strong>英文法:</strong><br>名詞を3つ並べただけの句です。main が character を、main character が energy を説明する入れ子の構造です。",
+      "audioUrl": "/audio/starr-nova_vl44.mp3"
+    },
+    {
+      "id": "starr-nova_vl45",
+      "quote": "おたく power!",
+      "translation": "オタクパワー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>otaku はそのまま英語圏でも通じる語で、アニメやゲームに深く熱中する人を指します。</li><li>\"〜 power!\" は「〜の力！」。技名や掛け声の定番の作りです。</li></ul><strong>英文法:</strong><br>外来語をそのまま名詞として使い、power と並べた複合名詞です。",
+      "audioUrl": "/audio/starr-nova_vl45.mp3"
+    },
+    {
+      "id": "starr-nova_vl46",
+      "quote": "Hey! That's villain behavior!",
+      "translation": "ちょっと！それ悪役のやることでしょ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"That's 〜 behavior!\" は「それって〜のふるまいじゃん」というネット由来の言い回しです。</li><li>behavior は「ふるまい」。数えられない名詞なので a は付きません。</li></ul><strong>英文法:</strong><br>\"That's + 名詞\" は「それは〜だ」。villain が behavior を説明する複合名詞になっています。",
+      "audioUrl": "/audio/starr-nova_vl46.mp3"
+    },
+    {
+      "id": "starr-nova_vl47",
+      "quote": "Bye-bye, baddie.",
+      "translation": "バイバイ、悪い子。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>baddie は「悪者」のくだけた言い方。villain より軽く、かわいらしい響きです。</li><li>bye-bye と baddie で b の音をそろえています。</li></ul><strong>英文法:</strong><br>呼びかけの名詞はカンマで区切ります。\"Bye-bye, 人\" の形は別れのあいさつの基本です。",
+      "audioUrl": "/audio/starr-nova_vl47.mp3"
+    },
+    {
+      "id": "starr-nova_vl48",
+      "quote": "Uh, u- filler episode! Uh, definitely a filler!",
+      "translation": "えっと、そ、それはつなぎの回！うん、絶対フィラー回！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>filler episode は「本筋に関係ないつなぎの回」。アニメのファンがよく使う言い方です。</li><li>負けたことを「本筋じゃない回」ということにしようとしています。</li></ul><strong>英文法:</strong><br>Uh や u- は言いよどみをそのまま文字にしたもの。definitely は「絶対に」と自分に言い聞かせる副詞です。",
+      "audioUrl": "/audio/starr-nova_vl48.mp3"
+    },
+    {
+      "id": "starr-nova_vl49",
+      "quote": "Star 変身!",
+      "translation": "スター変身！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>変身（へんしん）は英語圏のアニメファンにもそのまま通じる言葉です。</li><li>英語の star と日本語の変身を組み合わせた、彼女らしい技名になっています。</li></ul><strong>英文法:</strong><br>英語の名詞と日本語の名詞を並べた複合語です。技名なので冠詞は付きません。",
+      "audioUrl": "/audio/starr-nova_vl49.mp3"
+    },
+    {
+      "id": "starr-nova_vl50",
+      "quote": "Main character energy confirmed.",
+      "translation": "主人公オーラ、確認完了。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>confirmed は「確認済み」。SNSで「〜が確定した」という意味でよく使われます。</li><li>自分に主人公オーラがあることを自分で認定しています。</li></ul><strong>英文法:</strong><br>\"A confirmed.\" は \"A is confirmed.\" の be動詞を省いた形です。見出しや短い投稿でよく使われます。",
+      "audioUrl": "/audio/starr-nova_vl50.mp3"
+    },
+    {
+      "id": "starr-nova_vl51",
+      "quote": "Meanies!",
+      "translation": "いじわる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>meanie は「いじわるな人」。子どもっぽく、かわいらしい響きの悪口です。</li><li>mean（意地悪な）に -ie が付いて名詞になっています。</li></ul><strong>英文法:</strong><br>複数形の -s が付いているので、相手が複数いる前提の呼びかけです。",
+      "audioUrl": "/audio/starr-nova_vl51.mp3"
+    },
+    {
+      "id": "starr-nova_vl52",
+      "quote": "That's a wrap, villain!",
+      "translation": "はい、撮影終了！悪役くん！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"That's a wrap!\" は撮影の終わりに監督が言う「はい、OK！終了！」という決まり文句です。</li><li>戦いの終わりを撮影の終わりにたとえているのが、彼女らしいところです。</li></ul><strong>英文法:</strong><br>wrap はここでは名詞で「撮影終了」。a が付くのがこの言い回しの決まりです。",
+      "audioUrl": "/audio/starr-nova_vl52.mp3"
+    },
+    {
+      "id": "starr-nova_vl53",
+      "quote": "Not canon, not canon!",
+      "translation": "非公式！今のは非公式だから！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>canon は「公式設定」。ファンの間で「原作で本当に起きたこと」を指します。</li><li>負けた事実を「公式設定じゃない」と否定しようとしています。</li></ul><strong>英文法:</strong><br>\"Not + 名詞\" だけで「〜ではない」と言い切る形です。繰り返すことで必死さが出ています。",
+      "audioUrl": "/audio/starr-nova_vl53.mp3"
+    },
+    {
+      "id": "starr-nova_vl54",
+      "quote": "Special move, star strike!",
+      "translation": "必殺技、スターストライク！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>special move は「必殺技」。格闘ゲームの用語としてもおなじみです。</li><li>技の種類を言ってから技名を叫ぶのは、バトルものの定番の型です。</li></ul><strong>英文法:</strong><br>名詞句を2つカンマで並べた形です。前半が種類、後半が固有の名前を表します。",
+      "audioUrl": "/audio/starr-nova_vl54.mp3"
+    },
+    {
+      "id": "starr-nova_vl55",
+      "quote": "変身-uh, I mean, star mode.",
+      "translation": "変身…じゃなくて、スターモード。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>つい日本語の「変身」と言ってしまい、英語で言い直しています。</li><li>I mean は「いや、その」と言い直すときのつなぎ言葉です。</li></ul><strong>英文法:</strong><br>ハイフンは言葉が途中で切れたことを示します。カンマではさんだ I mean は、文の流れを一度止める挿入句です。",
+      "audioUrl": "/audio/starr-nova_vl55.mp3"
+    },
+    {
+      "id": "starr-nova_vl56",
+      "quote": "Protagonist prevails.",
+      "translation": "主人公が勝つ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>protagonist は「物語の主人公」。文学や演劇で使われる硬めの語です。</li><li>protagonist と prevails で p の音をそろえた頭韻になっています。</li></ul><strong>英文法:</strong><br>冠詞 The が省かれた見出し調の文です。prevails は三人称単数現在の形です。",
+      "audioUrl": "/audio/starr-nova_vl56.mp3"
+    },
+    {
+      "id": "starr-nova_vl57",
+      "quote": "ばか!",
+      "translation": "ばか！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>日本語の「ばか」をそのまま使っています。アニメを通じて英語圏でも知られた言葉です。</li><li>英語なら stupid や dummy にあたりますが、あえて日本語で言うのが彼女らしさです。</li></ul><strong>英文法:</strong><br>間投詞のように投げつける一語です。文の要素にはなりません。",
+      "audioUrl": "/audio/starr-nova_vl57.mp3"
+    },
+    {
+      "id": "starr-nova_vl58",
+      "quote": "Main character wins again.",
+      "translation": "主人公がまた勝っちゃった。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分を「主人公」と呼び、三人称で実況するように言っています。</li><li>again は「また」。勝ち続けていることを示しています。</li></ul><strong>英文法:</strong><br>冠詞 The を省いた見出し調です。副詞 again は文末に置くのが基本です。",
+      "audioUrl": "/audio/starr-nova_vl58.mp3"
+    },
+    {
+      "id": "starr-nova_vl59",
+      "quote": "Curse you, cliffhanger!",
+      "translation": "くそーっ、こんな引きで終わるなんて！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>cliffhanger は「続きが気になるところで終わること」。崖にぶら下がったまま終わる場面が語源です。</li><li>\"Curse you, 〜!\" は「〜め、覚えてろ！」という古風な悪態です。</li></ul><strong>英文法:</strong><br>\"Curse + 目的語\" の命令文に、呼びかけの名詞をカンマで足した形です。",
+      "audioUrl": "/audio/starr-nova_vl59.mp3"
+    },
+    {
+      "id": "starr-nova_vl60",
+      "quote": "Ultimate attack, calling it now!",
+      "translation": "必殺の一撃、今ここで宣言するよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"calling it now\" は「今のうちに言っておく」「予言しておく」というネットの言い回しです。</li><li>ultimate は「究極の」。技名の前に付けると最上級の響きになります。</li></ul><strong>英文法:</strong><br>\"I'm calling it now.\" の主語と be動詞が省かれた形です。会話では文頭が落ちることがよくあります。",
+      "audioUrl": "/audio/starr-nova_vl60.mp3"
+    },
+    {
+      "id": "starr-nova_vl61",
+      "quote": "Just like the season finale.",
+      "translation": "シーズン最終回みたいにね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>season finale は「そのシーズンの最終話」。海外ドラマの用語です。</li><li>盛り上がる場面を最終回にたとえています。</li></ul><strong>英文法:</strong><br>finale はイタリア語由来で「フィナーレ」と読みます。final（最後の）とは品詞も意味も違います。",
+      "audioUrl": "/audio/starr-nova_vl61.mp3"
+    },
+    {
+      "id": "starr-nova_vl62",
+      "quote": "In this episode, I win.",
+      "translation": "今回の回は、あたしの勝ち。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>episode は「（連続ものの）1話」。自分の人生を1話ずつのアニメとして語っています。</li><li>in this episode を前に出すことで、「今回は」という限定が強調されます。</li></ul><strong>英文法:</strong><br>場所や時を表す句を文頭に置くときは、後ろにカンマを打つのが一般的です。",
+      "audioUrl": "/audio/starr-nova_vl62.mp3"
+    },
+    {
+      "id": "starr-nova_vl63",
+      "quote": "Ugh! Not in the script!",
+      "translation": "うっ！台本に無いんだけど！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>script は「台本」。自分の物語には無い展開だと抗議しています。</li><li>Ugh! は不快感やうめきを表す間投詞です。</li></ul><strong>英文法:</strong><br>\"That's not in the script!\" の主語と be動詞が省かれた形です。否定の not と場所を表す in the script だけが残っています。",
+      "audioUrl": "/audio/starr-nova_vl63.mp3"
+    },
+    {
+      "id": "starr-nova_vl64",
+      "quote": "Best girl stays winning.",
+      "translation": "ベストガールは勝ち続けるんだよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>best girl はアニメファンが「一番推しの女性キャラ」を指すときの言い方です。</li><li>\"stay winning\" は「勝ち続ける」というネットスラング。keep winning よりくだけています。</li></ul><strong>英文法:</strong><br>本来 stay のあとには形容詞が来ますが（stay calm）、ここでは -ing 形を続けて「その状態が続く」ことを表しています。",
+      "audioUrl": "/audio/starr-nova_vl64.mp3"
+    },
+    {
+      "id": "starr-nova_vl65",
+      "quote": "My OTP is justice and winning.",
+      "translation": "あたしの推しカプは、正義と勝利だから。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>OTP は One True Pairing の略で、「これしかないと思うカップリング」というファン用語です。</li><li>人物どうしではなく「正義と勝利」を組み合わせているのが冗談になっています。</li></ul><strong>英文法:</strong><br>\"A is B and C.\" の形。主語の OTP が単数なので be動詞は is のままです。",
+      "audioUrl": "/audio/starr-nova_vl65.mp3"
+    },
+    {
+      "id": "starr-nova_vl66",
+      "quote": "Star burst, go go go!",
+      "translation": "スターバースト、いけいけいけ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>go を3回重ねることで、勢いと焦りが出ています。</li><li>技名を叫んでから号令をかける、バトルものの定番です。</li></ul><strong>英文法:</strong><br>命令形 go の繰り返しです。同じ語を重ねると、英語でも勢いや切迫感が強まります。",
+      "audioUrl": "/audio/starr-nova_vl66.mp3"
+    },
+    {
+      "id": "starr-nova_vl67",
+      "quote": "This is my arc.",
+      "translation": "これはあたしの見せ場なんだから。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>arc は「（物語の）ひとまとまりの展開」。character arc で「そのキャラの成長の筋道」を指します。</li><li>「ここからが自分の回だ」と宣言しています。</li></ul><strong>英文法:</strong><br>arc はもともと「弧」。物語が弧を描くように盛り上がって収まることからこの意味になりました。",
+      "audioUrl": "/audio/starr-nova_vl67.mp3"
+    },
+    {
+      "id": "starr-nova_vl68",
+      "quote": "Canon ending victory.",
+      "translation": "これが公式の結末、勝利だよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>canon は「公式設定の」。ここでは形容詞として ending を修飾しています。</li><li>自分の勝ちこそが本当の結末だと言い切っています。</li></ul><strong>英文法:</strong><br>名詞を3つ並べた句です。canon が ending を、canon ending が victory を説明する入れ子になっています。",
+      "audioUrl": "/audio/starr-nova_vl68.mp3"
+    },
+    {
+      "id": "starr-nova_vl69",
+      "quote": "Hey! I'm the protagonist here!",
+      "translation": "ちょっと！ここの主人公はあたしなんだけど！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>the protagonist と定冠詞を付けることで「主人公はただ1人」と主張しています。</li><li>文末の here は「この場面では」。自分こそが中心だと言い張っています。</li></ul><strong>英文法:</strong><br>\"the + 名詞\" は「唯一の」という限定を表します。a protagonist だと「主人公の1人」になり、意味が弱まります。",
+      "audioUrl": "/audio/starr-nova_vl69.mp3"
+    },
+    {
+      "id": "starr-nova_vl70",
+      "quote": "Sorry, you're not in the script!",
+      "translation": "ごめんね、あなたは台本に載ってないの！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>謝りながら相手を退場させる、皮肉のきいた決めゼリフです。</li><li>be in the script で「台本に出ている」。出番が無いと言い渡しています。</li></ul><strong>英文法:</strong><br>\"be not in 〜\" は「〜に入っていない」。前置詞 in が所属や記載を表しています。",
+      "audioUrl": "/audio/starr-nova_vl70.mp3"
+    },
+    {
+      "id": "starr-nova_vl71",
+      "quote": "Power up sequence complete!",
+      "translation": "パワーアップ・シーケンス、完了！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>sequence は「一続きの場面」。アニメの変身シーンのような一連の演出を指します。</li><li>power up は「強化する」。ゲーム用語としても定着しています。</li></ul><strong>英文法:</strong><br>\"〜 complete!\" は \"〜 is complete!\" の be動詞を省いた形。機械の表示のような響きになります。",
+      "audioUrl": "/audio/starr-nova_vl71.mp3"
+    },
+    {
+      "id": "starr-nova_vl72",
+      "quote": "Subbed and ready.",
+      "translation": "字幕つき、準備完了。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>subbed は「字幕（subtitles）つき」。吹き替えは dubbed で、ファンの間では長年この2つが論争の的です。</li><li>自分をアニメ作品に見立てて「字幕版で配信準備OK」と言っています。</li></ul><strong>英文法:</strong><br>過去分詞 subbed と形容詞 ready を and でつないだ形です。主語と be動詞が省かれています。",
+      "audioUrl": "/audio/starr-nova_vl72.mp3"
+    },
+    {
+      "id": "starr-nova_vl73",
+      "quote": "Starr Patrol undefeated.",
+      "translation": "スターパトロール、無敗。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>undefeated は「無敗の」。un-（否定）＋ defeated（負かされた）で作られています。</li><li>スポーツの戦績でよく使われる語です。</li></ul><strong>英文法:</strong><br>\"A undefeated.\" は \"A is undefeated.\" の be動詞を省いた見出し調です。",
+      "audioUrl": "/audio/starr-nova_vl73.mp3"
+    },
+    {
+      "id": "starr-nova_vl74",
+      "quote": "Ow! so not かわいい!",
+      "translation": "いたっ！ぜんぜんかわいくない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"so not 〜\" は「ぜんぜん〜じゃない」という強い否定の若者言葉です。</li><li>かわいい は英語圏でも kawaii としてそのまま通じる語になっています。</li></ul><strong>英文法:</strong><br>本来は形容詞を強める so を not の前に置くことで、否定そのものを強調する使い方です。",
+      "audioUrl": "/audio/starr-nova_vl74.mp3"
+    },
+    {
+      "id": "starr-nova_vl75",
+      "quote": "Villain of the week defeated.",
+      "translation": "今週の悪役、撃破。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>villain of the week は「毎回入れ替わる1話限りの敵」。特撮やアニメのお約束です。</li><li>相手を「今週の敵」扱いすることで、自分が主人公側だと示しています。</li></ul><strong>英文法:</strong><br>\"A of the week\" で「今週の〜」。後ろの defeated は \"is defeated\" の be動詞を省いた形です。",
+      "audioUrl": "/audio/starr-nova_vl75.mp3"
+    },
+    {
+      "id": "starr-nova_vl76",
+      "quote": "Protagonist power, activate.",
+      "translation": "主人公パワー、起動。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>protagonist power は「主人公補正」。都合よく強くなる力を指すファン用語です。</li><li>\"〜, activate.\" は装置を起動するときの言い方です。</li></ul><strong>英文法:</strong><br>名詞句で呼びかけ、そのあとに動詞の原形 activate を置く命令文の形です。",
+      "audioUrl": "/audio/starr-nova_vl76.mp3"
+    },
+    {
+      "id": "starr-nova_vl77",
+      "quote": "My power level is showing!",
+      "translation": "あたしの戦闘力、出ちゃってる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>power level は「戦闘力」。日本のバトルアニメから広まった言い方です。</li><li>show はここでは「見えてしまう」。隠しきれずに表に出ることを表します。</li></ul><strong>英文法:</strong><br>現在進行形 is showing で「今まさに出てしまっている」という最中の感じを出しています。<br><br><strong>🧠豆知識:</strong><br>power level という言い方は『ドラゴンボールZ』の英語版で広まり、\"It's over 9000!\" というせりふとともに定番のネタになりました。",
+      "audioUrl": "/audio/starr-nova_vl77.mp3"
+    },
+    {
+      "id": "starr-nova_vl78",
+      "quote": "Oh, my character arc isn't over!",
+      "translation": "えっ、あたしの成長物語はまだ終わってないよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>character arc は「そのキャラが物語を通して変わっていく筋道」を指します。</li><li>倒されても自分の物語は続くと言い張っています。</li></ul><strong>英文法:</strong><br>\"be not over\" は「まだ終わっていない」。over は前置詞のほか、この形では「終わった」という形容詞として働きます。",
+      "audioUrl": "/audio/starr-nova_vl78.mp3"
+    },
+    {
+      "id": "starr-nova_vl79",
+      "quote": "Canon hero moment!",
+      "translation": "これぞ公式のヒーロー場面！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>canon は「公式設定の」。ファンが「これは本編で本当にあったこと」と言うときに使います。</li><li>hero moment は「主人公が見せ場を決める瞬間」です。</li></ul><strong>英文法:</strong><br>名詞を3つ重ねた句です。前の語が次の語を順に説明していきます。",
+      "audioUrl": "/audio/starr-nova_vl79.mp3"
+    },
+    {
+      "id": "starr-nova_vl80",
+      "quote": "かわいい and winning.",
+      "translation": "かわいくて、勝ってる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>かわいい を形容詞としてそのまま使い、英語の winning とつないでいます。</li><li>「かわいさ」と「強さ」を両立しているという自慢です。</li></ul><strong>英文法:</strong><br>\"A and B.\" と2語を and でつないだだけの文。主語と be動詞（I'm）が省かれています。",
+      "audioUrl": "/audio/starr-nova_vl80.mp3"
+    },
+    {
+      "id": "starr-nova_vl81",
+      "quote": "Starr Nova isn't over!",
+      "translation": "スターノヴァはまだ終わってない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>be over は「終わっている」。人を主語にすると「もう終わった存在だ」という意味になります。</li><li>自分の名前を三人称で呼び、番組が続くと宣言しています。</li></ul><strong>英文法:</strong><br>\"isn't over\" は be動詞の否定＋形容詞 over。not yet over とすると「まだ終わっていない」がさらに明確になります。",
+      "audioUrl": "/audio/starr-nova_vl81.mp3"
+    },
+    {
+      "id": "starr-nova_vl82",
+      "quote": "Starr Patrol arc, let's go!",
+      "translation": "スターパトロール編、いくよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>arc は「編」。日本のマンガの「〜編」にあたるファン用語です。</li><li>自分たちの戦いを、物語の新しい章の始まりとして宣言しています。</li></ul><strong>英文法:</strong><br>\"Let's + 動詞の原形\" は「〜しよう」。前に名詞句を置いて「〜、いくぞ！」と続ける形です。",
+      "audioUrl": "/audio/starr-nova_vl82.mp3"
+    }
+  ]
+}
