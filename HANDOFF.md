@@ -128,6 +128,45 @@ git push
    - SiteOne はこれを critical と出すが、承知のうえで見送っている判断
    - やるならブランチを切って、Vercelプレビューではなく本番相当で要検証
 
+### 2026-09-27 に完了した分
+
+- **ダミアン（Damian / タンク / ウルトラレア）を追加** — 101体目。65セリフ・**欠番なし**
+  - 日本語名「ダミアン」は GameWith と公式Xの表記が一致。表記揺れなし
+  - Fandom は**旧命名**（`damian start vo 01.ogg`）、Fan Kit は**新命名**（`bs_damian_dies_002_001.wav`）という
+    初めての組み合わせ。`key_of` が場面名＋番号に正規化するので wikimap はそのまま通った
+  - 内訳は start12 / lead9 / hurt10 / kill12 / die10 / ulti12。Fandom の Attacking 列は空で、Fan Kit 側にも攻撃ボイスは無い
+  - wikimap で **56/65 を確定**。`unreliable_scenes` は `lead` だけ（Fan Kit が isinlead 001–008 と **010** の9本で、
+    009 が欠番。wiki の lead 01–09 と件数は合うのに番号が1つずれる例）。この9本は聞き取りに回して **9/9 一致（スコア100）**。
+    結果は lead01–08 → isinlead 001–008、**lead09 → isinlead 010** で、素朴な番号合わせなら最後の1本を取り違えていた
+  - アイコンは音声 zip に**同梱されていない**ので Game Assets の `Portrait_Damian`（2400×1602）を使用。crop は `100,150,1300`
+
+- **⚠️ 新しい命名の揺れ: テイク番号が付かないファイル**
+  - ulti 12本のうち10本が `bs_damian_specialpower_004.wav` という形で、末尾の `_MMM`（テイク番号）が無かった
+  - 旧 `BS_RE` は数字2つを必須にしていたためこの10本が**どこにも現れず**（`kit_files_unused` にも出ない）、
+    残る2本だけで「002〜009が欠番」と誤判定され、ulti が丸ごと unreliable に落ちていた
+  - **`lexie_match.py` と `lexie_wikimap.py` の `BS_RE` を恒久対応**: 末尾を `(?:[-_](\d+))?$` にしてテイク番号を任意に
+  - 退行検証: 既存8キャラ（alli/cosmo/gigi/glowy/mina/nori/pierce/sirius）の**747ファイル全部**について
+    旧・新の正規表現で `key_of` / `is_voice` / `take_group` / `scene_of` の結果を突き合わせ、**差分0件**。
+    コスモを新しい正規表現で再実行しても確定26本・unreliable は lead/die/hurt/ulti の41本で、当時の記録と一致
+
+- **⚠️ スキンのボイスが本体と衝突する（コード未修正・運用で回避）**
+  - `BS_RE` の `^BS_[^_]+_` は**ブロウラー名を検証していない**ので、`bs_spacedamian_dies_004_004` が
+    本体の die と同じ照合キーになる。複数テイクから「一番大きいファイル」を選ぶ仕様上、
+    **スキンの音声が本体のセリフに割り当てられる事故**が起こりうる
+  - 今回は照合前に `bs_spacedamian_*`（56本）を `_skin/` へ退避して回避した（ピアスの `_wav/` と同じ手口）
+  - 衝突するのは綴りが一致する `dies` / `getshurt` / `killssomeone` / `intobattle` / `specialpower`。
+    スキン側の `inthelead` / `attack` は綴りが違うので当たらない
+  - **次にスキン持ちのキャラを入れるときも、まず `bs_<スキン名><id>_*` を退避すること。**
+    根本的に直すなら `BS_RE` の `[^_]+` を実際の id で縛る（`--id` を正規表現に差し込む）のが筋
+
+- **場面名の綴りはコスモから元に戻っていた**: `getshurt` / `isinlead`（コスモは `gettinghurt` / `inlead`）。
+  どちらも SCENE_ALIAS に入っているので対応不要
+
+- **`.git/index.lock` がまた消せなかった**（コスモと同じ。Cowork 側で削除許可が下りない）。
+  今回は `GIT_INDEX_FILE` に一時 index を指して `git add -A` し、その index を `.git/index` に**上書きコピー**して回避した。
+  staged 172件（新規68・変更104）はそのまま残っているので、**`del .git\index.lock` してから `git commit` すればよい**。
+  `.git/objects/*/tmp_obj_*` も172個残っているが中身には影響しない（`git fsck` は dangling blob 1件のみ）
+
 ### 2026-09-26 に完了した分（2件目）
 
 - **コスモ（Cosmo / コントローラー / ウルトラレア）を追加** — 100体目。67セリフ・**欠番なし**

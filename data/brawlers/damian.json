@@ -1,0 +1,465 @@
+{
+  "name": "ダミアン",
+  "nameEn": "Damian",
+  "rarity": "ultra-rare",
+  "role": "tank",
+  "quote": "Heart made of steel, nothing feels more real!",
+  "iconUrl": "/icons/damian.png",
+  "voicelines": [
+    {
+      "id": "damian_vl1",
+      "quote": "Ooh ahaha! Bringing that berserker energy!",
+      "translation": "ウォー、アハハ！ バーサーカーの空気、持ってきたぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>berserker は北欧の伝説に出てくる「狂戦士」。我を忘れて暴れる戦士のことです。</li><li>\"bringing that ○○ energy\" は「○○な空気を持ち込む」というネット発の言い回しです。energy をここでは「雰囲気・オーラ」の意味で使っています。</li></ul><strong>英文法:</strong><br>主語と be動詞を省いて -ing から始める、口語らしい言い方です。本来は \"I'm bringing...\" で、勢いを出すために頭を落としています。",
+      "audioUrl": "/audio/damian_vl1.mp3"
+    },
+    {
+      "id": "damian_vl2",
+      "quote": "The arena is mine!",
+      "translation": "このアリーナは俺のもんだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>arena は古代ローマの「闘技場」ですが、現代では大きなライブ会場も指します（arena tour など）。</li><li>闘士でありバンドのボーカルでもあるダミアンには、その両方の意味が重なります。</li></ul><strong>英文法:</strong><br>mine は所有代名詞で「私のもの」。my arena のように名詞をくり返さず1語で済ませる形です。",
+      "audioUrl": "/audio/damian_vl2.mp3"
+    },
+    {
+      "id": "damian_vl3",
+      "quote": "Ooh, is that your best?",
+      "translation": "おお、それが全力か？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>best はここでは名詞で「最善・全力」。do your best（全力を尽くす）の best と同じ使い方です。</li><li>攻撃を受けても効いていないふりをする、典型的な挑発です。</li></ul><strong>英文法:</strong><br>\"Is that ～?\" は be動詞の疑問文。that は目の前で起きたことを指しています。",
+      "audioUrl": "/audio/damian_vl3.mp3"
+    },
+    {
+      "id": "damian_vl4",
+      "quote": "The crowd wants more!",
+      "translation": "観客はもっと欲しがってるぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>crowd は「群衆」ですが、ライブでは「観客」。アンコールをねだる客のイメージです。</li><li>敵を倒したことを、ステージ上の盛り上がりとして言い換えています。</li></ul><strong>英文法:</strong><br>crowd は集合名詞です。アメリカ英語ではひとかたまりとして単数扱いするので、動詞は wants になります。",
+      "audioUrl": "/audio/damian_vl4.mp3"
+    },
+    {
+      "id": "damian_vl5",
+      "quote": "The arena fades!",
+      "translation": "アリーナが……消えていく……",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>fade は「だんだん薄れて消える」。曲の終わりを少しずつ小さくするフェードアウトもこの語です。</li><li>倒れる瞬間を、ライブが終わっていく感じで表しています。</li></ul><strong>英文法:</strong><br>今まさに起きていることを、あえて現在形で言っています。進行形より短く、芝居がかった響きになります。",
+      "audioUrl": "/audio/damian_vl5.mp3"
+    },
+    {
+      "id": "damian_vl6",
+      "quote": "Berserker bro!",
+      "translation": "バーサーカー・ブロ、いくぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>bro は brother の短縮で「相棒・仲間」。ダミアンの口ぐせです。</li><li>berserker と bro で b の音をそろえた頭韻になっていて、叫んだときに気持ちよく響きます。</li></ul><strong>英文法:</strong><br>動詞のない名詞句だけの掛け声です。英語でも技名や決めゼリフはこの形がよく使われます。",
+      "audioUrl": "/audio/damian_vl6.mp3"
+    },
+    {
+      "id": "damian_vl7",
+      "quote": "Ooh, another match, another legend!",
+      "translation": "おお、また一戦、また伝説だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"another A, another B\" と同じ形をくり返して、リズムを作っています。</li><li>legend は「伝説」。ここでは伝説になるような名勝負のことです。</li></ul><strong>英文法:</strong><br>another は an + other が1語になったもの。an が入っているので、後ろには必ず数えられる名詞の単数形が来ます。",
+      "audioUrl": "/audio/damian_vl7.mp3"
+    },
+    {
+      "id": "damian_vl8",
+      "quote": "Now, try to keep up, little brothers.",
+      "translation": "ほら、ついてこいよ、弟たち。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>keep up は「遅れずについていく」。keep up with me の with me が省かれた形です。</li><li>little brothers は「弟たち」。ダミアンには実際に弟がいるので、味方への呼びかけに実感がこもります。</li></ul><strong>英文法:</strong><br>\"try to + 動詞の原形\" は「～しようとする」。命令文にすると「まあ、やってみな」という上から目線のニュアンスが出ます。",
+      "audioUrl": "/audio/damian_vl8.mp3"
+    },
+    {
+      "id": "damian_vl9",
+      "quote": "Haha, you'll pay for that.",
+      "translation": "ハハ、その代償は払ってもらうぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"pay for ～\" は「～の代金を払う」から転じて「～の報いを受ける」。仕返しの予告の決まり文句です。</li><li>笑いながら言うことで、余裕と怖さが同時に出ています。</li></ul><strong>英文法:</strong><br>you'll は you will の短縮。ここでの will は予定ではなく「必ずそうなる」という話し手の断定です。",
+      "audioUrl": "/audio/damian_vl9.mp3"
+    },
+    {
+      "id": "damian_vl10",
+      "quote": "One down, crowd's screaming!",
+      "translation": "ひとり撃破、観客は大絶叫だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"One down\" は「1人片づいた」。残りを数えるときの言い方で、\"two to go\"（あと2人）と対になります。</li><li>scream は「叫ぶ」。ライブで歓声を上げる観客にも使います。</li></ul><strong>英文法:</strong><br>crowd's は crowd is の短縮です。アポストロフィ + s は所有格と同じ形なので、後ろが -ing なら be動詞だと見分けられます。",
+      "audioUrl": "/audio/damian_vl10.mp3"
+    },
+    {
+      "id": "damian_vl11",
+      "quote": "The crowd falls silent!",
+      "translation": "観客が……静まり返る。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fall silent\" は「しんと静まり返る」。音が消える瞬間を1語で表します。</li><li>盛り上がっていた会場が急に静かになる——自分が倒れたことをそう表現しています。</li></ul><strong>英文法:</strong><br>fall は「落ちる」だけでなく「（ある状態に）なる」という意味でも使います。fall asleep（眠りに落ちる）、fall ill（病気になる）も同じ形です。",
+      "audioUrl": "/audio/damian_vl11.mp3"
+    },
+    {
+      "id": "damian_vl12",
+      "quote": "Behold the metal heart!",
+      "translation": "見よ、この鋼鉄の心臓を！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>behold は「見よ」。古風で大げさな語で、舞台の口上のような響きがあります。</li><li>metal heart は「金属の心臓」と「ヘヴィメタルの心」の二重の意味。ダミアンの決めフレーズです。</li></ul><strong>英文法:</strong><br>主語を置かない命令文です。behold は現代ではほぼこの形でしか見かけません。",
+      "audioUrl": "/audio/damian_vl12.mp3"
+    },
+    {
+      "id": "damian_vl13",
+      "quote": "Let's get physical!",
+      "translation": "さあ、体でいこうぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"get physical\" は「肉体的になる」から「手を出す・つかみ合う」という意味で使われます。</li><li>射程の短い殴り合いが武器のダミアンらしい宣言です。</li></ul><strong>英文法:</strong><br>\"get + 形容詞\" で「～の状態になる」。get angry（怒る）、get ready（準備する）と同じ形です。",
+      "audioUrl": "/audio/damian_vl13.mp3"
+    },
+    {
+      "id": "damian_vl14",
+      "quote": "Another arena, another conquest!",
+      "translation": "またアリーナ、また征服だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>conquest は「征服」。動詞 conquer（征服する）の名詞形です。</li><li>アリーナと征服という語選びが、剣闘士（グラディエーター）のイメージにつながっています。</li></ul><strong>英文法:</strong><br>同じ \"another + 名詞\" を2回並べる形です。動詞がなくてもリズムだけで意味が通る、掛け声向きの言い方です。",
+      "audioUrl": "/audio/damian_vl14.mp3"
+    },
+    {
+      "id": "damian_vl15",
+      "quote": "That all you got?",
+      "translation": "それで全部か？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>もとの形は \"Is that all you've got?\"。くだけた話し言葉では is や have がまるごと落ちます。</li><li>相手の攻撃を「その程度か」と見下す定番のあおり文句です。</li></ul><strong>英文法:</strong><br>all の後ろに関係代名詞 that が省略されています。\"all (that) you got\" で「お前が持っているもの全部」。",
+      "audioUrl": "/audio/damian_vl15.mp3"
+    },
+    {
+      "id": "damian_vl16",
+      "quote": "Yeah, berserker bro beats Brawler!",
+      "translation": "そうさ、バーサーカー・ブロはブロウラーに勝つ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>berserker / bro / beats / Brawler と b の音を4つ重ねた頭韻です。</li><li>beat は「打ち負かす」ですが、音楽では「ビート（拍）」。殴ることと演奏することが重なる単語です。</li></ul><strong>英文法:</strong><br>主語が3人称単数なので beats と s が付きます。berserker bro をひとかたまりの名前として扱っています。",
+      "audioUrl": "/audio/damian_vl16.mp3"
+    },
+    {
+      "id": "damian_vl17",
+      "quote": "Just... a dramatic pause!",
+      "translation": "ただの……劇的な「タメ」さ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"dramatic pause\" は演劇や音楽で、効果を出すためにわざと入れる間のことです。</li><li>倒れたのではなく演出だ、と言い張っているわけです。</li></ul><strong>英文法:</strong><br>just は「ただの・～にすぎない」と程度を下げる副詞。ここでは名詞句の前に置いて全体を弱めています。",
+      "audioUrl": "/audio/damian_vl17.mp3"
+    },
+    {
+      "id": "damian_vl18",
+      "quote": "Berserker mode engaaaaaged!",
+      "translation": "バーサーカーモード、起動ォォォ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>engage は「（装置を）作動させる」。機械の起動アナウンスのような硬い語です。</li><li>母音を引き伸ばした綴り（engaaaaaged）は、叫びをそのまま文字にしたものです。</li></ul><strong>英文法:</strong><br>本来は \"Berserker mode is engaged\" という受動態で、be動詞が省かれています。表示パネルの文字のような簡潔さが出ます。",
+      "audioUrl": "/audio/damian_vl18.mp3"
+    },
+    {
+      "id": "damian_vl19",
+      "quote": "Metal heart, ready to start!",
+      "translation": "鋼鉄の心臓、スタート準備完了！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>heart と start で母音をそろえた脚韻。歌詞のように韻を踏むのがダミアンの話し方です。</li><li>\"Metal heart, ready to restart!\" という別のセリフとも対になっています。</li></ul><strong>英文法:</strong><br>\"be ready to + 動詞の原形\" で「～する準備ができている」。ここは be動詞が省略されています。",
+      "audioUrl": "/audio/damian_vl19.mp3"
+    },
+    {
+      "id": "damian_vl20",
+      "quote": "Tough as a rock, sharp as steel.",
+      "translation": "岩のようにタフ、鋼のように鋭い。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"as ～ as ○○\" は「○○のように～だ」という直喩。2つ並べて対句にしています。</li><li>rock は「岩」ですが「ロック音楽」でもあります。バンドマンの彼が言うと二重の意味になります。</li></ul><strong>英文法:</strong><br>本来は \"I'm as tough as a rock\" で、頭の \"I'm as\" が省かれています。掲げる標語のような響きになります。",
+      "audioUrl": "/audio/damian_vl20.mp3"
+    },
+    {
+      "id": "damian_vl21",
+      "quote": "Ohohoho, lucky shot, won't happen again!",
+      "translation": "オホホホ、まぐれ当たりだ、二度はないぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"lucky shot\" は「まぐれ当たり」。相手の実力を認めない言い方です。</li><li>笑い声から入ることで、痛がっていないという演技になっています。</li></ul><strong>英文法:</strong><br>\"(It) won't happen again\" の主語 it が省略されています。won't は will not の短縮です。",
+      "audioUrl": "/audio/damian_vl21.mp3"
+    },
+    {
+      "id": "damian_vl22",
+      "quote": "Ah, you got too close. Nap time.",
+      "translation": "ああ、近づきすぎたな。おやすみの時間だ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"nap time\" は幼稚園のお昼寝の時間。倒したことを子ども扱いして言う、からかいの言い回しです。</li><li>射程が短いダミアンに近づくとどうなるか、という自慢でもあります。</li></ul><strong>英文法:</strong><br>\"too + 形容詞\" は「～すぎる」。very と違い、必ず「度を越していて良くない」という否定的な含みが付きます。",
+      "audioUrl": "/audio/damian_vl22.mp3"
+    },
+    {
+      "id": "damian_vl23",
+      "quote": "Brothers, I'll be back!",
+      "translation": "ブラザーども、俺は戻ってくる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>brothers は血のつながった弟と、バンドの仲間の両方を指せます。</li><li>\"I'll be back\" は映画でも有名になった決め台詞の形で、去り際に使われます。</li></ul><strong>英文法:</strong><br>\"will be + 場所や状態\" で「（そこに）いる」。come back を使わず be back と言うと、戻った結果の状態に目が向きます。",
+      "audioUrl": "/audio/damian_vl23.mp3"
+    },
+    {
+      "id": "damian_vl24",
+      "quote": "Flames of furyyyy!",
+      "translation": "怒りの炎ォォォ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>fury は「激しい怒り」。anger より強く、荒れ狂うイメージの語です。</li><li>flames と fury で f の頭韻。ダミアンの蹴りが敵を燃やす能力とも合っています。</li></ul><strong>英文法:</strong><br>\"A of B\" で「BのA」。日本語と語順が逆になるので、後ろから訳し上げると自然になります。",
+      "audioUrl": "/audio/damian_vl24.mp3"
+    },
+    {
+      "id": "damian_vl25",
+      "quote": "Another round, another roar.",
+      "translation": "また一回戦、またひと吠え。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>round は試合の「ラウンド」。roar は獣の「咆哮」で、音声では実際に吠えています。</li><li>round と roar で r の音をそろえ、ここでも \"another A, another B\" の形を使っています。</li></ul><strong>英文法:</strong><br>roar は名詞でも動詞でも使えます。ここでは another が付いているので名詞です。",
+      "audioUrl": "/audio/damian_vl25.mp3"
+    },
+    {
+      "id": "damian_vl26",
+      "quote": "Haha, the crowd goes wild!",
+      "translation": "ハハ、観客は大熱狂だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"go wild\" は「熱狂する・我を忘れる」。ライブやスポーツの実況でよく出ます。</li><li>ダミアン自身も音楽で我を忘れて暴れるので、観客と同じ状態になっていきます。</li></ul><strong>英文法:</strong><br>\"go + 形容詞\" は「（悪い方向に）～になる」ことが多い形です。go bad（腐る）、go crazy（おかしくなる）など。",
+      "audioUrl": "/audio/damian_vl26.mp3"
+    },
+    {
+      "id": "damian_vl27",
+      "quote": "Nice try, my turn!",
+      "translation": "いい攻撃だ、次は俺の番！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Nice try\" は「惜しかったね」。褒めているようで、失敗したことを前提にした皮肉です。</li><li>\"my turn\" は「私の番」。ゲームや順番待ちで使う日常表現です。</li></ul><strong>英文法:</strong><br>どちらも名詞句だけの短い発話です。会話では主語も動詞も省いて、勢いだけで通すことがよくあります。",
+      "audioUrl": "/audio/damian_vl27.mp3"
+    },
+    {
+      "id": "damian_vl28",
+      "quote": "Sorry, I don't know my own strength!",
+      "translation": "悪いな、自分の力加減がわからなくてさ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"not know one's own strength\" は「自分の力の強さをわかっていない」という決まり文句。うっかり強くやってしまった人が使います。</li><li>謝る形を取りながら、実は力自慢になっているのが面白いところです。</li></ul><strong>英文法:</strong><br>own は所有格の後ろに置いて「ほかでもない自分の」と強める語です。my strength より my own strength のほうが強調されます。",
+      "audioUrl": "/audio/damian_vl28.mp3"
+    },
+    {
+      "id": "damian_vl29",
+      "quote": "That was just the intro!",
+      "translation": "今のはイントロにすぎない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>intro は introduction の短縮で、曲の前奏のこと。本編はこれから、と言っています。</li><li>倒れてもステージ用語で返すあたりが、根っからのボーカリストです。</li></ul><strong>英文法:</strong><br>That was は直前の出来事を指す言い方。just が付くことで「ほんの」と価値を下げています。",
+      "audioUrl": "/audio/damian_vl29.mp3"
+    },
+    {
+      "id": "damian_vl30",
+      "quote": "Unleash the berserk bro!",
+      "translation": "暴れブロを解き放て！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>unleash は un-（外す）+ leash（犬のリード）で「鎖を解いて放つ」。荒々しい力を解放するときの語です。</li><li>berserk は形容詞で「逆上した」。berserker（狂戦士）と同じ語源です。</li></ul><strong>英文法:</strong><br>命令文ですが、自分に言い聞かせる掛け声として使っています。技名の宣言によくある形です。",
+      "audioUrl": "/audio/damian_vl30.mp3"
+    },
+    {
+      "id": "damian_vl31",
+      "quote": "MadEvil Manor in the house!",
+      "translation": "マッドイービル・マナー、ここに見参！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"in the house\" は「（その人が）この場に来ているぞ」とDJが紹介するときの掛け声です。</li><li>MadEvil は mad（狂った）と evil（邪悪）を、medieval（中世の）に似せた造語です。</li></ul><strong>英文法:</strong><br>\"主語 + in the house\" で be動詞が省かれています。看板やアナウンスのように短く言い切る形です。<br><br><strong>🧠豆知識:</strong><br>MadEvil Manor はダミアンたちのバンド名です。ボーカルがダミアン、ギターが弟のドラコ、ドラムがルミという3人組という設定になっています。",
+      "audioUrl": "/audio/damian_vl31.mp3"
+    },
+    {
+      "id": "damian_vl32",
+      "quote": "Still standing, still swinging!",
+      "translation": "まだ立ってる、まだ振り回してる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>still（まだ）をくり返して、倒れていないことを強調しています。</li><li>swing は「腕を振る」ですが、音楽ではスイングのこと。殴ることと演奏することがまた重なります。</li></ul><strong>英文法:</strong><br>\"(I'm) still standing\" の主語と be動詞が省かれた進行形です。-ing だけを並べると、続いている感じが強く出ます。",
+      "audioUrl": "/audio/damian_vl32.mp3"
+    },
+    {
+      "id": "damian_vl33",
+      "quote": "Ooh, you're gonna regret that.",
+      "translation": "おお、それは後悔することになるぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>regret は「後悔する」。\"You'll regret it\" は脅し文句の定番です。</li><li>gonna は going to のくだけた綴りで、話し言葉ではこちらが普通です。</li></ul><strong>英文法:</strong><br>be going to は、今の状況から見て「そうなるに決まっている」と言うときに使います。will より確信が根拠に基づいている感じです。",
+      "audioUrl": "/audio/damian_vl33.mp3"
+    },
+    {
+      "id": "damian_vl34",
+      "quote": "Stay down, show's over.",
+      "translation": "寝てろ、ショーは終わりだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Stay down\" はボクシングで、倒れた相手に「もう起きるな」と言う言葉です。</li><li>\"show's over\" は「もう終わりだ」。ライブの終演にもそのまま使えます。</li></ul><strong>英文法:</strong><br>show's は show is の短縮。over は前置詞ではなく「終わって」という形容詞の使い方です。",
+      "audioUrl": "/audio/damian_vl34.mp3"
+    },
+    {
+      "id": "damian_vl35",
+      "quote": "Metal heart, ready to restart!",
+      "translation": "鋼鉄の心臓、再起動の準備は万端だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒されても「再起動するだけ」と言い切る強気なセリフです。</li><li>heart と restart で脚韻。\"Metal heart, ready to start!\" と対になるように作られています。</li></ul><strong>英文法:</strong><br>re- は「再び」を表す接頭辞。restart、rebuild、rewrite のように、動詞の前に付けて意味を足します。",
+      "audioUrl": "/audio/damian_vl35.mp3"
+    },
+    {
+      "id": "damian_vl36",
+      "quote": "Hear the beat, feel the fury!",
+      "translation": "ビートを聴け、怒りを感じろ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>命令文を2つ並べた対句。ライブの煽りそのものの言い回しです。</li><li>beat（拍）と fury（怒り）を並べることで、音楽と暴力が同じものだというダミアンの設定が出ます。</li></ul><strong>英文法:</strong><br>hear は「自然に聞こえる」、listen は「意識して聴く」。ここで hear を使うと「耳に叩き込まれる」ような強さになります。",
+      "audioUrl": "/audio/damian_vl36.mp3"
+    },
+    {
+      "id": "damian_vl37",
+      "quote": "Brothers watching, got to represent!",
+      "translation": "ブラザーたちが見てる、いいとこ見せなきゃな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>represent は「代表する」から転じて、ヒップホップなどで「仲間や地元の看板を背負って結果を出す」という意味で使われます。</li><li>目的語を置かずに使うのがこの用法の特徴です。</li></ul><strong>英文法:</strong><br>\"got to\" は \"have got to\"（～しなければ）の have が落ちた形。話し言葉では gotta と綴ることもあります。",
+      "audioUrl": "/audio/damian_vl37.mp3"
+    },
+    {
+      "id": "damian_vl38",
+      "quote": "Who's the strongest, now?",
+      "translation": "で、誰が一番強いんだって？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>最後の now は時を表すというより「さあどうだ」と念を押す働きをしています。</li><li>答えのわかりきった質問をして、相手に言わせようとする挑発です。</li></ul><strong>英文法:</strong><br>最上級には the が付きます。strong → stronger → the strongest と変化する、1音節の形容詞の基本形です。",
+      "audioUrl": "/audio/damian_vl38.mp3"
+    },
+    {
+      "id": "damian_vl39",
+      "quote": "My heart is unbreakable, but keep trying!",
+      "translation": "俺の心臓は壊れない、まあ頑張ってみな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>unbreakable は un-（否定）+ break（壊す）+ -able（できる）で「壊すことができない」。</li><li>後半の \"keep trying\" は励ましの形をした見下しで、前半とセットで嫌味になります。</li></ul><strong>英文法:</strong><br>\"keep + -ing\" は「～し続ける」。keep trying で「試し続ける」という意味になります。",
+      "audioUrl": "/audio/damian_vl39.mp3"
+    },
+    {
+      "id": "damian_vl40",
+      "quote": "My bad, I'll be gentle next time!",
+      "translation": "わりぃ、次はやさしくするよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"My bad\" は「ごめん、俺のミス」。Sorry よりずっと軽く、友達同士で使う言い方です。</li><li>倒しておいて軽く謝るので、まったく反省していないのが伝わります。</li></ul><strong>英文法:</strong><br>\"be + 形容詞\" で性質や態度を表します。be gentle は「（動作を）やさしくする」という意味になります。",
+      "audioUrl": "/audio/damian_vl40.mp3"
+    },
+    {
+      "id": "damian_vl41",
+      "quote": "Metal heart torn apart!",
+      "translation": "鋼鉄の心臓、引き裂かれた！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"tear apart\" は「引き裂く」。tear - tore - torn と不規則に変化します（発音は「テア」）。</li><li>heart と apart でまた脚韻を踏んでいます。</li></ul><strong>英文法:</strong><br>\"(is) torn apart\" と be動詞が省かれた受動態です。過去分詞だけを残すと、見出しのような強い言い切りになります。",
+      "audioUrl": "/audio/damian_vl41.mp3"
+    },
+    {
+      "id": "damian_vl42",
+      "quote": "No holding baaaack!",
+      "translation": "手加減なしだァァ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"hold back\" は「力をセーブする・手加減する」。それを No で打ち消しています。</li><li>母音を伸ばした綴りは、実際に叫んで伸ばしていることを表しています。</li></ul><strong>英文法:</strong><br>\"No + 動名詞\" は禁止や不在を表す形です。No smoking（禁煙）、No parking（駐車禁止）と同じ作りです。",
+      "audioUrl": "/audio/damian_vl42.mp3"
+    },
+    {
+      "id": "damian_vl43",
+      "quote": "Crowd's waiting, so am I!",
+      "translation": "観客も待ってる、俺もだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"so am I\" は「私もそうだ」。相手に合わせて同意するときの決まり文句です。</li><li>観客と自分を同じ気持ちに並べることで、出番を待ちきれない感じが出ます。</li></ul><strong>英文法:</strong><br>so の後ろは主語と動詞が入れ替わる倒置になります。前が be動詞なら so am I、一般動詞なら so do I と、前の文に合わせて形を選びます。",
+      "audioUrl": "/audio/damian_vl43.mp3"
+    },
+    {
+      "id": "damian_vl44",
+      "quote": "Even the pits are on my side!",
+      "translation": "ピットまで俺の味方だぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>pit は「穴・くぼみ」ですが、ライブでは客が激しくぶつかり合う「モッシュピット」のこと。ダミアンのウルトラの名前でもあります。</li><li>\"on my side\" は「私の側にいる＝味方だ」。</li></ul><strong>英文法:</strong><br>even は「～でさえ」と、意外なものを持ち出して強調する副詞。強調したい語のすぐ前に置きます。",
+      "audioUrl": "/audio/damian_vl44.mp3"
+    },
+    {
+      "id": "damian_vl45",
+      "quote": "Barely felt it!",
+      "translation": "ほとんど感じなかったぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>barely は「かろうじて～・ほとんど～ない」。not を使わずに否定に近い意味を出す語です。</li><li>痛みを認めない強がりとして、タンク役のダミアンにぴったりの一言です。</li></ul><strong>英文法:</strong><br>主語 I が省略されています。barely のような準否定語は、動詞の前に置くのが基本の位置です。",
+      "audioUrl": "/audio/damian_vl45.mp3"
+    },
+    {
+      "id": "damian_vl46",
+      "quote": "Brothers are gonna love this.",
+      "translation": "ブラザーたち、これ気に入るぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"love this\" は「これを大いに気に入る」。like よりずっと強い反応を表します。</li><li>倒した自分より、仲間がどう喜ぶかを先に言うのがダミアンらしいところです。</li></ul><strong>英文法:</strong><br>be going to は、根拠があって「そうなるはずだ」と予想するときの形です。仲間の性格を知っているからこその言い方になります。",
+      "audioUrl": "/audio/damian_vl46.mp3"
+    },
+    {
+      "id": "damian_vl47",
+      "quote": "Argh, see you in the next round.",
+      "translation": "ぐっ……次のラウンドで会おうぜ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>round は試合の「ラウンド」。負けても次があると言い残しています。</li><li>Argh はうめき声をそのまま綴ったもので、日本語の「ぐっ」にあたります。</li></ul><strong>英文法:</strong><br>\"See you ～\" は \"I'll see you ～\" の主語と助動詞が落ちた形。別れ際の決まり文句として、そのまま覚えて使えます。",
+      "audioUrl": "/audio/damian_vl47.mp3"
+    },
+    {
+      "id": "damian_vl48",
+      "quote": "Berserker broooo!",
+      "translation": "バーサーカー・ブロォォォ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Berserker bro!\" を思い切り伸ばした叫び版です。同じ言葉でも伸ばし方でテンションを描き分けています。</li><li>o を重ねる綴りは、漫画やライブのMCでよく見かけます。</li></ul><strong>英文法:</strong><br>文になっていない呼びかけ（間投詞的な名詞句）です。感情をそのまま出す場面で使われます。",
+      "audioUrl": "/audio/damian_vl48.mp3"
+    },
+    {
+      "id": "damian_vl49",
+      "quote": "Hitting the stage, and hitting them hard!",
+      "translation": "ステージに立って、そいつらを思いきりぶん殴る！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"hit the stage\" は「ステージに上がる・出演する」という決まった言い方です。</li><li>同じ hit を、後半では文字どおり「殴る」の意味で使っています。1つの動詞で二役やらせた言葉遊びです。</li></ul><strong>英文法:</strong><br>\"hit them hard\" の hard は形容詞ではなく副詞で「強く」。hardly（ほとんど～ない）とは別の語なので注意が要ります。",
+      "audioUrl": "/audio/damian_vl49.mp3"
+    },
+    {
+      "id": "damian_vl50",
+      "quote": "Oh, look! I'm amazing.",
+      "translation": "おっと見てくれ、俺ってすごくない？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>amazing は「驚くほどすばらしい」。自分に使うと、わざとらしい自画自賛になります。</li><li>感嘆の \"Oh, look!\" と組み合わせて、うぬぼれをネタにしています。</li></ul><strong>英文法:</strong><br>amazing は「驚かせる側」、amazed は「驚かされた側」。I'm amazed なら「俺は驚いた」と意味が逆になります。",
+      "audioUrl": "/audio/damian_vl50.mp3"
+    },
+    {
+      "id": "damian_vl51",
+      "quote": "Metal heart never taps out.",
+      "translation": "鋼鉄の心臓はギブアップしない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"tap out\" は格闘技で、相手やマットを叩いて降参を伝えること。そこから「ギブアップする」の意味になりました。</li><li>自分のことを metal heart と三人称で呼ぶのが、キャッチコピーのような響きを生んでいます。</li></ul><strong>英文法:</strong><br>never は not より強い否定で「決して～ない」。頻度を表す副詞なので、一般動詞の前に置きます。",
+      "audioUrl": "/audio/damian_vl51.mp3"
+    },
+    {
+      "id": "damian_vl52",
+      "quote": "Encore? Nah, you're done.",
+      "translation": "アンコール？ いや、お前はもう終わりだ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>encore はフランス語から入った語で「もう一度」。ライブの終わりに客が叫ぶあの言葉です。</li><li>\"you're done\" は「お前は終わった」。食べ終わったときの「ごちそうさま」の done と同じ語です。</li></ul><strong>英文法:</strong><br>Nah は No のくだけた言い方。会話をそのまま綴った表記で、軽く受け流す感じが出ます。",
+      "audioUrl": "/audio/damian_vl52.mp3"
+    },
+    {
+      "id": "damian_vl53",
+      "quote": "Applause for the comeback!",
+      "translation": "カムバックに拍手を！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>applause は「拍手（の音）」。数えられない名詞なので a も -s も付きません。</li><li>comeback は「復活・返り咲き」。倒れた瞬間に復活宣言をしているところが強気です。</li></ul><strong>英文法:</strong><br>\"A for B\" で「Bに対するA」。\"(Let's have) applause for ～\" という司会者の言い方が縮んだ形です。",
+      "audioUrl": "/audio/damian_vl53.mp3"
+    },
+    {
+      "id": "damian_vl54",
+      "quote": "Rhythm and raaaage!",
+      "translation": "リズム・アンド・レイジ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>音楽ジャンルの rhythm and blues（R&B）をもじった言い回しです。blues を rage（激怒）に取り替えています。</li><li>rhythm と rage で r の頭韻。音と怒りが一体というダミアンの主題そのものです。</li></ul><strong>英文法:</strong><br>\"A and B\" で対になる2語を結ぶ形。ジャンル名や決まり文句はこの形で固定されているものが多くあります。",
+      "audioUrl": "/audio/damian_vl54.mp3"
+    },
+    {
+      "id": "damian_vl55",
+      "quote": "Mmm, let's make some noise!",
+      "translation": "ンン、派手にいこうぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Make some noise!\" はライブで客に「声出せ！」と煽るときの定番の掛け声です。</li><li>ダミアンは「音を出すのが大好き」という設定なので、本人にとっては文字どおりの宣言でもあります。</li></ul><strong>英文法:</strong><br>この some は「いくらかの」というより、勢いを添えるための語です。日本語の「ちょっと派手に」に近い働きをします。",
+      "audioUrl": "/audio/damian_vl55.mp3"
+    },
+    {
+      "id": "damian_vl56",
+      "quote": "Back off, or I'll go berserk!",
+      "translation": "下がれ、さもないと暴れ出すぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"back off\" は「後ろに下がれ・引っ込んでろ」。</li><li>\"go berserk\" は「逆上して暴れる」。berserker（狂戦士）から生まれた表現です。</li></ul><strong>英文法:</strong><br>\"命令文 + or ～\" で「～しろ、さもないと…」。and に変えると「～しろ、そうすれば…」と逆の意味になります。",
+      "audioUrl": "/audio/damian_vl56.mp3"
+    },
+    {
+      "id": "damian_vl57",
+      "quote": "And be seeing ya!",
+      "translation": "そんじゃ、またな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"(I'll) be seeing you\" は「またそのうち会おう」という別れのあいさつです。</li><li>ya は you のくだけた綴り。倒した相手に軽く手を振るような調子になります。</li></ul><strong>英文法:</strong><br>\"will be + -ing\" は未来進行形で、成り行きでそうなる未来を表します。will see より押しつけがましくない言い方です。",
+      "audioUrl": "/audio/damian_vl57.mp3"
+    },
+    {
+      "id": "damian_vl58",
+      "quote": "Time for another bro to steal the show.",
+      "translation": "別のブロが主役をさらう番だな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"steal the show\" は「（脇役が）人気をさらう・おいしいところを持っていく」。舞台から生まれた言い回しです。</li><li>倒れた自分の代わりを仲間に譲る、という言い方になっています。</li></ul><strong>英文法:</strong><br>\"(It's) time for A to do\" で「Aが～する番だ」。for A が to do の意味上の主語になります。",
+      "audioUrl": "/audio/damian_vl58.mp3"
+    },
+    {
+      "id": "damian_vl59",
+      "quote": "MadEvil maniac!",
+      "translation": "マッドイービルの狂人だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>maniac は「狂気じみた人」。何かに夢中な人を指す「マニア」とは意味の幅が違います。</li><li>MadEvil と maniac で m の頭韻。バンド名を自分の異名のように使っています。</li></ul><strong>英文法:</strong><br>固有名詞をそのまま前に置いて、後ろの名詞を修飾しています。英語では名詞が名詞を修飾するこの形がよく使われます。",
+      "audioUrl": "/audio/damian_vl59.mp3"
+    },
+    {
+      "id": "damian_vl60",
+      "quote": "This bro is ready for the show!",
+      "translation": "このブロ、ショーの準備は万端だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"this bro\" は自分のこと。I と言わずに指差すように言うことで、おどけた自己紹介になります。</li><li>試合を show（ショー）と呼ぶのが、ダミアンの世界の見え方です。</li></ul><strong>英文法:</strong><br>\"be ready for + 名詞\" と \"be ready to + 動詞\" の2つの形があります。後ろに来るものが名詞か動詞かで使い分けます。",
+      "audioUrl": "/audio/damian_vl60.mp3"
+    },
+    {
+      "id": "damian_vl61",
+      "quote": "Don't mess with a brawling berserker, bro!",
+      "translation": "暴れ回るバーサーカーにちょっかい出すなよ、ブロ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"mess with ～\" は「～にちょっかいを出す・手を出す」。警告の定番表現です。</li><li>brawling / berserker / bro と b の音を3つ重ねています。</li></ul><strong>英文法:</strong><br>\"Don't + 動詞の原形\" の否定命令文。brawling は現在分詞が形容詞として berserker を前から修飾しています。",
+      "audioUrl": "/audio/damian_vl61.mp3"
+    },
+    {
+      "id": "damian_vl62",
+      "quote": "Heart made of steel, nothing feels more real!",
+      "translation": "心臓は鋼、これ以上リアルなもんはない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"made of ～\" は「～でできた」。材料が見た目でわかるときに of を使います（made from は原料が変化した場合）。</li><li>steel と real で脚韻。そのまま歌詞にできる1行です。</li></ul><strong>英文法:</strong><br>\"nothing + 比較級\" で最上級と同じ意味になります。「これより real なものは何もない＝一番 real だ」ということです。",
+      "audioUrl": "/audio/damian_vl62.mp3"
+    },
+    {
+      "id": "damian_vl63",
+      "quote": "Ha ha ha! Draco and Lumi sitting in a tree.",
+      "translation": "ハハハ！ ドラコとルミが木の上でイチャイチャってな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>英語圏の子どもの囃し歌「○○ and △△ sitting in a tree, K-I-S-S-I-N-G」の出だしです。「あの2人、できてるぞ」とからかう歌です。</li><li>歌の続きを言わずに切るのが、かえって「言わなくてもわかるだろ」という当てこすりになっています。</li></ul><strong>英文法:</strong><br>sitting は現在分詞で、前の名詞を後ろから説明しています。\"Draco and Lumi (who are) sitting in a tree\" の関係代名詞と be動詞が省かれた形です。<br><br><strong>🧠豆知識:</strong><br>ドラコはダミアンの実の弟で、同じバンド MadEvil Manor のギター担当。ルミはそのバンドのドラム担当です。兄が弟をからかっているセリフというわけです。",
+      "audioUrl": "/audio/damian_vl63.mp3"
+    },
+    {
+      "id": "damian_vl64",
+      "quote": "Ah, two thumbs down for you!",
+      "translation": "ああ、お前には親指下向き2本だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"thumbs down\" は親指を下に向けるしぐさで「不合格・ダメ」。逆の \"thumbs up\" は「いいね」です。</li><li>\"two thumbs down\" は映画批評の決まり文句（2人の批評家がそろって酷評する）から広まりました。</li></ul><strong>英文法:</strong><br>thumbs と複数形なのは、親指が2本あるからです。数を言うときは two thumbs down のように前に数詞を置きます。<br><br><strong>🧠豆知識:</strong><br>古代ローマの闘技場では、観客の親指の向きが倒れた剣闘士の生死を決めたと伝えられています。ダミアンの称号が「グラディエーター（剣闘士）」であることを考えると、この一言は映画評とローマの処刑合図を掛けているとも読めます。",
+      "audioUrl": "/audio/damian_vl64.mp3"
+    },
+    {
+      "id": "damian_vl65",
+      "quote": "Mosh pit!",
+      "translation": "モッシュピット！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>モッシュピットは、ロックやメタルのライブでステージ前の客がぶつかり合う一角のこと。mosh は「もみ合う」という動詞です。</li><li>ダミアンのウルトラの技名そのもので、敵を囲い込んで逃がさない効果も「ピット（穴）」のイメージと重なります。</li></ul><strong>英文法:</strong><br>名詞が名詞を修飾する複合名詞です。英語では mosh + pit のように2語を並べて新しい物の名前を作ることがよくあります。",
+      "audioUrl": "/audio/damian_vl65.mp3"
+    }
+  ]
+}
