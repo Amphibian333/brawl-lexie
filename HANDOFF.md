@@ -130,6 +130,27 @@ git push
 
 ### 2026-09-27 に完了した分
 
+- **ジギー（Ziggy / コントローラー / ウルトラレア）を追加** — 103体目。50セリフ・**欠番なし**（ブランチ `test/ziggy`）
+  - 日本語名「ジギー」は GameWith系サイトで一致。表記揺れなし。2025/10/17 実装（10/18 早期解禁）
+  - Fandom・Fan Kit とも**旧命名**（`Ziggy start vo 01.ogg` / `ziggy_start_vo_01.ogg`）で 1:1 対応。
+    `unreliable_scenes` は空、`missing` 0 で**一発完全一致**
+  - Fandom の Ogg は 56件。ト書き2件（`Ziggy screams` / `Ziggy laughs`）を除外、
+    完全一致の重複3組（`Sizzle!` / `Thunderous applause!` / `Sparkles!`）を wikimap が統合、
+    さらに**句読点だけ違う `Oh, behave.` / `Oh, behave!` をあんふぃの判断で1本に統合**して **50本**
+    - 統合は wikitext の作業用コピー（`voicelines_wiki_merged.txt`）で `!` を `.` に寄せて実施。
+      `lexie_inbox/_done/ziggy-20260927/voicelines_wiki.txt` は Fandom と**バイト単位で同一**（SHA-256 照合済み）
+    - 残した近似ペア: `That felt real?` / `That felt real.`（疑問↔断定）、
+      `Curtain call, already? Ugh.` / `Curtain call, already?`（`Ugh.` の有無）
+  - 内訳は start7 / lead6(→5) / hurt9(→8) / kill11 / die7(→6) / atk8(→6) / ulti8(→7)
+  - **スキン・別ブロウラーの混入は0件**。`brawler_names_seen` は `{ziggy: 56}` のみ。
+    スキンは3種（Warlock / Zap It Up / Dark Wizard）あるが Fan Kit に音声なし
+  - アイコンは**音声 zip に同梱されていた** `Ziggy_portrait.png`（2400×1602）を使用。crop は `0,0,1400`
+  - 検証: 音声50本を元oggと**波形エンベロープで全数照合**（全件で正しい元ファイルが最類似・類似度1.0）、
+    公開後の mp3 も元ファイルと **md5 一致**。既存102ページの差分は
+    「全102→全103」「バナー トランク→ジギー」「リンク一覧に ziggy 1行」のみで**退行なし**
+  - ⚠️ **この環境では削除許可が下りなかった**（`rm` が `Operation not permitted`）。
+    `mv` は同一フォルダ内なら通る。後片付けで消し残したものは下記「手作業」参照
+
 - **トランク（Trunk / タンク / ハイパーレア）を追加** — 102体目。58セリフ・**欠番なし**
   - 日本語名「トランク」は GameWith・ゲームラインで一致。表記揺れなし。2025/08/21 実装（08/28 スターロード解禁）
   - Fandom・Fan Kit とも**旧命名**（`trunk start vo 01.ogg` / `trunk_start_vo_01.ogg`）。命名の新しい揺れは無し

@@ -1,0 +1,360 @@
+{
+  "name": "ジギー",
+  "nameEn": "Ziggy",
+  "rarity": "ultra-rare",
+  "role": "controller",
+  "quote": "Glitter and glow, this is my show!",
+  "iconUrl": "/icons/ziggy.png",
+  "voicelines": [
+    {
+      "id": "ziggy_vl1",
+      "quote": "Mirror, mirror, who's the drama?",
+      "translation": "鏡よ鏡、いちばん華があるのは誰？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>白雪姫の \"Mirror, mirror on the wall, who's the fairest of them all?\"（鏡よ鏡、世界で一番美しいのは誰）のもじりです。</li><li>\"the fairest\"（一番美しい）を \"the drama\" に入れ替えています。drama はここでは「騒ぎ」ではなく「華・見せ場」という褒め言葉です。</li></ul><strong>英文法:</strong><br>\"who's\" は \"who is\" の短縮形。\"who's the drama?\" は「その drama にあたるのは誰か」と、人を名詞そのものだと言い切る言い方です。",
+      "audioUrl": "/audio/ziggy_vl1.mp3"
+    },
+    {
+      "id": "ziggy_vl2",
+      "quote": "So much flair and fabulous hair!",
+      "translation": "あふれる華やかさに、完璧な髪！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>flair は「生まれ持ったセンス」「華」。服やパフォーマンスの派手さを褒めるときによく使います。</li><li>flair と hair で韻を踏んでいます。ジギーのセリフは音の遊びが非常に多いです。</li></ul><strong>英文法:</strong><br>\"so much + 数えられない名詞\" で「こんなにたくさんの～」。flair も hair も数えない名詞なので so many ではなく so much を使います。",
+      "audioUrl": "/audio/ziggy_vl2.mp3"
+    },
+    {
+      "id": "ziggy_vl3",
+      "quote": "Ah, darling!",
+      "translation": "あら、ダーリン！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>darling は「あなた」「きみ」くらいの軽い呼びかけ。恋人に限らず使えます。</li><li>ダメージを受けた瞬間でさえ優雅に呼びかけるところがジギーらしさです。</li></ul><strong>英文法:</strong><br>間投詞の \"Ah\" は驚き・気づき・落胆など幅広く使えます。ここでは「あらまあ」に近い軽い驚きです。",
+      "audioUrl": "/audio/ziggy_vl3.mp3"
+    },
+    {
+      "id": "ziggy_vl4",
+      "quote": "I'm magic, baby!",
+      "translation": "僕は魔法そのものさ、ベイビー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>magical（魔法のような）ではなく magic（魔法）と名詞で言い切ることで、「魔法っぽい」ではなく「魔法そのもの」という強い自慢になります。</li><li>口語では \"You're magic!\"（きみ最高！）のように「すごい」の意味でも使われます。</li></ul><strong>英文法:</strong><br>be動詞の後ろに名詞を置いて「A は B だ」とする形です。\"I'm magical\" なら形容詞で「魔法のようだ」、\"I'm magic\" なら名詞で「魔法だ」となり、後者のほうが強く響きます。",
+      "audioUrl": "/audio/ziggy_vl4.mp3"
+    },
+    {
+      "id": "ziggy_vl5",
+      "quote": "Curtain call, already? Ugh.",
+      "translation": "カーテンコール、もう？ …はぁ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>curtain call は舞台が終わったあと、幕が下りてから出演者が挨拶に出てくる場面のこと。ここでは「自分の出番の終わり」＝倒されたことを指しています。</li><li>Ugh はうんざりしたときのため息の音です。</li></ul><strong>英文法:</strong><br>\"already?\" を文の最後に置くと「もう？」という驚きや不満になります。主語と動詞を省いた、会話らしい短い返しです。",
+      "audioUrl": "/audio/ziggy_vl5.mp3"
+    },
+    {
+      "id": "ziggy_vl6",
+      "quote": "Sizzle!",
+      "translation": "ジュッ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>sizzle は肉が焼ける「ジュージュー」という音を表す語。ここでは雷が相手を焼く音として使っています。</li><li>広告業界には \"sell the sizzle, not the steak\"（肉ではなく音を売れ）という言い回しがあり、sizzle には「派手な見せ場」という含みもあります。</li></ul><strong>英文法:</strong><br>擬音語がそのまま動詞・名詞になっている語です。1語だけで感嘆文として成立します。",
+      "audioUrl": "/audio/ziggy_vl6.mp3"
+    },
+    {
+      "id": "ziggy_vl7",
+      "quote": "Oh, I do love a climax.",
+      "translation": "ああ、クライマックスってたまらないわ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>climax は物語やショーの「最高潮」。劇場人らしい言葉選びです。</li><li>\"a climax\" と a が付くことで「（どんなものであれ）クライマックスというもの」という一般化になります。</li></ul><strong>英文法:</strong><br>\"do + 動詞の原形\" は肯定文を強める形。\"I love\" を \"I do love\" にすると「本当に大好き」と気持ちが一段強まります。",
+      "audioUrl": "/audio/ziggy_vl7.mp3"
+    },
+    {
+      "id": "ziggy_vl8",
+      "quote": "Prepare for sparks and drama, darling!",
+      "translation": "火花とドラマの準備はいい、ダーリン？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>sparks は「火花」。雷使いのジギーにとっては文字どおりの意味と、「盛り上がり」という比喩の両方が重なります。</li><li>sparks（実際の火花）と drama（見せ場）を並べて、戦いをショーとして宣言しています。</li></ul><strong>英文法:</strong><br>\"prepare for ～\" で「～に備える」。前置詞は for です。動詞から始まる命令文なので主語の you は省かれています。",
+      "audioUrl": "/audio/ziggy_vl8.mp3"
+    },
+    {
+      "id": "ziggy_vl9",
+      "quote": "Now you see me, now you see me even more.",
+      "translation": "ほら、見えるでしょ？ ほら、もっと見えるでしょ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>手品の決まり文句 \"Now you see me, now you don't\"（ほら見えた、ほら消えた）のもじりです。</li><li>「消える」はずのところを「もっと見える」に変えて、目立ちたがりな性格を笑いにしています。</li></ul><strong>英文法:</strong><br>\"even more\" の even は比較級を強める副詞で「さらに」「いっそう」。more（もっと）をさらに押し上げています。<br><br><strong>🧠豆知識:</strong><br>ジギーのガジェットの1つは、この決まり文句と同じ \"Now You See Me...\" という名前です。攻撃した場所へ自分が瞬間移動するガジェットで、セリフとちゃんと対応しています。",
+      "audioUrl": "/audio/ziggy_vl9.mp3"
+    },
+    {
+      "id": "ziggy_vl10",
+      "quote": "Wardrobe malfunction!",
+      "translation": "衣装のトラブルよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>wardrobe malfunction は「衣装が意図せずはだけてしまう事故」を指す決まった言い回しです。</li><li>ダメージを受けたことを「怪我」ではなく「衣装の事故」として言い換えているのが、ジギーらしい見栄の張り方です。</li></ul><strong>英文法:</strong><br>wardrobe は「衣装一式・衣装だんす」、malfunction は「故障・誤作動」。名詞2つを並べて1つの意味を作る複合名詞です。",
+      "audioUrl": "/audio/ziggy_vl10.mp3"
+    },
+    {
+      "id": "ziggy_vl11",
+      "quote": "Magic's never looked this good.",
+      "translation": "魔法がこんなに美しく見えたこと、ある？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>主語は「魔法」で、「魔法という存在が、これまでこんなに見栄えよく見えたことはない」＝自分が史上最高に美しい魔法使いだ、という自慢です。</li><li>\"look + 形容詞\" で「～に見える」。ここでは good（見栄えがいい）です。</li></ul><strong>英文法:</strong><br>\"have never + 過去分詞\" は現在完了で「今まで一度も～ない」。\"this good\" の this は「これほど」という副詞で、目の前の自分を指しています。",
+      "audioUrl": "/audio/ziggy_vl11.mp3"
+    },
+    {
+      "id": "ziggy_vl12",
+      "quote": "Curtain call, already?",
+      "translation": "カーテンコール、もう？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ため息（Ugh）が付かない、あっさりしたほうのバージョンです。</li><li>curtain call は舞台終わりの挨拶。「もう自分の出番は終わりか」という意味になります。</li></ul><strong>英文法:</strong><br>名詞1語＋already? だけで文を作る省略表現。会話ではこのくらい短く切るほうが自然に響きます。",
+      "audioUrl": "/audio/ziggy_vl12.mp3"
+    },
+    {
+      "id": "ziggy_vl13",
+      "quote": "This spell has a 5-star rating!",
+      "translation": "この呪文、評価は星5つよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>spell は「呪文」。cast a spell（呪文をかける）の形でよく使います。</li><li>自分の魔法をアプリやレストランのレビューのように「星5つ」と評しています。</li></ul><strong>英文法:</strong><br>\"5-star\" のようにハイフンでつないだ語は形容詞として名詞の前に置きます。このとき star は複数形にしません（× 5-stars rating）。",
+      "audioUrl": "/audio/ziggy_vl13.mp3"
+    },
+    {
+      "id": "ziggy_vl14",
+      "quote": "Come with me to a world of pure awesomeness!",
+      "translation": "おいで、純粋なすごさだけの世界へ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>映画『チャーリーとチョコレート工場』の名曲 \"Pure Imagination\" の一節 \"Come with me and you'll be in a world of pure imagination\" を下敷きにした言い回しに聞こえます。</li><li>awesomeness は awesome（すごい）を名詞にした形。少し大げさでふざけた響きになります。</li></ul><strong>英文法:</strong><br>\"come with me to ～\" は「私と一緒に～へ来て」。with me（誰と）と to ～（どこへ）を続けて置くのが基本の語順です。",
+      "audioUrl": "/audio/ziggy_vl14.mp3"
+    },
+    {
+      "id": "ziggy_vl15",
+      "quote": "Thunderous applause!",
+      "translation": "万雷の拍手！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>thunderous applause は「割れんばかりの拍手」を表す決まった言い方です。</li><li>thunder（雷）が入っているので、雷使いのジギーが言うと二重の意味になります。</li></ul><strong>英文法:</strong><br>thunderous は名詞 thunder に -ous（～に満ちた）が付いた形容詞。同じ作り方の語に dangerous、famous などがあります。",
+      "audioUrl": "/audio/ziggy_vl15.mp3"
+    },
+    {
+      "id": "ziggy_vl16",
+      "quote": "That felt real?",
+      "translation": "今の、本物だった？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分が受けたダメージを「演出じゃなくて本物だった？」と疑っている言い方です。</li><li>最後が上がり調子の疑問なので、驚きや戸惑いが強く出ます。</li></ul><strong>英文法:</strong><br>\"feel + 形容詞\" で「～な感じがする」。felt は feel の過去形です。平叙文のまま語尾を上げて疑問にする、会話でよく使う形です。",
+      "audioUrl": "/audio/ziggy_vl16.mp3"
+    },
+    {
+      "id": "ziggy_vl17",
+      "quote": "Glitter and glow, this is my show!",
+      "translation": "輝いて、光って、これが僕のショー！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>glitter（きらめく）と glow（ほの光る）を並べて、g の音をそろえています。</li><li>glow と show で韻を踏んでいます。音の気持ちよさで押し切るタイプのセリフです。</li></ul><strong>英文法:</strong><br>前半は動詞の原形を並べた命令・掛け声、後半は \"this is ～\" の平叙文。性質の違う2つを並べてリズムを作っています。",
+      "audioUrl": "/audio/ziggy_vl17.mp3"
+    },
+    {
+      "id": "ziggy_vl18",
+      "quote": "But you still haven't seen my best trick, yet!",
+      "translation": "まだ僕の最高のトリック、見せてないのに！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>trick は手品の「種・演目」。ジギーは自分の敗北すら「まだ本番じゃない」と言い張ります。</li><li>still と yet を両方入れて「まだ・まだなのに」と未練を強めています（文法的にはどちらか一方で足ります）。</li></ul><strong>英文法:</strong><br>\"haven't + 過去分詞\" は現在完了の否定で「まだ～していない」。この形は文末の yet と相性がよく、セットで覚えると便利です。",
+      "audioUrl": "/audio/ziggy_vl18.mp3"
+    },
+    {
+      "id": "ziggy_vl19",
+      "quote": "Glam slam!",
+      "translation": "グラム・スラム！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>glam は glamorous（華やか）の略で、派手できらびやかな様子を指します。</li><li>slam は「叩きつける」。テニスなどの grand slam を下敷きに、glam と slam で韻を踏ませた造語です。</li></ul><strong>英文法:</strong><br>2語とも1音節で母音が同じ（-am）なので、声に出したときに弾むように響きます。掛け声はこの形がよく使われます。",
+      "audioUrl": "/audio/ziggy_vl19.mp3"
+    },
+    {
+      "id": "ziggy_vl20",
+      "quote": "Magic with menace, darling.",
+      "translation": "脅し付きの魔法よ、ダーリン。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>menace は「脅威・威嚇」。magic と menace で m の音をそろえています。</li><li>「きれいなだけじゃなく危ない」という自己紹介になっています。</li></ul><strong>英文法:</strong><br>\"名詞 + with + 名詞\" で「～付きの～」。coffee with milk（ミルク入りコーヒー）と同じ組み立てです。",
+      "audioUrl": "/audio/ziggy_vl20.mp3"
+    },
+    {
+      "id": "ziggy_vl21",
+      "quote": "A wizard is never late.",
+      "translation": "魔法使いは、決して遅れたりしない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>映画『ロード・オブ・ザ・リング』でガンダルフが言う \"A wizard is never late, Frodo Baggins. Nor is he early.\" の引用と読めます。</li><li>登場（スポーン）の瞬間に言うので、「遅刻じゃない、これが定刻だ」という意味になります。</li></ul><strong>英文法:</strong><br>\"a + 名詞\" で「（～というものは）どれも」と種類全体を指す用法です。A dog is a loyal animal.（犬は忠実な動物だ）と同じ形です。",
+      "audioUrl": "/audio/ziggy_vl21.mp3"
+    },
+    {
+      "id": "ziggy_vl22",
+      "quote": "That felt real.",
+      "translation": "今の、本物だった。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>疑問形の \"That felt real?\"（今の、本物だった？）とは別録りで、こちらは言い切りです。</li><li>信じられないという気持ちが、疑いから確信に変わった言い方になります。</li></ul><strong>英文法:</strong><br>同じ語でも、語尾を下げれば平叙文、上げれば疑問文になります。書き言葉ではピリオドとクエスチョンマークがその違いを担います。",
+      "audioUrl": "/audio/ziggy_vl22.mp3"
+    },
+    {
+      "id": "ziggy_vl23",
+      "quote": "Shocking, isn't it?",
+      "translation": "ショッキングでしょう？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>shocking は「衝撃的な」と「感電させる」の両方に読めます。雷使いならではの言葉選びです。</li><li>相手を倒したあとの、余裕を見せる決めゼリフです。</li></ul><strong>英文法:</strong><br>\"isn't it?\" は付加疑問。相手に同意を求める形で、ここでは本気で尋ねているのではなく「でしょ？」という念押しです。",
+      "audioUrl": "/audio/ziggy_vl23.mp3"
+    },
+    {
+      "id": "ziggy_vl24",
+      "quote": "Fabulous failure.",
+      "translation": "華麗なる失敗ね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>failure（失敗）を fabulous（素晴らしい）で飾って、負けすらショーの一部にしています。</li><li>f の音を重ねた頭韻です。</li></ul><strong>英文法:</strong><br>形容詞＋名詞の2語だけの文。be動詞も主語も省くことで、断定というより「つぶやき」の響きになります。",
+      "audioUrl": "/audio/ziggy_vl24.mp3"
+    },
+    {
+      "id": "ziggy_vl25",
+      "quote": "Sparkles!",
+      "translation": "キラキラ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>sparkle は「きらめく／きらめき」。sparks（火花）と同じ語源で、より軽くかわいい響きです。</li><li>攻撃の掛け声なのに、言っているのは「キラキラ」。派手さ優先のジギーらしい一言です。</li></ul><strong>英文法:</strong><br>名詞の複数形1語で感嘆文にする形。Fireworks!（花火だ！）などと同じ使い方です。",
+      "audioUrl": "/audio/ziggy_vl25.mp3"
+    },
+    {
+      "id": "ziggy_vl26",
+      "quote": "I'm that wizard.",
+      "translation": "その魔法使いって、僕のことよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>that は「あの」ではなく「例の・まさにその」。「噂のすごい魔法使い＝自分」と言っています。</li><li>スターパワーの1つが \"The Great Ziggini\"、称号が \"The Great\" であることとも重なる自慢です。</li></ul><strong>英文法:</strong><br>\"that\" を強く読むと「あの有名な～」という特別な意味になります。He's that guy.（あいつが例のやつだ）と同じ用法です。",
+      "audioUrl": "/audio/ziggy_vl26.mp3"
+    },
+    {
+      "id": "ziggy_vl27",
+      "quote": "Wand ready, hair perfect, let's dance!",
+      "translation": "杖よし、髪よし、さあ踊りましょ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>戦いの前の確認事項が「杖」と「髪」。この2つが同列なのがジギーです。</li><li>\"let's dance\" は「戦おう」の洒落た言い換えです。</li></ul><strong>英文法:</strong><br>\"Wand ready\" は \"The wand is ready\" から冠詞とbe動詞を落とした形。点検リストのようにテンポよく並べたいときに使う省略です。",
+      "audioUrl": "/audio/ziggy_vl27.mp3"
+    },
+    {
+      "id": "ziggy_vl28",
+      "quote": "You are spellbound. Join the queue.",
+      "translation": "あなたも虜ね。列の最後尾へどうぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>spellbound は spell（呪文）＋bound（縛られた）で「魔法にかけられた」、転じて「うっとり見とれた」。</li><li>\"Join the queue\" は「（自分に見とれている人が大勢いるから）列に並んで」という高慢なジョークです。</li></ul><strong>英文法:</strong><br>queue はイギリス英語で「行列」。アメリカ英語では line を使い、\"Get in line\" と言います。",
+      "audioUrl": "/audio/ziggy_vl28.mp3"
+    },
+    {
+      "id": "ziggy_vl29",
+      "quote": "Oh, behave.",
+      "translation": "あら、お行儀よくして。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>映画『オースティン・パワーズ』の決め台詞として有名な言い回しです。</li><li>攻撃してきた相手を叱るのではなく、じゃれつく子どもをたしなめるように返しています。</li></ul><strong>英文法:</strong><br>behave は「ふるまう」ですが、単独の命令形 \"Behave!\" だけで「行儀よくしなさい」という意味になります。",
+      "audioUrl": "/audio/ziggy_vl29.mp3"
+    },
+    {
+      "id": "ziggy_vl30",
+      "quote": "I shimmer, you shiver. How poetic.",
+      "translation": "僕は輝き、君は震える。詩的でしょ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>shimmer（ちらちら光る）と shiver（震える）は1文字違い。音をそろえて対比を作っています。</li><li>\"How poetic.\" と自分で解説を付け足すのが、いかにも芝居がかっています。</li></ul><strong>英文法:</strong><br>\"How + 形容詞\" で「なんて～なんだろう」という感嘆文。本来 \"How poetic it is!\" のところを短く切っています。",
+      "audioUrl": "/audio/ziggy_vl30.mp3"
+    },
+    {
+      "id": "ziggy_vl31",
+      "quote": "I'm shook.",
+      "translation": "もう、しびれたわ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>shook は shake（揺さぶる）の過去形ですが、スラングでは \"I'm shook\"（動揺した・打ちのめされた）という形で使われます。</li><li>文法的には shaken が正しいところを、あえて崩した若者言葉です。ここでは感電の「しびれ」とも重なります。</li></ul><strong>英文法:</strong><br>受け身の \"be + 過去分詞\" のくだけた形。標準的には \"I'm shaken\" ですが、日常会話では \"I'm shook\" が定着しています。",
+      "audioUrl": "/audio/ziggy_vl31.mp3"
+    },
+    {
+      "id": "ziggy_vl32",
+      "quote": "Ta-da! Now, kindly perish.",
+      "translation": "ジャジャーン！ さあ、どうぞお果てになって。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>Ta-da! は手品の種明かしや発表のときの「ジャーン！」。</li><li>perish は「死ぬ」のかしこまった語。die よりずっと芝居がかって聞こえます。</li></ul><strong>英文法:</strong><br>命令文に kindly（どうぞ）を付けると丁寧になりますが、内容が「滅びろ」なので、逆に慇懃無礼な嫌味として響きます。",
+      "audioUrl": "/audio/ziggy_vl32.mp3"
+    },
+    {
+      "id": "ziggy_vl33",
+      "quote": "Let the spectacle commence!",
+      "translation": "大スペクタクルの、開幕よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>spectacle は「壮大な見せ物」。commence は begin のかしこまった言い換えです。</li><li>わざと古めかしく重々しい語を選んで、舞台の開演アナウンスのように響かせています。</li></ul><strong>英文法:</strong><br>\"let + 名詞 + 動詞の原形\" で「～に…させよう」。Let the games begin!（試合を始めよう）と同じ形です。",
+      "audioUrl": "/audio/ziggy_vl33.mp3"
+    },
+    {
+      "id": "ziggy_vl34",
+      "quote": "Green looks divine on you, rocking that envy!",
+      "translation": "緑、お似合いよ。その嫉妬、着こなしてるわね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>英語では嫉妬の色は緑。green with envy（嫉妬で緑になる）という決まった言い方があります。</li><li>その「緑」を服の色に見立てて、「似合ってる」と皮肉っています。</li></ul><strong>英文法:</strong><br>\"rock + 名詞\" は口語で「～を格好よく着こなす」。\"rocking that envy\" で「その嫉妬を着こなしている」という洒落になります。",
+      "audioUrl": "/audio/ziggy_vl34.mp3"
+    },
+    {
+      "id": "ziggy_vl35",
+      "quote": "I sparkle, you fizzle.",
+      "translation": "僕は輝き、君は消える。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>fizzle は炭酸が抜けるような「しゅーっ」という音から、「尻すぼみに終わる」という意味で使われます。</li><li>sparkle と fizzle で語尾をそろえた対句です。</li></ul><strong>英文法:</strong><br>主語＋動詞だけの短い文を2つ並べる対比の形。接続詞を入れないほうがリズムが立ちます。",
+      "audioUrl": "/audio/ziggy_vl35.mp3"
+    },
+    {
+      "id": "ziggy_vl36",
+      "quote": "Thunder strike!",
+      "translation": "落雷！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>strike は「打つ・襲う」。雷が落ちることを \"lightning strikes\" と言います。</li><li>攻撃の掛け声としては珍しく、ひねりのないまっすぐな一言です。</li></ul><strong>英文法:</strong><br>名詞を2つ並べた複合名詞。動詞の strike（打つ）と同じ形なので、「雷が打つ！」という動詞文としても聞こえます。",
+      "audioUrl": "/audio/ziggy_vl36.mp3"
+    },
+    {
+      "id": "ziggy_vl37",
+      "quote": "Time to sizzle and shine!",
+      "translation": "焦がして輝く時間よ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>朝の決まり文句 \"Rise and shine!\"（起きて輝け＝さあ起きて）の rise を sizzle に替えたもじりです。</li><li>sizzle（じゅうじゅう焼ける）と shine（輝く）で s の音をそろえています。</li></ul><strong>英文法:</strong><br>\"Time to + 動詞の原形\" で「～する時間だ」。\"It's time to ～\" の It's を省いた、勢いのある言い方です。",
+      "audioUrl": "/audio/ziggy_vl37.mp3"
+    },
+    {
+      "id": "ziggy_vl38",
+      "quote": "Welcome to Ziggy's magical mystery show!",
+      "translation": "ようこそ、ジギーの魔法のミステリー・ショーへ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ビートルズの \"Magical Mystery Tour\" を思わせる言い回しです。tour を show に替えています。</li><li>自分の名前を三人称で呼ぶのも、司会者ぶった演出の一部です。</li></ul><strong>英文法:</strong><br>\"Welcome to + 場所・催し\" で「～へようこそ」。前置詞は to で、in や at は使いません。",
+      "audioUrl": "/audio/ziggy_vl38.mp3"
+    },
+    {
+      "id": "ziggy_vl39",
+      "quote": "Wounded, but still glowing.",
+      "translation": "傷ついた、でもまだ輝いてる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>glow は「（熱や光で）じんわり光る」。傷ついても輝きは消えていない、という強がりです。</li><li>感電のあとに体が光っている様子とも重なります。</li></ul><strong>英文法:</strong><br>\"I am\" を省いて過去分詞から始める形。\"(I'm) wounded, but (I'm) still glowing\" の主語とbe動詞が落ちています。",
+      "audioUrl": "/audio/ziggy_vl39.mp3"
+    },
+    {
+      "id": "ziggy_vl40",
+      "quote": "Your life was an illusion!",
+      "translation": "君の人生なんて、ただのイリュージョンだったのよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>illusion は「幻・錯覚」ですが、手品の世界では「大掛かりな仕掛けの演目」も指します。</li><li>相手の人生ごと「自分のショーの演目でしかなかった」と言い切る、かなり傲慢な決めゼリフです。</li></ul><strong>英文法:</strong><br>\"be動詞の過去形 + a/an + 名詞\" で「～だった」。was an と、母音で始まる illusion の前は a ではなく an になります。<br><br><strong>🧠豆知識:</strong><br>ジギーの公式紹介文は \"Just remember... they're not tricks, they're illusions.\"（覚えておいて、これはトリックじゃない、イリュージョンなんだ）で締めくくられています。このセリフはそこと地続きです。",
+      "audioUrl": "/audio/ziggy_vl40.mp3"
+    },
+    {
+      "id": "ziggy_vl41",
+      "quote": "No-ho!",
+      "translation": "そんなぁ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>No を裏返った声で伸ばした、芝居がかった悲鳴です。</li><li>普通に \"No!\" と言わず、わざわざ歌うように崩すのがジギーの芸風です。</li></ul><strong>英文法:</strong><br>辞書に載る単語ではなく、その場の発声を文字に起こしたものです。英語ではこうした音をハイフンでつないで書き表します。",
+      "audioUrl": "/audio/ziggy_vl41.mp3"
+    },
+    {
+      "id": "ziggy_vl42",
+      "quote": "Ziggy zap!",
+      "translation": "ジギー・ザップ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>zap は「ビリッと撃つ」という擬音的な動詞。電撃と相性のいい語です。</li><li>自分の名前と組み合わせて、z の音をそろえた必殺技名にしています。</li></ul><strong>英文法:</strong><br>固有名詞＋擬音語を並べただけの掛け声です。英語圏のヒーローものではよく使われる作り方です。",
+      "audioUrl": "/audio/ziggy_vl42.mp3"
+    },
+    {
+      "id": "ziggy_vl43",
+      "quote": "Behold my grand finale!",
+      "translation": "見よ、僕のグランドフィナーレを！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>behold は「見よ」という古風で大げさな語。舞台や聖書の文体で使われます。</li><li>grand finale は公演の最後を飾る一番派手な演目のことです。</li></ul><strong>英文法:</strong><br>\"Behold + 目的語\" の命令文。現代の会話ではまず使わない語なので、わざと芝居がかった効果を出しています。",
+      "audioUrl": "/audio/ziggy_vl43.mp3"
+    },
+    {
+      "id": "ziggy_vl44",
+      "quote": "Oh, so forceful, rawr, ha ha ha!",
+      "translation": "あら、ずいぶん強引ね、ガオー、アハハ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>forceful は「力ずくの・強引な」。攻撃されているのに、口説かれているかのように返しています。</li><li>rawr は猫や獣のうなり声を表すネットスラングで、からかうときに使われます。</li></ul><strong>英文法:</strong><br>\"so + 形容詞\" だけで「なんて～なの」という感嘆になります。主語とbe動詞（You're）が省かれた形です。",
+      "audioUrl": "/audio/ziggy_vl44.mp3"
+    },
+    {
+      "id": "ziggy_vl45",
+      "quote": "♫You're gone, I'm glowi-i-ing!",
+      "translation": "♫君は消えて〜、僕は輝く〜！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>歌っているセリフです。gone と glowing で g の音をそろえています。</li><li>glowing を \"glowi-i-ing\" と引き伸ばすのは、歌のビブラートを文字にしたものです。</li></ul><strong>英文法:</strong><br>\"be gone\" は「いなくなっている」という状態を表します。単に「行った」ではなく「もうここにいない」という意味になります。",
+      "audioUrl": "/audio/ziggy_vl45.mp3"
+    },
+    {
+      "id": "ziggy_vl46",
+      "quote": "Shockingly good!",
+      "translation": "ショッキングなほど、上出来！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>shockingly は「衝撃的なほど」。ここでも「感電」と掛かっています。</li><li>shockingly は普通は shockingly bad（ひどく悪い）のように悪い意味で使うことが多く、good と組み合わせると意外性が出ます。</li></ul><strong>英文法:</strong><br>\"副詞 + 形容詞\" で程度を強める形。shockingly が good を修飾しています。",
+      "audioUrl": "/audio/ziggy_vl46.mp3"
+    },
+    {
+      "id": "ziggy_vl47",
+      "quote": "Unhand me, you brute!",
+      "translation": "離しなさい、この野蛮人！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>unhand は「手を離せ」という古風な語で、今では時代劇のような芝居でしか使いません。</li><li>brute は「けだもの・乱暴者」。どちらも古典演劇めいた言葉選びです。</li></ul><strong>英文法:</strong><br>\"you + 名詞\" を呼びかけに使うと、悪口になります。You fool!（この馬鹿）と同じ形です。",
+      "audioUrl": "/audio/ziggy_vl47.mp3"
+    },
+    {
+      "id": "ziggy_vl48",
+      "quote": "You are dust, and I'm the star!",
+      "translation": "君は塵、僕はスター！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>dust（塵）と star（星）で、地面と空の対比を作っています。</li><li>英語には \"stardust\"（星屑）という語もあり、塵と星はもともと近い言葉です。</li></ul><strong>英文法:</strong><br>\"You are ～, and I'm ～\" と同じ形を2回並べる対句。the star と the が付くことで「ただのスター」ではなく「唯一のスター」になります。",
+      "audioUrl": "/audio/ziggy_vl48.mp3"
+    },
+    {
+      "id": "ziggy_vl49",
+      "quote": "Lights out, sweetheart!",
+      "translation": "はい、消灯よ、スイートハート！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>lights out は「消灯」。そこから「意識を失う・ノックアウトされる」という意味でも使われます。</li><li>舞台の照明が落ちるイメージとも重なる、劇場人らしい決めゼリフです。</li></ul><strong>英文法:</strong><br>\"Lights out\" は \"The lights are out\" を縮めた掛け声。命令や宣言として単独で使えます。",
+      "audioUrl": "/audio/ziggy_vl49.mp3"
+    },
+    {
+      "id": "ziggy_vl50",
+      "quote": "You are dazzled to death, darling.",
+      "translation": "眩しさに殺されたのよ、ダーリン。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>dazzle は「まぶしさで目をくらませる」。魅力で圧倒するという意味でも使います。</li><li>「眩しすぎて死んだ」と、自分の輝きが死因だと言い切っています。</li></ul><strong>英文法:</strong><br>\"～ to death\" は「死ぬほど～」という強調表現。bored to death（死ぬほど退屈）のように使いますが、ここでは相手が実際に倒れているので言葉どおりの意味にもなっています。",
+      "audioUrl": "/audio/ziggy_vl50.mp3"
+    }
+  ]
+}
