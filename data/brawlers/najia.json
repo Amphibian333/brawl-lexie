@@ -1,0 +1,493 @@
+{
+  "name": "ナジア",
+  "nameEn": "Najia",
+  "rarity": "ultra-rare",
+  "role": "damage-dealer",
+  "quote": "Queen of the cobras!",
+  "iconUrl": "/icons/najia.png",
+  "voicelines": [
+    {
+      "id": "najia_vl1",
+      "quote": "Don't rush. That's how you die.",
+      "translation": "焦らないで。そうやって死ぬのよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>rush は「急ぐ・慌てて動く」。Don't rush. は「焦るな・落ち着け」と相手を止める定番の一言です。</li><li>後半は忠告というより脅し。落ち着けと言いながら、焦ったらどうなるかを先に見せています。</li></ul><strong>英文法:</strong><br>That's how ~ は「そうやって〜することになる」。how は「〜するやり方」をまとめる関係副詞で、ある行動とその結末を1文でつなぎます。",
+      "audioUrl": "/audio/najia_vl1.mp3"
+    },
+    {
+      "id": "najia_vl2",
+      "quote": "Even Finx can't undo this, hahaha!",
+      "translation": "フィンクスでもこれは元に戻せないわよ、ハハハ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>undo は「やってしまったことを元に戻す」。パソコンの「元に戻す（Undo）」と同じ語です。</li><li>フィンクスは時間を巻き戻せるキャラなので、その彼でも無理＝もう取り返しがつかない、という含みになります。</li></ul><strong>英文法:</strong><br>Even + 名詞 で「〜でさえ」。一番ありえない例を先に出して、程度の強さを示す言い方です。<br><br><strong>🧠豆知識:</strong><br>フィンクス（Finx）はナジアと同じ「ピラミッドクエスト」の仲間で、ナジアはもともと彼に雇われた立場です。",
+      "audioUrl": "/audio/najia_vl2.mp3"
+    },
+    {
+      "id": "najia_vl3",
+      "quote": "Pain is information, I'm learning.",
+      "translation": "痛みは情報。今、学んでるところ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>information は数えられない名詞。an information や informations とは言わず、1件なら a piece of information と言います。</li><li>ダメージを受けてもまず分析にまわす、ナジアの研究者気質がよく出た一行です。</li></ul><strong>英文法:</strong><br>I'm learning は現在進行形。「今まさに学習中」という、進行中の状態を表します。",
+      "audioUrl": "/audio/najia_vl3.mp3"
+    },
+    {
+      "id": "najia_vl4",
+      "quote": "Finx thinks chaos wins, he's wrong!",
+      "translation": "フィンクスは混沌が勝つと思ってる。でも間違いよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>chaos は「混沌・無秩序」。カタカナの「カオス」と違い、英語の発音は「ケイオス」に近い音です。</li><li>win は人だけでなく、考え方や方式が「通る・勝ちを収める」ときにも使えます。</li></ul><strong>英文法:</strong><br>think のあとに接続詞 that が省略されています。think (that) chaos wins という形です。",
+      "audioUrl": "/audio/najia_vl4.mp3"
+    },
+    {
+      "id": "najia_vl5",
+      "quote": "And that's why we don't improvise.",
+      "translation": "だから即興はしないの。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>improvise は「準備なしでその場で作る」。音楽の「アドリブ」がまさにこれです。</li><li>そして自分のことでも we を使うのは、相手に言い聞かせるときの言い方。「私たちはこうするものでしょ」という含みです。</li></ul><strong>英文法:</strong><br>That's why ~ は「だから〜なのよ」と結論を出す言い方。文頭の And は前の出来事を受けて続ける口語で、教訓を締めくくるときによく使われます。",
+      "audioUrl": "/audio/najia_vl5.mp3"
+    },
+    {
+      "id": "najia_vl6",
+      "quote": "Hope you like snakes.",
+      "translation": "ヘビは好きかしら。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>先頭の I が落ちた口語で、もとは I hope you like snakes. です。</li><li>直訳は「気に入ってくれるといいけど」ですが、ヘビを放つ直前に言うので、実際は完全な脅し文句です。</li></ul><strong>英文法:</strong><br>会話では文頭の主語 I がよく省略されます。Hope so.（そうだといいね）、Guess so.（たぶんね）も同じ形です。",
+      "audioUrl": "/audio/najia_vl6.mp3"
+    },
+    {
+      "id": "najia_vl7",
+      "quote": "Cats are afraid of snakes. Right, Finx?",
+      "translation": "ネコはヘビが怖いのよね。そうでしょ、フィンクス？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>be afraid of ~ で「〜が怖い」。of のうしろには名詞や動名詞が来ます。</li><li>文末の Right? は「〜だよね？」と軽く同意を求める相づち。ここでは完全にからかいです。</li></ul><strong>英文法:</strong><br>Cats are ~ のように、無冠詞の複数形は「ネコというものは一般に」という種類全体の話になります。<br><br><strong>🧠豆知識:</strong><br>フィンクスはネコのブロウラー。ナジアはヘビ使いなので、このからかいは種族そのものをつついています。",
+      "audioUrl": "/audio/najia_vl7.mp3"
+    },
+    {
+      "id": "najia_vl8",
+      "quote": "You're playing my game now!",
+      "translation": "今はあたしのゲームに付き合ってもらうわよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>play someone's game は「相手の土俵に乗る・相手のペースにはまる」。ボードゲームで遊ぶ意味ではありません。</li><li>謎解きが得意なナジアらしく、戦いを「自分が出題する側のゲーム」と言い換えています。</li></ul><strong>英文法:</strong><br>文末の now は「もう今は〜だ」と、状況が切り替わったことを示します。",
+      "audioUrl": "/audio/najia_vl8.mp3"
+    },
+    {
+      "id": "najia_vl9",
+      "quote": "Look at that, competence.",
+      "translation": "あら、やるじゃない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>competence は「有能さ・ちゃんとできること」。褒め言葉ですが、わざわざ名詞で言うと「やればできるのね」という上から目線になります。</li><li>Look at that. は「見てよこれ」。珍しいものを指さすときの言い方です。</li></ul><strong>英文法:</strong><br>Look at that のあとに名詞だけを置いて、実況のように言い切る形です。動詞がないぶん、ぽつりとつぶやく感じが出ます。",
+      "audioUrl": "/audio/najia_vl9.mp3"
+    },
+    {
+      "id": "najia_vl10",
+      "quote": "The answer is not hidden, you're just blind.",
+      "translation": "答えは隠れてない。あんたに見えてないだけ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>hidden は hide（隠す）の過去分詞。be hidden で「隠されている」という状態を表します。</li><li>blind はここでは目が見えないことではなく、「目の前のものに気づかない」という比喩です。</li></ul><strong>英文法:</strong><br>just は「ただ〜なだけ」。原因を1つに絞り込んで、言い訳の余地をなくす働きをします。",
+      "audioUrl": "/audio/najia_vl10.mp3"
+    },
+    {
+      "id": "najia_vl11",
+      "quote": "I blame Finx.",
+      "translation": "フィンクスのせいよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>blame + 人 で「〜のせいにする」。blame は「責める」ですが、ここは完全に責任転嫁です。</li><li>倒されたときのセリフなので、負けを認めず相方に押しつける軽さが出ています。</li></ul><strong>英文法:</strong><br>わずか3語。現在形で短く言い切ると、開き直ったような響きになります。",
+      "audioUrl": "/audio/najia_vl11.mp3"
+    },
+    {
+      "id": "najia_vl12",
+      "quote": "And yes, they bite.",
+      "translation": "ええ、噛むわよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ヘビを見た人が必ず聞く Do they bite?（噛むの？）に、先回りして答えている形です。</li><li>文頭の And yes は「そう、それでね」と、相手が聞きたがっていることを先に片づける言い方です。</li></ul><strong>英文法:</strong><br>現在形は「いつもそうだ」という性質・習性を表します。今まさに噛んでいるのではなく、噛むものなのだという意味です。",
+      "audioUrl": "/audio/najia_vl12.mp3"
+    },
+    {
+      "id": "najia_vl13",
+      "quote": "Stay behind me, I'll handle this.",
+      "translation": "後ろにいて。あたしがやる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>stay behind ~ は「〜の後ろにいる」。動かずにその位置を保て、という指示です。</li><li>handle は「手で扱う」から「対処する・引き受ける」。I'll handle this. は「ここは任せて」の定番です。</li></ul><strong>英文法:</strong><br>I'll は I will の短縮形。その場で決めた意志を表すので、「よし、あたしがやる」という宣言になります。",
+      "audioUrl": "/audio/najia_vl13.mp3"
+    },
+    {
+      "id": "najia_vl14",
+      "quote": "♫Ain't no puzzle hard enough!",
+      "translation": "解けない謎なんてない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>♫ がついているので、歌いながら言っています。</li><li>Ain't no ~ は文法的には二重否定ですが、くだけた会話や歌詞では否定を弱めるどころか強めます。「〜なんて1つもない」という意味です。</li></ul><strong>英文法:</strong><br>形容詞 + enough の語順に注意。enough hard ではなく hard enough です。enough は名詞の前には置きますが、形容詞のうしろに置きます。<br><br><strong>🧠豆知識:</strong><br>Ain't No Mountain High Enough（邦題「涙の乗車券」ではなく『恋の大追跡』などで知られるモータウンの名曲）の型をそのまま借りた言い回しです。",
+      "audioUrl": "/audio/najia_vl14.mp3"
+    },
+    {
+      "id": "najia_vl15",
+      "quote": "You just triggered a death trap.",
+      "translation": "死の罠を踏んだわね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>trigger はもともと銃の引き金。動詞で「作動させる・引き起こす」という意味になります。</li><li>death trap は「死の罠」。遺跡ものの定番装置で、ピラミッドが舞台のナジアにぴったりの語です。</li></ul><strong>英文法:</strong><br>just + 過去形で「たった今〜した」。起きたばかりだと知らせる言い方です。",
+      "audioUrl": "/audio/najia_vl15.mp3"
+    },
+    {
+      "id": "najia_vl16",
+      "quote": "My snakes don't bite, unless you deserve it.",
+      "translation": "あたしのヘビは噛まない。あんたが噛まれて当然じゃない限りね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>unless は「〜でない限り」。if not をひとことで言える便利な接続詞です。</li><li>deserve は「〜に値する」。You deserve it. は文脈しだいで「自業自得」にも「君にはその資格がある」にもなります。</li></ul><strong>英文法:</strong><br>前半で否定して、unless で例外を付け足す形。結局は噛むという落ちになっていて、条件節が落ちとして効いています。",
+      "audioUrl": "/audio/najia_vl16.mp3"
+    },
+    {
+      "id": "najia_vl17",
+      "quote": "I need a new team.",
+      "translation": "チーム、変えたいわ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>need は「必要だ」。want より切実で、「ないと困る」という響きになります。</li><li>倒されたときのセリフなので、味方のせいにしている愚痴です。</li></ul><strong>英文法:</strong><br>a new team の a は「（今のとは別の）新しいチーム」を指します。the にすると特定のチームの話になってしまいます。",
+      "audioUrl": "/audio/najia_vl17.mp3"
+    },
+    {
+      "id": "najia_vl18",
+      "quote": "Finx hates this one.",
+      "translation": "フィンクスはこれが大嫌いなの。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>hate は「嫌い」の中でもかなり強い語。dislike よりはっきりした拒絶です。</li><li>this one の one は前に出たものの代わりに使う代名詞。ここでは今から出す技を指しています。</li></ul><strong>英文法:</strong><br>現在形の hate は「いつも嫌がっている」という継続した感情を表します。",
+      "audioUrl": "/audio/najia_vl18.mp3"
+    },
+    {
+      "id": "najia_vl19",
+      "quote": "Someone's getting mummified.",
+      "translation": "誰かさんがミイラにされるわよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>mummify は「ミイラにする」。名詞の mummy（ミイラ）から作られた動詞です。</li><li>Someone は相手を名指しせず「誰かさん」とぼかす言い方。わざとらしさが嫌味になります。</li></ul><strong>英文法:</strong><br>be getting + 過去分詞 は受け身の進行形で、ここでは「これから〜されることになっている」という近い未来を表します。<br><br><strong>🧠豆知識:</strong><br>mummy はミイラと「ママ」の両方の意味がある同じつづりの語ですが、語源は別です。ミイラの方はアラビア語の mūmiya（防腐に使う瀝青）から来ています。",
+      "audioUrl": "/audio/najia_vl19.mp3"
+    },
+    {
+      "id": "najia_vl20",
+      "quote": "Solved it for you!",
+      "translation": "解いといてあげた！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>先頭の I が落ちた口語で、もとは I solved it for you. です。</li><li>for you は「あなたのために」。頼まれてもいないのにやってあげた、という押しつけがましさが出ます。</li></ul><strong>英文法:</strong><br>会話では主語と助動詞を落として動詞から始めることがよくあります。Got it!（わかった）、Told you!（言ったでしょ）も同じ形です。",
+      "audioUrl": "/audio/najia_vl20.mp3"
+    },
+    {
+      "id": "najia_vl21",
+      "quote": "Touch me again, I dare you!",
+      "translation": "もう一回触ってごらんなさい！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>I dare you. は「やれるものならやってみろ」という挑発の決まり文句です。</li><li>命令文の形ですが、本当にしてほしいわけではなく「やったら痛い目に遭うぞ」という警告です。</li></ul><strong>英文法:</strong><br>命令文 + I dare you. はセットで覚える型。前半だけだと本当の命令に聞こえるので、後半が逆の意味に反転させています。",
+      "audioUrl": "/audio/najia_vl21.mp3"
+    },
+    {
+      "id": "najia_vl22",
+      "quote": "You triggered the wrong step.",
+      "translation": "踏む段を間違えたわね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>step は「段・踏み板」。階段の一段一段のことです。</li><li>the wrong step と the がつくのは、「押してはいけない、まさにその段」が決まっているからです。</li></ul><strong>英文法:</strong><br>wrong は「間違った」。the wrong + 名詞 で「よりによってその〜」という、選択を誤ったニュアンスが出ます。",
+      "audioUrl": "/audio/najia_vl22.mp3"
+    },
+    {
+      "id": "najia_vl23",
+      "quote": "Go ahead, panic!",
+      "translation": "どうぞ、慌てれば？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>Go ahead. は「どうぞ」と相手に許可を出す言い方。ここでは完全な皮肉です。</li><li>panic は名詞の「パニック」だけでなく、動詞で「慌てる・取り乱す」としても使えます。</li></ul><strong>英文法:</strong><br>Go ahead のあとに命令文を重ねる形。「やれるならやってみろ」と突き放すときによく使われます。",
+      "audioUrl": "/audio/najia_vl23.mp3"
+    },
+    {
+      "id": "najia_vl24",
+      "quote": "It's sneaky snaky time.",
+      "translation": "こそこそヘビの時間よ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>sneaky は「こそこそした・抜け目ない」、snaky は「ヘビのような」。母音を1つ変えただけの語を並べた言葉遊びです。</li><li>It's ~ time. は「さあ〜の時間だ」と場面を切り替える言い方です。</li></ul><strong>英文法:</strong><br>sneaky と snaky はどちらも -y をつけて名詞を形容詞にした語です。sneak（こそこそ動く）、snake（ヘビ）がもとの形です。",
+      "audioUrl": "/audio/najia_vl24.mp3"
+    },
+    {
+      "id": "najia_vl25",
+      "quote": "Finx, pay attention.",
+      "translation": "フィンクス、ちゃんと見てて。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>pay attention は「注意を払う」。attention は払う（pay）ものだ、という組み合わせで覚えます。</li><li>名前を呼んでから命令する形で、あきれ気味に注意している感じが出ています。</li></ul><strong>英文法:</strong><br>pay attention to ~ と to を続ければ「〜に注意する」。ここでは対象を言わず、「ちゃんと見てなさい」で止めています。",
+      "audioUrl": "/audio/najia_vl25.mp3"
+    },
+    {
+      "id": "najia_vl26",
+      "quote": "This is the part where Finx gets annoyed.",
+      "translation": "ここがフィンクスがイラッとするところよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>the part where ~ は「（話や場面の）〜するところ」。映画やゲームの場面を指すときの定番です。</li><li>get annoyed は「イラッとする」。annoyed は怒鳴るほどではない、軽いいらだちです。</li></ul><strong>英文法:</strong><br>関係副詞 where は場所だけでなく、場面・段階・状況にも使えます。ここでは part（場面）を受けています。",
+      "audioUrl": "/audio/najia_vl26.mp3"
+    },
+    {
+      "id": "najia_vl27",
+      "quote": "ايه ده؟ وجع. (eh dah? wagae)",
+      "translation": "何これ？痛っ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>英語ではなくアラビア語（エジプト方言）です。ナジアはピラミッドを舞台にしたキャラで、セリフの約3分の1がアラビア語です。</li><li>英語版の同じ場面のセリフは What's that? Ow. にあたります。Ow. は英語の「痛っ」という反射的な声です。</li></ul><strong>英文法:</strong><br>英語の Ow. や Ouch. は痛みが走った瞬間に出す間投詞で、文にはなりません。アラビア語の وجع（wagae）も同じく「痛み」そのものを指す語です。",
+      "audioUrl": "/audio/najia_vl27.mp3"
+    },
+    {
+      "id": "najia_vl28",
+      "quote": "That was a test. You failed.",
+      "translation": "今のはテスト。あんたは不合格。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>fail は「失敗する」だけでなく、試験に「落ちる」という意味でもよく使います。</li><li>That was a test. と言い切ることで、さっきの攻防を勝手に採点対象にしてしまっています。</li></ul><strong>英文法:</strong><br>fail は目的語がなくても成り立つ自動詞。You failed. だけで「落ちた」という意味になります。",
+      "audioUrl": "/audio/najia_vl28.mp3"
+    },
+    {
+      "id": "najia_vl29",
+      "quote": "Finx is going to be unbearable.",
+      "translation": "フィンクス、調子に乗るわね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>unbearable は bear（耐える）+ -able（できる）+ un-（否定）で「耐えられない」。人にも状況にも使います。</li><li>倒されたときのセリフなので、「これでフィンクスに一生言われる」という先回りの嘆きです。</li></ul><strong>英文法:</strong><br>be going to は「このままいくと自然にそうなる」という予測。will よりも、すでに兆しが見えている感じが出ます。",
+      "audioUrl": "/audio/najia_vl29.mp3"
+    },
+    {
+      "id": "najia_vl30",
+      "quote": "Serpent surprise.",
+      "translation": "ヘビのサプライズ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>serpent は snake と同じヘビですが、より文語的で神話や聖書に出てくる語感があります。</li><li>serpent と surprise で s の音をそろえた頭韻になっています。</li></ul><strong>英文法:</strong><br>名詞2つを並べただけの句。前の名詞が後ろを説明する形で、「ヘビによるサプライズ」という意味になります。<br><br><strong>🧠豆知識:</strong><br>旧約聖書のエデンの園でイブをそそのかすヘビも serpent です。snake より「賢くて危険なヘビ」という響きがあります。",
+      "audioUrl": "/audio/najia_vl30.mp3"
+    },
+    {
+      "id": "najia_vl31",
+      "quote": "Try not to touch anything, I mean it.",
+      "translation": "何にも触らないで。本気で言ってるから。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>I mean it. は「冗談じゃなく本気で言っている」。念を押すときの決まり文句です。</li><li>遺跡で何かに触れると罠が作動する、という定番の場面を踏まえた警告です。</li></ul><strong>英文法:</strong><br>try not to + 動詞の原形 の語順に注意。not は to の前に置きます。try to not touch とは言いません。",
+      "audioUrl": "/audio/najia_vl31.mp3"
+    },
+    {
+      "id": "najia_vl32",
+      "quote": "I mapped this place blindfolded.",
+      "translation": "ここは目隠しでも地図が描けるわ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>map は名詞の「地図」だけでなく、動詞で「地図を作る・くまなく把握する」という意味になります。</li><li>blindfold は「目隠しをする」。blindfolded で「目隠しをした状態で」です。</li></ul><strong>英文法:</strong><br>文末の blindfolded は過去分詞が副詞のように働き、主語 I の状態を説明しています。「目隠しされたまま地図を作った」という意味です。",
+      "audioUrl": "/audio/najia_vl32.mp3"
+    },
+    {
+      "id": "najia_vl33",
+      "quote": "ده مش هيوقفني. (dah mish haywa'efni)",
+      "translation": "こんなのじゃ止まらない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は This will not stop me. にあたります。</li><li>ダメージを受けたときのセリフですが、痛がるのではなく相手に言い返しています。</li></ul><strong>英文法:</strong><br>英語の This will not stop me. は「これは私を止めないだろう」という直訳で、主語がモノ・目的語が人になります。日本語と主語が逆になる典型です。",
+      "audioUrl": "/audio/najia_vl33.mp3"
+    },
+    {
+      "id": "najia_vl34",
+      "quote": "See? Planning works.",
+      "translation": "ほらね？計画は効くのよ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>See? は「ほら、言ったでしょ？」と自分の正しさを確認させる言い方です。</li><li>work は「働く」だけでなく、「（方法や薬が）うまくいく・効く」という意味で非常によく使われます。</li></ul><strong>英文法:</strong><br>planning は動名詞で「計画を立てること」そのものを指します。a plan（1つの計画）ではなく行為全体の話です。",
+      "audioUrl": "/audio/najia_vl34.mp3"
+    },
+    {
+      "id": "najia_vl35",
+      "quote": "ده مش نهاية القصة. (dah mish nihayat alqisa)",
+      "translation": "これで話は終わりじゃない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は That's not the end of the story. にあたります。</li><li>倒されたときのセリフ。負けを認めず、続きがあると宣言しています。</li></ul><strong>英文法:</strong><br>the end of the story は英語でもそのまま使う決まり文句で、「これで一件落着」という意味になります。否定にすると「まだ続く」という含みです。",
+      "audioUrl": "/audio/najia_vl35.mp3"
+    },
+    {
+      "id": "najia_vl36",
+      "quote": "Snack time, serpents.",
+      "translation": "おやつの時間よ、ヘビたち。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>snack time は「おやつの時間」。子どもや動物に声をかけるときの言い方です。</li><li>呼びかけているのが自分のヘビたちで、おやつにあたるのが敵、という構図です。</li></ul><strong>英文法:</strong><br>文末の serpents は呼びかけ（呼格）。誰に言っているかを示すために、コンマで区切って名前や呼び名を置きます。",
+      "audioUrl": "/audio/najia_vl36.mp3"
+    },
+    {
+      "id": "najia_vl37",
+      "quote": "Yes, yes, very scary. Can we focus?",
+      "translation": "はいはい怖い怖い。集中しましょ？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>Yes, yes と繰り返すのは、まともに取り合わず受け流すときの言い方です。</li><li>focus は「集中する」。仕事や勉強の場面でもよく使われます。</li></ul><strong>英文法:</strong><br>Can we ~? は許可を求める形ですが、実際には「〜しない？」と相手を促す言い方になります。命令より柔らかく、しかし呆れた響きです。",
+      "audioUrl": "/audio/najia_vl37.mp3"
+    },
+    {
+      "id": "najia_vl38",
+      "quote": "This puzzle is solved.",
+      "translation": "この謎は解けた。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>puzzle は「パズル」だけでなく「（解くべき）謎・難問」全般を指します。</li><li>戦況をそのまま「謎解き」として処理してしまうのが、ナジアらしいところです。</li></ul><strong>英文法:</strong><br>受動態 is solved は「解かれた状態にある」。誰が解いたかは言わずに、結果だけを示しています。",
+      "audioUrl": "/audio/najia_vl38.mp3"
+    },
+    {
+      "id": "najia_vl39",
+      "quote": "أنا أقوى من كده. ('ana 'aqwaa min kidah)",
+      "translation": "あたしはそんなもんじゃない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は I'm way stronger than that. にあたります。</li><li>英語の way は比較級の前に置くと「はるかに・ずっと」という強調になります。much stronger より口語的です。</li></ul><strong>英文法:</strong><br>アラビア語の أقوى من（aqwa min）も、英語の stronger than と同じ「比較級＋than」の形です。比べる相手を後ろに置く語順は共通しています。",
+      "audioUrl": "/audio/najia_vl39.mp3"
+    },
+    {
+      "id": "najia_vl40",
+      "quote": "You just wouldn't listen.",
+      "translation": "まったく聞かないんだから。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>listen は「耳を傾ける・言うことを聞く」。hear（聞こえる）とは違い、自分から聞く動作です。</li><li>忠告を無視した相手を倒したあとの一言で、あきれと勝ち誇りが混ざっています。</li></ul><strong>英文法:</strong><br>wouldn't は過去の「どうしても〜しようとしなかった」という強い拒否を表します。couldn't（できなかった）とは違い、能力ではなく意志の問題です。",
+      "audioUrl": "/audio/najia_vl40.mp3"
+    },
+    {
+      "id": "najia_vl41",
+      "quote": "كيف كده!؟ (kief kedah!?)",
+      "translation": "なんでこうなるの！？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は How's that possible!? にあたります。</li><li>倒されたときのセリフで、計算どおりに進まなかったことへの動揺です。</li></ul><strong>英文法:</strong><br>英語の How is that possible? は「どうしてそんなことがありえるの」。信じられない出来事に対する決まり文句です。",
+      "audioUrl": "/audio/najia_vl41.mp3"
+    },
+    {
+      "id": "najia_vl42",
+      "quote": "Venom vibes!",
+      "translation": "毒のオーラ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>venom は噛んだり刺したりして注入する毒。飲み込む毒の poison とは区別されます。ヘビの毒はこちらです。</li><li>vibes は vibrations の略で「雰囲気・空気感」。good vibes（いい感じ）のように使います。</li></ul><strong>英文法:</strong><br>venom と vibes で v の音をそろえた頭韻。ブロスタのセリフには、この手の音遊びが非常に多く見られます。",
+      "audioUrl": "/audio/najia_vl42.mp3"
+    },
+    {
+      "id": "najia_vl43",
+      "quote": "Frenemies forever, furball!",
+      "translation": "永遠の親友で敵ね、毛玉ちゃん！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>frenemy は friend（友達）と enemy（敵）を混ぜたかばん語。仲がいいのに張り合う相手のことです。</li><li>furball は「毛玉」。ネコがはき出す毛玉のことで、ネコをからかうあだ名として使われます。</li></ul><strong>英文法:</strong><br>frenemies forever は best friends forever（BFF、永遠の親友）のもじり。定型句の一語だけを入れ替えて笑いを作る型です。<br><br><strong>🧠豆知識:</strong><br>設定では、ナジアはフィンクスに雇われて謎を難しくする役でしたが、根が善良なので、結局は閉じ込められた人を助ける側に回っています。",
+      "audioUrl": "/audio/najia_vl43.mp3"
+    },
+    {
+      "id": "najia_vl44",
+      "quote": "أنا الأفضل. ('ana al'afdal)",
+      "translation": "あたしが一番。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は I'm the best. にあたります。</li><li>英語の the best は最上級。the がつくのは「一番」がただ1つに決まるからです。</li></ul><strong>英文法:</strong><br>アラビア語には英語の be 動詞にあたる語を現在形では置きません。أنا الأفضل は語順どおりなら「私 その最良」で、is に当たる語がなくても文になります。",
+      "audioUrl": "/audio/najia_vl44.mp3"
+    },
+    {
+      "id": "najia_vl45",
+      "quote": "ده كان قريب. (dah kan 'arib)",
+      "translation": "危なかった。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は That was close. にあたります。</li><li>close はここでは「近い」から転じて「きわどい・間一髪」。That was close. で「危なかった」という決まり文句です。</li></ul><strong>英文法:</strong><br>close は形容詞では「クロース」と濁らずに読み、動詞の close（閉める、「クローズ」）とは発音が違います。つづりが同じで音が違う語の代表例です。",
+      "audioUrl": "/audio/najia_vl45.mp3"
+    },
+    {
+      "id": "najia_vl46",
+      "quote": "Wow! You made every possible wrong move.",
+      "translation": "すごい！間違った手を全部やったわね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>move は「動き」ですが、チェスや将棋の「一手」という意味でもよく使われます。</li><li>every possible ~ は「ありうる限りの〜すべて」。褒めているようで、最大級の皮肉になっています。</li></ul><strong>英文法:</strong><br>every のあとは単数形。moves ではなく move です。数としては全部を指していても、形は単数になります。",
+      "audioUrl": "/audio/najia_vl46.mp3"
+    },
+    {
+      "id": "najia_vl47",
+      "quote": "لا. مش ممكن. (la'. mish mumkin)",
+      "translation": "うそ。ありえない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は No. This can't be. にあたります。</li><li>倒されたときのセリフ。すべて計算していたはずなのに、という否認です。</li></ul><strong>英文法:</strong><br>英語の This can't be. の can't は「できない」ではなく「〜のはずがない」という強い推量の否定です。短く言い切ると信じられない気持ちが出ます。",
+      "audioUrl": "/audio/najia_vl47.mp3"
+    },
+    {
+      "id": "najia_vl48",
+      "quote": "Who let the snakes out? Me!",
+      "translation": "ヘビを放ったのは誰？あたしよ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>let ~ out は「〜を外に出す・放つ」。let には「させる・させておく」という許可の意味があります。</li><li>自分で質問して自分で答える形。答えが Me! の一語なのが、得意げな感じを強めています。</li></ul><strong>英文法:</strong><br>疑問文への短い返事では、I ではなく Me. を使うのが口語の自然な形です。文法的には I did. が正式ですが、会話では Me! が普通です。<br><br><strong>🧠豆知識:</strong><br>バハ・メンの世界的ヒット曲 Who Let the Dogs Out?（2000年）の dogs を snakes に置き換えたもじりです。",
+      "audioUrl": "/audio/najia_vl48.mp3"
+    },
+    {
+      "id": "najia_vl49",
+      "quote": "القتال ده ليَّ. (al'ital dah lyã)",
+      "translation": "この戦いはあたしのもの。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は This fight is mine. にあたります。</li><li>戦闘開始のセリフ。始まる前から結果を決めてかかっています。</li></ul><strong>英文法:</strong><br>英語の mine は「私のもの」という所有代名詞。my fight（私の戦い）と違い、mine だけで名詞1つ分の働きをします。",
+      "audioUrl": "/audio/najia_vl49.mp3"
+    },
+    {
+      "id": "najia_vl50",
+      "quote": "أنا الأقوى. ('ana al'aqwaa)",
+      "translation": "あたしが最強。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は I'm the strongest. にあたります。</li><li>英語の strongest は strong の最上級。3文字以下の短い形容詞は -est をつけて作ります。</li></ul><strong>英文法:</strong><br>最上級には the がつきます。「一番」は1つしかないので、特定を示す the が必要になるからです。",
+      "audioUrl": "/audio/najia_vl50.mp3"
+    },
+    {
+      "id": "najia_vl51",
+      "quote": "My snakes make no mistakes.",
+      "translation": "あたしのヘビはミスをしない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>make a mistake で「間違える」。do a mistake とは言わないので、make とセットで覚えます。</li><li>snakes と mistakes で語尾の音をそろえた韻になっています。</li></ul><strong>英文法:</strong><br>no + 名詞は not ~ any と同じ意味ですが、より強い否定になります。don't make any mistakes よりきっぱりした言い方です。",
+      "audioUrl": "/audio/najia_vl51.mp3"
+    },
+    {
+      "id": "najia_vl52",
+      "quote": "هتعلم من ده. (hatealam min dah)",
+      "translation": "これから学ぶわ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は I'll learn from that. にあたります。</li><li>倒されたときのセリフ。負けすらデータとして扱うのは、Pain is information, I'm learning.（痛みは情報。今、学んでるところ）と同じ発想です。</li></ul><strong>英文法:</strong><br>learn from ~ で「〜から学ぶ」。learn about ~（〜について知る）とは違い、経験を糧にするという意味になります。",
+      "audioUrl": "/audio/najia_vl52.mp3"
+    },
+    {
+      "id": "najia_vl53",
+      "quote": "Queen of the cobras!",
+      "translation": "コブラの女王！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>cobra は鎌首をもたげるあのヘビ。エジプトの王の象徴としても有名です。</li><li>Queen of ~ は「〜の女王」。自分で名乗ってしまうところに、ナジアの自負が出ています。</li></ul><strong>英文法:</strong><br>A of B は「BのA」。the cobras と the がつくのは、自分が従えている特定のコブラたちを指しているからです。<br><br><strong>🧠豆知識:</strong><br>古代エジプトの王冠には、額に鎌首をもたげたコブラの飾り（ウラエウス）がついていました。コブラは王を守る神聖な存在とされていたので、ピラミッドのキャラがコブラの女王を名乗るのは筋が通っています。",
+      "audioUrl": "/audio/najia_vl53.mp3"
+    },
+    {
+      "id": "najia_vl54",
+      "quote": "دلوقتي هوريكم ايه أنا. (dilua'ti hurikum ayh 'ana)",
+      "translation": "今から本当のあたしを見せてあげる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は Now I'll show you all who I am. にあたります。</li><li>英語の you all は「あなたたち全員」。アメリカ南部では y'all と縮めてよく使われます。</li></ul><strong>英文法:</strong><br>show + 人 + もの の語順で「人にものを見せる」。ここでは「もの」の位置に who I am（私が何者か）という節がそのまま入っています。",
+      "audioUrl": "/audio/najia_vl54.mp3"
+    },
+    {
+      "id": "najia_vl55",
+      "quote": "محدّش في مستواي. (mahadish fi mistawai)",
+      "translation": "あたしと同じレベルの人はいない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は No one is on my level. にあたります。</li><li>英語の on my level は「私と同じ水準にいる」。in ではなく on を使うのがポイントです。</li></ul><strong>英文法:</strong><br>No one is ~ の no one は単数扱い。動詞は are ではなく is になります。everyone、nobody も同じく単数扱いです。",
+      "audioUrl": "/audio/najia_vl55.mp3"
+    },
+    {
+      "id": "najia_vl56",
+      "quote": "You slither, I strike.",
+      "translation": "あんたが這って、あたしが噛む。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>slither はヘビが体をくねらせて進む動き。人には普通使わないので、相手をヘビ扱いしています。</li><li>strike はヘビが一瞬で噛みつく動きを表す語。野球のストライクと同じ語で、もとは「打つ」です。</li></ul><strong>英文法:</strong><br>主語＋動詞の2語を2回並べた対句。接続詞を使わずコンマだけでつなぐと、動きが速く見えます。",
+      "audioUrl": "/audio/najia_vl56.mp3"
+    },
+    {
+      "id": "najia_vl57",
+      "quote": "Run the math, snakes.",
+      "translation": "計算しなさい、ヘビたち。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>run the math（または run the numbers）で「計算してみる・数字を回す」。ビジネスでもよく使う言い方です。</li><li>run は「走る」だけでなく「（機械やプログラムを）動かす」という意味で幅広く使われます。</li></ul><strong>英文法:</strong><br>run the math は命令文。文末の snakes は呼びかけで、自分のヘビたちに指示を出しています。",
+      "audioUrl": "/audio/najia_vl57.mp3"
+    },
+    {
+      "id": "najia_vl58",
+      "quote": "أنا جاهزة. ('ana gahza)",
+      "translation": "準備できた。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は I'm ready. にあたります。</li><li>アラビア語の جاهزة（gahza）は女性形。男性が言うなら جاهز（gahez）になります。</li></ul><strong>英文法:</strong><br>英語の ready は言う人の性別で形が変わりません。フランス語やアラビア語のように形容詞が性で変化する言語と違い、英語は形容詞の性変化をほぼ失っています。",
+      "audioUrl": "/audio/najia_vl58.mp3"
+    },
+    {
+      "id": "najia_vl59",
+      "quote": "ده كان متوقع. (dah kan mitwaqae)",
+      "translation": "想定内ね。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は That was expected. にあたります。</li><li>expect は「予期する」。That was expected. で「想定の範囲内だった」という意味になります。</li></ul><strong>英文法:</strong><br>expected は過去分詞で受け身。「（私に）予期されていた」という形なので、誰が予期したかを言わずに済みます。",
+      "audioUrl": "/audio/najia_vl59.mp3"
+    },
+    {
+      "id": "najia_vl60",
+      "quote": "Executing plan python.",
+      "translation": "作戦パイソン、実行。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>execute は「実行する」。命令やプログラム、計画を動かすときに使います。</li><li>python はニシキヘビ。作戦名としても、自分の手札そのものとしても効いています。</li></ul><strong>英文法:</strong><br>先頭の I am が落ちた形で、もとは I'm executing plan python. です。実況や作戦中継のように、動作だけを短く言い切っています。<br><br><strong>🧠豆知識:</strong><br>プログラミング言語の Python も同じつづりですが、名前の由来はヘビではなく、イギリスのコメディ番組『空飛ぶモンティ・パイソン』です。",
+      "audioUrl": "/audio/najia_vl60.mp3"
+    },
+    {
+      "id": "najia_vl61",
+      "quote": "خلصنا الكلام. (khalasna alkalam)",
+      "translation": "話はおしまい。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は Enough talking. にあたります。</li><li>英語の Enough ~ は「〜はもう十分だ」。うんざりしたときの打ち切りの言葉です。</li></ul><strong>英文法:</strong><br>Enough talking. の talking は動名詞。Enough of that.（もうたくさん）のように、Enough のあとには名詞や動名詞が来ます。",
+      "audioUrl": "/audio/najia_vl61.mp3"
+    },
+    {
+      "id": "najia_vl62",
+      "quote": "مش كان في شك. (mish kan fi shak)",
+      "translation": "疑う余地なんてなかった。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は There was no doubt. にあたります。</li><li>doubt の b は発音しません。「ダウト」です。debt（借金）の b も同じく黙字です。</li></ul><strong>英文法:</strong><br>There was no ~ は「〜は1つもなかった」。There wasn't any ~ より強い否定になります。",
+      "audioUrl": "/audio/najia_vl62.mp3"
+    },
+    {
+      "id": "najia_vl63",
+      "quote": "The snakes say hi.",
+      "translation": "ヘビたちがご挨拶。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>say hi は「よろしくと伝える」。Say hi to your mom.（お母さんによろしく）のように使います。</li><li>噛みつくことを「挨拶」と言い換えている、とぼけた言い方です。</li></ul><strong>英文法:</strong><br>現在形の say は、これから起きることをその場の実況として言う用法。放った瞬間に言うので、未来形にしていません。<br><br><strong>🧠豆知識:</strong><br>このセリフにはアラビア語版もあります（الثعابين بتسلم / athaeabin bitsalem）。ナジアは同じ内容を2言語で言い分けるセリフをいくつか持っています。",
+      "audioUrl": "/audio/najia_vl63.mp3"
+    },
+    {
+      "id": "najia_vl64",
+      "quote": "يلا نولعها. (yalla nualeha)",
+      "translation": "さあ、始めましょ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は Let's get this started. にあたります。</li><li>يلا（yalla）は「さあ行こう・早く」。アラビア語圏では最もよく使われる掛け声の1つです。</li></ul><strong>英文法:</strong><br>英語の Let's get this started. は get + 目的語 + 過去分詞 の形で、「これを始まった状態にする」が直訳。Let's start this. より勢いが出ます。",
+      "audioUrl": "/audio/najia_vl64.mp3"
+    },
+    {
+      "id": "najia_vl65",
+      "quote": "النتيجة واضحة. (alnatiga wadeha)",
+      "translation": "結果は明らか。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は The result is clear. にあたります。</li><li>clear は「透明な」から「はっきりしている・明白な」へ広がった語です。</li></ul><strong>英文法:</strong><br>英語では The result is clear. のように be 動詞が要りますが、アラビア語の現在形では is にあたる語を置きません。النتيجة واضحة は「その結果 明白な」という2語だけで文になります。",
+      "audioUrl": "/audio/najia_vl65.mp3"
+    },
+    {
+      "id": "najia_vl66",
+      "quote": "الثعابين بتسلم. (athaeabin bitsalem)",
+      "translation": "ヘビたちがご挨拶。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は The snakes say hi. にあたります。</li><li>بتسلم（bitsalem）は「挨拶する・よろしく言う」。エジプト方言では動詞の頭に بـ（bi-）をつけて、日常的に繰り返す動作を表します。</li></ul><strong>英文法:</strong><br>エジプト方言の بـ（bi-）は、英語の現在形が「いつもそうする」を表すのとよく似た働きをします。英語の The snakes say hi. が現在形なのと同じ感覚です。",
+      "audioUrl": "/audio/najia_vl66.mp3"
+    },
+    {
+      "id": "najia_vl67",
+      "quote": "The result is clear.",
+      "translation": "結果は明らか。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>result は「結果」。試験やスポーツ、実験など幅広く使えます。</li><li>戦いを実験の結果報告のように言うのが、ナジアらしい締め方です。</li></ul><strong>英文法:</strong><br>be 動詞 + 形容詞 の基本形。The result is clear. は短いながら、主語・動詞・補語がそろった完全な文です。<br><br><strong>🧠豆知識:</strong><br>このセリフにはアラビア語版もあります（النتيجة واضحة / alnatiga wadeha）。同じ内容を英語とアラビア語の両方で用意している一組です。",
+      "audioUrl": "/audio/najia_vl67.mp3"
+    },
+    {
+      "id": "najia_vl68",
+      "quote": "دلوقتي الـshow. (dluqati alshow)",
+      "translation": "さあショーの時間。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は It's show time. にあたります。</li><li>注目すべきは、アラビア語の中に英語の show がそのまま入っていること。الـ（al-）は英語の the にあたる冠詞です。</li></ul><strong>英文法:</strong><br>英語の It's show time. は「さあ本番だ」。舞台の幕が上がる瞬間から転じて、勝負どころ全般に使われます。<br><br><strong>🧠豆知識:</strong><br>母語の文の中に外国語の単語をそのまま混ぜることをコードスイッチングと言います。エジプトの若い世代の話し方では、英語の単語をこうして混ぜるのがごく普通です。",
+      "audioUrl": "/audio/najia_vl68.mp3"
+    },
+    {
+      "id": "najia_vl69",
+      "quote": "هتخافوا ولا ايه؟ (hatkhafuu wala ayh?)",
+      "translation": "怖がるの？どうなの？",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アラビア語（エジプト方言）。英語版の同じ場面は Are you gonna be scared or what? にあたります。</li><li>英語の ~ or what? は「〜なの、どうなの？」と相手をせかす言い方。返事を待つというより挑発です。</li></ul><strong>英文法:</strong><br>gonna は going to のくずれた発音をそのまま書いたもの。Are you gonna ~? は Are you going to ~? と同じで、会話では非常によく使われます。",
+      "audioUrl": "/audio/najia_vl69.mp3"
+    }
+  ]
+}
