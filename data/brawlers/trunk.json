@@ -1,0 +1,416 @@
+{
+  "name": "トランク",
+  "nameEn": "Trunk",
+  "rarity": "hyper-rare",
+  "role": "tank",
+  "quote": "We are Trunk!",
+  "iconUrl": "/icons/trunk.png",
+  "voicelines": [
+    {
+      "id": "trunk_vl1",
+      "quote": "Trunk the mighty is ready to get fighty!",
+      "translation": "強きトランク、いざ大暴れの時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"mighty\"（強大な）と \"fighty\" で韻を踏んでいます。\"fighty\" は辞書にある単語ではなく、\"fight\" から語感で作られた造語です。</li><li>\"Trunk the mighty\" は「勇者〇〇」のように称号を後ろに付ける古風な言い方で、大げさな自己紹介になっています。</li></ul><strong>英文法:</strong><br>\"be ready to + 動詞の原形\" で「～する準備ができている」。\"get + 形容詞\" は「～な状態になる」なので、\"get fighty\" は「戦闘モードに入る」という感覚です。",
+      "audioUrl": "/audio/trunk_vl1.mp3"
+    },
+    {
+      "id": "trunk_vl2",
+      "quote": "Trunky gets funky!",
+      "translation": "トランキー、ノッてきたぜ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Trunky\" は Trunk に -y を付けた愛称。ここでも \"Trunky\" と \"funky\" で韻を踏んでいます。</li><li>\"funky\" はファンク音楽から来た言葉で、「ノリがいい」「イカしてる」という褒め言葉です。</li></ul><strong>英文法:</strong><br>\"get + 形容詞\" で「～になる」。\"get funky\" は音楽やダンスの文脈で「ノリに乗る」という決まった言い回しです。",
+      "audioUrl": "/audio/trunk_vl2.mp3"
+    },
+    {
+      "id": "trunk_vl3",
+      "quote": "Trunk, not junk!",
+      "translation": "トランクだ、ガラクタじゃない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Trunk\" と \"junk\"（ガラクタ、くず）で韻を踏んだ言い返しです。</li><li>ダメージを受けたときのセリフなので、「やられたけど壊れちゃいない」という強がりになっています。</li></ul><strong>英文法:</strong><br>\"A, not B\" は「BではなくAだ」と言い切る形。動詞を省いて名詞だけを並べることで、短く強いリズムが生まれます。",
+      "audioUrl": "/audio/trunk_vl3.mp3"
+    },
+    {
+      "id": "trunk_vl4",
+      "quote": "We are Trunk!",
+      "translation": "我々こそがトランクだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"We are\" と複数で名乗るのがトランク最大の特徴です。中身はアリの群れなので、本人たちの感覚では「私たち」なのです。</li><li>倒したときのセリフで、集団の勝利を宣言しています。</li></ul><strong>英文法:</strong><br>主語が \"We\" でも補語の \"Trunk\" は単数のまま。「私たち全員でトランクという一つの存在だ」という意味になり、文法の崩れではなく意図的な表現です。<br><br><strong>🧠豆知識:</strong><br>この \"We are Trunk!\" はゲーム内でトランクのプレステージ称号にも使われている、いわば決めゼリフです。",
+      "audioUrl": "/audio/trunk_vl4.mp3"
+    },
+    {
+      "id": "trunk_vl5",
+      "quote": "I am Trunk!",
+      "translation": "私がトランクだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"We are Trunk!\" と対になるセリフです。こちらは \"I\" で単数。木のふりをしているときの「表向きの顔」だと考えると面白いです。</li><li>このセリフは登場時・撃破時・やられたときの3場面すべてで使われる、トランクの口ぐせです。</li></ul><strong>英文法:</strong><br>\"I am + 名前\" という英語で最も基本的な自己紹介の形です。短いぶん、言い切る強さが際立ちます。",
+      "audioUrl": "/audio/trunk_vl5.mp3"
+    },
+    {
+      "id": "trunk_vl6",
+      "quote": "Forest fury!",
+      "translation": "森の怒り！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Forest\" と \"fury\" が両方 f で始まる頭韻（とういん）です。英語の必殺技名でよく使われる、耳に残る作り方です。</li><li>\"fury\" は「激怒」「猛威」。単なる怒り（anger）より激しく、制御できないニュアンスがあります。</li></ul><strong>英文法:</strong><br>名詞を2つ並べただけの名詞句で、動詞がありません。技名や掛け声は英語でもこの形が定番です。",
+      "audioUrl": "/audio/trunk_vl6.mp3"
+    },
+    {
+      "id": "trunk_vl7",
+      "quote": "Branches up, leaf no mercy!",
+      "translation": "枝を上げろ、慈悲は残すな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"leaf\"（葉）と \"leave\"（残す）の発音が同じことを使ったダジャレです。本来の言い回しは \"leave no mercy\"（情けを一切残すな）。</li><li>\"Branches up\" は「武器を構えろ」に当たる号令を、木の枝に置き換えたものです。</li></ul><strong>英文法:</strong><br>\"leave no + 名詞\" は「～を一つも残さない」という強い否定。\"leave no stone unturned\"（あらゆる手を尽くす）など、決まった言い回しでよく使われます。",
+      "audioUrl": "/audio/trunk_vl7.mp3"
+    },
+    {
+      "id": "trunk_vl8",
+      "quote": "Team Trunk makes the dream trunk.",
+      "translation": "チーム・トランクが夢をかなえる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>元ネタは \"Teamwork makes the dream work.\"（チームワークが夢を実現させる）という有名な格言です。</li><li>\"work\" を \"trunk\" に置き換えて、自分の名前をねじ込んでいます。意味は通らなくなりますが、語呂を優先したジョークです。</li></ul><strong>英文法:</strong><br>\"make + 目的語 + 動詞の原形\" は「～を…させる」という使役の形。元の格言では \"makes the dream work\" で「夢を機能させる」という意味になっています。",
+      "audioUrl": "/audio/trunk_vl8.mp3"
+    },
+    {
+      "id": "trunk_vl9",
+      "quote": "Separate!",
+      "translation": "散れ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ダメージを受けたときのセリフ。アリの群れが攻撃を受けて散り散りになる様子が浮かびます。</li><li>\"Separate!\" の一語だけで、中身がアリだと明かしてしまっている面白いセリフです。</li></ul><strong>英文法:</strong><br>主語を省いた命令形です。\"separate\" は動詞では「セパレイト」、形容詞（別々の）では「セパレット」と発音が変わる点に注意しましょう。",
+      "audioUrl": "/audio/trunk_vl9.mp3"
+    },
+    {
+      "id": "trunk_vl10",
+      "quote": "You punch Trunk, Trunk punches you!",
+      "translation": "お前がトランクを殴れば、トランクがお前を殴り返す！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>同じ形の文をひっくり返して並べる「やられたらやり返す」の型です。</li><li>自分のことを \"Trunk\" と名前で呼ぶのがトランクの話し方の癖です。</li></ul><strong>英文法:</strong><br>前半 \"You punch\" と後半 \"Trunk punches\" で、三人称単数の -s が付くかどうかが変わっています。主語が Trunk（三人称単数）なので \"punches\" になります。",
+      "audioUrl": "/audio/trunk_vl10.mp3"
+    },
+    {
+      "id": "trunk_vl11",
+      "quote": "Trunk went plunk.",
+      "translation": "トランク、ドスンと落ちた。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Trunk\" と \"plunk\" で韻を踏んでいます。</li><li>\"plunk\" は重いものが落ちる「ドスン」「ポチャン」という擬音語です。倒れた自分を他人事のように実況しています。</li></ul><strong>英文法:</strong><br>\"go + 擬音語\" で「～という音を立てる」。\"The balloon went pop.\"（風船がパンと鳴った）のように使います。ここでは過去形 \"went\" です。",
+      "audioUrl": "/audio/trunk_vl11.mp3"
+    },
+    {
+      "id": "trunk_vl12",
+      "quote": "Rooted rampage!",
+      "translation": "根を張って大暴れ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Rooted\" と \"rampage\" の頭韻です。</li><li>\"rooted\"（根を張った）と \"rampage\"（大暴れ）は本来正反対の意味で、その矛盾が笑いどころになっています。</li></ul><strong>英文法:</strong><br>\"rooted\" は動詞 \"root\" の過去分詞が形容詞になったもので、後ろの名詞 \"rampage\" を修飾しています。",
+      "audioUrl": "/audio/trunk_vl12.mp3"
+    },
+    {
+      "id": "trunk_vl13",
+      "quote": "Trunk goes smash!",
+      "translation": "トランク、ぶっ壊す！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>正しい英語なら \"Trunk smashes!\" ですが、わざと \"goes smash\" という崩した形にしています。</li><li>怪力キャラが片言で話す、いわゆる「力持ちだけど言葉は苦手」なキャラ付けです。</li></ul><strong>英文法:</strong><br>\"go + 動詞の原形\" は文法的には誤りです。あえて崩すことでキャラクターの性格を出す手法なので、テストでは真似しないようにしましょう。",
+      "audioUrl": "/audio/trunk_vl13.mp3"
+    },
+    {
+      "id": "trunk_vl14",
+      "quote": "Triumphant Trunk gets the trophy!",
+      "translation": "勝ち誇るトランクがトロフィーをいただく！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Triumphant\"・\"Trunk\"・\"trophy\" と t 音が3つ並ぶ頭韻です。</li><li>\"triumphant\" は「勝利に輝く」「意気揚々とした」。勝っている場面のセリフにぴったりの単語です。</li></ul><strong>英文法:</strong><br>\"the trophy\" と定冠詞が付いているのは、この試合の優勝トロフィーという「話し手と聞き手の間で決まっている一つ」を指しているからです。",
+      "audioUrl": "/audio/trunk_vl14.mp3"
+    },
+    {
+      "id": "trunk_vl15",
+      "quote": "Leaf it out!",
+      "translation": "やめとけって！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Leave it out!\" のダジャレ版です。\"leave\" を同じ発音の \"leaf\"（葉）に置き換えています。</li><li>\"Leave it out!\" はイギリス英語のくだけた言い回しで、「よせよ」「いいかげんにしろ」という意味です。</li></ul><strong>英文法:</strong><br>\"leave 〜 out\" は本来「～を除外する」という句動詞。命令形にして、相手の行動を止める言い方になっています。",
+      "audioUrl": "/audio/trunk_vl15.mp3"
+    },
+    {
+      "id": "trunk_vl16",
+      "quote": "Trunk go smash!",
+      "translation": "トランク、ぶっ壊す！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Trunk goes smash!\" から三人称単数の -s すら落ちた、さらに崩れた形です。</li><li>敵を倒した瞬間の興奮で言葉が雑になっている、という演出だと読めます。</li></ul><strong>英文法:</strong><br>主語が三人称単数なら動詞に -s が付くのが原則です。ここではその -s が抜けており、意図的な「片言」表現になっています。",
+      "audioUrl": "/audio/trunk_vl16.mp3"
+    },
+    {
+      "id": "trunk_vl17",
+      "quote": "The colony never forgets.",
+      "translation": "コロニーは決して忘れない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"colony\" はアリやハチの「群れ・コロニー」。トランクの正体そのものを指す単語です。</li><li>\"An elephant never forgets.\"（象は決して忘れない＝恨みを忘れない）という英語のことわざを下敷きにした、静かな脅し文句です。</li></ul><strong>英文法:</strong><br>\"never\" は not より強い「決して～ない」。一般的な性質を述べているので現在形（forgets）を使っています。",
+      "audioUrl": "/audio/trunk_vl17.mp3"
+    },
+    {
+      "id": "trunk_vl18",
+      "quote": "Spores in your pores!",
+      "translation": "胞子がお前の毛穴に！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"spores\"（胞子）と \"pores\"（毛穴）で韻を踏んでいます。1文字違いの単語を並べる典型的な言葉遊びです。</li><li>気持ち悪さを狙った、いかにも森のキャラらしい脅し文句です。</li></ul><strong>英文法:</strong><br>動詞のない名詞句だけの文です。\"A in B\" で「Bの中のA」という位置関係を表しています。",
+      "audioUrl": "/audio/trunk_vl18.mp3"
+    },
+    {
+      "id": "trunk_vl19",
+      "quote": "We are many!",
+      "translation": "我々は大勢だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>中身がアリの群れであることを堂々と宣言しています。</li><li>\"many\" を名詞のように使い、「数が多い存在だ」と言い切る重々しい言い方です。</li></ul><strong>英文法:</strong><br>ふつう \"many\" は \"many people\" のように名詞の前に付けますが、ここでは補語として単独で使われています。やや古風で格式ばった響きになります。",
+      "audioUrl": "/audio/trunk_vl19.mp3"
+    },
+    {
+      "id": "trunk_vl20",
+      "quote": "Trunk anticipated this.",
+      "translation": "トランクは読んでいた。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"anticipated\" の中に \"ant\"（アリ）が隠れています。トランクのセリフには ant を含む単語がいくつも仕込まれています。</li><li>\"anticipate\" は「予期する」「先読みする」。勝っている場面で余裕を見せる一言です。</li></ul><strong>英文法:</strong><br>過去形 \"anticipated\" を使うことで、「今こうなる前から読んでいた」という時間差が出ます。現在完了 \"has anticipated\" ではなく単純過去なのがポイントです。",
+      "audioUrl": "/audio/trunk_vl20.mp3"
+    },
+    {
+      "id": "trunk_vl21",
+      "quote": "Rooting for you, not!",
+      "translation": "応援してるよ、なんてね！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"root for 〜\" は「～を応援する」という熟語ですが、\"root\" には「根を張る」の意味もあり、木であるトランクの言葉遊びになっています。</li><li>文末の \", not!\" で直前の内容をひっくり返す、90年代に流行したおどけた言い回しです。</li></ul><strong>英文法:</strong><br>\"(I am) rooting for you\" の主語と be動詞が省略された形。会話では冒頭の \"I am\" がよく落ちます。",
+      "audioUrl": "/audio/trunk_vl21.mp3"
+    },
+    {
+      "id": "trunk_vl22",
+      "quote": "Trunk not just bark, trunk has bite.",
+      "translation": "トランクは吠えるだけじゃない、噛みつくぞ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"His bark is worse than his bite.\"（口ほどにもない）ということわざをひっくり返しています。</li><li>さらに \"bark\" には「樹皮」という意味もあり、木のキャラだからこそ効く二重のダジャレです。</li></ul><strong>英文法:</strong><br>前半は be動詞 \"is\" が抜けた片言口調（本来は \"Trunk is not just bark\"）。後半は \"has bite\" と正しい形になっており、崩し方に揺れがあります。",
+      "audioUrl": "/audio/trunk_vl22.mp3"
+    },
+    {
+      "id": "trunk_vl23",
+      "quote": "Here is proof, it does make a sound.",
+      "translation": "ほら証拠だ、ちゃんと音は鳴る。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「誰もいない森で木が倒れたら音はするのか」という有名な哲学の問いへの返答です。倒れた本人が「鳴ったぞ」と証明しています。</li><li>やられたときのセリフにこの小ネタを持ってくるセンスが光ります。</li></ul><strong>英文法:</strong><br>\"does make\" の \"does\" は強調の助動詞で、「本当に～する」と念を押す働きです。\"it makes a sound\" より強い断定になります。",
+      "audioUrl": "/audio/trunk_vl23.mp3"
+    },
+    {
+      "id": "trunk_vl24",
+      "quote": "Total Trunk takeover time!",
+      "translation": "トランクによる完全制圧の時間だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Total\"・\"Trunk\"・\"takeover\"・\"time\" と、t 音を4つ重ねた頭韻です。</li><li>\"takeover\" は「乗っ取り」「占拠」。企業買収にも使われる単語です。</li></ul><strong>英文法:</strong><br>名詞が4つ連なった名詞句で、前の語が後ろの語を修飾していく形です。英語では名詞を重ねて複合語を作るのが得意な点が表れています。",
+      "audioUrl": "/audio/trunk_vl24.mp3"
+    },
+    {
+      "id": "trunk_vl25",
+      "quote": "One trunk, many men abilities!",
+      "translation": "一本の幹に、大勢ぶんの力！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"One 〜, many 〜\" の対比で、「見た目は一つ、中身は大勢」というトランクの本質を言い表しています。</li><li>\"many men abilities\" は文法的には不自然な並びで、片言らしさが出ています。</li></ul><strong>英文法:</strong><br>正しくは \"the abilities of many men\" や \"many men's abilities\" とします。名詞をそのまま3つ並べているため、崩れた響きになっています。",
+      "audioUrl": "/audio/trunk_vl25.mp3"
+    },
+    {
+      "id": "trunk_vl26",
+      "quote": "You got ant!",
+      "translation": "アリにやられたな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"You got owned!\"（完敗だな）のような決まり文句を、\"ant\" に置き換えた造語です。</li><li>リードしているときのセリフで、「アリの群れに負けたぞ」という煽りになっています。</li></ul><strong>英文法:</strong><br>\"You got 〜\" はくだけた会話で「～された」という受け身的な意味を作ります。\"ant\" に冠詞が付いていないのも、造語ゆえの崩れです。",
+      "audioUrl": "/audio/trunk_vl26.mp3"
+    },
+    {
+      "id": "trunk_vl27",
+      "quote": "Anticipate revenge!",
+      "translation": "仕返しを覚悟しろ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ここでも \"Anticipate\" の中に \"ant\" が隠れています。</li><li>ダメージを受けた場面なので、「今のは覚えたぞ」という予告になっています。</li></ul><strong>英文法:</strong><br>主語のない命令形です。\"anticipate\" は「（起こることを）予期して備える」という意味で、ここでは「覚悟しておけ」に近い使い方です。",
+      "audioUrl": "/audio/trunk_vl27.mp3"
+    },
+    {
+      "id": "trunk_vl28",
+      "quote": "Branch out, try dodging next time!",
+      "translation": "散らばれよ、次はよけてみな！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"branch out\" は「（活動などを）広げる」「枝分かれする」という熟語で、木のキャラにぴったりの言い回しです。</li><li>倒した相手への煽りとして「もっと動き回れ」と言っています。</li></ul><strong>英文法:</strong><br>\"try + 動詞ing\" は「試しに～してみる」。\"try to dodge\"（よけようと努力する）とは意味が変わるので、使い分けに注意しましょう。",
+      "audioUrl": "/audio/trunk_vl28.mp3"
+    },
+    {
+      "id": "trunk_vl29",
+      "quote": "Feeling stomped!",
+      "translation": "踏みつぶされた気分だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"stomp\" は「足で踏みつける」。アリが踏みつぶされるイメージと重なり、トランクがやられた場面にぴったりです。</li><li>\"Feeling stumped!\"（お手上げだ）との音の近さも狙っている可能性があります。</li></ul><strong>英文法:</strong><br>\"(I am) feeling stomped\" の主語と be動詞が省略された形。\"stomped\" は過去分詞で「踏まれた」という受け身を表します。",
+      "audioUrl": "/audio/trunk_vl29.mp3"
+    },
+    {
+      "id": "trunk_vl30",
+      "quote": "The hive is alive.",
+      "translation": "巣は生きている。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"hive\" と \"alive\" で韻を踏んでいます。</li><li>\"hive\" は本来ミツバチの巣を指しますが、ここでは群れ全体という意味で使われています。</li></ul><strong>英文法:</strong><br>\"alive\" は補語としてだけ使える形容詞で、\"an alive bee\" のように名詞の前には置けません。名詞の前では \"live\" や \"living\" を使います。",
+      "audioUrl": "/audio/trunk_vl30.mp3"
+    },
+    {
+      "id": "trunk_vl31",
+      "quote": "Garden of green, ready to get mean.",
+      "translation": "緑の庭が、牙をむく準備完了。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"green\" と \"mean\" で韻を踏んでいます。</li><li>\"mean\" は「意味する」ではなく「意地悪な・冷酷な」という形容詞です。穏やかな「緑の庭」との落差が笑いどころです。</li></ul><strong>英文法:</strong><br>\"be ready to + 動詞の原形\" の be動詞が省略された形。\"get mean\" で「凶暴になる」という状態変化を表します。",
+      "audioUrl": "/audio/trunk_vl31.mp3"
+    },
+    {
+      "id": "trunk_vl32",
+      "quote": "You got ant.",
+      "translation": "アリにやられたな。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>同じ \"You got ant\" でも、こちらは言い切りの落ち着いた言い方です。ゲーム内では驚いた調子のものと淡々としたものが用意されています。</li><li>同じ台本でも読み方を変えて複数収録するのは、ボイス制作でよくある手法です。</li></ul><strong>英文法:</strong><br>感嘆符の有無で伝わる感情が変わります。\"!\" は勢いや驚き、\".\" は冷静さや余裕を表します。",
+      "audioUrl": "/audio/trunk_vl32.mp3"
+    },
+    {
+      "id": "trunk_vl33",
+      "quote": "Don't be on the tree.",
+      "translation": "木の上にいるんじゃない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ダメージを受けたときのセリフで、自分（木）に乗っている敵に「どけ」と言っているように読めます。</li><li>\"Don't bark up the wrong tree\"（見当違いをする）という熟語を崩したものとも読めますが、断定はできません。</li></ul><strong>英文法:</strong><br>be動詞の否定命令形 \"Don't be 〜\" です。\"Don't be late.\"（遅れるな）のように、状態を禁止するときに使います。",
+      "audioUrl": "/audio/trunk_vl33.mp3"
+    },
+    {
+      "id": "trunk_vl34",
+      "quote": "You are one, we are thousands!",
+      "translation": "お前は一人、我々は数千だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>単数と複数を真正面から対比させた、トランクの決め台詞のひとつです。</li><li>\"thousands\" と複数形にすることで「数千規模」というぼんやりした大きさを表します。</li></ul><strong>英文法:</strong><br>数詞を \"thousands\" と複数形にすると「何千もの」という漠然とした多さを指します。\"two thousand\" のように具体的な数が付くときは複数の s を付けません。",
+      "audioUrl": "/audio/trunk_vl34.mp3"
+    },
+    {
+      "id": "trunk_vl35",
+      "quote": "You felled a tree, enjoy your victory.",
+      "translation": "木を一本倒しただけだ、せいぜい喜べ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"fell\" には「倒れる（fall の過去形）」のほかに「木を切り倒す」という別の動詞があります。ここは後者で、過去形は \"felled\" です。</li><li>「たかが木一本」と言いながら相手の勝利をたたえる、皮肉たっぷりの負け台詞です。</li></ul><strong>英文法:</strong><br>\"fall - fell - fallen\"（倒れる）と \"fell - felled - felled\"（切り倒す）は別の動詞です。混同しやすいので注意しましょう。",
+      "audioUrl": "/audio/trunk_vl35.mp3"
+    },
+    {
+      "id": "trunk_vl36",
+      "quote": "Looog!",
+      "translation": "ロォォグ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Log\"（丸太）を伸ばして叫んだだけの掛け声です。必殺技の雄たけびとして使われています。</li><li>意味のある文ではなく、勢いだけで押し切るタイプのセリフです。</li></ul><strong>英文法:</strong><br>文字を繰り返して母音を伸ばす表記は、英語でも叫び声や強調を表すときによく使われます（\"Nooo!\" など）。",
+      "audioUrl": "/audio/trunk_vl36.mp3"
+    },
+    {
+      "id": "trunk_vl37",
+      "quote": "Your picnic ends today!",
+      "translation": "お前のピクニックは今日で終わりだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ピクニックにアリが群がって台無しにする、という定番のイメージを使った宣戦布告です。</li><li>\"no picnic\"（楽ではない）という英語の言い回しも背景にあり、「楽な時間は終わりだ」とも読めます。</li></ul><strong>英文法:</strong><br>確定した近い未来を現在形で表す用法です。\"The train leaves at six.\"（列車は6時発）と同じ形で、未来形より断定的に響きます。",
+      "audioUrl": "/audio/trunk_vl37.mp3"
+    },
+    {
+      "id": "trunk_vl38",
+      "quote": "For the colony!",
+      "translation": "コロニーのために！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>軍隊や騎士が「国家のために！」と叫ぶ形を、アリのコロニーに置き換えています。</li><li>個ではなく群れに忠誠を誓う、トランクの価値観がよく出たセリフです。</li></ul><strong>英文法:</strong><br>\"For + 名詞!\" だけで「～のために！」という掛け声になります。動詞がなくても成立する定型表現です。",
+      "audioUrl": "/audio/trunk_vl38.mp3"
+    },
+    {
+      "id": "trunk_vl39",
+      "quote": "For the queen!",
+      "translation": "女王のために！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>アリのコロニーの頂点にいる女王アリを指しています。</li><li>ゲーム内のガジェット名にも「For the Queen!」が使われており、セリフと能力名が対応しています。</li></ul><strong>英文法:</strong><br>\"the queen\" と定冠詞が付くのは、話し手と聞き手の間で「あの女王」と特定できているからです。",
+      "audioUrl": "/audio/trunk_vl39.mp3"
+    },
+    {
+      "id": "trunk_vl40",
+      "quote": "I. Am. Trunk!",
+      "translation": "私。が。トランクだ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>単語ごとにピリオドを打つことで、一語ずつ区切ってゆっくり叫ぶ読み方を指示しています。</li><li>同じ \"I am Trunk!\" でも、この表記だと重々しさが段違いになります。</li></ul><strong>英文法:</strong><br>本来ピリオドは文末に置くものですが、あえて語ごとに打つことで間（ま）を表す演出表記です。SNS や字幕でもよく見かけます。",
+      "audioUrl": "/audio/trunk_vl40.mp3"
+    },
+    {
+      "id": "trunk_vl41",
+      "quote": "The forest never forgets!",
+      "translation": "森は決して忘れない！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>「コロニーは決して忘れない。」と対になるセリフで、こちらは森全体を主語にしています。</li><li>やられた場面で使われ、「この借りは森が覚えている」という捨て台詞になっています。</li></ul><strong>英文法:</strong><br>\"never\" は現在形の動詞と組み合わせて「決して～しない」という不変の性質を表します。\"forest\" は三人称単数なので \"forgets\" と -s が付きます。",
+      "audioUrl": "/audio/trunk_vl41.mp3"
+    },
+    {
+      "id": "trunk_vl42",
+      "quote": "Sporadic takeover.",
+      "translation": "散発的な制圧。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Sporadic\" の中に \"spore\"（胞子）に近い綴りが入っていて、森のキャラらしい選語になっています。</li><li>\"sporadic\" は「散発的な」「ばらばらに起こる」。実際には胞子とは語源が別ですが、音の響きを楽しんだ言葉遊びと読めます。</li></ul><strong>英文法:</strong><br>形容詞 + 名詞だけの名詞句です。技名や見出しでは動詞を省いてこの形にすると引き締まります。",
+      "audioUrl": "/audio/trunk_vl42.mp3"
+    },
+    {
+      "id": "trunk_vl43",
+      "quote": "Bark shields, branches bash!",
+      "translation": "樹皮が守り、枝が打つ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Bark\"・\"branches\"・\"bash\" と b 音が3つ並ぶ頭韻です。</li><li>\"bark\"（樹皮）と \"branches\"（枝）という木の部位を、そのまま防具と武器に見立てています。</li></ul><strong>英文法:</strong><br>\"shields\" と \"bash\" はどちらも動詞です。\"bark\" は単数なので -s が付き、\"branches\" は複数なので付きません。この対比が見どころです。",
+      "audioUrl": "/audio/trunk_vl43.mp3"
+    },
+    {
+      "id": "trunk_vl44",
+      "quote": "For oppressed ants everywhere!",
+      "translation": "世界中の虐げられたアリたちのために！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"oppressed\" は「抑圧された」「虐げられた」。人権運動の演説で使われるような重い単語です。</li><li>その大げさな言葉をアリに使うところが、このセリフの笑いどころです。</li></ul><strong>英文法:</strong><br>\"everywhere\" が名詞 \"ants\" を後ろから修飾しています。\"people everywhere\"（世界中の人々）と同じ形です。",
+      "audioUrl": "/audio/trunk_vl44.mp3"
+    },
+    {
+      "id": "trunk_vl45",
+      "quote": "Stick together, everyone!",
+      "translation": "みんな、くっついていけ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"stick together\" は「団結する」「離れずにいる」という熟語です。</li><li>\"stick\" には「棒きれ・小枝」という名詞の意味もあり、木のキャラが言うと二重に効きます。</li></ul><strong>英文法:</strong><br>命令文の後ろに \"everyone\" を置いて呼びかける形です。コンマで区切るのがポイントで、これがないと意味が変わってしまいます。",
+      "audioUrl": "/audio/trunk_vl45.mp3"
+    },
+    {
+      "id": "trunk_vl46",
+      "quote": "Bark basher, colony smasher.",
+      "translation": "樹皮の殴り屋、コロニーの破壊者。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"basher\" と \"smasher\" で韻を踏み、\"Bark\" と \"basher\" で頭韻も踏んでいます。</li><li>動詞に -er を付けて「～する者」という異名を作る、ヒーローの二つ名によくある形です。</li></ul><strong>英文法:</strong><br>\"bash\"（強打する）→ \"basher\"、\"smash\"（粉砕する）→ \"smasher\"。動詞 + er で行為者を表す基本ルールです。",
+      "audioUrl": "/audio/trunk_vl46.mp3"
+    },
+    {
+      "id": "trunk_vl47",
+      "quote": "Fiendish forest pheronomes.",
+      "translation": "邪悪なる森のフェロモン。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Fiendish\"・\"forest\"・\"pheronomes\" と f 音が続く頭韻です。</li><li>アリはフェロモンで仲間に道を伝えます。トランクの正体を踏まえた、生態にもとづいた技名になっています。</li><li>綴りは本来 \"pheromones\" ですが、Wiki の表記のまま掲載しています。</li></ul><strong>英文法:</strong><br>\"fiendish\" は名詞 \"fiend\"（悪魔・鬼）に -ish が付いた形容詞で「悪魔のような」。-ish は「～っぽい」という意味を作る便利な接尾辞です。",
+      "audioUrl": "/audio/trunk_vl47.mp3"
+    },
+    {
+      "id": "trunk_vl48",
+      "quote": "Forward march!",
+      "translation": "前へ、進め！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>軍隊の行進号令そのものです。アリの行列と重なって効いています。</li><li>登場時のセリフで、戦いの開始を宣言しています。</li></ul><strong>英文法:</strong><br>\"march\" が動詞の命令形、\"forward\" が方向を表す副詞です。号令では方向を先に言う語順が定着しています。",
+      "audioUrl": "/audio/trunk_vl48.mp3"
+    },
+    {
+      "id": "trunk_vl49",
+      "quote": "Trunk's in the lead!",
+      "translation": "トランクがリードしてるぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"in the lead\" は「先頭に立っている」「勝っている」という熟語です。</li><li>リード時の定番セリフで、多くのキャラが似た表現を持っています。</li></ul><strong>英文法:</strong><br>\"Trunk's\" は \"Trunk is\" の短縮形です。所有格の \"Trunk's\"（トランクの）と形が同じなので、後ろに続く語で判断します。",
+      "audioUrl": "/audio/trunk_vl49.mp3"
+    },
+    {
+      "id": "trunk_vl50",
+      "quote": "Trunk got hurt!",
+      "translation": "トランク、痛いぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>自分のことを名前で呼び、しかも他人事のように実況するトランクらしい一言です。</li><li>\"hurt\" は原形・過去形・過去分詞がすべて同じ形の動詞です。</li></ul><strong>英文法:</strong><br>\"get + 過去分詞\" は口語的な受け身。\"was hurt\" より「その瞬間にそうなった」という動きが出ます。",
+      "audioUrl": "/audio/trunk_vl50.mp3"
+    },
+    {
+      "id": "trunk_vl51",
+      "quote": "It's time I make like a tree, and leaf!",
+      "translation": "そろそろ木のマネして、葉っぱ…もとい、お暇するか！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"Make like a tree and leave.\"（木のように「葉を出す」＝立ち去る）という有名なダジャレです。</li><li>\"leave\"（去る）と \"leaf\"（葉）が同じ発音であることを使っており、綴りを \"leaf\" にすることでダジャレだと明示しています。</li></ul><strong>英文法:</strong><br>\"It's time + 主語 + 動詞\" は「もう～する時間だ」。本来は仮定法過去（It's time I made 〜）にするのが正式ですが、会話では現在形もよく使われます。",
+      "audioUrl": "/audio/trunk_vl51.mp3"
+    },
+    {
+      "id": "trunk_vl52",
+      "quote": "Trunk nation!",
+      "translation": "トランク国家だ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"nation\" は「国家・国民」。コロニー全体を一つの国に見立てています。</li><li>スポーツで熱心なファン集団を \"〇〇 Nation\" と呼ぶ英語圏の習慣も背景にあります。</li></ul><strong>英文法:</strong><br>固有名詞 + 名詞で複合語を作る形です。冠詞も動詞もない掛け声として成立しています。",
+      "audioUrl": "/audio/trunk_vl52.mp3"
+    },
+    {
+      "id": "trunk_vl53",
+      "quote": "I've got ants in my pants!",
+      "translation": "ズボンの中にアリがいる！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"have ants in one's pants\" は「そわそわして落ち着かない」という熟語です。\"ants\" と \"pants\" で韻を踏みます。</li><li>トランクの場合は比喩ではなく文字どおり体中にアリがいるので、二重の意味になっています。</li></ul><strong>英文法:</strong><br>\"I've got 〜\" は \"I have 〜\" のくだけた言い方で、イギリス英語でよく使われます。意味は \"I have\" と同じです。",
+      "audioUrl": "/audio/trunk_vl53.mp3"
+    },
+    {
+      "id": "trunk_vl54",
+      "quote": "We are doing it!",
+      "translation": "我々、やってるぞ！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>ここでも主語は \"We\"。群れとしての一体感が出ています。</li><li>リードしている場面で、順調に進んでいることを確認し合っているセリフです。</li></ul><strong>英文法:</strong><br>現在進行形 \"are doing\" は「今まさに進行中」を表します。\"We did it!\"（やった！）が完了なのに対し、こちらは途中経過です。",
+      "audioUrl": "/audio/trunk_vl54.mp3"
+    },
+    {
+      "id": "trunk_vl55",
+      "quote": "Don't worry, I almost know exactly what I'm doing.",
+      "translation": "心配するな、自分が何をしてるかほぼ正確に分かってる。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"almost\"（ほぼ）と \"exactly\"（正確に）は本来かみ合わない組み合わせで、その矛盾が笑いどころです。</li><li>\"I know exactly what I'm doing.\"（自分が何をしているか完全に分かっている）という自信の決まり文句に \"almost\" を足して台無しにしています。</li></ul><strong>英文法:</strong><br>\"what I'm doing\" は間接疑問文で、\"know\" の目的語になっています。疑問文ではないので \"what am I doing\" と語順を変えない点に注意しましょう。",
+      "audioUrl": "/audio/trunk_vl55.mp3"
+    },
+    {
+      "id": "trunk_vl56",
+      "quote": "It's a bug's life.",
+      "translation": "虫の人生ってやつさ。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"It's a dog's life.\"（つらい生活だ）という英語の言い回しを、\"dog\" から \"bug\"（虫）に置き換えたものです。</li><li>やられたときのセリフで、「虫の身にはよくあることさ」と受け流しています。</li></ul><strong>英文法:</strong><br>\"a bug's life\" は 's を使った所有格で「虫の（一生）」。生き物には of 〜 より 's を使うのが自然です。",
+      "audioUrl": "/audio/trunk_vl56.mp3"
+    },
+    {
+      "id": "trunk_vl57",
+      "quote": "Left-right- no, don't go that way ahh di ahh!",
+      "translation": "左、右、ちがう、そっち行くな、ああもう！",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>倒れる瞬間に、中のアリたちが指示を出し合って混乱している様子がそのまま声になっています。</li><li>\"ahh di ahh\" は意味のない叫び声で、パニックを表す音です。</li></ul><strong>英文法:</strong><br>\"don't go that way\" は否定の命令形。\"that way\" は前置詞なしで「そちらへ」という方向を表す副詞句として働きます。<br><br><strong>🧠豆知識:</strong><br>トランクは公式の説明でも they/them という複数の代名詞で書かれています。中身がアリの群れなので、一人ではなく「彼ら」として扱われているのです。",
+      "audioUrl": "/audio/trunk_vl57.mp3"
+    },
+    {
+      "id": "trunk_vl58",
+      "quote": "I'm definitely not a group of ants in a tree.",
+      "translation": "私は断じて、木の中のアリの群れなどではない。",
+      "explanation": "<strong>この英文でのポイント:</strong><br><ul><li>\"definitely not\"（断じて違う）と強く否定するほど怪しく聞こえる、という定番の笑いです。</li><li>ゲーム内の公式紹介文でも「まさかトランクの正体が機械の木を操る超知能アリのコロニーだなんて、そんなバカな話があるわけない」と、同じとぼけ方をしています。</li></ul><strong>英文法:</strong><br>\"definitely\" は否定語 not の前に置くと「断じて～でない」という完全否定になります。\"not definitely\" と順番を変えると「必ずしもそうとは限らない」と意味が変わるので要注意です。",
+      "audioUrl": "/audio/trunk_vl58.mp3"
+    }
+  ]
+}

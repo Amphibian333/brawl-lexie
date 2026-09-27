@@ -130,6 +130,33 @@ git push
 
 ### 2026-09-27 に完了した分
 
+- **トランク（Trunk / タンク / ハイパーレア）を追加** — 102体目。58セリフ・**欠番なし**
+  - 日本語名「トランク」は GameWith・ゲームラインで一致。表記揺れなし。2025/08/21 実装（08/28 スターロード解禁）
+  - Fandom・Fan Kit とも**旧命名**（`trunk start vo 01.ogg` / `trunk_start_vo_01.ogg`）。命名の新しい揺れは無し
+  - Fandom のセリフは 61行だが、うち3本（kill08 / die10 / start12）が start01 と同じ "I am Trunk!" で、
+    wikimap が正しく統合して **58本**。`missing` 0・`skipped_stage_directions` 0 で**一発完全一致**
+  - 内訳は start13 / lead10 / hurt9 / kill8 / die12 / ulti9。Fandom の Attacking 列は空で、Fan Kit にも攻撃ボイスは無い
+  - **スキン音声は0件**（スキン自体は Swimming Trunk が存在するが Fan Kit に音声なし）。`_skin/` 退避は不要だった
+  - アイコンは**音声 zip に同梱されていた** `portrait_brawler_trunk.png` を使用。crop は `0,0,220`
+  - ⚠️ **`Portrait_Trunk` だけ 345×220 と極端に低解像度**（他は 2400×1602 や 1759×1110）。
+    Supercell 側のアップロードが低解像度なだけで、アセット種別・ライセンスは他キャラと同一。
+    sirius.png が 220×220、alli.png が 180×180 なので既存の枠内と判断してそのまま採用
+  - 高解像度化は検討して**見送り**: `Trunk@4x` はキャラ絵ではなくネオンの紋章グリフ、
+    `trunk_default`（1556×1468）は 3D レンダーで既存のフラットなセル画と画風が合わない。
+    超解像（Real-ESRGAN / waifu2x）はサンドボックスから重みと torch を取得できず実行不能。
+    古典手法4種を比較したが、bilateral+アンシャープのみ輪郭に偽ディテールが出て失格、他は素の Lanczos と差がなかった。
+    そもそもサイトの表示は一覧80px・詳細120px なので 220×220 で足りている
+
+- **⚠️ Audio セクションの検索にポートレート png が混ざる**
+  - `?q=Trunk` の Audio 検索（document 373）の結果68件に `portrait_brawler_trunk.png` が1件含まれていた
+  - おかげで音声 zip にアイコンが同梱され、ダウンロード1回で済んだ。今後も**まず zip の中を見る**と手数が減る
+
+- **⚠️ `.git` 配下の一時ファイルを消せなかった（未解決）**
+  - この環境では削除許可が下りず、`git add -A` 後に `.git/index.lock` と `.git/objects/**/tmp_obj_*` 339件が残存
+  - `git add` 自体は成功（166ファイル staged）だが、**index.lock を消さないと commit が失敗する**
+  - 手動削除が必要: `Remove-Item "$HOME\brawl-lexie\.git\index.lock"` と
+    `Get-ChildItem "$HOME\brawl-lexie\.git\objects" -Recurse -Filter tmp_obj_* | Remove-Item`
+
 - **ダミアン（Damian / タンク / ウルトラレア）を追加** — 101体目。65セリフ・**欠番なし**
   - 日本語名「ダミアン」は GameWith と公式Xの表記が一致。表記揺れなし
   - Fandom は**旧命名**（`damian start vo 01.ogg`）、Fan Kit は**新命名**（`bs_damian_dies_002_001.wav`）という
