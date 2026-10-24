@@ -369,6 +369,7 @@ const urls = [
     priority: "0.8",
     changefreq: "weekly",
   })),
+  { loc: `${SITE}/about.html`, priority: "0.5", changefreq: "monthly" },
   { loc: `${SITE}/privacy.html`, priority: "0.3", changefreq: "yearly" },
 ];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

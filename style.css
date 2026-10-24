@@ -180,7 +180,7 @@
         width: 90%;
         max-width: 1200px;
         margin: 0 auto;
-        padding: 20px 0;
+        padding: 12px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -200,7 +200,8 @@
       header nav ul {
         list-style: none;
         display: flex;
-        flex-wrap: nowrap !important; /* ★重要：絶対に折り返さない！ */
+        flex-wrap: wrap; /* 狭い画面では折り返す（ページ全体の横スクロールを防ぐ） */
+        row-gap: 6px; /* 折り返したときの行間 */
         justify-content: center; /* 真ん中に寄せる */
         align-items: center;
         padding: 0;
@@ -227,14 +228,28 @@
         display: inline-block;
       }
 
+      /* 支援リンク：文字スタイルは他と同じまま、枠で囲んで役割が分かるようにする */
+      header nav ul li a.nav-support {
+        border: 2px solid var(--accent-primary);
+        border-radius: 999px;
+        padding: 6px 14px;
+      }
+      header nav ul li a.nav-support:hover {
+        color: var(--btn-text);
+        background-color: var(--accent-primary);
+      }
+
       /* ★スマホ用：画面が狭い時の強力な補正 */
       @media (max-width: 600px) {
         header nav ul li {
-          margin: 0 2px; /* ボタン同士の隙間をギリギリまで詰める */
+          margin: 0 1px; /* ボタン同士の隙間をギリギリまで詰める */
         }
         header nav ul li a {
-          font-size: 0.85em; /* 文字を少し小さくして3つ収める */
-          padding: 8px 8px; /* ボタンの内側の余白も削る */
+          font-size: 0.78em; /* 項目が7個あるので少し小さくする */
+          padding: 7px 7px; /* ボタンの内側の余白も削る */
+        }
+        header nav ul li a.nav-support {
+          padding: 5px 10px;
         }
       }
       /* ▲▲▲ ここまで書き換え ▲▲▲ */
@@ -925,24 +940,19 @@
         cursor: pointer;
         user-select: none;
       }
+      /* 文字色は header nav ul li a.active（背景＝アクセント色の上に乗る色）に任せる。
+         ここで accent-primary を !important で上書きすると文字と背景が同色になり読めなくなる */
       .nav-link.active {
-        color: var(--accent-primary) !important;
         border-bottom: 2px solid var(--accent-primary);
       }
 
       /* ▼▼▼ [究極版] コンパクトヘッダー用CSS（ここから書き換え） ▼▼▼ */
 
-      /* 1. ヘッダーの枠組み（コンテナ）のアニメーション */
-      .header-nav-container {
-        transition: padding 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        will-change: padding;
-      }
-
-      /* スクロール時：上下の余白を「20px」から「5px」まで限界に縮める */
-      header.scrolled .header-nav-container {
-        padding-top: 8px !important;
-        padding-bottom: 8px !important;
-      }
+      /* 【CLS対策】スクロールでヘッダーの高さを変えない。
+         header は position: sticky なので通常フローに場所を取っており、縮むと
+         下のコンテンツが丸ごと上に動く＝レイアウトシフトになる。
+         スクロール起因のシフトは CLS から除外されない（除外されるのはタップなど
+         入力直後の500msだけ）ため、変化は背景・影だけに限定する。 */
 
       /* 2. ヘッダー背景のアニメーション */
       header {
@@ -971,11 +981,6 @@
         line-height: 1; /* 行間を詰める */
       }
 
-      /* スクロール時：文字サイズを「2.2em」から「1.5em」にギュッと小さくする */
-      header.scrolled h1, header.scrolled .site-logo {
-        font-size: 1.5em !important;
-        margin-bottom: 0 !important;
-      }
 
       /* ▼▼▼ [スマホ完全対応版] コンパクトヘッダーCSS（ここから上書き） ▼▼▼ */
 
@@ -990,11 +995,6 @@
         flex-wrap: wrap; /* 画面幅が狭い時に折り返せるようにする */
       }
 
-      /* スクロール時：文字サイズを「2.2em」から「1.5em」にギュッと小さくする */
-      header.scrolled h1, header.scrolled .site-logo {
-        font-size: 1.5em !important;
-        margin-bottom: 0 !important;
-      }
 
       /* 4. サブテキスト（ボイス再生...）のアニメーション */
       .header-seo-text {
@@ -1014,14 +1014,6 @@
         display: block; /* 確実に表示エリアを確保 */
       }
 
-      /* スクロール時：完全に消し去る（高さ0、透明、隙間なし） */
-      header.scrolled .header-seo-text {
-        opacity: 0;
-        max-height: 0; /* ここで0にすることでシュッと消える */
-        margin-left: 0 !important;
-        margin-top: 0 !important;
-        pointer-events: none;
-      }
 
       /* スマホ対応：縦並びにしてバランスを取る */
       @media (max-width: 768px) {
