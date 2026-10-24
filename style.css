@@ -239,17 +239,12 @@
         background-color: var(--accent-primary);
       }
 
-      /* ★スマホ用：画面が狭い時の強力な補正 */
+      /* ★スマホ用：画面が狭い時の強力な補正
+         （ヘッダーとリクエストボタンの調整はファイル末尾にまとめてあります。
+           このファイルは同じセレクタを後ろで何度も上書きしているため） */
       @media (max-width: 600px) {
         header nav ul li {
           margin: 0 1px; /* ボタン同士の隙間をギリギリまで詰める */
-        }
-        header nav ul li a {
-          font-size: 0.78em; /* 項目が7個あるので少し小さくする */
-          padding: 7px 7px; /* ボタンの内側の余白も削る */
-        }
-        header nav ul li a.nav-support {
-          padding: 5px 10px;
         }
       }
       /* ▲▲▲ ここまで書き換え ▲▲▲ */
@@ -1957,5 +1952,63 @@
         header nav ul li a {
           font-size: 0.75em !important;
           padding: 7px 5px !important;
+        }
+      }
+
+      /* ===== [まとめ] スマホのヘッダーとフローティングボタン =====
+         このファイルは header h1 / .header-seo-text / header nav ul li a / #request-btn を
+         後方で何度も再定義しており（!important 付きもある）、前方に書くと打ち消される。
+         確実に効かせるため最終行にまとめる。デスクトップには一切影響しない。 */
+      @media (max-width: 600px) {
+        /* ヘッダーは sticky で常に画面に残る。スクロールで縮めると高さが変わり
+           レイアウトシフトになるので、縮める代わりに最初から小さくする。 */
+        .header-nav-container {
+          padding: 6px 0;
+        }
+        header h1, header .site-logo {
+          font-size: 1.5em; /* 2.2em から縮小。常にこのサイズ */
+          margin-bottom: 2px;
+          line-height: 1.15;
+          letter-spacing: 1px;
+        }
+        .header-seo-text {
+          font-size: 0.5em; /* h1 が縮んだぶん相対値を上げて実寸を保つ */
+          line-height: 1.25;
+          margin-top: 2px;
+          /* 2行で打ち切る。DOM からは消さないので SEO 用の文言は残る */
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+        }
+        header nav ul {
+          row-gap: 3px;
+        }
+        header nav ul li a {
+          font-size: 0.72em !important; /* 前方の !important ルールを上書き */
+          padding: 5px 6px !important;
+        }
+        header nav ul li a.nav-support {
+          padding: 4px 9px !important;
+        }
+
+        /* リクエストボタン：本文に重なるのでラベルを潰し、アイコンだけの丸ボタンにする。
+           font-size: 0 で中の文字を消し、::before で絵文字を出し直す。
+           HTML を変えないので全106ページに即反映され、読み上げには元の文字が残る。 */
+        #request-btn {
+          font-size: 0;
+          gap: 0;
+          padding: 0;
+          width: 46px;
+          height: 46px;
+          justify-content: center;
+          border-radius: 50%;
+          bottom: 16px;
+          left: 16px;
+        }
+        #request-btn::before {
+          content: "📢";
+          font-size: 21px;
+          line-height: 1;
         }
       }
