@@ -1963,33 +1963,56 @@
         /* ヘッダーは sticky で常に画面に残る。スクロールで縮めると高さが変わり
            レイアウトシフトになるので、縮める代わりに最初から小さくする。 */
         .header-nav-container {
-          padding: 6px 0;
+          padding: 4px 0;
         }
         header h1, header .site-logo {
-          font-size: 1.5em; /* 2.2em から縮小。常にこのサイズ */
-          margin-bottom: 2px;
-          line-height: 1.15;
+          font-size: 1.3em; /* 2.2em から縮小。常にこのサイズ */
+          margin-bottom: 0;
+          line-height: 1.1;
           letter-spacing: 1px;
         }
         .header-seo-text {
-          font-size: 0.5em; /* h1 が縮んだぶん相対値を上げて実寸を保つ */
-          line-height: 1.25;
-          margin-top: 2px;
-          /* 2行で打ち切る。DOM からは消さないので SEO 用の文言は残る */
-          display: -webkit-box;
-          -webkit-box-orient: vertical;
-          -webkit-line-clamp: 2;
+          font-size: 0.5em;
+          line-height: 1.2;
+          margin-top: 1px;
+          /* 必ず1行に収める。溢れた分は … で切る（DOM には全文が残るので SEO 文言は消えない） */
+          display: block;
+          white-space: nowrap;
           overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        /* ナビは7項目あり、文字を小さくしても 390px 幅では1行に入らない。
+           折り返して2行にすると sticky ヘッダーが高くなるので、
+           1行に固定して入りきらない分は横スワイプで見せる。
+           「支援する」は5番目なので、スワイプせずに見える位置に残る。 */
+        header nav {
+          width: 100%;
+          max-width: 100%;
         }
         header nav ul {
-          row-gap: 3px;
+          flex-wrap: nowrap;
+          justify-content: flex-start; /* 中央寄せだと溢れた左端が掴めなくなる */
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          scrollbar-width: none; /* Firefox */
+          row-gap: 0;
+          padding-bottom: 2px;
+        }
+        header nav ul::-webkit-scrollbar {
+          display: none; /* Safari / Chrome */
+        }
+        header nav ul li {
+          margin: 0 1px;
         }
         header nav ul li a {
-          font-size: 0.72em !important; /* 前方の !important ルールを上書き */
+          font-size: 0.62em !important; /* 前方の !important ルールを上書き */
           padding: 5px 6px !important;
         }
+        /* 支援リンクだけは他より少し大きく、横長に */
         header nav ul li a.nav-support {
-          padding: 4px 9px !important;
+          font-size: 0.7em !important;
+          padding: 6px 16px !important;
         }
 
         /* リクエストボタン：本文に重なるのでラベルを潰し、アイコンだけの丸ボタンにする。
@@ -1999,16 +2022,18 @@
           font-size: 0;
           gap: 0;
           padding: 0;
-          width: 46px;
-          height: 46px;
+          width: 40px;
+          height: 40px;
           justify-content: center;
           border-radius: 50%;
-          bottom: 16px;
-          left: 16px;
+          bottom: 10px;
+          left: 10px;
+          opacity: 0.85;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
         }
         #request-btn::before {
           content: "📢";
-          font-size: 21px;
+          font-size: 18px;
           line-height: 1;
         }
       }
