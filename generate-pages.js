@@ -362,9 +362,23 @@ if (newIndex !== original) {
 // ---- sitemap.xml ----
 // 「このサイトにはこのURLがあります」という一覧表。検索エンジンに直接渡せる。
 const today = new Date().toISOString().slice(0, 10);
+
+// セリフが極端に少ないページは sitemap に載せない。
+// 2026-10-25 時点で Search Console が 63 ページを
+// 「Discovered - currently not indexed（URLは知っているがクロールしていない）」と報告していた。
+// 原因は重複ではなく中身の薄さで、例えばジーンのページは本文が "Gene laughs" の1行だけ、
+// オーリー・フィンクス・スパイクに至ってはセリフが0件だった。
+// 薄いページを一覧から下ろし、中身のあるページにクロールを寄せるのが狙い。
+// noindex は付けない。ページは各キャラページから相互リンクされたまま残り、
+// セリフを入れ直せば自動的に一覧へ戻る。
+const SITEMAP_MIN_LINES = 10;
+const lineCount = (b) => (b.data.voicelines || []).length;
+const listed = all.filter((b) => lineCount(b) >= SITEMAP_MIN_LINES);
+const thin = all.filter((b) => lineCount(b) < SITEMAP_MIN_LINES);
+
 const urls = [
   { loc: `${SITE}/`, priority: "1.0", changefreq: "daily" },
-  ...all.map((b) => ({
+  ...listed.map((b) => ({
     loc: `${SITE}/brawler/${b.id}/`,
     priority: "0.8",
     changefreq: "weekly",
@@ -384,6 +398,12 @@ ${urls
 `;
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemap, "utf8");
 console.log(`sitemap.xml を生成しました（${urls.length} URL）`);
+if (thin.length) {
+  console.log(
+    `  ※ セリフ${SITEMAP_MIN_LINES}行未満のため除外（${thin.length}件）: ` +
+      thin.map((b) => `${b.id}(${lineCount(b)})`).join(", ")
+  );
+}
 
 // ---- robots.txt ----
 // クローラーへの案内板。どこを見ていいか、地図(sitemap)はどこかを伝える。
