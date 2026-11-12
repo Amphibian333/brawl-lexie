@@ -1689,7 +1689,7 @@
           filtered = filtered.filter(item => item.voiceline.audioUrl);
         }
         if (mode === 'arrange') {
-          filtered = filtered.filter(item => item.voiceline.quote.split(/\s+/).filter(w => w.length > 0).length >= 3);
+          filtered = filtered.filter(item => getArrangeWords(item.voiceline.quote).length >= 3);
         }
         return filtered;
       }
@@ -2011,6 +2011,16 @@
         stopQuizTimer();
         if (quizState.config.timer > 0) startQuizTimer(quizState.config.timer);
         else document.getElementById('quiz-timer-display').textContent = '';
+        scrollQuizPlayIntoView();
+      }
+      // 次の問題に進んだとき、下にスクロールしたままにならないよう問題の先頭まで戻す
+      function scrollQuizPlayIntoView() {
+        const view = document.getElementById('quiz-play-view');
+        if (!view) return;
+        const header = document.querySelector('header');
+        const offset = (header ? header.offsetHeight : 0) + 8;
+        const top = view.getBoundingClientRect().top + window.scrollY - offset;
+        if (window.scrollY > top) window.scrollTo({ top: Math.max(0, top), behavior: 'instant' });
       }
       function startQuizTimer(seconds) {
         quizState.timeLeft = seconds;
@@ -2248,8 +2258,18 @@
 
       // --- Quiz arrange (Mode 5) ---
       let _arrangeState = null;
+      // 大文字や句読点が「最初・最後の単語」のヒントにならないよう、全部小文字にして前後の記号を外す
+      function getArrangeWords(quote) {
+        return quote
+          .split(/\s+/)
+          .map(w => w.toLowerCase().replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, ''))
+          .filter(w => w.length > 0);
+      }
+      function arrangeTokenText(id) {
+        return _arrangeState.tokens.find(t => t.id === id).text;
+      }
       function setupArrangeQuestion(q) {
-        const words = q.voiceline.quote.split(/\s+/).filter(w => w.length > 0);
+        const words = getArrangeWords(q.voiceline.quote);
         const tokens = words.map((w, i) => ({ id: i, text: w }));
         // 並び替え順とぴったり同じ並びは避ける
         let poolOrder;
@@ -2312,9 +2332,10 @@
       }
       function submitArrangeAnswer() {
         if (quizState.answered || !_arrangeState) return;
-        const correct = _arrangeState.correctOrder;
-        const user = _arrangeState.answer;
-        const isCorrect = user.length === correct.length && user.every((id, i) => id === correct[i]);
+        // 同じ単語（the, you など）はどれを先に置いても正解にするため、IDではなく文字で比べる
+        const correct = _arrangeState.correctOrder.map(arrangeTokenText);
+        const user = _arrangeState.answer.map(arrangeTokenText);
+        const isCorrect = user.length === correct.length && user.every((w, i) => w === correct[i]);
         document.querySelectorAll('#quiz-arrange-answer .quiz-arrange-token').forEach((btn, i) => {
           btn.disabled = true;
           if (user[i] === correct[i]) btn.classList.add('correct');
